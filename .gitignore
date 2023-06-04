@@ -109,8 +109,8 @@ venv.bak/
 # IDE
 .idea
 
-# Images
-*.png
+## Images
+#*.png
 
 # Models
 *.h5
