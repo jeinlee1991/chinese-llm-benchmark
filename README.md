@@ -1,4 +1,4 @@
-# 中文大模型能力评测榜单（持续更新）
+# CLiB中文大模型能力评测榜单（持续更新）
 - 目前已囊括16个大模型，覆盖chatgpt、百度文心一言、阿里通义千问、讯飞星火、minimax、tigerbot等商用模型，
 以及belle、chatglm6b、ziya、guanaco、Phoenix、linly等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
