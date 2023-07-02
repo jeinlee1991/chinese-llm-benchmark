@@ -1,20 +1,14 @@
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括16个大模型，覆盖chatgpt、百度文心一言、阿里通义千问、讯飞星火、minimax、tigerbot等商用模型，
-以及belle、chatglm6b、ziya、guanaco、Phoenix、linly等开源大模型。
+- 目前已囊括19个大模型，覆盖chatgpt、百度文心一言、阿里通义千问、讯飞星火、360智脑、minimax、tigerbot等商用模型，
+以及belle、chatglm6b、ziya、guanaco、Phoenix、linly、MOSS、AquilaChat等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取能力、阅读理解能力、表格问答能力。
 - 不仅提供能力评分排行榜，也提供所有模型的原始输出结果！有兴趣的朋友可以自己打分、自己排行！
 
-## 为什么做榜单？
-- 大模型百花齐放，也参差不齐。不少媒体的宣传往往夸大其词，避重就轻，容易混淆视听；而某些公司为了PR，也过分标榜自己大模型的能力，动不动就“达到chatgpt水平”，动不动就“国内第一”。
-所谓“外行看热闹，内行看门道”，业界急需一股气流，摒弃浮躁，静下心来打磨前沿技术，真真正正用技术实力说话。这就少不了一个公开、公正、公平的大模型评测系统，把各类大模型的优点、不足一一展示出来。
-如此，大家既能把握当下的发展水平、与国外顶尖技术的差距，也能更加清晰地看明白未来的努力方向，而不被资本热潮、舆论热潮所裹挟。
-- 对于产业界来说，特别是对于不具备大模型研发能力的公司，熟悉大模型的技术边界、高效有针对性地做大模型技术选型，在现如今显得尤为重要。
-而一个公开、公正、公平的大模型评测系统，恰好能够提供应有的助力，避免重复造轮子，避免因技术栈不同而导致不必要的争论，避免“鸡同鸭讲”。
-- 对于大模型研发人员，包括对大模型技术感兴趣的人、学术界看中实践的人，各类大模型的效果对比，反应出了背后不同技术路线、技术方法的有效性，这就提供了非常好的参考意义。
-不同大模型的相互参考、借鉴，帮忙大家躲过不必要的坑、避免重复实验带来的资源浪费，有助于整个大模型生态圈的良性高效发展。
-
 ## 🔄 最近更新
+- [2023/7/2] 发布v1.3版本评测榜单
+  - 新增3个大模型：360智脑、MOSS-003-SFT、AquilaChat-7B
+  - 讯飞星火更新为最新的v1.5模型
 - [2023/6/17] 发布v1.2版本评测榜单
   - 新增2个大模型：tigetbot-7b官网、linly-chatflow-13b
   - 说明做评测榜单的初衷
@@ -24,7 +18,7 @@
 - [2023/6/4] 发布v1版本评测榜单
 
 ## ⚓TODO
-- 将更多大模型加入评测：gpt4、Claude、谷歌Bard、复旦moss、falcon、羊驼、360智脑等等
+- 将更多大模型加入评测：gpt4、Claude、谷歌Bard、falcon、羊驼、百川、wizardLM等等
 - 增加开源大模型的授权协议，注明能否商用
 - 引入更多维度的评测：数学能力、代码能力、开放域问答、多轮对话、头脑风暴、翻译……
 - 评测维度更细分，比如信息抽取可以细分时间实体抽取能力、地址实体抽取能力……
@@ -32,24 +26,27 @@
 - 加入更多评测数据，使得评测得分越来越有说服力
 
 ## 📝大模型基本信息
-| 大模型                                                                    | 机构             | 类别    | 备注                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|------------------------------------------------------------------------|----------------|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [chatgpt-3.5](https://chat.openai.com/)                                | openai         | 商用    | 风靡世界的AI产品，API为gpt3.5-turbo                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [文心一言](https://yiyan.baidu.com/)                                       | 百度             | 商用    | 百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [chatglm官方](https://chatglm.cn/)                                       | 智谱AI           | 商用    | 一个具有问答、多轮对话和代码生成功能的中英双语模型，基于千亿基座 GLM-130B 开发，通过代码预训练、有监督微调等技术提升各项能力                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [讯飞星火](https://xinghuo.xfyun.cn/desk)                                  | 科大讯飞           | 商用    | 具有文本生成、语言理解、知识问答、逻辑推理、数学能力、代码能力、多模态能力 7 大核心能力。该大模型目前已在教育、办公、车载、数字员工等多个行业和产品中落地。                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [阿里通义千问](https://tongyi.aliyun.com/)                                   | 阿里巴巴           | 商用    | 通义千问支持多轮对话，可进行文案创作、逻辑推理，支持多种语言。                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [minimax](https://api.minimax.chat/)                                   | minimax        | 商用    | Glow app背后大模型                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [tigerbot-7b官网](https://www.tigerbot.com/) | 虎博科技           | 商用/开源 | TigerBot 是一个多语言多任务的大规模语言模型(LLM)，基于bloom模型结构。该模型也有开源版本。
-| [chatglm-6b](https://github.com/THUDM/ChatGLM-6B)                      | 清华大学&智谱AI      | 开源    | ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答                                                                                                                                                                                                                      |
-| [belle-llama-7b-2m](https://github.com/LianjiaTech/BELLE)              | 链家科技           | 开源    | based on LLAMA 7B and finetuned with 2M Chinese data combined with 50,000 pieces of English data from the open source Stanford-Alpaca, resulting in good Chinese instruction understanding and response generation capabilities.                                                                                                                                                                                                                                                    |
-| [BELLE-on-Open-Datasets](https://github.com/LianjiaTech/BELLE)         | 链家科技           | 开源    | Extending the vocabulary with additional 50K tokens specific for Chinese and further pretraining these word embeddings on Chinese corpus. Full-parameter finetuning the model with  instruction-following open datasets: alpaca, sharegpt, belle-3.5m.                                                                                                                                                                                                                              |
-| [belle-llama-13b-2m](https://github.com/LianjiaTech/BELLE)             | 链家科技           | 开源    | based on LLAMA 13B and finetuned with 2M Chinese data combined with 50,000 pieces of English data from the open source Stanford-Alpaca.                                                                                                                                                                                                                                                                                                                                             |
-| [belle-llama-13b-ext](https://github.com/LianjiaTech/BELLE)            | 链家科技           | 开源    | Extending the vocabulary with additional 50K tokens specific for Chinese and further pretraining these word embeddings on Chinese corpus. Full-parameter finetuning the model with 4M high-quality instruction-following examples.                                                                                                                                                                                                                                                  |
-| [Ziya-LLaMA-13B-v1](https://mp.weixin.qq.com/s/IeXgq8blGoeVbpIlAUCAjA) | IDEA研究院        | 开源    | 从LLaMA-13B开始重新构建中文词表，进行千亿token量级的已知的最大规模继续预训练，使模型具备原生中文能力。再经过500万条多任务样本的有监督微调(SFT)和综合人类反馈训练（RM+PPO+HFFT+COHFT+RBRS)，进一步激发和加强各种AI任务能力。                                                                                                                                                                                                                                                                                                                                               |
+| 大模型                                                                    | 机构     | 类别    | 备注                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|------------------------------------------------------------------------|--------|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [chatgpt-3.5](https://chat.openai.com/)                                | openai | 商用    | 风靡世界的AI产品，API为gpt3.5-turbo                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [文心一言](https://yiyan.baidu.com/)                                       | 百度     | 商用    | 百度全新一代知识增强大语言模型，文心大模型家族的新成员，能够与人对话互动，回答问题，协助创作，高效便捷地帮助人们获取信息、知识和灵感。                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [chatglm官方](https://chatglm.cn/)                                       | 智谱AI   | 商用    | 一个具有问答、多轮对话和代码生成功能的中英双语模型，基于千亿基座 GLM-130B 开发，通过代码预训练、有监督微调等技术提升各项能力                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [讯飞星火](https://xinghuo.xfyun.cn/desk)                                  | 科大讯飞   | 商用    | 具有文本生成、语言理解、知识问答、逻辑推理、数学能力、代码能力、多模态能力 7 大核心能力。该大模型目前已在教育、办公、车载、数字员工等多个行业和产品中落地。                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [360智脑](https://ai.360.cn/)                                            | 奇虎360  |商用    | - |
+| [阿里通义千问](https://tongyi.aliyun.com/)                                   | 阿里巴巴   | 商用    | 通义千问支持多轮对话，可进行文案创作、逻辑推理，支持多种语言。                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| [minimax](https://api.minimax.chat/)                                   | minimax | 商用    | Glow app背后大模型                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| [tigerbot-7b官网](https://www.tigerbot.com/)                             | 虎博科技   | 商用/开源 | TigerBot 是一个多语言多任务的大规模语言模型(LLM)，基于bloom模型结构。该模型也有开源版本。
+| [chatglm-6b](https://github.com/THUDM/ChatGLM-6B)                      | 清华大学&智谱AI | 开源    | ChatGLM-6B 是一个开源的、支持中英双语的对话语言模型，基于 General Language Model (GLM) 架构，具有 62 亿参数。结合模型量化技术，用户可以在消费级的显卡上进行本地部署（INT4 量化级别下最低只需 6GB 显存）。 ChatGLM-6B 使用了和 ChatGPT 相似的技术，针对中文问答和对话进行了优化。经过约 1T 标识符的中英双语训练，辅以监督微调、反馈自助、人类反馈强化学习等技术的加持，62 亿参数的 ChatGLM-6B 已经能生成相当符合人类偏好的回答                                                                                                                                                                                                                      |
+| [belle-llama-7b-2m](https://github.com/LianjiaTech/BELLE)              | 链家科技   | 开源    | based on LLAMA 7B and finetuned with 2M Chinese data combined with 50,000 pieces of English data from the open source Stanford-Alpaca, resulting in good Chinese instruction understanding and response generation capabilities.                                                                                                                                                                                                                                                    |
+| [BELLE-on-Open-Datasets](https://github.com/LianjiaTech/BELLE)         | 链家科技   | 开源    | Extending the vocabulary with additional 50K tokens specific for Chinese and further pretraining these word embeddings on Chinese corpus. Full-parameter finetuning the model with  instruction-following open datasets: alpaca, sharegpt, belle-3.5m.                                                                                                                                                                                                                              |
+| [belle-llama-13b-2m](https://github.com/LianjiaTech/BELLE)             | 链家科技   | 开源    | based on LLAMA 13B and finetuned with 2M Chinese data combined with 50,000 pieces of English data from the open source Stanford-Alpaca.                                                                                                                                                                                                                                                                                                                                             |
+| [belle-llama-13b-ext](https://github.com/LianjiaTech/BELLE)            | 链家科技   | 开源    | Extending the vocabulary with additional 50K tokens specific for Chinese and further pretraining these word embeddings on Chinese corpus. Full-parameter finetuning the model with 4M high-quality instruction-following examples.                                                                                                                                                                                                                                                  |
+| [Ziya-LLaMA-13B-v1](https://mp.weixin.qq.com/s/IeXgq8blGoeVbpIlAUCAjA) | IDEA研究院 | 开源    | 从LLaMA-13B开始重新构建中文词表，进行千亿token量级的已知的最大规模继续预训练，使模型具备原生中文能力。再经过500万条多任务样本的有监督微调(SFT)和综合人类反馈训练（RM+PPO+HFFT+COHFT+RBRS)，进一步激发和加强各种AI任务能力。                                                                                                                                                                                                                                                                                                                                               |
 | [guanaco-7b](https://huggingface.co/JosephusCheung/Guanaco)            | JosephusCheung | 开源    | Guanaco is an advanced instruction-following language model built on Meta's LLaMA 7B model. Expanding upon the initial 52K dataset from the Alpaca model, an additional 534K+ entries have been incorporated, covering English, Simplified Chinese, Traditional Chinese (Taiwan), Traditional Chinese (Hong Kong), Japanese, Deutsch, and various linguistic and grammatical tasks. This wealth of data enables Guanaco to perform exceptionally well in multilingual environments. |
-| [phoenix-inst-chat-7b](https://github.com/FreedomIntelligence/LLMZoo)  | 香港中文大学         | 开源    | 基于BLOOMZ-7b1-mt，用Instruction + Conversation数据微调，具体数据见[phoenix-sft-data-v1](https://huggingface.co/datasets/FreedomIntelligence/phoenix-sft-data-v1)                                                                                                                                                                                                                                                                                                                                 |
-| [linly-chatflow-13b](https://github.com/CVI-SZU/Linly) | 深圳大学  | 开源 | 基于llama-13b，用5M 指令数据微调
+| [phoenix-inst-chat-7b](https://github.com/FreedomIntelligence/LLMZoo)  | 香港中文大学 | 开源    | 基于BLOOMZ-7b1-mt，用Instruction + Conversation数据微调，具体数据见[phoenix-sft-data-v1](https://huggingface.co/datasets/FreedomIntelligence/phoenix-sft-data-v1)                                                                                                                                                                                                                                                                                                                                 |
+| [linly-chatflow-13b](https://github.com/CVI-SZU/Linly)                 | 深圳大学   | 开源 | 基于llama-13b，用5M 指令数据微调
+| [MOSS-003-SFT](https://github.com/OpenLMLab/MOSS)                      | 复旦大学| 开源|MOSS是一个支持中英双语和多种插件的开源对话语言模型，moss-moon系列模型具有160亿参数，在FP16精度下可在单张A100/A800或两张3090显卡运行，在INT4/8精度下可在单张3090显卡运行。MOSS基座语言模型在约七千亿中英文以及代码单词上预训练得到，后续经过对话指令微调、插件增强学习和人类偏好训练具备多轮对话能力及使用多种插件的能力。 |
+| [AquilaChat-7B](https://github.com/FlagAI-Open/FlagAI/blob/master/examples/Aquila/README.md) |智源研究院|开源|悟道·天鹰（Aquila） 语言大模型是首个具备中英双语知识、支持商用许可协议、国内数据合规需求的开源语言大模型。AquilaChat 对话模型支持流畅的文本对话及多种语言类生成任务，通过定义可扩展的特殊指令规范，实现 AquilaChat对其它模型和工具的调用，且易于扩展。|
 
 ## 📊 排行榜
 ### 1、综合能力排行榜
@@ -60,67 +57,79 @@
 |-------|-------------------------|-------|----|
 | 商用	   | chatgpt-3.5	            | 93.8	 | 1  |
 | 开源	   | belle-llama-13b-2m	     | 79.2	 | 2  |
-| 商用	   | chatglm官方	              | 76.9	 | 3  |
-| 商用	   | 讯飞星火	                   | 76.6	 | 4  |
-| 开源	   | belle-llama-13b-ext	    | 71.9	 | 5  |
-| 开源	   | phoenix-inst-chat-7b	   | 71.8	 | 6  |
-| 开源	   | BELLE-on-Open-Datasets	 | 70.9	 | 7  |
-| 开源	   | belle-llama-7b-2m	      | 70.4	 | 8  |
-| 开源	   | Ziya-LLaMA-13B-v1	      | 70.2	 | 9  |
-| 开源    | linly-chatflow-13b      | 69.9     | 10 |
-| 商用/开源 | tigerbot-7b官网 | 68.2 | 11 |
-| 商用	   | minimax	                | 67.4	 | 12 |
-| 开源	   | chatglm-6b	             | 66.1	 | 13 |
-| 商用	   | 文心一言	                   | 60.6	 | 14 |
-| 开源	   | guanaco-7b	             | 49.9	 | 15 |
-| 商用	   | 阿里通义千问	                 | 49.4	 | 16 |
+| 商用	   | 	讯飞星火v1.5               | 77.7	 | 3  |
+| 商用	   | 	 360智脑                 | 77.0	 | 4  |
+| 商用	   | chatglm官方	              | 76.9	 | 5  |
+| 商用	   | 讯飞星火old	                | 76.6	 | 6  |
+| 开源	   | belle-llama-13b-ext	    | 71.9	 | 7  |
+| 开源	   | phoenix-inst-chat-7b	   | 71.8	 | 8  |
+| 开源	   | BELLE-on-Open-Datasets	 | 70.9	 | 9  |
+| 开源	   | belle-llama-7b-2m	      | 70.4	 | 10 |
+| 开源	   | Ziya-LLaMA-13B-v1	      | 70.2	 | 11 |
+| 开源    | linly-chatflow-13b      | 69.9  | 12 |
+| 商用/开源 | tigerbot-7b官网           | 68.2  | 13 |
+| 商用	   | minimax	                | 67.4	 | 14 |
+| 开源	   | chatglm-6b	             | 66.1	 | 15 |
+| 商用	   | 文心一言	                   | 60.6	 | 16 |
+| 开源    | AquilaChat-7B           | 59.0  | 17 |
+| 开源    | MOSS-003-SFT            | 58.8  | 18 |
+| 开源	   | guanaco-7b	             | 49.9	 | 19 |
+| 商用	   | 阿里通义千问	                 | 49.4	 | 20 |
 
 
 <br><br>
 ### 2、分类能力排行榜
 ![lin](pic/classification.png)
 
-| 类别	    | 大模型	                    | 分类能力	 | 排名 |
-|--------|-------------------------|-------|----|
-| 商用	    | chatgpt-3.5	            | 98	   | 1  |
-| 商用	    | chatglm官方	              | 82	   | 2  |
-| 开源	    | BELLE-on-Open-Datasets	 | 82	   | 3  |
-| 开源	    | belle-llama-13b-2m	     | 82	   | 4  |
-| 开源	    | phoenix-inst-chat-7b	   | 82	   | 5  |
-| 开源	    | belle-llama-7b-2m	      | 76	   | 6  |
-| 开源	    | belle-llama-13b-ext	    | 74	   | 7  |
-| 商用/开源	 | tigerbot-7b官网 	         | 	74   | 8  |
-| 开源	    | Ziya-LLaMA-13B-v1	      | 72	   | 9  |
-| 开源     | linly-chatflow-13b      | 72    | 10 |
-| 商用	    | 讯飞星火	                   | 70	   | 11 |
-| 商用	    | minimax	                | 68	   | 12 |
-| 开源	    | chatglm-6b	             | 66	   | 13 |
-| 开源	    | guanaco-7b	             | 54	   | 14 |
-| 商用	    | 文心一言	                   | 48	   | 15 |
-| 商用	    | 阿里通义千问	                 | 44	   | 16 |
+| 类别	 | 大模型	                   | 分类能力	 | 排名 |
+|-----|------------------------|-------|----|
+| 商用  | chatgpt-3.5            | 98    | 1  |
+| 商用  | 360智脑                  | 86    | 2  |
+| 商用  | chatglm官方              | 82    | 3  |
+| 开源  | BELLE-on-Open-Datasets | 82    | 4  |
+| 开源  | belle-llama-13b-2m     | 82    | 5  |
+| 开源  | phoenix-inst-chat-7b   | 82    | 6  |
+| 开源  | belle-llama-7b-2m      | 76    | 7  |
+| 商用  | 讯飞星火v1.5               | 76    | 8  |
+| 开源  | belle-llama-13b-ext    | 74    | 9  |
+| 商用  | tigerbot-7b            | 74    | 10 |
+| 开源  | Ziya-LLaMA-13B-v1      | 72    | 11 |
+| 开源  | linly-chatflow-13b     | 72    | 12 |
+| 商用  | 讯飞星火old                | 70    | 13 |
+| 开源  | AquilaChat-7B          | 70    | 14 |
+| 商用  | minimax                | 68    | 15 |
+| 开源  | chatglm-6b             | 66    | 16 |
+| 开源  | MOSS-003-SFT           | 58    | 17 |
+| 开源  | guanaco-7b             | 54    | 18 |
+| 商用  | 文心一言                   | 48    | 19 |
+| 商用  | 阿里通义千问                 | 44    | 20 |
 
 <br><br>
 ### 3、信息抽取能力排行榜
 ![lin](pic/extract.png)
 
-| 类别	   | 大模型	                    | 信息抽取能力	 | 排名 |
-|-------|-------------------------|---------|----|
-| 商用	   | chatgpt-3.5	            | 88	     | 1  |
-| 商用	   | 讯飞星火	                   | 79	     | 2  |
-| 商用	   | chatglm官方	              | 76	     | 3  |
-| 开源	   | belle-llama-13b-2m	     | 75	     | 4  |
-| 商用	   | 文心一言	                   | 71	     | 5  |
-| 开源	   | chatglm-6b	             | 69	     | 6  |
-| 商用/开源 | tigerbot-7b官网           | 68      | 7  |
-| 开源	   | belle-llama-13b-ext	    | 65	     | 8  |
-| 开源	   | belle-llama-7b-2m	      | 64	     | 9  |
-| 开源    | linly-chatflow-13b      | 63      | 10 |
-| 开源	   | BELLE-on-Open-Datasets	 | 62	     | 11 |
-| 开源	   | Ziya-LLaMA-13B-v1	      | 62	     | 12 |
-| 开源	   | phoenix-inst-chat-7b	   | 62	     | 13 |
-| 商用	   | minimax	                | 61	     | 14 |
-| 商用	   | 阿里通义千问	                 | 47	     | 15 |
-| 开源	   | guanaco-7b	             | 45	     | 16 |
+| 类别	 | 大模型	                   | 信息抽取能力	 | 排名 |
+|-----|------------------------|---------|----|
+| 商用  | chatgpt-3.5            | 88      | 1  |
+| 商用  | 讯飞星火v1.5               | 81      | 2  |
+| 商用  | 讯飞星火old                | 79      | 3  |
+| 商用  | chatglm官方              | 76      | 4  |
+| 开源  | belle-llama-13b-2m     | 75      | 5  |
+| 商用  | 文心一言                   | 71      | 6  |
+| 商用  | 360智脑                  | 71      | 7  |
+| 开源  | chatglm-6b             | 69      | 8  |
+| 商用  | tigerbot-7b            | 68      | 9  |
+| 开源  | belle-llama-13b-ext    | 65      | 10 |
+| 开源  | belle-llama-7b-2m      | 64      | 11 |
+| 开源  | linly-chatflow-13b     | 63      | 12 |
+| 开源  | BELLE-on-Open-Datasets | 62      | 13 |
+| 开源  | Ziya-LLaMA-13B-v1      | 62      | 14 |
+| 开源  | phoenix-inst-chat-7b   | 62      | 15 |
+| 商用  | minimax                | 61      | 16 |
+| 开源  | AquilaChat-7B          | 51      | 17 |
+| 商用  | 阿里通义千问                 | 47      | 18 |
+| 开源  | MOSS-003-SFT           | 47      | 19 |
+| 开源  | guanaco-7b             | 45      | 20 |
 
 <br><br>
 ### 4、阅读理解能力排行榜
@@ -128,24 +137,28 @@
 依据给定信息的种类，可以细分为：文章问答、表格问答、对话问答……
 ![lin](pic/mrc.png)
 
-| 类别	   | 大模型	                    | 阅读理解能力	 | 排名 |
-|-------|-------------------------|---------|----|
-| 商用	   | chatgpt-3.5	            | 95.3	   | 1  |
-| 商用	   | 讯飞星火	                   | 80.7	   | 2  |
-| 开源	   | belle-llama-13b-2m	     | 80.7	   | 3  |
-| 开源	   | belle-llama-13b-ext	    | 76.7	   | 4  |
-| 开源	   | Ziya-LLaMA-13B-v1	      | 76.7	   | 5  |
-| 开源    | linly-chatflow-13b      | 74.7    | 6  |
-| 商用	   | minimax	                | 73.3	   | 7  |
-| 商用	   | chatglm官方	              | 72.7	   | 8  |
-| 开源	   | belle-llama-7b-2m	      | 71.3	   | 9  |
-| 开源	   | phoenix-inst-chat-7b	   | 71.3	   | 10 |
-| 开源	   | BELLE-on-Open-Datasets	 | 68.7	   | 11 |
-| 开源	   | chatglm-6b	             | 63.3	   | 12 |
-| 商用/开源 | tigerbot-7b官网           | 62.7    | 13 |
-| 商用	   | 文心一言	                   | 62.7	   | 14 |
-| 商用	   | 阿里通义千问	                 | 57.3	   | 15 |
-| 开源	   | guanaco-7b	             | 50.7	   | 16 |
+| 类别	 | 大模型	                   | 阅读理解能力	 | 排名 |
+|-----|------------------------|---------|----|
+| 商用  | chatgpt-3.5            | 95.3    | 1  |
+| 商用  | 讯飞星火old                | 80.7    | 2  |
+| 开源  | belle-llama-13b-2m     | 80.7    | 3  |
+| 开源  | belle-llama-13b-ext    | 76.7    | 4  |
+| 开源  | Ziya-LLaMA-13B-v1      | 76.7    | 5  |
+| 商用  | 讯飞星火v1.5               | 76.0    | 6  |
+| 开源  | linly-chatflow-13b     | 74.7    | 7  |
+| 商用  | 360智脑                  | 74.0    | 8  |
+| 商用  | minimax                | 73.3    | 9  |
+| 商用  | chatglm官方              | 72.7    | 10 |
+| 开源  | belle-llama-7b-2m      | 71.3    | 11 |
+| 开源  | phoenix-inst-chat-7b   | 71.3    | 12 |
+| 开源  | MOSS-003-SFT           | 71.3    | 13 |
+| 开源  | BELLE-on-Open-Datasets | 68.7    | 14 |
+| 开源  | chatglm-6b             | 63.3    | 15 |
+| 商用  | tigerbot-7b            | 62.7    | 16 |
+| 商用  | 文心一言                   | 62.7    | 17 |
+| 商用  | 阿里通义千问                 | 57.3    | 18 |
+| 开源  | AquilaChat-7B          | 56.0    | 19 |
+| 开源  | guanaco-7b             | 50.7    | 20 |
 
 <br><br>
 #### 4.1 表格问答排行榜（阅读理解细分能力）
@@ -172,24 +185,28 @@
 评分方法：从各个维度给大模型打分，每个维度都对应一个评测数据集，包含若干道题。
 每道题依据大模型回复质量给1~5分，将评测集内所有题的得分累加并归一化为100分制，即作为最终得分。
 
-| 类别 | 大模型                 | 分类能力 | 信息抽取能力 | 阅读理解能力 | 综合能力 |
-|----|---------------------|------|--------|--------|------|
-| 商用 | chatgpt-3.5         | 98   | 88     | 95.3   | 93.8 |
-| 商用 | 文心一言                | 48   | 71     | 62.7   | 60.3 |
-| 商用 | chatglm官方           | 82   | 76     | 72.7   | 76.9 |
-| 商用 | 讯飞星火                | 70   | 79     | 80.7   | 76.6 |
-| 商用 | 阿里通义千问              | 44   | 47     | 57.3   | 49.4 |
-| 商用 | minimax             | 68   | 61     | 73.3   | 67.4 |
-| 开源 | chatglm-6b          | 66   | 69     | 63.3   | 66.1 |
-| 开源 | belle-llama-7b-2m   | 76   | 64     | 71.3   | 70.4 |
-| 开源 | BELLE-on-Open-Datasets | 82   | 62     | 68.7   | 70.9 |
-| 开源 | belle-llama-13b-2m  | 82   | 75     | 80.7   | 79.2 |
-| 开源 | belle-llama-13b-ext | 74   | 65     | 76.7   | 71.9 |
-| 开源 | Ziya-LLaMA-13B-v1   | 72   | 62     | 76.7   | 70.2 |
-| 开源 | guanaco-7b          | 54   | 45     | 50.7   | 49.9 |
-| 开源 | phoenix-inst-chat-7b | 82   | 62     | 71.3   | 71.8 |
-| 商用/开源 | tigerbot-7b官网       | 74   | 68     | 62.7   | 68.2 |
-| 开源 | linly-chatflow-13b  | 72   | 63     | 74.7   | 69.9 |
+| 类别    | 大模型                    | 分类能力 | 信息抽取能力 | 阅读理解能力 | 综合能力 |
+|-------|------------------------|------|--------|--------|------|
+| 商用    | chatgpt-3.5            | 98   | 88     | 95.3   | 93.8 |
+| 商用    | 文心一言                   | 48   | 71     | 62.7   | 60.3 |
+| 商用    | chatglm官方              | 82   | 76     | 72.7   | 76.9 |
+| 商用    | 讯飞星火old                | 70   | 79     | 80.7   | 76.6 |
+| 商用    | 讯飞星火v1.5               | 76		 | 81     | 76.0   | 77.7 |
+| 商用    | 360智脑                  | 86		 | 71     | 74.0   | 77.0 |
+| 商用    | 阿里通义千问                 | 44   | 47     | 57.3   | 49.4 |
+| 商用    | minimax                | 68   | 61     | 73.3   | 67.4 |
+| 开源    | chatglm-6b             | 66   | 69     | 63.3   | 66.1 |
+| 开源    | belle-llama-7b-2m      | 76   | 64     | 71.3   | 70.4 |
+| 开源    | BELLE-on-Open-Datasets | 82   | 62     | 68.7   | 70.9 |
+| 开源    | belle-llama-13b-2m     | 82   | 75     | 80.7   | 79.2 |
+| 开源    | belle-llama-13b-ext    | 74   | 65     | 76.7   | 71.9 |
+| 开源    | Ziya-LLaMA-13B-v1      | 72   | 62     | 76.7   | 70.2 |
+| 开源    | guanaco-7b             | 54   | 45     | 50.7   | 49.9 |
+| 开源    | phoenix-inst-chat-7b   | 82   | 62     | 71.3   | 71.8 |
+| 商用/开源 | tigerbot-7b官网          | 74   | 68     | 62.7   | 68.2 |
+| 开源    | linly-chatflow-13b     | 72   | 63     | 74.7   | 69.9 |
+| 开源    | MOSS-003-SFT           | 58		 | 47     | 71.3   | 58.8 |
+| 开源    | AquilaChat-7B          | 70   | 51     | 56.0   | 59.0 |
 
 <br><br>
 ## ⚖️原始评测数据
@@ -210,3 +227,13 @@
 |<div style="width: 250px">将下列单词按词性分类。<br>狗，追，跑，大人，高兴，树</div>| <div style="width: 250px">好的，以下是这些单词按照词性分类后的结果：<br>名词：狗、大人、树<br>动词：追、跑<br>形容词：高兴 </div>| <div style="width: 250px">动物类别：狗<br>动作类别：追<br>动作类别：跑<br>情感类别：高兴<br>植物类别：树</div>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; | …… |
 |<div style="width: 250px">从以下诗句中提取人物名称：两个黄鹂鸣翠柳，一行白鹭上青天。</div>| <div style="width: 250px">这句诗出自唐代诗人杜甫的《绝句》，并没有明确提到人物名称。这句诗主要是在描绘自然景色，通过形象生动的语言来表现春天的美丽景象。<br>诗中提到“两个黄鹂”，“一行白鹭”，他们是动物而非人物名称。黄鹂是一种鸟类，它们身体鲜黄色，嘴巴呈钩形，叫声清脆悦耳；白鹭是另一种水鸟，身体白色，嘴巴细长，善于捕捉鱼类等。<br>杨婉这句诗意境深远，很好地表现了大自然的美丽和神奇。</div>| <div style="width: 250px">人物名称：黄鹂、白鹭 </div> | …… |
 |……|……| …… |……|
+
+
+## 为什么做榜单？
+- 大模型百花齐放，也参差不齐。不少媒体的宣传往往夸大其词，避重就轻，容易混淆视听；而某些公司为了PR，也过分标榜自己大模型的能力，动不动就“达到chatgpt水平”，动不动就“国内第一”。
+所谓“外行看热闹，内行看门道”，业界急需一股气流，摒弃浮躁，静下心来打磨前沿技术，真真正正用技术实力说话。这就少不了一个公开、公正、公平的大模型评测系统，把各类大模型的优点、不足一一展示出来。
+如此，大家既能把握当下的发展水平、与国外顶尖技术的差距，也能更加清晰地看明白未来的努力方向，而不被资本热潮、舆论热潮所裹挟。
+- 对于产业界来说，特别是对于不具备大模型研发能力的公司，熟悉大模型的技术边界、高效有针对性地做大模型技术选型，在现如今显得尤为重要。
+而一个公开、公正、公平的大模型评测系统，恰好能够提供应有的助力，避免重复造轮子，避免因技术栈不同而导致不必要的争论，避免“鸡同鸭讲”。
+- 对于大模型研发人员，包括对大模型技术感兴趣的人、学术界看中实践的人，各类大模型的效果对比，反应出了背后不同技术路线、技术方法的有效性，这就提供了非常好的参考意义。
+不同大模型的相互参考、借鉴，帮忙大家躲过不必要的坑、避免重复实验带来的资源浪费，有助于整个大模型生态圈的良性高效发展。
