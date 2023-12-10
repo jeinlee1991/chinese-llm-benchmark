@@ -455,8 +455,6 @@
 | 开源  | wizardlm-13b               | 48      | 53 |
 | 开源  | BELLE-on-Open-Datasets     | 48      | 54 |
 | 开源  | openbuddy-openllama-3b-v10 | 40.7    | 55 |
-| 商用  | 微软new-bing                 | 0       | 56 |
-| 开源  | phoenix-inst-chat-7b       | 0       | 57 |
 
 <br><br>
 
