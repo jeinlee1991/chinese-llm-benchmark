@@ -1,5 +1,5 @@
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括57个大模型，覆盖chatgpt、gpt4、谷歌bard、百度文心一言、阿里通义千问、讯飞星火、360智脑、商汤senseChat、微软new-bing、minimax等商用模型，
+- 目前已囊括66个大模型，覆盖chatgpt、gpt4、谷歌bard、百度文心一言、阿里通义千问、讯飞星火、360智脑、商汤senseChat、微软new-bing、minimax等商用模型，
 以及百川、qwen、belle、chatglm6b、tigerbot、ziya、openbuddy、Phoenix、linly、MOSS、AquilaChat、vicuna、wizardLM、书生internLM、llama2-chat等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取能力、阅读理解能力、表格问答能力。
@@ -24,6 +24,9 @@
 
 
 ## 最近更新
+- [2024/2/28] 发布v1.14版本评测榜单
+  - 新增11个大模型：deepseek-llm-67b-chat、baichuan3、internlm2-chat-20b、internlm2-chat-7b、openbuddy-mixtral-7bx8-v17.1以及qwen1.5系列的6个模型
+  - 排行榜删除陈旧的模型（比如chatglm2-6b、AquilaChat-7B等）
 - [2024/1/29] 发布v1.13版本评测榜单
   - 模型更新：微软new-bing、文心4.0更新至24年1月版本
   - 新增6个大模型：qwen-max、GLM4、BlueLM-7B-Chat、openbuddy-zephyr-7b-v14.1、openbuddy-deepseek-67b-v15.2、XVERSE-65B-Chat
@@ -85,67 +88,74 @@
 综合能力得分为分类能力、信息抽取能力、阅读理解能力、数据分析能力四者得分的平均值。
 ![lin](pic/total.png)
 
-| 类别	 | 大模型	                        | 总分	   | 排名 |
-|-----|-----------------------------|-------|----|
-| 商用  | gpt4                        | 96.08 | 1  |
-| 商用  | chatgpt-3.5                 | 93.58 | 2  |
-| 商用  | 微软new-bing                  | 93.00 | 3  |
-| 商用  | GLM4(new)                   | 92.33 | 4  |
-| 商用  | 文心4.0                       | 91.43 | 5  |
-| 商用  | 阿里qwen-max(new)             | 88.65 | 6  |
-| 开源  | Qwen-72B-Chat               | 87.25 | 7  |
-| 开源  | tigerbot-70b-chat-v2        | 86.50 | 8  |
-| 商用  | 文心一言v2.2                    | 86.50 | 9  |
-| 开源  | openbuddy-deepseek-67b(new) | 86.18 | 10 |
-| 商用  | 讯飞星火v3                      | 85.75 | 11 |
-| 开源  | XVERSE-65B-Chat(new)        | 85.00 | 12 |
-| 商用  | 谷歌bard                      | 84.08 | 13 |
-| 开源  | tigerbot-70b-chat-v3        | 83.50 | 14 |
-| 开源  | openbuddy-llama2-70b-v10.1  | 83.18 | 15 |
-| 开源  | tigerbot-13b-chat-v4        | 83.00 | 16 |
-| 商用  | chatglm-turbo               | 83.00 | 17 |
-| 开源  | Yi-34B-Chat                 | 82.93 | 18 |
-| 开源  | aquilachat2-34b             | 82.50 | 19 |
-| 商用  | 商汤senseChat                 | 81.93 | 20 |
-| 商用  | Baichuan2-53B               | 81.75 | 21 |
-| 开源  | BELLE-Llama2-13B-chat-0.4M  | 79.75 | 22 |
-| 商用  | 字节跳动豆包                      | 79.50 | 23 |
-| 开源  | Baichuan2-13B-Chat          | 79.43 | 24 |
-| 开源  | qwen-14b-chat               | 79.43 | 25 |
-| 开源  | Baichuan2-7B-Chat           | 79.08 | 26 |
-| 商用  | 阿里通义千问                      | 79.00 | 27 |
-| 开源  | belle-llama-13b-2m          | 78.67 | 28 |
-| 开源  | openbuddy-zephyr-7b(new)    | 77.75 | 29 |
-| 开源  | BlueLM-7B-Chat(new)         | 77.75 | 30 |
-| 开源  | openbuddy-llama-65b-v8      | 76.83 | 31 |
-| 开源  | xverse-13b-chat             | 76.58 | 32 |
-| 商用  | chatglm-std                 | 76.00 | 33 |
-| 商用  | chatglm-pro                 | 75.75 | 34 |
-| 商用  | 讯飞星火v1.5                    | 75.50 | 35 |
-| 开源  | openbuddy-mistral-7b-v13.1  | 75.08 | 36 |
-| 商用  | chatglm-130b-v1             | 74.67 | 37 |
-| 开源  | openbuddy-llama-30b-v7.1    | 74.33 | 38 |
-| 商用  | 360智脑                       | 74.25 | 39 |
-| 开源  | Llama-2-70b-chat            | 73.58 | 40 |
-| 开源  | Qwen-7B-Chat                | 73.50 | 41 |
-| 商用  | 讯飞星火v2.0                    | 72.83 | 42 |
-| 开源  | Baichuan-13B-Chat-v2        | 72.68 | 43 |
-| 开源  | chatglm3-6b                 | 72.18 | 44 |
-| 开源  | tulu-30b                    | 72.08 | 45 |
-| 开源  | belle-llama-13b-ext         | 71.17 | 46 |
-| 开源  | internlm-chat-20b           | 69.83 | 47 |
-| 开源  | Ziya-LLaMA-13B-v1.1         | 69.75 | 48 |
-| 开源  | Yi-6B-Chat                  | 68.67 | 49 |
-| 开源  | Linly-Chinese-LLaMA2-13B    | 67.33 | 50 |
-| 开源  | ziya2-13b-chat              | 67.33 | 51 |
-| 开源  | chatglm2-6b                 | 66.75 | 52 |
-| 开源  | Qwen-1_8B-Chat              | 66.42 | 53 |
-| 商用  | minimax                     | 66.33 | 54 |
-| 开源  | vicuna-33b                  | 66.08 | 55 |
-| 开源  | wizardlm-13b                | 60.00 | 56 |
-| 开源  | InternLM-Chat-7B            | 59.00 | 57 |
-| 开源  | AquilaChat-7B               | 58.00 | 58 |
-| 开源  | openbuddy-openllama-3b-v10  | 56.50 | 59 |
+| 类别	 | 大模型	                              | 总分	   | 排名 |
+|-----|-----------------------------------|-------|----|
+| 商用  | gpt4                              | 96.08 | 1  |
+| 商用  | chatgpt-3.5                       | 93.58 | 2  |
+| 商用  | 微软new-bing                        | 93.00 | 3  |
+| 商用  | GLM4                              | 92.33 | 4  |
+| 商用  | 文心4.0                             | 91.43 | 5  |
+| 商用  | 阿里qwen-max                        | 88.65 | 6  |
+| 开源  | Qwen1.5-14B-Chat(new)             | 87.33 | 7  |
+| 开源  | Qwen-72B-Chat                     | 87.25 | 8  |
+| 开源  | Qwen1.5-72B-Chat(new)             | 87.08 | 9  |
+| 开源  | internlm2-chat-20b(new)           | 86.75 | 10 |
+| 开源  | deepseek-llm-67b-chat(new)        | 86.67 | 11 |
+| 开源  | tigerbot-70b-chat-v2              | 86.50 | 12 |
+| 商用  | 文心一言v2.2                          | 86.50 | 13 |
+| 开源  | openbuddy-deepseek-67b            | 86.18 | 14 |
+| 商用  | baichuan3(new)                    | 86.08 | 15 |
+| 商用  | 讯飞星火v3                            | 85.75 | 16 |
+| 开源  | XVERSE-65B-Chat                   | 85.00 | 17 |
+| 商用  | 谷歌bard                            | 84.08 | 18 |
+| 开源  | tigerbot-70b-chat-v3              | 83.50 | 19 |
+| 开源  | openbuddy-llama2-70b-v10.1        | 83.18 | 20 |
+| 开源  | tigerbot-13b-chat-v4              | 83.00 | 21 |
+| 商用  | chatglm-turbo                     | 83.00 | 22 |
+| 开源  | Yi-34B-Chat                       | 82.93 | 23 |
+| 开源  | aquilachat2-34b                   | 82.50 | 24 |
+| 商用  | 商汤senseChat                       | 81.93 | 25 |
+| 开源  | openbuddy-mixtral-7bx8-v17.1(new) | 81.75 | 26 |
+| 商用  | Baichuan2-53B                     | 81.75 | 27 |
+| 开源  | internlm2-chat-7b(new)            | 80.58 | 28 |
+| 开源  | BELLE-Llama2-13B-chat-0.4M        | 79.75 | 29 |
+| 商用  | 字节跳动豆包                            | 79.50 | 30 |
+| 开源  | qwen-14b-chat                     | 79.43 | 31 |
+| 开源  | Baichuan2-13B-Chat                | 79.43 | 32 |
+| 开源  | Baichuan2-7B-Chat                 | 79.08 | 33 |
+| 商用  | 阿里通义千问                            | 79.00 | 34 |
+| 开源  | belle-llama-13b-2m                | 78.67 | 35 |
+| 开源  | openbuddy-zephyr-7b               | 77.75 | 36 |
+| 开源  | BlueLM-7B-Chat                    | 77.75 | 37 |
+| 开源  | openbuddy-llama-65b-v8            | 76.83 | 38 |
+| 开源  | xverse-13b-chat                   | 76.58 | 39 |
+| 商用  | chatglm-std                       | 76.00 | 40 |
+| 商用  | chatglm-pro                       | 75.75 | 41 |
+| 开源  | Qwen1.5-7B-Chat(new)              | 75.67 | 42 |
+| 商用  | 讯飞星火v1.5                          | 75.50 | 43 |
+| 开源  | openbuddy-mistral-7b-v13.1        | 75.08 | 44 |
+| 商用  | chatglm-130b-v1                   | 74.67 | 45 |
+| 开源  | openbuddy-llama-30b-v7.1          | 74.33 | 46 |
+| 商用  | 360智脑                             | 74.25 | 47 |
+| 开源  | Llama-2-70b-chat                  | 73.58 | 48 |
+| 开源  | Qwen-7B-Chat                      | 73.50 | 49 |
+| 商用  | 讯飞星火v2.0                          | 72.83 | 50 |
+| 开源  | Baichuan-13B-Chat-v2              | 72.68 | 51 |
+| 开源  | chatglm3-6b                       | 72.18 | 52 |
+| 开源  | tulu-30b                          | 72.08 | 53 |
+| 开源  | belle-llama-13b-ext               | 71.17 | 54 |
+| 开源  | Qwen1.5-4B-Chat(new)              | 70.58 | 55 |
+| 开源  | internlm-chat-20b                 | 69.83 | 56 |
+| 开源  | Yi-6B-Chat                        | 68.67 | 57 |
+| 开源  | ziya2-13b-chat                    | 67.33 | 58 |
+| 开源  | Linly-Chinese-LLaMA2-13B          | 67.33 | 59 |
+| 开源  | Qwen-1_8B-Chat                    | 66.42 | 60 |
+| 商用  | minimax                           | 66.33 | 61 |
+| 开源  | vicuna-33b                        | 66.08 | 62 |
+| 开源  | InternLM-Chat-7B                  | 59.00 | 63 |
+| 开源  | openbuddy-openllama-3b-v10        | 56.50 | 64 |
+| 开源  | Qwen1.5-1.8B-Chat(new)            | 53.92 | 65 |
+| 开源  | Qwen1.5-0.5B-Chat(new)            | 44.67 | 66 |
 
 <br><br>
 
@@ -209,67 +219,74 @@
 ### 2、分类能力排行榜
 ![lin](pic/classification.png)
 
-| 类别	 | 大模型	                        | 分类能力	 | 排名 |
-|-----|-----------------------------|-------|----|
-| 商用  | chatgpt-3.5                 | 98    | 1  |
-| 开源  | tigerbot-70b-chat-v2        | 97    | 2  |
-| 商用  | 微软new-bing                  | 95    | 3  |
-| 商用  | gpt4                        | 94    | 4  |
-| 开源  | tigerbot-70b-chat-v3        | 94    | 5  |
-| 商用  | 文心一言v2.2                    | 90    | 6  |
-| 开源  | BELLE-Llama2-13B-chat-0.4M  | 90    | 7  |
-| 开源  | Qwen-72B-Chat               | 89    | 8  |
-| 开源  | Qwen-7B-Chat                | 89    | 9  |
-| 商用  | 文心4.0                       | 88    | 10 |
-| 开源  | Yi-34B-Chat                 | 88    | 11 |
-| 开源  | Baichuan2-7B-Chat           | 88    | 12 |
-| 商用  | 讯飞星火v3                      | 87    | 13 |
-| 商用  | GLM4(new)                   | 86    | 14 |
-| 商用  | 阿里qwen-max(new)             | 86    | 15 |
-| 开源  | openbuddy-deepseek-67b(new) | 86    | 16 |
-| 商用  | 谷歌bard                      | 86    | 17 |
-| 开源  | openbuddy-llama2-70b-v10.1  | 86    | 18 |
-| 商用  | chatglm-turbo               | 86    | 19 |
-| 开源  | xverse-13b-chat             | 86    | 20 |
-| 商用  | 360智脑                       | 86    | 21 |
-| 开源  | Llama-2-70b-chat            | 86    | 22 |
-| 开源  | tigerbot-13b-chat-v4        | 85    | 23 |
-| 开源  | qwen-14b-chat               | 84    | 24 |
-| 商用  | chatglm-std                 | 84    | 25 |
-| 商用  | chatglm-pro                 | 84    | 26 |
-| 开源  | XVERSE-65B-Chat(new)        | 83    | 27 |
-| 开源  | Baichuan2-13B-Chat          | 83    | 28 |
-| 商用  | 商汤senseChat                 | 82    | 29 |
-| 开源  | belle-llama-13b-2m          | 82    | 30 |
-| 开源  | openbuddy-zephyr-7b(new)    | 82    | 31 |
-| 开源  | BlueLM-7B-Chat(new)         | 82    | 32 |
-| 商用  | chatglm-130b-v1             | 82    | 33 |
-| 开源  | openbuddy-llama-30b-v7.1    | 82    | 34 |
-| 开源  | Baichuan-13B-Chat-v2        | 82    | 35 |
-| 开源  | chatglm3-6b                 | 82    | 36 |
-| 开源  | vicuna-33b                  | 82    | 37 |
-| 商用  | 阿里通义千问                      | 81    | 38 |
-| 商用  | 字节跳动豆包                      | 79    | 39 |
-| 开源  | openbuddy-mistral-7b-v13.1  | 79    | 40 |
-| 开源  | Linly-Chinese-LLaMA2-13B    | 78    | 41 |
-| 开源  | aquilachat2-34b             | 77    | 42 |
-| 商用  | Baichuan2-53B               | 76    | 43 |
-| 商用  | 讯飞星火v1.5                    | 76    | 44 |
-| 开源  | tulu-30b                    | 76    | 45 |
-| 开源  | ziya2-13b-chat              | 76    | 46 |
-| 开源  | belle-llama-13b-ext         | 74    | 47 |
-| 开源  | internlm-chat-20b           | 74    | 48 |
-| 开源  | Yi-6B-Chat                  | 73    | 49 |
-| 开源  | Qwen-1_8B-Chat              | 73    | 50 |
-| 商用  | 讯飞星火v2.0                    | 72    | 51 |
-| 开源  | Ziya-LLaMA-13B-v1.1         | 72    | 52 |
-| 开源  | chatglm2-6b                 | 70    | 53 |
-| 开源  | AquilaChat-7B               | 70    | 54 |
-| 开源  | openbuddy-llama-65b-v8      | 68    | 55 |
-| 商用  | minimax                     | 68    | 56 |
-| 开源  | wizardlm-13b                | 68    | 57 |
-| 开源  | openbuddy-openllama-3b-v10  | 64    | 58 |
-| 开源  | InternLM-Chat-7B            | 62    | 59 |
+| 类别	 | 大模型	                              | 分类能力	 | 排名 |
+|-----|-----------------------------------|-------|----|
+| 商用  | chatgpt-3.5                       | 98    | 1  |
+| 开源  | tigerbot-70b-chat-v2              | 97    | 2  |
+| 商用  | 微软new-bing                        | 95    | 3  |
+| 商用  | gpt4                              | 94    | 4  |
+| 开源  | tigerbot-70b-chat-v3              | 94    | 5  |
+| 开源  | internlm2-chat-20b(new)           | 93    | 6  |
+| 商用  | 文心一言v2.2                          | 90    | 7  |
+| 开源  | BELLE-Llama2-13B-chat-0.4M        | 90    | 8  |
+| 开源  | Qwen1.5-14B-Chat(new)             | 89    | 9  |
+| 开源  | Qwen-72B-Chat                     | 89    | 10 |
+| 开源  | Qwen1.5-72B-Chat(new)             | 89    | 11 |
+| 开源  | Qwen-7B-Chat                      | 89    | 12 |
+| 商用  | 文心4.0                             | 88    | 13 |
+| 开源  | Yi-34B-Chat                       | 88    | 14 |
+| 开源  | Baichuan2-7B-Chat                 | 88    | 15 |
+| 开源  | deepseek-llm-67b-chat(new)        | 87    | 16 |
+| 商用  | 讯飞星火v3                            | 87    | 17 |
+| 商用  | GLM4                              | 86    | 18 |
+| 商用  | 阿里qwen-max                        | 86    | 19 |
+| 开源  | openbuddy-deepseek-67b            | 86    | 20 |
+| 商用  | baichuan3(new)                    | 86    | 21 |
+| 商用  | 谷歌bard                            | 86    | 22 |
+| 开源  | openbuddy-llama2-70b-v10.1        | 86    | 23 |
+| 商用  | chatglm-turbo                     | 86    | 24 |
+| 开源  | openbuddy-mixtral-7bx8-v17.1(new) | 86    | 25 |
+| 开源  | internlm2-chat-7b(new)            | 86    | 26 |
+| 开源  | xverse-13b-chat                   | 86    | 27 |
+| 商用  | 360智脑                             | 86    | 28 |
+| 开源  | Llama-2-70b-chat                  | 86    | 29 |
+| 开源  | tigerbot-13b-chat-v4              | 85    | 30 |
+| 开源  | qwen-14b-chat                     | 84    | 31 |
+| 商用  | chatglm-std                       | 84    | 32 |
+| 商用  | chatglm-pro                       | 84    | 33 |
+| 开源  | XVERSE-65B-Chat                   | 83    | 34 |
+| 开源  | Baichuan2-13B-Chat                | 83    | 35 |
+| 商用  | 商汤senseChat                       | 82    | 36 |
+| 开源  | belle-llama-13b-2m                | 82    | 37 |
+| 开源  | openbuddy-zephyr-7b               | 82    | 38 |
+| 开源  | BlueLM-7B-Chat                    | 82    | 39 |
+| 商用  | chatglm-130b-v1                   | 82    | 40 |
+| 开源  | openbuddy-llama-30b-v7.1          | 82    | 41 |
+| 开源  | Baichuan-13B-Chat-v2              | 82    | 42 |
+| 开源  | chatglm3-6b                       | 82    | 43 |
+| 开源  | vicuna-33b                        | 82    | 44 |
+| 商用  | 阿里通义千问                            | 81    | 45 |
+| 开源  | Qwen1.5-7B-Chat(new)              | 80    | 46 |
+| 商用  | 字节跳动豆包                            | 79    | 47 |
+| 开源  | openbuddy-mistral-7b-v13.1        | 79    | 48 |
+| 开源  | Linly-Chinese-LLaMA2-13B          | 78    | 49 |
+| 开源  | aquilachat2-34b                   | 77    | 50 |
+| 商用  | Baichuan2-53B                     | 76    | 51 |
+| 商用  | 讯飞星火v1.5                          | 76    | 52 |
+| 开源  | tulu-30b                          | 76    | 53 |
+| 开源  | ziya2-13b-chat                    | 76    | 54 |
+| 开源  | Qwen1.5-4B-Chat(new)              | 75    | 55 |
+| 开源  | belle-llama-13b-ext               | 74    | 56 |
+| 开源  | internlm-chat-20b                 | 74    | 57 |
+| 开源  | Yi-6B-Chat                        | 73    | 58 |
+| 开源  | Qwen-1_8B-Chat                    | 73    | 59 |
+| 商用  | 讯飞星火v2.0                          | 72    | 60 |
+| 开源  | openbuddy-llama-65b-v8            | 68    | 61 |
+| 商用  | minimax                           | 68    | 62 |
+| 开源  | openbuddy-openllama-3b-v10        | 64    | 63 |
+| 开源  | InternLM-Chat-7B                  | 62    | 64 |
+| 开源  | Qwen1.5-1.8B-Chat(new)            | 57    | 65 |
+| 开源  | Qwen1.5-0.5B-Chat(new)            | 44    | 66 |
 
 <br><br>
 
@@ -277,67 +294,74 @@
 ### 3、信息抽取能力排行榜
 ![lin](pic/extract.png)
 
-| 类别	 | 大模型	                        | 信息抽取能力	 | 排名 |
-|-----|-----------------------------|---------|----|
-| 商用  | gpt4                        | 94      | 1  |
-| 商用  | GLM4(new)                   | 90      | 2  |
-| 商用  | 文心4.0                       | 89      | 3  |
-| 开源  | openbuddy-deepseek-67b(new) | 89      | 4  |
-| 商用  | chatgpt-3.5                 | 88      | 5  |
-| 商用  | 谷歌bard                      | 88      | 6  |
-| 商用  | 文心一言v2.2                    | 87      | 7  |
-| 开源  | tigerbot-70b-chat-v3        | 85      | 8  |
-| 商用  | 商汤senseChat                 | 85      | 9  |
-| 开源  | tigerbot-70b-chat-v2        | 84      | 10 |
-| 开源  | openbuddy-llama2-70b-v10.1  | 84      | 11 |
-| 开源  | XVERSE-65B-Chat(new)        | 84      | 12 |
-| 商用  | Baichuan2-53B               | 84      | 13 |
-| 开源  | openbuddy-llama-65b-v8      | 84      | 14 |
-| 商用  | 微软new-bing                  | 83      | 15 |
-| 开源  | Baichuan2-13B-Chat          | 83      | 16 |
-| 开源  | openbuddy-zephyr-7b(new)    | 83      | 17 |
-| 开源  | BlueLM-7B-Chat(new)         | 83      | 18 |
-| 开源  | Yi-34B-Chat                 | 82      | 19 |
-| 商用  | 讯飞星火v3                      | 82      | 20 |
-| 商用  | 阿里qwen-max(new)             | 82      | 21 |
-| 开源  | tigerbot-13b-chat-v4        | 82      | 22 |
-| 开源  | aquilachat2-34b             | 82      | 23 |
-| 商用  | 阿里通义千问                      | 81      | 24 |
-| 商用  | 讯飞星火v1.5                    | 81      | 25 |
-| 开源  | Qwen-72B-Chat               | 80      | 26 |
-| 商用  | 字节跳动豆包                      | 77      | 27 |
-| 开源  | Baichuan2-7B-Chat           | 76      | 28 |
-| 商用  | chatglm-130b-v1             | 76      | 29 |
-| 开源  | tulu-30b                    | 76      | 30 |
-| 商用  | chatglm-turbo               | 75      | 31 |
-| 开源  | belle-llama-13b-2m          | 75      | 32 |
-| 商用  | 讯飞星火v2.0                    | 75      | 33 |
-| 开源  | BELLE-Llama2-13B-chat-0.4M  | 74      | 34 |
-| 开源  | openbuddy-llama-30b-v7.1    | 74      | 35 |
-| 开源  | Qwen-7B-Chat                | 72      | 36 |
-| 开源  | xverse-13b-chat             | 72      | 37 |
-| 开源  | qwen-14b-chat               | 72      | 38 |
-| 开源  | openbuddy-mistral-7b-v13.1  | 72      | 39 |
-| 商用  | 360智脑                       | 71      | 40 |
-| 商用  | chatglm-std                 | 71      | 41 |
-| 开源  | Yi-6B-Chat                  | 71      | 42 |
-| 商用  | chatglm-pro                 | 70      | 43 |
-| 开源  | Baichuan-13B-Chat-v2        | 69      | 44 |
-| 开源  | Ziya-LLaMA-13B-v1.1         | 69      | 45 |
-| 开源  | chatglm3-6b                 | 68      | 46 |
-| 开源  | chatglm2-6b                 | 68      | 47 |
-| 开源  | Linly-Chinese-LLaMA2-13B    | 67      | 48 |
-| 开源  | Llama-2-70b-chat            | 66      | 49 |
-| 开源  | Qwen-1_8B-Chat              | 66      | 50 |
-| 开源  | vicuna-33b                  | 65      | 51 |
-| 开源  | belle-llama-13b-ext         | 65      | 52 |
-| 开源  | internlm-chat-20b           | 64      | 53 |
-| 商用  | minimax                     | 61      | 54 |
-| 开源  | openbuddy-openllama-3b-v10  | 60      | 55 |
-| 开源  | InternLM-Chat-7B            | 55      | 56 |
-| 开源  | ziya2-13b-chat              | 54      | 57 |
-| 开源  | wizardlm-13b                | 52      | 58 |
-| 开源  | AquilaChat-7B               | 51      | 59 |
+| 类别	 | 大模型	                              | 信息抽取能力	 | 排名 |
+|-----|-----------------------------------|---------|----|
+| 商用  | gpt4                              | 94      | 1  |
+| 商用  | GLM4                              | 90      | 2  |
+| 商用  | 文心4.0                             | 89      | 3  |
+| 开源  | openbuddy-deepseek-67b            | 89      | 4  |
+| 商用  | chatgpt-3.5                       | 88      | 5  |
+| 商用  | 谷歌bard                            | 88      | 6  |
+| 商用  | 文心一言v2.2                          | 87      | 7  |
+| 开源  | tigerbot-70b-chat-v3              | 85      | 8  |
+| 商用  | 商汤senseChat                       | 85      | 9  |
+| 开源  | tigerbot-70b-chat-v2              | 84      | 10 |
+| 开源  | Qwen1.5-72B-Chat(new)             | 84      | 11 |
+| 开源  | openbuddy-llama2-70b-v10.1        | 84      | 12 |
+| 开源  | XVERSE-65B-Chat                   | 84      | 13 |
+| 商用  | Baichuan2-53B                     | 84      | 14 |
+| 开源  | openbuddy-llama-65b-v8            | 84      | 15 |
+| 商用  | 微软new-bing                        | 83      | 16 |
+| 商用  | baichuan3(new)                    | 83      | 17 |
+| 开源  | Baichuan2-13B-Chat                | 83      | 18 |
+| 开源  | openbuddy-zephyr-7b               | 83      | 19 |
+| 开源  | BlueLM-7B-Chat                    | 83      | 20 |
+| 开源  | Yi-34B-Chat                       | 82      | 21 |
+| 商用  | 讯飞星火v3                            | 82      | 22 |
+| 商用  | 阿里qwen-max                        | 82      | 23 |
+| 开源  | tigerbot-13b-chat-v4              | 82      | 24 |
+| 开源  | aquilachat2-34b                   | 82      | 25 |
+| 开源  | deepseek-llm-67b-chat(new)        | 81      | 26 |
+| 开源  | internlm2-chat-7b(new)            | 81      | 27 |
+| 商用  | 阿里通义千问                            | 81      | 28 |
+| 商用  | 讯飞星火v1.5                          | 81      | 29 |
+| 开源  | internlm2-chat-20b(new)           | 80      | 30 |
+| 开源  | Qwen-72B-Chat                     | 80      | 31 |
+| 开源  | Qwen1.5-14B-Chat(new)             | 79      | 32 |
+| 商用  | 字节跳动豆包                            | 77      | 33 |
+| 开源  | Baichuan2-7B-Chat                 | 76      | 34 |
+| 商用  | chatglm-130b-v1                   | 76      | 35 |
+| 开源  | Qwen1.5-7B-Chat(new)              | 76      | 36 |
+| 开源  | tulu-30b                          | 76      | 37 |
+| 商用  | chatglm-turbo                     | 75      | 38 |
+| 开源  | belle-llama-13b-2m                | 75      | 39 |
+| 商用  | 讯飞星火v2.0                          | 75      | 40 |
+| 开源  | BELLE-Llama2-13B-chat-0.4M        | 74      | 41 |
+| 开源  | openbuddy-llama-30b-v7.1          | 74      | 42 |
+| 开源  | openbuddy-mixtral-7bx8-v17.1(new) | 73      | 43 |
+| 开源  | Qwen-7B-Chat                      | 72      | 44 |
+| 开源  | xverse-13b-chat                   | 72      | 45 |
+| 开源  | qwen-14b-chat                     | 72      | 46 |
+| 开源  | openbuddy-mistral-7b-v13.1        | 72      | 47 |
+| 商用  | 360智脑                             | 71      | 48 |
+| 商用  | chatglm-std                       | 71      | 49 |
+| 开源  | Yi-6B-Chat                        | 71      | 50 |
+| 商用  | chatglm-pro                       | 70      | 51 |
+| 开源  | Baichuan-13B-Chat-v2              | 69      | 52 |
+| 开源  | chatglm3-6b                       | 68      | 53 |
+| 开源  | Linly-Chinese-LLaMA2-13B          | 67      | 54 |
+| 开源  | Llama-2-70b-chat                  | 66      | 55 |
+| 开源  | Qwen-1_8B-Chat                    | 66      | 56 |
+| 开源  | vicuna-33b                        | 65      | 57 |
+| 开源  | Qwen1.5-4B-Chat(new)              | 65      | 58 |
+| 开源  | belle-llama-13b-ext               | 65      | 59 |
+| 开源  | internlm-chat-20b                 | 64      | 60 |
+| 商用  | minimax                           | 61      | 61 |
+| 开源  | openbuddy-openllama-3b-v10        | 60      | 62 |
+| 开源  | Qwen1.5-1.8B-Chat(new)            | 58      | 63 |
+| 开源  | InternLM-Chat-7B                  | 55      | 64 |
+| 开源  | ziya2-13b-chat                    | 54      | 65 |
+| 开源  | Qwen1.5-0.5B-Chat(new)            | 40      | 66 |
 
 <br><br>
 
@@ -347,67 +371,74 @@
 依据给定信息的种类，可以细分为：文章问答、表格问答、对话问答……
 ![lin](pic/mrc.png)
 
-| 类别	 | 大模型	                        | 阅读理解能力	 | 排名 |
-|-----|-----------------------------|---------|----|
-| 商用  | gpt4                        | 99.3    | 1  |
-| 商用  | GLM4(new)                   | 97.3    | 2  |
-| 商用  | chatgpt-3.5                 | 95.3    | 3  |
-| 商用  | 阿里qwen-max(new)             | 95.3    | 4  |
-| 商用  | 文心4.0                       | 94.7    | 5  |
-| 商用  | 微软new-bing                  | 94.0    | 6  |
-| 开源  | Qwen-72B-Chat               | 92.7    | 7  |
-| 商用  | chatglm-turbo               | 90.0    | 8  |
-| 商用  | 文心一言v2.2                    | 88.0    | 9  |
-| 商用  | Baichuan2-53B               | 88.0    | 10 |
-| 商用  | 讯飞星火v3                      | 88.0    | 11 |
-| 开源  | aquilachat2-34b             | 88.0    | 12 |
-| 开源  | openbuddy-llama2-70b-v10.1  | 86.7    | 13 |
-| 商用  | 谷歌bard                      | 85.3    | 14 |
-| 开源  | openbuddy-deepseek-67b(new) | 84.7    | 15 |
-| 开源  | Yi-34B-Chat                 | 84.7    | 16 |
-| 开源  | qwen-14b-chat               | 84.7    | 17 |
-| 开源  | tigerbot-70b-chat-v3        | 84.0    | 18 |
-| 开源  | XVERSE-65B-Chat(new)        | 84.0    | 19 |
-| 开源  | Baichuan2-7B-Chat           | 83.3    | 20 |
-| 商用  | 商汤senseChat                 | 82.7    | 21 |
-| 开源  | openbuddy-llama-30b-v7.1    | 81.3    | 22 |
-| 开源  | xverse-13b-chat             | 81.3    | 23 |
-| 商用  | 阿里通义千问                      | 81.0    | 24 |
-| 开源  | belle-llama-13b-2m          | 80.7    | 25 |
-| 开源  | tigerbot-70b-chat-v2        | 80.0    | 26 |
-| 开源  | tigerbot-13b-chat-v4        | 80.0    | 27 |
-| 商用  | 字节跳动豆包                      | 80.0    | 28 |
-| 开源  | Ziya-LLaMA-13B-v1.1         | 80.0    | 29 |
-| 开源  | openbuddy-llama-65b-v8      | 79.3    | 30 |
-| 商用  | 讯飞星火v2.0                    | 79.3    | 31 |
-| 开源  | chatglm3-6b                 | 78.7    | 32 |
-| 开源  | internlm-chat-20b           | 77.3    | 33 |
-| 开源  | belle-llama-13b-ext         | 76.7    | 34 |
-| 商用  | 讯飞星火v1.5                    | 76.0    | 35 |
-| 开源  | BELLE-Llama2-13B-chat-0.4M  | 76.0    | 36 |
-| 商用  | chatglm-std                 | 76.0    | 37 |
-| 商用  | chatglm-pro                 | 76.0    | 38 |
-| 开源  | Qwen-1_8B-Chat              | 75.3    | 39 |
-| 开源  | tulu-30b                    | 75.3    | 40 |
-| 开源  | Baichuan2-13B-Chat          | 74.7    | 41 |
-| 开源  | openbuddy-zephyr-7b(new)    | 74.0    | 42 |
-| 开源  | BlueLM-7B-Chat(new)         | 74.0    | 43 |
-| 开源  | Qwen-7B-Chat                | 74.0    | 44 |
-| 商用  | 360智脑                       | 74.0    | 45 |
-| 开源  | openbuddy-mistral-7b-v13.1  | 73.3    | 46 |
-| 开源  | Llama-2-70b-chat            | 73.3    | 47 |
-| 商用  | minimax                     | 73.3    | 48 |
-| 开源  | Baichuan-13B-Chat-v2        | 72.7    | 49 |
-| 商用  | chatglm-130b-v1             | 72.7    | 50 |
-| 开源  | chatglm2-6b                 | 72.0    | 51 |
-| 开源  | wizardlm-13b                | 72.0    | 52 |
-| 开源  | ziya2-13b-chat              | 71.3    | 53 |
-| 开源  | Linly-Chinese-LLaMA2-13B    | 67.3    | 54 |
-| 开源  | Yi-6B-Chat                  | 66.0    | 55 |
-| 开源  | InternLM-Chat-7B            | 66.0    | 56 |
-| 开源  | vicuna-33b                  | 63.3    | 57 |
-| 开源  | openbuddy-openllama-3b-v10  | 61.3    | 58 |
-| 开源  | AquilaChat-7B               | 56.0    | 59 |
+| 类别	 | 大模型	                              | 阅读理解能力	 | 排名 |
+|-----|-----------------------------------|---------|----|
+| 商用  | gpt4                              | 99.3    |
+| 商用  | GLM4                              | 97.3    |
+| 商用  | 阿里qwen-max                        | 95.3    |
+| 商用  | chatgpt-3.5                       | 95.3    |
+| 商用  | 文心4.0                             | 94.7    |
+| 商用  | 微软new-bing                        | 94.0    |
+| 开源  | Qwen-72B-Chat                     | 92.7    |
+| 开源  | Qwen1.5-14B-Chat(new)             | 90.7    |
+| 商用  | baichuan3(new)                    | 90.7    |
+| 商用  | chatglm-turbo                     | 90.0    |
+| 商用  | Baichuan2-53B                     | 88.0    |
+| 商用  | 讯飞星火v3                            | 88.0    |
+| 开源  | aquilachat2-34b                   | 88.0    |
+| 开源  | Qwen1.5-72B-Chat(new)             | 88.0    |
+| 商用  | 文心一言v2.2                          | 88.0    |
+| 开源  | deepseek-llm-67b-chat(new)        | 86.7    |
+| 开源  | openbuddy-llama2-70b-v10.1        | 86.7    |
+| 开源  | openbuddy-mixtral-7bx8-v17.1(new) | 86.0    |
+| 开源  | internlm2-chat-20b(new)           | 86.0    |
+| 商用  | 谷歌bard                            | 85.3    |
+| 开源  | qwen-14b-chat                     | 84.7    |
+| 开源  | Yi-34B-Chat                       | 84.7    |
+| 开源  | openbuddy-deepseek-67b            | 84.7    |
+| 开源  | tigerbot-70b-chat-v3              | 84.0    |
+| 开源  | XVERSE-65B-Chat                   | 84.0    |
+| 开源  | Baichuan2-7B-Chat                 | 83.3    |
+| 商用  | 商汤senseChat                       | 82.7    |
+| 开源  | xverse-13b-chat                   | 81.3    |
+| 开源  | openbuddy-llama-30b-v7.1          | 81.3    |
+| 商用  | 阿里通义千问                            | 81.0    |
+| 开源  | belle-llama-13b-2m                | 80.7    |
+| 开源  | tigerbot-13b-chat-v4              | 80.0    |
+| 商用  | 字节跳动豆包                            | 80.0    |
+| 开源  | tigerbot-70b-chat-v2              | 80.0    |
+| 商用  | 讯飞星火v2.0                          | 79.3    |
+| 开源  | Qwen1.5-4B-Chat(new)              | 79.3    |
+| 开源  | openbuddy-llama-65b-v8            | 79.3    |
+| 开源  | chatglm3-6b                       | 78.7    |
+| 开源  | internlm-chat-20b                 | 77.3    |
+| 开源  | belle-llama-13b-ext               | 76.7    |
+| 开源  | Qwen1.5-7B-Chat(new)              | 76.0    |
+| 商用  | chatglm-std                       | 76.0    |
+| 商用  | 讯飞星火v1.5                          | 76.0    |
+| 商用  | chatglm-pro                       | 76.0    |
+| 开源  | BELLE-Llama2-13B-chat-0.4M        | 76.0    |
+| 开源  | Qwen-1_8B-Chat                    | 75.3    |
+| 开源  | tulu-30b                          | 75.3    |
+| 开源  | Baichuan2-13B-Chat                | 74.7    |
+| 开源  | Qwen-7B-Chat                      | 74.0    |
+| 开源  | openbuddy-zephyr-7b               | 74.0    |
+| 开源  | BlueLM-7B-Chat                    | 74.0    |
+| 商用  | 360智脑                             | 74.0    |
+| 开源  | openbuddy-mistral-7b-v13.1        | 73.3    |
+| 商用  | minimax                           | 73.3    |
+| 开源  | Llama-2-70b-chat                  | 73.3    |
+| 开源  | internlm2-chat-7b(new)            | 72.7    |
+| 开源  | Baichuan-13B-Chat-v2              | 72.7    |
+| 商用  | chatglm-130b-v1                   | 72.7    |
+| 开源  | ziya2-13b-chat                    | 71.3    |
+| 开源  | Linly-Chinese-LLaMA2-13B          | 67.3    |
+| 开源  | Yi-6B-Chat                        | 66.0    |
+| 开源  | InternLM-Chat-7B                  | 66.0    |
+| 开源  | vicuna-33b                        | 63.3    |
+| 开源  | openbuddy-openllama-3b-v10        | 61.3    |
+| 开源  | Qwen1.5-0.5B-Chat(new)            | 60.0    |
+| 开源  | Qwen1.5-1.8B-Chat(new)            | 52.7    |
 
 <br><br>
 
@@ -417,67 +448,74 @@
 专门考查大模型对表格的理解分析能力，常用于数据分析。
 ![lin](pic/tableQA.png)
 
-| 类别	 | 大模型	                        | 数据分析能力	 | 排名 |
-|-----|-----------------------------|---------|----|
-| 商用  | 微软new-bing                  | 100     | 1  |
-| 商用  | gpt4                        | 97      | 2  |
-| 商用  | GLM4(new)                   | 96      | 3  |
-| 商用  | 文心4.0                       | 94      | 4  |
-| 商用  | chatgpt-3.5                 | 93      | 5  |
-| 商用  | 阿里qwen-max(new)             | 91.3    | 6  |
-| 开源  | XVERSE-65B-Chat(new)        | 89      | 7  |
-| 开源  | Qwen-72B-Chat               | 87.3    | 8  |
-| 商用  | 讯飞星火v3                      | 86      | 9  |
-| 开源  | openbuddy-deepseek-67b(new) | 85      | 10 |
-| 开源  | tigerbot-70b-chat-v2        | 85      | 11 |
-| 开源  | tigerbot-13b-chat-v4        | 85      | 12 |
-| 开源  | aquilachat2-34b             | 83      | 13 |
-| 商用  | 字节跳动豆包                      | 82      | 14 |
-| 商用  | chatglm-turbo               | 81      | 15 |
-| 商用  | 文心一言v2.2                    | 81      | 16 |
-| 商用  | Baichuan2-53B               | 79      | 17 |
-| 开源  | BELLE-Llama2-13B-chat-0.4M  | 79      | 18 |
-| 商用  | 商汤senseChat                 | 78      | 19 |
-| 商用  | 谷歌bard                      | 77      | 20 |
-| 开源  | Yi-34B-Chat                 | 77      | 21 |
-| 开源  | qwen-14b-chat               | 77      | 22 |
-| 开源  | belle-llama-13b-2m          | 77      | 23 |
-| 开源  | Baichuan2-13B-Chat          | 77      | 24 |
-| 开源  | openbuddy-llama2-70b-v10.1  | 76      | 25 |
-| 开源  | openbuddy-llama-65b-v8      | 76      | 26 |
-| 开源  | openbuddy-mistral-7b-v13.1  | 76      | 27 |
-| 商用  | 阿里通义千问                      | 73      | 28 |
-| 商用  | chatglm-std                 | 73      | 29 |
-| 商用  | chatglm-pro                 | 73      | 30 |
-| 开源  | openbuddy-zephyr-7b(new)    | 72      | 31 |
-| 开源  | BlueLM-7B-Chat(new)         | 72      | 32 |
-| 开源  | tigerbot-70b-chat-v3        | 71      | 33 |
-| 开源  | Baichuan2-7B-Chat           | 69      | 34 |
-| 开源  | belle-llama-13b-ext         | 69      | 35 |
-| 商用  | 讯飞星火v1.5                    | 69      | 36 |
-| 开源  | Llama-2-70b-chat            | 69      | 37 |
-| 商用  | chatglm-130b-v1             | 68      | 38 |
-| 开源  | ziya2-13b-chat              | 68      | 39 |
-| 开源  | xverse-13b-chat             | 67      | 40 |
-| 开源  | Baichuan-13B-Chat-v2        | 67      | 41 |
-| 商用  | 360智脑                       | 66      | 42 |
-| 商用  | 讯飞星火v2.0                    | 65      | 43 |
-| 开源  | Yi-6B-Chat                  | 64.7    | 44 |
-| 开源  | internlm-chat-20b           | 64      | 45 |
-| 商用  | minimax                     | 63      | 46 |
-| 开源  | tulu-30b                    | 61      | 47 |
-| 开源  | openbuddy-llama-30b-v7.1    | 60      | 48 |
-| 开源  | chatglm3-6b                 | 60      | 49 |
-| 开源  | Qwen-7B-Chat                | 59      | 50 |
-| 开源  | Ziya-LLaMA-13B-v1.1         | 58      | 51 |
-| 开源  | chatglm2-6b                 | 57      | 52 |
-| 开源  | Linly-Chinese-LLaMA2-13B    | 57      | 53 |
-| 开源  | AquilaChat-7B               | 55      | 54 |
-| 开源  | vicuna-33b                  | 54      | 55 |
-| 开源  | InternLM-Chat-7B            | 53      | 56 |
-| 开源  | Qwen-1_8B-Chat              | 51.3    | 57 |
-| 开源  | wizardlm-13b                | 48      | 58 |
-| 开源  | openbuddy-openllama-3b-v10  | 40.7    | 59 |
+| 类别	 | 大模型	                              | 数据分析能力	 | 排名 |
+|-----|-----------------------------------|---------|----|
+| 商用  | 微软new-bing                        | 100.0   |
+| 商用  | gpt4                              | 97.0    |
+| 商用  | GLM4                              | 96.0    |
+| 商用  | 文心4.0                             | 94.0    |
+| 商用  | chatgpt-3.5                       | 93.0    |
+| 开源  | deepseek-llm-67b-chat(new)        | 92.0    |
+| 商用  | 阿里qwen-max                        | 91.3    |
+| 开源  | Qwen1.5-14B-Chat(new)             | 90.7    |
+| 开源  | XVERSE-65B-Chat                   | 89.0    |
+| 开源  | internlm2-chat-20b(new)           | 88.0    |
+| 开源  | Qwen-72B-Chat                     | 87.3    |
+| 开源  | Qwen1.5-72B-Chat(new)             | 87.3    |
+| 商用  | 讯飞星火v3                            | 86.0    |
+| 开源  | openbuddy-deepseek-67b            | 85.0    |
+| 开源  | tigerbot-70b-chat-v2              | 85.0    |
+| 开源  | tigerbot-13b-chat-v4              | 85.0    |
+| 商用  | baichuan3(new)                    | 84.7    |
+| 开源  | aquilachat2-34b                   | 83.0    |
+| 开源  | internlm2-chat-7b(new)            | 82.7    |
+| 开源  | openbuddy-mixtral-7bx8-v17.1(new) | 82.0    |
+| 商用  | 字节跳动豆包                            | 82.0    |
+| 商用  | chatglm-turbo                     | 81.0    |
+| 商用  | 文心一言v2.2                          | 81.0    |
+| 开源  | BELLE-Llama2-13B-chat-0.4M        | 79.0    |
+| 商用  | Baichuan2-53B                     | 79.0    |
+| 商用  | 商汤senseChat                       | 78.0    |
+| 开源  | Yi-34B-Chat                       | 77.0    |
+| 商用  | 谷歌bard                            | 77.0    |
+| 开源  | qwen-14b-chat                     | 77.0    |
+| 开源  | Baichuan2-13B-Chat                | 77.0    |
+| 开源  | belle-llama-13b-2m                | 77.0    |
+| 开源  | openbuddy-mistral-7b-v13.1        | 76.0    |
+| 开源  | openbuddy-llama-65b-v8            | 76.0    |
+| 开源  | openbuddy-llama2-70b-v10.1        | 76.0    |
+| 商用  | 阿里通义千问                            | 73.0    |
+| 商用  | chatglm-pro                       | 73.0    |
+| 商用  | chatglm-std                       | 73.0    |
+| 开源  | BlueLM-7B-Chat                    | 72.0    |
+| 开源  | openbuddy-zephyr-7b               | 72.0    |
+| 开源  | tigerbot-70b-chat-v3              | 71.0    |
+| 开源  | Qwen1.5-7B-Chat(new)              | 70.7    |
+| 开源  | Llama-2-70b-chat                  | 69.0    |
+| 开源  | belle-llama-13b-ext               | 69.0    |
+| 开源  | Baichuan2-7B-Chat                 | 69.0    |
+| 商用  | 讯飞星火v1.5                          | 69.0    |
+| 开源  | ziya2-13b-chat                    | 68.0    |
+| 商用  | chatglm-130b-v1                   | 68.0    |
+| 开源  | Baichuan-13B-Chat-v2              | 67.0    |
+| 开源  | xverse-13b-chat                   | 67.0    |
+| 商用  | 360智脑                             | 66.0    |
+| 商用  | 讯飞星火v2.0                          | 65.0    |
+| 开源  | Yi-6B-Chat                        | 64.7    |
+| 开源  | internlm-chat-20b                 | 64.0    |
+| 开源  | Qwen1.5-4B-Chat(new)              | 63.0    |
+| 商用  | minimax                           | 63.0    |
+| 开源  | tulu-30b                          | 61.0    |
+| 开源  | chatglm3-6b                       | 60.0    |
+| 开源  | openbuddy-llama-30b-v7.1          | 60.0    |
+| 开源  | Qwen-7B-Chat                      | 59.0    |
+| 开源  | Linly-Chinese-LLaMA2-13B          | 57.0    |
+| 开源  | vicuna-33b                        | 54.0    |
+| 开源  | InternLM-Chat-7B                  | 53.0    |
+| 开源  | Qwen-1_8B-Chat                    | 51.3    |
+| 开源  | Qwen1.5-1.8B-Chat(new)            | 48.0    |
+| 开源  | openbuddy-openllama-3b-v10        | 40.7    |
+| 开源  | Qwen1.5-0.5B-Chat(new)            | 34.7    |
 
 <br><br>
 
@@ -486,68 +524,74 @@
 评分方法：从各个维度给大模型打分，每个维度都对应一个评测数据集，包含若干道题。
 每道题依据大模型回复质量给1~5分，将评测集内所有题的得分累加并归一化为100分制，即作为最终得分。
 
-| 类别 | 大模型                         | 分类能力 | 信息抽取能力 | 阅读理解能力 | 数据分析能力 | 综合能力 |
-|----|-----------------------------|------|--------|--------|--------|------|
-| 商用 | gpt4                        | 94   | 94     | 99.3   | 97     | 96.1 |
-| 商用 | chatgpt-3.5                 | 98   | 88     | 95.3   | 93     | 93.6 |
-| 商用 | 微软new-bing                  | 95   | 83     | 94.0   | 100    | 93.0 |
-| 商用 | GLM4(new)                   | 86   | 90     | 97.3   | 96     | 92.3 |
-| 商用 | 文心4.0                       | 88   | 89     | 94.7   | 94     | 91.4 |
-| 商用 | 阿里qwen-max(new)             | 86   | 82     | 95.3   | 91.3   | 88.7 |
-| 开源 | Qwen-72B-Chat               | 89   | 80     | 92.7   | 87.3   | 87.3 |
-| 开源 | tigerbot-70b-chat-v2        | 97   | 84     | 80.0   | 85     | 86.5 |
-| 商用 | 文心一言v2.2                    | 90   | 87     | 88.0   | 81     | 86.5 |
-| 开源 | openbuddy-deepseek-67b(new) | 86   | 89     | 84.7   | 85     | 86.2 |
-| 商用 | 讯飞星火v3                      | 87   | 82     | 88.0   | 86     | 85.8 |
-| 开源 | XVERSE-65B-Chat(new)        | 83   | 84     | 84.0   | 89     | 85.0 |
-| 商用 | 谷歌bard                      | 86   | 88     | 85.3   | 77     | 84.1 |
-| 开源 | tigerbot-70b-chat-v3        | 94   | 85     | 84.0   | 71     | 83.5 |
-| 开源 | openbuddy-llama2-70b-v10.1  | 86   | 84     | 86.7   | 76     | 83.2 |
-| 开源 | tigerbot-13b-chat-v4        | 85   | 82     | 80.0   | 85     | 83.0 |
-| 商用 | chatglm-turbo               | 86   | 75     | 90.0   | 81     | 83.0 |
-| 开源 | Yi-34B-Chat                 | 88   | 82     | 84.7   | 77     | 82.9 |
-| 开源 | aquilachat2-34b             | 77   | 82     | 88.0   | 83     | 82.5 |
-| 商用 | 商汤senseChat                 | 82   | 85     | 82.7   | 78     | 81.9 |
-| 商用 | Baichuan2-53B               | 76   | 84     | 88.0   | 79     | 81.8 |
-| 开源 | BELLE-Llama2-13B-chat-0.4M  | 90   | 74     | 76.0   | 79     | 79.8 |
-| 商用 | 字节跳动豆包                      | 79   | 77     | 80.0   | 82     | 79.5 |
-| 开源 | qwen-14b-chat               | 84   | 72     | 84.7   | 77     | 79.4 |
-| 开源 | Baichuan2-13B-Chat          | 83   | 83     | 74.7   | 77     | 79.4 |
-| 开源 | Baichuan2-7B-Chat           | 88   | 76     | 83.3   | 69     | 79.1 |
-| 商用 | 阿里通义千问                      | 81   | 81     | 81.0   | 73     | 79.0 |
-| 开源 | belle-llama-13b-2m          | 82   | 75     | 80.7   | 77     | 78.7 |
-| 开源 | openbuddy-zephyr-7b(new)    | 82   | 83     | 74.0   | 72     | 77.8 |
-| 开源 | BlueLM-7B-Chat(new)         | 82   | 83     | 74.0   | 72     | 77.8 |
-| 开源 | openbuddy-llama-65b-v8      | 68   | 84     | 79.3   | 76     | 76.8 |
-| 开源 | xverse-13b-chat             | 86   | 72     | 81.3   | 67     | 76.6 |
-| 商用 | chatglm-std                 | 84   | 71     | 76.0   | 73     | 76.0 |
-| 商用 | chatglm-pro                 | 84   | 70     | 76.0   | 73     | 75.8 |
-| 商用 | 讯飞星火v1.5                    | 76   | 81     | 76.0   | 69     | 75.5 |
-| 开源 | openbuddy-mistral-7b-v13.1  | 79   | 72     | 73.3   | 76     | 75.1 |
-| 商用 | chatglm-130b-v1             | 82   | 76     | 72.7   | 68     | 74.7 |
-| 开源 | openbuddy-llama-30b-v7.1    | 82   | 74     | 81.3   | 60     | 74.3 |
-| 商用 | 360智脑                       | 86   | 71     | 74.0   | 66     | 74.3 |
-| 开源 | Llama-2-70b-chat            | 86   | 66     | 73.3   | 69     | 73.6 |
-| 开源 | Qwen-7B-Chat                | 89   | 72     | 74.0   | 59     | 73.5 |
-| 商用 | 讯飞星火v2.0                    | 72   | 75     | 79.3   | 65     | 72.8 |
-| 开源 | Baichuan-13B-Chat-v2        | 82   | 69     | 72.7   | 67     | 72.7 |
-| 开源 | chatglm3-6b                 | 82   | 68     | 78.7   | 60     | 72.2 |
-| 开源 | tulu-30b                    | 76   | 76     | 75.3   | 61     | 72.1 |
-| 开源 | belle-llama-13b-ext         | 74   | 65     | 76.7   | 69     | 71.2 |
-| 开源 | internlm-chat-20b           | 74   | 64     | 77.3   | 64     | 69.8 |
-| 开源 | Ziya-LLaMA-13B-v1.1         | 72   | 69     | 80.0   | 58     | 69.8 |
-| 开源 | Yi-6B-Chat                  | 73   | 71     | 66.0   | 64.7   | 68.7 |
-| 开源 | ziya2-13b-chat              | 76   | 54     | 71.3   | 68     | 67.3 |
-| 开源 | Linly-Chinese-LLaMA2-13B    | 78   | 67     | 67.3   | 57     | 67.3 |
-| 开源 | chatglm2-6b                 | 70   | 68     | 72.0   | 57     | 66.8 |
-| 开源 | Qwen-1_8B-Chat              | 73   | 66     | 75.3   | 51.3   | 66.4 |
-| 商用 | minimax                     | 68   | 61     | 73.3   | 63     | 66.3 |
-| 开源 | vicuna-33b                  | 82   | 65     | 63.3   | 54     | 66.1 |
-| 开源 | wizardlm-13b                | 68   | 52     | 72.0   | 48     | 60.0 |
-| 开源 | InternLM-Chat-7B            | 62   | 55     | 66.0   | 53     | 59.0 |
-| 开源 | AquilaChat-7B               | 70   | 51     | 56.0   | 55     | 58.0 |
-| 开源 | openbuddy-openllama-3b-v10  | 64   | 60     | 61.3   | 40.7   | 56.5 |
-
+| 类别 | 大模型                               | 分类能力 | 信息抽取能力 | 阅读理解能力 | 数据分析能力 | 综合能力 |
+|----|-----------------------------------|------|--------|--------|--------|------|
+| 商用 | gpt4                              | 94   | 94     | 99.3   | 97.0   | 96.1 |
+| 商用 | chatgpt-3.5                       | 98   | 88     | 95.3   | 93.0   | 93.6 |
+| 商用 | 微软new-bing                        | 95   | 83     | 94.0   | 100.0  | 93.0 |
+| 商用 | GLM4                              | 86   | 90     | 97.3   | 96.0   | 92.3 |
+| 商用 | 文心4.0                             | 88   | 89     | 94.7   | 94.0   | 91.4 |
+| 商用 | 阿里qwen-max                        | 86   | 82     | 95.3   | 91.3   | 88.7 |
+| 开源 | Qwen-72B-Chat                     | 89   | 80     | 92.7   | 87.3   | 87.3 |
+| 开源 | Qwen1.5-14B-Chat(new)             | 89   | 79     | 90.7   | 90.7   | 87.3 |
+| 开源 | Qwen1.5-72B-Chat(new)             | 89   | 84     | 88.0   | 87.3   | 87.1 |
+| 开源 | internlm2-chat-20b(new)           | 93   | 80     | 86.0   | 88.0   | 86.8 |
+| 开源 | deepseek-llm-67b-chat(new)        | 87   | 81     | 86.7   | 92.0   | 86.7 |
+| 商用 | 文心一言v2.2                          | 90   | 87     | 88.0   | 81.0   | 86.5 |
+| 开源 | tigerbot-70b-chat-v2              | 97   | 84     | 80.0   | 85.0   | 86.5 |
+| 开源 | openbuddy-deepseek-67b            | 86   | 89     | 84.7   | 85.0   | 86.2 |
+| 商用 | baichuan3(new)                    | 86   | 83     | 90.7   | 84.7   | 86.1 |
+| 商用 | 讯飞星火v3                            | 87   | 82     | 88.0   | 86.0   | 85.8 |
+| 开源 | XVERSE-65B-Chat                   | 83   | 84     | 84.0   | 89.0   | 85.0 |
+| 商用 | 谷歌bard                            | 86   | 88     | 85.3   | 77.0   | 84.1 |
+| 开源 | tigerbot-70b-chat-v3              | 94   | 85     | 84.0   | 71.0   | 83.5 |
+| 开源 | openbuddy-llama2-70b-v10.1        | 86   | 84     | 86.7   | 76.0   | 83.2 |
+| 商用 | chatglm-turbo                     | 86   | 75     | 90.0   | 81.0   | 83.0 |
+| 开源 | tigerbot-13b-chat-v4              | 85   | 82     | 80.0   | 85.0   | 83.0 |
+| 开源 | Yi-34B-Chat                       | 88   | 82     | 84.7   | 77.0   | 82.9 |
+| 开源 | aquilachat2-34b                   | 77   | 82     | 88.0   | 83.0   | 82.5 |
+| 商用 | 商汤senseChat                       | 82   | 85     | 82.7   | 78.0   | 81.9 |
+| 开源 | openbuddy-mixtral-7bx8-v17.1(new) | 86   | 73     | 86.0   | 82.0   | 81.8 |
+| 商用 | Baichuan2-53B                     | 76   | 84     | 88.0   | 79.0   | 81.8 |
+| 开源 | internlm2-chat-7b(new)            | 86   | 81     | 72.7   | 82.7   | 80.6 |
+| 开源 | BELLE-Llama2-13B-chat-0.4M        | 90   | 74     | 76.0   | 79.0   | 79.8 |
+| 商用 | 字节跳动豆包                            | 79   | 77     | 80.0   | 82.0   | 79.5 |
+| 开源 | Baichuan2-13B-Chat                | 83   | 83     | 74.7   | 77.0   | 79.4 |
+| 开源 | qwen-14b-chat                     | 84   | 72     | 84.7   | 77.0   | 79.4 |
+| 开源 | Baichuan2-7B-Chat                 | 88   | 76     | 83.3   | 69.0   | 79.1 |
+| 商用 | 阿里通义千问                            | 81   | 81     | 81.0   | 73.0   | 79.0 |
+| 开源 | belle-llama-13b-2m                | 82   | 75     | 80.7   | 77.0   | 78.7 |
+| 开源 | openbuddy-zephyr-7b               | 82   | 83     | 74.0   | 72.0   | 77.8 |
+| 开源 | BlueLM-7B-Chat                    | 82   | 83     | 74.0   | 72.0   | 77.8 |
+| 开源 | openbuddy-llama-65b-v8            | 68   | 84     | 79.3   | 76.0   | 76.8 |
+| 开源 | xverse-13b-chat                   | 86   | 72     | 81.3   | 67.0   | 76.6 |
+| 商用 | chatglm-std                       | 84   | 71     | 76.0   | 73.0   | 76.0 |
+| 商用 | chatglm-pro                       | 84   | 70     | 76.0   | 73.0   | 75.8 |
+| 开源 | Qwen1.5-7B-Chat(new)              | 80   | 76     | 76.0   | 70.7   | 75.7 |
+| 商用 | 讯飞星火v1.5                          | 76   | 81     | 76.0   | 69.0   | 75.5 |
+| 开源 | openbuddy-mistral-7b-v13.1        | 79   | 72     | 73.3   | 76.0   | 75.1 |
+| 商用 | chatglm-130b-v1                   | 82   | 76     | 72.7   | 68.0   | 74.7 |
+| 开源 | openbuddy-llama-30b-v7.1          | 82   | 74     | 81.3   | 60.0   | 74.3 |
+| 商用 | 360智脑                             | 86   | 71     | 74.0   | 66.0   | 74.3 |
+| 开源 | Llama-2-70b-chat                  | 86   | 66     | 73.3   | 69.0   | 73.6 |
+| 开源 | Qwen-7B-Chat                      | 89   | 72     | 74.0   | 59.0   | 73.5 |
+| 商用 | 讯飞星火v2.0                          | 72   | 75     | 79.3   | 65.0   | 72.8 |
+| 开源 | Baichuan-13B-Chat-v2              | 82   | 69     | 72.7   | 67.0   | 72.7 |
+| 开源 | chatglm3-6b                       | 82   | 68     | 78.7   | 60.0   | 72.2 |
+| 开源 | tulu-30b                          | 76   | 76     | 75.3   | 61.0   | 72.1 |
+| 开源 | belle-llama-13b-ext               | 74   | 65     | 76.7   | 69.0   | 71.2 |
+| 开源 | Qwen1.5-4B-Chat(new)              | 75   | 65     | 79.3   | 63.0   | 70.6 |
+| 开源 | internlm-chat-20b                 | 74   | 64     | 77.3   | 64.0   | 69.8 |
+| 开源 | Yi-6B-Chat                        | 73   | 71     | 66.0   | 64.7   | 68.7 |
+| 开源 | Linly-Chinese-LLaMA2-13B          | 78   | 67     | 67.3   | 57.0   | 67.3 |
+| 开源 | ziya2-13b-chat                    | 76   | 54     | 71.3   | 68.0   | 67.3 |
+| 开源 | Qwen-1_8B-Chat                    | 73   | 66     | 75.3   | 51.3   | 66.4 |
+| 商用 | minimax                           | 68   | 61     | 73.3   | 63.0   | 66.3 |
+| 开源 | vicuna-33b                        | 82   | 65     | 63.3   | 54.0   | 66.1 |
+| 开源 | InternLM-Chat-7B                  | 62   | 55     | 66.0   | 53.0   | 59.0 |
+| 开源 | openbuddy-openllama-3b-v10        | 64   | 60     | 61.3   | 40.7   | 56.5 |
+| 开源 | Qwen1.5-1.8B-Chat(new)            | 57   | 58     | 52.7   | 48.0   | 53.9 |
+| 开源 | Qwen1.5-0.5B-Chat(new)            | 44   | 40     | 60.0   | 34.7   | 44.7 |
 <br><br>
 
 ## ⚖️原始评测数据
