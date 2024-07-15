@@ -1,6 +1,6 @@
 
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括88个大模型，覆盖chatgpt、gpt4、谷歌bard、百度文心一言、阿里通义千问、讯飞星火、商汤senseChat、微软new-bing、minimax等商用模型，
+- 目前已囊括98个大模型，覆盖chatgpt、gpt4、谷歌bard、百度文心一言、阿里通义千问、讯飞星火、商汤senseChat、微软new-bing、minimax等商用模型，
 以及百川、qwen2、chatglm、openbuddy、AquilaChat、vicuna、书生internLM2、llama3等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取能力、阅读理解能力、数据分析能力、中文编码效率、中文指令遵从。
