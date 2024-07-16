@@ -244,6 +244,7 @@ Antonio,36,男,西班牙,182,75,博士
 ![lin](pic/if2.png)
 排行榜：
 ![lin](pic/ifrank.png)
+<br>详细数据见[IFEval](IFEval.md)
 <br><br>
 
 ### 8、数学基础（算术）能力排行榜
