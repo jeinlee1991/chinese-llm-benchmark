@@ -54,6 +54,12 @@
 | 商用 | Doubao-pro-4k/32k            | 输入：0.8，输出：2                                                                                 | 字节跳动      |     
 | 商用 | Doubao-lite-128k             | 输入：0.8，输出：1                                                                                 | 字节跳动      |     
 | 商用 | Doubao-lite-4k/32k           | 输入：0.3，输出：0.6                                                                               | 字节跳动      |     
+| 商用 | SenseChat-5                  | 输入：40，输出：100                                                                                | 商汤        |     
+| 商用 | SenseChat-v4                 | 输入：12，输出： 12                                                                                | 商汤        |     
+| 商用 | SenseChat-v4-32K             | 输入：36，输出： 36                                                                                | 商汤        |     
+| 商用 | SenseChat-v4-128K            | 输入：60，输出： 60                                                                                | 商汤        |     
+| 商用 | SenseChat-Turbo              | 输入：2，输出：5                                                                                   | 商汤        |     
+|    |                              |                                                                                             |           |     
 | 开源 | glm-4-9b-chat                | [modelScope下载](https://www.modelscope.cn/models/ZhipuAI/glm-4-9b-chat)                      | 智谱        |     
 | 开源 | aquilachat2-34b              | [modelScope下载](https://www.modelscope.cn/models/BAAI/AquilaChat2-34B)                       | 智源研究院     |     
 | 开源 | AquilaChat2-70B-Expr         | [modelScope下载](https://www.modelscope.cn/models/BAAI/AquilaChat2-70B-Expr)                  | 智源研究院     |     
