@@ -25,9 +25,9 @@
 |商用|讯飞星火v3.5(spark-max)|88.9|22|
 |商用|阿里qwen-max|88.7|23|
 |商用|百度ERNIE-Speed-8K(new)|88.4|24|
-|商用|minimax-abab6.5s-chat|87.9|25|
-|商用|阿里qwen-plus|87.9|26|
-|商用|阿里qwen-long|87.9|27|
+|商用|阿里qwen-long|87.9|25|
+|商用|minimax-abab6.5s-chat|87.9|26|
+|商用|阿里qwen-plus|87.9|27|
 |商用|月之暗面moonshot-v1-8k|87.6|28|
 |开源|Qwen1.5-14B-Chat|87.3|29|
 |开源|Qwen1.5-72B-Chat|87.1|30|

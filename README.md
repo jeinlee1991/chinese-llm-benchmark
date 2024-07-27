@@ -1,6 +1,6 @@
 
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括106个大模型，覆盖chatgpt、gpt4、谷歌bard、百度文心一言、阿里通义千问、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括106个大模型，覆盖chatgpt、gpt4、百度文心一言、阿里通义千问、讯飞星火、商汤senseChat、minimax等商用模型，
 以及百川、qwen2、glm4、openbuddy、AquilaChat、书生internLM2、llama3等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取能力、阅读理解能力、数据分析能力、中文编码效率、中文指令遵从。
@@ -124,7 +124,11 @@ miniCPM-2B-sft、openbuddy-mistral-7b、
 | 商用 | gpt-4-turbo            | 输入：72.4元，输出：217.2元   | openAI    |
 | 商用 | gpt-4                  | 输入：217.2元，输出： 434.4元 | openAI    |
 | 商用 | gpt-3.5-turbo          | 输入：3.6元，输出：10.9元     | openAI    |
-| ... | ...         | ...     | ...    |   
+| ... | ...         | ...     | ...    | 
+| 开源 | glm-4-9b-chat                | [modelScope下载](https://www.modelscope.cn/models/ZhipuAI/glm-4-9b-chat)                      | 智谱        |     
+| 开源 | Phi-3-mini-128k-instruct     | [modelScope下载](https://www.modelscope.cn/models/LLM-Research/Phi-3-mini-128k-instruct)      | 微软        |     
+| 开源 | internlm2-chat-20b           | [modelScope下载](https://www.modelscope.cn/models/Shanghai_AI_Laboratory/internlm2-chat-20b)  | 上海人工智能实验室 |     
+| ... | ...         | ...     | ...    | 
 <br> 
 
 详见 [中文大模型资源汇总（商用及开源）](LLM-info.md)
@@ -181,13 +185,14 @@ miniCPM-2B-sft、openbuddy-mistral-7b、
 |yi-medium|2.5元|86|93.0|89.3|94.0|90.6|3|
 |智谱GLM-4-Air|1元|89|91.9|92.7|88.0|90.4|4|
 |豆包Doubao-pro-32k(new)|2元|86|88.1|96.7|86.7|89.4|5|
-|阿里qwen-long|2元|89|85.9|90.0|86.7|87.9|6|
-|智谱GLM-4-Flash|0.1元|89|80.0|86.0|82.0|84.3|7|
-|yi-spark|1元|82|88.9|88.0|76.0|83.7|8|
-|qwen-turbo(new)|6元|83|85.2|88.0|76.0|83.1|9|
-|商汤SenseChat-Turbo|5元|81|77.8|76.7|86.0|80.4|10|
-|豆包Doubao-lite-32k(new)|0.6元|77|86.7|88.7|64.7|79.3|11|
-|minimax-abab5.5s-chat|5元|58|57.0|70.7|56.0|60.4|12|
+|百度ERNIE-Speed-8K(new)|0元|88|88.1|88.0|89.3|88.4|6|
+|阿里qwen-long|2元|89|85.9|90.0|86.7|87.9|7|
+|智谱GLM-4-Flash|0.1元|89|80.0|86.0|82.0|84.3|8|
+|yi-spark|1元|82|88.9|88.0|76.0|83.7|9|
+|qwen-turbo(new)|6元|83|85.2|88.0|76.0|83.1|10|
+|商汤SenseChat-Turbo|5元|81|77.8|76.7|86.0|80.4|11|
+|豆包Doubao-lite-32k(new)|0.6元|77|86.7|88.7|64.7|79.3|12|
+|minimax-abab5.5s-chat|5元|58|57.0|70.7|56.0|60.4|13|
 
 <br>
 
@@ -354,9 +359,9 @@ Antonio,36,男,西班牙,182,75,博士
 |商用|讯飞星火v3.5(spark-max)|87|92.0|89.3|87.3|88.9|22|
 |商用|阿里qwen-max|86|82.0|95.3|91.3|88.7|23|
 |商用|百度ERNIE-Speed-8K(new)|88|88.1|88.0|89.3|88.4|24|
-|商用|minimax-abab6.5s-chat|87|88.0|88.7|88.0|87.9|25|
-|商用|阿里qwen-plus|88|89.6|90.0|84.0|87.9|26|
-|商用|阿里qwen-long|89|85.9|90.0|86.7|87.9|27|
+|商用|阿里qwen-long|89|85.9|90.0|86.7|87.9|25|
+|商用|minimax-abab6.5s-chat|87|88.0|88.7|88.0|87.9|26|
+|商用|阿里qwen-plus|88|89.6|90.0|84.0|87.9|27|
 |商用|月之暗面moonshot-v1-8k|92|85.0|84.0|89.3|87.6|28|
 |开源|Qwen1.5-14B-Chat|89|79.0|90.7|90.7|87.3|29|
 |开源|Qwen1.5-72B-Chat|89|84.0|88.0|87.3|87.1|30|
