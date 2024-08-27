@@ -9,6 +9,7 @@
 | 商用 | qwen-plus                    | 输入：4，输出：12                                                                                  | 阿里        |
 | 商用 | qwen-max                     | 输入：40，输出：120                                                                                | 阿里        |
 | 商用 | gpt-4o                       | 输入：36.2，输出：108.6                                                                            | openAI    |
+| 商用 | gpt-4o-mini                  | 输入：1.1，输出：4.3                                                                               | openAI    |
 | 商用 | gpt-4-turbo                  | 输入：72.4，输出：217.2                                                                            | openAI    |
 | 商用 | gpt-4                        | 输入：217.2，输出： 434.4                                                                          | openAI    |
 | 商用 | gpt-3.5-turbo                | 输入：3.6，输出：10.9                                                                              | openAI    |
@@ -99,6 +100,13 @@
 | 开源 | qwen2-1.5b-instruct          | [modelScope下载](https://www.modelscope.cn/models/qwen/Qwen2-1.5B-Instruct)                   | 阿里巴巴      |     
 | 开源 | qwen2-0.5b-instruct          | [modelScope下载](https://www.modelscope.cn/models/qwen/Qwen2-0.5B-Instruct)                   | 阿里巴巴      |     
 | 开源 | qwen2-57b-a14b-instruct      | [modelScope下载](https://www.modelscope.cn/models/qwen/Qwen2-57B-A14B-Instruct)               | 阿里巴巴      |
+| 开源 | internlm2-chat-1_8b          | [modelScope下载](https://www.modelscope.cn/models/Shanghai_AI_Laboratory/internlm2-chat-1_8b) | 上海人工智能实验室 |
+| 开源 | internlm2_5-7b-chat          | [modelScope下载](https://www.modelscope.cn/models/Shanghai_AI_Laboratory/internlm2_5-7b-chat) | 上海人工智能实验室 |
+| 开源 | gemma-2-9b-it                | [modelScope下载](https://www.modelscope.cn/models/LLM-Research/gemma-2-9b-it)                 | 谷歌        |
+| 开源 | DeepSeek-V2-Lite-Chat        | [modelScope下载](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-V2-Lite-Chat)          | 深度求索      |
+| 开源 | Llama-3.1-8B-Instruct        | [modelScope下载](https://modelscope.cn/models/llm-research/meta-llama-3.1-8b-instruct)        | meta      |
+| 开源 | Llama-3.1-70B-Instruct       | [modelScope下载](https://modelscope.cn/models/LLM-Research/Meta-Llama-3.1-70B-Instruct)       | meta      |
+
 <br><br>     
       
 
