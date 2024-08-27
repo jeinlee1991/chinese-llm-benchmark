@@ -30,7 +30,7 @@
 ## 最近更新
 - [2024/8/27] 发布v2.1版本评测榜单
   - 新增2个大模型：Llama-3.1-8B-Instruct、Llama-3.1-70B-Instruct
-  - 完善大模型信息汇总列表，[link](blob/main/LLM-info.md)
+  - 完善大模型信息汇总列表，[link](LLM-info.md)
 - [2024/8/7] 发布v2.0版本评测榜单
   - 中文指令遵从、算术运算计入总分，作为综合能力排行依据
   - 新增7个大模型：qwen2-1.5b-instruct、qwen2-0.5b-instruct、qwen2-57b-a14b-instruct、internlm2-chat-1_8b、internlm2_5-7b-chat、gemma-2-9b-it、DeepSeek-V2-Lite-Chat
