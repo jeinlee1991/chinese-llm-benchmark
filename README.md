@@ -203,6 +203,13 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 
 <br>
 
+旗舰商用模型badcase: [gpt-4o](http://easyllm.site/static/badcase/badcase-of-llm.html?model=gpt-4o) | 
+[moonshot-v1-8k](http://easyllm.site/static/badcase/badcase-of-llm.html?model=moonshot-v1-8k) |
+[deepseek-chat-v2](http://easyllm.site/static/badcase/badcase-of-llm.html?model=deepseek-chat-v2) |
+[yi-large](http://easyllm.site/static/badcase/badcase-of-llm.html?model=yi-large) |
+[更多](http://easyllm.site/static/badcase.html)
+<br>
+
 #### 1.2、开源大模型排行榜
 ##### （1）10B以下开源大模型排行榜
 | 类别 | 大模型                        | 分类能力 | 信息抽取 | 阅读理解 | 数据分析 | 指令遵从 | 算术运算|总分   | 排名 |
@@ -260,6 +267,7 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 > 将下列单词按词性分类。    
 > 狗，追，跑，大人，高兴，树
 
+☛查看[分类能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=classification)
 ![lin](pic/classification.png)
 详细数据见[classification](classification.md)
 <br><br>
@@ -269,6 +277,7 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 > “中信银行3亿元，交通银行增长约2.7亿元，光大银行约1亿元。”    
 > 提取出以上文本中的所有组织机构名称
 
+☛查看[信息抽取能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=extract)
 ![lin](pic/extract.png)
 详细数据见[extract](info-extract.md)
 <br><br>
@@ -287,6 +296,7 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 基于以上对话回答：病人在检查中发现的牙齿问题有哪些？
 > 
 
+☛查看[阅读理解能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=mrc)
 ![lin](pic/mrc.png)
 详细数据见[mrc](mrc.md)
 <br><br>
@@ -305,6 +315,7 @@ Antonio,36,男,西班牙,182,75,博士
 基于这个表格回答：学历最低的是哪国人？
 > 
 
+☛查看[数据分析badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=tableqa)
 ![lin](pic/tableQA.png)
 详细数据见[tableqa](table-qa.md)
 <br><br>
@@ -330,10 +341,11 @@ Antonio,36,男,西班牙,182,75,博士
 ### 8、数学基础（算术）能力排行榜
 考查大模型的数学基础能力之算数能力，测试题目为1000以内的整数加减法、不超过2位有效数字的浮点数加减乘除。
 举例：166 + 215 + 53 = ？，0.97 + 0.4 / 4.51 = ？
+
+☛查看[算术能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=arithmetic)
 ![lin](pic/arithmetic.png)
 <br>详细数据见[math](math.md)
 <br><br>
-
 
 ## 🌐各项能力评分
 评分方法：从各个维度给大模型打分，每个维度都对应一个评测数据集，包含若干道题。
