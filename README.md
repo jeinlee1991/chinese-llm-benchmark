@@ -28,6 +28,7 @@
 
 
 ## 最近更新
+- [2024/9/21] 新增开源大模型发布历史 [link](LLM-history.md)
 - [2024/8/27] 发布v2.1版本评测榜单
   - 新增2个大模型：Llama-3.1-8B-Instruct、Llama-3.1-70B-Instruct
   - 完善大模型信息汇总列表，[link](LLM-info.md)
