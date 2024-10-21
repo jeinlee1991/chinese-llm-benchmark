@@ -19,9 +19,9 @@
   - [信息抽取能力排行榜](#3信息抽取能力排行榜)
   - [阅读理解能力排行榜](#4阅读理解能力排行榜)
   - [数据分析排行榜](#5数据分析排行榜)
-  - [中文编码效率排行榜](#6中文编码效率排行榜)
-  - [中文指令遵从排行榜](#7中文指令遵从排行榜)
-  - [数学基础（算术）能力排行榜](#8数学基础（算术）能力排行榜)
+  - [中文指令遵从排行榜](#6中文指令遵从排行榜)
+  - [数学基础（算术）能力排行榜](#7数学基础（算术）能力排行榜)
+  - [中文编码效率排行榜](#8中文编码效率排行榜)
 - [🌐各项能力评分](#🌐各项能力评分)
 - [⚖️原始评测数据](#⚖️原始评测数据)
 - [为什么做榜单？](#为什么做榜单)
@@ -127,26 +127,24 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 
 ## 大模型基本信息
 价格单位：元/1m tokens，即元每百万token   
- 
-| 类别 | 大模型                    | 价格/下载              | 机构        |
-|----|------------------------|--------------------|-----------|
-| 商用 | qwen-long              | 输入：0.5元，输出： 2元       | 阿里        |
-| 商用 | qwen-turbo             | 输入：2元，输出：6元          | 阿里        |
-| 商用 | qwen-plus              | 输入：4元，输出：12元         | 阿里        |
-| 商用 | qwen-max               | 输入：40元，输出：120元       | 阿里        |
-| 商用 | gpt-4o                 | 输入：36.2元，输出：108.6元   | openAI    |
-| 商用 | gpt-4-turbo            | 输入：72.4元，输出：217.2元   | openAI    |
-| 商用 | gpt-4                  | 输入：217.2元，输出： 434.4元 | openAI    |
-| 商用 | gpt-3.5-turbo          | 输入：3.6元，输出：10.9元     | openAI    |
-| ... | ...         | ...     | ...    | 
-| 开源 | glm-4-9b-chat                | [modelScope下载](https://www.modelscope.cn/models/ZhipuAI/glm-4-9b-chat)                      | 智谱        |     
-| 开源 | Phi-3-mini-128k-instruct     | [modelScope下载](https://www.modelscope.cn/models/LLM-Research/Phi-3-mini-128k-instruct)      | 微软        |     
-| 开源 | internlm2-chat-20b           | [modelScope下载](https://www.modelscope.cn/models/Shanghai_AI_Laboratory/internlm2-chat-20b)  | 上海人工智能实验室 |     
-| ... | ...         | ...     | ...    | 
-<br> 
 
-详见：
-- [中文大模型资源汇总（商用及开源）](LLM-info.md)
+|model|	producer|open-source|price_input|price_output|download|paper|badcase|
+|---|---|---|---|---|---|---|---|
+|GLM-4-Flash|	智谱AI|	No|	0.0|	0.0|	/|	[link](https://arxiv.org/abs/2406.12793)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=GLM-4-Flash)|
+|ERNIE-Speed-8K|	百度|	No|	0.0|	0.0|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=ERNIE-Speed-8K)|
+|internlm2_5-7b-chat|	上海人工智能实验室|	Yes|	0.3|	0.3|	[link](https://www.modelscope.cn/models/Shanghai_AI_Laboratory/internlm2_5-7b-chat)|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=internlm2_5-7b-chat)|
+|Yi-1.5-9B-Chat|	零一万物|	Yes|	0.4|	0.4|	[link](https://www.modelscope.cn/models/01ai/Yi-1.5-9B-Chat/)|	[link](https://arxiv.org/abs/2403.04652)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Yi-1.5-9B-Chat)|
+|Llama-3.1-8B-Instruct|	meta|	Yes|	0.4|	0.4|	[link](https://modelscope.cn/models/llm-research/meta-llama-3.1-8b-instruct)|	[link](https://arxiv.org/abs/2407.21783)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Llama-3.1-8B-Instruct)|
+|Doubao-lite-32k|	豆包|	No|	0.3|	0.6|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Doubao-lite-32k)|
+|glm-4-9b-chat|	智谱AI|	Yes|	0.6|	0.6|	[link](https://www.modelscope.cn/models/ZhipuAI/glm-4-9b-chat)|	[link](https://arxiv.org/abs/2406.12793)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=glm-4-9b-chat)|
+|gemma-2-9b-it|	google|	Yes|	0.6|	0.6|	[link](https://www.modelscope.cn/models/LLM-Research/gemma-2-9b-it)|	[link](https://arxiv.org/abs/2408.00118)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gemma-2-9b-it)|
+|qwen2.5-7b-instruct|	阿里巴巴|	Yes|	1.0|	2.0|	[link](https://modelscope.cn/models/qwen/Qwen2.5-7B-Instruct)|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=qwen2.5-7b-instruct)|
+|gemini-1.5-flash|	google|	No|	0.5|	2.2|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gemini-1.5-flash)|
+|gpt-4o-mini|	openAI|	No|	1.1|	4.3|	/|	[link](https://arxiv.org/abs/2303.08774)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gpt-4o-mini)|
+|...|...|...|...|...|...|...|...|
+
+更多模型信息详见：
+- [大模型资源汇总（商用及开源）](https://easyllm.site/static/models.html)
 - [开源大模型发布历史](LLM-history.md)
 <br><br>
 
@@ -358,31 +356,33 @@ Antonio,36,男,西班牙,182,75,博士
 详细数据见[tableqa](table-qa.md)
 <br><br>
 
-### 6、中文编码效率排行榜
-暂不计入综合能力评分。
-专门考查大模型编码中文字符的效率，同等尺寸大模型，编码效率越高推理速度越快，几乎成正比。
-中文编码效率相当于大模型生成的每个token解码后对应的中文平均字数
-（大模型每次生成一个token，然后解码成真正可见的字符，比如中文、英文、标点符号等）。
-比如baichuan2、llama2的中文中文编码效率分别为1.67、0.61，意味着在同尺寸模型下，baichuan2的运行速度是llama2的2.7倍（1.67/0.61）。
-![lin](pic/zhcoding.png)
-<br><br>
-
-### 7、中文指令遵从排行榜
+### 6、中文指令遵从排行榜
 参考谷歌IFEval，并将其翻译和适配到中文，精选9类25种指令，说明如下：
 ![lin](pic/IFEval.jpg)
+
+☛查看[中文指令遵从badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=IFEval-zh)
 
 排行榜：
 ![lin](pic/ifrank.png)
 <br>详细数据见[IFEval](IFEval.md)
 <br><br>
 
-### 8、数学基础（算术）能力排行榜
+### 7、数学基础（算术）能力排行榜
 考查大模型的数学基础能力之算数能力，测试题目为1000以内的整数加减法、不超过2位有效数字的浮点数加减乘除。
 举例：166 + 215 + 53 = ？，0.97 + 0.4 / 4.51 = ？
 
 ☛查看[算术能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=arithmetic)
 ![lin](pic/arithmetic.png)
 <br>详细数据见[math](math.md)
+<br><br>
+
+### 8、中文编码效率排行榜
+暂不计入综合能力评分。
+专门考查大模型编码中文字符的效率，同等尺寸大模型，编码效率越高推理速度越快，几乎成正比。
+中文编码效率相当于大模型生成的每个token解码后对应的中文平均字数
+（大模型每次生成一个token，然后解码成真正可见的字符，比如中文、英文、标点符号等）。
+比如baichuan2、llama2的中文中文编码效率分别为1.67、0.61，意味着在同尺寸模型下，baichuan2的运行速度是llama2的2.7倍（1.67/0.61）。
+![lin](pic/zhcoding.png)
 <br><br>
 
 ## 🌐各项能力评分
