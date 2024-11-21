@@ -1,5 +1,11 @@
+# CLiB中文大模型能力评测榜单 (Chinese Large Model Leaderboard)（持续更新）
 
-# CLiB中文大模型能力评测榜单（持续更新）
+<p align="center">
+  <a href="https://github.com/EthicalML/awesome-production-machine-learning/graphs/commit-activity">
+    <img src="https://img.shields.io/badge/Maintained%3F-YES-green.svg" alt="Maintenance">
+  </a>
+</p>
+
 - 目前已囊括128个大模型，覆盖chatgpt、gpt-4o、谷歌gemini、百度文心一言、阿里通义千问、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及qwen2.5、llama3.1、glm4、书生internLM2.5、openbuddy、AquilaChat等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
