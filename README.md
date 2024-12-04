@@ -32,90 +32,10 @@
   - 新增6个模型：yi-lightning、gemini-1.5-flash、gemini-1.0-pro、gemini-1.5-pro、GLM-4-Long、GLM-4-Plus
   - 更新4个模型：GLM4、qwen-max、ERNIE-4.0-Turbo-8K、ERNIE-3.5-8K
   - 删除陈旧的模型：Baichuan2-13B-Chat、Baichuan2-7B-Chat、deepseek-llm-67b-chat、gpt4、gemma-2b-it、gemma-7b-it
-- [2024/9/29] 发布v2.2版本评测榜单
-  - 新增qwen2.5系列7个开源模型
-- [2024/9/21] 新增开源大模型发布历史 [link](LLM-history.md)
-- [2024/8/27] 发布v2.1版本评测榜单
-  - 新增2个大模型：Llama-3.1-8B-Instruct、Llama-3.1-70B-Instruct
-  - 完善大模型信息汇总列表，[link](LLM-info.md)
-- [2024/8/7] 发布v2.0版本评测榜单
-  - 中文指令遵从、算术运算计入总分，作为综合能力排行依据
-  - 新增7个大模型：qwen2-1.5b-instruct、qwen2-0.5b-instruct、qwen2-57b-a14b-instruct、internlm2-chat-1_8b、internlm2_5-7b-chat、gemma-2-9b-it、DeepSeek-V2-Lite-Chat
-  - 删除陈旧的模型：aquilachat2-34b、AquilaChat2-70B-Expr、BlueLM-7B-Chat、openbuddy-deepseek-67b、openbuddy-mixtral-7bx8、tigerbot-13b-chat-v4、Yi-34B-Chat
-- [2024/7/26] 发布v1.21版本评测榜单
-  - 新增8个大模型：gpt-4o-mini、讯飞4.0Ultra、ERNIE-3.5-8K、ERNIE-4.0-Turbo-8K、ERNIE-Speed-8K、Doubao-lite-32k、Doubao-pro-32k、qwen-turbo
-  - 删除陈旧的模型：baichuan3、minimax-abab6-chat、tigerbot-70b-chat-v3、openbuddy-zephyr-7b、Yi-6B-Chat、chatglm3-6b、Llama-2-70b-chat、
-miniCPM-2B-sft、openbuddy-mistral-7b
-- [2024/7/15] 发布v1.20版本评测榜单
-  - 新增10个大模型：gpt-4o、yi-spark、qwen-plus、qwen-long、GLM-4-AirX、GLM-4-Air、GLM-4-Flash、Baichuan4、Baichuan3-Turbo、SenseChat-Turbo
-  - 更新模型：商汤senseChat
-  - 删除陈旧的模型：谷歌bard、openbuddy-llama2-70b、XVERSE-65B-Chat、微软new-bing、BELLE-Llama2-13B-chat-0.4M、讯飞星火v2.0、chatglm-std、chatglm-pro、chatglm-turbo、字节跳动豆包
-- [2024/6/29] 发布v1.19版本评测榜单
-  - 新增数学基础（算术）能力排行榜
-  - 新增5个大模型：Qwen2-7B-Instruct、Qwen2-72B-Instruct 、glm-4-9b-chat、Yi-1.5-9B-Chat、Yi-1.5-34B-Chat
-  - 排行榜删除陈旧的模型
-- [2024/6/2] 发布v1.18版本评测榜单
-  - 新增6个大模型：abab6.5-chat、abab6.5s-chat、deepseek-chat-v2、yi-large、yi-large-turbo、yi-medium
-  - 中文指令遵从排行榜补充更多模型
-  - 排行榜删除陈旧的模型
-- [2024/5/8] 发布v1.17版本评测榜单
-  - 新增中文指令遵从排行榜
-  - 新增4个大模型：Llama-3-8B-Instruct、Llama-3-70B-Instruct、openbuddy-llama3-8b、Phi-3-mini-128k-instruct
-- [2024/4/13] 发布v1.16版本评测榜单
-  - 新增中文编码效率排行榜，同等尺寸大模型，编码效率越高推理速度越快，几乎成正比。
-  - 模型更新：minimax更新至minimax-abab6-chat
-  - 新增3个大模型：Qwen1.5-32B-Chat、minimax-abab5.5-chat、minimax-abab5.5s-chat
-- [2024/3/20] 发布v1.15版本评测榜单
-  - 模型更新：gpt3.5更新至最新版本
-  - 新增8个大模型：gpt-4-turbo、讯飞星火v3.5、MiniCPM-2B-dpo、miniCPM-2B-sft、AquilaChat2-70B-Expr、月之暗面kimichat、谷歌gemma-7b-it、谷歌gemma-2b-it
-  - 排行榜删除陈旧的模型（比如Baichuan2-53B、chatglm-130b-v1、tulu-30b、belle-llama-13b-2m、belle-llama-13b-ext、openbuddy-llama-30b-v7.1、vicuna-33b等）
-- [2024/2/28] 发布v1.14版本评测榜单
-  - 新增11个大模型：deepseek-llm-67b-chat、baichuan3、internlm2-chat-20b、internlm2-chat-7b、openbuddy-mixtral-7bx8-v17.1以及qwen1.5系列的6个模型
-  - 排行榜删除陈旧的模型（比如chatglm2-6b、AquilaChat-7B等）
-- [2024/1/29] 发布v1.13版本评测榜单
-  - 模型更新：微软new-bing、文心4.0更新至24年1月版本
-  - 新增6个大模型：qwen-max、GLM4、BlueLM-7B-Chat、openbuddy-zephyr-7b-v14.1、openbuddy-deepseek-67b-v15.2、XVERSE-65B-Chat
-  - 排行榜删除陈旧的模型（比如phoenix-inst-chat-7b、BELLE-on-Open-Datasets等）
-- [2023/12/10] 发布v1.12版本评测榜单
-  - 新增7个大模型：Yi-34B-Chat、tigerbot-13b-chat-v4、openbuddy-openllama-3b-v10、Qwen-1_8B-Chat、Yi-6B-Chat、Qwen-72B-Chat、chatglm-turbo
-  - 新增开源模型细分排行榜：10B以下模型排行榜、10B~20B模型排行榜、20B以上模型排行榜
-- [2023/11/22] 发布v1.11版本评测榜单
-  - 新增4个大模型：openbuddy-mistral-7b-v13.1、Qwen-7B-Chat、Baichuan2-7B-Chat、tigerbot-70b-chat-v3
-  - 将数据分析能力计入综合得分
-- [2023/11/5] 发布v1.10版本评测榜单
-  - 新增6个大模型：
-    - 3个商用模型：文心4.0、谷歌bard、讯飞星火v3
-    - 3个开源模型：aquilachat2-34b、ziya2-13b-chat、chatglm3-6b
-  - 排行榜删除陈旧的模型（比如第一代chatglm-6b、MOSS等）
-- [2023/10/11] 发布v1.9版本评测榜单
-  - 新增7个大模型：
-    - 3个商用模型：阿里通义千问v1.0.7、豆包、Baichuan2-53B
-    - 4个开源模型：Baichuan2-13B-Chat、internlm-chat-20b、qwen-14b-chat、tigerbot-70b-chat-v2
-- [2023/9/13] 发布v1.8版本评测榜单
-  - 新增7个大模型：
-    - 2个商用模型：chatglm-std、chatglm-pro
-    - 5个开源模型：openbuddy-llama-30b-v7.1、openbuddy-llama-65b-v8、openbuddy-llama2-70b-v10.1、xverse-13b-chat、Baichuan-13B-Chat-v2
-- [2023/8/29] 发布v1.7版本评测榜单
-  - 新增2个商用大模型：讯飞星火v2.0、Baichuan-53B
-  - 表格问答（数据分析）能力排行榜：新增21个模型参与排行。
-- [2023/8/13] 发布v1.6版本评测榜单，[link](https://github.com/jeinlee1991/chinese-llm-benchmark/releases/tag/v1.6)
-  - 新增4个大模型：
-    - 2个商用模型：商汤senseChat、微软new-bing
-    - 2个基于LLaMA2的开源中文模型：BELLE-Llama2-13B-chat-0.4M、Linly-Chinese-LLaMA2-13B
-- [2023/7/26] 发布v1.5版本评测榜单，[link](https://github.com/jeinlee1991/chinese-llm-benchmark/releases/tag/v1.5)
-  - 新增7个大模型：gpt4、文心一言v2.2、vicuna-33b、wizardlm-13b、Ziya-LLaMA-13B-v1.1、InternLM-Chat-7B、Llama-2-70b-chat
-- [2023/7/18] 发布v1.4版本评测榜单，[link](https://github.com/jeinlee1991/chinese-llm-benchmark/releases/tag/v1.4)
-  - 新增3个大模型：tulu-30b、chatglm2-6b、Baichuan-13B-Chat
-- [2023/7/2] 发布v1.3版本评测榜单，[link](https://github.com/jeinlee1991/chinese-llm-benchmark/releases/tag/v1.3)
-  - 新增3个大模型：360智脑、MOSS-003-SFT、AquilaChat-7B
-  - 讯飞星火更新为最新的v1.5模型
-- [2023/6/17] 发布v1.2版本评测榜单，[link](https://github.com/jeinlee1991/chinese-llm-benchmark/releases/tag/v1.2)
-  - 新增2个大模型：tigetbot-7b官网、linly-chatflow-13b
-  - 说明做评测榜单的初衷
-- [2023/6/10] 发布v1.1版本评测榜单，[link](https://github.com/jeinlee1991/chinese-llm-benchmark/releases/tag/v1.1)
-  - 新增3个大模型：minimax、guanaco、Phoenix-7b
-  - 新增表格问答评测维度，作为阅读理解能力的细分项
-- [2023/6/4] 发布v1版本评测榜单，[link](https://github.com/jeinlee1991/chinese-llm-benchmark/releases/tag/v1.0)
+- [2024/9/29]v2.2版本，[2024/8/27]v2.1版本，[2024/8/7]v2.0版本，[2024/7/26]v1.21版本，[2024/7/15]v1.20版本，[2024/6/29]v1.19版本，[2024/6/2]v1.18版本，[2024/5/8]v1.17版本，[2024/4/13]v1.16版本，[2024/3/20]v1.15版本，[2024/2/28]v1.14版本，[2024/1/29]v1.13版本
+- 2023年：[2023/12/10]v1.12版本，[2023/11/22]v1.11版本，[2023/11/5]v1.10版本，[2023/10/11]v1.9版本，[2023/9/13]v1.8版本，[2023/8/29]v1.7版本，[2023/8/13]v1.6版本，[2023/7/26]v1.5版本， [2023/7/18]v1.4版本， [2023/7/2]v1.3版本， [2023/6/17]v1.2版， [2023/6/10]v1.1版本， [2023/6/4]v1版本
+
+各版本更新详情：[CHANGELOG](CHANGELOG.md)
 
 ## TODO
 - 将更多大模型加入评测：Claude等等
@@ -126,22 +46,22 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 - 加入更多评测数据，使得评测得分越来越有说服力
 
 ## 大模型基本信息
-价格单位：元/1m tokens，即元每百万token   
+价格单位：元/1M tokens，即元每百万token   
 
-|model|	producer|open-source|price_input|price_output|download|paper|badcase|
-|---|---|---|---|---|---|---|---|
-|GLM-4-Flash|	智谱AI|	No|	0.0|	0.0|	/|	[link](https://arxiv.org/abs/2406.12793)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=GLM-4-Flash)|
-|ERNIE-Speed-8K|	百度|	No|	0.0|	0.0|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=ERNIE-Speed-8K)|
-|internlm2_5-7b-chat|	上海人工智能实验室|	Yes|	0.3|	0.3|	[link](https://www.modelscope.cn/models/Shanghai_AI_Laboratory/internlm2_5-7b-chat)|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=internlm2_5-7b-chat)|
-|Yi-1.5-9B-Chat|	零一万物|	Yes|	0.4|	0.4|	[link](https://www.modelscope.cn/models/01ai/Yi-1.5-9B-Chat/)|	[link](https://arxiv.org/abs/2403.04652)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Yi-1.5-9B-Chat)|
-|Llama-3.1-8B-Instruct|	meta|	Yes|	0.4|	0.4|	[link](https://modelscope.cn/models/llm-research/meta-llama-3.1-8b-instruct)|	[link](https://arxiv.org/abs/2407.21783)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Llama-3.1-8B-Instruct)|
-|Doubao-lite-32k|	豆包|	No|	0.3|	0.6|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Doubao-lite-32k)|
-|glm-4-9b-chat|	智谱AI|	Yes|	0.6|	0.6|	[link](https://www.modelscope.cn/models/ZhipuAI/glm-4-9b-chat)|	[link](https://arxiv.org/abs/2406.12793)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=glm-4-9b-chat)|
-|gemma-2-9b-it|	google|	Yes|	0.6|	0.6|	[link](https://www.modelscope.cn/models/LLM-Research/gemma-2-9b-it)|	[link](https://arxiv.org/abs/2408.00118)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gemma-2-9b-it)|
-|qwen2.5-7b-instruct|	阿里巴巴|	Yes|	1.0|	2.0|	[link](https://modelscope.cn/models/qwen/Qwen2.5-7B-Instruct)|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=qwen2.5-7b-instruct)|
-|gemini-1.5-flash|	google|	No|	0.5|	2.2|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gemini-1.5-flash)|
-|gpt-4o-mini|	openAI|	No|	1.1|	4.3|	/|	[link](https://arxiv.org/abs/2303.08774)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gpt-4o-mini)|
-|...|...|...|...|...|...|...|...|
+|model|	producer|open-source|price_input|price_output|直接体验|download|paper|badcase|
+|---|---|---|---|---|---|---|---|---|
+|GLM-4-Flash|	智谱AI|	No|	0.0|	0.0|[link](https://easyllm.site/static/modelcompare.html)|	/|	[link](https://arxiv.org/abs/2406.12793)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=GLM-4-Flash)|
+|ERNIE-Speed-8K|	百度|	No|	0.0|	0.0|[link](https://easyllm.site/static/modelcompare.html)|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=ERNIE-Speed-8K)|
+|internlm2_5-7b-chat|	上海人工智能实验室|	Yes|	0.3|	0.3|[link](https://easyllm.site/static/modelcompare.html)|	[link](https://www.modelscope.cn/models/Shanghai_AI_Laboratory/internlm2_5-7b-chat)|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=internlm2_5-7b-chat)|
+|Yi-1.5-9B-Chat|	零一万物|	Yes|	0.4|	0.4|[link](https://easyllm.site/static/modelcompare.html)|	[link](https://www.modelscope.cn/models/01ai/Yi-1.5-9B-Chat/)|	[link](https://arxiv.org/abs/2403.04652)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Yi-1.5-9B-Chat)|
+|Llama-3.1-8B-Instruct|	meta|	Yes|	0.4|	0.4|[link](https://easyllm.site/static/modelcompare.html)|	[link](https://modelscope.cn/models/llm-research/meta-llama-3.1-8b-instruct)|	[link](https://arxiv.org/abs/2407.21783)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Llama-3.1-8B-Instruct)|
+|Doubao-lite-32k|	豆包|	No|	0.3|	0.6|[link](https://easyllm.site/static/modelcompare.html)|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=Doubao-lite-32k)|
+|glm-4-9b-chat|	智谱AI|	Yes|	0.6|	0.6|[link](https://easyllm.site/static/modelcompare.html)|	[link](https://www.modelscope.cn/models/ZhipuAI/glm-4-9b-chat)|	[link](https://arxiv.org/abs/2406.12793)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=glm-4-9b-chat)|
+|gemma-2-9b-it|	google|	Yes|	0.6|	0.6|[link](https://easyllm.site/static/modelcompare.html)|	[link](https://www.modelscope.cn/models/LLM-Research/gemma-2-9b-it)|	[link](https://arxiv.org/abs/2408.00118)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gemma-2-9b-it)|
+|qwen2.5-7b-instruct|	阿里巴巴|	Yes|	1.0|	2.0|[link](https://easyllm.site/static/modelcompare.html)|	[link](https://modelscope.cn/models/qwen/Qwen2.5-7B-Instruct)|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=qwen2.5-7b-instruct)|
+|gemini-1.5-flash|	google|	No|	0.5|	2.2|[link](https://easyllm.site/static/modelcompare.html)|	/|	/|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gemini-1.5-flash)|
+|gpt-4o-mini|	openAI|	No|	1.1|	4.3|[link](https://easyllm.site/static/modelcompare.html)|	/|	[link](https://arxiv.org/abs/2303.08774)|	[link](https://easyllm.site/static/badcase/badcase-of-llm.html?model=gpt-4o-mini)|
+|...|...|...|...|...|...|...|...|...|
 
 更多模型信息详见：
 - [大模型资源汇总（商用及开源）](https://easyllm.site/static/models.html)
@@ -223,8 +143,8 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 |智谱GLM-4-Flash|0.1元|89|80.0|86.0|82.0|79|75.5|81.9|23|
 |yi-spark|1元|82|88.9|88.0|76.0|72|83.3|81.7|24|
 |百度ERNIE-Speed-8K|0元|88|88.1|88.0|89.3|68|68.7|81.7|25|
-|internlm2_5-7b-chat|0.4元|86|84.4|90.0|83.3|79|59.8|80.4|26|
-|Llama-3-8B-Instruct|0.4元|86|74.0|80.0|90.0|63|89.5|80.4|27|
+|Llama-3-8B-Instruct|0.4元|86|74.0|80.0|90.0|63|89.5|80.4|26|
+|internlm2_5-7b-chat|0.4元|86|84.4|90.0|83.3|79|59.8|80.4|27|
 |qwen-turbo|6元|83|85.2|88.0|76.0|66|81.3|79.9|28|
 |Yi-1.5-9B-Chat|0.4元|82|83.0|84.7|80.0|72|73.8|79.2|29|
 |Llama-3.1-8B-Instruct|0.4元|63|85.2|82.0|84.0|69|90.5|79.0|30|
@@ -250,8 +170,8 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 |开源|gemma-2-9b-it|85|82.2|88.7|87.3|81|89.3|85.6|2|
 |开源|glm-4-9b-chat|90|82.2|90.0|82.0|79|76.5|83.3|3|
 |开源|Qwen2-7B-Instruct|89|83.7|86.7|75.3|77|81.3|82.2|4|
-|开源|internlm2_5-7b-chat|86|84.4|90.0|83.3|79|59.8|80.4|5|
-|开源|Llama-3-8B-Instruct|86|74.0|80.0|90.0|63|89.5|80.4|6|
+|开源|Llama-3-8B-Instruct|86|74.0|80.0|90.0|63|89.5|80.4|5|
+|开源|internlm2_5-7b-chat|86|84.4|90.0|83.3|79|59.8|80.4|6|
 |开源|qwen2.5-3b-instruct|81|75.6|78.7|83.3|77|85.7|80.2|7|
 |开源|Yi-1.5-9B-Chat|82|83.0|84.7|80.0|72|73.8|79.2|8|
 |开源|Llama-3.1-8B-Instruct|63|85.2|82.0|84.0|69|90.5|79.0|9|
@@ -303,9 +223,8 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 > 将下列单词按词性分类。    
 > 狗，追，跑，大人，高兴，树
 
+完整排行榜见[classification](classification.md)<br>
 ☛查看[分类能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=classification)
-![lin](pic/classification.png)
-详细数据见[classification](classification.md)
 <br><br>
 
 ### 3、信息抽取能力排行榜
@@ -313,9 +232,8 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 > “中信银行3亿元，交通银行增长约2.7亿元，光大银行约1亿元。”    
 > 提取出以上文本中的所有组织机构名称
 
+完整排行榜见[extract](info-extract.md)<br>
 ☛查看[信息抽取能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=extract)
-![lin](pic/extract.png)
-详细数据见[extract](info-extract.md)
 <br><br>
 
 ### 4、阅读理解能力排行榜
@@ -332,9 +250,8 @@ miniCPM-2B-sft、openbuddy-mistral-7b
 基于以上对话回答：病人在检查中发现的牙齿问题有哪些？
 > 
 
+完整排行榜见[mrc](mrc.md)<br>
 ☛查看[阅读理解能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=mrc)
-![lin](pic/mrc.png)
-详细数据见[mrc](mrc.md)
 <br><br>
 
 ### 5、数据分析排行榜
@@ -351,29 +268,24 @@ Antonio,36,男,西班牙,182,75,博士
 基于这个表格回答：学历最低的是哪国人？
 > 
 
+完整排行榜见[tableqa](table-qa.md)<br>
 ☛查看[数据分析badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=tableqa)
-![lin](pic/tableQA.png)
-详细数据见[tableqa](table-qa.md)
 <br><br>
 
 ### 6、中文指令遵从排行榜
 参考谷歌IFEval，并将其翻译和适配到中文，精选9类25种指令，说明如下：
 ![lin](pic/IFEval.jpg)
 
+完整排行榜见[IFEval](IFEval.md)<br>
 ☛查看[中文指令遵从badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=IFEval-zh)
-
-排行榜：
-![lin](pic/ifrank.png)
-<br>详细数据见[IFEval](IFEval.md)
 <br><br>
 
 ### 7、数学基础（算术）能力排行榜
 考查大模型的数学基础能力之算数能力，测试题目为1000以内的整数加减法、不超过2位有效数字的浮点数加减乘除。
 举例：166 + 215 + 53 = ？，0.97 + 0.4 / 4.51 = ？
 
+完整排行榜见[math](math.md)<br>
 ☛查看[算术能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=arithmetic)
-![lin](pic/arithmetic.png)
-<br>详细数据见[math](math.md)
 <br><br>
 
 ### 8、中文编码效率排行榜
@@ -405,8 +317,8 @@ Antonio,36,男,西班牙,182,75,博士
 |开源|Qwen2-72B-Instruct|87|91.1|94.7|90.0|86|94.2|90.5|12|
 |开源|qwen2.5-72b-instruct|92|87.4|92.0|92.7|83|95.5|90.4|13|
 |商用|豆包Doubao-pro-32k|86|88.1|96.7|86.7|85|98.2|90.1|14|
-|商用|gemini-1.5-pro(new)|87|90.4|93.3|99.3|75|92.2|89.5|15|
-|商用|gemini-1.5-flash(new)|91|87.4|92.7|97.3|77|91.8|89.5|16|
+|商用|gemini-1.5-flash(new)|91|87.4|92.7|97.3|77|91.8|89.5|15|
+|商用|gemini-1.5-pro(new)|87|90.4|93.3|99.3|75|92.2|89.5|16|
 |商用|讯飞4.0Ultra|88|84.4|96.0|92.7|80|94.3|89.2|17|
 |开源|Llama-3.1-70B-Instruct|87|88.9|92.0|90.7|79|94.8|88.7|18|
 |商用|阿里qwen-max|92|88.9|94.7|99.3|77|79.8|88.6|19|
@@ -443,8 +355,8 @@ Antonio,36,男,西班牙,182,75,博士
 |商用|yi-spark|82|88.9|88.0|76.0|72|83.3|81.7|50|
 |商用|百度ERNIE-Speed-8K|88|88.1|88.0|89.3|68|68.7|81.7|51|
 |商用|商汤SenseChat-v4|89|78.5|88.0|86.7|71|72.2|80.9|52|
-|开源|internlm2_5-7b-chat|86|84.4|90.0|83.3|79|59.8|80.4|53|
-|开源|Llama-3-8B-Instruct|86|74.0|80.0|90.0|63|89.5|80.4|54|
+|开源|Llama-3-8B-Instruct|86|74.0|80.0|90.0|63|89.5|80.4|53|
+|开源|internlm2_5-7b-chat|86|84.4|90.0|83.3|79|59.8|80.4|54|
 |开源|qwen2.5-3b-instruct|81|75.6|78.7|83.3|77|85.7|80.2|55|
 |商用|qwen-turbo|83|85.2|88.0|76.0|66|81.3|79.9|56|
 |开源|internlm2-chat-20b|93|80.0|86.0|88.0|68|63.3|79.7|57|
