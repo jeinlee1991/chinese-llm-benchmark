@@ -79,3 +79,5 @@
 |开源|qwen2.5-0.5b-instruct|53.3|76|
 |开源|Qwen1.5-0.5B-Chat|40.0|77|
 
+
+![lin](pic/extract.png)

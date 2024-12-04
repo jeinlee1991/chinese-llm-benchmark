@@ -79,3 +79,5 @@
 |开源|Qwen1.5-0.5B-Chat|60.0|76|
 |开源|Qwen1.5-1.8B-Chat|52.7|77|
 
+
+![lin](pic/mrc.png)

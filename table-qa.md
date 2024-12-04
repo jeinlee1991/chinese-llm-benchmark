@@ -79,3 +79,5 @@
 |开源|qwen2-0.5b-instruct|36.7|76|
 |开源|Qwen1.5-0.5B-Chat|34.7|77|
 
+
+![lin](pic/tableQA.png)

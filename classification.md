@@ -79,3 +79,5 @@
 |开源|qwen2-0.5b-instruct|49.0|76|
 |开源|Qwen1.5-0.5B-Chat|44.0|77|
 
+
+![lin](pic/classification.png)

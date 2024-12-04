@@ -79,3 +79,5 @@
 |开源|internlm2-chat-1_8b|45.0|76|
 |开源|Qwen1.5-0.5B-Chat|42.0|77|
 
+
+![lin](pic/ifrank.png)
