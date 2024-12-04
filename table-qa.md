@@ -61,7 +61,7 @@
 |开源|Yi-1.5-9B-Chat|80.0|58|
 |开源|openbuddy-llama3-8b|79.0|59|
 |商用|yi-spark|76.0|60|
-|商用|qwen-turbo|76.0|61|
+|商用|阿里qwen-turbo|76.0|61|
 |开源|Qwen2-7B-Instruct|75.3|62|
 |开源|DeepSeek-V2-Lite-Chat|73.3|63|
 |开源|Phi-3-mini-128k-instruct|73.0|64|

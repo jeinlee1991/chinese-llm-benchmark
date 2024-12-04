@@ -48,7 +48,7 @@
 |商用|商汤SenseChat-v4|88.0|45|
 |商用|yi-spark|88.0|46|
 |开源|Qwen1.5-72B-Chat|88.0|47|
-|商用|qwen-turbo|88.0|48|
+|商用|阿里qwen-turbo|88.0|48|
 |商用|百度ERNIE-Speed-8K|88.0|49|
 |商用|讯飞星火v3(spark-pro)|88.0|50|
 |商用|minimax-abab5.5-chat|86.7|51|

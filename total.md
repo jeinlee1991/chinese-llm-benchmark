@@ -56,7 +56,7 @@
 |开源|Llama-3-8B-Instruct|80.4|53|
 |开源|internlm2_5-7b-chat|80.4|54|
 |开源|qwen2.5-3b-instruct|80.2|55|
-|商用|qwen-turbo|79.9|56|
+|商用|阿里qwen-turbo|79.9|56|
 |开源|internlm2-chat-20b|79.7|57|
 |开源|Yi-1.5-9B-Chat|79.2|58|
 |开源|Llama-3.1-8B-Instruct|79.0|59|

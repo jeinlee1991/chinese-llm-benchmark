@@ -44,7 +44,7 @@
 |开源|Qwen1.5-32B-Chat|86.0|41|
 |商用|阿里qwen-long|85.9|42|
 |开源|Llama-3.1-8B-Instruct|85.2|43|
-|商用|qwen-turbo|85.2|44|
+|商用|阿里qwen-turbo|85.2|44|
 |商用|月之暗面moonshot-v1-8k|85.0|45|
 |商用|讯飞4.0Ultra|84.4|46|
 |开源|internlm2_5-7b-chat|84.4|47|

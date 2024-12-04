@@ -63,7 +63,7 @@
 |商用|百度ERNIE-Speed-8K|68.0|60|
 |开源|internlm2-chat-20b|68.0|61|
 |开源|Qwen1.5-7B-Chat|67.0|62|
-|商用|qwen-turbo|66.0|63|
+|商用|阿里qwen-turbo|66.0|63|
 |开源|Qwen1.5-14B-Chat|66.0|64|
 |开源|internlm2-chat-7b|64.0|65|
 |开源|Llama-3-8B-Instruct|63.0|66|

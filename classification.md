@@ -54,7 +54,7 @@
 |开源|qwen2.5-7b-instruct|85.0|51|
 |商用|GLM-4-Long(new)|85.0|52|
 |商用|gemini-1.0-pro(new)|84.0|53|
-|商用|qwen-turbo|83.0|54|
+|商用|阿里qwen-turbo|83.0|54|
 |商用|minimax-abab5.5-chat|83.0|55|
 |商用|yi-large-turbo|82.0|56|
 |开源|Yi-1.5-9B-Chat|82.0|57|
