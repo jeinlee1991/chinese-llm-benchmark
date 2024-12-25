@@ -72,7 +72,7 @@
 ### 1、综合能力排行榜
 综合能力得分为分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算六者得分的平均值。
 ![lin](pic/total.png)    
-详细数据见[total](total.md)
+详细数据见[total](leaderboard/total.md)
 <br>
 
 #### 1.1、商用大模型排行榜（含开源模型的付费API）
@@ -235,7 +235,7 @@
 > 将下列单词按词性分类。    
 > 狗，追，跑，大人，高兴，树
 
-完整排行榜见[classification](classification.md)<br>
+完整排行榜见[classification](leaderboard/classification.md)<br>
 ☛查看[分类能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=classification)
 <br><br>
 
@@ -244,7 +244,7 @@
 > “中信银行3亿元，交通银行增长约2.7亿元，光大银行约1亿元。”    
 > 提取出以上文本中的所有组织机构名称
 
-完整排行榜见[extract](info-extract.md)<br>
+完整排行榜见[extract](leaderboard/info-extract.md)<br>
 ☛查看[信息抽取能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=extract)
 <br><br>
 
@@ -262,7 +262,7 @@
 基于以上对话回答：病人在检查中发现的牙齿问题有哪些？
 > 
 
-完整排行榜见[mrc](mrc.md)<br>
+完整排行榜见[mrc](leaderboard/mrc.md)<br>
 ☛查看[阅读理解能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=mrc)
 <br><br>
 
@@ -280,7 +280,7 @@ Antonio,36,男,西班牙,182,75,博士
 基于这个表格回答：学历最低的是哪国人？
 > 
 
-完整排行榜见[tableqa](table-qa.md)<br>
+完整排行榜见[tableqa](leaderboard/table-qa.md)<br>
 ☛查看[数据分析badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=tableqa)
 <br><br>
 
@@ -288,7 +288,7 @@ Antonio,36,男,西班牙,182,75,博士
 参考谷歌IFEval，并将其翻译和适配到中文，精选9类25种指令，说明如下：
 ![lin](pic/IFEval.jpg)
 
-完整排行榜见[IFEval](IFEval.md)<br>
+完整排行榜见[IFEval](leaderboard/IFEval.md)<br>
 ☛查看[中文指令遵从badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=IFEval-zh)
 <br><br>
 
@@ -296,7 +296,7 @@ Antonio,36,男,西班牙,182,75,博士
 考查大模型的数学基础能力之算数能力，测试题目为1000以内的整数加减法、不超过2位有效数字的浮点数加减乘除。
 举例：166 + 215 + 53 = ？，0.97 + 0.4 / 4.51 = ？
 
-完整排行榜见[math](math.md)<br>
+完整排行榜见[arithmetic](leaderboard/arithmetic.md)<br>
 ☛查看[算术能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=arithmetic)
 <br><br>
 
@@ -313,7 +313,7 @@ Antonio,36,男,西班牙,182,75,博士
 评分方法：从各个维度给大模型打分，每个维度都对应一个评测数据集，包含若干道题。
 每道题依据大模型回复质量给1~5分，将评测集内所有题的得分累加并归一化为100分制，即作为最终得分。
 
-所有评分数据详见[alldata](alldata.md)
+所有评分数据详见[alldata](leaderboard/alldata.md)
 <br>
 
 ## ⚖️原始评测数据
