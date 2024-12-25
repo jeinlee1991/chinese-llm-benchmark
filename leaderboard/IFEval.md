@@ -80,4 +80,4 @@
 |开源|Qwen1.5-0.5B-Chat|42.0|77|
 
 
-![lin](pic/ifrank.png)
+![lin](../pic/ifrank.png)

@@ -80,4 +80,4 @@
 |开源|Qwen1.5-1.8B-Chat|52.7|77|
 
 
-![lin](pic/mrc.png)
+![lin](../pic/mrc.png)

@@ -80,4 +80,4 @@
 |开源|Qwen1.5-0.5B-Chat|34.7|77|
 
 
-![lin](pic/tableQA.png)
+![lin](../pic/tableQA.png)

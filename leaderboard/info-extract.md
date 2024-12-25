@@ -80,4 +80,4 @@
 |开源|Qwen1.5-0.5B-Chat|40.0|77|
 
 
-![lin](pic/extract.png)
+![lin](../pic/extract.png)
