@@ -1,5 +1,5 @@
 排行榜
-![lin](pic/arithmetic.png)
+![lin](../pic/arithmetic.png)
 
 
 评测集说明：
