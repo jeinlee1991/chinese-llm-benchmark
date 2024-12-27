@@ -11,7 +11,7 @@
 |商用|yi-lightning|95.3|8|
 |商用|GLM-4-Plus|95.3|9|
 |商用|Baichuan3-Turbo|94.7|10|
-|开源|deepseek-chat-v2.5(new)|94.7|11|
+|开源|deepseek-chat-v3(new)|94.7|11|
 |商用|阿里qwen-max|94.7|12|
 |开源|Qwen2-72B-Instruct|94.7|13|
 |商用|abab7-chat-preview(new)|94.7|14|

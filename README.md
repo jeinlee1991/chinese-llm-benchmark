@@ -1,7 +1,7 @@
 
 # CLiB中文大模型能力评测榜单（持续更新）
 - 目前已囊括134个大模型，覆盖chatgpt、gpt-4o、谷歌gemini、百度文心一言、阿里通义千问、百川、讯飞星火、商汤senseChat、minimax等商用模型，
-以及deepseek-v2.5、qwen2.5、llama3.1、glm4、书生internLM2.5、openbuddy、AquilaChat等开源大模型。
+以及deepseek-v3、qwen2.5、llama3.1、glm4、书生internLM2.5、openbuddy、AquilaChat等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取能力、阅读理解能力、数据分析能力、中文编码效率、中文指令遵从、算术能力。
 - 不仅提供能力评分排行榜，也提供所有模型的原始输出结果！有兴趣的朋友可以自己打分、自己排行！
@@ -38,7 +38,7 @@
 ## 最近更新
 - [2024/12/27] 发布v2.5版本评测榜单
   - 新增Grade8Math-zh（八年级数学）、Grade9Math-zh（九年级数学）榜单
-  - 新增6个模型：deepseek-chat-v2.5、abab7-chat-preview、hunyuan-standard、hunyuan-large、hunyuan-turbo、SenseChat-5，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增6个模型：deepseek-chat-v3、abab7-chat-preview、hunyuan-standard、hunyuan-large、hunyuan-turbo、SenseChat-5，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2024/12/25] 发布v2.4版本评测榜单
   - 新增Grade7Math-zh（七年级数学）榜单
   - 删除陈旧的模型：Phi-3-mini-128k-instruct、Qwen1.5系列、openbuddy-llama3-8b、yi-large、yi-large-turbo、yi-medium、yi-spark、internlm2-chat-20b、internlm2-chat-7b、gpt-4-turbo、gpt-3.5-turbo
@@ -134,7 +134,7 @@
 ##### （3）输出价格1~5元商用大模型排行榜
 | 大模型 | 价格（输出）                          | 分类能力 | 信息抽取 | 阅读理解 | 数据分析 | 指令遵从 | 算术运算|总分   | 排名 |
 |----|------------------------------|------|--------|--------|------|------|----|------|----|
-|deepseek-chat-v2.5(new)|2元|93|97.0|94.7|100.0|84|99.0|94.6|1|
+|deepseek-chat-v3(new)|2元|93|97.0|94.7|100.0|84|99.0|94.6|1|
 |百度ERNIE-3.5-8K|2元|94|89.6|98.0|100.0|72|100.0|92.3|2|
 |gpt-4o-mini|4.3元|90|93.3|89.3|100.0|83|92.7|91.4|3|
 |deepseek-chat-v2|2元|93|88.0|94.0|96.0|76|96.7|90.6|4|
@@ -218,7 +218,7 @@
 ##### （4）30B以上开源大模型排行榜
 | 类别 | 大模型                        | 分类能力 | 信息抽取 | 阅读理解 | 数据分析 | 指令遵从 | 算术运算|总分   | 排名 |
 |----|----------------------------|------|--------|--------|------|------|----|------|----|
-|开源|deepseek-chat-v2.5(new)|93|97.0|94.7|100.0|84|99.0|94.6|1|
+|开源|deepseek-chat-v3(new)|93|97.0|94.7|100.0|84|99.0|94.6|1|
 |开源|qwen2.5-32b-instruct|91|94.1|96.0|91.3|83|94.0|91.6|2|
 |开源|deepseek-chat-v2|93|88.0|94.0|96.0|76|96.7|90.6|3|
 |开源|Qwen2-72B-Instruct|87|91.1|94.7|90.0|86|94.2|90.5|4|

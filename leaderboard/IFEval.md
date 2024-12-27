@@ -3,7 +3,7 @@
 |-----|------------------------------|---------|----|
 |开源|Qwen2-72B-Instruct|86.0|1|
 |商用|豆包Doubao-pro-32k|85.0|2|
-|开源|deepseek-chat-v2.5(new)|84.0|3|
+|开源|deepseek-chat-v3(new)|84.0|3|
 |开源|qwen2.5-72b-instruct|83.0|4|
 |商用|abab7-chat-preview(new)|83.0|5|
 |商用|gpt-4o|83.0|6|

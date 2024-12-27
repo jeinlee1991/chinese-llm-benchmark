@@ -4,7 +4,7 @@
 |商用|gpt-4o|100.0|1|
 |商用|gpt-4o-mini|100.0|2|
 |商用|yi-lightning|100.0|3|
-|开源|deepseek-chat-v2.5(new)|100.0|4|
+|开源|deepseek-chat-v3(new)|100.0|4|
 |商用|百度ERNIE-3.5-8K|100.0|5|
 |商用|gemini-1.0-pro|99.3|6|
 |商用|GLM-4-Plus|99.3|7|

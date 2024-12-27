@@ -7,7 +7,7 @@
 |商用|hunyuan-turbo(new)|93.0|4|
 |商用|gpt-4o|93.0|5|
 |开源|deepseek-chat-v2|93.0|6|
-|开源|deepseek-chat-v2.5(new)|93.0|7|
+|开源|deepseek-chat-v3(new)|93.0|7|
 |商用|智谱GLM4|92.0|8|
 |商用|月之暗面moonshot-v1-8k|92.0|9|
 |商用|阿里qwen-max|92.0|10|
