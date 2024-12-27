@@ -18,8 +18,8 @@
 |开源|qwen2.5-72b-instruct|90.4|15|
 |商用|hunyuan-large(new)|90.2|16|
 |商用|豆包Doubao-pro-32k|90.1|17|
-|商用|gemini-1.5-pro|89.5|18|
-|商用|gemini-1.5-flash|89.5|19|
+|商用|gemini-1.5-flash|89.5|18|
+|商用|gemini-1.5-pro|89.5|19|
 |商用|SenseChat-5(new)|89.5|20|
 |商用|讯飞4.0Ultra|89.2|21|
 |开源|Llama-3.1-70B-Instruct|88.7|22|
@@ -50,8 +50,8 @@
 |商用|智谱GLM-4-Flash|81.9|47|
 |商用|百度ERNIE-Speed-8K|81.7|48|
 |商用|商汤SenseChat-v4|80.9|49|
-|开源|Llama-3-8B-Instruct|80.4|50|
-|开源|internlm2_5-7b-chat|80.4|51|
+|开源|internlm2_5-7b-chat|80.4|50|
+|开源|Llama-3-8B-Instruct|80.4|51|
 |开源|qwen2.5-3b-instruct|80.2|52|
 |商用|阿里qwen-turbo|79.9|53|
 |开源|Yi-1.5-9B-Chat|79.2|54|
@@ -67,4 +67,6 @@
 |开源|qwen2.5-0.5b-instruct|54.1|64|
 |开源|internlm2-chat-1_8b|54.0|65|
 |开源|qwen2-0.5b-instruct|47.4|66|
+|开源|qwq-32b-preview|/|67|
+|开源|qwen2.5-math-72b-instruct|/|68|
 
