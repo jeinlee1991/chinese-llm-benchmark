@@ -1,4 +1,10 @@
 ## 最近更新
+- [2024/12/27] 发布v2.5版本评测榜单
+  - 新增Grade8Math-zh（八年级数学）、Grade9Math-zh（九年级数学）榜单
+  - 新增6个模型：deepseek-chat-v2.5、abab7-chat-preview、hunyuan-standard、hunyuan-large、hunyuan-turbo、SenseChat-5，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+- [2024/12/25] 发布v2.4版本评测榜单
+  - 新增Grade7Math-zh（七年级数学）榜单
+  - 删除陈旧的模型：Phi-3-mini-128k-instruct、Qwen1.5系列、openbuddy-llama3-8b、yi-large、yi-large-turbo、yi-medium、yi-spark、internlm2-chat-20b、internlm2-chat-7b、gpt-4-turbo、gpt-3.5-turbo
 - [2024/10/20] 发布v2.3版本评测榜单
   - 新增6个模型：yi-lightning、gemini-1.5-flash、gemini-1.0-pro、gemini-1.5-pro、GLM-4-Long、GLM-4-Plus
   - 更新4个模型：GLM4、qwen-max、ERNIE-4.0-Turbo-8K、ERNIE-3.5-8K
