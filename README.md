@@ -263,7 +263,7 @@ Options:
 A:    
 > 
 
-完整排行榜见[BBH](leaderboard/BBH.md)<br>
+完整排行榜见[BBH](leaderboard/bbh.md)<br>
 ☛查看[BBH符号推理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=BBH)
 <br><br>
 
