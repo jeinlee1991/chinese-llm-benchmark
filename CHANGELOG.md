@@ -1,4 +1,12 @@
 ## 最近更新
+- [2025/1/7] 发布v2.7版本评测榜单
+  - 新增代词理解CLUEWSC榜单（比如“他”是指谁）、诗词匹配CCPM榜单
+  - 新增5个模型：Claude-3.5-Sonnet、gemma-2-27b-it、Llama-3.1-405B-Instruct、Baichuan4-Air、Baichuan4-Turbo
+  - 删除陈旧的模型：Baichuan3-Turbo、qwen2-72b-instruct、Qwen2-7B-Instruct、qwen2-1.5b-instruct、qwen2-0.5b-instruct、qwen2-57b-a14b-instruct
+- [2024/12/28] 发布v2.6版本评测榜单
+  - 新增BBH（学术界常用符号推理评测集）榜单，并计入总分
+  - 将初中数学（七/八/九年级）成绩计入总分
+  - 删除陈旧的模型：deepseek-chat-v2、Llama-3-70B-Instruct、Llama-3-8B-Instruct、MiniCPM-2B-dpo、minimax-abab6.5-chat、DeepSeek-V2-Lite-Chat、internlm2-chat-1_8b
 - [2024/12/27] 发布v2.5版本评测榜单
   - 新增Grade8Math-zh（八年级数学）、Grade9Math-zh（九年级数学）榜单
   - 新增6个模型：deepseek-chat-v2.5、abab7-chat-preview、hunyuan-standard、hunyuan-large、hunyuan-turbo、SenseChat-5，☛查看[模型完整信息](https://easyllm.site/static/models.html)
