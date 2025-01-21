@@ -1,6 +1,6 @@
 
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括153个大模型，覆盖chatgpt、gpt-4o、谷歌gemini、Claude3.5、百度文心一言、千问、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括160个大模型，覆盖chatgpt、gpt-4o、谷歌gemini、Claude3.5、百度文心一言、千问、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、书生internLM2.5等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、中文编码效率。
@@ -22,23 +22,27 @@
       - 5B~20B
       - 20B以上
   - [【逻辑推理】公务员考试排行榜](#2、公务员考试排行榜)
-  - [【逻辑推理】符号推理BBH排行榜](#3、符号推理BBH排行榜)
-  - [【数学计算】初中数学排行榜](#4、初中数学排行榜)
-  - [【数学计算】算术能力排行榜](#5、算术能力排行榜)
-  - [【语言理解】代词理解CLUEWSC排行榜](#6、代词理解CLUEWSC排行榜)
-  - [【语言理解】分类能力排行榜](#7、分类能力排行榜)
-  - [【语言理解】信息抽取能力排行榜](#8、信息抽取能力排行榜)
-  - [【语言理解】阅读理解能力排行榜](#9、阅读理解能力排行榜)
-  - [【传统文化】诗词匹配CCPM排行榜](#10、诗词匹配CCPM排行榜)
-  - [数据分析排行榜](#11、数据分析排行榜)
-  - [中文指令遵从排行榜](#12、中文指令遵从排行榜)
-  - [中文编码效率排行榜](#13、中文编码效率排行榜)
+  - [【逻辑推理】律师资格考试排行榜](#3、律师资格考试排行榜)
+  - [【逻辑推理】符号推理BBH排行榜](#4、符号推理BBH排行榜)
+  - [【数学计算】初中数学排行榜](#5、初中数学排行榜)
+  - [【数学计算】算术能力排行榜](#6、算术能力排行榜)
+  - [【语言理解】代词理解CLUEWSC排行榜](#7、代词理解CLUEWSC排行榜)
+  - [【语言理解】分类能力排行榜](#8、分类能力排行榜)
+  - [【语言理解】信息抽取能力排行榜](#9、信息抽取能力排行榜)
+  - [【语言理解】阅读理解能力排行榜](#10、阅读理解能力排行榜)
+  - [【传统文化】诗词匹配CCPM排行榜](#11、诗词匹配CCPM排行榜)
+  - [数据分析排行榜](#12、数据分析排行榜)
+  - [中文指令遵从排行榜](#13、中文指令遵从排行榜)
+  - [中文编码效率排行榜](#14、中文编码效率排行榜)
 - [🌐各项能力评分](#🌐各项能力评分)
 - [⚖️原始评测数据](#⚖️原始评测数据)
 - [为什么做榜单？](#为什么做榜单)
 
 
 ## 最近更新
+- [2025/1/22] 发布v2.10版本评测榜单
+  - 新增律师资格考试JEC-QA，暂不计入总分
+  - 新增7个模型：ministral-3b、Mistral-7B-Instruct-v0.3、Mistral-Nemo-Instruct-2407、ministral-8b、Mixtral-8x7B-Instruct-v0.1、Llama-3.1-Nemotron-70B-Instruct-fp8、WizardLM-2-8x22B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/1/20] 发布v2.9版本评测榜单
   - 新增公务员考试kaogong榜单，暂不计入总分
   - 新增5个模型：Llama-3.2-1B-Instruct、Llama-3.2-3B-Instruct、Llama-3.1-8B-Instruct-fp8、Llama-3.3-70B-Instruct-fp8、Llama-3.1-70B-Instruct-fp8，☛查看[模型完整信息](https://easyllm.site/static/models.html)
@@ -156,19 +160,22 @@
 |Doubao-pro-32k☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|86.0|88.1|96.7|                    86.7|85.0|98.2|91.0|84.3|                    92.0|88.1|89.6|3|
 |Llama-3.3-70B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|4.13元|97.0|94.8|93.3|                    99.3|80.9|93.5|75.8|90.1|                    87.5|79.4|89.2|4|
 |Llama-3.3-70B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|2.2元|93.0|96.3|94.7|                    100.0|83.5|94.2|70.5|89.9|                    87.1|77.2|88.6|5|
-|ERNIE-3.5-8K☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|94.0|89.6|98.0|                    100.0|72.0|100.0|81.8|68.8|                    91.3|86.2|88.2|6|
-|gemini-1.5-flash☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2.2元|91.0|87.4|92.7|                    97.3|77.0|91.8|88.7|83.3|                    88.5|83.9|88.2|7|
-|Meta-Llama-3.1-70B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|2.2元|92.0|93.3|96.0|                    97.3|76.3|94.2|59.8|86.5|                    88.9|79.8|86.4|8|
-|gpt-4o-mini☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|4.3元|90.0|93.3|89.3|                    100.0|83.0|92.7|80.7|65.6|                    84.7|77.7|85.7|9|
-|qwen-plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|88.0|89.6|90.0|                    84.0|73.0|93.0|91.4|67.7|                    93.0|86.3|85.6|10|
-|gemini-1.5-flash-8b☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|1.1元|93.0|90.4|96.7|                    99.3|84.7|77.3|81.3|71.7|                    79.1|79.6|85.3|11|
-|gemma-2-27b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.26元|92.0|93.3|94.7|                    96.7|83.1|88.3|66.4|74.8|                    80.5|80.0|85.0|12|
-|qwen-long☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|89.0|85.9|90.0|                    86.7|75.0|83.3|91.3|64.6|                    92.3|86.3|84.4|13|
-|qwen2.5-7b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|2元|85.0|88.1|93.3|                    91.3|77.0|89.8|79.9|61.7|                    90.6|83.4|84.0|14|
-|step-1-flash☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|4元|91.0|85.2|90.7|                    100.0|76.7|84.5|69.2|75.3|                    84.7|80.2|83.8|15|
-|Llama-3.1-70B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|4.1元|87.0|88.9|92.0|                    90.7|79.0|94.8|49.2|84.0|                    88.9|81.1|83.6|16|
-|hunyuan-standard☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|87.0|89.6|93.3|                    85.3|74.0|83.0|80.0|72.3|                    86.8|75.4|82.7|17|
-|Yi-1.5-34B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.3元|90.0|83.0|82.7|                    83.3|74.0|79.0|75.6|77.2|                    84.0|81.3|81.0|18|
+|Llama-3.1-Nemotron-70B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|2.2元|97.0|97.8|98.7|                    100.0|75.8|93.5|64.1|84.6|                    89.2|81.6|88.2|6|
+|ERNIE-3.5-8K☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|94.0|89.6|98.0|                    100.0|72.0|100.0|81.8|68.8|                    91.3|86.2|88.2|7|
+|gemini-1.5-flash☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2.2元|91.0|87.4|92.7|                    97.3|77.0|91.8|88.7|83.3|                    88.5|83.9|88.2|8|
+|Meta-Llama-3.1-70B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|2.2元|92.0|93.3|96.0|                    97.3|76.3|94.2|59.8|86.5|                    88.9|79.8|86.4|9|
+|gpt-4o-mini☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|4.3元|90.0|93.3|89.3|                    100.0|83.0|92.7|80.7|65.6|                    84.7|77.7|85.7|10|
+|qwen-plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|88.0|89.6|90.0|                    84.0|73.0|93.0|91.4|67.7|                    93.0|86.3|85.6|11|
+|gemini-1.5-flash-8b☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|1.1元|93.0|90.4|96.7|                    99.3|84.7|77.3|81.3|71.7|                    79.1|79.6|85.3|12|
+|gemma-2-27b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.26元|92.0|93.3|94.7|                    96.7|83.1|88.3|66.4|74.8|                    80.5|80.0|85.0|13|
+|qwen-long☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|89.0|85.9|90.0|                    86.7|75.0|83.3|91.3|64.6|                    92.3|86.3|84.4|14|
+|qwen2.5-7b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|2元|85.0|88.1|93.3|                    91.3|77.0|89.8|79.9|61.7|                    90.6|83.4|84.0|15|
+|WizardLM-2-8x22B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|3.6元|94.0|91.9|86.0|                    97.3|74.2|84.5|64.9|80.3|                    92.7|73.2|83.9|16|
+|step-1-flash☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|4元|91.0|85.2|90.7|                    100.0|76.7|84.5|69.2|75.3|                    84.7|80.2|83.8|17|
+|Llama-3.1-70B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|4.1元|87.0|88.9|92.0|                    90.7|79.0|94.8|49.2|84.0|                    88.9|81.1|83.6|18|
+|hunyuan-standard☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|87.0|89.6|93.3|                    85.3|74.0|83.0|80.0|72.3|                    86.8|75.4|82.7|19|
+|Yi-1.5-34B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.3元|90.0|83.0|82.7|                    83.3|74.0|79.0|75.6|77.2|                    84.0|81.3|81.0|20|
+|Mixtral-8x7B-Instruct-v0.1(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.74元|92.0|86.7|83.3|                    90.0|64.4|69.8|46.8|63.0|                    81.2|73.0|75.0|21|
 
 <br>
 
@@ -183,17 +190,21 @@
 |GLM-4-Long☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|1元|85.0|93.3|89.3|                    96.7|80.0|81.2|79.0|81.2|                    88.9|81.6|85.6|6|
 |abab6.5s-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|1元|87.0|88.0|88.7|                    88.0|80.0|91.7|75.9|75.8|                    89.2|80.3|84.5|7|
 |GLM-4-Air☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|1元|89.0|91.9|92.7|                    88.0|83.0|74.5|78.1|56.8|                    89.2|83.7|82.7|8|
-|qwen-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0.6元|83.0|85.2|88.0|                    76.0|66.0|81.3|89.6|64.4|                    91.6|83.2|80.8|9|
-|internlm2_5-7b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.4元|86.0|84.4|90.0|                    83.3|79.0|59.8|81.1|73.5|                    87.1|83.0|80.7|10|
-|gemma-2-9b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.6元|85.0|82.2|88.7|                    87.3|81.0|89.3|67.4|59.9|                    81.9|78.5|80.1|11|
-|GLM-4-Flash☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0元|89.0|80.0|86.0|                    82.0|79.0|75.5|78.3|61.7|                    89.2|80.3|80.1|12|
-|ERNIE-Speed-8K☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0元|88.0|88.1|88.0|                    89.3|68.0|68.7|65.7|54.1|                    86.4|80.5|77.7|13|
-|Yi-1.5-9B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.4元|82.0|83.0|84.7|                    80.0|72.0|73.8|54.7|70.8|                    85.4|75.8|76.2|14|
-|Meta-Llama-3.1-8B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.36元|77.0|89.6|89.3|                    93.3|67.4|89.8|33.1|70.1|                    68.6|77.2|75.5|15|
-|Llama-3.1-8B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.4元|63.0|85.2|82.0|                    84.0|69.0|90.5|50.4|65.7|                    71.8|77.9|74.0|16|
-|Doubao-lite-32k☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0.6元|77.0|86.7|88.7|                    64.7|62.0|87.2|71.8|52.3|                    79.4|64.6|73.4|17|
-|Llama-3.2-3B-Instruct(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.18元|74.0|83.0|83.3|                    88.7|74.6|89.7|46.2|58.1|                    63.4|69.6|73.1|18|
-|Llama-3.2-1B-Instruct(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.15元|56.0|71.9|66.7|                    54.0|61.0|67.3|23.3|22.2|                    56.1|53.0|53.2|19|
+|ministral-8b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0.72元|88.0|90.4|92.0|                    99.3|78.6|85.5|69.0|71.4|                    87.5|59.4|82.1|9|
+|qwen-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0.6元|83.0|85.2|88.0|                    76.0|66.0|81.3|89.6|64.4|                    91.6|83.2|80.8|10|
+|internlm2_5-7b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.4元|86.0|84.4|90.0|                    83.3|79.0|59.8|81.1|73.5|                    87.1|83.0|80.7|11|
+|gemma-2-9b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.6元|85.0|82.2|88.7|                    87.3|81.0|89.3|67.4|59.9|                    81.9|78.5|80.1|12|
+|GLM-4-Flash☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0元|89.0|80.0|86.0|                    82.0|79.0|75.5|78.3|61.7|                    89.2|80.3|80.1|13|
+|Mistral-Nemo-Instruct-2407(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.58元|89.0|91.9|92.7|                    93.3|75.0|79.3|52.4|69.9|                    81.9|75.2|80.1|14|
+|ERNIE-Speed-8K☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0元|88.0|88.1|88.0|                    89.3|68.0|68.7|65.7|54.1|                    86.4|80.5|77.7|15|
+|Yi-1.5-9B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.4元|82.0|83.0|84.7|                    80.0|72.0|73.8|54.7|70.8|                    85.4|75.8|76.2|16|
+|Meta-Llama-3.1-8B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.36元|77.0|89.6|89.3|                    93.3|67.4|89.8|33.1|70.1|                    68.6|77.2|75.5|17|
+|ministral-3b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0.29元|83.0|87.4|86.0|                    84.0|77.1|66.3|64.4|64.5|                    67.5|64.1|74.4|18|
+|Llama-3.1-8B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.4元|63.0|85.2|82.0|                    84.0|69.0|90.5|50.4|65.7|                    71.8|77.9|74.0|19|
+|Doubao-lite-32k☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0.6元|77.0|86.7|88.7|                    64.7|62.0|87.2|71.8|52.3|                    79.4|64.6|73.4|20|
+|Llama-3.2-3B-Instruct(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.18元|74.0|83.0|83.3|                    88.7|74.6|89.7|46.2|58.1|                    63.4|69.6|73.1|21|
+|Mistral-7B-Instruct-v0.3(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.4元|82.0|80.7|86.7|                    83.3|68.2|33.5|31.7|56.4|                    76.3|73.0|67.2|22|
+|Llama-3.2-1B-Instruct(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.15元|56.0|71.9|66.7|                    54.0|61.0|67.3|23.3|22.2|                    56.1|53.0|53.2|23|
 
 <br>
 
@@ -209,10 +220,11 @@
 | 类别 | 大模型                        | 分类能力 | 信息抽取 | 阅读理解 | 数据分析 | 指令遵从 | 算术运算 |初中数学|符号推理|代词理解|诗词匹配|总分   | 排名 |
 |----|----------------------------|------|--------|--------|------|------|----|------|----|---|----|---|----|
 |开源|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|81.0|75.6|78.7|83.3|                        77.0|85.7|75.5|43.5|84.3|                        80.3|76.5|1|
-|开源|Llama-3.2-3B-Instruct(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|74.0|83.0|83.3|88.7|                        74.6|89.7|46.2|58.1|63.4|                        69.6|73.1|2|
-|开源|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|70.0|71.9|72.7|63.3|                        62.0|83.3|56.1|34.0|36.2|                        75.1|62.5|3|
-|开源|Llama-3.2-1B-Instruct(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|56.0|71.9|66.7|54.0|                        61.0|67.3|23.3|22.2|56.1|                        53.0|53.2|4|
-|开源|qwen2.5-0.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|52.0|53.3|63.3|46.0|                        58.0|51.8|36.6|15.7|48.1|                        50.4|47.5|5|
+|商用|ministral-3b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|83.0|87.4|86.0|84.0|                        77.1|66.3|64.4|64.5|67.5|                        64.1|74.4|2|
+|开源|Llama-3.2-3B-Instruct(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|74.0|83.0|83.3|88.7|                        74.6|89.7|46.2|58.1|63.4|                        69.6|73.1|3|
+|开源|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|70.0|71.9|72.7|63.3|                        62.0|83.3|56.1|34.0|36.2|                        75.1|62.5|4|
+|开源|Llama-3.2-1B-Instruct(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|56.0|71.9|66.7|54.0|                        61.0|67.3|23.3|22.2|56.1|                        53.0|53.2|5|
+|开源|qwen2.5-0.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|52.0|53.3|63.3|46.0|                        58.0|51.8|36.6|15.7|48.1|                        50.4|47.5|6|
 
 <br>
 
@@ -224,12 +236,15 @@
 |开源|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|86.0|90.4|86.0|97.3|                        75.0|89.7|86.8|78.7|88.2|                        82.2|86.0|3|
 |商用|gemini-1.5-flash-8b☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|93.0|90.4|96.7|99.3|                        84.7|77.3|81.3|71.7|79.1|                        79.6|85.3|4|
 |开源|qwen2.5-7b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|85.0|88.1|93.3|91.3|                        77.0|89.8|79.9|61.7|90.6|                        83.4|84.0|5|
-|开源|internlm2_5-7b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|86.0|84.4|90.0|83.3|                        79.0|59.8|81.1|73.5|87.1|                        83.0|80.7|6|
-|开源|glm-4-9b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|90.0|82.2|90.0|82.0|                        79.0|76.5|74.5|62.4|88.9|                        80.3|80.6|7|
-|开源|gemma-2-9b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|85.0|82.2|88.7|87.3|                        81.0|89.3|67.4|59.9|81.9|                        78.5|80.1|8|
-|开源|Yi-1.5-9B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|82.0|83.0|84.7|80.0|                        72.0|73.8|54.7|70.8|85.4|                        75.8|76.2|9|
-|开源|Meta-Llama-3.1-8B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|77.0|89.6|89.3|93.3|                        67.4|89.8|33.1|70.1|68.6|                        77.2|75.5|10|
-|开源|Llama-3.1-8B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|63.0|85.2|82.0|84.0|                        69.0|90.5|50.4|65.7|71.8|                        77.9|74.0|11|
+|商用|ministral-8b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|88.0|90.4|92.0|99.3|                        78.6|85.5|69.0|71.4|87.5|                        59.4|82.1|6|
+|开源|internlm2_5-7b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|86.0|84.4|90.0|83.3|                        79.0|59.8|81.1|73.5|87.1|                        83.0|80.7|7|
+|开源|glm-4-9b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|90.0|82.2|90.0|82.0|                        79.0|76.5|74.5|62.4|88.9|                        80.3|80.6|8|
+|开源|gemma-2-9b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|85.0|82.2|88.7|87.3|                        81.0|89.3|67.4|59.9|81.9|                        78.5|80.1|9|
+|开源|Mistral-Nemo-Instruct-2407(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|89.0|91.9|92.7|93.3|                        75.0|79.3|52.4|69.9|81.9|                        75.2|80.1|10|
+|开源|Yi-1.5-9B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|82.0|83.0|84.7|80.0|                        72.0|73.8|54.7|70.8|85.4|                        75.8|76.2|11|
+|开源|Meta-Llama-3.1-8B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|77.0|89.6|89.3|93.3|                        67.4|89.8|33.1|70.1|68.6|                        77.2|75.5|12|
+|开源|Llama-3.1-8B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|63.0|85.2|82.0|84.0|                        69.0|90.5|50.4|65.7|71.8|                        77.9|74.0|13|
+|开源|Mistral-7B-Instruct-v0.3(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|82.0|80.7|86.7|83.3|                        68.2|33.5|31.7|56.4|76.3|                        73.0|67.2|14|
 
 <br>
 
@@ -241,11 +256,14 @@
 |开源|Llama-3.3-70B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|97.0|94.8|93.3|99.3|                        80.9|93.5|75.8|90.1|87.5|                        79.4|89.2|3|
 |开源|qwen2.5-32b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|91.0|94.1|96.0|91.3|                        83.0|94.0|90.3|66.6|94.1|                        88.2|88.9|4|
 |开源|Llama-3.3-70B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|93.0|96.3|94.7|100.0|                        83.5|94.2|70.5|89.9|87.1|                        77.2|88.6|5|
-|开源|Meta-Llama-3.1-405B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|90.0|90.4|98.7|98.7|                        76.7|95.0|64.2|91.0|88.9|                        79.7|87.4|6|
-|开源|Meta-Llama-3.1-70B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|92.0|93.3|96.0|97.3|                        76.3|94.2|59.8|86.5|88.9|                        79.8|86.4|7|
-|开源|gemma-2-27b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|92.0|93.3|94.7|96.7|                        83.1|88.3|66.4|74.8|80.5|                        80.0|85.0|8|
-|开源|Llama-3.1-70B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|87.0|88.9|92.0|90.7|                        79.0|94.8|49.2|84.0|88.9|                        81.1|83.6|9|
-|开源|Yi-1.5-34B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|90.0|83.0|82.7|83.3|                        74.0|79.0|75.6|77.2|84.0|                        81.3|81.0|10|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|97.0|97.8|98.7|100.0|                        75.8|93.5|64.1|84.6|89.2|                        81.6|88.2|6|
+|开源|Meta-Llama-3.1-405B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|90.0|90.4|98.7|98.7|                        76.7|95.0|64.2|91.0|88.9|                        79.7|87.4|7|
+|开源|Meta-Llama-3.1-70B-Instruct-fp8(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|92.0|93.3|96.0|97.3|                        76.3|94.2|59.8|86.5|88.9|                        79.8|86.4|8|
+|开源|gemma-2-27b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|92.0|93.3|94.7|96.7|                        83.1|88.3|66.4|74.8|80.5|                        80.0|85.0|9|
+|开源|WizardLM-2-8x22B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|94.0|91.9|86.0|97.3|                        74.2|84.5|64.9|80.3|92.7|                        73.2|83.9|10|
+|开源|Llama-3.1-70B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|87.0|88.9|92.0|90.7|                        79.0|94.8|49.2|84.0|88.9|                        81.1|83.6|11|
+|开源|Yi-1.5-34B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|90.0|83.0|82.7|83.3|                        74.0|79.0|75.6|77.2|84.0|                        81.3|81.0|12|
+|开源|Mixtral-8x7B-Instruct-v0.1(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|92.0|86.7|83.3|90.0|                        64.4|69.8|46.8|63.0|81.2|                        73.0|75.0|13|
 
 <br><br>
 
@@ -267,7 +285,23 @@
 <br><br>
 
 
-### 3、【逻辑推理】符号推理BBH排行榜
+### 3、【逻辑推理】律师资格考试排行榜
+律师资格考试选择题，共2000道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。
+评测样本举例：
+> 中国商务部决定对原产于马来西亚等八国的橡胶制品展开反补贴调查。根据我国《反补贴条例》以及相关法律法规，下列关于此次反补贴调查的哪项判断是正确的?（请选择一个或多个选项）    
+(A)我国商务部在确定进口橡胶制品是否存在补贴时必须证明出国(地区)政府直接向出口商提供了现金形式的财政资助   
+(B)在反补贴调查期间，该八国政府或橡胶制品的出口经营者，可以向中国商务部作出承诺，取消、限制补贴或改变价格    
+(C)如果我国商务部终局裁定决定对该八国进口橡胶制品征收反补贴税，该反补贴税的征收期限不得超过10年   
+(D)如果中国橡胶制品进口商对商务部征收反补贴税的终局裁定不服，必须首先向商务部请求行政复审，对行政复审决定还不服，才能向中国有管辖权的法院起诉    
+> 
+
+![lin](pic/jecqa.png)
+☛查看[律师资格考试（一）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=JEC-QA-KD)
+☛查看[律师资格考试（二）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=JEC-QA-CA)
+<br><br>
+
+
+### 4、【逻辑推理】符号推理BBH排行榜
 学术界最常用的符号推理评测集，包含23个子任务，详细介绍见[BBH](https://easyllm.site/static/benchmarks.html)。
 评测样本举例：
 > Task description: Answer questions about which times certain events could have occurred.  
@@ -293,7 +327,7 @@ A:
 <br><br>
 
 
-### 4、【数学计算】初中数学排行榜
+### 5、【数学计算】初中数学排行榜
 七/八/九年级的平均分计入总分。<br>
 评分标准：七、八、九年级分别有40道题、21道题、36道题，所有题目都只判断对错（没有中间分数）。对于任何题目，只有模型response完全正确才给分，部分正确或错误都不得分。<br>
 评测样本举例：
@@ -310,7 +344,7 @@ A:
 <br><br>
 
 
-### 5、【数学计算】算术能力排行榜
+### 6、【数学计算】算术能力排行榜
 考查大模型的数学基础能力之算数能力，测试题目为1000以内的整数加减法、不超过2位有效数字的浮点数加减乘除。
 举例：166 + 215 + 53 = ？，0.97 + 0.4 / 4.51 = ？
 
@@ -319,7 +353,7 @@ A:
 <br><br>
 
 
-### 6、代词理解CLUEWSC排行榜
+### 7、代词理解CLUEWSC排行榜
 中文指代消解任务，参考[CLUEWSC2020](https://github.com/CLUEbenchmark/CLUEWSC2020)。
 评测样本举例：
 > 少平仍然不知道怎样给奶奶说清他姐夫的事，就只好随口说：“他犯了点错误，人家让他劳教！”  
@@ -333,7 +367,7 @@ A:
 <br><br>
 
 
-### 7、分类能力排行榜
+### 8、分类能力排行榜
 评测样本举例：
 > 将下列单词按词性分类。    
 > 狗，追，跑，大人，高兴，树
@@ -343,7 +377,7 @@ A:
 <br><br>
 
 
-### 8、信息抽取能力排行榜
+### 9、信息抽取能力排行榜
 评测样本举例：  
 > “中信银行3亿元，交通银行增长约2.7亿元，光大银行约1亿元。”    
 > 提取出以上文本中的所有组织机构名称
@@ -353,7 +387,7 @@ A:
 <br><br>
 
 
-### 9、阅读理解能力排行榜
+### 10、阅读理解能力排行榜
 阅读理解能力是一种符合能力，考查针对给定信息的理解能力。
 依据给定信息的种类，可以细分为：文章问答、表格问答、对话问答……    
 评测样本举例：
@@ -372,7 +406,7 @@ A:
 <br><br>
 
 
-### 10、诗词匹配CCPM排行榜
+### 11、诗词匹配CCPM排行榜
 中国古典诗歌匹配，给定中国古典诗歌的现代问描述，要求从候选的四句诗中选出与现代文描述语义匹配的那一句。
 利用古典诗歌和现代文翻译的平行语料构建正确选项，并利用正确选项从古代诗歌语料库中利用相似检索构造出错误候选。
 参考[CCPM](https://github.com/THUNLP-AIPoet/CCPM)。
@@ -390,7 +424,7 @@ A:
 <br><br>
 
 
-### 11、数据分析排行榜
+### 12、数据分析排行榜
 专门考查大模型对表格的理解分析能力，常用于数据分析。    
 评测样本举例：
 > 姓名,年龄,性别,国籍,身高(cm),体重(kg),学历   
@@ -409,7 +443,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br>
 
 
-### 12、中文指令遵从排行榜
+### 13、中文指令遵从排行榜
 参考谷歌IFEval，并将其翻译和适配到中文，精选9类25种指令，说明如下：
 ![lin](pic/IFEval.jpg)
 
@@ -418,7 +452,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br>
 
 
-### 13、中文编码效率排行榜
+### 14、中文编码效率排行榜
 暂不计入综合能力评分。
 专门考查大模型编码中文字符的效率，同等尺寸大模型，编码效率越高推理速度越快，几乎成正比。
 中文编码效率相当于大模型生成的每个token解码后对应的中文平均字数
