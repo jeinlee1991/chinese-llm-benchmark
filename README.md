@@ -282,7 +282,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ### 2、【学科知识】高考排行榜
-历年高考题，共1500多道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)
+历年高考题，共1500多道，绝大部分为选择题，少部分为填空题，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)
 ![lin](pic/gaokao.png)
 <br>
 #### （1）高考生物
