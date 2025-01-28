@@ -28,7 +28,7 @@
 |商用|Baichuan4-Air|84.0|25|
 |商用|ERNIE-4.0|84.0|26|
 |商用|gemini-1.5-flash|83.9|27|
-|商用|360gpt2-o1(new)|83.8|28|
+|商用|360gpt2-o1|83.8|28|
 |商用|GLM-4-Air|83.7|29|
 |商用|GLM-4-AirX|83.7|30|
 |开源|qwen2.5-7b-instruct|83.4|31|
@@ -37,16 +37,16 @@
 |开源|internlm2_5-7b-chat|83.0|34|
 |商用|GLM4|83.0|35|
 |商用|step-1-8k|83.0|36|
-|开源|Hermes-3-Llama-3.1-405B(new)|83.0|37|
+|开源|Hermes-3-Llama-3.1-405B|83.0|37|
 |商用|moonshot-v1-8k|82.9|38|
 |商用|SenseChat-Turbo|82.9|39|
 |商用|gpt-4o|82.7|40|
-|商用|mistral-large(new)|82.6|41|
+|商用|mistral-large|82.6|41|
 |商用|hunyuan-turbo|82.4|42|
 |开源|internlm2_5-20b-chat|82.2|43|
 |商用|GLM-4-Long|81.6|44|
 |商用|hunyuan-large|81.6|45|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8(new)|81.6|46|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|81.6|46|
 |开源|Yi-1.5-34B-Chat|81.3|47|
 |开源|Llama-3.1-70B-Instruct|81.1|48|
 |开源|phi-4|80.6|49|
@@ -59,7 +59,7 @@
 |开源|gemma-2-27b-it|80.0|56|
 |开源|Meta-Llama-3.1-70B-Instruct-fp8|79.8|57|
 |开源|Meta-Llama-3.1-405B-Instruct|79.7|58|
-|商用|mistral-small(new)|79.7|59|
+|商用|mistral-small|79.7|59|
 |商用|gemini-1.5-flash-8b|79.6|60|
 |开源|Llama-3.3-70B-Instruct|79.4|61|
 |开源|gemma-2-9b-it|78.5|62|
@@ -73,7 +73,7 @@
 |商用|hunyuan-standard|75.4|70|
 |开源|Mistral-Nemo-Instruct-2407|75.2|71|
 |开源|qwen2.5-1.5b-instruct|75.1|72|
-|开源|WizardLM-2-8x22B(new)|73.2|73|
+|开源|WizardLM-2-8x22B|73.2|73|
 |开源|Mistral-7B-Instruct-v0.3|73.0|74|
 |开源|Mixtral-8x7B-Instruct-v0.1|73.0|75|
 |开源|Llama-3.2-3B-Instruct|69.6|76|

@@ -7,7 +7,7 @@
 |商用|qwen-max|93.0|4|
 |商用|qwen-plus|93.0|5|
 |商用|GLM4|93.0|6|
-|开源|WizardLM-2-8x22B(new)|92.7|7|
+|开源|WizardLM-2-8x22B|92.7|7|
 |开源|qwen2.5-14b-instruct|92.7|8|
 |商用|hunyuan-large|92.7|9|
 |商用|ERNIE-4.0-Turbo-8K|92.7|10|
@@ -22,14 +22,14 @@
 |商用|xunfei-spark-max|91.6|19|
 |商用|gemini-1.5-pro|91.3|20|
 |商用|ERNIE-3.5-8K|91.3|21|
-|商用|mistral-large(new)|91.3|22|
+|商用|mistral-large|91.3|22|
 |开源|qwen2.5-72b-instruct|91.3|23|
 |商用|gemini-2.0-flash-exp|91.0|24|
 |商用|xunfei-spark-pro|90.9|25|
 |商用|step-1-8k|90.9|26|
 |商用|GLM-4-Plus|90.9|27|
 |开源|qwen2.5-7b-instruct|90.6|28|
-|商用|mistral-small(new)|90.6|29|
+|商用|mistral-small|90.6|29|
 |商用|yi-lightning|90.6|30|
 |商用|SenseChat-5|90.0|31|
 |商用|Baichuan4|90.0|32|
@@ -37,8 +37,8 @@
 |商用|360gpt2-pro|89.8|34|
 |商用|360gpt-turbo|89.8|35|
 |商用|abab6.5s-chat|89.2|36|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8(new)|89.2|37|
-|商用|360gpt2-o1(new)|89.2|38|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|89.2|37|
+|商用|360gpt2-o1|89.2|38|
 |商用|360gpt-pro|89.2|39|
 |商用|GLM-4-Flash|89.2|40|
 |商用|GLM-4-Air|89.2|41|
@@ -59,7 +59,7 @@
 |商用|hunyuan-standard|86.8|56|
 |商用|moonshot-v1-8k|86.4|57|
 |商用|ERNIE-Speed-8K|86.4|58|
-|开源|Hermes-3-Llama-3.1-405B(new)|86.1|59|
+|开源|Hermes-3-Llama-3.1-405B|86.1|59|
 |开源|Yi-1.5-9B-Chat|85.4|60|
 |商用|Baichuan4-Air|85.4|61|
 |商用|step-1-flash|84.7|62|

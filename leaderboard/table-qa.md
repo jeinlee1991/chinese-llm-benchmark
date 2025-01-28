@@ -6,9 +6,9 @@
 |商用|ERNIE-3.5-8K|100.0|3|
 |商用|yi-lightning|100.0|4|
 |开源|deepseek-chat-v3|100.0|5|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8(new)|100.0|6|
-|开源|Hermes-3-Llama-3.1-405B(new)|100.0|7|
-|商用|360gpt2-o1(new)|100.0|8|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|100.0|6|
+|开源|Hermes-3-Llama-3.1-405B|100.0|7|
+|商用|360gpt2-o1|100.0|8|
 |商用|360gpt-turbo|100.0|9|
 |商用|Baichuan4-Turbo|100.0|10|
 |商用|gemini-2.0-flash-exp|100.0|11|
@@ -35,11 +35,11 @@
 |商用|hunyuan-turbo|97.3|32|
 |商用|SenseChat-5|97.3|33|
 |开源|phi-4|97.3|34|
-|开源|WizardLM-2-8x22B(new)|97.3|35|
+|开源|WizardLM-2-8x22B|97.3|35|
 |开源|Meta-Llama-3.1-70B-Instruct-fp8|97.3|36|
 |商用|Baichuan4-Air|97.3|37|
-|商用|mistral-large(new)|97.3|38|
-|商用|mistral-small(new)|96.7|39|
+|商用|mistral-large|97.3|38|
+|商用|mistral-small|96.7|39|
 |商用|hunyuan-large|96.7|40|
 |商用|GLM-4-Long|96.7|41|
 |开源|gemma-2-27b-it|96.7|42|

@@ -2,9 +2,9 @@
 | 类别| 大模型                         | 分类能力 | 排名 |
 |---|-----------------------------|------|----|
 |商用|360gpt2-pro|99.0|1|
-|商用|360gpt2-o1(new)|98.0|2|
+|商用|360gpt2-o1|98.0|2|
 |商用|Claude-3.5-Sonnet|97.0|3|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8(new)|97.0|4|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|97.0|4|
 |商用|gemini-2.0-flash-exp|97.0|5|
 |商用|360gpt-pro|97.0|6|
 |开源|Llama-3.3-70B-Instruct|97.0|7|
@@ -12,8 +12,8 @@
 |开源|phi-4|96.0|9|
 |商用|step-1-8k|96.0|10|
 |商用|yi-lightning|94.0|11|
-|开源|Hermes-3-Llama-3.1-405B(new)|94.0|12|
-|开源|WizardLM-2-8x22B(new)|94.0|13|
+|开源|Hermes-3-Llama-3.1-405B|94.0|12|
+|开源|WizardLM-2-8x22B|94.0|13|
 |商用|ERNIE-3.5-8K|94.0|14|
 |商用|hunyuan-turbo|93.0|15|
 |开源|deepseek-chat-v3|93.0|16|
@@ -30,7 +30,7 @@
 |开源|Mixtral-8x7B-Instruct-v0.1|92.0|27|
 |商用|hunyuan-large|91.0|28|
 |商用|gemini-1.5-flash|91.0|29|
-|商用|mistral-small(new)|91.0|30|
+|商用|mistral-small|91.0|30|
 |商用|step-1-flash|91.0|31|
 |商用|Baichuan4-Turbo|91.0|32|
 |开源|qwen2.5-32b-instruct|91.0|33|
@@ -52,7 +52,7 @@
 |商用|xunfei-4.0Ultra|88.0|49|
 |商用|qwen-plus|88.0|50|
 |商用|ERNIE-Speed-8K|88.0|51|
-|商用|mistral-large(new)|88.0|52|
+|商用|mistral-large|88.0|52|
 |商用|ministral-8b|88.0|53|
 |商用|xunfei-spark-max|87.0|54|
 |商用|GLM-4-Plus|87.0|55|

@@ -1,8 +1,8 @@
 
 | 类别| 大模型                         | 信息抽取能力 | 排名 |
 |---|-----------------------------|--------|----|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8(new)|97.8|1|
-|商用|mistral-large(new)|97.0|2|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|97.8|1|
+|商用|mistral-large|97.0|2|
 |商用|360gpt-turbo|97.0|3|
 |开源|deepseek-chat-v3|97.0|4|
 |商用|gpt-4o|96.3|5|
@@ -12,7 +12,7 @@
 |开源|Llama-3.3-70B-Instruct|94.8|9|
 |商用|ERNIE-4.0-Turbo-8K|94.8|10|
 |商用|Claude-3.5-Sonnet|94.8|11|
-|商用|360gpt2-o1(new)|94.1|12|
+|商用|360gpt2-o1|94.1|12|
 |开源|qwen2.5-32b-instruct|94.1|13|
 |商用|Baichuan4|94.1|14|
 |开源|phi-4|93.3|15|
@@ -22,16 +22,16 @@
 |商用|step-1-8k|93.3|19|
 |商用|gpt-4o-mini|93.3|20|
 |商用|Baichuan4-Turbo|93.3|21|
-|开源|Hermes-3-Llama-3.1-405B(new)|92.6|22|
+|开源|Hermes-3-Llama-3.1-405B|92.6|22|
 |商用|xunfei-spark-max|92.0|23|
-|开源|WizardLM-2-8x22B(new)|91.9|24|
+|开源|WizardLM-2-8x22B|91.9|24|
 |商用|360gpt2-pro|91.9|25|
 |商用|Baichuan4-Air|91.9|26|
 |商用|GLM-4-Plus|91.9|27|
 |商用|GLM-4-AirX|91.9|28|
 |商用|GLM-4-Air|91.9|29|
 |开源|Mistral-Nemo-Instruct-2407|91.9|30|
-|商用|mistral-small(new)|91.1|31|
+|商用|mistral-small|91.1|31|
 |商用|gemini-1.5-flash-8b|90.4|32|
 |商用|yi-lightning|90.4|33|
 |开源|qwen2.5-14b-instruct|90.4|34|
