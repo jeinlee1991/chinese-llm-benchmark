@@ -1,8 +1,8 @@
 
 | 类别 | 大模型                         | 总分  | 排名 |
 |-----|------------------------------|------|----|
-|商用|hunyuan-large|87.3|1|
-|开源|DeepSeek-R1(new)|86.4|2|
+|开源|DeepSeek-R1(new)|90.0|1|
+|商用|hunyuan-large|87.3|2|
 |商用|hunyuan-turbo|85.9|3|
 |商用|ERNIE-4.0|84.8|4|
 |商用|ERNIE-4.0-Turbo-8K|84.1|5|
@@ -23,8 +23,8 @@
 |商用|SenseChat-5|81.4|20|
 |商用|360gpt2-o1|81.2|21|
 |开源|qwen2.5-32b-instruct|81.1|22|
-|开源|DeepSeek-R1-Distill-Qwen-14B(new)|81.0|23|
-|商用|xunfei-spark-max|80.9|24|
+|商用|xunfei-spark-max|80.9|23|
+|开源|DeepSeek-R1-Distill-Qwen-14B(new)|80.9|24|
 |开源|DeepSeek-R1-Distill-Llama-70B(new)|80.9|25|
 |商用|yi-lightning|80.8|26|
 |商用|step-1-8k|80.7|27|
@@ -86,7 +86,7 @@
 |开源|Llama-3.2-3B-Instruct|60.2|83|
 |开源|qwen2.5-1.5b-instruct|55.9|84|
 |开源|Mistral-7B-Instruct-v0.3|55.6|85|
-|开源|DeepSeek-R1-Distill-Qwen-1.5B(new)|55.4|86|
+|开源|DeepSeek-R1-Distill-Qwen-1.5B(new)|55.3|86|
 |开源|Llama-3.2-1B-Instruct|45.9|87|
 |开源|qwen2.5-0.5b-instruct|41.8|88|
 |商用|o1-mini|/|89|
