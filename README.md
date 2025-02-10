@@ -1,7 +1,7 @@
 
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括164个大模型，覆盖chatgpt、gpt-4o、谷歌gemini、Claude3.5、百度文心一言、千问、百川、讯飞星火、商汤senseChat、minimax等商用模型，
-以及deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、书生internLM2.5等开源大模型。
+- 目前已囊括171个大模型，覆盖chatgpt、gpt-4o、谷歌gemini、Claude3.5、百度文心一言、千问、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+以及DeepSeek-R1、deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、书生internLM2.5等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试、律师资格考试、高考、常识推理、文本蕴含、中文编码效率。
 - 不仅提供能力评分排行榜，也提供所有模型的原始输出结果！有兴趣的朋友可以自己打分、自己排行！
@@ -43,6 +43,8 @@
 
 
 ## 最近更新
+- [2025/2/10] 发布v2.14版本评测榜单
+  - 新增7个模型：DeepSeek-R1、DeepSeek-R1-Distill-Qwen-1.5B、DeepSeek-R1-Distill-Qwen-7B、DeepSeek-R1-Distill-Llama-8B、DeepSeek-R1-Distill-Qwen-14B、DeepSeek-R1-Distill-Qwen-32B、DeepSeek-R1-Distill-Llama-70B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/1/29] 发布v2.13版本评测榜单
   - 新增常识推理排行榜、文本蕴含（语言理解）排行榜，并计入总分
   - 阅读理解评测样本增加至600多个，并更新各模型评分
