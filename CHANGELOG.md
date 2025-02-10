@@ -1,4 +1,24 @@
 ## 最近更新
+- [2025/2/10] 发布v2.14版本评测榜单
+  - 新增7个模型：DeepSeek-R1、DeepSeek-R1-Distill-Qwen-1.5B、DeepSeek-R1-Distill-Qwen-7B、DeepSeek-R1-Distill-Llama-8B、DeepSeek-R1-Distill-Qwen-14B、DeepSeek-R1-Distill-Qwen-32B、DeepSeek-R1-Distill-Llama-70B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+- [2025/1/29] 发布v2.13版本评测榜单
+  - 新增常识推理排行榜、文本蕴含（语言理解）排行榜，并计入总分
+  - 阅读理解评测样本增加至600多个，并更新各模型评分
+- [2025/1/25] 发布v2.12版本评测榜单
+  - 新增高考榜单及各学科细分榜单（生物、化学、语文、地理、历史、数学、物理），并以各科平均分（100分制）计入总分
+- [2025/1/23] 发布v2.11版本评测榜单
+  - 公务员考试kaogong、律师资格考试JEC-QA开始计入总分
+  - 新增4个模型：mistral-small、Hermes-3-Llama-3.1-405B、mistral-large、360gpt2-o1，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+- [2025/1/22] 发布v2.10版本评测榜单
+  - 新增律师资格考试JEC-QA榜单，暂不计入总分
+  - 新增7个模型：ministral-3b、Mistral-7B-Instruct-v0.3、Mistral-Nemo-Instruct-2407、ministral-8b、Mixtral-8x7B-Instruct-v0.1、Llama-3.1-Nemotron-70B-Instruct-fp8、WizardLM-2-8x22B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+- [2025/1/20] 发布v2.9版本评测榜单
+  - 新增公务员考试kaogong榜单，暂不计入总分
+  - 新增5个模型：Llama-3.2-1B-Instruct、Llama-3.2-3B-Instruct、Llama-3.1-8B-Instruct-fp8、Llama-3.3-70B-Instruct-fp8、Llama-3.1-70B-Instruct-fp8，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+- [2025/1/17] 发布v2.8版本评测榜单
+  - 新增9个模型：gemini-2.0-flash-exp、phi-4、gemini-1.5-flash-8b、360gpt-turbo、step-1-flash、Llama-3.3-70B-Instruct、360gpt-pro、360gpt2-pro、step-1-8k，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增o1-mini、o1-preview的初中数学成绩
+  - 删除陈旧的模型：abab5.5-chat、abab5.5s-chat
 - [2025/1/7] 发布v2.7版本评测榜单
   - 新增代词理解CLUEWSC榜单（比如“他”是指谁）、诗词匹配CCPM榜单
   - 新增5个模型：Claude-3.5-Sonnet、gemma-2-27b-it、Llama-3.1-405B-Instruct、Baichuan4-Air、Baichuan4-Turbo
