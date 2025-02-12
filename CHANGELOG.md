@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/2/12] 发布v2.15版本评测榜单
+  - 新增成语理解排行榜、情感分析排行榜，并计入总分
 - [2025/2/10] 发布v2.14版本评测榜单
   - 新增7个模型：DeepSeek-R1、DeepSeek-R1-Distill-Qwen-1.5B、DeepSeek-R1-Distill-Qwen-7B、DeepSeek-R1-Distill-Llama-8B、DeepSeek-R1-Distill-Qwen-14B、DeepSeek-R1-Distill-Qwen-32B、DeepSeek-R1-Distill-Llama-70B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/1/29] 发布v2.13版本评测榜单
