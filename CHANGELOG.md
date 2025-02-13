@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/2/13] 发布v2.16版本评测榜单
+  - 新增6个模型：qwq-32b-preview、o1-mini、o3-mini、gemini-2.0-pro-exp-02-05、gemini-2.0-flash-lite-preview-02-05、gemini-2.0-flash-001，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/2/12] 发布v2.15版本评测榜单
   - 新增成语理解排行榜、情感分析排行榜，并计入总分
 - [2025/2/10] 发布v2.14版本评测榜单
