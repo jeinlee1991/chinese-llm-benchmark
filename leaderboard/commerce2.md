@@ -22,5 +22,4 @@
 |SenseChat-Turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|5元|81.0|77.8|83.9|                    86.0|72.0|78.5|81.9|74.1|                    89.9|82.9|63.9|41.5|                    72.4|69.7|60.3|91.5|97.4|76.7|18|
 |qwen2.5-math-72b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|12元|90.5|88.8|72.0|                    100.0|59.7|97.7|96.4|59.0|                    87.5|76.0|68.0|31.0|                    71.7|70.7|60.7|77.4|95.7|76.6|19|
 |SenseChat-v4☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|12元|89.0|78.5|75.1|                    86.7|71.0|72.2|39.0|70.7|                    84.7|76.8|53.3|25.2|                    55.5|70.7|66.7|83.6|96.4|70.3|20|
-|gemini-1.0-pro☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|10.8元|84.0|89.6|74.1|                    99.3|76.0|50.8|40.6|75.0|                    67.6|76.3|49.2|24.2|                    54.0|65.7|60.3|77.9|94.1|68.2|21|
 
