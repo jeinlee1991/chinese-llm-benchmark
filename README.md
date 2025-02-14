@@ -1,6 +1,6 @@
 
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括177个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini、Claude3.5、百度文心一言、千问、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括187个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及DeepSeek-R1、deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、书生internLM2.5等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试、律师资格考试、高考、常识推理、文本蕴含、成语理解、情感分析、中文编码效率。
@@ -45,6 +45,8 @@
 
 
 ## 最近更新
+- [2025/2/13] 发布v2.17版本评测榜单
+  - 新增10个模型：GLM-Zero-Preview、MiniMax-Text-01、SenseChat-5-1202、SenseChat-Turbo-1202、GLM-4-FlashX、ERNIE-Lite-8K、ERNIE-Tiny-8K、ERNIE-Lite-Pro-128K、ERNIE-Speed-Pro-128K、qwen2.5-math-72b-instruct，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/2/13] 发布v2.16版本评测榜单
   - 新增6个模型：qwq-32b-preview、o1-mini、o3-mini、gemini-2.0-pro-exp-02-05、gemini-2.0-flash-lite-preview-02-05、gemini-2.0-flash-001，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/2/12] 发布v2.15版本评测榜单
