@@ -45,7 +45,7 @@
 
 
 ## 最近更新
-- [2025/2/13] 发布v2.17版本评测榜单
+- [2025/2/14] 发布v2.17版本评测榜单
   - 新增10个模型：GLM-Zero-Preview、MiniMax-Text-01、SenseChat-5-1202、SenseChat-Turbo-1202、GLM-4-FlashX、ERNIE-Lite-8K、ERNIE-Tiny-8K、ERNIE-Lite-Pro-128K、ERNIE-Speed-Pro-128K、qwen2.5-math-72b-instruct，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 删除陈旧的模型：GLM4、gemini-1.0-pro、Llama-3.1-70B-Instruct、Meta-Llama-3.1-70B-Instruct-fp8
 - [2025/2/13] 发布v2.16版本评测榜单
