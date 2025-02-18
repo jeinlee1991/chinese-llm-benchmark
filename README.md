@@ -48,7 +48,7 @@
 
 ## 最近更新
 - [2025/2/18] 发布v2.18版本评测榜单
-  - 新增2个模型：qwen2.5-max、gemini-2.0-flash-thinking-exp-01-21
+  - 新增2个模型：qwen2.5-max、gemini-2.0-flash-thinking-exp-01-21，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 新增演绎推理排行榜、C3中文阅读理解排行榜，并计入总分
 - [2025/2/14] 发布v2.17版本评测榜单
   - 新增10个模型：GLM-Zero-Preview、MiniMax-Text-01、SenseChat-5-1202、SenseChat-Turbo-1202、GLM-4-FlashX、ERNIE-Lite-8K、ERNIE-Tiny-8K、ERNIE-Lite-Pro-128K、ERNIE-Speed-Pro-128K、qwen2.5-math-72b-instruct，☛查看[模型完整信息](https://easyllm.site/static/models.html)
