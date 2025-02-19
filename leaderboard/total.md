@@ -4,10 +4,10 @@
 |开源|DeepSeek-R1|90.6|1|
 |商用|qwen2.5-max(new)|87.7|2|
 |商用|hunyuan-turbo|87.4|3|
-|商用|hunyuan-large|86.8|4|
-|商用|gemini-2.0-flash-thinking-exp-01-21(new)|86.7|5|
-|商用|GLM-4-Plus|86.5|6|
-|商用|ERNIE-4.0|86.3|7|
+|商用|gemini-2.0-flash-thinking-exp-01-21(new)|86.7|4|
+|商用|GLM-4-Plus|86.5|5|
+|商用|ERNIE-4.0|86.3|6|
+|商用|hunyuan-large|86.3|7|
 |商用|360gpt2-pro|86.1|8|
 |商用|360gpt-pro|85.8|9|
 |开源|DeepSeek-R1-Distill-Qwen-32B|85.7|10|

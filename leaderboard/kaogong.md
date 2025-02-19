@@ -2,16 +2,16 @@
 | 类别 | 大模型                         | 考公 | 排名 |
 |-----|------------------------------|---------|----|
 |开源|DeepSeek-R1|88.6|1|
-|商用|hunyuan-large|86.3|2|
-|商用|gemini-2.0-flash-thinking-exp-01-21(new)|85.1|3|
-|商用|hunyuan-turbo|82.6|4|
-|开源|qwq-32b-preview|78.0|5|
-|开源|DeepSeek-R1-Distill-Llama-70B|77.5|6|
-|商用|o1-mini|77.1|7|
-|商用|GLM-4-Plus|76.7|8|
-|商用|Doubao-pro-32k|76.3|9|
-|开源|DeepSeek-R1-Distill-Qwen-32B|76.2|10|
-|商用|ERNIE-4.0|76.0|11|
+|商用|gemini-2.0-flash-thinking-exp-01-21(new)|85.1|2|
+|商用|hunyuan-turbo|82.6|3|
+|开源|qwq-32b-preview|78.0|4|
+|开源|DeepSeek-R1-Distill-Llama-70B|77.5|5|
+|商用|o1-mini|77.1|6|
+|商用|GLM-4-Plus|76.7|7|
+|商用|Doubao-pro-32k|76.3|8|
+|开源|DeepSeek-R1-Distill-Qwen-32B|76.2|9|
+|商用|ERNIE-4.0|76.0|10|
+|商用|hunyuan-large|75.7|11|
 |商用|GLM-Zero-Preview(new)|75.6|12|
 |商用|abab7-chat-preview|74.0|13|
 |商用|gemini-2.0-pro-exp-02-05|73.7|14|
