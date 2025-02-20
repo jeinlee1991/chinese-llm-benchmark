@@ -3,7 +3,7 @@
 |-----|------------------------------|------|----|
 |开源|DeepSeek-R1|90.6|1|
 |商用|qwen2.5-max(new)|87.7|2|
-|商用|hunyuan-turbo|87.4|3|
+|商用|hunyuan-turbo|87.1|3|
 |商用|gemini-2.0-flash-thinking-exp-01-21(new)|86.7|4|
 |商用|GLM-4-Plus|86.5|5|
 |商用|ERNIE-4.0|86.3|6|
