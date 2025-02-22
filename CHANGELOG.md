@@ -1,4 +1,7 @@
 ## 最近更新
+- [2025/2/22] 发布v2.19版本评测榜单
+  - 新增6个模型：kimi-latest-8k、SenseChat-5-beta、chatgpt-4o-latest、Doubao-1.5-pro-32k-250115、Doubao-1.5-lite-32k-250115、360zhinao2-o1，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增推理类大模型排行榜，详见[link](leaderboard/reasonmodel.md)
 - [2025/2/18] 发布v2.18版本评测榜单
   - 新增2个模型：qwen2.5-max、gemini-2.0-flash-thinking-exp-01-21，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 新增演绎推理排行榜、C3中文阅读理解排行榜，并计入总分
