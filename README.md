@@ -12,6 +12,7 @@
 - [📝大模型基本信息](#大模型基本信息)
 - [📊排行榜](#-排行榜)
   - [综合能力排行榜](#1、综合能力排行榜)
+    - 推理类大模型排行榜
     - 商用大模型排行榜（含开源模型的付费API）
       - 输出价格30元及以上
       - 输出价格5~30元
@@ -47,6 +48,9 @@
 
 
 ## 最近更新
+- [2025/2/22] 发布v2.19版本评测榜单
+  - 新增6个模型：kimi-latest-8k、SenseChat-5-beta、chatgpt-4o-latest、Doubao-1.5-pro-32k-250115、Doubao-1.5-lite-32k-250115、360zhinao2-o1，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增推理类大模型排行榜，详见[link](leaderboard/reasonmodel.md)
 - [2025/2/18] 发布v2.18版本评测榜单
   - 新增2个模型：qwen2.5-max、gemini-2.0-flash-thinking-exp-01-21，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 新增演绎推理排行榜、C3中文阅读理解排行榜，并计入总分
@@ -133,10 +137,12 @@
 ### 1、综合能力排行榜
 综合能力得分为分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试kaogong、律师资格考试JEC-QA、高考、常识推理、文本蕴含、成语理解、情感分析、演绎推理、C3中文阅读理解等19项得分的平均值。
 ![lin](pic/total.png)    
-详细数据见[total](leaderboard/total.md)
-<br>
+详细数据见[total](leaderboard/total.md)<br>
 
-#### 1.1、商用大模型排行榜（含开源模型的付费API）
+#### 1.1、推理类模型排行榜
+完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
+
+#### 1.2、商用大模型排行榜（含开源模型的付费API）
 ##### （1）输出价格30元及以上商用大模型排行榜
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br>
 
@@ -156,7 +162,7 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 [更多](http://easyllm.site/static/badcase.html)
 <br><br>
 
-#### 1.2、开源大模型排行榜
+#### 1.3、开源大模型排行榜
 ##### （1）5B以下开源大模型排行榜
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br>
 
