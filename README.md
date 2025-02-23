@@ -23,31 +23,37 @@
       - 5B~20B
       - 20B以上
   - [【学科知识】高考排行榜](#2、【学科知识】高考排行榜)
-  - [【推理】演绎推理排行榜](#3、【推理】演绎推理排行榜)  
-  - [【推理】常识推理排行榜](#4、【推理】常识推理排行榜)
-  - [【推理】公务员考试排行榜](#5、【推理】公务员考试排行榜)
-  - [【推理】律师资格考试排行榜](#6、【推理】律师资格考试排行榜)
-  - [【推理】符号推理BBH排行榜](#7、【推理】符号推理BBH排行榜)
-  - [【数学计算】初中数学排行榜](#8、【数学计算】初中数学排行榜)
-  - [【数学计算】算术能力排行榜](#9、【数学计算】算术能力排行榜)
-  - [【语言理解】成语理解排行榜](#10、【语言理解】成语理解排行榜)
-  - [【语言理解】情感分析排行榜](#11、【语言理解】情感分析排行榜)  
-  - [【语言理解】文本蕴含排行榜](#12、【语言理解】文本蕴含排行榜)
-  - [【语言理解】分类能力排行榜](#13、【语言理解】分类能力排行榜)
-  - [【语言理解】信息抽取能力排行榜](#14、【语言理解】信息抽取能力排行榜)
-  - [【语言理解】阅读理解能力排行榜](#15、【语言理解】阅读理解能力排行榜)
-  - [【语言理解】C3中文阅读理解排行榜](#16、【语言理解】C3中文阅读理解排行榜)
-  - [【语言理解】代词理解CLUEWSC排行榜](#17、【语言理解】代词理解CLUEWSC排行榜)
-  - [【语言理解】诗词匹配CCPM排行榜](#18、【语言理解】诗词匹配CCPM排行榜)
-  - [【数据分析】表格问答排行榜](#19、【数据分析】表格问答排行榜)
-  - [中文指令遵从排行榜](#20、中文指令遵从排行榜)
-  - [中文编码效率排行榜](#21、中文编码效率排行榜)
+  - [【学科知识】高中学科排行榜](#3、【学科知识】高中学科排行榜)
+  - [【学科知识】初中学科排行榜](#4、【学科知识】初中学科排行榜)
+  - [【学科知识】小学学科排行榜](#5、【学科知识】小学学科排行榜)
+  - [【推理】演绎推理排行榜](#6、【推理】演绎推理排行榜)  
+  - [【推理】常识推理排行榜](#7、【推理】常识推理排行榜)
+  - [【推理】公务员考试排行榜](#8、【推理】公务员考试排行榜)
+  - [【推理】律师资格考试排行榜](#9、【推理】律师资格考试排行榜)
+  - [【推理】符号推理BBH排行榜](#10、【推理】符号推理BBH排行榜)
+  - [【数学计算】七八九年级数学排行榜](#11、【数学计算】七八九年级数学排行榜)
+  - [【数学计算】算术能力排行榜](#12、【数学计算】算术能力排行榜)
+  - [【语言理解】成语理解排行榜](#13、【语言理解】成语理解排行榜)
+  - [【语言理解】情感分析排行榜](#14、【语言理解】情感分析排行榜)  
+  - [【语言理解】文本蕴含排行榜](#15、【语言理解】文本蕴含排行榜)
+  - [【语言理解】分类能力排行榜](#16、【语言理解】分类能力排行榜)
+  - [【语言理解】信息抽取能力排行榜](#17、【语言理解】信息抽取能力排行榜)
+  - [【语言理解】阅读理解能力排行榜](#18、【语言理解】阅读理解能力排行榜)
+  - [【语言理解】C3中文阅读理解排行榜](#19、【语言理解】C3中文阅读理解排行榜)
+  - [【语言理解】代词理解CLUEWSC排行榜](#20、【语言理解】代词理解CLUEWSC排行榜)
+  - [【语言理解】诗词匹配CCPM排行榜](#21、【语言理解】诗词匹配CCPM排行榜)
+  - [【数据分析】表格问答排行榜](#22、【数据分析】表格问答排行榜)
+  - [中文指令遵从排行榜](#23、中文指令遵从排行榜)
+  - [中文编码效率排行榜](#24、中文编码效率排行榜)
 - [🌐各项能力评分](#🌐各项能力评分)
 - [⚖️原始评测数据](#⚖️原始评测数据)
 - [为什么做榜单？](#为什么做榜单)
 
 
 ## 最近更新
+- [2025/2/24] 发布v2.20版本评测榜单
+  - 新增高中学科排行榜、初中学科排行榜、小学学科排行榜，并计入总分
+  - 删除陈旧的模型：gpt-4o-2024-08-06、qwen-max-2024-09-19
 - [2025/2/22] 发布v2.19版本评测榜单
   - 新增6个模型：kimi-latest-8k、SenseChat-5-beta、chatgpt-4o-latest、Doubao-1.5-pro-32k-250115、Doubao-1.5-lite-32k-250115、360zhinao2-o1，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 新增推理类大模型排行榜，详见[link](leaderboard/reasonmodel.md)
@@ -95,11 +101,7 @@
 - [2024/12/25] 发布v2.4版本评测榜单
   - 新增Grade7Math-zh（七年级数学）榜单
   - 删除陈旧的模型：Phi-3-mini-128k-instruct、Qwen1.5系列、openbuddy-llama3-8b、yi-large、yi-large-turbo、yi-medium、yi-spark、internlm2-chat-20b、internlm2-chat-7b、gpt-4-turbo、gpt-3.5-turbo
-- [2024/10/20] 发布v2.3版本评测榜单
-  - 新增6个模型：yi-lightning、gemini-1.5-flash、gemini-1.0-pro、gemini-1.5-pro、GLM-4-Long、GLM-4-Plus
-  - 更新4个模型：GLM4、qwen-max、ERNIE-4.0-Turbo-8K、ERNIE-3.5-8K
-  - 删除陈旧的模型：Baichuan2-13B-Chat、Baichuan2-7B-Chat、deepseek-llm-67b-chat、gpt4、gemma-2b-it、gemma-7b-it
-- [2024/9/29]v2.2版本，[2024/8/27]v2.1版本，[2024/8/7]v2.0版本，[2024/7/26]v1.21版本，[2024/7/15]v1.20版本，[2024/6/29]v1.19版本，[2024/6/2]v1.18版本，[2024/5/8]v1.17版本，[2024/4/13]v1.16版本，[2024/3/20]v1.15版本，[2024/2/28]v1.14版本，[2024/1/29]v1.13版本
+- [2024/10/20]v2.3版本，[2024/9/29]v2.2版本，[2024/8/27]v2.1版本，[2024/8/7]v2.0版本，[2024/7/26]v1.21版本，[2024/7/15]v1.20版本，[2024/6/29]v1.19版本，[2024/6/2]v1.18版本，[2024/5/8]v1.17版本，[2024/4/13]v1.16版本，[2024/3/20]v1.15版本，[2024/2/28]v1.14版本，[2024/1/29]v1.13版本
 - 2023年：[2023/12/10]v1.12版本，[2023/11/22]v1.11版本，[2023/11/5]v1.10版本，[2023/10/11]v1.9版本，[2023/9/13]v1.8版本，[2023/8/29]v1.7版本，[2023/8/13]v1.6版本，[2023/7/26]v1.5版本， [2023/7/18]v1.4版本， [2023/7/2]v1.3版本， [2023/6/17]v1.2版， [2023/6/10]v1.1版本， [2023/6/4]v1版本
 
 各版本更新详情：[CHANGELOG](CHANGELOG.md)
@@ -135,7 +137,7 @@
 
 ## 📊 排行榜
 ### 1、综合能力排行榜
-综合能力得分为分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试kaogong、律师资格考试JEC-QA、高考、常识推理、文本蕴含、成语理解、情感分析、演绎推理、C3中文阅读理解等19项得分的平均值。
+综合能力得分为分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试、律师资格考试JEC-QA、高考、高中学科、初中学科、小学学科、常识推理、文本蕴含、成语理解、情感分析、演绎推理、C3中文阅读理解等22项得分的平均值。
 ![lin](pic/total.png)    
 详细数据见[total](leaderboard/total.md)<br>
 
@@ -269,7 +271,314 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 <br><br><br>
 
 
-### 3、【推理】演绎推理排行榜
+### 3、【学科知识】高中学科排行榜
+![lin](pic/highschool.png)<br>
+#### （1）高中生物
+评测样本举例：
+> 回答以下选择题：人体内含有多种多样的蛋白质，每种蛋白质（    ）  
+(A) 都具有一定的空间结构   
+(B) 都含有21种氨基酸   
+(C) 都是在细胞内发挥作用  
+(D) 都能调节生物体的生命活动   
+>    
+
+完整排行榜见[高中生物](leaderboard/HighSchoolBiology.md)<br>
+☛查看[高中生物badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolBiology)
+<br><br>
+
+#### （2）高中化学
+评测样本举例：
+> 回答以下选择题：实验室需配制一种强酸溶液500mL，c($H^+$)=2mol/L，下列配制方法可行的是   
+(A) 取100mL5mol/L$HNO_3$，加水稀释至500mL   
+(B) 取100mL5mol/L$H_2SO_4$，加入400mL水   
+(C) 取100mL5mol/L$H_2SO_4$，加水稀释至500mL   
+(D) 取100mL5mol/LHCl，加水稀释至500mL   
+>    
+
+完整排行榜见[高中化学](leaderboard/HighSchoolChemistry.md)<br>
+☛查看[高中化学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChemistry)
+<br><br>
+
+#### （3）高中语文
+评测样本举例：
+> 回答以下选择题：下列句子中，词语使用不恰当的一项是（ ）   
+(A) 说“木叶”不说“树叶”，决非古人标新立异，“木叶”作为意象而言，蕴含着更多的意味，包含着更多的情感，更能体现其艺术特征。   
+(B) 我们时常说到乡愁，什么是乡愁？乡愁是我们的百姓对生养自己的故土故乡刻骨铭心的情感与爱恋，是家园真正的精神价值。   
+(C) 企业的发展需要通才，所谓通才不是指万金油或叫作万应锭式的人，而是指能在技术研发、成本核算、外交沟通等方面都能挑大梁的人才。   
+(D) 无数案例告诉我们，防止电话诈骗，最有效的方法是对陌生电话的求救、告急多问几个为什么，这样就可避免落于言筌。   
+>     
+
+完整排行榜见[高中语文](leaderboard/HighSchoolChinese.md)<br>
+☛查看[高中语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChinese)
+<br><br>
+
+#### （4）高中英语
+评测样本举例：
+> 回答以下选择题：For long I’ve been trying to ________ what it is that makes Jack so annoyed.   
+(A) stand out   
+(B) carry out   
+(C) watch out   
+(D) figure out   
+>  
+
+完整排行榜见[高中英语](leaderboard/HighSchoolEnglish.md)<br>
+☛查看[高中英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolEnglish)
+<br><br>
+
+#### （5）高中地理
+评测样本举例：
+> 回答以下选择题：北京时间2017年10月9日12时13分，长征二号丁运载火箭托举着委内瑞拉遥感卫星二号，在酒泉卫星发射中心顺利升空。卫星顺利进入预定轨道，发射任务取得圆满成功。该卫星发射时，我国下列现象可能出现的是(   )   
+(A) 地球公转速度正在加快   
+(B) 北京昼长夜短   
+(C) 上海正午太阳高度达最小值   
+(D) 酒泉该日太阳从东北方升起   
+>   
+
+完整排行榜见[高中地理](leaderboard/HighSchoolGeography.md)<br>
+☛查看[高中地理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolGeography)
+<br><br>
+
+#### （6）高中历史
+评测样本举例：
+> 回答以下选择题：1992年，邓小平到南方视察，围绕“什么是社会主义、怎样建设社会主义”做了重要讲话，下列与此相关的内容是（ ）   
+(A) 社会主义的本质是解放生产力、发展生产力   
+(B) 解放思想，实事求是，团结一致向前看   
+(C) 以经济建设为中心   
+(D) 非公有制经济是社会主义市场经济的重要组成部分   
+>  
+
+完整排行榜见[高中历史](leaderboard/HighSchoolHistory.md)<br>
+☛查看[高中历史badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolHistory)
+<br><br>
+
+#### （7）高中数学
+评测样本举例：
+> 回答以下选择题：下列命题中，是正确的全称命题的是( )
+(A) 对数函数在定义域上是单调函数.   
+(B) 对任意的a,b, 都有a^2+b^2-2a-2b+2<0 ;   
+(C) 菱形的两条对角线相等；  
+(D) exists x,sqrt(x^2)=x;   
+>   
+
+完整排行榜见[高中数学](leaderboard/HighSchoolMathematics.md)<br>
+☛查看[高中数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolMathematics)
+<br><br>
+
+#### （8）高中物理
+评测样本举例：
+> 回答以下选择题：原计划的“铱”卫星通信系统是在距地球表面780 km的太空轨道上建立一个由77颗小卫星组成的星座。这些小卫星均匀分布在覆盖全球的7条轨道上，每条轨道上有11颗卫星，由于这一方案的卫星排布像化学元素“铱”原子的核外77个电子围绕原子核运动一样，所以称为“铱”星系统。后来改为由66颗卫星，分布在6条轨道上，每条轨道上由11颗卫星组成，仍称它为“铱”星系统。“铱”星系统的66颗卫星，其运行轨道的共同特点是（　　）    
+(A) “铱”星运行轨道高于同步卫星轨道   
+(B) 以地轴为中心的圆形轨道   
+(C) 以地心为中心的圆形轨道  
+(D) 轨道平面必须处于赤道平面内   
+>  
+
+完整排行榜见[高中物理](leaderboard/HighSchoolPhysics.md)<br>
+☛查看[高中物理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPhysics)
+<br><br>
+
+#### （9）高中政治
+评测样本举例：
+> 回答以下选择题：国家鼓励民营企业依法进入更多领域,引入非国有资本参与国有企业改革,更好地激发非公有制经济的活力和创造力。这是因为（   ）    
+(A) 非公有制经济具有规模小、投资少、经营灵活的特点   
+(B) 国有经济在我国重要行业和关键领域占支配地位   
+(C) 非公有制经济是我国经济社会发展的重要基础  
+(D) 国家引导非公有制经济健康发展   
+>   
+
+完整排行榜见[高中政治](leaderboard/HighSchoolPolitics.md)<br>
+☛查看[高中政治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPolitics)
+<br><br><br>
+
+
+### 4、【学科知识】初中学科排行榜
+![lin](pic/middleschool.png)<br>
+#### （1）初中生物
+评测样本举例：
+> 回答以下选择题：日常生活中，下列不利于保护人体呼吸系统的做法是（    ）   
+(A) 长时间大声说话能锻炼声带   
+(B) 长跑时尽量不用嘴吸气   
+(C) 哮喘患者应避免接触花粉等刺激物   
+(D) 吃饭时不要边吃边说笑   
+>   
+
+完整排行榜见[初中生物](leaderboard/MiddleSchoolBiology.md)<br>
+☛查看[初中生物badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolBiology)
+<br><br>
+
+#### （2）初中化学
+评测样本举例：
+> 回答以下选择题：下列物质由离子构成的是   
+(A) 二氧化碳   
+(B) 水银   
+(C) 氯化钠   
+(D) 水蒸气   
+>   
+
+完整排行榜见[初中化学](leaderboard/MiddleSchoolChemistry.md)<br>
+☛查看[初中化学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChemistry)
+<br><br>
+
+#### （3）初中语文
+评测样本举例：
+> 回答以下选择题：阅读下面两首诗。 使至塞上 王维 单车欲问边，属国过居延。 征蓬出汉塞，归雁入胡天。 大漠孤烟直，长河落日圆。 萧关逢候骑，都护在燕然。 汉江①临泛 王维 楚塞②三湘接，荆门九派③通。 江流天地外，山色有无中。 郡邑浮前浦，波澜动远空。 襄阳好风日，留醉与山翁。 【注释】①汉江：即汉水。②楚塞：指古代楚国地界。③九派：长江干流及其支流的统称。 对两首诗理解和分析不恰当的一项是（　　）   
+(A) 王维的诗以“诗中有画”著称，这两首诗在意境创造上也很好地体现了这一特点。   
+(B) 《使至塞上》首联写了诗人奉使出征，独当重任，到边疆察看，过居延属国的内容。   
+(C) 《汉江临泛》尾联通过具体细腻的景物描写，表达了诗人对襄阳风物的热爱，也洋溢着积极乐观的情绪。   
+(D) 《使至塞上》用一“直”一“圆”展现了边塞的壮阔；《汉江临泛》用一“浮”一“动”渲染了水势的磅礴。    
+>    
+
+完整排行榜见[初中语文](leaderboard/MiddleSchoolChinese.md)<br>
+☛查看[初中语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChinese)
+<br><br>
+
+#### （4）初中英语
+评测样本举例：
+> 回答以下选择题：The boy’s hair is ________ the girl’s hair.    
+(A) than   
+(B) shorter than   
+(C) short than   
+(D) shorter   
+>    
+
+完整排行榜见[初中英语](leaderboard/MiddleSchoolEnglish.md)<br>
+☛查看[初中英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolEnglish)
+<br><br>
+
+#### （5）初中地理
+评测样本举例：
+> 回答以下选择题：印度的“绿色革命”运动，实现了（   ）   
+(A) 促进了旅游业的发展   
+(B) 工业产品大量出口   
+(C) 提高了粮食产量，实现了粮食自给   
+(D) 促进了电脑软件的研发   
+>     
+完整排行榜见[初中地理](leaderboard/MiddleSchoolGeography.md)<br>
+☛查看[初中地理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolGeography)
+<br><br>
+
+#### （6）初中历史
+评测样本举例：
+> 回答以下选择题：北宋为了摆脱政治危机，实现富国强兵于1069年实行（ ）   
+(A) 行省制  
+(B) 商鞅变法  
+(C) 王安石变法  
+(D) 重文轻武的政策   
+>
+
+完整排行榜见[初中历史](leaderboard/MiddleSchoolHistory.md)<br>
+☛查看[初中历史badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolHistory)
+<br><br>
+
+#### （7）初中数学
+评测样本举例：
+> 回答以下选择题：下列说法正确的是（    ）  
+(A) 如果两个数互为倒数，那么它们的积一定是1  
+(B) 两个正数互为倒数，其中一个数必大于1  
+(C) 一个假分数的倒数一定小于本身  
+(D) 如果一个数的倒数是它本身，那么这个数一定是1  
+>  
+
+完整排行榜见[初中数学](leaderboard/MiddleSchoolMathematics.md)<br>
+☛查看[初中数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolMathematics)
+<br><br>
+
+#### （8）初中物理
+评测样本举例：
+> 回答以下选择题：质量相等的A、B两实心物块，密度之比ρA∶ρB＝3∶2，分别放入足够多的水中，两物块静止时均漂浮且所受浮力分别为FA和FB，则浮力FA与FB之比是（　　）   
+(A) 无法确定   
+(B) 1∶1   
+(C) 2∶3   
+(D) 3∶2   
+>  
+
+完整排行榜见[初中物理](leaderboard/MiddleSchoolPhysics.md)<br>
+☛查看[初中物理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPhysics)
+<br><br>
+
+#### （9）初中政治
+评测样本举例：
+> 回答以下选择题：做自信的中国人要（   ）  
+(A) 唯我独尊  
+(B) 妄自尊大  
+(C) 故步自封  
+(D) 不卑不亢   
+>  
+
+完整排行榜见[初中政治](leaderboard/MiddleSchoolPolitics.md)<br>
+☛查看[初中政治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPolitics)
+<br><br><br>
+
+
+### 5、【学科知识】小学学科排行榜
+![lin](pic/primaryschool.png)<br>
+#### （1）小学语文
+评测样本举例：
+> 回答以下选择题：下列说法最得体的是（    ）  
+(A) “嗨，老头，快告诉我电影院怎么走！”  
+(B) “把你的电话号码（mǎ）说一遍。”   
+(C) “叔叔，把报纸给我。”  
+(D) “奶奶您好，我坐您旁边，可以吗？”   
+>  
+
+完整排行榜见[小学语文](leaderboard/PrimarySchoolChinese.md)<br>
+☛查看[小学语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolChinese)
+<br><br>
+
+#### （2）小学英语
+评测样本举例：
+> 回答以下选择题：—Can I have some water, please? ( )—______  
+(A) Yes, I can.  
+(B) Look at the watermelon.  
+(C) Sure, here you are.  
+(D) I’m OK.  
+>
+
+完整排行榜见[小学英语](leaderboard/PrimarySchoolEnglish.md)<br>
+☛查看[小学英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEnglish)
+<br><br>
+
+#### （3）小学数学
+评测样本举例：
+> 回答以下选择题：某市出租车收费标准如下：3千米及3千米以内5元，超过3千米的部分按每千米1.4元收费（不足1千米时按1千米计算），妈妈打车去离家7.5千米的超市，她应付车费（）元。  
+(A) 14   
+(B) 11.3  
+(C) 12  
+(D) 13  
+>   
+
+完整排行榜见[小学数学](leaderboard/PrimarySchoolMathematics.md)<br>
+☛查看[小学数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolMathematics)
+<br><br>
+
+#### （4）小学道德与法治
+评测样本举例：
+> 回答以下选择题：谁的想法是正确的（ ）  
+(A) 小刚只想和性格一样，习惯一样，兴趣爱好相同的人交朋友  
+(B) 晓红是急性子，丽丽是慢性子，但是晓红认为她俩也会相处的很好  
+(C) 小明会上网，李刚不懂电脑，所以小明觉得他俩没有共同语言  
+(D) 王梅认为不能和“不同”的同学打交道  
+>  
+
+完整排行榜见[小学道德与法治](leaderboard/PrimarySchoolEthics.md)<br>
+☛查看[小学道德与法治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEthics)
+<br><br>
+
+#### （5）小学科学
+评测样本举例：
+> 回答以下选择题：使用过的口罩在垃圾分类中属于（ ）。  
+(A) 可回收垃圾  
+(B) 其他垃圾  
+(C) 有害垃圾  
+(D) 厨余垃圾   
+>  
+
+完整排行榜见[小学科学](leaderboard/PrimarySchoolScience.md)<br>
+☛查看[小学科学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolScience)
+<br><br><br>
+
+
+### 6、【推理】演绎推理排行榜
 演绎推理（modus_tollens）选择题，共123道，参考[ISP](https://arxiv.org/abs/2306.09479)。
 
 评测样本举例：
@@ -288,7 +597,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 <br><br><br>
 
 
-### 4、【推理】常识推理排行榜
+### 7、【推理】常识推理排行榜
 常识推理选择题，共99道，参考[ISP](https://arxiv.org/abs/2306.09479)。
 
 评测样本举例：
@@ -303,7 +612,7 @@ B、吸收热量
 <br><br><br>
 
 
-### 5、【推理】公务员考试排行榜
+### 8、【推理】公务员考试排行榜
 公务员考试行测选择题，共651道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。
 评测样本举例：
 > 某乡镇进行新区规划，决定以市民公园为中心，在东南西北分别建设一个特色社区。这四个社区分别定为，文化区、休闲区、商业区和行政服务区。已知行政服务区在文化区的西南方向，文化区在休闲区的东南方向。   
@@ -319,7 +628,7 @@ B、吸收热量
 <br><br><br>
 
 
-### 6、【推理】律师资格考试排行榜
+### 9、【推理】律师资格考试排行榜
 律师资格考试选择题，共2000道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。
 评测样本举例：
 > 中国商务部决定对原产于马来西亚等八国的橡胶制品展开反补贴调查。根据我国《反补贴条例》以及相关法律法规，下列关于此次反补贴调查的哪项判断是正确的?（请选择一个或多个选项）    
@@ -335,7 +644,7 @@ B、吸收热量
 <br><br><br>
 
 
-### 7、【推理】符号推理BBH排行榜
+### 10、【推理】符号推理BBH排行榜
 学术界最常用的符号推理评测集，包含23个子任务，详细介绍见[BBH](https://easyllm.site/static/benchmarks.html)。
 评测样本举例：
 > Task description: Answer questions about which times certain events could have occurred.  
@@ -361,7 +670,7 @@ A:
 <br><br><br>
 
 
-### 8、【数学计算】初中数学排行榜
+### 11、【数学计算】七八九年级数学排行榜
 七/八/九年级的平均分计入总分。<br>
 评分标准：七、八、九年级分别有40道题、21道题、36道题，所有题目都只判断对错（没有中间分数）。对于任何题目，只有模型response完全正确才给分，部分正确或错误都不得分。<br>
 评测样本举例：
@@ -374,7 +683,7 @@ A:
 <br><br><br>
 
 
-### 9、【数学计算】算术能力排行榜
+### 12、【数学计算】算术能力排行榜
 考查大模型的数学基础能力之算数能力，测试题目为1000以内的整数加减法、不超过2位有效数字的浮点数加减乘除。
 举例：166 + 215 + 53 = ？，0.97 + 0.4 / 4.51 = ？
 
@@ -383,7 +692,7 @@ A:
 <br><br><br>
 
 
-### 10、【语言理解】成语理解排行榜
+### 13、【语言理解】成语理解排行榜
 给定上下文，选择最匹配的成语。
 
 评测样本举例：
@@ -403,7 +712,7 @@ A:
 <br><br><br>
 
 
-### 11、【语言理解】情感分析排行榜
+### 14、【语言理解】情感分析排行榜
 分析用户评论的情感属性，消极或积极。
 
 评测样本举例：
@@ -418,7 +727,7 @@ A:
 <br><br><br>
 
 
-### 12、【语言理解】文本蕴含排行榜
+### 15、【语言理解】文本蕴含排行榜
 文本蕴含，判断两个句子之间的语义关系：蕴含、中立、矛盾，参考[OCNLI](https://arxiv.org/abs/2010.05444)。
 
 评测样本举例：
@@ -435,7 +744,7 @@ A:
 <br><br><br>
 
 
-### 13、【语言理解】分类能力排行榜
+### 16、【语言理解】分类能力排行榜
 评测样本举例：
 > 将下列单词按词性分类。    
 > 狗，追，跑，大人，高兴，树
@@ -445,7 +754,7 @@ A:
 <br><br><br>
 
 
-### 14、【语言理解】信息抽取能力排行榜
+### 17、【语言理解】信息抽取能力排行榜
 评测样本举例：  
 > “中信银行3亿元，交通银行增长约2.7亿元，光大银行约1亿元。”    
 > 提取出以上文本中的所有组织机构名称
@@ -455,7 +764,7 @@ A:
 <br><br><br>
 
 
-### 15、【语言理解】阅读理解能力排行榜
+### 18、【语言理解】阅读理解能力排行榜
 阅读理解能力是一种符合能力，考查针对给定信息的理解能力。
 依据给定信息的种类，可以细分为：文章问答、表格问答、对话问答……    
 评测样本举例：
@@ -474,7 +783,7 @@ A:
 <br><br><br>
 
 
-### 16、【语言理解】C3中文阅读理解排行榜
+### 19、【语言理解】C3中文阅读理解排行榜
 经典中文阅读理解选择题，共763道，参考[C3](https://github.com/nlpdata/c3)。
 评测样本举例：
 > 我公司现招聘一名经济法方面的律师，要求：年龄在35岁以下，至少会一门外语，有三年以上工作经验。欢迎符合条件者前来应聘。  
@@ -490,7 +799,7 @@ A:
 <br><br><br>
 
 
-### 17、【语言理解】代词理解CLUEWSC排行榜
+### 20、【语言理解】代词理解CLUEWSC排行榜
 中文指代消解任务，参考[CLUEWSC2020](https://github.com/CLUEbenchmark/CLUEWSC2020)。
 评测样本举例：
 > 少平仍然不知道怎样给奶奶说清他姐夫的事，就只好随口说：“他犯了点错误，人家让他劳教！”  
@@ -504,7 +813,7 @@ A:
 <br><br><br>
 
 
-### 18、【语言理解】诗词匹配CCPM排行榜
+### 21、【语言理解】诗词匹配CCPM排行榜
 中国古典诗歌匹配，给定中国古典诗歌的现代问描述，要求从候选的四句诗中选出与现代文描述语义匹配的那一句。
 利用古典诗歌和现代文翻译的平行语料构建正确选项，并利用正确选项从古代诗歌语料库中利用相似检索构造出错误候选。
 参考[CCPM](https://github.com/THUNLP-AIPoet/CCPM)。
@@ -522,7 +831,7 @@ A:
 <br><br><br>
 
 
-### 19、【数据分析】表格问答排行榜
+### 22、【数据分析】表格问答排行榜
 专门考查大模型对表格的理解分析能力，常用于数据分析。    
 评测样本举例：
 > 姓名,年龄,性别,国籍,身高(cm),体重(kg),学历   
@@ -541,7 +850,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 20、中文指令遵从排行榜
+### 23、中文指令遵从排行榜
 参考谷歌IFEval，并将其翻译和适配到中文，精选9类25种指令，说明如下：
 ![lin](pic/IFEval.jpg)
 
@@ -550,7 +859,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 21、中文编码效率排行榜
+### 24、中文编码效率排行榜
 暂不计入综合能力评分。
 专门考查大模型编码中文字符的效率，同等尺寸大模型，编码效率越高推理速度越快，几乎成正比。
 中文编码效率相当于大模型生成的每个token解码后对应的中文平均字数
