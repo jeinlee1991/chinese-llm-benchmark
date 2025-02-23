@@ -11,7 +11,7 @@
 |商用|mistral-large|97.0|8|
 |商用|o1-mini|96.8|9|
 |商用|abab7-chat-preview|96.3|10|
-|商用|gpt-4o|96.3|11|
+|商用|gpt-4o-2024-08-06|96.3|11|
 |商用|gemini-2.0-flash-exp|96.3|12|
 |开源|Llama-3.3-70B-Instruct-fp8|96.3|13|
 |开源|DeepSeek-R1|95.7|14|
@@ -32,7 +32,7 @@
 |商用|MiniMax-Text-01|93.3|29|
 |开源|gemma-2-27b-it|93.3|30|
 |商用|GLM-4-Long|93.3|31|
-|商用|gpt-4o-mini|93.3|32|
+|商用|gpt-4o-mini-2024-07-18|93.3|32|
 |商用|step-1-8k|93.3|33|
 |开源|phi-4|93.3|34|
 |开源|Hermes-3-Llama-3.1-405B|92.6|35|

@@ -50,7 +50,7 @@
 |商用|step-1-8k|83.0|47|
 |商用|moonshot-v1-8k|82.9|48|
 |商用|SenseChat-Turbo|82.9|49|
-|商用|gpt-4o|82.7|50|
+|商用|gpt-4o-2024-08-06|82.7|50|
 |商用|mistral-large|82.6|51|
 |商用|GLM-Zero-Preview|82.5|52|
 |商用|ERNIE-Speed-Pro-128K|82.5|53|
@@ -85,7 +85,7 @@
 |商用|GLM-4-FlashX|78.5|82|
 |开源|Llama-3.1-8B-Instruct|77.9|83|
 |开源|DeepSeek-R1-Distill-Llama-8B|77.8|84|
-|商用|gpt-4o-mini|77.7|85|
+|商用|gpt-4o-mini-2024-07-18|77.7|85|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|77.2|86|
 |开源|Llama-3.3-70B-Instruct-fp8|77.2|87|
 |商用|SenseChat-v4|76.8|88|

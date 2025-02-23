@@ -42,7 +42,7 @@
 |商用|gemini-1.5-pro|83.3|39|
 |开源|qwq-32b-preview|83.3|40|
 |商用|360zhinao2-o1(new)|83.1|41|
-|商用|gpt-4o|83.0|42|
+|商用|gpt-4o-2024-08-06|83.0|42|
 |开源|DeepSeek-R1-Distill-Llama-70B|82.6|43|
 |商用|qwen-plus|82.5|44|
 |商用|mistral-large|82.2|45|
@@ -73,7 +73,7 @@
 |商用|GLM-4-FlashX|78.3|70|
 |商用|abab6.5s-chat|78.2|71|
 |商用|Baichuan4-Air|78.0|72|
-|商用|gpt-4o-mini|77.4|73|
+|商用|gpt-4o-mini-2024-07-18|77.4|73|
 |商用|hunyuan-standard|77.2|74|
 |商用|SenseChat-Turbo|77.0|75|
 |开源|internlm2_5-7b-chat|76.8|76|

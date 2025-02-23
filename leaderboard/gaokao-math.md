@@ -38,7 +38,7 @@
 |商用|qwen-long|79.3|35|
 |商用|qwen-plus|78.4|36|
 |开源|qwen2.5-72b-instruct|78.0|37|
-|商用|gpt-4o|78.0|38|
+|商用|gpt-4o-2024-08-06|78.0|38|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|77.2|39|
 |商用|mistral-large|76.1|40|
 |商用|ERNIE-4.0|76.0|41|
@@ -61,7 +61,7 @@
 |商用|Baichuan4-Turbo|69.2|58|
 |商用|chatgpt-4o-latest(new)|68.0|59|
 |商用|GLM-4-Long|64.9|60|
-|商用|gpt-4o-mini|64.4|61|
+|商用|gpt-4o-mini-2024-07-18|64.4|61|
 |商用|hunyuan-standard|63.4|62|
 |商用|o3-mini|63.1|63|
 |商用|GLM-4-AirX|63.1|64|

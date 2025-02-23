@@ -8,7 +8,7 @@
 |商用|ERNIE-4.0|94.0|5|
 |开源|DeepSeek-R1|94.0|6|
 |商用|qwen-max-2024-09-19|93.0|7|
-|商用|gpt-4o|93.0|8|
+|商用|gpt-4o-2024-08-06|93.0|8|
 |商用|gemini-2.0-pro-exp-02-05|92.0|9|
 |商用|xunfei-4.0Ultra|92.0|10|
 |商用|SenseChat-5-beta(new)|92.0|11|
@@ -67,7 +67,7 @@
 |开源|qwq-32b-preview|84.1|64|
 |开源|DeepSeek-R1-Distill-Qwen-14B|83.8|65|
 |商用|ERNIE-Speed-Pro-128K|83.8|66|
-|商用|gpt-4o-mini|83.6|67|
+|商用|gpt-4o-mini-2024-07-18|83.6|67|
 |商用|SenseChat-v4|83.6|68|
 |商用|360zhinao2-o1(new)|83.5|69|
 |商用|ERNIE-Speed-8K|83.3|70|

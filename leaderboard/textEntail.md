@@ -58,7 +58,7 @@
 |商用|360gpt-pro|61.5|55|
 |开源|internlm2_5-7b-chat|61.5|56|
 |商用|xunfei-spark-max|61.5|57|
-|商用|gpt-4o|61.5|58|
+|商用|gpt-4o-2024-08-06|61.5|58|
 |商用|yi-lightning|61.1|59|
 |商用|360gpt2-pro|61.1|60|
 |开源|qwen2.5-math-72b-instruct|60.7|61|
@@ -79,7 +79,7 @@
 |开源|WizardLM-2-8x22B|57.9|76|
 |商用|xunfei-spark-pro|57.1|77|
 |开源|Yi-1.5-9B-Chat|57.1|78|
-|商用|gpt-4o-mini|56.0|79|
+|商用|gpt-4o-mini-2024-07-18|56.0|79|
 |商用|Baichuan4-Air|56.0|80|
 |开源|deepseek-chat-v3|55.6|81|
 |开源|DeepSeek-R1-Distill-Llama-8B|55.6|82|

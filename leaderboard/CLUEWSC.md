@@ -74,7 +74,7 @@
 |商用|ministral-8b|87.5|71|
 |开源|internlm2_5-7b-chat|87.1|72|
 |开源|Llama-3.3-70B-Instruct-fp8|87.1|73|
-|商用|gpt-4o|87.1|74|
+|商用|gpt-4o-2024-08-06|87.1|74|
 |商用|gemini-2.0-flash-001|87.0|75|
 |商用|hunyuan-standard|86.8|76|
 |商用|ERNIE-Lite-8K|86.5|77|
@@ -86,7 +86,7 @@
 |开源|Yi-1.5-9B-Chat|85.4|83|
 |商用|Baichuan4-Air|85.4|84|
 |商用|step-1-flash|84.7|85|
-|商用|gpt-4o-mini|84.7|86|
+|商用|gpt-4o-mini-2024-07-18|84.7|86|
 |商用|SenseChat-v4|84.7|87|
 |开源|qwen2.5-3b-instruct|84.3|88|
 |开源|Yi-1.5-34B-Chat|84.0|89|

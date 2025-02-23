@@ -31,7 +31,7 @@
 |商用|SenseChat-5|93.0|28|
 |商用|gemini-1.5-flash-8b|93.0|29|
 |开源|deepseek-chat-v3|93.0|30|
-|商用|gpt-4o|93.0|31|
+|商用|gpt-4o-2024-08-06|93.0|31|
 |开源|gemma-2-27b-it|92.0|32|
 |商用|chatgpt-4o-latest(new)|92.0|33|
 |商用|ERNIE-Speed-Pro-128K|92.0|34|
@@ -51,7 +51,7 @@
 |开源|qwen2.5-math-72b-instruct|90.5|48|
 |开源|Yi-1.5-34B-Chat|90.0|49|
 |开源|glm-4-9b-chat|90.0|50|
-|商用|gpt-4o-mini|90.0|51|
+|商用|gpt-4o-mini-2024-07-18|90.0|51|
 |商用|ERNIE-4.0-Turbo-8K|90.0|52|
 |商用|360zhinao2-o1(new)|90.0|53|
 |商用|Baichuan4-Air|90.0|54|

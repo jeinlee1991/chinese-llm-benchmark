@@ -66,7 +66,7 @@
 |商用|SenseChat-Turbo|74.1|63|
 |开源|internlm2_5-7b-chat|73.5|64|
 |商用|GLM-4-FlashX|73.3|65|
-|商用|gpt-4o|72.8|66|
+|商用|gpt-4o-2024-08-06|72.8|66|
 |商用|xunfei-spark-max|72.5|67|
 |商用|hunyuan-standard|72.3|68|
 |商用|gemini-1.5-flash-8b|71.7|69|
@@ -83,7 +83,7 @@
 |开源|qwen2.5-32b-instruct|66.6|80|
 |开源|Llama-3.1-8B-Instruct|65.7|81|
 |商用|ERNIE-Lite-Pro-128K|65.6|82|
-|商用|gpt-4o-mini|65.6|83|
+|商用|gpt-4o-mini-2024-07-18|65.6|83|
 |商用|qwen-long|64.6|84|
 |商用|ministral-3b|64.5|85|
 |商用|qwen-turbo|64.4|86|

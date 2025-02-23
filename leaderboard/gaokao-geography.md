@@ -84,11 +84,11 @@
 |开源|gemma-2-27b-it|71.7|81|
 |商用|ERNIE-Lite-Pro-128K|71.2|82|
 |开源|gemma-2-9b-it|71.2|83|
-|商用|gpt-4o-mini|70.2|84|
+|商用|gpt-4o-mini-2024-07-18|70.2|84|
 |商用|Doubao-lite-32k-240428|70.2|85|
 |开源|phi-4|69.2|86|
 |商用|gemini-1.5-flash-8b|69.2|87|
-|商用|gpt-4o|68.0|88|
+|商用|gpt-4o-2024-08-06|68.0|88|
 |商用|chatgpt-4o-latest(new)|68.0|89|
 |商用|ERNIE-Speed-Pro-128K|66.7|90|
 |开源|qwen2.5-3b-instruct|65.7|91|

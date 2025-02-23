@@ -63,7 +63,7 @@
 |开源|qwen2.5-math-72b-instruct|95.7|60|
 |商用|ERNIE-Lite-8K|95.5|61|
 |商用|qwen-plus|95.5|62|
-|商用|gpt-4o-mini|95.5|63|
+|商用|gpt-4o-mini-2024-07-18|95.5|63|
 |商用|gemini-2.0-flash-001|95.3|64|
 |商用|Baichuan4-Air|95.3|65|
 |商用|Baichuan4-Turbo|95.3|66|
@@ -74,7 +74,7 @@
 |商用|moonshot-v1-8k|95.0|71|
 |开源|gemma-2-9b-it|95.0|72|
 |开源|qwen2.5-32b-instruct|95.0|73|
-|商用|gpt-4o|95.0|74|
+|商用|gpt-4o-2024-08-06|95.0|74|
 |商用|gemini-2.0-flash-thinking-exp-01-21|95.0|75|
 |商用|mistral-large|94.8|76|
 |开源|DeepSeek-R1-Distill-Llama-70B|94.5|77|

@@ -12,7 +12,7 @@
 |商用|Doubao-1.5-pro-32k-250115(new)|91.3|9|
 |商用|hunyuan-large|90.8|10|
 |商用|GLM-4-Plus|90.2|11|
-|商用|gpt-4o|90.0|12|
+|商用|gpt-4o-2024-08-06|90.0|12|
 |商用|hunyuan-turbo|89.4|13|
 |商用|Baichuan4|89.2|14|
 |商用|SenseChat-5-1202|88.8|15|
@@ -91,7 +91,7 @@
 |开源|phi-4|70.7|88|
 |开源|qwen2.5-3b-instruct|70.6|89|
 |商用|gemini-1.5-flash-8b|70.0|90|
-|商用|gpt-4o-mini|68.9|91|
+|商用|gpt-4o-mini-2024-07-18|68.9|91|
 |开源|qwen2.5-1.5b-instruct|65.6|92|
 |开源|Llama-3.1-8B-Instruct|65.3|93|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|64.4|94|

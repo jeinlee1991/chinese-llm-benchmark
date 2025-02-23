@@ -64,7 +64,7 @@
 |商用|GLM-4-FlashX|37.3|61|
 |商用|abab6.5s-chat|35.2|62|
 |开源|DeepSeek-R1-Distill-Llama-70B|35.2|63|
-|商用|gpt-4o|35.0|64|
+|商用|gpt-4o-2024-08-06|35.0|64|
 |商用|Baichuan4|34.4|65|
 |商用|moonshot-v1-8k|34.2|66|
 |商用|mistral-large|33.5|67|
@@ -90,7 +90,7 @@
 |商用|gemini-1.5-flash|24.1|87|
 |开源|phi-4|23.6|88|
 |开源|WizardLM-2-8x22B|23.5|89|
-|商用|gpt-4o-mini|23.2|90|
+|商用|gpt-4o-mini-2024-07-18|23.2|90|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|22.9|91|
 |开源|gemma-2-27b-it|22.9|92|
 |开源|Llama-3.1-8B-Instruct|22.2|93|

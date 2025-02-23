@@ -46,7 +46,7 @@
 |开源|DeepSeek-R1-Distill-Qwen-14B|68.0|43|
 |开源|qwen2.5-math-72b-instruct|68.0|44|
 |商用|360gpt-turbo|68.0|45|
-|商用|gpt-4o|67.6|46|
+|商用|gpt-4o-2024-08-06|67.6|46|
 |商用|qwen-turbo|67.3|47|
 |开源|qwen2.5-14b-instruct|67.0|48|
 |商用|mistral-large|66.5|49|
@@ -83,7 +83,7 @@
 |商用|ERNIE-Lite-Pro-128K|57.3|80|
 |开源|gemma-2-27b-it|57.1|81|
 |商用|Baichuan4-Air|55.9|82|
-|商用|gpt-4o-mini|54.7|83|
+|商用|gpt-4o-mini-2024-07-18|54.7|83|
 |商用|ERNIE-Speed-8K|54.5|84|
 |开源|gemma-2-9b-it|53.6|85|
 |开源|WizardLM-2-8x22B|53.5|86|

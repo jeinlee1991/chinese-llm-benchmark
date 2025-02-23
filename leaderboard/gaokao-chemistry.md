@@ -39,7 +39,7 @@
 |商用|gemini-2.0-flash-lite-preview-02-05|65.4|36|
 |商用|Doubao-lite-32k-240428|64.9|37|
 |商用|GLM-Zero-Preview|64.9|38|
-|商用|gpt-4o|64.0|39|
+|商用|gpt-4o-2024-08-06|64.0|39|
 |商用|qwen-turbo|63.2|40|
 |商用|GLM-4-Flash|63.2|41|
 |商用|ERNIE-Speed-Pro-128K|62.2|42|
@@ -67,7 +67,7 @@
 |商用|hunyuan-large|50.3|64|
 |商用|abab6.5s-chat|49.2|65|
 |开源|gemma-2-9b-it|46.5|66|
-|商用|gpt-4o-mini|44.9|67|
+|商用|gpt-4o-mini-2024-07-18|44.9|67|
 |商用|o3-mini|44.3|68|
 |开源|qwen2.5-1.5b-instruct|41.6|69|
 |开源|Yi-1.5-9B-Chat|41.1|70|

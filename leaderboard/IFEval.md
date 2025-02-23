@@ -20,8 +20,8 @@
 |开源|qwen2.5-72b-instruct|83.0|17|
 |商用|GLM-4-AirX|83.0|18|
 |商用|GLM-4-Air|83.0|19|
-|商用|gpt-4o-mini|83.0|20|
-|商用|gpt-4o|83.0|21|
+|商用|gpt-4o-mini-2024-07-18|83.0|20|
+|商用|gpt-4o-2024-08-06|83.0|21|
 |商用|abab7-chat-preview|83.0|22|
 |开源|qwen2.5-32b-instruct|83.0|23|
 |商用|kimi-latest-8k(new)|82.6|24|

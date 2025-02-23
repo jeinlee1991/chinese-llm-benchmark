@@ -76,7 +76,7 @@
 |开源|Mistral-Nemo-Instruct-2407|61.8|73|
 |商用|gemini-1.5-pro|61.8|74|
 |商用|gemini-1.5-flash-8b|58.8|75|
-|商用|gpt-4o|58.8|76|
+|商用|gpt-4o-2024-08-06|58.8|76|
 |商用|gemini-2.0-flash-lite-preview-02-05|58.8|77|
 |商用|gemini-2.0-flash-001|55.9|78|
 |商用|gemini-1.5-flash|55.9|79|
@@ -92,7 +92,7 @@
 |开源|gemma-2-9b-it|47.1|89|
 |开源|Mistral-7B-Instruct-v0.3|47.1|90|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|47.1|91|
-|商用|gpt-4o-mini|44.1|92|
+|商用|gpt-4o-mini-2024-07-18|44.1|92|
 |开源|qwen2.5-0.5b-instruct|44.1|93|
 |开源|Llama-3.2-1B-Instruct|44.1|94|
 |开源|Meta-Llama-3.1-405B-Instruct|41.2|95|

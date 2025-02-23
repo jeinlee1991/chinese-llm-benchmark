@@ -45,7 +45,7 @@
 |开源|qwen2.5-14b-instruct|88.5|42|
 |商用|GLM-4-Long|88.5|43|
 |商用|SenseChat-5-1202|88.1|44|
-|商用|gpt-4o|88.0|45|
+|商用|gpt-4o-2024-08-06|88.0|45|
 |商用|SenseChat-5|88.0|46|
 |商用|Baichuan4|88.0|47|
 |商用|gemini-2.0-flash-exp|87.7|48|
@@ -76,7 +76,7 @@
 |商用|ERNIE-Lite-8K|77.4|73|
 |商用|ERNIE-Speed-Pro-128K|77.4|74|
 |商用|abab6.5s-chat|76.9|75|
-|商用|gpt-4o-mini|76.6|76|
+|商用|gpt-4o-mini-2024-07-18|76.6|76|
 |商用|ERNIE-Speed-8K|76.6|77|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|76.6|78|
 |商用|ERNIE-Lite-Pro-128K|76.6|79|

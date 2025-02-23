@@ -74,7 +74,7 @@
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|77.6|71|
 |商用|step-1-flash|77.1|72|
 |开源|qwen2.5-math-72b-instruct|76.7|73|
-|商用|gpt-4o|76.0|74|
+|商用|gpt-4o-2024-08-06|76.0|74|
 |商用|Baichuan4|76.0|75|
 |商用|ERNIE-Lite-Pro-128K|75.7|76|
 |商用|abab6.5s-chat|75.7|77|
@@ -87,7 +87,7 @@
 |商用|gemini-1.5-flash-8b|71.4|84|
 |开源|gemma-2-27b-it|71.0|85|
 |开源|phi-4|70.5|86|
-|商用|gpt-4o-mini|70.0|87|
+|商用|gpt-4o-mini-2024-07-18|70.0|87|
 |开源|gemma-2-9b-it|70.0|88|
 |开源|Yi-1.5-9B-Chat|68.6|89|
 |开源|qwen2.5-1.5b-instruct|68.1|90|

@@ -47,7 +47,7 @@
 |商用|abab6.5s-chat|74.7|44|
 |商用|gemini-2.0-flash-exp|74.7|45|
 |商用|SenseChat-5-beta(new)|74.0|46|
-|商用|gpt-4o|73.7|47|
+|商用|gpt-4o-2024-08-06|73.7|47|
 |开源|phi-4|73.7|48|
 |开源|qwq-32b-preview|73.7|49|
 |商用|Doubao-1.5-lite-32k-250115(new)|73.7|50|
@@ -68,7 +68,7 @@
 |开源|gemma-2-27b-it|71.7|65|
 |商用|SenseChat-Turbo-1202|71.7|66|
 |商用|mistral-small|71.0|67|
-|商用|gpt-4o-mini|70.7|68|
+|商用|gpt-4o-mini-2024-07-18|70.7|68|
 |商用|SenseChat-5|70.7|69|
 |商用|step-1-8k|70.7|70|
 |开源|qwen2.5-math-72b-instruct|70.7|71|
