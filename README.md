@@ -236,9 +236,9 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ### 2、【学科知识】高考排行榜
-历年高考题，共1500多道，绝大部分为选择题，少部分为填空题，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)
-![lin](pic/gaokao.png)
-<br>
+历年高考题，共1500多道，绝大部分为选择题，少部分为填空题，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)<br>
+完整排行榜见[高考](leaderboard/gaokao.md)<br>
+
 #### （1）高考生物
 评测样本举例：
 > 已知(1)酶、(2)抗体、(3)激素、(4)糖原、(5)脂肪、(6)核酸都是人体内有重要作用的物质。下列说法正确的 是    
@@ -329,7 +329,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ### 3、【学科知识】高中学科排行榜
-![lin](pic/highschool.png)<br>
+完整排行榜见[高中学科](leaderboard/highschool.md)<br>
+
 #### （1）高中生物
 评测样本举例：
 > 回答以下选择题：人体内含有多种多样的蛋白质，每种蛋白质（    ）  
@@ -449,7 +450,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ### 4、【学科知识】初中学科排行榜
-![lin](pic/middleschool.png)<br>
+完整排行榜见[初中学科](leaderboard/middleschool.md)<br>
+
 #### （1）初中生物
 评测样本举例：
 > 回答以下选择题：日常生活中，下列不利于保护人体呼吸系统的做法是（    ）   
@@ -568,7 +570,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ### 5、【学科知识】小学学科排行榜
-![lin](pic/primaryschool.png)<br>
+完整排行榜见[小学学科](leaderboard/primaryschool.md)<br>
+
 #### （1）小学语文
 评测样本举例：
 > 回答以下选择题：下列说法最得体的是（    ）  
