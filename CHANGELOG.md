@@ -1,4 +1,7 @@
 ## 最近更新
+- [2025/2/28] 发布v2.21版本评测榜单
+  - 新增“CMB-医师考试-规培结业”排行榜（含外科、皮肤科等18个方向），并计入总分，详见[link](#2医疗医师考试规培结业排行榜)
+  - 删除陈旧的模型：Doubao-lite-32k-240428、Doubao-pro-32k-240615、o1-preview、WizardLM-2-8x22B、gemini-2.0-flash-lite-preview-02-05
 - [2025/2/22] 发布v2.19版本评测榜单
   - 新增6个模型：kimi-latest-8k、SenseChat-5-beta、chatgpt-4o-latest、Doubao-1.5-pro-32k-250115、Doubao-1.5-lite-32k-250115、360zhinao2-o1，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 新增推理类大模型排行榜，详见[link](leaderboard/reasonmodel.md)
