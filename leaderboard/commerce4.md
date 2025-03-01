@@ -40,4 +40,5 @@
 |37|Llama-3.2-1B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.15元|47.1| |56.0|71.9|52.3|                    54.0|61.0|67.3|23.3|22.2|                    56.1|53.0|32.7|14.4|                    33.7|52.5|38.1|31.8|64.9|                    74.8|69.1|
 |38|qwen2.5-0.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0元|45.2| |52.0|53.3|50.4|                    46.0|58.0|51.8|36.6|15.7|                    48.1|50.4|30.7|21.7|                    37.4|42.4|32.5|25.1|54.0|                    83.7|65.7|
 |39|ERNIE-Tiny-8K☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0元|44.3| |68.0|78.5|51.3|                    77.3|50.4|23.5|18.2|26.5|                    37.0|48.5|31.0|18.1|                    32.0|46.5|37.7|35.1|87.0|                    16.3|60.6|
+
 <br><br>

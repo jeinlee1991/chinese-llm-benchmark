@@ -16,4 +16,5 @@
 |13|Yi-1.5-34B-Chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|76.8| |90.0|83.0|81.8|83.3|                        74.0|79.0|75.6|77.2|84.0|                        81.3|59.0|38.9|67.8|                        74.7|59.5|86.6|96.7|                        61.8|94.0|
 |14|gemma-2-27b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|72.5| |92.0|93.3|74.8|96.7|                        83.1|88.3|66.4|74.8|80.5|                        80.0|57.1|22.9|53.2|                        71.7|61.9|82.3|96.4|                        42.3|94.1|
 |15|Mixtral-8x7B-Instruct-v0.1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|60.3| |92.0|86.7|60.9|90.0|                        64.4|69.8|46.8|63.0|81.2|                        73.0|47.8|18.1|42.6|                        62.6|46.8|56.5|87.4|                        0.0|84.9|
+
 <br><br>
