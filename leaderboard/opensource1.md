@@ -8,5 +8,4 @@
 |5|DeepSeek-R1-Distill-Qwen-1.5B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|54.7| |73.7|80.9|45.7|89.3|                        64.4|84.3|74.6|48.6|48.8|                        64.4|26.4|12.9|34.6|                        44.4|36.9|25.9|69.9|                        91.1|60.6|
 |6|Llama-3.2-1B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|47.1| |56.0|71.9|52.3|54.0|                        61.0|67.3|23.3|22.2|56.1|                        53.0|32.7|14.4|33.7|                        52.5|38.1|31.8|64.9|                        74.8|69.1|
 |7|qwen2.5-0.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|45.2| |52.0|53.3|50.4|46.0|                        58.0|51.8|36.6|15.7|48.1|                        50.4|30.7|21.7|37.4|                        42.4|32.5|25.1|54.0|                        83.7|65.7|
-
-<br><br>
+    

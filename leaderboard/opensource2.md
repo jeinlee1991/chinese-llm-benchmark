@@ -18,5 +18,4 @@
 |15|Llama-3.1-8B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|65.4| |63.0|85.2|65.3|84.0|                        69.0|90.5|50.4|65.7|71.8|                        77.9|49.6|22.2|44.6|                        66.7|53.2|63.9|86.7|                        83.7|90.4|
 |16|Meta-Llama-3.1-8B-Instruct-fp8☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|64.9| |77.0|89.6|64.4|93.3|                        67.4|89.8|33.1|70.1|68.6|                        77.2|43.2|22.9|46.0|                        62.6|50.0|64.4|90.0|                        87.0|88.2|
 |17|Mistral-7B-Instruct-v0.3☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|55.2| |82.0|80.7|57.6|83.3|                        68.2|33.5|31.7|56.4|76.3|                        73.0|40.9|17.1|34.0|                        54.5|44.8|45.3|88.4|                        32.5|81.0|
-
-<br><br>
+    
