@@ -24,3 +24,4 @@
 |21|moonshot-v1-8k☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|12元|78.2| |92.0|85.0|78.0|                    89.3|72.0|79.3|85.1|66.7|                    86.4|82.9|62.5|34.2|                    75.2|73.7|60.3|88.0|95.0|                    91.1|95.5|
 |22|SenseChat-Turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|5元|76.9| |81.0|77.8|83.9|                    86.0|72.0|78.5|81.9|74.1|                    89.9|82.9|63.9|41.5|                    72.4|69.7|60.3|91.5|97.4|                    64.2|94.4|
 |23|SenseChat-v4☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|12元|71.0| |89.0|78.5|75.1|                    86.7|71.0|72.2|39.0|70.7|                    84.7|76.8|53.3|25.2|                    55.5|70.7|66.7|83.6|96.4|                    87.8|94.8|
+<br><br>

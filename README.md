@@ -3,7 +3,7 @@
 - 目前已囊括195个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及DeepSeek-R1、deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、书生internLM2.5等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
-- 支持多维度能力评测，包括分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试、律师资格考试、高考、常识推理、文本蕴含、成语理解、情感分析、医师考试之规培结业。
+- 支持多维度能力评测，包括分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试、律师资格考试JEC-QA、高考、高中学科、初中学科、小学学科、常识推理、文本蕴含、成语理解、情感分析、演绎推理、C3中文阅读理解、医师考试之规培结业。
 - 不仅提供能力评分排行榜，也提供所有模型的原始输出结果！有兴趣的朋友可以自己打分、自己排行！
 
 ## 目录
@@ -151,7 +151,7 @@
 |1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|16元|90.9| |94.1|95.7|92.2|                    100.0|81.1|96.6|94.2|93.2|                    94.6|89.8|88.6|71.7|                    93.5|79.8|77.1|94.0|94.1|                    92.7|98.9|
 |2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0元|86.0| |88.0|91.9|80.1|                    100.0|84.7|99.7|98.4|89.6|                    93.0|82.0|85.1|47.4|                    82.6|80.8|68.3|89.6|95.0|                    95.1|96.7|
 |3|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.26元|85.7| |86.3|95.7|84.4|                    96.0|78.8|94.7|90.2|88.1|                    94.4|88.6|76.2|49.2|                    84.0|75.8|70.2|85.8|97.4|                    95.9|95.8|
-
+<br><br>
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
 <br>
 #### 1.2、商用大模型排行榜（含开源模型的付费API）
@@ -162,7 +162,7 @@
 |1|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|50元|87.9| |93.0|85.2|89.4|                    97.3|78.0|99.5|93.7|83.2|                    92.0|82.4|76.2|69.1|                    90.6|74.7|77.4|87.0|98.0|                    90.2|98.0|
 |2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|50元|86.6| |87.0|91.9|90.2|                    99.3|81.0|88.7|89.5|87.0|                    90.9|89.4|76.7|56.8|                    86.9|75.8|71.0|90.0|97.0|                    94.3|100.0|
 |3|ERNIE-4.0☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|90元|86.2| |88.0|89.0|93.8|                    94.0|79.0|100.0|88.6|82.8|                    92.0|84.0|76.0|61.0|                    83.7|81.8|78.0|94.0|92.0|                    82.0|100.0|
-
+<br><br>
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
 
 ##### （2）输出价格5~30元商用大模型排行榜
@@ -172,7 +172,7 @@
 |1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|16元|90.9| |94.1|95.7|92.2|                    100.0|81.1|96.6|94.2|93.2|                    94.6|89.8|88.6|71.7|                    93.5|79.8|77.1|94.0|94.1|                    92.7|98.9|
 |2|qwen2.5-max☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|9.6元|87.4| |95.0|91.9|87.8|                    100.0|84.3|97.5|93.1|90.8|                    90.0|86.5|73.3|57.6|                    84.8|82.8|67.9|91.5|97.2|                    96.7|96.7|
 |3|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|12元|86.8| |91.0|88.9|90.8|                    96.7|79.0|93.0|93.9|88.9|                    92.7|81.6|75.7|79.3|                    86.1|83.8|77.0|84.8|95.0|                    65.0|95.8|
-
+<br><br>
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
 
 ##### （3）输出价格1~5元商用大模型排行榜
@@ -182,7 +182,7 @@
 |1|Doubao-1.5-pro-32k-250115(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|2元|90.7| |96.0|97.8|91.3|                    100.0|89.4|99.2|94.8|90.2|                    93.0|88.3|78.3|71.5|                    92.9|74.7|71.0|91.0|97.9|                    97.6|97.1|
 |2|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.26元|85.7| |86.3|95.7|84.4|                    96.0|78.8|94.7|90.2|88.1|                    94.4|88.6|76.2|49.2|                    84.0|75.8|70.2|85.8|97.4|                    95.9|95.8|
 |3|deepseek-chat-v3☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|2元|84.5| |93.0|97.0|73.4|                    100.0|84.0|99.0|91.4|90.5|                    94.4|86.8|72.7|39.5|                    75.3|74.7|55.6|89.1|96.7|                    99.2|95.8|
-
+<br><br>
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
 
 ##### （4）输出价格1元以下商用大模型排行榜
@@ -192,7 +192,7 @@
 |1|Doubao-1.5-lite-32k-250115(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0.6元|86.7| |93.0|94.8|85.3|                    98.7|84.7|99.0|94.8|85.8|                    93.7|83.4|70.7|59.0|                    89.3|73.7|60.7|80.3|94.3|                    98.4|94.6|
 |2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0元|86.0| |88.0|91.9|80.1|                    100.0|84.7|99.7|98.4|89.6|                    93.0|82.0|85.1|47.4|                    82.6|80.8|68.3|89.6|95.0|                    95.1|96.7|
 |3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|0元|85.9| |94.1|99.0|85.1|                    100.0|76.3|98.3|91.8|92.3|                    90.5|80.0|73.7|43.6|                    82.4|73.7|66.7|92.0|95.0|                    95.9|96.5|
-
+<br><br>
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
 
 DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmarking.html) 
@@ -210,7 +210,7 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 |1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|70.3| |81.0|75.6|70.6|83.3|                        77.0|85.7|75.5|43.5|84.3|                        80.3|51.3|28.9|56.5|                        68.7|57.9|71.6|91.2|                        76.4|87.7|
 |2|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|60.4| |74.0|83.0|58.1|88.7|                        74.6|89.7|46.2|58.1|63.4|                        69.6|37.8|18.4|35.3|                        62.6|42.9|49.0|92.7|                        74.0|87.0|
 |3|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|57.7| |70.0|71.9|65.6|63.3|                        62.0|83.3|56.1|34.0|36.2|                        75.1|40.5|28.1|52.5|                        57.6|42.5|59.5|93.6|                        3.3|83.0|
-
+<br><br>
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
 
 ##### （2）5B~20B开源大模型排行榜
@@ -220,7 +220,7 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 |1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|82.9| |88.4|90.4|78.9|98.0|                        80.9|94.3|88.5|83.1|92.7|                        86.6|68.0|42.3|78.4|                        80.8|62.3|83.8|97.2|                        94.3|94.4|
 |2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|82.0| |89.0|90.4|85.0|98.0|                        81.0|91.5|93.7|54.4|92.7|                        87.5|67.0|42.6|79.3|                        76.8|64.7|87.6|96.0|                        81.3|95.2|
 |3|qwen2.5-7b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|78.5| |85.0|88.1|78.3|91.3|                        77.0|89.8|79.9|61.7|90.6|                        83.4|59.6|42.5|73.1|                        66.7|64.3|79.4|96.0|                        91.9|91.6|
-
+<br><br>
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
 
 ##### （3）20B以上开源大模型排行榜
@@ -230,7 +230,7 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 |1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|90.9| |94.1|95.7|92.2|100.0|                        81.1|96.6|94.2|93.2|94.6|                        89.8|88.6|71.7|93.5|                        79.8|77.1|94.0|94.1|                        92.7|98.9|
 |2|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|85.7| |86.3|95.7|84.4|96.0|                        78.8|94.7|90.2|88.1|94.4|                        88.6|76.2|49.2|84.0|                        75.8|70.2|85.8|97.4|                        95.9|95.8|
 |3|qwen2.5-72b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|85.0| |92.0|87.4|91.7|92.7|                        83.0|95.5|91.1|85.8|91.3|                        86.6|71.7|49.1|82.5|                        75.8|62.7|89.0|96.0|                        95.1|100.0|
-
+<br><br>
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
 
 DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmarking.html)

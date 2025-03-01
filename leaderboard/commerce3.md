@@ -23,3 +23,4 @@
 |20|gemma-2-27b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.26元|72.5| |92.0|93.3|74.8|                    96.7|83.1|88.3|66.4|74.8|                    80.5|80.0|57.1|22.9|                    53.2|71.7|61.9|82.3|96.4|                    42.3|94.1|
 |21|gemini-1.5-flash-8b☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|1.1元|71.8| |93.0|90.4|70.0|                    99.3|84.7|77.3|81.3|71.7|                    79.1|79.6|51.6|19.6|                    57.8|75.8|55.6|81.6|93.4|                    31.7|92.8|
 |22|Mixtral-8x7B-Instruct-v0.1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|1.74元|60.3| |92.0|86.7|60.9|                    90.0|64.4|69.8|46.8|63.0|                    81.2|73.0|47.8|18.1|                    42.6|62.6|46.8|56.5|87.4|                    0.0|84.9|
+<br><br>

@@ -15,3 +15,4 @@
 |12|DeepSeek-R1-Distill-Llama-8B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.42元|67.6| |88.4|87.0|54.3|                    98.7|78.8|86.7|72.0|74.2|                    76.7|77.8|49.9|19.9|                    50.1|52.5|55.6|47.5|89.3|                    91.1|84.9|
 |13|DeepSeek-R1-Distill-Qwen-7B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.35元|67.4| |69.5|87.0|57.6|                    95.3|71.6|90.2|86.9|63.4|                    73.2|73.8|48.8|19.5|                    54.0|61.6|49.2|54.0|92.7|                    90.2|81.9|
 |14|DeepSeek-R1-Distill-Qwen-1.5B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|0.14元|54.7| |73.7|80.9|45.7|                    89.3|64.4|84.3|74.6|48.6|                    48.8|64.4|26.4|12.9|                    34.6|44.4|36.9|25.9|69.9|                    91.1|60.6|
+<br><br>

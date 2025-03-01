@@ -17,3 +17,4 @@
 |14|xunfei-spark-pro☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|30元|80.8| |87.0|82.0|86.2|                    86.0|74.0|94.0|94.6|35.0|                    90.9|86.9|60.8|63.0|                    78.4|76.8|57.1|86.1|97.4|                    85.4|95.3|
 |15|o3-mini☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|31.9元|77.4| |95.3|95.0|76.8|                    95.3|64.4|96.2|84.8|81.2|                    89.0|72.5|62.2|26.1|                    61.6|73.7|59.1|85.6|96.9|                    91.1|93.1|
 |16|Baichuan4☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|100元|75.2| |86.0|94.1|89.2|                    95.3|75.0|78.2|75.1|82.3|                    90.0|83.0|62.0|34.4|                    71.6|75.8|25.0|92.0|98.0|                    14.0|98.0|
+<br><br>
