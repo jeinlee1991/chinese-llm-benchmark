@@ -1,4 +1,7 @@
 ## 最近更新
+- [2025/3/3] 发布v2.22版本评测榜单
+  - 新增“CMB-医师考试-执业助理医师”排行榜（含临床执业助理医师、口腔执业助理医师等5个方向），并计入总分，详见[link](#2医疗医师考试执业助理医师排行榜)
+  - 删除陈旧的模型：SenseChat-Turbo、SenseChat-v4、SenseChat-5、Mixtral-8x7B-Instruct-v0.1
 - [2025/2/28] 发布v2.21版本评测榜单
   - 新增“CMB-医师考试-规培结业”排行榜（含外科、皮肤科等18个方向），并计入总分，详见[link](#2医疗医师考试规培结业排行榜)
   - 删除陈旧的模型：Doubao-lite-32k-240428、Doubao-pro-32k-240615、o1-preview、WizardLM-2-8x22B、gemini-2.0-flash-lite-preview-02-05
