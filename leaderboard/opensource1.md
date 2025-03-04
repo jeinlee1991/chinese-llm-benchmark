@@ -1,11 +1,11 @@
 ##### （1）5B以下开源大模型排行榜
-|排名|大模型|类别|总分| |分类能力|信息抽取|阅读理解|数据分析|指令遵从|算术运算|初中数学|符号推理|代词理解|诗词匹配|公务员考试|律师资格考试|高考|高中学科|初中学科|小学学科|常识推理|文本蕴含|成语理解|情感分析|演绎推理|C3中文阅读理解|
-|---|-----|-------|---|-|------|-------|------|-------|------|-------|------|-------|-------|------|---------|----------|---|------|-------|------|-------|-------|------|-------|------|-----------|
-|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|69.6| |81.0|75.6|70.6|83.3|                        77.0|85.7|75.5|43.5|84.3|                        80.3|51.3|28.9|56.5|61.3|76.0|76.8|                        68.7|57.9|71.6|91.2|                        76.4|87.7|
-|2|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|59.5| |74.0|83.0|58.1|88.7|                        74.6|89.7|46.2|58.1|63.4|                        69.6|37.8|18.4|35.3|40.9|45.3|51.7|                        62.6|42.9|49.0|92.7|                        74.0|87.0|
-|3|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|57.3| |70.0|71.9|65.6|63.3|                        62.0|83.3|56.1|34.0|36.2|                        75.1|40.5|28.1|52.5|56.3|75.1|67.4|                        57.6|42.5|59.5|93.6|                        3.3|83.0|
-|4|ministral-3b☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|商用|56.3| |83.0|87.4|54.5|84.0|                        77.1|66.3|64.4|64.5|67.5|                        64.1|38.1|15.8|39.0|37.9|51.4|54.1|                        67.9|33.8|24.1|58.1|                        71.5|84.3|
-|5|DeepSeek-R1-Distill-Qwen-1.5B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|53.5| |73.7|80.9|45.7|89.3|                        64.4|84.3|74.6|48.6|48.8|                        64.4|26.4|12.9|34.6|42.1|56.1|53.8|                        44.4|36.9|25.9|69.9|                        91.1|60.6|
-|6|Llama-3.2-1B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|46.3| |56.0|71.9|52.3|54.0|                        61.0|67.3|23.3|22.2|56.1|                        53.0|32.7|14.4|33.7|34.6|36.5|51.6|                        52.5|38.1|31.8|64.9|                        74.8|69.1|
-|7|qwen2.5-0.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|开源|44.7| |52.0|53.3|50.4|46.0|                        58.0|51.8|36.6|15.7|48.1|                        50.4|30.7|21.7|37.4|47.0|54.2|47.0|                        42.4|32.5|25.1|54.0|                        83.7|65.7|
+|排名|大模型|机构|类别|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
+|---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
+|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|58.6| |                    54.1|67.6|28.9|                    51.3|72.2|77.7|
+|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|49.0| |                    47.3|62.8|28.1|                    40.5|49.6|65.9|
+|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.8| |                    41.8|43.3|18.4|                    37.8|69.9|69.4|
+|4|ministral-3b☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Mistral|0.29元|43.8| |                    30.3|45.6|15.8|                    38.1|69.8|63.4|
+|5|DeepSeek-R1-Distill-Qwen-1.5B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.14元|40.4| |                    27.5|46.6|12.9|                    26.4|72.0|57.1|
+|6|qwen2.5-0.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|37.9| |                    33.6|46.4|21.7|                    30.7|46.0|49.0|
+|7|Llama-3.2-1B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.15元|36.6| |                    28.9|39.1|14.4|                    32.7|49.0|55.4|
     
