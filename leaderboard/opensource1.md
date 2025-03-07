@@ -1,11 +1,11 @@
 ##### （1）5B以下开源大模型排行榜
 |排名|大模型|机构|类别|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|58.6| |                    54.1|67.6|28.9|                    51.3|72.2|77.7|
-|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|49.0| |                    47.3|62.8|28.1|                    40.5|49.6|65.9|
-|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.8| |                    41.8|43.3|18.4|                    37.8|69.9|69.4|
-|4|ministral-3b☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Mistral|0.29元|43.8| |                    30.3|45.6|15.8|                    38.1|69.8|63.4|
-|5|DeepSeek-R1-Distill-Qwen-1.5B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.14元|40.4| |                    27.5|46.6|12.9|                    26.4|72.0|57.1|
-|6|qwen2.5-0.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|37.9| |                    33.6|46.4|21.7|                    30.7|46.0|49.0|
-|7|Llama-3.2-1B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.15元|36.6| |                    28.9|39.1|14.4|                    32.7|49.0|55.4|
+|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|58.4| |                    52.5|67.6|28.9|                    51.3|72.2|77.7|
+|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|48.8| |                    45.7|62.8|28.1|                    40.5|49.6|65.9|
+|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.6| |                    41.0|43.3|18.4|                    37.8|69.9|69.4|
+|4|ministral-3b☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Mistral|0.29元|43.7| |                    29.6|45.6|15.8|                    38.1|69.8|63.4|
+|5|DeepSeek-R1-Distill-Qwen-1.5B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.14元|40.3| |                    26.6|46.6|12.9|                    26.4|72.0|57.1|
+|6|qwen2.5-0.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|37.7| |                    32.2|46.4|21.7|                    30.7|46.0|49.0|
+|7|Llama-3.2-1B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.15元|36.5| |                    28.4|39.1|14.4|                    32.7|49.0|55.4|
     

@@ -26,8 +26,8 @@
     - [2.1 医师考试/规培结业](#21-医师考试规培结业)
     - [2.2 医师考试/执业助理医师](#22-医师考试执业助理医师)
     - [2.3 医师考试/执业医师](#23-医师考试执业医师)
-    - [2.4 医师考试/中级职称TODO](#24-医师考试中级职称)
-    - [2.5 医师考试/高级职称TODO](#25-医师考试高级职称)
+    - [2.4 医师考试/中级职称](#24-医师考试中级职称)
+    - [2.5 医师考试/高级职称TODO](#25-医师考试高级职称TODO)
     - [2.6 护理考试/护士执业资格TODO](#26-护理考试护士执业资格TODO)
     - [2.7 护理考试/主管护师TODO](#27-护理考试主管护师TODO)
     - [2.8 护理考试/高级护师TODO](#28-护理考试高级护师TODO)
@@ -65,6 +65,8 @@
 
 
 # 最近更新
+- [2025/3/7] 发布v3.1版本评测榜单
+  - 新增“医师考试/中级职称”排行榜（含超声波医学主治医师、妇产科主治医师等43个方向），并计入总分，详见[link](#24-医师考试中级职称)
 - [2025/3/4] 发布v3.0版本评测榜单
   - 综合能力得分计算方式改为：医疗、教育、法律、行政公务、推理与数学计算、语言与指令遵从等6个领域得分的平均值。
   - 新增“医师考试/执业医师”排行榜（含中西医结合执业医师、口腔执业医师等5个方向），并计入总分，详见[link](#23-医师考试执业医师)
@@ -168,9 +170,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|87.3| |                    85.5|94.3|71.7|                    88.6|92.7|91.2|
-|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0.0元|78.2| |                    71.0|84.7|47.4|                    85.1|93.9|86.9|
-|3|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7.0元|77.9| |                    78.7|87.4|50.8|                    78.0|87.4|84.8|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|87.3| |                    85.5|94.3|71.7|                    88.6|92.7|91.2|
+|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|78.1| |                    70.5|84.7|47.4|                    85.1|93.9|86.9|
+|3|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.6| |                    77.2|87.4|50.8|                    78.0|87.4|84.8|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -180,9 +182,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|50.0元|84.2| |                    90.5|91.4|69.1|                    76.2|89.8|88.0|
-|2|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|80.1| |                    81.4|88.8|62.0|                    72.0|88.9|87.5|
-|3|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50.0元|80.0| |                    80.0|88.9|56.8|                    76.7|89.1|88.8|
+|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70元|79.9| |                    80.1|88.8|62.0|                    72.0|88.9|87.5|
+|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50元|79.8| |                    78.6|88.9|56.8|                    76.7|89.1|88.8|
+|3|ERNIE-4.0☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|90元|79.2| |                    73.1|87.8|61.0|                    76.0|88.2|89.0|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -191,9 +193,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|87.3| |                    85.5|94.3|71.7|                    88.6|92.7|91.2|
-|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|12.0元|84.3| |                    87.1|89.3|79.3|                    75.7|86.9|87.7|
-|3|qwen2.5-max☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|阿里巴巴|9.6元|80.3| |                    82.0|86.8|57.6|                    73.3|93.5|88.9|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|87.3| |                    85.5|94.3|71.7|                    88.6|92.7|91.2|
+|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|12元|84.2| |                    86.2|89.3|79.3|                    75.7|86.9|87.7|
+|3|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|84.1| |                    90.2|91.4|69.1|                    76.2|89.8|88.0|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -202,9 +204,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|Doubao-1.5-pro-32k-250115(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2.0元|86.3| |                    89.5|94.7|71.5|                    78.3|92.8|91.3|
-|2|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|1.26元|77.5| |                    72.8|88.8|49.2|                    76.2|90.1|87.7|
-|3|ERNIE-3.5-8K☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|2.0元|76.0| |                    70.9|84.8|57.1|                    71.1|85.3|86.5|
+|1|Doubao-1.5-pro-32k-250115(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2元|86.2| |                    88.8|94.7|71.5|                    78.3|92.8|91.3|
+|2|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|1.26元|77.3| |                    71.5|88.8|49.2|                    76.2|90.1|87.7|
+|3|ERNIE-3.5-8K☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|2元|75.7| |                    69.4|84.8|57.1|                    71.1|85.3|86.5|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -213,9 +215,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|Doubao-1.5-lite-32k-250115(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|81.1| |                    87.5|90.9|59.0|                    70.7|91.7|86.5|
-|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0.0元|78.2| |                    71.0|84.7|47.4|                    85.1|93.9|86.9|
-|3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0.0元|76.7| |                    75.5|87.8|43.6|                    73.7|92.0|87.5|
+|1|Doubao-1.5-lite-32k-250115(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|80.8| |                    85.9|90.9|59.0|                    70.7|91.7|86.5|
+|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|78.1| |                    70.5|84.7|47.4|                    85.1|93.9|86.9|
+|3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|76.6| |                    75.0|87.8|43.6|                    73.7|92.0|87.5|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -232,9 +234,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|58.6| |                    54.1|67.6|28.9|                    51.3|72.2|77.7|
-|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|49.0| |                    47.3|62.8|28.1|                    40.5|49.6|65.9|
-|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.8| |                    41.8|43.3|18.4|                    37.8|69.9|69.4|
+|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|58.4| |                    52.5|67.6|28.9|                    51.3|72.2|77.7|
+|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|48.8| |                    45.7|62.8|28.1|                    40.5|49.6|65.9|
+|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.6| |                    41.0|43.3|18.4|                    37.8|69.9|69.4|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -243,9 +245,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|72.8| |                    72.4|85.0|42.6|                    67.0|82.6|86.9|
-|2|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|72.8| |                    67.2|83.7|42.3|                    68.0|89.8|85.6|
-|3|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|1.0元|70.2| |                    71.9|78.7|42.7|                    66.4|77.1|84.4|
+|1|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|72.6| |                    71.1|85.0|42.6|                    67.0|82.6|86.9|
+|2|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|72.5| |                    65.7|83.7|42.3|                    68.0|89.8|85.6|
+|3|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|1元|69.9| |                    70.1|78.7|42.7|                    66.4|77.1|84.4|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -254,9 +256,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从分类能力|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|87.3| |                    85.5|94.3|71.7|                    88.6|92.7|91.2|
-|2|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7.0元|77.9| |                    78.7|87.4|50.8|                    78.0|87.4|84.8|
-|3|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|1.26元|77.5| |                    72.8|88.8|49.2|                    76.2|90.1|87.7|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|87.3| |                    85.5|94.3|71.7|                    88.6|92.7|91.2|
+|2|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.6| |                    77.2|87.4|50.8|                    78.0|87.4|84.8|
+|3|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|1.26元|77.3| |                    71.5|88.8|49.2|                    76.2|90.1|87.7|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -671,10 +673,228 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 完整排行榜见[口腔执业医师](leaderboard/zyys-kq.md)<br>
 ☛查看[口腔执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-口腔执业医师)
+<br><br><br>
+
+
+### 2.4 医师考试/中级职称
+医师考试之中级职称，均为选择题，含超声波医学主治医师、妇产科主治医师等43个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
+☛☛完整排行榜见[医师考试/中级职称](leaderboard/zhong-ji-zhi-cheng.md)<br>
+
+#### （1）超声波医学主治医师
+完整排行榜见[超声波医学主治医师](leaderboard/zjzc-csb.md)<br>
+☛查看[超声波医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-超声波医学主治医师
 <br><br>
 
+#### （2）妇产科主治医师
+完整排行榜见[妇产科主治医师](leaderboard/zjzc-fck.md)<br>
+☛查看[妇产科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-妇产科主治医师
+<br><br>
 
-### 2.4 医师考试/中级职称TODO
+#### （3）中医内科主治医师
+完整排行榜见[中医内科主治医师](leaderboard/zjzc-zynk.md)<br>
+☛查看[中医内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中医内科主治医师
+<br><br>
+
+#### （4）精神病学主治医师
+完整排行榜见[精神病学主治医师](leaderboard/zjzc-jsb.md)<br>
+☛查看[精神病学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-精神病学主治医师
+<br><br>
+
+#### （5）皮肤科
+完整排行榜见[皮肤科](leaderboard/zjzc-pfk.md)<br>
+☛查看[皮肤科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-皮肤科
+<br><br>
+
+#### （6）内科主治医师
+完整排行榜见[内科主治医师](leaderboard/zjzc-neike.md)<br>
+☛查看[内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-内科主治医师
+<br><br>
+
+#### （7）康复医学主治医师
+完整排行榜见[康复医学主治医师](leaderboard/zjzc-kfyx.md)<br>
+☛查看[康复医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-康复医学主治医师
+<br><br>
+
+#### （8）神经内科主治医师
+完整排行榜见[神经内科主治医师](leaderboard/zjzc-sjnk.md)<br>
+☛查看[神经内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-神经内科主治医师
+<br><br>
+
+#### （9）核医学主治医师
+完整排行榜见[核医学主治医师](leaderboard/zjzc-hyx.md)<br>
+☛查看[核医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-核医学主治医师
+<br><br>
+
+#### （10）口腔内科主治医师
+完整排行榜见[口腔内科主治医师](leaderboard/zjzc-kqnk.md)<br>
+☛查看[口腔内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔内科主治医师
+<br><br>
+
+#### （11）儿科主治医师
+完整排行榜见[儿科主治医师](leaderboard/zjzc-erke.md)<br>
+☛查看[儿科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-儿科主治医师
+<br><br>
+
+#### （12）结核病主治医师
+完整排行榜见[结核病主治医师](leaderboard/zjzc-jhb.md)<br>
+☛查看[结核病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-结核病主治医师
+<br><br>
+
+#### （13）心血管内科与呼吸内科主治医师
+完整排行榜见[心血管内科与呼吸内科主治医师](leaderboard/zjzc-xxg.md)<br>
+☛查看[心血管内科与呼吸内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心血管内科与呼吸内科主治医师
+<br><br>
+
+#### （14）重症医学主治医师
+完整排行榜见[重症医学主治医师](leaderboard/zjzc-zzyx.md)<br>
+☛查看[重症医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-重症医学主治医师
+<br><br>
+
+#### （15）职业病主治医师
+完整排行榜见[职业病主治医师](leaderboard/zjzc-zyb.md)<br>
+☛查看[职业病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-职业病主治医师
+<br><br>
+
+#### （16）口腔科主治医师
+完整排行榜见[口腔科主治医师](leaderboard/zjzc-kqk.md)<br>
+☛查看[口腔科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔科主治医师
+<br><br>
+
+#### （17）放射科主治医师
+完整排行榜见[放射科主治医师](leaderboard/zjzc-fsk.md)<br>
+☛查看[放射科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-放射科主治医师
+<br><br>
+
+#### （18）耳鼻咽喉科主治医师
+完整排行榜见[耳鼻咽喉科主治医师](leaderboard/zjzc-ebh.md)<br>
+☛查看[耳鼻咽喉科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-耳鼻咽喉科主治医师
+<br><br>
+
+#### （19）肿瘤学主治医师
+完整排行榜见[肿瘤学主治医师](leaderboard/zjzc-zlx.md)<br>
+☛查看[肿瘤学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-肿瘤学主治医师
+<br><br>
+
+#### （20）医院感染
+完整排行榜见[医院感染](leaderboard/zjzc-yygr.md)<br>
+☛查看[医院感染badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-医院感染
+<br><br>
+
+#### （21）麻醉科主治医师
+完整排行榜见[麻醉科主治医师](leaderboard/zjzc-mzk.md)<br>
+☛查看[麻醉科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-麻醉科主治医师
+<br><br>
+
+#### （22）疼痛科主治医师
+完整排行榜见[疼痛科主治医师](leaderboard/zjzc-ttk.md)<br>
+☛查看[疼痛科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-疼痛科主治医师
+<br><br>
+
+#### （23）病理科主治医师
+完整排行榜见[病理科主治医师](leaderboard/zjzc-blk.md)<br>
+☛查看[病理科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-病理科主治医师
+<br><br>
+
+#### （24）传染病主治医师
+完整排行榜见[传染病主治医师](leaderboard/zjzc-crb.md)<br>
+☛查看[传染病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-传染病主治医师
+<br><br>
+
+#### （25）皮肤与性病学主治医师
+完整排行榜见[皮肤与性病学主治医师](leaderboard/zjzc-pfyxb.md)<br>
+☛查看[皮肤与性病学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-皮肤与性病学主治医师
+<br><br>
+
+#### （26）肾内科主治医师
+完整排行榜见[肾内科主治医师](leaderboard/zjzc-snke.md)<br>
+☛查看[肾内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-肾内科主治医师
+<br><br>
+
+#### （27）口腔修复科主治医师
+完整排行榜见[口腔修复科主治医师](leaderboard/zjzc-kqxf.md)<br>
+☛查看[口腔修复科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔修复科主治医师
+<br><br>
+
+#### （28）预防医学主治医师
+完整排行榜见[预防医学主治医师](leaderboard/zjzc-yfyx.md)<br>
+☛查看[预防医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-预防医学主治医师
+<br><br>
+
+#### （29）中医针灸主治医师
+完整排行榜见[中医针灸主治医师](leaderboard/zjzc-zyzj.md)<br>
+☛查看[中医针灸主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中医针灸主治医师
+<br><br>
+
+#### （30）口腔颌面外科主治医师
+完整排行榜见[口腔颌面外科主治医师](leaderboard/zjzc-kqhm.md)<br>
+☛查看[口腔颌面外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔颌面外科主治医师
+<br><br>
+
+#### （31）风湿与临床免疫主治医师
+完整排行榜见[风湿与临床免疫主治医师](leaderboard/zjzc-fsylc.md)<br>
+☛查看[风湿与临床免疫主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-风湿与临床免疫主治医师
+<br><br>
+
+#### （32）消化内科主治医师
+完整排行榜见[消化内科主治医师](leaderboard/zjzc-xhnk.md)<br>
+☛查看[消化内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-消化内科主治医师
+<br><br>
+
+#### （33）心理治疗学主治医师
+完整排行榜见[心理治疗学主治医师](leaderboard/zjzc-xlzl.md)<br>
+☛查看[心理治疗学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理治疗学主治医师
+<br><br>
+
+#### （34）传染病学
+完整排行榜见[传染病学](leaderboard/zjzc-crbx.md)<br>
+☛查看[传染病学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-传染病学
+<br><br>
+
+#### （35）全科主治医师
+完整排行榜见[全科主治医师](leaderboard/zjzc-qk.md)<br>
+☛查看[全科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-全科主治医师
+<br><br>
+
+#### （36）眼科主治医师
+完整排行榜见[眼科主治医师](leaderboard/zjzc-yk.md)<br>
+☛查看[眼科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-眼科主治医师
+<br><br>
+
+#### （37）口腔正畸学主治医师
+完整排行榜见[口腔正畸学主治医师](leaderboard/zjzc-kqzq.md)<br>
+☛查看[口腔正畸学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔正畸学主治医师
+<br><br>
+
+#### （38）中西医结合内科主治医师
+完整排行榜见[中西医结合内科主治医师](leaderboard/zjzc-zxyjh.md)<br>
+☛查看[中西医结合内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中西医结合内科主治医师
+<br><br>
+
+#### （39）营养学主治医师
+完整排行榜见[营养学主治医师](leaderboard/zjzc-yyx.md)<br>
+☛查看[营养学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-营养学主治医师
+<br><br>
+
+#### （40）整形外科主治医师
+完整排行榜见[整形外科主治医师](leaderboard/zjzc-zxwk.md)<br>
+☛查看[整形外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-整形外科主治医师
+<br><br>
+
+#### （41）心理咨询师
+完整排行榜见[心理咨询师](leaderboard/zjzc-xlzx.md)<br>
+☛查看[心理咨询师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理咨询师
+<br><br>
+
+#### （42）骨科
+完整排行榜见[骨科](leaderboard/zjzc-guke.md)<br>
+☛查看[骨科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-骨科
+<br><br>
+
+#### （43）外科主治医师
+完整排行榜见[外科主治医师](leaderboard/zjzc-waike.md)<br>
+☛查看[外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-外科主治医师
+<br><br><br>
+
 
 ### 2.5 医师考试/高级职称TODO
 
