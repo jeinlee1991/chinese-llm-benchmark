@@ -903,42 +903,42 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/中级职称](leaderboard/gao-ji-zhi-cheng.md)<br>
 
 #### （1）消化内科高级职称
-完整排行榜见[消化内科高级职称](leaderboard/gjzc-.md)<br>
+完整排行榜见[消化内科高级职称](leaderboard/gjzc-xhnk.md)<br>
 ☛查看[消化内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-消化内科高级职称)
 <br><br>
 
 #### （2）普通内科高级职称
-完整排行榜见[普通内科高级职称](leaderboard/gjzc-.md)<br>
+完整排行榜见[普通内科高级职称](leaderboard/gjzc-ptnk.md)<br>
 ☛查看[普通内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-普通内科高级职称)
 <br><br>
 
 #### （3）普通外科高级职称
-完整排行榜见[普通外科高级职称](leaderboard/gjzc-.md)<br>
+完整排行榜见[普通外科高级职称](leaderboard/gjzc-ptwk.md)<br>
 ☛查看[普通外科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-普通外科高级职称)
 <br><br>
 
 #### （4）骨科高级职称
-完整排行榜见[骨科高级职称](leaderboard/gjzc-.md)<br>
+完整排行榜见[骨科高级职称](leaderboard/gjzc-guke.md)<br>
 ☛查看[骨科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-骨科高级职称)
 <br><br>
 
 #### （5）呼吸内科高级职称
-完整排行榜见[呼吸内科高级职称](leaderboard/gjzc-.md)<br>
+完整排行榜见[呼吸内科高级职称](leaderboard/gjzc-hxnk.md)<br>
 ☛查看[呼吸内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-呼吸内科高级职称)
 <br><br>
 
 #### （6）内分泌科高级职称
-完整排行榜见[内分泌科高级职称](leaderboard/gjzc-.md)<br>
+完整排行榜见[内分泌科高级职称](leaderboard/gjzc-nfmk.md)<br>
 ☛查看[内分泌科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-内分泌科高级职称)
 <br><br>
 
 #### （7）心内科高级职称
-完整排行榜见[心内科高级职称](leaderboard/gjzc-.md)<br>
+完整排行榜见[心内科高级职称](leaderboard/gjzc-xnk.md)<br>
 ☛查看[心内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-心内科高级职称)
 <br><br>
 
 #### （8）妇产科学副主任、主任医师职称考试
-完整排行榜见[妇产科学副主任、主任医师职称考试](leaderboard/gjzc-.md)<br>
+完整排行榜见[妇产科学副主任、主任医师职称考试](leaderboard/gjzc-fckx.md)<br>
 ☛查看[妇产科学副主任、主任医师职称考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-妇产科学副主任、主任医师职称考试)
 <br><br><br>
 
