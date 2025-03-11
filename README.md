@@ -28,9 +28,9 @@
     - [2.3 医师考试/执业医师](#23-医师考试执业医师)
     - [2.4 医师考试/中级职称](#24-医师考试中级职称)
     - [2.5 医师考试/高级职称](#25-医师考试高级职称)
-    - [2.6 护理考试/护士执业资格TODO](#26-护理考试护士执业资格TODO)
-    - [2.7 护理考试/主管护师TODO](#27-护理考试主管护师TODO)
-    - [2.8 护理考试/高级护师TODO](#28-护理考试高级护师TODO)
+    - [2.6 护理考试/护士执业资格](#26-护理考试护士执业资格)
+    - [2.7 护理考试/主管护师](#27-护理考试主管护师)
+    - [2.8 护理考试/高级护师](#28-护理考试高级护师)
   - [3、教育排行榜](#3教育排行榜)
     - [3.1 高考](#31-高考)
     - [3.2 高中学科](#32-高中学科)
@@ -65,6 +65,9 @@
 
 
 # 最近更新
+- [2025/3/11] 发布v3.3版本评测榜单
+  - 新增“护理考试/护士执业资格”、“护理考试/主管护师”、“护理考试/高级护师”三个排行榜，并计入总分，详见[link](#26-护理考试护士执业资格)
+  - 新增6个模型：qwq-32b、qwq-plus-2025-03-05、step-2-mini、hunyuan-turbos-20250226、xunfei-spark-lite，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/3/10] 发布v3.2版本评测榜单
   - 新增“医师考试/高级职称”排行榜（含等消化内科高级职称、普通内科高级职称等8个方向），并计入总分，详见[link](#25-医师考试高级职称)
 - [2025/3/7] 发布v3.1版本评测榜单
@@ -172,9 +175,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.8| |                    82.6|94.3|71.7|                    88.6|92.7|91.2|
-|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|77.7| |                    67.9|84.7|47.4|                    85.1|93.9|86.9|
-|3|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.1| |                    74.0|87.4|50.8|                    78.0|87.4|84.8|
+|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2元|87.5| |                    89.0|93.1|79.7|                    81.6|91.5|90.2|
+|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.7|94.3|71.7|                    88.6|92.7|91.2|
+|3|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.7| |                    76.2|91.6|62.8|                    86.5|94.3|90.9|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -184,9 +187,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70元|79.4| |                    77.3|88.8|62.0|                    72.0|88.9|87.5|
-|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50元|79.3| |                    75.6|88.9|56.8|                    76.7|89.1|88.8|
-|3|ERNIE-4.0☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|90元|78.6| |                    69.8|87.8|61.0|                    76.0|88.2|89.0|
+|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70元|80.0| |                    80.9|88.8|62.0|                    72.0|88.9|87.5|
+|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50元|79.6| |                    77.2|88.9|56.8|                    76.7|89.1|88.8|
+|3|ERNIE-4.0☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|90元|79.0| |                    71.9|87.8|61.0|                    76.0|88.2|89.0|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -195,9 +198,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.8| |                    82.6|94.3|71.7|                    88.6|92.7|91.2|
-|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|12元|83.9| |                    84.2|89.3|79.3|                    75.7|86.9|87.7|
-|3|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|83.6| |                    87.1|91.4|69.1|                    76.2|89.8|88.0|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.7|94.3|71.7|                    88.6|92.7|91.2|
+|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|12元|84.3| |                    87.0|89.3|79.3|                    75.7|86.9|87.7|
+|3|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|84.0| |                    89.6|91.4|69.1|                    76.2|89.8|88.0|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -206,9 +209,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|Doubao-1.5-pro-32k-250115(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2元|85.7| |                    85.8|94.7|71.5|                    78.3|92.8|91.3|
-|2|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|1.26元|76.8| |                    68.6|88.8|49.2|                    76.2|90.1|87.7|
-|3|ERNIE-3.5-8K☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|2元|75.1| |                    65.8|84.8|57.1|                    71.1|85.3|86.5|
+|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2元|87.5| |                    89.0|93.1|79.7|                    81.6|91.5|90.2|
+|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2元|85.8| |                    86.2|94.7|71.5|                    78.3|92.8|91.3|
+|3|qwq-plus-2025-03-05(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|阿里巴巴|4元|83.5| |                    76.5|92.3|64.5|                    84.5|93.1|90.3|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -217,9 +220,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|Doubao-1.5-lite-32k-250115(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|80.4| |                    83.4|90.9|59.0|                    70.7|91.7|86.5|
-|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|77.7| |                    67.9|84.7|47.4|                    85.1|93.9|86.9|
-|3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|76.2| |                    72.9|87.8|43.6|                    73.7|92.0|87.5|
+|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|80.3| |                    82.7|90.9|59.0|                    70.7|91.7|86.5|
+|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|77.3| |                    65.7|84.7|47.4|                    85.1|93.9|86.9|
+|3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|75.9| |                    70.7|87.8|43.6|                    73.7|92.0|87.5|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -236,9 +239,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|57.8| |                    49.1|67.6|28.9|                    51.3|72.2|77.7|
-|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|48.4| |                    43.5|62.8|28.1|                    40.5|49.6|65.9|
-|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.3| |                    39.0|43.3|18.4|                    37.8|69.9|69.4|
+|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|58.0| |                    50.0|67.6|28.9|                    51.3|72.2|77.7|
+|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|48.6| |                    44.7|62.8|28.1|                    40.5|49.6|65.9|
+|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.0| |                    37.1|43.3|18.4|                    37.8|69.9|69.4|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -247,9 +250,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|72.1| |                    63.0|83.7|42.3|                    68.0|89.8|85.6|
-|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|72.0| |                    67.8|85.0|42.6|                    67.0|82.6|86.9|
-|3|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|1元|69.4| |                    66.9|78.7|42.7|                    66.4|77.1|84.4|
+|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|72.2| |                    63.9|83.7|42.3|                    68.0|89.8|85.6|
+|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|72.1| |                    68.7|85.0|42.6|                    67.0|82.6|86.9|
+|3|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|1元|69.3| |                    66.5|78.7|42.7|                    66.4|77.1|84.4|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -258,9 +261,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.8| |                    82.6|94.3|71.7|                    88.6|92.7|91.2|
-|2|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.1| |                    74.0|87.4|50.8|                    78.0|87.4|84.8|
-|3|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|1.26元|76.8| |                    68.6|88.8|49.2|                    76.2|90.1|87.7|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.7|94.3|71.7|                    88.6|92.7|91.2|
+|2|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.0| |                    73.8|87.4|50.8|                    78.0|87.4|84.8|
+|3|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|1.26元|77.0| |                    70.0|88.8|49.2|                    76.2|90.1|87.7|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -943,11 +946,68 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 <br><br><br>
 
 
-### 2.6 护理考试/护士执业资格TODO
+### 2.6 护理考试/护士执业资格
+护理考试之护士执业资格，均为选择题，含护士执业资格考试、护师资格考试等2个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
+☛☛完整排行榜见[护理考试/护士执业资格](leaderboard/CMB-护理考试-护士执业资格.md)<br>
 
-### 2.7 护理考试/主管护师TODO
+#### （1）护士执业资格考试
+完整排行榜见[护士执业资格考试](leaderboard/CMB-护理考试-护士执业资格-护士执业资格考试.md)<br>
+☛查看[护士执业资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护士执业资格-护士执业资格考试)
+<br><br>
 
-### 2.8 护理考试/高级护师TODO
+#### （2）护师资格考试
+完整排行榜见[护师资格考试](leaderboard/CMB-护理考试-护师执业资格-护师资格考试.md)<br>
+☛查看[护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护师执业资格-护师资格考试)
+<br><br><br>
+
+
+### 2.7 护理考试/主管护师
+护理考试/主管护师，均为选择题，含儿科主管护师、内科护理学等7个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
+☛☛完整排行榜见[护理考试/主管护师](leaderboard/CMB-护理考试-主管护师.md)<br>
+
+#### （1）儿科主管护师
+完整排行榜见[儿科主管护师](leaderboard/CMB-护理考试-主管护师-儿科主管护师.md)<br>
+☛查看[儿科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-儿科主管护师)
+<br><br>
+
+#### （2）内科护理学
+完整排行榜见[内科护理学](leaderboard/CMB-护理考试-主管护师-内科护理学.md)<br>
+☛查看[内科护理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-内科护理学)
+<br><br>
+
+#### （3）妇产科护理学
+完整排行榜见[妇产科护理学](leaderboard/CMB-护理考试-主管护师-妇产科护理学.md)<br>
+☛查看[妇产科护理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-妇产科护理学)
+<br><br>
+
+#### （4）妇产科主管护师
+完整排行榜见[妇产科主管护师](leaderboard/CMB-护理考试-主管护师-妇产科主管护师.md)<br>
+☛查看[妇产科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-妇产科主管护师)
+<br><br>
+
+#### （5）外科主管护师
+完整排行榜见[外科主管护师](leaderboard/CMB-护理考试-主管护师-外科主管护师.md)<br>
+☛查看[外科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-外科主管护师)
+<br><br>
+
+#### （6）主管护师资格考试
+完整排行榜见[主管护师资格考试](leaderboard/CMB-护理考试-主管护师-主管护师资格考试.md)<br>
+☛查看[主管护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-主管护师资格考试)
+<br><br>
+
+#### （7）内科主管护师
+完整排行榜见[内科主管护师](leaderboard/CMB-护理考试-主管护师-内科主管护师.md)<br>
+☛查看[内科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-内科主管护师)
+<br><br><br>
+
+
+### 2.8 护理考试/高级护师
+护理考试/高级护师，均为选择题，含副主任、主任护师资格考试1个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
+☛☛完整排行榜见[护理考试/高级护师](leaderboard/CMB-护理考试-高级护师.md)<br>
+
+#### （1）副主任、主任护师资格考试
+完整排行榜见[副主任、主任护师资格考试](leaderboard/CMB-护理考试-高级护师-副主任、主任护师资格考试.md)<br>
+☛查看[副主任、主任护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-高级护师-副主任、主任护师资格考试)
 <br><br><br>
 
 
