@@ -31,6 +31,7 @@
     - [2.6 护理考试/护士执业资格](#26-护理考试护士执业资格)
     - [2.7 护理考试/主管护师](#27-护理考试主管护师)
     - [2.8 护理考试/高级护师](#28-护理考试高级护师)
+    - [2.9 药师考试](#29-药师考试)
   - [3、教育排行榜](#3教育排行榜)
     - [3.1 高考](#31-高考)
     - [3.2 高中学科](#32-高中学科)
@@ -65,6 +66,8 @@
 
 
 # 最近更新
+- [2025/3/13] 发布v3.4版本评测榜单
+  - 新增“药师考试”排行榜（含执业西药师、执业中药师等8个方向），并计入总分，详见[link](#29-药师考试)
 - [2025/3/11] 发布v3.3版本评测榜单
   - 新增“护理考试/护士执业资格”、“护理考试/主管护师”、“护理考试/高级护师”三个排行榜，并计入总分，详见[link](#26-护理考试护士执业资格)
   - 新增6个模型：qwq-32b、qwq-plus-2025-03-05、step-2-mini、hunyuan-turbos-20250226、xunfei-spark-lite，☛查看[模型完整信息](https://easyllm.site/static/models.html)
@@ -121,17 +124,7 @@
   - 新增代词理解CLUEWSC榜单（比如“他”是指谁）、诗词匹配CCPM榜单
   - 新增5个模型：Claude-3.5-Sonnet、gemma-2-27b-it、Llama-3.1-405B-Instruct、Baichuan4-Air、Baichuan4-Turbo，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 删除陈旧的模型：Baichuan3-Turbo、qwen2-72b-instruct、Qwen2-7B-Instruct、qwen2-1.5b-instruct、qwen2-0.5b-instruct、qwen2-57b-a14b-instruct
-- [2024/12/28] 发布v2.6版本评测榜单
-  - 新增BBH（学术界常用符号推理评测集）榜单，并计入总分
-  - 将初中数学（七/八/九年级）成绩计入总分
-  - 删除陈旧的模型：deepseek-chat-v2、Llama-3-70B-Instruct、Llama-3-8B-Instruct、MiniCPM-2B-dpo、minimax-abab6.5-chat、DeepSeek-V2-Lite-Chat、internlm2-chat-1_8b
-- [2024/12/27] 发布v2.5版本评测榜单
-  - 新增Grade8Math-zh（八年级数学）、Grade9Math-zh（九年级数学）榜单
-  - 新增6个模型：deepseek-chat-v3、abab7-chat-preview、hunyuan-standard、hunyuan-large、hunyuan-turbo、SenseChat-5，☛查看[模型完整信息](https://easyllm.site/static/models.html)
-- [2024/12/25] 发布v2.4版本评测榜单
-  - 新增Grade7Math-zh（七年级数学）榜单
-  - 删除陈旧的模型：Phi-3-mini-128k-instruct、Qwen1.5系列、openbuddy-llama3-8b、yi-large、yi-large-turbo、yi-medium、yi-spark、internlm2-chat-20b、internlm2-chat-7b、gpt-4-turbo、gpt-3.5-turbo
-- [2024/10/20]v2.3版本，[2024/9/29]v2.2版本，[2024/8/27]v2.1版本，[2024/8/7]v2.0版本，[2024/7/26]v1.21版本，[2024/7/15]v1.20版本，[2024/6/29]v1.19版本，[2024/6/2]v1.18版本，[2024/5/8]v1.17版本，[2024/4/13]v1.16版本，[2024/3/20]v1.15版本，[2024/2/28]v1.14版本，[2024/1/29]v1.13版本
+- [2024/12/28]v2.6版本, [2024/12/27]v2.5版本, [2024/12/25]v2.4版本, [2024/10/20]v2.3版本，[2024/9/29]v2.2版本，[2024/8/27]v2.1版本，[2024/8/7]v2.0版本，[2024/7/26]v1.21版本，[2024/7/15]v1.20版本，[2024/6/29]v1.19版本，[2024/6/2]v1.18版本，[2024/5/8]v1.17版本，[2024/4/13]v1.16版本，[2024/3/20]v1.15版本，[2024/2/28]v1.14版本，[2024/1/29]v1.13版本
 - 2023年：[2023/12/10]v1.12版本，[2023/11/22]v1.11版本，[2023/11/5]v1.10版本，[2023/10/11]v1.9版本，[2023/9/13]v1.8版本，[2023/8/29]v1.7版本，[2023/8/13]v1.6版本，[2023/7/26]v1.5版本， [2023/7/18]v1.4版本， [2023/7/2]v1.3版本， [2023/6/17]v1.2版， [2023/6/10]v1.1版本， [2023/6/4]v1版本
 
 各版本更新详情：[CHANGELOG](CHANGELOG.md)
@@ -175,9 +168,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2元|87.5| |                    89.0|93.1|79.7|                    81.6|91.5|90.2|
-|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.7|94.3|71.7|                    88.6|92.7|91.2|
-|3|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.7| |                    76.2|91.6|62.8|                    86.5|94.3|90.9|
+|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2元|87.6| |                    89.5|93.1|79.7|                    81.6|91.5|90.2|
+|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.7| |                    81.7|94.3|71.7|                    88.6|92.7|91.2|
+|3|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.7| |                    76.4|91.6|62.8|                    86.5|94.3|90.9|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -187,9 +180,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70元|80.0| |                    80.9|88.8|62.0|                    72.0|88.9|87.5|
-|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50元|79.6| |                    77.2|88.9|56.8|                    76.7|89.1|88.8|
-|3|ERNIE-4.0☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|90元|79.0| |                    71.9|87.8|61.0|                    76.0|88.2|89.0|
+|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70元|80.1| |                    81.2|88.8|62.0|                    72.0|88.9|87.5|
+|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50元|79.6| |                    77.3|88.9|56.8|                    76.7|89.1|88.8|
+|3|ERNIE-4.0☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|90元|78.9| |                    71.3|87.8|61.0|                    76.0|88.2|89.0|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -198,9 +191,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.7|94.3|71.7|                    88.6|92.7|91.2|
-|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|12元|84.3| |                    87.0|89.3|79.3|                    75.7|86.9|87.7|
-|3|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|84.0| |                    89.6|91.4|69.1|                    76.2|89.8|88.0|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.7| |                    81.7|94.3|71.7|                    88.6|92.7|91.2|
+|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|12元|84.4| |                    87.7|89.3|79.3|                    75.7|86.9|87.7|
+|3|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|84.1| |                    90.2|91.4|69.1|                    76.2|89.8|88.0|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -209,9 +202,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2元|87.5| |                    89.0|93.1|79.7|                    81.6|91.5|90.2|
-|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2元|85.8| |                    86.2|94.7|71.5|                    78.3|92.8|91.3|
-|3|qwq-plus-2025-03-05(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|阿里巴巴|4元|83.5| |                    76.5|92.3|64.5|                    84.5|93.1|90.3|
+|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2元|87.6| |                    89.5|93.1|79.7|                    81.6|91.5|90.2|
+|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2元|85.9| |                    86.7|94.7|71.5|                    78.3|92.8|91.3|
+|3|qwq-plus-2025-03-05(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|阿里巴巴|4元|83.6| |                    76.7|92.3|64.5|                    84.5|93.1|90.3|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -220,9 +213,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|80.3| |                    82.7|90.9|59.0|                    70.7|91.7|86.5|
-|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|77.3| |                    65.7|84.7|47.4|                    85.1|93.9|86.9|
-|3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|75.9| |                    70.7|87.8|43.6|                    73.7|92.0|87.5|
+|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|80.3| |                    82.9|90.9|59.0|                    70.7|91.7|86.5|
+|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|77.3| |                    65.5|84.7|47.4|                    85.1|93.9|86.9|
+|3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|75.9| |                    70.9|87.8|43.6|                    73.7|92.0|87.5|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -239,9 +232,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|58.0| |                    50.0|67.6|28.9|                    51.3|72.2|77.7|
-|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|48.6| |                    44.7|62.8|28.1|                    40.5|49.6|65.9|
-|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.0| |                    37.1|43.3|18.4|                    37.8|69.9|69.4|
+|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|57.9| |                    49.9|67.6|28.9|                    51.3|72.2|77.7|
+|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|48.6| |                    44.4|62.8|28.1|                    40.5|49.6|65.9|
+|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|45.8| |                    36.1|43.3|18.4|                    37.8|69.9|69.4|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -250,9 +243,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|72.2| |                    63.9|83.7|42.3|                    68.0|89.8|85.6|
-|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|72.1| |                    68.7|85.0|42.6|                    67.0|82.6|86.9|
-|3|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|1元|69.3| |                    66.5|78.7|42.7|                    66.4|77.1|84.4|
+|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|72.2| |                    63.7|83.7|42.3|                    68.0|89.8|85.6|
+|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|72.1| |                    68.5|85.0|42.6|                    67.0|82.6|86.9|
+|3|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|1元|69.3| |                    66.4|78.7|42.7|                    66.4|77.1|84.4|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -261,9 +254,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.7|94.3|71.7|                    88.6|92.7|91.2|
-|2|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.7| |                    76.2|91.6|62.8|                    86.5|94.3|90.9|
-|3|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.0| |                    73.8|87.4|50.8|                    78.0|87.4|84.8|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.7| |                    81.7|94.3|71.7|                    88.6|92.7|91.2|
+|2|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.7| |                    76.4|91.6|62.8|                    86.5|94.3|90.9|
+|3|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.1| |                    74.0|87.4|50.8|                    78.0|87.4|84.8|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -279,253 +272,91 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/规培结业](leaderboard/CMB-医师考试-规培结业.md)<br>
 
 #### （1）外科
-评测样本举例：
-> 甲亢病人在甲状腺大部切除术后出现呼吸困难最常见的原因    
-（A）甲状腺功能低下致颈前黏液性水肿    
-（B）一侧喉返神经损伤    
-（C）伤口内出血或喉头水肿    
-（D）双侧喉上神经外侧支损伤    
-（E）甲状腺危象    
-> 
-
 完整排行榜见[规培结业/外科](leaderboard/CMB-医师考试-规培结业-外科.md)<br>
 ☛查看[规培结业/外科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-外科)
 <br><br>
 
 #### （2）皮肤科
-评测样本举例：
-> 关于色素增加正确的是    
-（A）常见于白化病    
-（B）常见于白癜风    
-（C）常见于无色素痣    
-（D）常见于花斑癣    
-（E）常见于黄褐斑    
-> 
-
 完整排行榜见[皮肤科](leaderboard/CMB-医师考试-规培结业-皮肤科.md)<br>
 ☛查看[皮肤科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-皮肤科)
 <br><br>
 
 #### （3）妇产科
-评测样本举例：
-> 30岁女性，主诉白带增多，检查宫颈外观呈细颗粒状红色区，占整个宫颈面积的2/3，本例恰当处置应是（ ）。    
-（A）阴道放置药物    
-（B）局部活检+局部药物腐蚀+全身消炎    
-（C）物理疗法    
-（D）局部消炎后，局部活检，若为阴性，则物理疗法    
-（E）宫颈锥形切除    
->  
-
 完整排行榜见[妇产科](leaderboard/CMB-医师考试-规培结业-妇产科.md)<br>
 ☛查看[妇产科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-妇产科)
 <br><br>
 
 #### （4）耳鼻咽喉科
-评测样本举例：
-> 甲状舌管囊肿及瘘管的特征性临床表现是    
-（A）常与皮肤粘连    
-（B）透光试验阳性    
-（C）无痛性包块    
-（D）病变部位摸到条索样物    
-（E）病变位于颈前正中，随吞咽上下活动    
-> 
-
 完整排行榜见[耳鼻咽喉科](leaderboard/CMB-医师考试-规培结业-耳鼻咽喉科.md)<br>
 ☛查看[耳鼻咽喉科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-耳鼻咽喉科)
 <br><br>
 
 #### （5）神经内科
-评测样本举例：
-> 女性。着凉后出现尿频，尿急，尿痛，发热，该患者因为延误治疗发展为急性肾盂肾炎。患者的热型为    
-（A）稽留热    
-（B）弛张热    
-（C）波状热    
-（D）间歇热    
-（E）不规则热    
-> 
-
 完整排行榜见[神经内科](leaderboard/CMB-医师考试-规培结业-神经内科.md)<br>
 ☛查看[神经内科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-神经内科)
 <br><br>
 
 #### （6）儿科
-评测样本举例：
-> 下列哪一项不是咳嗽变异性哮喘的诊断依据（ ）。    
-（A）支气管扩张剂可使咳嗽发作缓解    
-（B）咳嗽持续或反复发作，1个月    
-（C）临床无感染征象，或经较长期抗生素治疗无效    
-（D）常在白天发作，运动后减轻    
-（E）有个人或家族过敏史    
-> 
-
 完整排行榜见[儿科](leaderboard/CMB-医师考试-规培结业-儿科.md)<br>
 ☛查看[儿科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-儿科)
 <br><br>
 
 #### （7）麻醉科
-评测样本举例：
-> 脉冲射频技术的电极尖端温度一般不超过    
-（A）47℃    
-（B）45℃    
-（C）42℃    
-（D）40℃    
-（E）50℃    
-> 
-
 完整排行榜见[麻醉科](leaderboard/CMB-医师考试-规培结业-麻醉科.md)<br>
 ☛查看[麻醉科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-麻醉科)
 <br><br>
 
 #### （8）小儿外科
-评测样本举例：
-> 严重烧伤引起的第一位死因是    
-（A）败血症     
-（B）急性呼吸衰竭     
-（C）水、电解质、酸碱平衡紊乱     
-（D）休克    
-（E）急性肾功能衰竭    
-> 
-
 完整排行榜见[小儿外科](leaderboard/CMB-医师考试-规培结业-小儿外科.md)<br>
 ☛查看[小儿外科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-小儿外科)
 <br><br>
 
 #### （9）眼科
-评测样本举例：
-> 结核性葡萄膜炎的眼底表现包括     
-（A）下方玻璃体的雪球样混浊    
-（B）肉芽肿性前葡萄膜炎    
-（C）视网膜血管炎    
-（D）脉络膜炎    
-（E）黄斑水肿    
-> 
-
 完整排行榜见[眼科](leaderboard/CMB-医师考试-规培结业-眼科.md)<br>
 ☛查看[眼科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-眼科)
 <br><br>
 
 #### （10）临床病理科
-评测样本举例：
-> 下列有关鳃弓的描述，错误的是     
-（A）相邻鳃弓之间为鳃沟     
-（B）人胚第4周出现    
-（C）由间充质增生形成    
-（D）位于头部两侧     
-（E）共5对鳃弓     
-> 
-
 完整排行榜见[临床病理科](leaderboard/CMB-医师考试-规培结业-临床病理科.md)<br>
 ☛查看[临床病理科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-临床病理科)
 <br><br>
 
 #### （11）超声科
-评测样本举例：
-> 流体流动的能量守恒定律可用来计算     
-（A）静脉压力     
-（B）跨瓣压差     
-（C）血流速度    
-（D）心腔流量    
-（E）心室容积    
-> 
-
 完整排行榜见[超声科](leaderboard/CMB-医师考试-规培结业-超声科.md)<br>
 ☛查看[超声科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-超声科)
 <br><br>
 
 #### （12）康复医学科
-评测样本举例：
-> 急性期脑卒中患者并发症的预防不包括    
-（A）使用翻身床、气垫床等预防压疮    
-（B）床上被动运动尽快过渡到主动活动，防止呼吸道感染、泌尿道感染    
-（C）床上被动运动维持肌张力和关节活动度，预防关节挛缩变形     
-（D）摇高床头半卧位，预防肢体肌肉痉挛     
-（E）按摩促进血液、淋巴回流，减轻水肿，防止深静脉血栓形成     
-> 
-
 完整排行榜见[康复医学科](leaderboard/CMB-医师考试-规培结业-康复医学科.md)<br>
 ☛查看[康复医学科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-康复医学科)
 <br><br>
 
 #### （13）骨科
-评测样本举例：
-> 动脉瘤样骨囊肿的特点    
-（A）动脉瘤性骨囊肿内细胞可能是恶性     
-（B）孤立性、膨胀性、出血性、多房性囊肿    
-（C）治疗以手术为主，辅以放射治疗    
-（D）病损以溶骨为主，呈偏位性、多囊性膨胀    
-（E）多见于青少年，发展迅速，疼痛和囊肿逐步加剧    
-> 
-
 完整排行榜见[骨科](leaderboard/CMB-医师考试-规培结业-骨科.md)<br>
 ☛查看[骨科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-骨科)
 <br><br>
 
 #### （14）内科
-评测样本举例：
-> 急性肺脓肿最具特征的症状是（ ）。  
-（A）咳嗽伴咯血    
-（B）咳嗽伴胸痛    
-（C）咳大量脓臭痰   
-（D）呼吸困难    
-（E）畏寒高热    
->  
-
 完整排行榜见[内科](leaderboard/CMB-医师考试-规培结业-内科.md)<br>
 ☛查看[内科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-内科)
 <br><br>
 
 #### （15）口腔科
-评测样本举例：
-> 设计可摘局部义齿就位道时，调节倒凹法不用于   
-（A）牙槽嵴低窄者   
-（B）基牙倒凹大者   
-（C）缺失间隙多者   
-（D）基牙牙冠短，且彼此平行者    
-（E）基牙向舌侧倾斜者    
->    
-
 完整排行榜见[口腔科](leaderboard/CMB-医师考试-规培结业-口腔科.md)<br>
 ☛查看[口腔科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-口腔科)
 <br><br>
 
 #### （16）医学影像科
-评测样本举例：
-> 鹿角状结石多发生在  
-（A）输尿管   
-（B）肾盂  
-（C）肾盏  
-（D）肾盂与肾盏  
-（E）膀胱  
->  
-
 完整排行榜见[医学影像科](leaderboard/CMB-医师考试-规培结业-医学影像科.md)<br>
 ☛查看[医学影像科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-医学影像科)
 <br><br>
 
 #### （17）全科医学科
-评测样本举例：
-> 关于慢性粒细胞白血病，错误的是  
-（A）分为慢性期、加速期和急变期   
-（B）最显著的体征是脾大   
-（C）造血干细胞恶性克隆性疾病   
-（D）血象白细胞持续增高   
-（E）自然病程仅数月   
->  
-
 完整排行榜见[全科医学科](leaderboard/CMB-医师考试-规培结业-全科医学科.md)<br>
 ☛查看[全科医学科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-全科医学科)
 <br><br>
 
 #### （18）精神科
-评测样本举例：
-> 患者女，15岁，学生。急起兴奋，行为紊乱2周入院。2周前患感冒，当时体温38°C，3天后体温恢复正常，患者出现兴奋，话多，不停地打电话给许多同学，甚至一些平时不联系的同学，喜欢外跑，见到乞丐就给钱。此患者最可能的诊断是  
-（A）分裂样精神病  
-（B）精神分裂症  
-（C）病毒性脑炎所致精神障碍  
-（D）躁狂发作  
-（E）反应性精神病   
-> 
-
 完整排行榜见[精神科](leaderboard/CMB-医师考试-规培结业-精神科.md)<br>
 ☛查看[精神科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-精神科)
 <br><br>
@@ -536,71 +367,26 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/执业助理医师](leaderboard/CMB-医师考试-执业助理医师.md)<br>
 
 #### （1）临床执业助理医师
-评测样本举例：
-> 医疗机构从事药剂技术工作必须配备      
-（A）依法经过资格认定的药学技术人员    
-（B）检验仪器    
-（C）管理制度    
-（D）保证制剂质量的设施    
-（E）相应的卫生条件   
->   
-
 完整排行榜见[临床执业助理医师](leaderboard/CMB-医师考试-执业助理医师-临床执业助理医师.md)<br>
 ☛查看[临床执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-临床执业助理医师)
 <br><br>
 
 #### （2）中西医结合执业助理医师
-评测样本举例：
-> 消化性溃疡胃阴不足证的治法是   
-（A）清胃泄热，疏肝理气   
-（B）温中散寒，健脾和胃   
-（C）疏肝理气，健脾和胃   
-（D）活血化瘀，通络和胃   
-（E）健脾养阴，益胃止痛   
->    
- 
 完整排行榜见[中西医结合执业助理医师](leaderboard/CMB-医师考试-执业助理医师-中西医结合执业助理医师.md)<br>
 ☛查看[中西医结合执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-中西医结合执业助理医师)
 <br><br>
 
 #### （3）口腔执业助理医师
-评测样本举例：
-> 关于早期釉质龋病变，错误的是   
-（A）透明层位于病损前沿   
-（B）肉眼观察为灰白色不透明区   
-（C）病损体部生长线及横纹较清楚  
-（D）暗层孔隙增加，占釉质容积的2%～4%   
-（E）脱矿主要发生在表层   
->     
- 
 完整排行榜见[口腔执业助理医师](leaderboard/CMB-医师考试-执业助理医师-口腔执业助理医师.md)<br>
 ☛查看[口腔执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-口腔执业助理医师)
 <br><br>
 
 #### （4）公共卫生执业助理医师
-评测样本举例：
-> 缺乏时易致佝偻病的维生素是   
-（A）VC    
-（B）VK    
-（C）VE   
-（D）VA   
-（E）VD    
->    
- 
 完整排行榜见[公共卫生执业助理医师](leaderboard/CMB-医师考试-执业助理医师-公共卫生执业助理医师.md)<br>
 ☛查看[公共卫生执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-公共卫生执业助理医师)
 <br><br>
 
 #### （5）中医执业助理医师
-评测样本举例：
-> 九味羌活汤的功用是    
-（A）发汗解表，祛风胜湿    
-（B）疏风清热，宣痹止痛   
-（C）散风除湿，宣痹止痛   
-（D）发汗祛湿，兼清里热   
-（E）疏风通络，散寒除湿    
->    
- 
 完整排行榜见[中医执业助理医师](leaderboard/CMB-医师考试-执业助理医师-中医执业助理医师.md)<br>
 ☛查看[中医执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-中医执业助理医师)
 <br><br>
@@ -611,71 +397,26 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/执业医师](leaderboard/CMB-医师考试-执业医师.md)<br>
 
 #### （1）中西医结合执业医师
-评测样本举例：
-> 患者，女，30岁，已婚。经期延后及月经量少3年，未避孕，未怀孕2年，头晕头重，胸闷泛恶，形体肥胖，多毛，大便不实，舌苔白腻，脉濡。B超检查示双卵巢呈多囊性改变。治疗首选方剂    
-（A）二陈汤   
-（B）苍附导痰丸合佛手散   
-（C）丹栀逍遥散   
-（D）膈下逐瘀汤   
-（E）右归丸    
->      
-
 完整排行榜见[中西医结合执业医师](leaderboard/CMB-医师考试-执业医师-中西医结合执业医师.md)<br>
 ☛查看[中西医结合执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-中西医结合执业医师)
 <br><br>
 
 #### （2）中医执业医师
-评测样本举例：
-> 属于阳的味是   
-（A）甘、苦、淡   
-（B）辛、甘、淡   
-（C）酸、苦、咸  
-（D）辛、苦、咸   
-（E）甘、淡、涩   
->     
-
 完整排行榜见[中医执业医师](leaderboard/CMB-医师考试-执业医师-中医执业医师.md)<br>
 ☛查看[中医执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-中医执业医师)
 <br><br>
 
 #### （3）公共卫生执业医师
-评测样本举例：
-> 某单位有40~50岁职工500名，某年内5人死于心肌梗死，已知该年全人口中40~50岁人群心肌梗死的死亡率为千分之二，则SMR为    
-（A）4.0   
-（B）10.0   
-（C）5.0   
-（D）2.0   
-（E）2.5   
->     
-
 完整排行榜见[公共卫生执业医师](leaderboard/CMB-医师考试-执业医师-公共卫生执业医师.md)<br>
 ☛查看[公共卫生执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-公共卫生执业医师)
 <br><br>
 
 #### （4）临床执业医师
-评测样本举例：
-> 男，32岁。锐器刺伤右上腹1小时。查体：T36.5℃，P100次/分，R26次/分，BP100/65mmHg，双肺呼吸音清，未闻及干湿性啰音，心率100次/分，心律齐。诊断性腹腔穿刺抽出不凝血。急症手术探查。正确的腹腔探查顺序首先探查    
-（A）右肾   
-（B）胃、十二指肠   
-（C）小肠   
-（D）胃后壁及胰腺   
-（E）肝脏   
->     
-
 完整排行榜见[临床执业医师](leaderboard/CMB-医师考试-执业医师-临床执业医师.md)<br>
 ☛查看[临床执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-临床执业医师)
 <br><br>
 
 #### （5）口腔执业医师
-评测样本举例：
-> 抵抗力最强的细胞特殊结构是   
-（A）荚膜   
-（B）芽胞   
-（C）鞭毛  
-（D）普通菌毛  
-（E）性菌毛   
->     
-
 完整排行榜见[口腔执业医师](leaderboard/CMB-医师考试-执业医师-口腔执业医师.md)<br>
 ☛查看[口腔执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-口腔执业医师)
 <br><br><br>
@@ -1008,6 +749,51 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 #### （1）副主任、主任护师资格考试
 完整排行榜见[副主任、主任护师资格考试](leaderboard/CMB-护理考试-高级护师-副主任、主任护师资格考试.md)<br>
 ☛查看[副主任、主任护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-高级护师-副主任、主任护师资格考试)
+<br><br><br>
+
+
+### 2.9 药师考试
+药师考试，均为选择题，含执业西药师、执业中药师等8个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
+☛☛完整排行榜见[药师考试](leaderboard/CMB-药师考试.md)<br>
+
+#### （1）执业西药师
+完整排行榜见[执业西药师](leaderboard/CMB-药师考试-执业西药师.md)<br>
+☛查看[执业西药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业西药师)
+<br><br>
+
+#### （2）执业中药师
+完整排行榜见[执业中药师](leaderboard/CMB-药师考试-执业中药师.md)<br>
+☛查看[执业中药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业中药师)
+<br><br>
+
+#### （3）初级药士-药士初级考试
+完整排行榜见[初级药士-药士初级考试](leaderboard/CMB-药师考试-初级药士-药士初级考试.md)<br>
+☛查看[初级药士-药士初级考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级药士-药士初级考试)
+<br><br>
+
+#### （4）初级药师-药师初级考试
+完整排行榜见[初级药师-药师初级考试](leaderboard/CMB-药师考试-初级药师-药师初级考试.md)<br>
+☛查看[初级药师-药师初级考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级药师-药师初级考试)
+<br><br>
+
+#### （5）初级中药士-中药学（士）
+完整排行榜见[初级中药士-中药学（士）](leaderboard/CMB-药师考试-初级中药士-中药学（士）.md)<br>
+☛查看[初级中药士-中药学（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级中药士-中药学（士）)
+<br><br>
+
+#### （6）初级中药师-中药学（师）
+完整排行榜见[初级中药师-中药学（师）](leaderboard/CMB-药师考试-初级中药师-中药学（师）.md)<br>
+☛查看[初级中药师-中药学（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级中药师-中药学（师）)
+<br><br>
+
+#### （7）主管药师-主管药师资格考试
+完整排行榜见[主管药师-主管药师资格考试](leaderboard/CMB-药师考试-主管药师-主管药师资格考试.md)<br>
+☛查看[主管药师-主管药师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-主管药师-主管药师资格考试)
+<br><br>
+
+#### （8）主管中药师
+完整排行榜见[主管中药师](leaderboard/CMB-药师考试-主管中药师.md)<br>
+☛查看[主管中药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-主管中药师)
 <br><br><br>
 
 

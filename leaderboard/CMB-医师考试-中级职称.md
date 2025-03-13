@@ -4,8 +4,8 @@
 |商用|hunyuan-turbos-20250226(new)|90.5|1|
 |商用|hunyuan-turbo|89.3|2|
 |商用|Doubao-1.5-pro-32k-250115|86.8|3|
-|开源|DeepSeek-R1|85.6|4|
-|商用|hunyuan-large|83.6|5|
+|商用|hunyuan-large|83.6|4|
+|开源|DeepSeek-R1|82.0|5|
 |商用|Doubao-1.5-lite-32k-250115|81.1|6|
 |商用|qwen2.5-max|76.3|7|
 |商用|xunfei-spark-max|76.1|8|
@@ -72,7 +72,7 @@
 |商用|GLM-4-FlashX|54.8|69|
 |商用|Baichuan4-Air|54.8|70|
 |商用|abab6.5s-chat|52.9|71|
-|商用|o3-mini|52.6|72|
+|商用|o3-mini|52.7|72|
 |商用|gemini-1.5-flash|52.5|73|
 |商用|mistral-large|52.4|74|
 |商用|ERNIE-Speed-Pro-128K|51.8|75|
