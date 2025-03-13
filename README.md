@@ -262,8 +262,8 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
 |1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.7|94.3|71.7|                    88.6|92.7|91.2|
-|2|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.0| |                    73.8|87.4|50.8|                    78.0|87.4|84.8|
-|3|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|1.26元|77.0| |                    70.0|88.8|49.2|                    76.2|90.1|87.7|
+|2|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.7| |                    76.2|91.6|62.8|                    86.5|94.3|90.9|
+|3|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.0| |                    73.8|87.4|50.8|                    78.0|87.4|84.8|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
