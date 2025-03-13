@@ -1,7 +1,7 @@
 
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括195个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
-以及DeepSeek-R1、deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、书生internLM2.5等开源大模型。
+- 目前已囊括201个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+以及DeepSeek-R1、qwq-32b、deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、书生internLM2.5等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试、律师资格考试JEC-QA、高考、高中学科、初中学科、小学学科、常识推理、文本蕴含、成语理解、情感分析、演绎推理、C3中文阅读理解、医师考试之规培结业、医师考试之执业助理医师。
 - 不仅提供能力评分排行榜，也提供所有模型的原始输出结果！有兴趣的朋友可以自己打分、自己排行！
