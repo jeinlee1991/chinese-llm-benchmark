@@ -161,8 +161,8 @@
 # 📊 排行榜
 ## 1、综合能力排行榜
 综合能力得分为医疗、教育、法律、行政公务、推理与数学计算、语言与指令遵从等6个领域得分的平均值。
-![lin](pic/total.png)    
-详细数据见[total](leaderboard/total.md)<br>
+![lin](pic/总分.png)    
+详细数据见[total](leaderboard/总分.md)<br>
 
 #### 1.1、推理类模型排行榜
 
@@ -1212,7 +1212,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D)如果中国橡胶制品进口商对商务部征收反补贴税的终局裁定不服，必须首先向商务部请求行政复审，对行政复审决定还不服，才能向中国有管辖权的法院起诉    
 > 
 
-完整排行榜见[律师资格考试](leaderboard/jecqa.md)<br>
+完整排行榜见[律师资格考试](leaderboard/律师资格考试.md)<br>
 ☛查看[律师资格考试（一）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=JEC-QA-KD)
 ☛查看[律师资格考试（二）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=JEC-QA-CA)
 <br><br><br>
@@ -1230,7 +1230,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D)商业区在休闲区的东南   
 >  
 
-完整排行榜见[公务员考试](leaderboard/kaogong.md)<br>
+完整排行榜见[公务员考试](leaderboard/考公.md)<br>
 ☛查看[公务员考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=kaogong)
 <br><br><br>
 
@@ -1254,7 +1254,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (B) 是   
 >   
 
-完整排行榜见[演绎推理](leaderboard/dedReason.md)<br>
+完整排行榜见[演绎推理](leaderboard/演绎推理.md)<br>
 ☛查看[演绎推理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=dedReason)
 <br><br><br>
 
@@ -1269,7 +1269,7 @@ A、释放热量
 B、吸收热量   
 >      
 
-完整排行榜见[常识推理](leaderboard/commonsense.md)<br>
+完整排行榜见[常识推理](leaderboard/常识推理.md)<br>
 ☛查看[常识推理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=commonsense)
 <br><br><br>
 
@@ -1295,7 +1295,7 @@ Options:
 A:    
 > 
 
-完整排行榜见[BBH](leaderboard/bbh.md)<br>
+完整排行榜见[BBH](leaderboard/符号推理BBH.md)<br>
 ☛查看[BBH符号推理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=BBH)
 <br><br><br>
 
@@ -1336,7 +1336,7 @@ Antonio,36,男,西班牙,182,75,博士
 基于这个表格回答：学历最低的是哪国人？
 > 
 
-完整排行榜见[tableqa](leaderboard/tableQA.md)<br>
+完整排行榜见[tableqa](leaderboard/表格问答.md)<br>
 ☛查看[数据分析badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=tableqa)
 <br><br><br>
 
@@ -1357,7 +1357,7 @@ Antonio,36,男,西班牙,182,75,博士
 (G) 独善其身    
 > 
 
-完整排行榜见[成语理解](leaderboard/idiom.md)<br>
+完整排行榜见[成语理解](leaderboard/成语理解.md)<br>
 ☛查看[成语理解badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=idiom)
 <br><br><br>
 
@@ -1372,7 +1372,7 @@ Antonio,36,男,西班牙,182,75,博士
 (B) 正面   
 >    
 
-完整排行榜见[情感分析](leaderboard/sentiment.md)<br>
+完整排行榜见[情感分析](leaderboard/情感分析.md)<br>
 ☛查看[情感分析badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=sentiment)
 <br><br><br>
 
@@ -1389,7 +1389,7 @@ Antonio,36,男,西班牙,182,75,博士
 (C)矛盾   
 >   
 
-完整排行榜见[文本蕴含](leaderboard/textEntail.md)<br>
+完整排行榜见[文本蕴含](leaderboard/文本蕴含.md)<br>
 ☛查看[文本蕴含badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=textEntail)
 <br><br><br>
 
@@ -1399,7 +1399,7 @@ Antonio,36,男,西班牙,182,75,博士
 > 将下列单词按词性分类。    
 > 狗，追，跑，大人，高兴，树
 
-完整排行榜见[classification](leaderboard/classification.md)<br>
+完整排行榜见[classification](leaderboard/分类能力.md)<br>
 ☛查看[分类能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=classification)
 <br><br><br>
 
@@ -1409,7 +1409,7 @@ Antonio,36,男,西班牙,182,75,博士
 > “中信银行3亿元，交通银行增长约2.7亿元，光大银行约1亿元。”    
 > 提取出以上文本中的所有组织机构名称
 
-完整排行榜见[extract](leaderboard/info-extract.md)<br>
+完整排行榜见[extract](leaderboard/信息抽取.md)<br>
 ☛查看[信息抽取能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=extract)
 <br><br><br>
 
@@ -1428,7 +1428,7 @@ Antonio,36,男,西班牙,182,75,博士
 基于以上对话回答：病人在检查中发现的牙齿问题有哪些？
 > 
 
-完整排行榜见[mrc](leaderboard/mrc.md)<br>
+完整排行榜见[mrc](leaderboard/阅读理解.md)<br>
 ☛查看[阅读理解能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=mrc)
 <br><br><br>
 
@@ -1444,7 +1444,7 @@ Antonio,36,男,西班牙,182,75,博士
 (D) 工作三年以上    
 >    
 
-完整排行榜见[C3](leaderboard/mrcC3.md)<br>
+完整排行榜见[C3](leaderboard/C3中文阅读理解.md)<br>
 ☛查看[C3中文阅读理解badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=mrcC3)
 <br><br><br>
 
@@ -1458,7 +1458,7 @@ Antonio,36,男,西班牙,182,75,博士
 (B)否      
 >    
 
-完整排行榜见[CLUEWSC](leaderboard/cluewsc.md)<br>
+完整排行榜见[CLUEWSC](leaderboard/代词理解CLUEWSC.md)<br>
 ☛查看[代词理解CLUEWSC badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CLUEWSC)
 <br><br><br>
 
@@ -1476,7 +1476,7 @@ Antonio,36,男,西班牙,182,75,博士
 (D)残灯灭又明   
 >    
 
-完整排行榜见[CCPM](leaderboard/ccpm.md)<br>
+完整排行榜见[CCPM](leaderboard/诗词匹配CCPM.md)<br>
 ☛查看[诗词匹配CCPM badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CCPM)
 <br><br><br>
 
@@ -1485,7 +1485,7 @@ Antonio,36,男,西班牙,182,75,博士
 参考谷歌IFEval，并将其翻译和适配到中文，精选9类25种指令，说明如下：
 ![lin](pic/IFEval.jpg)
 
-完整排行榜见[IFEval](leaderboard/ifrank.md)<br>
+完整排行榜见[IFEval](leaderboard/中文指令遵从.md)<br>
 ☛查看[中文指令遵从badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=IFEval-zh)
 <br><br><br>
 

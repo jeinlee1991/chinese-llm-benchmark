@@ -106,6 +106,6 @@
 |商用|ERNIE-Tiny-8K|28.9|14.3|11.4|18.2|103|
 
 
-![lin](../pic/Grade7Math-zh.png)<br><br><br><br>
-![lin](../pic/Grade8Math-zh.png)<br><br><br><br>
-![lin](../pic/Grade9Math-zh.png)<br><br><br><br>
+![lin](../pic/七年级数学.png)<br><br><br><br>
+![lin](../pic/八年级数学.png)<br><br><br><br>
+![lin](../pic/九年级数学.png)<br><br><br><br>
