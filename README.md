@@ -278,94 +278,76 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/规培结业](leaderboard/CMB-医师考试-规培结业.md)<br>
 
 #### （1）外科
-完整排行榜见[规培结业/外科](leaderboard/CMB-医师考试-规培结业-外科.md)<br>
-☛查看[规培结业/外科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-外科)
-<br><br>
+完整排行榜见[规培结业/外科](leaderboard/CMB-医师考试-规培结业-外科.md)，☛查看[规培结业/外科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-外科)
+<br>
 
 #### （2）皮肤科
-完整排行榜见[皮肤科](leaderboard/CMB-医师考试-规培结业-皮肤科.md)<br>
-☛查看[皮肤科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-皮肤科)
-<br><br>
+完整排行榜见[皮肤科](leaderboard/CMB-医师考试-规培结业-皮肤科.md)，☛查看[皮肤科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-皮肤科)
+<br>
 
 #### （3）妇产科
-完整排行榜见[妇产科](leaderboard/CMB-医师考试-规培结业-妇产科.md)<br>
-☛查看[妇产科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-妇产科)
-<br><br>
+完整排行榜见[妇产科](leaderboard/CMB-医师考试-规培结业-妇产科.md)，☛查看[妇产科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-妇产科)
+<br>
 
 #### （4）耳鼻咽喉科
-完整排行榜见[耳鼻咽喉科](leaderboard/CMB-医师考试-规培结业-耳鼻咽喉科.md)<br>
-☛查看[耳鼻咽喉科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-耳鼻咽喉科)
-<br><br>
+完整排行榜见[耳鼻咽喉科](leaderboard/CMB-医师考试-规培结业-耳鼻咽喉科.md)，☛查看[耳鼻咽喉科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-耳鼻咽喉科)
+<br>
 
 #### （5）神经内科
-完整排行榜见[神经内科](leaderboard/CMB-医师考试-规培结业-神经内科.md)<br>
-☛查看[神经内科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-神经内科)
-<br><br>
+完整排行榜见[神经内科](leaderboard/CMB-医师考试-规培结业-神经内科.md)，☛查看[神经内科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-神经内科)
+<br>
 
 #### （6）儿科
-完整排行榜见[儿科](leaderboard/CMB-医师考试-规培结业-儿科.md)<br>
-☛查看[儿科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-儿科)
-<br><br>
+完整排行榜见[儿科](leaderboard/CMB-医师考试-规培结业-儿科.md)，☛查看[儿科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-儿科)
+<br>
 
 #### （7）麻醉科
-完整排行榜见[麻醉科](leaderboard/CMB-医师考试-规培结业-麻醉科.md)<br>
-☛查看[麻醉科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-麻醉科)
-<br><br>
+完整排行榜见[麻醉科](leaderboard/CMB-医师考试-规培结业-麻醉科.md)，☛查看[麻醉科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-麻醉科)
+<br>
 
 #### （8）小儿外科
-完整排行榜见[小儿外科](leaderboard/CMB-医师考试-规培结业-小儿外科.md)<br>
-☛查看[小儿外科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-小儿外科)
-<br><br>
+完整排行榜见[小儿外科](leaderboard/CMB-医师考试-规培结业-小儿外科.md)，☛查看[小儿外科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-小儿外科)
+<br>
 
 #### （9）眼科
-完整排行榜见[眼科](leaderboard/CMB-医师考试-规培结业-眼科.md)<br>
-☛查看[眼科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-眼科)
-<br><br>
+完整排行榜见[眼科](leaderboard/CMB-医师考试-规培结业-眼科.md)，☛查看[眼科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-眼科)
+<br>
 
 #### （10）临床病理科
-完整排行榜见[临床病理科](leaderboard/CMB-医师考试-规培结业-临床病理科.md)<br>
-☛查看[临床病理科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-临床病理科)
-<br><br>
+完整排行榜见[临床病理科](leaderboard/CMB-医师考试-规培结业-临床病理科.md)，☛查看[临床病理科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-临床病理科)
+<br>
 
 #### （11）超声科
-完整排行榜见[超声科](leaderboard/CMB-医师考试-规培结业-超声科.md)<br>
-☛查看[超声科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-超声科)
-<br><br>
+完整排行榜见[超声科](leaderboard/CMB-医师考试-规培结业-超声科.md)，☛查看[超声科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-超声科)
+<br>
 
 #### （12）康复医学科
-完整排行榜见[康复医学科](leaderboard/CMB-医师考试-规培结业-康复医学科.md)<br>
-☛查看[康复医学科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-康复医学科)
-<br><br>
+完整排行榜见[康复医学科](leaderboard/CMB-医师考试-规培结业-康复医学科.md)，☛查看[康复医学科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-康复医学科)
+<br>
 
 #### （13）骨科
-完整排行榜见[骨科](leaderboard/CMB-医师考试-规培结业-骨科.md)<br>
-☛查看[骨科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-骨科)
-<br><br>
+完整排行榜见[骨科](leaderboard/CMB-医师考试-规培结业-骨科.md)，☛查看[骨科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-骨科)
+<br>
 
 #### （14）内科
-完整排行榜见[内科](leaderboard/CMB-医师考试-规培结业-内科.md)<br>
-☛查看[内科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-内科)
-<br><br>
+完整排行榜见[内科](leaderboard/CMB-医师考试-规培结业-内科.md)，☛查看[内科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-内科)
+<br>
 
 #### （15）口腔科
-完整排行榜见[口腔科](leaderboard/CMB-医师考试-规培结业-口腔科.md)<br>
-☛查看[口腔科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-口腔科)
-<br><br>
+完整排行榜见[口腔科](leaderboard/CMB-医师考试-规培结业-口腔科.md)，☛查看[口腔科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-口腔科)
+<br>
 
 #### （16）医学影像科
-完整排行榜见[医学影像科](leaderboard/CMB-医师考试-规培结业-医学影像科.md)<br>
-☛查看[医学影像科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-医学影像科)
-<br><br>
+完整排行榜见[医学影像科](leaderboard/CMB-医师考试-规培结业-医学影像科.md)，☛查看[医学影像科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-医学影像科)
+<br>
 
 #### （17）全科医学科
-完整排行榜见[全科医学科](leaderboard/CMB-医师考试-规培结业-全科医学科.md)<br>
-☛查看[全科医学科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-全科医学科)
-<br><br>
+完整排行榜见[全科医学科](leaderboard/CMB-医师考试-规培结业-全科医学科.md)，☛查看[全科医学科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-全科医学科)
+<br>
 
 #### （18）精神科
-完整排行榜见[精神科](leaderboard/CMB-医师考试-规培结业-精神科.md)<br>
-☛查看[精神科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-精神科)
-<br><br>
+完整排行榜见[精神科](leaderboard/CMB-医师考试-规培结业-精神科.md)，☛查看[精神科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-精神科)
+<br><br><br>
 
 
 ### 2.2 医师考试/执业助理医师
@@ -373,29 +355,24 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/执业助理医师](leaderboard/CMB-医师考试-执业助理医师.md)<br>
 
 #### （1）临床执业助理医师
-完整排行榜见[临床执业助理医师](leaderboard/CMB-医师考试-执业助理医师-临床执业助理医师.md)<br>
-☛查看[临床执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-临床执业助理医师)
-<br><br>
+完整排行榜见[临床执业助理医师](leaderboard/CMB-医师考试-执业助理医师-临床执业助理医师.md)，☛查看[临床执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-临床执业助理医师)
+<br>
 
 #### （2）中西医结合执业助理医师
-完整排行榜见[中西医结合执业助理医师](leaderboard/CMB-医师考试-执业助理医师-中西医结合执业助理医师.md)<br>
-☛查看[中西医结合执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-中西医结合执业助理医师)
-<br><br>
+完整排行榜见[中西医结合执业助理医师](leaderboard/CMB-医师考试-执业助理医师-中西医结合执业助理医师.md)，☛查看[中西医结合执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-中西医结合执业助理医师)
+<br>
 
 #### （3）口腔执业助理医师
-完整排行榜见[口腔执业助理医师](leaderboard/CMB-医师考试-执业助理医师-口腔执业助理医师.md)<br>
-☛查看[口腔执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-口腔执业助理医师)
-<br><br>
+完整排行榜见[口腔执业助理医师](leaderboard/CMB-医师考试-执业助理医师-口腔执业助理医师.md)，☛查看[口腔执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-口腔执业助理医师)
+<br>
 
 #### （4）公共卫生执业助理医师
-完整排行榜见[公共卫生执业助理医师](leaderboard/CMB-医师考试-执业助理医师-公共卫生执业助理医师.md)<br>
-☛查看[公共卫生执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-公共卫生执业助理医师)
-<br><br>
+完整排行榜见[公共卫生执业助理医师](leaderboard/CMB-医师考试-执业助理医师-公共卫生执业助理医师.md)，☛查看[公共卫生执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-公共卫生执业助理医师)
+<br>
 
 #### （5）中医执业助理医师
-完整排行榜见[中医执业助理医师](leaderboard/CMB-医师考试-执业助理医师-中医执业助理医师.md)<br>
-☛查看[中医执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-中医执业助理医师)
-<br><br>
+完整排行榜见[中医执业助理医师](leaderboard/CMB-医师考试-执业助理医师-中医执业助理医师.md)，☛查看[中医执业助理医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-中医执业助理医师)
+<br><br><br>
 
 
 ### 2.3 医师考试/执业医师
@@ -403,28 +380,23 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/执业医师](leaderboard/CMB-医师考试-执业医师.md)<br>
 
 #### （1）中西医结合执业医师
-完整排行榜见[中西医结合执业医师](leaderboard/CMB-医师考试-执业医师-中西医结合执业医师.md)<br>
-☛查看[中西医结合执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-中西医结合执业医师)
-<br><br>
+完整排行榜见[中西医结合执业医师](leaderboard/CMB-医师考试-执业医师-中西医结合执业医师.md)，☛查看[中西医结合执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-中西医结合执业医师)
+<br>
 
 #### （2）中医执业医师
-完整排行榜见[中医执业医师](leaderboard/CMB-医师考试-执业医师-中医执业医师.md)<br>
-☛查看[中医执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-中医执业医师)
-<br><br>
+完整排行榜见[中医执业医师](leaderboard/CMB-医师考试-执业医师-中医执业医师.md)，☛查看[中医执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-中医执业医师)
+<br>
 
 #### （3）公共卫生执业医师
-完整排行榜见[公共卫生执业医师](leaderboard/CMB-医师考试-执业医师-公共卫生执业医师.md)<br>
-☛查看[公共卫生执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-公共卫生执业医师)
-<br><br>
+完整排行榜见[公共卫生执业医师](leaderboard/CMB-医师考试-执业医师-公共卫生执业医师.md)，☛查看[公共卫生执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-公共卫生执业医师)
+<br>
 
 #### （4）临床执业医师
-完整排行榜见[临床执业医师](leaderboard/CMB-医师考试-执业医师-临床执业医师.md)<br>
-☛查看[临床执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-临床执业医师)
-<br><br>
+完整排行榜见[临床执业医师](leaderboard/CMB-医师考试-执业医师-临床执业医师.md)，☛查看[临床执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-临床执业医师)
+<br>
 
 #### （5）口腔执业医师
-完整排行榜见[口腔执业医师](leaderboard/CMB-医师考试-执业医师-口腔执业医师.md)<br>
-☛查看[口腔执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-口腔执业医师)
+完整排行榜见[口腔执业医师](leaderboard/CMB-医师考试-执业医师-口腔执业医师.md)，☛查看[口腔执业医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-口腔执业医师)
 <br><br><br>
 
 
@@ -433,218 +405,175 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/中级职称](leaderboard/CMB-医师考试-中级职称.md)<br>
 
 #### （1）超声波医学主治医师
-完整排行榜见[超声波医学主治医师](leaderboard/CMB-医师考试-中级职称-超声波医学主治医师.md)<br>
-☛查看[超声波医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-超声波医学主治医师)
-<br><br>
+完整排行榜见[超声波医学主治医师](leaderboard/CMB-医师考试-中级职称-超声波医学主治医师.md)，☛查看[超声波医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-超声波医学主治医师)
+<br>
 
 #### （2）妇产科主治医师
-完整排行榜见[妇产科主治医师](leaderboard/CMB-医师考试-中级职称-妇产科主治医师.md)<br>
-☛查看[妇产科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-妇产科主治医师)
-<br><br>
+完整排行榜见[妇产科主治医师](leaderboard/CMB-医师考试-中级职称-妇产科主治医师.md)，☛查看[妇产科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-妇产科主治医师)
+<br>
 
 #### （3）中医内科主治医师
-完整排行榜见[中医内科主治医师](leaderboard/CMB-医师考试-中级职称-中医内科主治医师.md)<br>
-☛查看[中医内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中医内科主治医师)
-<br><br>
+完整排行榜见[中医内科主治医师](leaderboard/CMB-医师考试-中级职称-中医内科主治医师.md)，☛查看[中医内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中医内科主治医师)
+<br>
 
 #### （4）精神病学主治医师
-完整排行榜见[精神病学主治医师](leaderboard/CMB-医师考试-中级职称-精神病学主治医师.md)<br>
-☛查看[精神病学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-精神病学主治医师)
-<br><br>
+完整排行榜见[精神病学主治医师](leaderboard/CMB-医师考试-中级职称-精神病学主治医师.md)，☛查看[精神病学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-精神病学主治医师)
+<br>
 
 #### （5）皮肤科
-完整排行榜见[皮肤科](leaderboard/CMB-医师考试-中级职称-皮肤科.md)<br>
-☛查看[皮肤科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-皮肤科)
-<br><br>
+完整排行榜见[皮肤科](leaderboard/CMB-医师考试-中级职称-皮肤科.md)，☛查看[皮肤科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-皮肤科)
+<br>
 
 #### （6）内科主治医师
-完整排行榜见[内科主治医师](leaderboard/CMB-医师考试-中级职称-内科主治医师.md)<br>
-☛查看[内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-内科主治医师)
-<br><br>
+完整排行榜见[内科主治医师](leaderboard/CMB-医师考试-中级职称-内科主治医师.md)，☛查看[内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-内科主治医师)
+<br>
 
 #### （7）康复医学主治医师
-完整排行榜见[康复医学主治医师](leaderboard/CMB-医师考试-中级职称-康复医学主治医师.md)<br>
-☛查看[康复医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-康复医学主治医师)
-<br><br>
+完整排行榜见[康复医学主治医师](leaderboard/CMB-医师考试-中级职称-康复医学主治医师.md)，☛查看[康复医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-康复医学主治医师)
+<br>
 
 #### （8）神经内科主治医师
-完整排行榜见[神经内科主治医师](leaderboard/CMB-医师考试-中级职称-神经内科主治医师.md)<br>
-☛查看[神经内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-神经内科主治医师)
-<br><br>
+完整排行榜见[神经内科主治医师](leaderboard/CMB-医师考试-中级职称-神经内科主治医师.md)，☛查看[神经内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-神经内科主治医师)
+<br>
 
 #### （9）核医学主治医师
-完整排行榜见[核医学主治医师](leaderboard/CMB-医师考试-中级职称-核医学主治医师.md)<br>
-☛查看[核医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-核医学主治医师)
-<br><br>
+完整排行榜见[核医学主治医师](leaderboard/CMB-医师考试-中级职称-核医学主治医师.md)，☛查看[核医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-核医学主治医师)
+<br>
 
 #### （10）口腔内科主治医师
-完整排行榜见[口腔内科主治医师](leaderboard/CMB-医师考试-中级职称-口腔内科主治医师.md)<br>
-☛查看[口腔内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔内科主治医师)
-<br><br>
+完整排行榜见[口腔内科主治医师](leaderboard/CMB-医师考试-中级职称-口腔内科主治医师.md)，☛查看[口腔内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔内科主治医师)
+<br>
 
 #### （11）儿科主治医师
-完整排行榜见[儿科主治医师](leaderboard/CMB-医师考试-中级职称-儿科主治医师.md)<br>
-☛查看[儿科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-儿科主治医师)
-<br><br>
+完整排行榜见[儿科主治医师](leaderboard/CMB-医师考试-中级职称-儿科主治医师.md)，☛查看[儿科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-儿科主治医师)
+<br>
 
 #### （12）结核病主治医师
-完整排行榜见[结核病主治医师](leaderboard/CMB-医师考试-中级职称-结核病主治医师.md)<br>
-☛查看[结核病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-结核病主治医师)
-<br><br>
+完整排行榜见[结核病主治医师](leaderboard/CMB-医师考试-中级职称-结核病主治医师.md)，☛查看[结核病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-结核病主治医师)
+<br>
 
 #### （13）心血管内科与呼吸内科主治医师
-完整排行榜见[心血管内科与呼吸内科主治医师](leaderboard/CMB-医师考试-中级职称-心血管内科与呼吸内科主治医师.md)<br>
-☛查看[心血管内科与呼吸内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心血管内科与呼吸内科主治医师)
-<br><br>
+完整排行榜见[心血管内科与呼吸内科主治医师](leaderboard/CMB-医师考试-中级职称-心血管内科与呼吸内科主治医师.md)，☛查看[心血管内科与呼吸内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心血管内科与呼吸内科主治医师)
+<br>
 
 #### （14）重症医学主治医师
-完整排行榜见[重症医学主治医师](leaderboard/CMB-医师考试-中级职称-重症医学主治医师.md)<br>
-☛查看[重症医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-重症医学主治医师)
-<br><br>
+完整排行榜见[重症医学主治医师](leaderboard/CMB-医师考试-中级职称-重症医学主治医师.md)，☛查看[重症医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-重症医学主治医师)
+<br>
 
 #### （15）职业病主治医师
-完整排行榜见[职业病主治医师](leaderboard/CMB-医师考试-中级职称-职业病主治医师.md)<br>
-☛查看[职业病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-职业病主治医师)
-<br><br>
+完整排行榜见[职业病主治医师](leaderboard/CMB-医师考试-中级职称-职业病主治医师.md)，☛查看[职业病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-职业病主治医师)
+<br>
 
 #### （16）口腔科主治医师
-完整排行榜见[口腔科主治医师](leaderboard/CMB-医师考试-中级职称-口腔科主治医师.md)<br>
-☛查看[口腔科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔科主治医师)
-<br><br>
+完整排行榜见[口腔科主治医师](leaderboard/CMB-医师考试-中级职称-口腔科主治医师.md)，☛查看[口腔科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔科主治医师)
+<br>
 
 #### （17）放射科主治医师
-完整排行榜见[放射科主治医师](leaderboard/CMB-医师考试-中级职称-放射科主治医师.md)<br>
-☛查看[放射科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-放射科主治医师)
-<br><br>
+完整排行榜见[放射科主治医师](leaderboard/CMB-医师考试-中级职称-放射科主治医师.md)，☛查看[放射科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-放射科主治医师)
+<br>
 
 #### （18）耳鼻咽喉科主治医师
-完整排行榜见[耳鼻咽喉科主治医师](leaderboard/CMB-医师考试-中级职称-耳鼻咽喉科主治医师.md)<br>
-☛查看[耳鼻咽喉科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-耳鼻咽喉科主治医师)
-<br><br>
+完整排行榜见[耳鼻咽喉科主治医师](leaderboard/CMB-医师考试-中级职称-耳鼻咽喉科主治医师.md)，☛查看[耳鼻咽喉科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-耳鼻咽喉科主治医师)
+<br>
 
 #### （19）肿瘤学主治医师
-完整排行榜见[肿瘤学主治医师](leaderboard/CMB-医师考试-中级职称-肿瘤学主治医师.md)<br>
-☛查看[肿瘤学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-肿瘤学主治医师)
-<br><br>
+完整排行榜见[肿瘤学主治医师](leaderboard/CMB-医师考试-中级职称-肿瘤学主治医师.md)，☛查看[肿瘤学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-肿瘤学主治医师)
+<br>
 
 #### （20）医院感染
-完整排行榜见[医院感染](leaderboard/CMB-医师考试-中级职称-医院感染.md)<br>
-☛查看[医院感染badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-医院感染)
-<br><br>
+完整排行榜见[医院感染](leaderboard/CMB-医师考试-中级职称-医院感染.md)，☛查看[医院感染badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-医院感染)
+<br>
 
 #### （21）麻醉科主治医师
-完整排行榜见[麻醉科主治医师](leaderboard/CMB-医师考试-中级职称-麻醉科主治医师.md)<br>
-☛查看[麻醉科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-麻醉科主治医师)
-<br><br>
+完整排行榜见[麻醉科主治医师](leaderboard/CMB-医师考试-中级职称-麻醉科主治医师.md)，☛查看[麻醉科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-麻醉科主治医师)
+<br>
 
 #### （22）疼痛科主治医师
-完整排行榜见[疼痛科主治医师](leaderboard/CMB-医师考试-中级职称-疼痛科主治医师.md)<br>
-☛查看[疼痛科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-疼痛科主治医师)
-<br><br>
+完整排行榜见[疼痛科主治医师](leaderboard/CMB-医师考试-中级职称-疼痛科主治医师.md)，☛查看[疼痛科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-疼痛科主治医师)
+<br>
 
 #### （23）病理科主治医师
-完整排行榜见[病理科主治医师](leaderboard/CMB-医师考试-中级职称-病理科主治医师.md)<br>
-☛查看[病理科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-病理科主治医师)
-<br><br>
+完整排行榜见[病理科主治医师](leaderboard/CMB-医师考试-中级职称-病理科主治医师.md)，☛查看[病理科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-病理科主治医师)
+<br>
 
 #### （24）传染病主治医师
-完整排行榜见[传染病主治医师](leaderboard/CMB-医师考试-中级职称-传染病主治医师.md)<br>
-☛查看[传染病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-传染病主治医师)
-<br><br>
+完整排行榜见[传染病主治医师](leaderboard/CMB-医师考试-中级职称-传染病主治医师.md)，☛查看[传染病主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-传染病主治医师)
+<br>
 
 #### （25）皮肤与性病学主治医师
-完整排行榜见[皮肤与性病学主治医师](leaderboard/CMB-医师考试-中级职称-皮肤与性病学主治医师.md)<br>
-☛查看[皮肤与性病学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-皮肤与性病学主治医师)
-<br><br>
+完整排行榜见[皮肤与性病学主治医师](leaderboard/CMB-医师考试-中级职称-皮肤与性病学主治医师.md)，☛查看[皮肤与性病学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-皮肤与性病学主治医师)
+<br>
 
 #### （26）肾内科主治医师
-完整排行榜见[肾内科主治医师](leaderboard/CMB-医师考试-中级职称-肾内科主治医师.md)<br>
-☛查看[肾内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-肾内科主治医师)
-<br><br>
+完整排行榜见[肾内科主治医师](leaderboard/CMB-医师考试-中级职称-肾内科主治医师.md)，☛查看[肾内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-肾内科主治医师)
+<br>
 
 #### （27）口腔修复科主治医师
-完整排行榜见[口腔修复科主治医师](leaderboard/CMB-医师考试-中级职称-口腔修复科主治医师.md)<br>
-☛查看[口腔修复科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔修复科主治医师)
-<br><br>
+完整排行榜见[口腔修复科主治医师](leaderboard/CMB-医师考试-中级职称-口腔修复科主治医师.md)，☛查看[口腔修复科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔修复科主治医师)
+<br>
 
 #### （28）预防医学主治医师
-完整排行榜见[预防医学主治医师](leaderboard/CMB-医师考试-中级职称-预防医学主治医师.md)<br>
-☛查看[预防医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-预防医学主治医师)
-<br><br>
+完整排行榜见[预防医学主治医师](leaderboard/CMB-医师考试-中级职称-预防医学主治医师.md)，☛查看[预防医学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-预防医学主治医师)
+<br>
 
 #### （29）中医针灸主治医师
-完整排行榜见[中医针灸主治医师](leaderboard/CMB-医师考试-中级职称-中医针灸主治医师.md)<br>
-☛查看[中医针灸主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中医针灸主治医师)
-<br><br>
+完整排行榜见[中医针灸主治医师](leaderboard/CMB-医师考试-中级职称-中医针灸主治医师.md)，☛查看[中医针灸主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中医针灸主治医师)
+<br>
 
 #### （30）口腔颌面外科主治医师
-完整排行榜见[口腔颌面外科主治医师](leaderboard/CMB-医师考试-中级职称-口腔颌面外科主治医师.md)<br>
-☛查看[口腔颌面外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔颌面外科主治医师)
-<br><br>
+完整排行榜见[口腔颌面外科主治医师](leaderboard/CMB-医师考试-中级职称-口腔颌面外科主治医师.md)，☛查看[口腔颌面外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔颌面外科主治医师)
+<br>
 
 #### （31）风湿与临床免疫主治医师
-完整排行榜见[风湿与临床免疫主治医师](leaderboard/CMB-医师考试-中级职称-风湿与临床免疫主治医师.md)<br>
-☛查看[风湿与临床免疫主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-风湿与临床免疫主治医师)
-<br><br>
+完整排行榜见[风湿与临床免疫主治医师](leaderboard/CMB-医师考试-中级职称-风湿与临床免疫主治医师.md)，☛查看[风湿与临床免疫主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-风湿与临床免疫主治医师)
+<br>
 
 #### （32）消化内科主治医师
-完整排行榜见[消化内科主治医师](leaderboard/CMB-医师考试-中级职称-消化内科主治医师.md)<br>
-☛查看[消化内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-消化内科主治医师)
-<br><br>
+完整排行榜见[消化内科主治医师](leaderboard/CMB-医师考试-中级职称-消化内科主治医师.md)，☛查看[消化内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-消化内科主治医师)
+<br>
 
 #### （33）心理治疗学主治医师
-完整排行榜见[心理治疗学主治医师](leaderboard/CMB-医师考试-中级职称-心理治疗学主治医师.md)<br>
-☛查看[心理治疗学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理治疗学主治医师)
-<br><br>
+完整排行榜见[心理治疗学主治医师](leaderboard/CMB-医师考试-中级职称-心理治疗学主治医师.md)，☛查看[心理治疗学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理治疗学主治医师)
+<br>
 
 #### （34）传染病学
-完整排行榜见[传染病学](leaderboard/CMB-医师考试-中级职称-传染病学.md)<br>
-☛查看[传染病学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-传染病学)
-<br><br>
+完整排行榜见[传染病学](leaderboard/CMB-医师考试-中级职称-传染病学.md)，☛查看[传染病学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-传染病学)
+<br>
 
 #### （35）全科主治医师
-完整排行榜见[全科主治医师](leaderboard/CMB-医师考试-中级职称-全科主治医师.md)<br>
-☛查看[全科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-全科主治医师)
-<br><br>
+完整排行榜见[全科主治医师](leaderboard/CMB-医师考试-中级职称-全科主治医师.md)，☛查看[全科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-全科主治医师)
+<br>
 
 #### （36）眼科主治医师
-完整排行榜见[眼科主治医师](leaderboard/CMB-医师考试-中级职称-眼科主治医师.md)<br>
-☛查看[眼科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-眼科主治医师)
-<br><br>
+完整排行榜见[眼科主治医师](leaderboard/CMB-医师考试-中级职称-眼科主治医师.md)，☛查看[眼科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-眼科主治医师)
+<br>
 
 #### （37）口腔正畸学主治医师
-完整排行榜见[口腔正畸学主治医师](leaderboard/CMB-医师考试-中级职称-口腔正畸学主治医师.md)<br>
-☛查看[口腔正畸学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔正畸学主治医师)
-<br><br>
+完整排行榜见[口腔正畸学主治医师](leaderboard/CMB-医师考试-中级职称-口腔正畸学主治医师.md)，☛查看[口腔正畸学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔正畸学主治医师)
+<br>
 
 #### （38）中西医结合内科主治医师
-完整排行榜见[中西医结合内科主治医师](leaderboard/CMB-医师考试-中级职称-中西医结合内科主治医师.md)<br>
-☛查看[中西医结合内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中西医结合内科主治医师)
-<br><br>
+完整排行榜见[中西医结合内科主治医师](leaderboard/CMB-医师考试-中级职称-中西医结合内科主治医师.md)，☛查看[中西医结合内科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中西医结合内科主治医师)
+<br>
 
 #### （39）营养学主治医师
-完整排行榜见[营养学主治医师](leaderboard/CMB-医师考试-中级职称-营养学主治医师.md)<br>
-☛查看[营养学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-营养学主治医师)
-<br><br>
+完整排行榜见[营养学主治医师](leaderboard/CMB-医师考试-中级职称-营养学主治医师.md)，☛查看[营养学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-营养学主治医师)
+<br>
 
 #### （40）整形外科主治医师
-完整排行榜见[整形外科主治医师](leaderboard/CMB-医师考试-中级职称-整形外科主治医师.md)<br>
-☛查看[整形外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-整形外科主治医师)
-<br><br>
+完整排行榜见[整形外科主治医师](leaderboard/CMB-医师考试-中级职称-整形外科主治医师.md)，☛查看[整形外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-整形外科主治医师)
+<br>
 
 #### （41）心理咨询师
-完整排行榜见[心理咨询师](leaderboard/CMB-医师考试-中级职称-心理咨询师.md)<br>
-☛查看[心理咨询师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理咨询师)
-<br><br>
+完整排行榜见[心理咨询师](leaderboard/CMB-医师考试-中级职称-心理咨询师.md)，☛查看[心理咨询师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理咨询师)
+<br>
 
 #### （42）骨科
-完整排行榜见[骨科](leaderboard/CMB-医师考试-中级职称-骨科.md)<br>
-☛查看[骨科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-骨科)
-<br><br>
+完整排行榜见[骨科](leaderboard/CMB-医师考试-中级职称-骨科.md)，☛查看[骨科badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-骨科)
+<br>
 
 #### （43）外科主治医师
-完整排行榜见[外科主治医师](leaderboard/CMB-医师考试-中级职称-外科主治医师.md)<br>
-☛查看[外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-外科主治医师)
+完整排行榜见[外科主治医师](leaderboard/CMB-医师考试-中级职称-外科主治医师.md)，☛查看[外科主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-外科主治医师)
 <br><br><br>
 
 
@@ -653,43 +582,35 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师考试/高级职称](leaderboard/CMB-医师考试-高级职称.md)<br>
 
 #### （1）消化内科高级职称
-完整排行榜见[消化内科高级职称](leaderboard/CMB-医师考试-高级职称-消化内科高级职称.md)<br>
-☛查看[消化内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-消化内科高级职称)
-<br><br>
+完整排行榜见[消化内科高级职称](leaderboard/CMB-医师考试-高级职称-消化内科高级职称.md)，☛查看[消化内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-消化内科高级职称)
+<br>
 
 #### （2）普通内科高级职称
-完整排行榜见[普通内科高级职称](leaderboard/CMB-医师考试-高级职称-普通内科高级职称.md)<br>
-☛查看[普通内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-普通内科高级职称)
-<br><br>
+完整排行榜见[普通内科高级职称](leaderboard/CMB-医师考试-高级职称-普通内科高级职称.md)，☛查看[普通内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-普通内科高级职称)
+<br>
 
 #### （3）普通外科高级职称
-完整排行榜见[普通外科高级职称](leaderboard/CMB-医师考试-高级职称-普通外科高级职称.md)<br>
-☛查看[普通外科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-普通外科高级职称)
-<br><br>
+完整排行榜见[普通外科高级职称](leaderboard/CMB-医师考试-高级职称-普通外科高级职称.md)，☛查看[普通外科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-普通外科高级职称)
+<br>
 
 #### （4）骨科高级职称
-完整排行榜见[骨科高级职称](leaderboard/CMB-医师考试-高级职称-骨科高级职称.md)<br>
-☛查看[骨科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-骨科高级职称)
-<br><br>
+完整排行榜见[骨科高级职称](leaderboard/CMB-医师考试-高级职称-骨科高级职称.md)，☛查看[骨科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-骨科高级职称)
+<br>
 
 #### （5）呼吸内科高级职称
-完整排行榜见[呼吸内科高级职称](leaderboard/CMB-医师考试-高级职称-呼吸内科高级职称.md)<br>
-☛查看[呼吸内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-呼吸内科高级职称)
-<br><br>
+完整排行榜见[呼吸内科高级职称](leaderboard/CMB-医师考试-高级职称-呼吸内科高级职称.md)，☛查看[呼吸内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-呼吸内科高级职称)
+<br>
 
 #### （6）内分泌科高级职称
-完整排行榜见[内分泌科高级职称](leaderboard/CMB-医师考试-高级职称-内分泌科高级职称.md)<br>
-☛查看[内分泌科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-内分泌科高级职称)
-<br><br>
+完整排行榜见[内分泌科高级职称](leaderboard/CMB-医师考试-高级职称-内分泌科高级职称.md)，☛查看[内分泌科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-内分泌科高级职称)
+<br>
 
 #### （7）心内科高级职称
-完整排行榜见[心内科高级职称](leaderboard/CMB-医师考试-高级职称-心内科高级职称.md)<br>
-☛查看[心内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-心内科高级职称)
-<br><br>
+完整排行榜见[心内科高级职称](leaderboard/CMB-医师考试-高级职称-心内科高级职称.md)，☛查看[心内科高级职称badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-心内科高级职称)
+<br>
 
 #### （8）妇产科学副主任、主任医师职称考试
-完整排行榜见[妇产科学副主任、主任医师职称考试](leaderboard/CMB-医师考试-高级职称-妇产科学副主任、主任医师职称考试.md)<br>
-☛查看[妇产科学副主任、主任医师职称考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-妇产科学副主任、主任医师职称考试)
+完整排行榜见[妇产科学副主任、主任医师职称考试](leaderboard/CMB-医师考试-高级职称-妇产科学副主任、主任医师职称考试.md)，☛查看[妇产科学副主任、主任医师职称考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-妇产科学副主任、主任医师职称考试)
 <br><br><br>
 
 
@@ -698,53 +619,43 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[护理考试](leaderboard/CMB-护理考试.md)<br>
 
 #### （1）护士执业资格考试
-完整排行榜见[护士执业资格考试](leaderboard/CMB-护理考试-护士执业资格-护士执业资格考试.md)<br>
-☛查看[护士执业资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护士执业资格-护士执业资格考试)
-<br><br>
+完整排行榜见[护士执业资格考试](leaderboard/CMB-护理考试-护士执业资格-护士执业资格考试.md)，☛查看[护士执业资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护士执业资格-护士执业资格考试)
+<br>
 
 #### （2）护师资格考试
-完整排行榜见[护师资格考试](leaderboard/CMB-护理考试-护师执业资格-护师资格考试.md)<br>
-☛查看[护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护师执业资格-护师资格考试)
-<br><br><br>
+完整排行榜见[护师资格考试](leaderboard/CMB-护理考试-护师执业资格-护师资格考试.md)，☛查看[护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护师执业资格-护师资格考试)
+<br>
 
 #### （3）儿科主管护师
-完整排行榜见[儿科主管护师](leaderboard/CMB-护理考试-主管护师-儿科主管护师.md)<br>
-☛查看[儿科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-儿科主管护师)
-<br><br>
+完整排行榜见[儿科主管护师](leaderboard/CMB-护理考试-主管护师-儿科主管护师.md)，☛查看[儿科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-儿科主管护师)
+<br>
 
 #### （4）内科护理学
-完整排行榜见[内科护理学](leaderboard/CMB-护理考试-主管护师-内科护理学.md)<br>
-☛查看[内科护理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-内科护理学)
-<br><br>
+完整排行榜见[内科护理学](leaderboard/CMB-护理考试-主管护师-内科护理学.md)，☛查看[内科护理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-内科护理学)
+<br>
 
 #### （5）妇产科护理学
-完整排行榜见[妇产科护理学](leaderboard/CMB-护理考试-主管护师-妇产科护理学.md)<br>
-☛查看[妇产科护理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-妇产科护理学)
-<br><br>
+完整排行榜见[妇产科护理学](leaderboard/CMB-护理考试-主管护师-妇产科护理学.md)，☛查看[妇产科护理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-妇产科护理学)
+<br>
 
 #### （6）妇产科主管护师
-完整排行榜见[妇产科主管护师](leaderboard/CMB-护理考试-主管护师-妇产科主管护师.md)<br>
-☛查看[妇产科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-妇产科主管护师)
-<br><br>
+完整排行榜见[妇产科主管护师](leaderboard/CMB-护理考试-主管护师-妇产科主管护师.md)，☛查看[妇产科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-妇产科主管护师)
+<br>
 
 #### （7）外科主管护师
-完整排行榜见[外科主管护师](leaderboard/CMB-护理考试-主管护师-外科主管护师.md)<br>
-☛查看[外科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-外科主管护师)
-<br><br>
+完整排行榜见[外科主管护师](leaderboard/CMB-护理考试-主管护师-外科主管护师.md)，☛查看[外科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-外科主管护师)
+<br>
 
 #### （8）主管护师资格考试
-完整排行榜见[主管护师资格考试](leaderboard/CMB-护理考试-主管护师-主管护师资格考试.md)<br>
-☛查看[主管护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-主管护师资格考试)
-<br><br>
+完整排行榜见[主管护师资格考试](leaderboard/CMB-护理考试-主管护师-主管护师资格考试.md)，☛查看[主管护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-主管护师资格考试)
+<br>
 
 #### （9）内科主管护师
-完整排行榜见[内科主管护师](leaderboard/CMB-护理考试-主管护师-内科主管护师.md)<br>
-☛查看[内科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-内科主管护师)
-<br><br><br>
+完整排行榜见[内科主管护师](leaderboard/CMB-护理考试-主管护师-内科主管护师.md)，☛查看[内科主管护师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-内科主管护师)
+<br>
 
 #### （10）副主任、主任护师资格考试
-完整排行榜见[副主任、主任护师资格考试](leaderboard/CMB-护理考试-高级护师-副主任、主任护师资格考试.md)<br>
-☛查看[副主任、主任护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-高级护师-副主任、主任护师资格考试)
+完整排行榜见[副主任、主任护师资格考试](leaderboard/CMB-护理考试-高级护师-副主任、主任护师资格考试.md)，☛查看[副主任、主任护师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-高级护师-副主任、主任护师资格考试)
 <br><br><br>
 
 
@@ -753,43 +664,35 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[药师考试](leaderboard/CMB-药师考试.md)<br>
 
 #### （1）执业西药师
-完整排行榜见[执业西药师](leaderboard/CMB-药师考试-执业西药师.md)<br>
-☛查看[执业西药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业西药师)
-<br><br>
+完整排行榜见[执业西药师](leaderboard/CMB-药师考试-执业西药师.md)，☛查看[执业西药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业西药师)
+<br>
 
 #### （2）执业中药师
-完整排行榜见[执业中药师](leaderboard/CMB-药师考试-执业中药师.md)<br>
-☛查看[执业中药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业中药师)
-<br><br>
+完整排行榜见[执业中药师](leaderboard/CMB-药师考试-执业中药师.md)，☛查看[执业中药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业中药师)
+<br>
 
 #### （3）初级药士-药士初级考试
-完整排行榜见[初级药士-药士初级考试](leaderboard/CMB-药师考试-初级药士-药士初级考试.md)<br>
-☛查看[初级药士-药士初级考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级药士-药士初级考试)
-<br><br>
+完整排行榜见[初级药士-药士初级考试](leaderboard/CMB-药师考试-初级药士-药士初级考试.md)，☛查看[初级药士-药士初级考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级药士-药士初级考试)
+<br>
 
 #### （4）初级药师-药师初级考试
-完整排行榜见[初级药师-药师初级考试](leaderboard/CMB-药师考试-初级药师-药师初级考试.md)<br>
-☛查看[初级药师-药师初级考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级药师-药师初级考试)
-<br><br>
+完整排行榜见[初级药师-药师初级考试](leaderboard/CMB-药师考试-初级药师-药师初级考试.md)，☛查看[初级药师-药师初级考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级药师-药师初级考试)
+<br>
 
 #### （5）初级中药士-中药学（士）
-完整排行榜见[初级中药士-中药学（士）](leaderboard/CMB-药师考试-初级中药士-中药学（士）.md)<br>
-☛查看[初级中药士-中药学（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级中药士-中药学（士）)
-<br><br>
+完整排行榜见[初级中药士-中药学（士）](leaderboard/CMB-药师考试-初级中药士-中药学（士）.md)，☛查看[初级中药士-中药学（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级中药士-中药学（士）)
+<br>
 
 #### （6）初级中药师-中药学（师）
-完整排行榜见[初级中药师-中药学（师）](leaderboard/CMB-药师考试-初级中药师-中药学（师）.md)<br>
-☛查看[初级中药师-中药学（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级中药师-中药学（师）)
-<br><br>
+完整排行榜见[初级中药师-中药学（师）](leaderboard/CMB-药师考试-初级中药师-中药学（师）.md)，☛查看[初级中药师-中药学（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级中药师-中药学（师）)
+<br>
 
 #### （7）主管药师-主管药师资格考试
-完整排行榜见[主管药师-主管药师资格考试](leaderboard/CMB-药师考试-主管药师-主管药师资格考试.md)<br>
-☛查看[主管药师-主管药师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-主管药师-主管药师资格考试)
-<br><br>
+完整排行榜见[主管药师-主管药师资格考试](leaderboard/CMB-药师考试-主管药师-主管药师资格考试.md)，☛查看[主管药师-主管药师资格考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-主管药师-主管药师资格考试)
+<br>
 
 #### （8）主管中药师
-完整排行榜见[主管中药师](leaderboard/CMB-药师考试-主管中药师.md)<br>
-☛查看[主管中药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-主管中药师)
+完整排行榜见[主管中药师](leaderboard/CMB-药师考试-主管中药师.md)，☛查看[主管中药师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-主管中药师)
 <br><br><br>
 
 
@@ -798,113 +701,91 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医技考试](leaderboard/CMB-医技考试.md)<br>
 
 #### （1）康复医学治疗技术（士）
-完整排行榜见[康复医学治疗技术（士）](leaderboard/CMB-医技考试-医技士-康复医学治疗技术（士）.md)<br>
-☛查看[康复医学治疗技术（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-康复医学治疗技术（士）)
-<br><br>
+完整排行榜见[康复医学治疗技术（士）](leaderboard/CMB-医技考试-医技士-康复医学治疗技术（士）.md)，☛查看[康复医学治疗技术（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-康复医学治疗技术（士）)
+<br>
 
 #### （2）放射学技术（士）
-完整排行榜见[放射学技术（士）](leaderboard/CMB-医技考试-医技士-放射学技术（士）.md)<br>
-☛查看[放射学技术（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-放射学技术（士）)
-<br><br>
+完整排行榜见[放射学技术（士）](leaderboard/CMB-医技考试-医技士-放射学技术（士）.md)，☛查看[放射学技术（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-放射学技术（士）)
+<br>
 
 #### （3）检验技术（士）
-完整排行榜见[检验技术（士）](leaderboard/CMB-医技考试-医技士-检验技术（士）.md)<br>
-☛查看[检验技术（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-检验技术（士）)
-<br><br>
+完整排行榜见[检验技术（士）](leaderboard/CMB-医技考试-医技士-检验技术（士）.md)，☛查看[检验技术（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-检验技术（士）)
+<br>
 
 #### （4）肿瘤学技术（士）
-完整排行榜见[肿瘤学技术（士）](leaderboard/CMB-医技考试-医技士-肿瘤学技术（士）.md)<br>
-☛查看[肿瘤学技术（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-肿瘤学技术（士）)
-<br><br>
+完整排行榜见[肿瘤学技术（士）](leaderboard/CMB-医技考试-医技士-肿瘤学技术（士）.md)，☛查看[肿瘤学技术（士）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-肿瘤学技术（士）)
+<br>
 
 #### （5）康复医学治疗技术（师）
-完整排行榜见[康复医学治疗技术（师）](leaderboard/CMB-医技考试-医技师-康复医学治疗技术（师）.md)<br>
-☛查看[康复医学治疗技术（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-康复医学治疗技术（师）)
-<br><br>
+完整排行榜见[康复医学治疗技术（师）](leaderboard/CMB-医技考试-医技师-康复医学治疗技术（师）.md)，☛查看[康复医学治疗技术（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-康复医学治疗技术（师）)
+<br>
 
 #### （6）肿瘤学技术（师）
-完整排行榜见[肿瘤学技术（师）](leaderboard/CMB-医技考试-医技师-肿瘤学技术（师）.md)<br>
-☛查看[肿瘤学技术（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-肿瘤学技术（师）)
-<br><br>
+完整排行榜见[肿瘤学技术（师）](leaderboard/CMB-医技考试-医技师-肿瘤学技术（师）.md)，☛查看[肿瘤学技术（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-肿瘤学技术（师）)
+<br>
 
 #### （7）放射学技术（师）
-完整排行榜见[放射学技术（师）](leaderboard/CMB-医技考试-医技师-放射学技术（师）.md)<br>
-☛查看[放射学技术（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-放射学技术（师）)
-<br><br>
+完整排行榜见[放射学技术（师）](leaderboard/CMB-医技考试-医技师-放射学技术（师）.md)，☛查看[放射学技术（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-放射学技术（师）)
+<br>
 
 #### （8）检验技术（师）
-完整排行榜见[检验技术（师）](leaderboard/CMB-医技考试-医技师-检验技术（师）.md)<br>
-☛查看[检验技术（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-检验技术（师）)
-<br><br>
+完整排行榜见[检验技术（师）](leaderboard/CMB-医技考试-医技师-检验技术（师）.md)，☛查看[检验技术（师）badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-检验技术（师）)
+<br>
 
 #### （9）肿瘤放射治疗主管技师
-完整排行榜见[肿瘤放射治疗主管技师](leaderboard/CMB-医技考试-主管技师-肿瘤放射治疗主管技师.md)<br>
-☛查看[肿瘤放射治疗主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-肿瘤放射治疗主管技师)
-<br><br>
+完整排行榜见[肿瘤放射治疗主管技师](leaderboard/CMB-医技考试-主管技师-肿瘤放射治疗主管技师.md)，☛查看[肿瘤放射治疗主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-肿瘤放射治疗主管技师)
+<br>
 
 #### （10）超声波医学主管技师
-完整排行榜见[超声波医学主管技师](leaderboard/CMB-医技考试-主管技师-超声波医学主管技师.md)<br>
-☛查看[超声波医学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-超声波医学主管技师)
-<br><br>
+完整排行榜见[超声波医学主管技师](leaderboard/CMB-医技考试-主管技师-超声波医学主管技师.md)，☛查看[超声波医学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-超声波医学主管技师)
+<br>
 
 #### （11）输血技术主管技师
-完整排行榜见[输血技术主管技师](leaderboard/CMB-医技考试-主管技师-输血技术主管技师.md)<br>
-☛查看[输血技术主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-输血技术主管技师)
-<br><br>
+完整排行榜见[输血技术主管技师](leaderboard/CMB-医技考试-主管技师-输血技术主管技师.md)，☛查看[输血技术主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-输血技术主管技师)
+<br>
 
 #### （12）微生物检验主管技师
-完整排行榜见[微生物检验主管技师](leaderboard/CMB-医技考试-主管技师-微生物检验主管技师.md)<br>
-☛查看[微生物检验主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-微生物检验主管技师)
-<br><br>
+完整排行榜见[微生物检验主管技师](leaderboard/CMB-医技考试-主管技师-微生物检验主管技师.md)，☛查看[微生物检验主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-微生物检验主管技师)
+<br>
 
 #### （13）放射医学主管技师
-完整排行榜见[放射医学主管技师](leaderboard/CMB-医技考试-主管技师-放射医学主管技师.md)<br>
-☛查看[放射医学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-放射医学主管技师)
-<br><br>
+完整排行榜见[放射医学主管技师](leaderboard/CMB-医技考试-主管技师-放射医学主管技师.md)，☛查看[放射医学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-放射医学主管技师)
+<br>
 
 #### （14）病理学主管技师
-完整排行榜见[病理学主管技师](leaderboard/CMB-医技考试-主管技师-病理学主管技师.md)<br>
-☛查看[病理学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病理学主管技师)
-<br><br>
+完整排行榜见[病理学主管技师](leaderboard/CMB-医技考试-主管技师-病理学主管技师.md)，☛查看[病理学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病理学主管技师)
+<br>
 
 #### （15）理化检验主管技师
-完整排行榜见[理化检验主管技师](leaderboard/CMB-医技考试-主管技师-理化检验主管技师.md)<br>
-☛查看[理化检验主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-理化检验主管技师)
-<br><br>
+完整排行榜见[理化检验主管技师](leaderboard/CMB-医技考试-主管技师-理化检验主管技师.md)，☛查看[理化检验主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-理化检验主管技师)
+<br>
 
 #### （16）病理学技术
-完整排行榜见[病理学技术](leaderboard/CMB-医技考试-主管技师-病理学技术.md)<br>
-☛查看[病理学技术badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病理学技术)
-<br><br>
+完整排行榜见[病理学技术](leaderboard/CMB-医技考试-主管技师-病理学技术.md)，☛查看[病理学技术badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病理学技术)
+<br>
 
 #### （17）临床医学检验主管技师
-完整排行榜见[临床医学检验主管技师](leaderboard/CMB-医技考试-主管技师-临床医学检验主管技师.md)<br>
-☛查看[临床医学检验主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-临床医学检验主管技师)
-<br><br>
+完整排行榜见[临床医学检验主管技师](leaderboard/CMB-医技考试-主管技师-临床医学检验主管技师.md)，☛查看[临床医学检验主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-临床医学检验主管技师)
+<br>
 
 #### （18）病案信息主管技师
-完整排行榜见[病案信息主管技师](leaderboard/CMB-医技考试-主管技师-病案信息主管技师.md)<br>
-☛查看[病案信息主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病案信息主管技师)
-<br><br>
+完整排行榜见[病案信息主管技师](leaderboard/CMB-医技考试-主管技师-病案信息主管技师.md)，☛查看[病案信息主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病案信息主管技师)
+<br>
 
 #### （19）核医学主管技师
-完整排行榜见[核医学主管技师](leaderboard/CMB-医技考试-主管技师-核医学主管技师.md)<br>
-☛查看[核医学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-核医学主管技师)
-<br><br>
+完整排行榜见[核医学主管技师](leaderboard/CMB-医技考试-主管技师-核医学主管技师.md)，☛查看[核医学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-核医学主管技师)
+<br>
 
 #### （20）心电学主管技师
-完整排行榜见[心电学主管技师](leaderboard/CMB-医技考试-主管技师-心电学主管技师.md)<br>
-☛查看[心电学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-心电学主管技师)
-<br><br>
+完整排行榜见[心电学主管技师](leaderboard/CMB-医技考试-主管技师-心电学主管技师.md)，☛查看[心电学主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-心电学主管技师)
+<br>
 
 #### （21）消毒技术主管技师
-完整排行榜见[消毒技术主管技师](leaderboard/CMB-医技考试-主管技师-消毒技术主管技师.md)<br>
-☛查看[消毒技术主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-消毒技术主管技师)
-<br><br>
+完整排行榜见[消毒技术主管技师](leaderboard/CMB-医技考试-主管技师-消毒技术主管技师.md)，☛查看[消毒技术主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-消毒技术主管技师)
+<br>
 
 #### （22）康复医学与治疗主管技师
-完整排行榜见[康复医学与治疗主管技师](leaderboard/CMB-医技考试-主管技师-康复医学与治疗主管技师.md)<br>
-☛查看[康复医学与治疗主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-康复医学与治疗主管技师)
+完整排行榜见[康复医学与治疗主管技师](leaderboard/CMB-医技考试-主管技师-康复医学与治疗主管技师.md)，☛查看[康复医学与治疗主管技师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-康复医学与治疗主管技师)
 <br><br><br>
 
 
