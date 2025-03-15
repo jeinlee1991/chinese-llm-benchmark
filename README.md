@@ -795,7 +795,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 ### 2.8 医技考试
 医技考试，均为选择题，含医技士-康复医学治疗技术（士）、医技师-肿瘤学技术（师）等22个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
-☛☛完整排行榜见[](leaderboard/CMB-医技考试.md)<br>
+☛☛完整排行榜见[医技考试](leaderboard/CMB-医技考试.md)<br>
 
 #### （1）康复医学治疗技术（士）
 完整排行榜见[康复医学治疗技术（士）](leaderboard/CMB-医技考试-医技士-康复医学治疗技术（士）.md)<br>
