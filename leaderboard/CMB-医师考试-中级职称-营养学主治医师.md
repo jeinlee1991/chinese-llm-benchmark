@@ -6,7 +6,7 @@
 |开源|DeepSeek-R1|90.0|3|
 |商用|Doubao-1.5-pro-32k-250115|83.0|4|
 |商用|hunyuan-standard|81.0|5|
-|商用|hunyuan-large|81.0|6|
+|开源|hunyuan-large|81.0|6|
 |商用|SenseChat-5-beta|78.0|7|
 |商用|GLM-4-Plus|78.0|8|
 |商用|qwen2.5-max|78.0|9|

@@ -4,7 +4,7 @@
 |商用|Doubao-1.5-pro-32k-250115|94.0|1|
 |商用|hunyuan-turbos-20250226(new)|93.9|2|
 |商用|Doubao-1.5-lite-32k-250115|92.0|3|
-|商用|hunyuan-large|91.0|4|
+|开源|hunyuan-large|91.0|4|
 |商用|hunyuan-turbo|88.0|5|
 |商用|qwen2.5-max|86.0|6|
 |商用|hunyuan-standard|86.0|7|

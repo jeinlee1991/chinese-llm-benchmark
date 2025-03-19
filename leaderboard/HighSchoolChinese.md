@@ -2,7 +2,7 @@
 | 类别 | 大模型                         | HighSchoolChinese | 排名 |
 |-----|------------------------------|---------|----|
 |商用|Doubao-1.5-pro-32k-250115|90.3|1|
-|商用|hunyuan-large|83.9|2|
+|开源|hunyuan-large|83.9|2|
 |商用|GLM-4-Plus|83.9|3|
 |商用|xunfei-4.0Ultra|83.9|4|
 |商用|xunfei-spark-max|83.9|5|

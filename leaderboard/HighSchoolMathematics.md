@@ -9,7 +9,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|93.8|6|
 |商用|hunyuan-turbo|93.8|7|
 |商用|xunfei-spark-max|90.6|8|
-|商用|hunyuan-large|90.6|9|
+|开源|hunyuan-large|90.6|9|
 |商用|Doubao-1.5-pro-32k-250115|90.6|10|
 |开源|DeepSeek-R1|90.6|11|
 |商用|gemini-2.0-flash-001|90.6|12|

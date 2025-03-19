@@ -4,7 +4,7 @@
 |商用|hunyuan-turbos-20250226(new)|91.3|1|
 |商用|hunyuan-turbo|88.0|2|
 |商用|Doubao-1.5-pro-32k-250115|86.0|3|
-|商用|hunyuan-large|84.0|4|
+|开源|hunyuan-large|84.0|4|
 |商用|abab7-chat-preview|83.0|5|
 |商用|qwen2.5-max|83.0|6|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|83.0|7|

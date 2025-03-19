@@ -3,7 +3,7 @@
 |-----|------------------------------|---------|----|
 |开源|DeepSeek-R1|100.0|1|
 |商用|hunyuan-turbos-20250226(new)|95.0|2|
-|商用|hunyuan-large|95.0|3|
+|开源|hunyuan-large|95.0|3|
 |商用|xunfei-spark-max|90.0|4|
 |商用|xunfei-4.0Ultra|90.0|5|
 |商用|ERNIE-4.0-Turbo-8K|90.0|6|

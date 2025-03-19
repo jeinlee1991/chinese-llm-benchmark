@@ -8,7 +8,7 @@
 |开源|qwen2.5-72b-instruct|80.0|5|
 |开源|DeepSeek-R1|80.0|6|
 |商用|xunfei-4.0Ultra|79.0|7|
-|商用|hunyuan-large|79.0|8|
+|开源|hunyuan-large|79.0|8|
 |商用|qwen-long|78.5|9|
 |商用|Doubao-1.5-lite-32k-250115|78.0|10|
 |商用|qwen-plus|78.0|11|

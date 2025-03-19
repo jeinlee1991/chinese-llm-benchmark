@@ -5,7 +5,7 @@
 |商用|hunyuan-turbo|100.0|2|
 |商用|hunyuan-standard|100.0|3|
 |商用|xunfei-4.0Ultra|100.0|4|
-|商用|hunyuan-large|100.0|5|
+|开源|hunyuan-large|100.0|5|
 |商用|xunfei-spark-max|100.0|6|
 |商用|hunyuan-turbos-20250226(new)|100.0|7|
 |商用|360gpt2-pro|100.0|8|

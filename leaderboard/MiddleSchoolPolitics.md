@@ -33,7 +33,7 @@
 |商用|xunfei-4.0Ultra|91.7|30|
 |商用|qwen-turbo|91.7|31|
 |商用|abab7-chat-preview|91.7|32|
-|商用|hunyuan-large|91.7|33|
+|开源|hunyuan-large|91.7|33|
 |商用|moonshot-v1-8k|91.7|34|
 |商用|GLM-4-Air|91.7|35|
 |商用|xunfei-spark-max|91.7|36|

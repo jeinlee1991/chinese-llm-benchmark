@@ -10,7 +10,7 @@
 |商用|qwq-plus-2025-03-05(new)|79.0|7|
 |开源|qwen2.5-72b-instruct|77.0|8|
 |商用|xunfei-spark-max|77.0|9|
-|商用|hunyuan-large|76.0|10|
+|开源|hunyuan-large|76.0|10|
 |商用|xunfei-spark-pro|74.0|11|
 |商用|360gpt-pro|74.0|12|
 |商用|360gpt2-pro|74.0|13|

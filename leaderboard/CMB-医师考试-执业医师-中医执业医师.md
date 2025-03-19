@@ -6,7 +6,7 @@
 |商用|xunfei-4.0Ultra|86.0|3|
 |商用|Doubao-1.5-pro-32k-250115|86.0|4|
 |商用|Doubao-1.5-lite-32k-250115|85.0|5|
-|商用|hunyuan-large|83.5|6|
+|开源|hunyuan-large|83.5|6|
 |商用|xunfei-spark-max|82.0|7|
 |商用|xunfei-spark-pro|81.5|8|
 |商用|kimi-latest-8k|81.0|9|

@@ -56,7 +56,7 @@
 |开源|deepseek-chat-v3|86.4|53|
 |商用|moonshot-v1-8k|86.4|54|
 |开源|Yi-1.5-9B-Chat|86.4|55|
-|商用|hunyuan-large|86.4|56|
+|开源|hunyuan-large|86.4|56|
 |开源|qwen2.5-1.5b-instruct|86.4|57|
 |商用|GLM-Zero-Preview|86.4|58|
 |开源|qwen2.5-72b-instruct|86.4|59|

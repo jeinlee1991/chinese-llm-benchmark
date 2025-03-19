@@ -17,7 +17,7 @@
 |商用|hunyuan-standard|85.0|14|
 |商用|Doubao-1.5-lite-32k-250115|85.0|15|
 |开源|Meta-Llama-3.1-405B-Instruct|84.5|16|
-|商用|hunyuan-large|84.5|17|
+|开源|hunyuan-large|84.5|17|
 |商用|Baichuan4-Turbo|84.0|18|
 |商用|kimi-latest-8k|84.0|19|
 |商用|xunfei-spark-max|84.0|20|

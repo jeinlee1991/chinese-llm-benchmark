@@ -12,7 +12,7 @@
 |商用|hunyuan-turbo|83.0|9|
 |商用|360gpt2-pro|83.0|10|
 |商用|gemini-2.0-pro-exp-02-05|83.0|11|
-|商用|hunyuan-large|82.5|12|
+|开源|hunyuan-large|82.5|12|
 |商用|qwen2.5-max|82.5|13|
 |商用|gemini-2.0-flash-thinking-exp-01-21|82.5|14|
 |商用|abab7-chat-preview|82.0|15|

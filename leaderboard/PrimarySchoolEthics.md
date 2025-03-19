@@ -65,7 +65,7 @@
 |商用|GLM-4-FlashX|86.7|62|
 |商用|gemini-2.0-flash-thinking-exp-01-21|86.7|63|
 |商用|GLM-4-Long|86.7|64|
-|商用|hunyuan-large|86.7|65|
+|开源|hunyuan-large|86.7|65|
 |开源|qwen2.5-14b-instruct|86.7|66|
 |商用|ERNIE-3.5-8K|86.7|67|
 |商用|mistral-large|86.7|68|

@@ -6,7 +6,7 @@
 |商用|xunfei-4.0Ultra|90.0|3|
 |商用|Doubao-1.5-pro-32k-250115|90.0|4|
 |商用|Doubao-1.5-lite-32k-250115|90.0|5|
-|商用|hunyuan-large|88.0|6|
+|开源|hunyuan-large|88.0|6|
 |商用|qwen2.5-max|87.0|7|
 |商用|ERNIE-4.0|86.7|8|
 |商用|360zhinao2-o1|86.4|9|

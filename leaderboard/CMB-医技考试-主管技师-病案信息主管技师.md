@@ -5,7 +5,7 @@
 |开源|qwen2.5-72b-instruct|86.4|2|
 |商用|hunyuan-turbos-20250226(new)|86.4|3|
 |商用|360gpt-pro|81.8|4|
-|商用|hunyuan-large|81.8|5|
+|开源|hunyuan-large|81.8|5|
 |商用|360gpt2-pro|81.8|6|
 |商用|Doubao-1.5-pro-32k-250115|81.8|7|
 |商用|xunfei-4.0Ultra|80.0|8|

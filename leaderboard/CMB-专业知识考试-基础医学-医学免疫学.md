@@ -10,7 +10,7 @@
 |开源|qwq-32b(new)|86.5|7|
 |商用|hunyuan-turbos-20250226(new)|86.5|8|
 |商用|abab7-chat-preview|85.5|9|
-|商用|hunyuan-large|85.5|10|
+|开源|hunyuan-large|85.5|10|
 |开源|DeepSeek-R1|85.0|11|
 |商用|chatgpt-4o-latest|85.0|12|
 |商用|yi-lightning|85.0|13|

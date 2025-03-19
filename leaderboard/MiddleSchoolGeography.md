@@ -5,7 +5,7 @@
 |商用|qwen-plus|100.0|2|
 |商用|GLM-4-Flash|100.0|3|
 |商用|hunyuan-turbo|100.0|4|
-|商用|hunyuan-large|100.0|5|
+|开源|hunyuan-large|100.0|5|
 |开源|internlm2_5-20b-chat|100.0|6|
 |商用|ERNIE-3.5-8K|100.0|7|
 |商用|ERNIE-4.0|100.0|8|

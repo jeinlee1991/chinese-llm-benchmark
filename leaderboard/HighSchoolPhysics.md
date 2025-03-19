@@ -9,7 +9,7 @@
 |商用|ERNIE-4.0-Turbo-8K|92.3|6|
 |开源|qwen2.5-72b-instruct|92.3|7|
 |商用|hunyuan-turbo|92.3|8|
-|商用|hunyuan-large|92.3|9|
+|开源|hunyuan-large|92.3|9|
 |开源|DeepSeek-R1|92.3|10|
 |商用|xunfei-4.0Ultra|88.5|11|
 |商用|gemini-2.0-flash-001|88.5|12|

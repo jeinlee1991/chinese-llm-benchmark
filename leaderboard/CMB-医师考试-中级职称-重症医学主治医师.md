@@ -7,7 +7,7 @@
 |商用|hunyuan-turbos-20250226(new)|88.0|4|
 |商用|Doubao-1.5-lite-32k-250115|85.0|5|
 |开源|Meta-Llama-3.1-405B-Instruct|84.0|6|
-|商用|hunyuan-large|83.0|7|
+|开源|hunyuan-large|83.0|7|
 |商用|360gpt2-pro|82.0|8|
 |商用|abab7-chat-preview|82.0|9|
 |商用|qwen2.5-max|82.0|10|

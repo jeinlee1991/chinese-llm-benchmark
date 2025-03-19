@@ -5,7 +5,7 @@
 |商用|hunyuan-turbos-20250226(new)|97.0|2|
 |商用|Doubao-1.5-pro-32k-250115|96.0|3|
 |开源|DeepSeek-R1|95.3|4|
-|商用|hunyuan-large|92.0|5|
+|开源|hunyuan-large|92.0|5|
 |商用|Doubao-1.5-lite-32k-250115|90.0|6|
 |商用|xunfei-spark-max|89.0|7|
 |商用|360gpt2-pro|88.0|8|

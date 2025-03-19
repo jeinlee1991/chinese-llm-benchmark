@@ -3,7 +3,7 @@
 |-----|------------------------------|---------|----|
 |商用|hunyuan-turbo|100.0|1|
 |商用|hunyuan-turbos-20250226(new)|96.9|2|
-|商用|hunyuan-large|92.2|3|
+|开源|hunyuan-large|92.2|3|
 |开源|DeepSeek-R1|89.1|4|
 |商用|xunfei-spark-max|87.5|5|
 |商用|Doubao-1.5-pro-32k-250115|85.9|6|

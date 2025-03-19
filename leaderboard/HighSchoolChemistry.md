@@ -16,7 +16,7 @@
 |开源|qwq-32b-preview|91.3|13|
 |商用|abab7-chat-preview|91.3|14|
 |商用|ERNIE-4.0-Turbo-8K|91.3|15|
-|商用|hunyuan-large|91.3|16|
+|开源|hunyuan-large|91.3|16|
 |商用|qwen-long|91.3|17|
 |商用|hunyuan-turbos-20250226(new)|91.3|18|
 |商用|ERNIE-3.5-8K|87.0|19|

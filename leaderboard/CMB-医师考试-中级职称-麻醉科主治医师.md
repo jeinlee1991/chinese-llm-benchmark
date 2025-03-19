@@ -6,7 +6,7 @@
 |开源|DeepSeek-R1|89.8|3|
 |商用|Doubao-1.5-lite-32k-250115|88.0|4|
 |商用|Doubao-1.5-pro-32k-250115|87.0|5|
-|商用|hunyuan-large|84.0|6|
+|开源|hunyuan-large|84.0|6|
 |开源|qwq-32b-preview|80.0|7|
 |开源|Meta-Llama-3.1-405B-Instruct|80.0|8|
 |商用|xunfei-4.0Ultra|78.0|9|

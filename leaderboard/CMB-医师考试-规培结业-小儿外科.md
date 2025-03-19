@@ -26,7 +26,7 @@
 |商用|chatgpt-4o-latest|74.0|23|
 |商用|Claude-3.5-Sonnet|73.3|24|
 |开源|Llama-3.3-70B-Instruct-fp8|73.0|25|
-|商用|hunyuan-large|73.0|26|
+|开源|hunyuan-large|73.0|26|
 |开源|deepseek-chat-v3|73.0|27|
 |商用|MiniMax-Text-01|72.0|28|
 |商用|GLM-4-Plus|72.0|29|

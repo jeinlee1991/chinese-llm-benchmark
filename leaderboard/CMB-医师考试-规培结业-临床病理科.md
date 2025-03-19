@@ -22,7 +22,7 @@
 |开源|qwen2.5-72b-instruct|82.0|19|
 |商用|GLM-4-Plus|82.0|20|
 |商用|xunfei-spark-pro|81.0|21|
-|商用|hunyuan-large|81.0|22|
+|开源|hunyuan-large|81.0|22|
 |商用|qwen-turbo|81.0|23|
 |开源|deepseek-chat-v3|80.0|24|
 |商用|yi-lightning|80.0|25|

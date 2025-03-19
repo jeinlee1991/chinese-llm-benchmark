@@ -57,7 +57,7 @@
 |开源|internlm2_5-20b-chat|82.2|54|
 |商用|gemini-2.0-flash-thinking-exp-01-21|82.0|55|
 |商用|gemini-2.0-flash-001|82.0|56|
-|商用|hunyuan-large|81.6|57|
+|开源|hunyuan-large|81.6|57|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|81.6|58|
 |商用|GLM-4-Long|81.6|59|
 |商用|360zhinao2-o1|81.5|60|

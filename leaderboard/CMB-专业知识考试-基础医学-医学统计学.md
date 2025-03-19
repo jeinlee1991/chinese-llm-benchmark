@@ -22,7 +22,7 @@
 |开源|DeepSeek-R1-Distill-Qwen-32B|81.0|19|
 |开源|qwen2.5-72b-instruct|81.0|20|
 |开源|qwen2.5-14b-instruct|80.7|21|
-|商用|hunyuan-large|80.7|22|
+|开源|hunyuan-large|80.7|22|
 |商用|qwen-plus|80.2|23|
 |商用|qwen-turbo|80.2|24|
 |商用|Baichuan4-Turbo|80.2|25|

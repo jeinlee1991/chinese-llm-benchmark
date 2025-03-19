@@ -6,7 +6,7 @@
 |商用|hunyuan-turbo|89.0|3|
 |开源|DeepSeek-R1|88.2|4|
 |商用|Doubao-1.5-lite-32k-250115|84.0|5|
-|商用|hunyuan-large|83.0|6|
+|开源|hunyuan-large|83.0|6|
 |商用|xunfei-spark-max|82.0|7|
 |商用|qwen2.5-max|82.0|8|
 |商用|xunfei-spark-pro|81.0|9|

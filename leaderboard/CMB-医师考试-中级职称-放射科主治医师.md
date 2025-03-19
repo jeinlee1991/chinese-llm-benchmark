@@ -10,7 +10,7 @@
 |商用|qwen2.5-max|67.0|7|
 |商用|xunfei-4.0Ultra|66.0|8|
 |商用|xunfei-spark-pro|66.0|9|
-|商用|hunyuan-large|66.0|10|
+|开源|hunyuan-large|66.0|10|
 |商用|yi-lightning|63.0|11|
 |商用|GLM-4-Plus|63.0|12|
 |商用|360gpt-pro|61.0|13|

@@ -8,7 +8,7 @@
 |商用|xunfei-spark-max|76.0|5|
 |商用|xunfei-4.0Ultra|74.0|6|
 |商用|xunfei-spark-pro|74.0|7|
-|商用|hunyuan-large|74.0|8|
+|开源|hunyuan-large|74.0|8|
 |商用|hunyuan-standard|73.0|9|
 |开源|Meta-Llama-3.1-405B-Instruct|71.0|10|
 |商用|qwen-long|71.0|11|

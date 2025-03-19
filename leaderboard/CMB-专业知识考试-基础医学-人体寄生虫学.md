@@ -4,7 +4,7 @@
 |开源|DeepSeek-R1|83.0|1|
 |商用|hunyuan-turbo|80.0|2|
 |商用|Doubao-1.5-pro-32k-250115|79.5|3|
-|商用|hunyuan-large|79.0|4|
+|开源|hunyuan-large|79.0|4|
 |商用|hunyuan-turbos-20250226(new)|77.0|5|
 |商用|qwq-plus-2025-03-05(new)|75.5|6|
 |开源|qwq-32b(new)|73.0|7|

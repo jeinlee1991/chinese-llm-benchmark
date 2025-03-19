@@ -7,7 +7,7 @@
 |商用|Doubao-1.5-pro-32k-250115|90.0|4|
 |商用|xunfei-4.0Ultra|88.0|5|
 |商用|Doubao-1.5-lite-32k-250115|87.0|6|
-|商用|hunyuan-large|87.0|7|
+|开源|hunyuan-large|87.0|7|
 |商用|qwen2.5-max|83.0|8|
 |商用|Claude-3.5-Sonnet|82.0|9|
 |开源|qwen2.5-72b-instruct|81.0|10|

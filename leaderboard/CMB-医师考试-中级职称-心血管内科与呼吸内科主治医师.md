@@ -6,7 +6,7 @@
 |开源|DeepSeek-R1|93.8|3|
 |商用|Doubao-1.5-pro-32k-250115|93.0|4|
 |商用|Doubao-1.5-lite-32k-250115|92.0|5|
-|商用|hunyuan-large|91.0|6|
+|开源|hunyuan-large|91.0|6|
 |商用|xunfei-spark-max|88.0|7|
 |商用|xunfei-4.0Ultra|88.0|8|
 |商用|qwq-plus-2025-03-05(new)|88.0|9|

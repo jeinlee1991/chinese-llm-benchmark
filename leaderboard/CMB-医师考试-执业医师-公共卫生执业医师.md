@@ -5,7 +5,7 @@
 |商用|qwq-plus-2025-03-05(new)|87.0|2|
 |商用|hunyuan-turbos-20250226(new)|87.0|3|
 |商用|Doubao-1.5-lite-32k-250115|86.5|4|
-|商用|hunyuan-large|85.5|5|
+|开源|hunyuan-large|85.5|5|
 |商用|hunyuan-turbo|85.0|6|
 |开源|DeepSeek-R1|85.0|7|
 |开源|qwq-32b-preview|84.0|8|

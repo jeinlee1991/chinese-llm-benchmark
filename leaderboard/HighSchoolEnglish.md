@@ -36,7 +36,7 @@
 |开源|qwen2.5-32b-instruct|94.1|33|
 |商用|gemini-1.5-flash|94.1|34|
 |商用|moonshot-v1-8k|94.1|35|
-|商用|hunyuan-large|94.1|36|
+|开源|hunyuan-large|94.1|36|
 |商用|abab7-chat-preview|94.1|37|
 |商用|xunfei-spark-max|94.1|38|
 |开源|DeepSeek-R1-Distill-Qwen-14B|94.1|39|

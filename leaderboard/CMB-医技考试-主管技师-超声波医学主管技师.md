@@ -17,7 +17,7 @@
 |开源|qwen2.5-72b-instruct|100.0|14|
 |开源|internlm2_5-20b-chat|100.0|15|
 |开源|qwen2.5-14b-instruct|100.0|16|
-|商用|hunyuan-large|100.0|17|
+|开源|hunyuan-large|100.0|17|
 |商用|GLM-4-Long|100.0|18|
 |开源|qwen2.5-32b-instruct|100.0|19|
 |商用|hunyuan-turbos-20250226(new)|100.0|20|

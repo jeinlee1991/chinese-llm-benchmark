@@ -4,7 +4,7 @@
 |商用|GLM-4-Plus|100.0|1|
 |商用|xunfei-4.0Ultra|90.0|2|
 |商用|hunyuan-turbo|90.0|3|
-|商用|hunyuan-large|87.0|4|
+|开源|hunyuan-large|87.0|4|
 |商用|gemini-2.0-pro-exp-02-05|87.0|5|
 |商用|Doubao-1.5-lite-32k-250115|87.0|6|
 |商用|hunyuan-turbos-20250226(new)|87.0|7|

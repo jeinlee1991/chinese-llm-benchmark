@@ -3,7 +3,7 @@
 |-----|------------------------------|---------|----|
 |商用|xunfei-spark-pro|100.0|1|
 |商用|xunfei-4.0Ultra|100.0|2|
-|商用|hunyuan-large|100.0|3|
+|开源|hunyuan-large|100.0|3|
 |开源|DeepSeek-R1-Distill-Qwen-32B|100.0|4|
 |商用|ERNIE-4.0|95.2|5|
 |开源|qwq-32b(new)|95.2|6|

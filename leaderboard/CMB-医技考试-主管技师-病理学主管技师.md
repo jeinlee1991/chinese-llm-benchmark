@@ -15,7 +15,7 @@
 |开源|DeepSeek-R1|80.8|12|
 |商用|Doubao-1.5-pro-32k-250115|80.8|13|
 |商用|360gpt2-pro|80.8|14|
-|商用|hunyuan-large|80.8|15|
+|开源|hunyuan-large|80.8|15|
 |商用|kimi-latest-8k|80.8|16|
 |商用|hunyuan-turbos-20250226(new)|80.8|17|
 |商用|Claude-3.5-Sonnet|80.0|18|

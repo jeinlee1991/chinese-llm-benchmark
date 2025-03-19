@@ -3,7 +3,7 @@
 |-----|------------------------------|---------|----|
 |商用|xunfei-spark-max|100.0|1|
 |开源|qwen2.5-72b-instruct|100.0|2|
-|商用|hunyuan-large|100.0|3|
+|开源|hunyuan-large|100.0|3|
 |商用|hunyuan-turbo|100.0|4|
 |商用|hunyuan-turbos-20250226(new)|100.0|5|
 |商用|SenseChat-5-beta|100.0|6|

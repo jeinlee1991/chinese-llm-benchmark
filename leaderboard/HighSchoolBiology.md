@@ -39,7 +39,7 @@
 |开源|Yi-1.5-34B-Chat|92.6|36|
 |开源|qwen2.5-7b-instruct|88.9|37|
 |商用|GLM-4-Air|88.9|38|
-|商用|hunyuan-large|88.9|39|
+|开源|hunyuan-large|88.9|39|
 |商用|GLM-4-AirX|88.9|40|
 |开源|deepseek-chat-v3|88.9|41|
 |商用|xunfei-spark-pro|88.9|42|

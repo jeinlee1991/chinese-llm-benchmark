@@ -35,7 +35,7 @@
 |开源|glm-4-9b-chat|79.2|32|
 |商用|qwen-long|79.2|33|
 |商用|GLM-4-Plus|79.2|34|
-|商用|hunyuan-large|79.2|35|
+|开源|hunyuan-large|79.2|35|
 |商用|GLM-4-Air|79.2|36|
 |商用|ERNIE-3.5-8K|79.2|37|
 |开源|DeepSeek-R1-Distill-Qwen-7B|79.2|38|

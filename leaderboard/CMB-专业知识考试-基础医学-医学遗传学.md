@@ -20,7 +20,7 @@
 |商用|hunyuan-turbos-20250226(new)|76.0|17|
 |商用|Doubao-1.5-lite-32k-250115|75.5|18|
 |商用|yi-lightning|75.5|19|
-|商用|hunyuan-large|75.5|20|
+|开源|hunyuan-large|75.5|20|
 |商用|gemini-2.0-pro-exp-02-05|75.5|21|
 |商用|360gpt2-o1|75.0|22|
 |商用|GLM-Zero-Preview|75.0|23|

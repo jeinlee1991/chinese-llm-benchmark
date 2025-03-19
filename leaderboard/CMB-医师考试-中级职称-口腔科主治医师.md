@@ -5,7 +5,7 @@
 |商用|Doubao-1.5-pro-32k-250115|86.0|2|
 |商用|hunyuan-turbo|85.0|3|
 |开源|DeepSeek-R1|82.4|4|
-|商用|hunyuan-large|78.0|5|
+|开源|hunyuan-large|78.0|5|
 |商用|Doubao-1.5-lite-32k-250115|75.0|6|
 |商用|360gpt-pro|70.0|7|
 |商用|360gpt2-pro|70.0|8|

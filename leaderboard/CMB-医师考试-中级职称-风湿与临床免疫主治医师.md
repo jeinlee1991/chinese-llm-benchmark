@@ -6,7 +6,7 @@
 |商用|360gpt2-o1|95.8|3|
 |商用|Doubao-1.5-pro-32k-250115|95.8|4|
 |商用|qwen2.5-max|95.8|5|
-|商用|hunyuan-large|95.8|6|
+|开源|hunyuan-large|95.8|6|
 |开源|DeepSeek-R1|95.0|7|
 |商用|qwen-plus|91.7|8|
 |商用|hunyuan-turbo|91.7|9|

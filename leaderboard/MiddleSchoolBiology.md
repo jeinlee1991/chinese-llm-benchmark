@@ -3,7 +3,7 @@
 |-----|------------------------------|---------|----|
 |开源|Yi-1.5-34B-Chat|100.0|1|
 |商用|abab7-chat-preview|100.0|2|
-|商用|hunyuan-large|100.0|3|
+|开源|hunyuan-large|100.0|3|
 |商用|hunyuan-turbo|100.0|4|
 |商用|GLM-4-Plus|100.0|5|
 |商用|xunfei-spark-max|100.0|6|

@@ -3,7 +3,7 @@
 |-----|------------------------------|---------|----|
 |商用|GLM-4-Plus|100.0|1|
 |商用|hunyuan-turbo|100.0|2|
-|商用|hunyuan-large|96.4|3|
+|开源|hunyuan-large|96.4|3|
 |商用|hunyuan-turbos-20250226(new)|96.4|4|
 |商用|hunyuan-standard|92.9|5|
 |商用|xunfei-4.0Ultra|90.0|6|

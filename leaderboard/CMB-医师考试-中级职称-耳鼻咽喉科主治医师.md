@@ -7,7 +7,7 @@
 |商用|Doubao-1.5-lite-32k-250115|81.0|4|
 |商用|xunfei-spark-max|80.0|5|
 |商用|SenseChat-5-beta|79.0|6|
-|商用|hunyuan-large|79.0|7|
+|开源|hunyuan-large|79.0|7|
 |商用|xunfei-4.0Ultra|78.0|8|
 |商用|qwen-plus|78.0|9|
 |商用|qwen-long|75.0|10|

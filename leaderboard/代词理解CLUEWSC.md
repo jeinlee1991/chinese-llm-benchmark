@@ -16,7 +16,7 @@
 |商用|Doubao-1.5-pro-32k-250115|93.0|13|
 |开源|qwq-32b(new)|93.0|14|
 |开源|DeepSeek-R1-Distill-Qwen-14B|92.7|15|
-|商用|hunyuan-large|92.7|16|
+|开源|hunyuan-large|92.7|16|
 |商用|ERNIE-4.0-Turbo-8K|92.7|17|
 |开源|qwen2.5-14b-instruct|92.7|18|
 |商用|qwen-long|92.3|19|

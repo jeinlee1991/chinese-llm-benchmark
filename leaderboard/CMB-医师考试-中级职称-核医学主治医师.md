@@ -5,7 +5,7 @@
 |商用|Doubao-1.5-pro-32k-250115|91.0|2|
 |商用|hunyuan-turbo|89.0|3|
 |开源|Meta-Llama-3.1-405B-Instruct|88.0|4|
-|商用|hunyuan-large|86.0|5|
+|开源|hunyuan-large|86.0|5|
 |开源|Llama-3.3-70B-Instruct-fp8|84.0|6|
 |开源|DeepSeek-R1|83.3|7|
 |开源|qwen2.5-72b-instruct|83.0|8|

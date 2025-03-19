@@ -4,7 +4,7 @@
 |商用|hunyuan-turbo|97.0|1|
 |商用|hunyuan-turbos-20250226(new)|97.0|2|
 |商用|Doubao-1.5-pro-32k-250115|88.0|3|
-|商用|hunyuan-large|86.0|4|
+|开源|hunyuan-large|86.0|4|
 |商用|xunfei-spark-max|83.0|5|
 |商用|Doubao-1.5-lite-32k-250115|83.0|6|
 |开源|Meta-Llama-3.1-405B-Instruct|83.0|7|

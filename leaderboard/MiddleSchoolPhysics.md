@@ -57,7 +57,7 @@
 |商用|step-1-8k|81.8|54|
 |开源|internlm2_5-20b-chat|81.8|55|
 |开源|qwen2.5-72b-instruct|81.8|56|
-|商用|hunyuan-large|81.8|57|
+|开源|hunyuan-large|81.8|57|
 |商用|qwen-plus|81.8|58|
 |商用|360zhinao2-o1|81.8|59|
 |商用|qwen2.5-max|81.8|60|

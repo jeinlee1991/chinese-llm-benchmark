@@ -8,7 +8,7 @@
 |开源|DeepSeek-R1|96.0|5|
 |商用|360zhinao2-o1|95.7|6|
 |商用|360gpt-pro|95.0|7|
-|商用|hunyuan-large|94.0|8|
+|开源|hunyuan-large|94.0|8|
 |开源|qwen2.5-72b-instruct|94.0|9|
 |商用|xunfei-spark-max|94.0|10|
 |商用|360gpt2-pro|94.0|11|

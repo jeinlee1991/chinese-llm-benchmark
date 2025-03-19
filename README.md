@@ -3,7 +3,7 @@
 - 目前已囊括203个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及DeepSeek-R1、qwq-32b、deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、gemma3、mistral、书生internLM2.5等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
-- 支持多维度能力评测，包括分类能力、信息抽取、阅读理解、数据分析、指令遵从、算术运算、初中数学、符号推理BBH、代词理解CLUEWSC、诗词匹配CCPM、公务员考试、律师资格考试JEC-QA、高考、高中学科、初中学科、小学学科、常识推理、文本蕴含、成语理解、情感分析、演绎推理、C3中文阅读理解、医师考试之规培结业、医师考试之执业助理医师。
+- 支持多维度能力评测，包括医疗、教育、法律、行政公务、推理与数学计算、语言与指令遵从等6个领域，以及细分的200多个维度（比如牙科、高中语文…）。
 - 不仅提供能力评分排行榜，也提供所有模型的原始输出结果！有兴趣的朋友可以自己打分、自己排行！
 
 # 目录
@@ -32,7 +32,7 @@
     - [2.7 药师考试](#27-药师考试)
     - [2.8 医技考试](#28-医技考试)
     - [2.9 专业知识考试/基础医学](#29-专业知识考试基础医学)
-    - [2.10 专业知识考试/临床医学TODO](#210-专业知识考试临床医学TODO)
+    - [2.10 专业知识考试/临床医学](#210-专业知识考试临床医学)
     - [2.11 专业知识考试/预防医学与公共卫生学TODO](#211-专业知识考试/预防医学与公共卫生学TODO)
     - [2.12 专业知识考试/中医学与中药学TODO](#212-专业知识考试中医学与中药学TODO)
     - [2.13 医学考研TODO](#213-医学考研TODO)
@@ -70,6 +70,9 @@
 - [大模型选型及评测交流群](#大模型选型及评测交流群)
 
 # 最近更新
+- [2025/3/19] 发布v3.7版本评测榜单
+  - 新增“专业知识考试/临床医学”排行榜（含医学影像学、放射学等22个方向），并计入总分，详见[link](#210-专业知识考试临床医学)
+  - 高考排行榜新增政治学科，并增加大量考题，更新所有相关分数
 - [2025/3/17] 发布v3.6版本评测榜单
   - 新增“专业知识考试/基础医学”排行榜（含病理生理学、医学心理学等17个方向），并计入总分，详见[link](#29-专业知识考试基础医学)
   - 新增2个模型：谷歌gemma-3-27b-it、Mistral-Small-24B-Instruct-2501
@@ -177,9 +180,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2元|87.6| |                    89.7|93.1|79.7|                    81.6|91.5|90.2|
-|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.8|94.3|71.7|                    88.6|92.7|91.2|
-|3|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.9| |                    77.2|91.6|62.8|                    86.5|94.3|90.9|
+|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|87.4| |                    89.1|92.3|79.7|                    81.6|91.5|90.2|
+|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|86.8| |                    82.5|93.8|71.7|                    88.6|92.7|91.2|
+|3|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|83.8| |                    77.1|91.2|62.8|                    86.5|94.3|90.9|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -189,9 +192,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70元|79.6| |                    78.3|88.8|62.0|                    72.0|88.9|87.5|
-|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50元|79.5| |                    76.6|88.9|56.8|                    76.7|89.1|88.8|
-|3|ERNIE-4.0☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|90元|78.3| |                    68.0|87.8|61.0|                    76.0|88.2|89.0|
+|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|79.3| |                    77.6|87.7|62.0|                    72.0|88.9|87.5|
+|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50.0元|79.2| |                    76.2|87.7|56.8|                    76.7|89.1|88.8|
+|3|xunfei-spark-max☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|30.0元|78.1| |                    78.0|89.2|59.6|                    70.4|86.0|85.3|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -200,9 +203,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.8|94.3|71.7|                    88.6|92.7|91.2|
-|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|12元|84.4| |                    87.2|89.3|79.3|                    75.7|86.9|87.7|
-|3|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.9| |                    77.2|91.6|62.8|                    86.5|94.3|90.9|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|86.8| |                    82.5|93.8|71.7|                    88.6|92.7|91.2|
+|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|腾讯|12.0元|84.2| |                    86.7|89.0|79.3|                    75.7|86.9|87.7|
+|3|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|83.8| |                    77.1|91.2|62.8|                    86.5|94.3|90.9|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -211,9 +214,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2元|87.6| |                    89.7|93.1|79.7|                    81.6|91.5|90.2|
-|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2元|85.9| |                    86.8|94.7|71.5|                    78.3|92.8|91.3|
-|3|qwq-plus-2025-03-05(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|阿里巴巴|4元|83.6| |                    77.1|92.3|64.5|                    84.5|93.1|90.3|
+|1|hunyuan-turbos-20250226(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|87.4| |                    89.1|92.3|79.7|                    81.6|91.5|90.2|
+|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2.0元|85.6| |                    86.3|93.3|71.5|                    78.3|92.8|91.3|
+|3|qwq-plus-2025-03-05(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|阿里巴巴|4.0元|83.5| |                    77.0|91.7|64.5|                    84.5|93.1|90.3|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -222,9 +225,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|80.3| |                    82.7|90.9|59.0|                    70.7|91.7|86.5|
-|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|77.7| |                    68.2|84.7|47.4|                    85.1|93.9|86.9|
-|3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|google|0元|76.3| |                    73.2|87.8|43.6|                    73.7|92.0|87.5|
+|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|79.9| |                    82.2|89.6|59.0|                    70.7|91.7|86.5|
+|2|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|0.0元|77.6| |                    68.4|83.8|47.4|                    85.1|93.9|86.9|
+|3|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|0.0元|76.1| |                    73.4|86.6|43.6|                    73.7|92.0|87.5|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -241,9 +244,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|58.0| |                    50.1|67.6|28.9|                    51.3|72.2|77.7|
-|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|/元|48.5| |                    44.2|62.8|28.1|                    40.5|49.6|65.9|
-|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.1| |                    37.8|43.3|18.4|                    37.8|69.9|69.4|
+|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|57.9| |                    50.3|67.2|28.9|                    51.3|72.2|77.7|
+|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|48.5| |                    44.3|62.3|28.1|                    40.5|49.6|65.9|
+|3|Llama-3.2-3B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|0.18元|46.1| |                    38.0|42.9|18.4|                    37.8|69.9|69.4|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -252,9 +255,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|72.2| |                    63.9|83.7|42.3|                    68.0|89.8|85.6|
-|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|72.2| |                    68.8|85.0|42.6|                    67.0|82.6|86.9|
-|3|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|1元|69.3| |                    66.7|78.7|42.7|                    66.4|77.1|84.4|
+|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|72.2| |                    63.8|83.8|42.3|                    68.0|89.8|85.6|
+|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|72.0| |                    68.7|84.1|42.6|                    67.0|82.6|86.9|
+|3|internlm2_5-20b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|1.0元|69.1| |                    66.4|77.5|42.7|                    66.4|77.1|84.4|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -263,9 +266,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|法律|行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|------|------------|------------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16元|86.9| |                    82.8|94.3|71.7|                    88.6|92.7|91.2|
-|2|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6元|83.9| |                    77.2|91.6|62.8|                    86.5|94.3|90.9|
-|3|qwq-32b-preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|7元|77.2| |                    75.0|87.4|50.8|                    78.0|87.4|84.8|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|86.8| |                    82.5|93.8|71.7|                    88.6|92.7|91.2|
+|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|腾讯|12.0元|84.2| |                    86.7|89.0|79.3|                    75.7|86.9|87.7|
+|3|qwq-32b(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|83.8| |                    77.1|91.2|62.8|                    86.5|94.3|90.9|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -276,6 +279,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ## 2、医疗排行榜
+☛☛完整排行榜见[医疗](leaderboard/医疗.md)<br>
+
 ### 2.1 医师考试/规培结业
 医师考试之规培结业，均为选择题，含外科、皮肤科等18个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
 ☛☛完整排行榜见[医师考试/规培结业](leaderboard/CMB-医师考试-规培结业.md)<br>
@@ -796,67 +801,67 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 专业知识考试/基础医学，均为选择题，包含病理生理学、医学心理学等17个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
 ☛☛完整排行榜见[基础医学](leaderboard/CMB-专业知识考试-基础医学.md)<br>
 
-#### （1）CMB-专业知识考试-基础医学-病理生理学
+#### （1）病理生理学
 完整排行榜见[病理生理学](leaderboard/CMB-专业知识考试-基础医学-病理生理学.md)，☛查看[病理生理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-病理生理学)
 <br>
 
-#### （2）CMB-专业知识考试-基础医学-医学心理学
+#### （2）医学心理学
 完整排行榜见[医学心理学](leaderboard/CMB-专业知识考试-基础医学-医学心理学.md)，☛查看[医学心理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学心理学)
 <br>
 
-#### （3）CMB-专业知识考试-基础医学-生物化学与分子生物学
+#### （3）生物化学与分子生物学
 完整排行榜见[生物化学与分子生物学](leaderboard/CMB-专业知识考试-基础医学-生物化学与分子生物学.md)，☛查看[生物化学与分子生物学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-生物化学与分子生物学)
 <br>
 
-#### （4）CMB-专业知识考试-基础医学-细胞生物学
+#### （4）细胞生物学
 完整排行榜见[细胞生物学](leaderboard/CMB-专业知识考试-基础医学-细胞生物学.md)，☛查看[细胞生物学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-细胞生物学)
 <br>
 
-#### （5）CMB-专业知识考试-基础医学-医学免疫学
+#### （5）医学免疫学
 完整排行榜见[医学免疫学](leaderboard/CMB-专业知识考试-基础医学-医学免疫学.md)，☛查看[医学免疫学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学免疫学)
 <br>
 
-#### （6）CMB-专业知识考试-基础医学-病理学
+#### （6）病理学
 完整排行榜见[病理学](leaderboard/CMB-专业知识考试-基础医学-病理学.md)，☛查看[病理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-病理学)
 <br>
 
-#### （7）CMB-专业知识考试-基础医学-医学遗传学
+#### （7）医学遗传学
 完整排行榜见[医学遗传学](leaderboard/CMB-专业知识考试-基础医学-医学遗传学.md)，☛查看[医学遗传学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学遗传学)
 <br>
 
-#### （8）CMB-专业知识考试-基础医学-寄生虫学
+#### （8）寄生虫学
 完整排行榜见[寄生虫学](leaderboard/CMB-专业知识考试-基础医学-寄生虫学.md)，☛查看[寄生虫学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-寄生虫学)
 <br>
 
-#### （9）CMB-专业知识考试-基础医学-系统解剖学
+#### （9）系统解剖学
 完整排行榜见[系统解剖学](leaderboard/CMB-专业知识考试-基础医学-系统解剖学.md)，☛查看[系统解剖学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-系统解剖学)
 <br>
 
-#### （10）CMB-专业知识考试-基础医学-生物信息学
+#### （10）生物信息学
 完整排行榜见[生物信息学](leaderboard/CMB-专业知识考试-基础医学-生物信息学.md)，☛查看[生物信息学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-生物信息学)
 <br>
 
-#### （11）CMB-专业知识考试-基础医学-生理学
+#### （11）生理学
 完整排行榜见[生理学](leaderboard/CMB-专业知识考试-基础医学-生理学.md)，☛查看[生理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-生理学)
 <br>
 
-#### （12）CMB-专业知识考试-基础医学-药理学
+#### （12）药理学
 完整排行榜见[药理学](leaderboard/CMB-专业知识考试-基础医学-药理学.md)，☛查看[药理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-药理学)
 <br>
 
-#### （13）CMB-专业知识考试-基础医学-医学微生物学
+#### （13）医学微生物学
 完整排行榜见[医学微生物学](leaderboard/CMB-专业知识考试-基础医学-医学微生物学.md)，☛查看[医学微生物学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学微生物学)
 <br>
 
-#### （14）CMB-专业知识考试-基础医学-局部解剖学
+#### （14）局部解剖学
 完整排行榜见[局部解剖学](leaderboard/CMB-专业知识考试-基础医学-局部解剖学.md)，☛查看[局部解剖学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-局部解剖学)
 <br>
 
-#### （15）CMB-专业知识考试-基础医学-组织学与胚胎学
+#### （15）组织学与胚胎学
 完整排行榜见[组织学与胚胎学](leaderboard/CMB-专业知识考试-基础医学-组织学与胚胎学.md)，☛查看[组织学与胚胎学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-组织学与胚胎学)
 <br>
 
-#### （16）CMB-专业知识考试-基础医学-人体寄生虫学
+#### （16）人体寄生虫学
 完整排行榜见[人体寄生虫学](leaderboard/CMB-专业知识考试-基础医学-人体寄生虫学.md)，☛查看[人体寄生虫学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-人体寄生虫学)
 <br>
 
@@ -865,8 +870,98 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 <br><br><br>
 
 
-### 2.10 专业知识考试/临床医学TODO
+### 2.10 专业知识考试/临床医学
+专业知识考试/临床医学，均为选择题，包含医学影像学、放射学等22个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
+☛☛完整排行榜见[临床医学](leaderboard/CMB-专业知识考试-临床医学.md)<br>
+
+#### （1）医学影像学
+完整排行榜见[医学影像学](leaderboard/CMB-专业知识考试-临床医学-医学影像学.md)，☛查看[医学影像学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-医学影像学)
+<br>
+
+#### （2）放射学
+完整排行榜见[放射学](leaderboard/CMB-专业知识考试-临床医学-放射学.md)，☛查看[放射学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-放射学)
+<br>
+
+#### （3）实验诊断学
+完整排行榜见[实验诊断学](leaderboard/CMB-专业知识考试-临床医学-实验诊断学.md)，☛查看[实验诊断学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-实验诊断学)
+<br>
+
+#### （4）神经病学
+完整排行榜见[神经病学](leaderboard/CMB-专业知识考试-临床医学-神经病学.md)，☛查看[神经病学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-神经病学)
+<br>
+
+#### （5）外科学
+完整排行榜见[外科学](leaderboard/CMB-专业知识考试-临床医学-外科学.md)，☛查看[外科学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-外科学)
+<br>
+
+#### （6）皮肤性病学
+完整排行榜见[皮肤性病学](leaderboard/CMB-专业知识考试-临床医学-皮肤性病学.md)，☛查看[皮肤性病学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-皮肤性病学)
+<br>
+
+#### （7）儿科学
+完整排行榜见[儿科学](leaderboard/CMB-专业知识考试-临床医学-儿科学.md)，☛查看[儿科学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-儿科学)
+<br>
+
+#### （8）核医学
+完整排行榜见[核医学](leaderboard/CMB-专业知识考试-临床医学-核医学.md)，☛查看[核医学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-核医学)
+<br>
+
+#### （9）物理诊断学
+完整排行榜见[物理诊断学](leaderboard/CMB-专业知识考试-临床医学-物理诊断学.md)，☛查看[物理诊断学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-物理诊断学)
+<br>
+
+#### （10）牙体牙髓病学
+完整排行榜见[牙体牙髓病学](leaderboard/CMB-专业知识考试-临床医学-牙体牙髓病学.md)，☛查看[牙体牙髓病学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-牙体牙髓病学)
+<br>
+
+#### （11）护理学基础
+完整排行榜见[护理学基础](leaderboard/CMB-专业知识考试-临床医学-护理学基础.md)，☛查看[护理学基础badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-护理学基础)
+<br>
+
+#### （12）诊断学
+完整排行榜见[诊断学](leaderboard/CMB-专业知识考试-临床医学-诊断学.md)，☛查看[诊断学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-诊断学)
+<br>
+
+#### （13）超声医学
+完整排行榜见[超声医学](leaderboard/CMB-专业知识考试-临床医学-超声医学.md)，☛查看[超声医学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-超声医学)
+<br>
+
+#### （14）口腔护理学
+完整排行榜见[口腔护理学](leaderboard/CMB-专业知识考试-临床医学-口腔护理学.md)，☛查看[口腔护理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-口腔护理学)
+<br>
+
+#### （15）循证医学
+完整排行榜见[循证医学](leaderboard/CMB-专业知识考试-临床医学-循证医学.md)，☛查看[循证医学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-循证医学)
+<br>
+
+#### （16）基础护理学
+完整排行榜见[基础护理学](leaderboard/CMB-专业知识考试-临床医学-基础护理学.md)，☛查看[基础护理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-基础护理学)
+<br>
+
+#### （17）流行病学
+完整排行榜见[流行病学](leaderboard/CMB-专业知识考试-临床医学-流行病学.md)，☛查看[流行病学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-流行病学)
+<br>
+
+#### （18）口腔组织病理学
+完整排行榜见[口腔组织病理学](leaderboard/CMB-专业知识考试-临床医学-口腔组织病理学.md)，☛查看[口腔组织病理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-口腔组织病理学)
+<br>
+
+#### （19）传染病学
+完整排行榜见[传染病学](leaderboard/CMB-专业知识考试-临床医学-传染病学.md)，☛查看[传染病学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-传染病学)
+<br>
+
+#### （20）口腔解剖生理学
+完整排行榜见[口腔解剖生理学](leaderboard/CMB-专业知识考试-临床医学-口腔解剖生理学.md)，☛查看[口腔解剖生理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-口腔解剖生理学)
+<br>
+
+#### （21）麻醉学
+完整排行榜见[麻醉学](leaderboard/CMB-专业知识考试-临床医学-麻醉学.md)，☛查看[麻醉学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-麻醉学)
+<br>
+
+#### （22）介入放射学
+完整排行榜见[介入放射学](leaderboard/CMB-专业知识考试-临床医学-介入放射学.md)，☛查看[介入放射学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-介入放射学)
 <br><br><br>
+
 
 ### 2.11 专业知识考试/预防医学与公共卫生学TODO
 <br><br><br>
@@ -879,6 +974,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
     
 ## 3、教育排行榜
+☛☛完整排行榜见[教育](leaderboard/教育.md)<br>
+
 ### 3.1 高考
 历年高考题，共1500多道，绝大部分为选择题，少部分为填空题，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。<br>
 ☛☛完整排行榜见[高考](leaderboard/高考.md)<br>
@@ -1283,6 +1380,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ## 4、法律排行榜
+☛☛完整排行榜见[法律](leaderboard/法律.md)<br>
+
 ### 4.1 律师资格考试
 律师资格考试选择题，共2000道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。
 评测样本举例：
@@ -1300,6 +1399,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ## 5、行政公务排行榜
+☛☛完整排行榜见[行政公务](leaderboard/行政公务.md)<br>
+
 ### 5.1 公务员考试
 公务员考试行测选择题，共651道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。
 评测样本举例：
@@ -1321,6 +1422,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ## 7、推理与数学计算排行榜
+☛☛完整排行榜见[推理与数学计算](leaderboard/推理与数学计算.md)<br>
+
 ### 7.1 演绎推理
 演绎推理（modus_tollens）选择题，共123道，参考[ISP](https://arxiv.org/abs/2306.09479)。
 
@@ -1423,6 +1526,8 @@ Antonio,36,男,西班牙,182,75,博士
 
 
 ## 8、语言与指令遵从排行榜
+☛☛完整排行榜见[语言与指令遵从](leaderboard/语言与指令遵从.md)<br>
+
 ### 8.1 成语理解
 给定上下文，选择最匹配的成语。
 

@@ -7,7 +7,7 @@
 |商用|xunfei-spark-max|83.3|4|
 |商用|kimi-latest-8k|83.3|5|
 |开源|Meta-Llama-3.1-405B-Instruct|81.7|6|
-|商用|hunyuan-large|81.7|7|
+|开源|hunyuan-large|81.7|7|
 |商用|xunfei-spark-pro|81.7|8|
 |商用|qwen-plus|80.0|9|
 |商用|SenseChat-5-beta|80.0|10|

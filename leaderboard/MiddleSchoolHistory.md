@@ -11,7 +11,7 @@
 |商用|ERNIE-4.0-Turbo-8K|100.0|8|
 |商用|ERNIE-3.5-8K|100.0|9|
 |商用|abab7-chat-preview|100.0|10|
-|商用|hunyuan-large|100.0|11|
+|开源|hunyuan-large|100.0|11|
 |商用|GLM-4-Plus|100.0|12|
 |开源|deepseek-chat-v3|100.0|13|
 |商用|hunyuan-turbo|100.0|14|

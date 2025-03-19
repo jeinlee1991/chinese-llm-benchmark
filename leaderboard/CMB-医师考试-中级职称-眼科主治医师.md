@@ -6,7 +6,7 @@
 |商用|hunyuan-turbo|93.0|3|
 |商用|Doubao-1.5-pro-32k-250115|91.0|4|
 |商用|qwen2.5-max|86.0|5|
-|商用|hunyuan-large|83.0|6|
+|开源|hunyuan-large|83.0|6|
 |商用|Doubao-1.5-lite-32k-250115|82.0|7|
 |商用|hunyuan-standard|80.0|8|
 |开源|Meta-Llama-3.1-405B-Instruct|79.0|9|

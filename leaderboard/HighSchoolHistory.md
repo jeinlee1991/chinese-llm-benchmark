@@ -9,7 +9,7 @@
 |商用|ERNIE-3.5-8K|89.3|6|
 |商用|yi-lightning|89.3|7|
 |商用|hunyuan-turbo|89.3|8|
-|商用|hunyuan-large|89.3|9|
+|开源|hunyuan-large|89.3|9|
 |商用|360gpt-pro|89.3|10|
 |商用|qwen2.5-max|89.3|11|
 |商用|360gpt2-pro|89.3|12|

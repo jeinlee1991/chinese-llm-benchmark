@@ -18,7 +18,7 @@
 |商用|360gpt-turbo|81.2|15|
 |商用|Claude-3.5-Sonnet|81.2|16|
 |商用|gemini-2.0-pro-exp-02-05|81.2|17|
-|商用|hunyuan-large|81.2|18|
+|开源|hunyuan-large|81.2|18|
 |商用|xunfei-spark-pro|81.2|19|
 |商用|MiniMax-Text-01|81.2|20|
 |开源|qwen2.5-14b-instruct|81.2|21|

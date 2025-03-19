@@ -6,7 +6,7 @@
 |商用|Doubao-1.5-pro-32k-250115|89.0|3|
 |商用|xunfei-4.0Ultra|88.0|4|
 |商用|xunfei-spark-max|85.0|5|
-|商用|hunyuan-large|84.0|6|
+|开源|hunyuan-large|84.0|6|
 |开源|qwq-32b(new)|78.0|7|
 |商用|xunfei-spark-pro|78.0|8|
 |开源|Meta-Llama-3.1-405B-Instruct|77.0|9|

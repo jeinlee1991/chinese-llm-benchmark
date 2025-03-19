@@ -10,7 +10,7 @@
 |商用|xunfei-spark-pro|84.6|7|
 |商用|ERNIE-4.0|84.6|8|
 |商用|qwen-turbo|84.6|9|
-|商用|hunyuan-large|84.6|10|
+|开源|hunyuan-large|84.6|10|
 |商用|hunyuan-standard|84.6|11|
 |商用|yi-lightning|84.6|12|
 |开源|internlm2_5-20b-chat|84.6|13|

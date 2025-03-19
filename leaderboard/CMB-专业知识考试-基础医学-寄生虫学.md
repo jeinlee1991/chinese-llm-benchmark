@@ -8,7 +8,7 @@
 |商用|gemini-2.0-pro-exp-02-05|70.5|5|
 |商用|qwen2.5-max|70.5|6|
 |商用|Doubao-1.5-lite-32k-250115|70.5|7|
-|商用|hunyuan-large|69.0|8|
+|开源|hunyuan-large|69.0|8|
 |商用|qwq-plus-2025-03-05(new)|68.5|9|
 |商用|qwen-long|67.5|10|
 |商用|360gpt2-pro|67.0|11|

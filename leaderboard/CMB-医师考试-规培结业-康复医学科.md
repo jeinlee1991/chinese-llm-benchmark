@@ -8,7 +8,7 @@
 |商用|Doubao-1.5-pro-32k-250115|92.0|5|
 |商用|chatgpt-4o-latest|92.0|6|
 |商用|xunfei-4.0Ultra|90.0|7|
-|商用|hunyuan-large|89.0|8|
+|开源|hunyuan-large|89.0|8|
 |商用|hunyuan-standard|88.0|9|
 |开源|DeepSeek-R1|88.0|10|
 |商用|gemini-2.0-pro-exp-02-05|87.0|11|

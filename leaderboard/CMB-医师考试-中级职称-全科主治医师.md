@@ -3,7 +3,7 @@
 |-----|------------------------------|---------|----|
 |商用|hunyuan-turbos-20250226(new)|91.0|1|
 |商用|hunyuan-turbo|89.0|2|
-|商用|hunyuan-large|85.0|3|
+|开源|hunyuan-large|85.0|3|
 |商用|ERNIE-4.0|82.0|4|
 |商用|xunfei-4.0Ultra|80.0|5|
 |开源|qwq-32b-preview|80.0|6|

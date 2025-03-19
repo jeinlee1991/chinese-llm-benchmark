@@ -9,7 +9,7 @@
 |商用|Claude-3.5-Sonnet|90.0|6|
 |商用|qwen2.5-max|89.0|7|
 |开源|Meta-Llama-3.1-405B-Instruct|88.0|8|
-|商用|hunyuan-large|88.0|9|
+|开源|hunyuan-large|88.0|9|
 |商用|xunfei-spark-pro|87.0|10|
 |开源|DeepSeek-R1|87.0|11|
 |商用|xunfei-spark-max|87.0|12|

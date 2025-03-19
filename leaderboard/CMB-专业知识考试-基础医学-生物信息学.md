@@ -8,7 +8,7 @@
 |商用|qwq-plus-2025-03-05(new)|75.1|5|
 |商用|hunyuan-turbos-20250226(new)|75.1|6|
 |商用|Doubao-1.5-pro-32k-250115|74.6|7|
-|商用|hunyuan-large|74.1|8|
+|开源|hunyuan-large|74.1|8|
 |开源|qwq-32b-preview|73.5|9|
 |商用|360gpt-pro|73.5|10|
 |商用|yi-lightning|73.0|11|

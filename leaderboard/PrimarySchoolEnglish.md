@@ -17,7 +17,7 @@
 |开源|qwen2.5-72b-instruct|100.0|14|
 |商用|yi-lightning|100.0|15|
 |商用|hunyuan-turbo|100.0|16|
-|商用|hunyuan-large|100.0|17|
+|开源|hunyuan-large|100.0|17|
 |开源|qwen2.5-32b-instruct|100.0|18|
 |开源|qwen2.5-3b-instruct|100.0|19|
 |商用|SenseChat-5-beta|100.0|20|

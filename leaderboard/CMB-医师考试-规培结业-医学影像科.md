@@ -5,7 +5,7 @@
 |商用|Doubao-1.5-pro-32k-250115|87.0|2|
 |商用|hunyuan-turbos-20250226(new)|84.7|3|
 |商用|hunyuan-turbo|84.0|4|
-|商用|hunyuan-large|84.0|5|
+|开源|hunyuan-large|84.0|5|
 |商用|xunfei-spark-max|84.0|6|
 |开源|DeepSeek-R1|84.0|7|
 |商用|ERNIE-4.0|83.3|8|

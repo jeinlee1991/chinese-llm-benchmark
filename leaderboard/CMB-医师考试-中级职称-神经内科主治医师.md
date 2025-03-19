@@ -7,7 +7,7 @@
 |商用|Doubao-1.5-pro-32k-250115|91.2|4|
 |商用|GLM-4-Plus|91.2|5|
 |商用|Doubao-1.5-lite-32k-250115|91.2|6|
-|商用|hunyuan-large|90.1|7|
+|开源|hunyuan-large|90.1|7|
 |开源|Meta-Llama-3.1-405B-Instruct|90.1|8|
 |商用|qwen-plus|89.0|9|
 |商用|qwen-long|89.0|10|

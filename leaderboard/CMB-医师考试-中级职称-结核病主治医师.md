@@ -4,7 +4,7 @@
 |商用|ERNIE-4.0|100.0|1|
 |开源|DeepSeek-R1|100.0|2|
 |商用|hunyuan-turbos-20250226(new)|100.0|3|
-|商用|hunyuan-large|96.8|4|
+|开源|hunyuan-large|96.8|4|
 |开源|Meta-Llama-3.1-405B-Instruct|96.8|5|
 |商用|Doubao-1.5-pro-32k-250115|96.8|6|
 |商用|Doubao-1.5-lite-32k-250115|96.8|7|

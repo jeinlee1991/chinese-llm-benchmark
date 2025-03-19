@@ -9,7 +9,7 @@
 |商用|chatgpt-4o-latest|86.0|6|
 |商用|abab7-chat-preview|86.0|7|
 |商用|xunfei-spark-max|86.0|8|
-|商用|hunyuan-large|86.0|9|
+|开源|hunyuan-large|86.0|9|
 |商用|Doubao-1.5-pro-32k-250115|86.0|10|
 |开源|DeepSeek-R1|84.0|11|
 |商用|kimi-latest-8k|84.0|12|

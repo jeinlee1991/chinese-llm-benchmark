@@ -2,7 +2,7 @@
 | 类别 | 大模型                         | MiddleSchoolEnglish | 排名 |
 |-----|------------------------------|---------|----|
 |商用|xunfei-spark-pro|100.0|1|
-|商用|hunyuan-large|100.0|2|
+|开源|hunyuan-large|100.0|2|
 |商用|xunfei-4.0Ultra|100.0|3|
 |商用|xunfei-spark-max|100.0|4|
 |商用|moonshot-v1-8k|95.0|5|

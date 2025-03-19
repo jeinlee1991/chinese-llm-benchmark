@@ -20,7 +20,7 @@
 |商用|MiniMax-Text-01|93.8|17|
 |商用|qwen-long|93.8|18|
 |商用|GLM-4-Flash|93.8|19|
-|商用|hunyuan-large|90.6|20|
+|开源|hunyuan-large|90.6|20|
 |商用|ERNIE-4.0-Turbo-8K|90.6|21|
 |商用|360gpt2-pro|90.6|22|
 |开源|qwen2.5-72b-instruct|90.6|23|

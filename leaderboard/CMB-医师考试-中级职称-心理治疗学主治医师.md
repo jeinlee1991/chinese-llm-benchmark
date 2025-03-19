@@ -5,7 +5,7 @@
 |商用|hunyuan-turbo|88.0|2|
 |商用|Doubao-1.5-pro-32k-250115|86.0|3|
 |开源|DeepSeek-R1|85.7|4|
-|商用|hunyuan-large|80.0|5|
+|开源|hunyuan-large|80.0|5|
 |商用|Doubao-1.5-lite-32k-250115|75.0|6|
 |商用|gemini-2.0-pro-exp-02-05|73.0|7|
 |商用|GLM-4-Flash|72.7|8|

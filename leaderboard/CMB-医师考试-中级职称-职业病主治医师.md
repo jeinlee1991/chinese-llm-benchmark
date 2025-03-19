@@ -5,7 +5,7 @@
 |商用|hunyuan-turbo|93.8|2|
 |开源|DeepSeek-R1|91.7|3|
 |商用|Doubao-1.5-pro-32k-250115|87.5|4|
-|商用|hunyuan-large|84.4|5|
+|开源|hunyuan-large|84.4|5|
 |商用|gemini-2.0-pro-exp-02-05|81.2|6|
 |商用|qwq-plus-2025-03-05(new)|81.2|7|
 |商用|360gpt-pro|78.1|8|

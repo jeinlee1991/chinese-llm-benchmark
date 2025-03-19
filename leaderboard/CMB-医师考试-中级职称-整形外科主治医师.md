@@ -4,7 +4,7 @@
 |商用|hunyuan-turbo|89.0|1|
 |商用|hunyuan-turbos-20250226(new)|88.0|2|
 |开源|DeepSeek-R1|84.6|3|
-|商用|hunyuan-large|84.0|4|
+|开源|hunyuan-large|84.0|4|
 |开源|Meta-Llama-3.1-405B-Instruct|82.0|5|
 |商用|Doubao-1.5-pro-32k-250115|82.0|6|
 |商用|Baichuan4-Turbo|80.0|7|

@@ -7,7 +7,7 @@
 |商用|hunyuan-turbo|83.0|4|
 |商用|gemini-2.0-pro-exp-02-05|81.5|5|
 |商用|Doubao-1.5-lite-32k-250115|81.5|6|
-|商用|hunyuan-large|81.0|7|
+|开源|hunyuan-large|81.0|7|
 |商用|kimi-latest-8k|81.0|8|
 |商用|xunfei-spark-max|78.0|9|
 |商用|qwen-long|78.0|10|

@@ -9,7 +9,7 @@
 |商用|xunfei-4.0Ultra|90.0|6|
 |商用|xunfei-spark-max|88.5|7|
 |商用|xunfei-spark-pro|88.5|8|
-|商用|hunyuan-large|88.5|9|
+|开源|hunyuan-large|88.5|9|
 |商用|qwq-plus-2025-03-05(new)|86.5|10|
 |商用|hunyuan-standard|84.5|11|
 |商用|kimi-latest-8k|84.0|12|

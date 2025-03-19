@@ -27,7 +27,7 @@
 |商用|MiniMax-Text-01|81.2|24|
 |商用|GLM-Zero-Preview|81.2|25|
 |商用|gemini-2.0-flash-exp|81.2|26|
-|商用|hunyuan-large|81.2|27|
+|开源|hunyuan-large|81.2|27|
 |开源|qwen2.5-14b-instruct|81.2|28|
 |商用|abab7-chat-preview|81.2|29|
 |商用|GLM-4-AirX|81.2|30|

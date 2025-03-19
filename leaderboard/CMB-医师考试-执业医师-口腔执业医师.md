@@ -5,7 +5,7 @@
 |商用|Doubao-1.5-pro-32k-250115|92.0|2|
 |商用|Doubao-1.5-lite-32k-250115|92.0|3|
 |开源|DeepSeek-R1|90.0|4|
-|商用|hunyuan-large|89.0|5|
+|开源|hunyuan-large|89.0|5|
 |商用|hunyuan-turbo|89.0|6|
 |商用|GLM-4-Plus|85.0|7|
 |商用|kimi-latest-8k|83.0|8|

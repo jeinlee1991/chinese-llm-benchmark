@@ -43,7 +43,7 @@
 |开源|Llama-3.3-70B-Instruct-fp8|51.4|40|
 |商用|gpt-4o-mini-2024-07-18|51.4|41|
 |开源|Hermes-3-Llama-3.1-405B|48.6|42|
-|商用|hunyuan-large|48.6|43|
+|开源|hunyuan-large|48.6|43|
 |开源|DeepSeek-R1-Distill-Qwen-32B|48.6|44|
 |商用|o1-mini|48.6|45|
 |商用|SenseChat-5-1202|48.6|46|

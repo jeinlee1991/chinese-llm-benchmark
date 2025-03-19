@@ -6,7 +6,7 @@
 |开源|qwen2.5-72b-instruct|84.0|3|
 |商用|hunyuan-turbos-20250226(new)|84.0|4|
 |商用|hunyuan-turbo|84.0|5|
-|商用|hunyuan-large|82.5|6|
+|开源|hunyuan-large|82.5|6|
 |商用|Doubao-1.5-pro-32k-250115|82.0|7|
 |商用|ERNIE-4.0|80.0|8|
 |商用|qwq-plus-2025-03-05(new)|78.0|9|

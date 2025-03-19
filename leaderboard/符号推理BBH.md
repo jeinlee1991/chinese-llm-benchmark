@@ -20,7 +20,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|89.6|17|
 |商用|mistral-large|89.5|18|
 |商用|360gpt2-pro|89.2|19|
-|商用|hunyuan-large|88.9|20|
+|开源|hunyuan-large|88.9|20|
 |商用|hunyuan-turbos-20250226(new)|88.9|21|
 |商用|o1-mini|88.9|22|
 |商用|gemini-2.0-flash-001|88.6|23|
