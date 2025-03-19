@@ -977,7 +977,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[教育](leaderboard/教育.md)<br>
 
 ### 3.1 高考
-历年高考题，共1500多道，绝大部分为选择题，少部分为填空题，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。<br>
+历年高考题，共1500多道，绝大部分为选择题，少部分为填空题。<br>
 ☛☛完整排行榜见[高考](leaderboard/高考.md)<br>
 
 #### （1）高考生物
@@ -989,9 +989,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D)(4)(5)(6)都是人体细胞内的主要能源物质   
 >     
 
-完整排行榜见[高考生物](leaderboard/gaokao-biology.md)<br>
-☛查看[高考生物badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-biology)
-<br><br>
+完整排行榜见[高考生物](leaderboard/gaokao-biology.md)，☛查看[高考生物badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-biology)
+<br>
 
 #### （2）高考化学
 评测样本举例：
@@ -1002,9 +1001,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D)屠呦呦用乙醚从青蒿中提取出对治疗疘疾有特效的青高素, 该过程包括萃取操作    
 >    
 
-完整排行榜见[高考化学](leaderboard/gaokao-chemistry.md)<br>
-☛查看[高考化学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chemistry)
-<br><br>
+完整排行榜见[高考化学](leaderboard/gaokao-chemistry.md)，☛查看[高考化学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chemistry)
+<br>
 
 #### （3）高考语文
 评测样本举例：
@@ -1015,9 +1013,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D)面对经济全球化带来的机遇和挑战，正确的选择是，充分利用一切机遇，合作一切挑战，引导好经济全球化走向。  
 >   
 
-完整排行榜见[高考语文](leaderboard/gaokao-chinese.md)<br>
-☛查看[高考语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chinese)
-<br><br>
+完整排行榜见[高考语文](leaderboard/gaokao-chinese.md)，☛查看[高考语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chinese)
+<br>
 
 #### （4）高考地理
 评测样本举例：
@@ -1029,9 +1026,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D)③④   
 >    
 
-完整排行榜见[高考地理](leaderboard/gaokao-geography.md)<br>
-☛查看[高考地理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-geography)
-<br><br>
+完整排行榜见[高考地理](leaderboard/gaokao-geography.md)，☛查看[高考地理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-geography)
+<br>
 
 #### （5）高考历史
 评测样本举例：
@@ -1042,18 +1038,16 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D)希腊文明   
 >  
 
-完整排行榜见[高考历史](leaderboard/gaokao-history.md)<br>
-☛查看[高考历史badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-history)
-<br><br>
+完整排行榜见[高考历史](leaderboard/gaokao-history.md)，☛查看[高考历史badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-history)
+<br>
 
 #### （6）高考数学
 评测样本举例：
 > 已知 a ∈ R, (1+a*i)i=3+i, (i为虚数单位), 则 a=()  
 (A)-1 (B)1 (C)-3 (D)3    
 
-完整排行榜见[高考数学](leaderboard/gaokao-math.md)<br>
-☛查看[高考数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-math)
-<br><br>
+完整排行榜见[高考数学](leaderboard/gaokao-math.md)，☛查看[高考数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-math)
+<br>
 
 #### （7）高考物理
 评测样本举例：
@@ -1064,9 +1058,21 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D)原子弹是根据核聚变原理研制的，氢弹是根据核裂变原理研制的   
 >     
 
-完整排行榜见[高考物理](leaderboard/gaokao-physics.md)<br>
-☛查看[高考物理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-physics)
-<br><br><br>
+完整排行榜见[高考物理](leaderboard/gaokao-physics.md)，☛查看[高考物理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-physics)
+<br>
+
+#### （8）高考政治
+评测样本举例：
+>  2020年，电影《夺冠》以1981年到2019年期间中国女排十夺世界冠军为主线，通过艺术形式展现了中国女排祖国至上、团结协作、顽强拼搏、永不言败的精神面貌，给观众带来心灵的震撼和鼓舞，受到普遍好评．从中可获得的启示是（    ）   
+①人民群众满意与否是衡量文艺作品价值的根本尺度   
+②优秀的文艺作品都是对现实生活的真实再现   
+③塑造典型艺术形象是艺术创作的根本价值追求   
+④反映时代精神的文艺作品能够增强人的精神力量   
+（A）③④   （B）①②   （C）②③  （D）①④   
+>  
+
+完整排行榜见[高考政治](leaderboard/gaokao-politics.md)，☛查看[高考政治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-politics)
+<br><br>
 
 
 ### 3.2 高中学科
@@ -1081,9 +1087,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 都能调节生物体的生命活动   
 >    
 
-完整排行榜见[高中生物](leaderboard/HighSchoolBiology.md)<br>
-☛查看[高中生物badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolBiology)
-<br><br>
+完整排行榜见[高中生物](leaderboard/HighSchoolBiology.md)，☛查看[高中生物badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolBiology)
+<br>
 
 #### （2）高中化学
 评测样本举例：
@@ -1094,9 +1099,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 取100mL5mol/LHCl，加水稀释至500mL   
 >    
 
-完整排行榜见[高中化学](leaderboard/HighSchoolChemistry.md)<br>
-☛查看[高中化学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChemistry)
-<br><br>
+完整排行榜见[高中化学](leaderboard/HighSchoolChemistry.md)，☛查看[高中化学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChemistry)
+<br>
 
 #### （3）高中语文
 评测样本举例：
@@ -1107,9 +1111,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 无数案例告诉我们，防止电话诈骗，最有效的方法是对陌生电话的求救、告急多问几个为什么，这样就可避免落于言筌。   
 >     
 
-完整排行榜见[高中语文](leaderboard/HighSchoolChinese.md)<br>
-☛查看[高中语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChinese)
-<br><br>
+完整排行榜见[高中语文](leaderboard/HighSchoolChinese.md)，☛查看[高中语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChinese)
+<br>
 
 #### （4）高中英语
 评测样本举例：
@@ -1120,9 +1123,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) figure out   
 >  
 
-完整排行榜见[高中英语](leaderboard/HighSchoolEnglish.md)<br>
-☛查看[高中英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolEnglish)
-<br><br>
+完整排行榜见[高中英语](leaderboard/HighSchoolEnglish.md)，☛查看[高中英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolEnglish)
+<br>
 
 #### （5）高中地理
 评测样本举例：
@@ -1133,9 +1135,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 酒泉该日太阳从东北方升起   
 >   
 
-完整排行榜见[高中地理](leaderboard/HighSchoolGeography.md)<br>
-☛查看[高中地理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolGeography)
-<br><br>
+完整排行榜见[高中地理](leaderboard/HighSchoolGeography.md)，☛查看[高中地理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolGeography)
+<br>
 
 #### （6）高中历史
 评测样本举例：
@@ -1146,9 +1147,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 非公有制经济是社会主义市场经济的重要组成部分   
 >  
 
-完整排行榜见[高中历史](leaderboard/HighSchoolHistory.md)<br>
-☛查看[高中历史badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolHistory)
-<br><br>
+完整排行榜见[高中历史](leaderboard/HighSchoolHistory.md)，☛查看[高中历史badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolHistory)
+<br>
 
 #### （7）高中数学
 评测样本举例：
@@ -1159,9 +1159,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) exists x,sqrt(x^2)=x;   
 >   
 
-完整排行榜见[高中数学](leaderboard/HighSchoolMathematics.md)<br>
-☛查看[高中数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolMathematics)
-<br><br>
+完整排行榜见[高中数学](leaderboard/HighSchoolMathematics.md)，☛查看[高中数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolMathematics)
+<br>
 
 #### （8）高中物理
 评测样本举例：
@@ -1172,9 +1171,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 轨道平面必须处于赤道平面内   
 >  
 
-完整排行榜见[高中物理](leaderboard/HighSchoolPhysics.md)<br>
-☛查看[高中物理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPhysics)
-<br><br>
+完整排行榜见[高中物理](leaderboard/HighSchoolPhysics.md)，☛查看[高中物理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPhysics)
+<br>
 
 #### （9）高中政治
 评测样本举例：
@@ -1185,9 +1183,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 国家引导非公有制经济健康发展   
 >   
 
-完整排行榜见[高中政治](leaderboard/HighSchoolPolitics.md)<br>
-☛查看[高中政治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPolitics)
-<br><br><br>
+完整排行榜见[高中政治](leaderboard/HighSchoolPolitics.md)，☛查看[高中政治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPolitics)
+<br><br>
 
 
 ### 3.3 初中学科
@@ -1202,9 +1199,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 吃饭时不要边吃边说笑   
 >   
 
-完整排行榜见[初中生物](leaderboard/MiddleSchoolBiology.md)<br>
-☛查看[初中生物badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolBiology)
-<br><br>
+完整排行榜见[初中生物](leaderboard/MiddleSchoolBiology.md)，☛查看[初中生物badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolBiology)
+<br>
 
 #### （2）初中化学
 评测样本举例：
@@ -1215,9 +1211,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 水蒸气   
 >   
 
-完整排行榜见[初中化学](leaderboard/MiddleSchoolChemistry.md)<br>
-☛查看[初中化学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChemistry)
-<br><br>
+完整排行榜见[初中化学](leaderboard/MiddleSchoolChemistry.md)，☛查看[初中化学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChemistry)
+<br>
 
 #### （3）初中语文
 评测样本举例：
@@ -1228,9 +1223,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 《使至塞上》用一“直”一“圆”展现了边塞的壮阔；《汉江临泛》用一“浮”一“动”渲染了水势的磅礴。    
 >    
 
-完整排行榜见[初中语文](leaderboard/MiddleSchoolChinese.md)<br>
-☛查看[初中语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChinese)
-<br><br>
+完整排行榜见[初中语文](leaderboard/MiddleSchoolChinese.md)，☛查看[初中语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChinese)
+<br>
 
 #### （4）初中英语
 评测样本举例：
@@ -1241,9 +1235,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) shorter   
 >    
 
-完整排行榜见[初中英语](leaderboard/MiddleSchoolEnglish.md)<br>
-☛查看[初中英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolEnglish)
-<br><br>
+完整排行榜见[初中英语](leaderboard/MiddleSchoolEnglish.md)，☛查看[初中英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolEnglish)
+<br>
 
 #### （5）初中地理
 评测样本举例：
@@ -1253,9 +1246,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (C) 提高了粮食产量，实现了粮食自给   
 (D) 促进了电脑软件的研发   
 >     
-完整排行榜见[初中地理](leaderboard/MiddleSchoolGeography.md)<br>
-☛查看[初中地理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolGeography)
-<br><br>
+完整排行榜见[初中地理](leaderboard/MiddleSchoolGeography.md)，☛查看[初中地理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolGeography)
+<br>
 
 #### （6）初中历史
 评测样本举例：
@@ -1266,9 +1258,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 重文轻武的政策   
 >
 
-完整排行榜见[初中历史](leaderboard/MiddleSchoolHistory.md)<br>
-☛查看[初中历史badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolHistory)
-<br><br>
+完整排行榜见[初中历史](leaderboard/MiddleSchoolHistory.md)，☛查看[初中历史badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolHistory)
+<br>
 
 #### （7）初中数学
 评测样本举例：
@@ -1279,9 +1270,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 如果一个数的倒数是它本身，那么这个数一定是1  
 >  
 
-完整排行榜见[初中数学](leaderboard/MiddleSchoolMathematics.md)<br>
-☛查看[初中数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolMathematics)
-<br><br>
+完整排行榜见[初中数学](leaderboard/MiddleSchoolMathematics.md)，☛查看[初中数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolMathematics)
+<br>
 
 #### （8）初中物理
 评测样本举例：
@@ -1292,9 +1282,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 3∶2   
 >  
 
-完整排行榜见[初中物理](leaderboard/MiddleSchoolPhysics.md)<br>
-☛查看[初中物理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPhysics)
-<br><br>
+完整排行榜见[初中物理](leaderboard/MiddleSchoolPhysics.md)，☛查看[初中物理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPhysics)
+<br>
 
 #### （9）初中政治
 评测样本举例：
@@ -1305,9 +1294,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 不卑不亢   
 >  
 
-完整排行榜见[初中政治](leaderboard/MiddleSchoolPolitics.md)<br>
-☛查看[初中政治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPolitics)
-<br><br><br>
+完整排行榜见[初中政治](leaderboard/MiddleSchoolPolitics.md)，☛查看[初中政治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPolitics)
+<br><br>
 
 
 ### 3.4 小学学科
@@ -1322,9 +1310,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) “奶奶您好，我坐您旁边，可以吗？”   
 >  
 
-完整排行榜见[小学语文](leaderboard/PrimarySchoolChinese.md)<br>
-☛查看[小学语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolChinese)
-<br><br>
+完整排行榜见[小学语文](leaderboard/PrimarySchoolChinese.md)，☛查看[小学语文badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolChinese)
+<br>
 
 #### （2）小学英语
 评测样本举例：
@@ -1335,9 +1322,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) I’m OK.  
 >
 
-完整排行榜见[小学英语](leaderboard/PrimarySchoolEnglish.md)<br>
-☛查看[小学英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEnglish)
-<br><br>
+完整排行榜见[小学英语](leaderboard/PrimarySchoolEnglish.md)，☛查看[小学英语badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEnglish)
+<br>
 
 #### （3）小学数学
 评测样本举例：
@@ -1348,9 +1334,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 13  
 >   
 
-完整排行榜见[小学数学](leaderboard/PrimarySchoolMathematics.md)<br>
-☛查看[小学数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolMathematics)
-<br><br>
+完整排行榜见[小学数学](leaderboard/PrimarySchoolMathematics.md)，☛查看[小学数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolMathematics)
+<br>
 
 #### （4）小学道德与法治
 评测样本举例：
@@ -1361,9 +1346,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 王梅认为不能和“不同”的同学打交道  
 >  
 
-完整排行榜见[小学道德与法治](leaderboard/PrimarySchoolEthics.md)<br>
-☛查看[小学道德与法治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEthics)
-<br><br>
+完整排行榜见[小学道德与法治](leaderboard/PrimarySchoolEthics.md)，☛查看[小学道德与法治badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEthics)
+<br>
 
 #### （5）小学科学
 评测样本举例：
@@ -1374,8 +1358,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 (D) 厨余垃圾   
 >  
 
-完整排行榜见[小学科学](leaderboard/PrimarySchoolScience.md)<br>
-☛查看[小学科学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolScience)
+完整排行榜见[小学科学](leaderboard/PrimarySchoolScience.md)，☛查看[小学科学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolScience)
 <br><br><br>
 
 
