@@ -39,7 +39,7 @@
 |商用|gemini-2.0-flash-exp|69.0|36|
 |商用|Baichuan4-Turbo|68.0|37|
 |开源|qwen2.5-14b-instruct|66.5|38|
-|商用|MiniMax-Text-01|66.5|39|
+|开源|MiniMax-Text-01|66.5|39|
 |商用|GLM-4-Air|66.5|40|
 |商用|GLM-4-AirX|66.0|41|
 |商用|gemini-1.5-pro|66.0|42|

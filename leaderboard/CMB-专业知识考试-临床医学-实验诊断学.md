@@ -29,7 +29,7 @@
 |商用|GLM-Zero-Preview|86.0|26|
 |商用|qwen-turbo|85.5|27|
 |开源|qwq-32b-preview|85.5|28|
-|商用|MiniMax-Text-01|85.5|29|
+|开源|MiniMax-Text-01|85.5|29|
 |商用|gemini-2.0-pro-exp-02-05|85.5|30|
 |商用|gemini-2.0-flash-thinking-exp-01-21|85.0|31|
 |商用|gemini-1.5-pro|85.0|32|

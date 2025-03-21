@@ -30,7 +30,7 @@
 |商用|360gpt-pro|80.0|27|
 |商用|gemini-2.0-flash-thinking-exp-01-21|80.0|28|
 |商用|qwen-turbo|80.0|29|
-|商用|MiniMax-Text-01|80.0|30|
+|开源|MiniMax-Text-01|80.0|30|
 |开源|DeepSeek-R1-Distill-Qwen-14B|80.0|31|
 |商用|xunfei-4.0Ultra|80.0|32|
 |开源|qwen2.5-32b-instruct|75.0|33|

@@ -45,7 +45,7 @@
 |开源|Llama-3.3-70B-Instruct|64.7|42|
 |商用|step-1-flash|64.7|43|
 |开源|gemma-3-27b-it(new)|62.5|44|
-|商用|MiniMax-Text-01|61.8|45|
+|开源|MiniMax-Text-01|61.8|45|
 |开源|qwen2.5-14b-instruct|61.8|46|
 |开源|Meta-Llama-3.1-405B-Instruct|61.8|47|
 |商用|chatgpt-4o-latest|61.8|48|

@@ -28,7 +28,7 @@
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|74.7|25|
 |商用|gemini-2.0-pro-exp-02-05|74.7|26|
 |商用|kimi-latest-8k|74.7|27|
-|商用|MiniMax-Text-01|74.7|28|
+|开源|MiniMax-Text-01|74.7|28|
 |开源|Llama-3.3-70B-Instruct|73.7|29|
 |开源|DeepSeek-R1-Distill-Llama-70B|73.7|30|
 |商用|SenseChat-5-1202|72.6|31|

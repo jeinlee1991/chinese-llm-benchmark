@@ -28,7 +28,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|57.0|25|
 |商用|chatgpt-4o-latest|57.0|26|
 |商用|gemini-2.0-flash-001|57.0|27|
-|商用|MiniMax-Text-01|57.0|28|
+|开源|MiniMax-Text-01|57.0|28|
 |商用|360zhinao2-o1|57.0|29|
 |商用|SenseChat-5-beta|57.0|30|
 |商用|360gpt-turbo|56.0|31|

@@ -28,7 +28,7 @@
 |开源|Llama-3.3-70B-Instruct-fp8|73.0|25|
 |开源|hunyuan-large|73.0|26|
 |开源|deepseek-chat-v3|73.0|27|
-|商用|MiniMax-Text-01|72.0|28|
+|开源|MiniMax-Text-01|72.0|28|
 |商用|GLM-4-Plus|72.0|29|
 |商用|gemini-1.5-pro|71.0|30|
 |商用|GLM-4-Long|71.0|31|

@@ -53,7 +53,7 @@
 |开源|DeepSeek-R1-Distill-Llama-70B|77.4|50|
 |商用|GLM-Zero-Preview|77.4|51|
 |商用|SenseChat-Turbo-1202|77.4|52|
-|商用|MiniMax-Text-01|77.4|53|
+|开源|MiniMax-Text-01|77.4|53|
 |商用|ERNIE-4.0-Turbo-8K|77.4|54|
 |商用|Baichuan4|77.4|55|
 |商用|Claude-3.5-Sonnet|75.0|56|

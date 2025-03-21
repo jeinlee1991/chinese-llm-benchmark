@@ -31,7 +31,7 @@
 |商用|qwen-turbo|75.0|28|
 |商用|gemini-2.0-pro-exp-02-05|74.5|29|
 |开源|DeepSeek-R1-Distill-Qwen-32B|74.0|30|
-|商用|MiniMax-Text-01|74.0|31|
+|开源|MiniMax-Text-01|74.0|31|
 |商用|SenseChat-5-1202|73.0|32|
 |开源|deepseek-chat-v3|73.0|33|
 |商用|abab7-chat-preview|71.5|34|

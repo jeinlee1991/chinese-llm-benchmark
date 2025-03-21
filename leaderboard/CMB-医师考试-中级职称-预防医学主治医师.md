@@ -45,7 +45,7 @@
 |商用|Baichuan4-Turbo|66.0|42|
 |商用|ERNIE-3.5-8K|66.0|43|
 |开源|qwen2.5-14b-instruct|65.0|44|
-|商用|MiniMax-Text-01|65.0|45|
+|开源|MiniMax-Text-01|65.0|45|
 |开源|DeepSeek-R1-Distill-Qwen-14B|65.0|46|
 |商用|Baichuan4|64.0|47|
 |商用|360gpt2-pro|64.0|48|

@@ -16,7 +16,7 @@
 |商用|hunyuan-turbo|77.4|13|
 |商用|yi-lightning|77.4|14|
 |商用|GLM-4-FlashX|77.4|15|
-|商用|MiniMax-Text-01|77.4|16|
+|开源|MiniMax-Text-01|77.4|16|
 |商用|qwen2.5-max|77.4|17|
 |开源|DeepSeek-R1|77.4|18|
 |商用|360gpt-turbo|77.4|19|

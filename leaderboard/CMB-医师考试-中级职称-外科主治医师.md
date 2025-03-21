@@ -30,7 +30,7 @@
 |商用|yi-lightning|64.0|27|
 |开源|qwen2.5-32b-instruct|64.0|28|
 |开源|qwen2.5-72b-instruct|63.0|29|
-|商用|MiniMax-Text-01|62.0|30|
+|开源|MiniMax-Text-01|62.0|30|
 |商用|kimi-latest-8k|62.0|31|
 |商用|gemini-2.0-flash-thinking-exp-01-21|61.0|32|
 |商用|ERNIE-3.5-8K|61.0|33|

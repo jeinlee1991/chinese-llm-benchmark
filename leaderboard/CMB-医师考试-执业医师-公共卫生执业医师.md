@@ -24,7 +24,7 @@
 |商用|qwen-turbo|78.5|21|
 |开源|deepseek-chat-v3|78.0|22|
 |商用|GLM-4-Plus|78.0|23|
-|商用|MiniMax-Text-01|78.0|24|
+|开源|MiniMax-Text-01|78.0|24|
 |商用|xunfei-spark-max|77.5|25|
 |商用|Baichuan4-Turbo|77.0|26|
 |商用|SenseChat-5-beta|77.0|27|

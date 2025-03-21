@@ -31,7 +31,7 @@
 |商用|360gpt2-o1|69.0|28|
 |商用|SenseChat-5-beta|69.0|29|
 |商用|gemini-2.0-flash-001|69.0|30|
-|商用|MiniMax-Text-01|68.5|31|
+|开源|MiniMax-Text-01|68.5|31|
 |商用|abab7-chat-preview|68.5|32|
 |开源|Meta-Llama-3.1-405B-Instruct|68.5|33|
 |开源|qwq-32b-preview|68.5|34|

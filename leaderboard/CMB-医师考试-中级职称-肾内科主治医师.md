@@ -29,7 +29,7 @@
 |商用|qwen2.5-max|75.0|26|
 |商用|GLM-4-AirX|73.3|27|
 |商用|chatgpt-4o-latest|73.3|28|
-|商用|MiniMax-Text-01|73.3|29|
+|开源|MiniMax-Text-01|73.3|29|
 |商用|ERNIE-4.0-Turbo-8K|73.3|30|
 |开源|qwq-32b(new)|71.7|31|
 |商用|gemini-2.0-flash-001|71.7|32|

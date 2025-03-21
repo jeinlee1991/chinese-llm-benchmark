@@ -27,7 +27,7 @@
 |商用|kimi-latest-8k|74.0|24|
 |商用|Baichuan4-Turbo|74.0|25|
 |商用|360gpt2-o1|74.0|26|
-|商用|MiniMax-Text-01|73.0|27|
+|开源|MiniMax-Text-01|73.0|27|
 |商用|360gpt2-pro|73.0|28|
 |商用|360gpt-pro|73.0|29|
 |商用|gemini-2.0-flash-001|73.0|30|

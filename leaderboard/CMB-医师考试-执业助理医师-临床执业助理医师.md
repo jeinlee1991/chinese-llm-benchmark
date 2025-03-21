@@ -31,7 +31,7 @@
 |商用|SenseChat-5-beta|74.0|28|
 |商用|gemini-2.0-pro-exp-02-05|74.0|29|
 |商用|ERNIE-4.0|74.0|30|
-|商用|MiniMax-Text-01|73.5|31|
+|开源|MiniMax-Text-01|73.5|31|
 |商用|GLM-4-AirX|73.0|32|
 |商用|Baichuan4-Turbo|72.5|33|
 |商用|ERNIE-3.5-8K|72.5|34|

@@ -40,7 +40,7 @@
 |开源|qwen2.5-7b-instruct|90.6|37|
 |商用|yi-lightning|90.6|38|
 |商用|mistral-small|90.6|39|
-|商用|MiniMax-Text-01|90.5|40|
+|开源|MiniMax-Text-01|90.5|40|
 |商用|gemini-2.0-pro-exp-02-05|90.5|41|
 |商用|Baichuan4|90.0|42|
 |商用|qwen2.5-max|90.0|43|

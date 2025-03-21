@@ -9,7 +9,7 @@
 |商用|qwen2.5-max|95.0|6|
 |商用|ERNIE-4.0|90.0|7|
 |商用|hunyuan-standard|90.0|8|
-|商用|MiniMax-Text-01|90.0|9|
+|开源|MiniMax-Text-01|90.0|9|
 |商用|Doubao-1.5-lite-32k-250115|90.0|10|
 |开源|deepseek-chat-v3|85.0|11|
 |开源|qwen2.5-72b-instruct|85.0|12|

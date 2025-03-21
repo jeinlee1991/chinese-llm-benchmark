@@ -42,7 +42,7 @@
 |开源|qwq-32b-preview|95.0|39|
 |开源|qwen2.5-14b-instruct|90.0|40|
 |开源|Yi-1.5-34B-Chat|90.0|41|
-|商用|MiniMax-Text-01|90.0|42|
+|开源|MiniMax-Text-01|90.0|42|
 |商用|ERNIE-Lite-Pro-128K|90.0|43|
 |商用|chatgpt-4o-latest|90.0|44|
 |开源|glm-4-9b-chat|90.0|45|

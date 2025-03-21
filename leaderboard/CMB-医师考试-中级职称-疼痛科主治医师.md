@@ -32,7 +32,7 @@
 |商用|360gpt-pro|66.0|29|
 |商用|GLM-4-Flash|65.7|30|
 |商用|Baichuan4-Turbo|65.0|31|
-|商用|MiniMax-Text-01|65.0|32|
+|开源|MiniMax-Text-01|65.0|32|
 |商用|qwen-turbo|64.0|33|
 |商用|ERNIE-4.0|64.0|34|
 |开源|DeepSeek-R1-Distill-Qwen-32B|64.0|35|

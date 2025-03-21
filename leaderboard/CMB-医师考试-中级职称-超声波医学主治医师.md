@@ -9,7 +9,7 @@
 |商用|Doubao-1.5-pro-32k-250115|82.0|6|
 |商用|GLM-4-Plus|80.0|7|
 |商用|hunyuan-standard|79.0|8|
-|商用|MiniMax-Text-01|76.0|9|
+|开源|MiniMax-Text-01|76.0|9|
 |商用|qwen2.5-max|76.0|10|
 |开源|qwq-32b-preview|74.0|11|
 |开源|Meta-Llama-3.1-405B-Instruct|74.0|12|

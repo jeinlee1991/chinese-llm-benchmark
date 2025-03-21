@@ -33,7 +33,7 @@
 |商用|360gpt-turbo|95.7|30|
 |商用|step-1-8k|95.7|31|
 |商用|SenseChat-Turbo-1202|95.7|32|
-|商用|MiniMax-Text-01|95.7|33|
+|开源|MiniMax-Text-01|95.7|33|
 |商用|Baichuan4-Turbo|95.7|34|
 |商用|qwen-turbo|95.7|35|
 |开源|qwq-32b(new)|95.7|36|

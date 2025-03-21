@@ -30,7 +30,7 @@
 |商用|qwen-turbo|66.5|27|
 |开源|qwq-32b-preview|66.5|28|
 |商用|Baichuan4-Turbo|65.0|29|
-|商用|MiniMax-Text-01|64.0|30|
+|开源|MiniMax-Text-01|64.0|30|
 |开源|qwen2.5-32b-instruct|64.0|31|
 |开源|Llama-3.3-70B-Instruct-fp8|63.0|32|
 |商用|SenseChat-5-1202|61.0|33|

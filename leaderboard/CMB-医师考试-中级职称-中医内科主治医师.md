@@ -16,7 +16,7 @@
 |商用|360gpt2-pro|74.0|13|
 |商用|gemini-2.0-pro-exp-02-05|73.0|14|
 |商用|qwen2.5-max|73.0|15|
-|商用|MiniMax-Text-01|72.0|16|
+|开源|MiniMax-Text-01|72.0|16|
 |商用|GLM-4-Plus|72.0|17|
 |商用|Baichuan4-Turbo|71.0|18|
 |开源|qwq-32b-preview|71.0|19|

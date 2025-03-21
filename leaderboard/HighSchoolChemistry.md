@@ -36,7 +36,7 @@
 |开源|qwen2.5-32b-instruct|82.6|33|
 |商用|GLM-4-AirX|82.6|34|
 |商用|GLM-4-Air|82.6|35|
-|商用|MiniMax-Text-01|82.6|36|
+|开源|MiniMax-Text-01|82.6|36|
 |开源|qwen2.5-72b-instruct|78.3|37|
 |开源|qwen2.5-7b-instruct|78.3|38|
 |商用|SenseChat-5-beta|78.3|39|

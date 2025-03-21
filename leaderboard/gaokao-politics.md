@@ -37,7 +37,7 @@
 |商用|SenseChat-5-1202|85.0|34|
 |开源|DeepSeek-R1-Distill-Qwen-14B|85.0|35|
 |开源|qwen2.5-14b-instruct|84.5|36|
-|商用|MiniMax-Text-01|84.5|37|
+|开源|MiniMax-Text-01|84.5|37|
 |商用|360gpt-turbo|84.0|38|
 |商用|ERNIE-3.5-8K|84.0|39|
 |商用|360gpt2-o1|84.0|40|

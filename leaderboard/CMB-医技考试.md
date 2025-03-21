@@ -29,7 +29,7 @@
 |商用|SenseChat-5-beta|72.2|26|
 |商用|xunfei-spark-pro|71.6|27|
 |商用|qwen-turbo|71.3|28|
-|商用|MiniMax-Text-01|70.3|29|
+|开源|MiniMax-Text-01|70.3|29|
 |商用|360zhinao2-o1|70.0|30|
 |商用|yi-lightning|69.6|31|
 |商用|360gpt2-o1|69.5|32|

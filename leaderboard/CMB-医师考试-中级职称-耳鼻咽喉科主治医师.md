@@ -37,7 +37,7 @@
 |商用|SenseChat-5-1202|67.0|34|
 |商用|yi-lightning|64.0|35|
 |商用|chatgpt-4o-latest|64.0|36|
-|商用|MiniMax-Text-01|64.0|37|
+|开源|MiniMax-Text-01|64.0|37|
 |商用|qwen-turbo|64.0|38|
 |商用|360gpt2-o1|63.0|39|
 |商用|GLM-4-Long|63.0|40|

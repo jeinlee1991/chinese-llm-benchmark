@@ -18,7 +18,7 @@
 |商用|SenseChat-5-beta|78.0|15|
 |商用|Baichuan4-Turbo|77.0|16|
 |开源|DeepSeek-R1-Distill-Qwen-32B|77.0|17|
-|商用|MiniMax-Text-01|77.0|18|
+|开源|MiniMax-Text-01|77.0|18|
 |商用|360gpt-pro|77.0|19|
 |开源|deepseek-chat-v3|77.0|20|
 |商用|Claude-3.5-Sonnet|76.7|21|

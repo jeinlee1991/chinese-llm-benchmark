@@ -35,7 +35,7 @@
 |开源|deepseek-chat-v3|62.0|32|
 |商用|ERNIE-4.0-Turbo-8K|62.0|33|
 |商用|Claude-3.5-Sonnet|62.0|34|
-|商用|MiniMax-Text-01|62.0|35|
+|开源|MiniMax-Text-01|62.0|35|
 |开源|internlm2_5-20b-chat|62.0|36|
 |商用|gemini-2.0-pro-exp-02-05|60.0|37|
 |开源|Llama-3.3-70B-Instruct-fp8|60.0|38|

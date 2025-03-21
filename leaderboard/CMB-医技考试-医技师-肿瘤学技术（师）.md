@@ -29,7 +29,7 @@
 |商用|qwen-turbo|63.1|26|
 |商用|xunfei-spark-max|63.1|27|
 |商用|gemini-2.0-flash-exp|63.1|28|
-|商用|MiniMax-Text-01|61.9|29|
+|开源|MiniMax-Text-01|61.9|29|
 |开源|qwq-32b(new)|61.9|30|
 |商用|360zhinao2-o1|61.9|31|
 |商用|GLM-4-Flash|61.1|32|

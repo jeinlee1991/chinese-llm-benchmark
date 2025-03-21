@@ -17,7 +17,7 @@
 |商用|ERNIE-4.0|70.0|14|
 |开源|qwen2.5-72b-instruct|69.0|15|
 |商用|kimi-latest-8k|69.0|16|
-|商用|MiniMax-Text-01|69.0|17|
+|开源|MiniMax-Text-01|69.0|17|
 |商用|xunfei-spark-max|69.0|18|
 |商用|qwq-plus-2025-03-05(new)|68.0|19|
 |商用|360gpt-pro|68.0|20|

@@ -60,7 +60,7 @@
 |开源|Llama-3.3-70B-Instruct-fp8|85.2|57|
 |商用|360gpt2-o1|85.2|58|
 |商用|gemini-2.0-flash-001|85.2|59|
-|商用|MiniMax-Text-01|85.2|60|
+|开源|MiniMax-Text-01|85.2|60|
 |商用|step-1-flash|81.5|61|
 |商用|o3-mini|81.5|62|
 |商用|chatgpt-4o-latest|81.5|63|

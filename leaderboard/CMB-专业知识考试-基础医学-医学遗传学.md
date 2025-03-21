@@ -39,7 +39,7 @@
 |商用|Baichuan4-Turbo|71.0|36|
 |开源|Meta-Llama-3.1-405B-Instruct|71.0|37|
 |商用|gemini-2.0-flash-thinking-exp-01-21|70.5|38|
-|商用|MiniMax-Text-01|70.5|39|
+|开源|MiniMax-Text-01|70.5|39|
 |商用|ERNIE-4.0|70.0|40|
 |商用|xunfei-spark-max|70.0|41|
 |商用|qwen-turbo|69.5|42|

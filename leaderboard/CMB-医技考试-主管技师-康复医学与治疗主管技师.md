@@ -57,7 +57,7 @@
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|66.7|54|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|66.7|55|
 |商用|gemini-2.0-pro-exp-02-05|66.7|56|
-|商用|MiniMax-Text-01|66.7|57|
+|开源|MiniMax-Text-01|66.7|57|
 |商用|abab6.5s-chat|60.0|58|
 |商用|GLM-4-Air|60.0|59|
 |商用|Baichuan4|60.0|60|

@@ -39,7 +39,7 @@
 |商用|Baichuan4-Turbo|54.8|36|
 |开源|qwen2.5-32b-instruct|54.8|37|
 |商用|360gpt2-o1|54.0|38|
-|商用|MiniMax-Text-01|53.5|39|
+|开源|MiniMax-Text-01|53.5|39|
 |开源|internlm2_5-7b-chat|52.9|40|
 |商用|qwen-turbo|52.9|41|
 |开源|qwen2.5-7b-instruct|52.2|42|

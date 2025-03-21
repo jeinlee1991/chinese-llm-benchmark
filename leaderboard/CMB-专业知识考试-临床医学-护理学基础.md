@@ -45,7 +45,7 @@
 |开源|glm-4-9b-chat|63.0|42|
 |商用|ERNIE-3.5-8K|63.0|43|
 |开源|DeepSeek-R1-Distill-Llama-70B|63.0|44|
-|商用|MiniMax-Text-01|62.5|45|
+|开源|MiniMax-Text-01|62.5|45|
 |商用|o3-mini|62.0|46|
 |商用|chatgpt-4o-latest|62.0|47|
 |开源|Llama-3.3-70B-Instruct|62.0|48|

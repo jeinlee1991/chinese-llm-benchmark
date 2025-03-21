@@ -30,7 +30,7 @@
 |商用|GLM-4-Plus|70.0|27|
 |商用|xunfei-4.0Ultra|70.0|28|
 |商用|qwq-plus-2025-03-05(new)|68.5|29|
-|商用|MiniMax-Text-01|68.5|30|
+|开源|MiniMax-Text-01|68.5|30|
 |开源|qwen2.5-7b-instruct|68.5|31|
 |开源|internlm2_5-20b-chat|68.5|32|
 |商用|GLM-4-Flash|66.7|33|

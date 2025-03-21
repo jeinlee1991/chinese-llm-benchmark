@@ -57,7 +57,7 @@
 |商用|ERNIE-4.0|52.0|54|
 |商用|gemini-1.5-pro|51.6|55|
 |商用|SenseChat-Turbo-1202|51.6|56|
-|商用|MiniMax-Text-01|51.6|57|
+|开源|MiniMax-Text-01|51.6|57|
 |商用|step-1-flash|50.0|58|
 |商用|chatgpt-4o-latest|50.0|59|
 |开源|DeepSeek-R1|50.0|60|

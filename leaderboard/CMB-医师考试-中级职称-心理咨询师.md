@@ -47,7 +47,7 @@
 |商用|Baichuan4|42.0|44|
 |商用|gpt-4o-mini-2024-07-18|42.0|45|
 |开源|deepseek-chat-v3|42.0|46|
-|商用|MiniMax-Text-01|42.0|47|
+|开源|MiniMax-Text-01|42.0|47|
 |商用|ERNIE-4.0-Turbo-8K|42.0|48|
 |开源|DeepSeek-R1-Distill-Llama-70B|41.0|49|
 |商用|GLM-4-Long|41.0|50|

@@ -50,7 +50,7 @@
 |开源|gemma-3-27b-it(new)|46.5|47|
 |商用|GLM-4-Flash|45.9|48|
 |开源|qwen2.5-32b-instruct|45.7|49|
-|商用|MiniMax-Text-01|45.7|50|
+|开源|MiniMax-Text-01|45.7|50|
 |商用|GLM-Zero-Preview|45.7|51|
 |开源|DeepSeek-R1-Distill-Qwen-14B|45.7|52|
 |商用|Baichuan4|45.7|53|

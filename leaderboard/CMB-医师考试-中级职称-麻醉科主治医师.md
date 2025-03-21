@@ -28,7 +28,7 @@
 |商用|qwen-long|76.0|25|
 |商用|gemini-2.0-flash-exp|75.0|26|
 |商用|360gpt2-pro|75.0|27|
-|商用|MiniMax-Text-01|75.0|28|
+|开源|MiniMax-Text-01|75.0|28|
 |开源|deepseek-chat-v3|73.0|29|
 |商用|xunfei-spark-pro|73.0|30|
 |商用|gemini-2.0-flash-001|73.0|31|

@@ -33,7 +33,7 @@
 |开源|deepseek-chat-v3|72.0|30|
 |开源|qwen2.5-14b-instruct|72.0|31|
 |商用|GLM-4-AirX|71.0|32|
-|商用|MiniMax-Text-01|71.0|33|
+|开源|MiniMax-Text-01|71.0|33|
 |商用|kimi-latest-8k|71.0|34|
 |开源|Meta-Llama-3.1-405B-Instruct|71.0|35|
 |商用|gemini-2.0-flash-exp|71.0|36|

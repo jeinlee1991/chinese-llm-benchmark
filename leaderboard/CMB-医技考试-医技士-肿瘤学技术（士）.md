@@ -27,7 +27,7 @@
 |商用|qwen-turbo|49.2|24|
 |开源|qwen2.5-7b-instruct|49.2|25|
 |商用|SenseChat-5-beta|49.2|26|
-|商用|MiniMax-Text-01|49.2|27|
+|开源|MiniMax-Text-01|49.2|27|
 |开源|qwen2.5-72b-instruct|49.2|28|
 |商用|ERNIE-Speed-8K|48.1|29|
 |商用|360gpt-pro|47.5|30|

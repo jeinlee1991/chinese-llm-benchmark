@@ -25,7 +25,7 @@
 |商用|ERNIE-3.5-8K|91.7|22|
 |商用|xunfei-spark-max|91.7|23|
 |商用|SenseChat-5-1202|91.7|24|
-|商用|MiniMax-Text-01|91.7|25|
+|开源|MiniMax-Text-01|91.7|25|
 |开源|qwq-32b(new)|91.7|26|
 |商用|SenseChat-5-beta|91.7|27|
 |开源|DeepSeek-R1-Distill-Qwen-32B|91.7|28|

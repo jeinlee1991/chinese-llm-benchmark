@@ -28,7 +28,7 @@
 |开源|qwq-32b-preview|74.8|25|
 |商用|abab7-chat-preview|74.4|26|
 |商用|Baichuan4-Turbo|74.3|27|
-|商用|MiniMax-Text-01|74.1|28|
+|开源|MiniMax-Text-01|74.1|28|
 |商用|SenseChat-5-beta|73.9|29|
 |开源|qwen2.5-32b-instruct|73.5|30|
 |商用|xunfei-4.0Ultra|73.3|31|

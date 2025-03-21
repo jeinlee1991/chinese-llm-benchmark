@@ -55,7 +55,7 @@
 |商用|step-2-mini(new)|69.3|52|
 |开源|Llama-3.3-70B-Instruct|69.0|53|
 |商用|gemini-2.0-flash-exp|69.0|54|
-|商用|MiniMax-Text-01|69.0|55|
+|开源|MiniMax-Text-01|69.0|55|
 |开源|DeepSeek-R1-Distill-Qwen-32B|68.0|56|
 |商用|ERNIE-Speed-8K|68.0|57|
 |开源|glm-4-9b-chat|68.0|58|

@@ -26,7 +26,7 @@
 |商用|GLM-4-Flash|64.2|23|
 |开源|qwen2.5-72b-instruct|64.0|24|
 |开源|qwen2.5-32b-instruct|63.5|25|
-|商用|MiniMax-Text-01|63.5|26|
+|开源|MiniMax-Text-01|63.5|26|
 |开源|deepseek-chat-v3|62.5|27|
 |商用|gemini-2.0-pro-exp-02-05|62.0|28|
 |商用|qwen-turbo|61.5|29|

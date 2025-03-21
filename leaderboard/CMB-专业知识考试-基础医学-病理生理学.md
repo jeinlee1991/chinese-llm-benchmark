@@ -27,7 +27,7 @@
 |开源|qwq-32b-preview|74.0|24|
 |商用|xunfei-4.0Ultra|74.0|25|
 |商用|SenseChat-5-1202|74.0|26|
-|商用|MiniMax-Text-01|73.5|27|
+|开源|MiniMax-Text-01|73.5|27|
 |开源|Meta-Llama-3.1-405B-Instruct|73.0|28|
 |商用|360gpt-pro|73.0|29|
 |商用|xunfei-spark-max|73.0|30|

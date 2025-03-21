@@ -37,7 +37,7 @@
 |商用|gemini-2.0-flash-exp|70.0|34|
 |开源|Llama-3.3-70B-Instruct-fp8|70.0|35|
 |商用|SenseChat-5-1202|70.0|36|
-|商用|MiniMax-Text-01|70.0|37|
+|开源|MiniMax-Text-01|70.0|37|
 |商用|ERNIE-4.0-Turbo-8K|69.0|38|
 |商用|chatgpt-4o-latest|69.0|39|
 |商用|SenseChat-5-beta|69.0|40|

@@ -26,7 +26,7 @@
 |开源|qwen2.5-72b-instruct|82.0|23|
 |商用|ERNIE-4.0-Turbo-8K|82.0|24|
 |商用|abab7-chat-preview|82.0|25|
-|商用|MiniMax-Text-01|81.0|26|
+|开源|MiniMax-Text-01|81.0|26|
 |商用|qwen-turbo|80.5|27|
 |商用|ERNIE-4.0|80.0|28|
 |商用|gemini-2.0-pro-exp-02-05|79.5|29|

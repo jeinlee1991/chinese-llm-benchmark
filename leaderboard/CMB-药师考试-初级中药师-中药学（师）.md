@@ -23,7 +23,7 @@
 |商用|360gpt2-pro|75.0|20|
 |商用|qwen-plus|75.0|21|
 |开源|qwq-32b-preview|73.0|22|
-|商用|MiniMax-Text-01|72.0|23|
+|开源|MiniMax-Text-01|72.0|23|
 |商用|Baichuan4-Turbo|71.5|24|
 |开源|DeepSeek-R1-Distill-Qwen-32B|71.0|25|
 |商用|gemini-2.0-pro-exp-02-05|71.0|26|

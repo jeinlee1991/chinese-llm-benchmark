@@ -29,7 +29,7 @@
 |开源|Llama-3.3-70B-Instruct-fp8|69.0|26|
 |商用|kimi-latest-8k|69.0|27|
 |开源|qwq-32b-preview|69.0|28|
-|商用|MiniMax-Text-01|69.0|29|
+|开源|MiniMax-Text-01|69.0|29|
 |商用|GLM-4-AirX|68.0|30|
 |商用|ERNIE-4.0|68.0|31|
 |商用|GLM-4-Plus|68.0|32|

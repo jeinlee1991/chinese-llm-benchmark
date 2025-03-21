@@ -17,7 +17,7 @@
 |商用|SenseChat-5-beta|79.0|14|
 |开源|DeepSeek-R1-Distill-Qwen-32B|78.0|15|
 |商用|kimi-latest-8k|77.0|16|
-|商用|MiniMax-Text-01|77.0|17|
+|开源|MiniMax-Text-01|77.0|17|
 |商用|yi-lightning|77.0|18|
 |商用|GLM-4-Plus|77.0|19|
 |商用|Baichuan4-Turbo|76.0|20|

@@ -45,7 +45,7 @@
 |商用|moonshot-v1-8k|73.0|42|
 |商用|chatgpt-4o-latest|73.0|43|
 |商用|360gpt-turbo|72.5|44|
-|商用|MiniMax-Text-01|72.0|45|
+|开源|MiniMax-Text-01|72.0|45|
 |商用|gemini-2.0-flash-001|71.5|46|
 |开源|DeepSeek-R1-Distill-Qwen-14B|71.5|47|
 |商用|GLM-4-FlashX|71.5|48|

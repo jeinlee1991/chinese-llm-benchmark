@@ -25,7 +25,7 @@
 |开源|qwq-32b(new)|70.5|22|
 |开源|qwen2.5-72b-instruct|70.0|23|
 |商用|ERNIE-4.0|70.0|24|
-|商用|MiniMax-Text-01|70.0|25|
+|开源|MiniMax-Text-01|70.0|25|
 |商用|Claude-3.5-Sonnet|70.0|26|
 |商用|GLM-4-Plus|70.0|27|
 |商用|xunfei-4.0Ultra|70.0|28|

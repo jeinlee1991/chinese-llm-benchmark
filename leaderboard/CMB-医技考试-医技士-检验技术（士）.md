@@ -43,7 +43,7 @@
 |开源|internlm2_5-20b-chat|77.3|40|
 |开源|qwen2.5-7b-instruct|77.3|41|
 |商用|360gpt-turbo|77.3|42|
-|商用|MiniMax-Text-01|76.0|43|
+|开源|MiniMax-Text-01|76.0|43|
 |商用|gemini-1.5-pro|74.7|44|
 |商用|SenseChat-Turbo-1202|74.7|45|
 |商用|GLM-4-AirX|73.3|46|

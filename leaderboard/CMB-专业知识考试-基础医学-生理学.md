@@ -20,7 +20,7 @@
 |商用|qwen-turbo|82.0|17|
 |商用|GLM-4-Plus|82.0|18|
 |商用|360gpt2-o1|81.0|19|
-|商用|MiniMax-Text-01|81.0|20|
+|开源|MiniMax-Text-01|81.0|20|
 |商用|SenseChat-5-beta|81.0|21|
 |开源|qwen2.5-32b-instruct|80.5|22|
 |商用|abab7-chat-preview|80.5|23|

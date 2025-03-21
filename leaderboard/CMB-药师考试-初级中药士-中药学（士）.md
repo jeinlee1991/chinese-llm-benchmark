@@ -27,7 +27,7 @@
 |商用|360gpt2-o1|71.0|24|
 |开源|deepseek-chat-v3|70.5|25|
 |商用|ERNIE-4.0|70.0|26|
-|商用|MiniMax-Text-01|69.5|27|
+|开源|MiniMax-Text-01|69.5|27|
 |商用|Baichuan4-Turbo|69.0|28|
 |开源|qwen2.5-32b-instruct|68.0|29|
 |商用|yi-lightning|68.0|30|

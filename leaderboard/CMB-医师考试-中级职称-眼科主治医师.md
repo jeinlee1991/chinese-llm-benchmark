@@ -20,7 +20,7 @@
 |商用|gemini-2.0-pro-exp-02-05|77.0|17|
 |商用|xunfei-4.0Ultra|76.0|18|
 |商用|abab7-chat-preview|76.0|19|
-|商用|MiniMax-Text-01|75.0|20|
+|开源|MiniMax-Text-01|75.0|20|
 |商用|360gpt-pro|75.0|21|
 |商用|SenseChat-5-beta|75.0|22|
 |商用|xunfei-spark-max|74.0|23|

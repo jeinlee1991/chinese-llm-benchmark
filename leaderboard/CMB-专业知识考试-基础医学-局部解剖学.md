@@ -31,7 +31,7 @@
 |开源|deepseek-chat-v3|64.5|28|
 |开源|qwq-32b(new)|64.0|29|
 |开源|Meta-Llama-3.1-405B-Instruct|63.5|30|
-|商用|MiniMax-Text-01|63.5|31|
+|开源|MiniMax-Text-01|63.5|31|
 |商用|Baichuan4-Turbo|63.5|32|
 |开源|qwen2.5-14b-instruct|63.0|33|
 |开源|qwq-32b-preview|63.0|34|

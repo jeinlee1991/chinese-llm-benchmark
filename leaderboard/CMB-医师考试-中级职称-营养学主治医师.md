@@ -23,7 +23,7 @@
 |开源|Meta-Llama-3.1-405B-Instruct|73.0|20|
 |商用|qwq-plus-2025-03-05(new)|72.5|21|
 |商用|yi-lightning|72.0|22|
-|商用|MiniMax-Text-01|72.0|23|
+|开源|MiniMax-Text-01|72.0|23|
 |商用|xunfei-4.0Ultra|72.0|24|
 |商用|xunfei-spark-pro|72.0|25|
 |商用|gemini-2.0-flash-exp|71.0|26|

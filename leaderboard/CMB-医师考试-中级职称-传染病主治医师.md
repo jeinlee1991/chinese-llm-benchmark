@@ -38,7 +38,7 @@
 |商用|360zhinao2-o1|85.0|35|
 |商用|SenseChat-5-1202|85.0|36|
 |开源|internlm2_5-20b-chat|84.0|37|
-|商用|MiniMax-Text-01|84.0|38|
+|开源|MiniMax-Text-01|84.0|38|
 |商用|ERNIE-3.5-8K|83.0|39|
 |开源|Llama-3.3-70B-Instruct-fp8|83.0|40|
 |商用|360gpt2-o1|83.0|41|

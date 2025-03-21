@@ -40,7 +40,7 @@
 |商用|360gpt2-o1|77.3|37|
 |开源|glm-4-9b-chat|76.7|38|
 |开源|Yi-1.5-34B-Chat|76.5|39|
-|商用|MiniMax-Text-01|75.2|40|
+|开源|MiniMax-Text-01|75.2|40|
 |商用|qwen-turbo|75.2|41|
 |商用|hunyuan-standard|74.8|42|
 |商用|ERNIE-4.0|73.6|43|

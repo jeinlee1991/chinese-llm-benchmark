@@ -29,7 +29,7 @@
 |开源|qwq-32b-preview|66.0|26|
 |开源|deepseek-chat-v3|64.0|27|
 |商用|qwen-turbo|63.5|28|
-|商用|MiniMax-Text-01|62.5|29|
+|开源|MiniMax-Text-01|62.5|29|
 |商用|gemini-2.0-flash-exp|62.0|30|
 |开源|qwen2.5-14b-instruct|61.5|31|
 |商用|360gpt-turbo|61.5|32|

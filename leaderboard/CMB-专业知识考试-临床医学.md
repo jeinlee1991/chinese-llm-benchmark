@@ -34,7 +34,7 @@
 |开源|qwen2.5-32b-instruct|70.5|31|
 |商用|gemini-2.0-flash-exp|70.5|32|
 |商用|gemini-2.0-flash-thinking-exp-01-21|70.3|33|
-|商用|MiniMax-Text-01|70.2|34|
+|开源|MiniMax-Text-01|70.2|34|
 |商用|SenseChat-5-1202|69.8|35|
 |开源|DeepSeek-R1-Distill-Qwen-32B|68.5|36|
 |商用|GLM-4-Air|68.3|37|

@@ -36,7 +36,7 @@
 |开源|qwen2.5-32b-instruct|71.8|33|
 |开源|qwen2.5-14b-instruct|70.9|34|
 |商用|gemini-2.0-flash-thinking-exp-01-21|70.9|35|
-|商用|MiniMax-Text-01|70.9|36|
+|开源|MiniMax-Text-01|70.9|36|
 |商用|xunfei-spark-pro|70.9|37|
 |商用|xunfei-spark-max|70.0|38|
 |商用|Baichuan4|70.0|39|

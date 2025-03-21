@@ -45,7 +45,7 @@
 |开源|deepseek-chat-v3|62.5|42|
 |开源|qwen2.5-7b-instruct|62.5|43|
 |商用|xunfei-4.0Ultra|62.0|44|
-|商用|MiniMax-Text-01|60.9|45|
+|开源|MiniMax-Text-01|60.9|45|
 |开源|DeepSeek-R1-Distill-Qwen-14B|60.9|46|
 |商用|360zhinao2-o1|60.9|47|
 |商用|SenseChat-5-1202|60.9|48|

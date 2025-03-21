@@ -35,7 +35,7 @@
 |开源|DeepSeek-R1-Distill-Llama-70B|76.0|32|
 |开源|internlm2_5-20b-chat|76.0|33|
 |商用|ERNIE-3.5-8K|76.0|34|
-|商用|MiniMax-Text-01|76.0|35|
+|开源|MiniMax-Text-01|76.0|35|
 |商用|SenseChat-5-beta|76.0|36|
 |商用|GLM-4-Flash|75.6|37|
 |商用|360gpt2-o1|75.0|38|

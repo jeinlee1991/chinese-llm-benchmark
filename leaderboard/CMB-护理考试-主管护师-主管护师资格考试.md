@@ -21,7 +21,7 @@
 |开源|qwen2.5-72b-instruct|74.0|18|
 |商用|kimi-latest-8k|74.0|19|
 |商用|qwen-turbo|73.9|20|
-|商用|MiniMax-Text-01|73.3|21|
+|开源|MiniMax-Text-01|73.3|21|
 |开源|qwq-32b(new)|73.3|22|
 |商用|360gpt2-pro|73.3|23|
 |商用|qwen-plus|72.7|24|

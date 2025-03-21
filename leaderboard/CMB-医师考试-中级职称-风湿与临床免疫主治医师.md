@@ -34,7 +34,7 @@
 |商用|qwq-plus-2025-03-05(new)|83.3|31|
 |开源|DeepSeek-R1-Distill-Llama-70B|83.3|32|
 |商用|GLM-4-Air|83.3|33|
-|商用|MiniMax-Text-01|83.3|34|
+|开源|MiniMax-Text-01|83.3|34|
 |开源|qwq-32b(new)|83.3|35|
 |商用|gemini-2.0-flash-thinking-exp-01-21|83.3|36|
 |商用|GLM-Zero-Preview|83.3|37|

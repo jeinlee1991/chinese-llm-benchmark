@@ -32,7 +32,7 @@
 |商用|kimi-latest-8k|69.0|29|
 |商用|360gpt-turbo|69.0|30|
 |开源|qwq-32b-preview|68.5|31|
-|商用|MiniMax-Text-01|67.5|32|
+|开源|MiniMax-Text-01|67.5|32|
 |开源|qwen2.5-32b-instruct|67.5|33|
 |商用|xunfei-spark-pro|67.0|34|
 |商用|gemini-1.5-pro|67.0|35|

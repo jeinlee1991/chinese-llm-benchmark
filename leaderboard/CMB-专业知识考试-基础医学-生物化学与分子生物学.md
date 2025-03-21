@@ -23,7 +23,7 @@
 |商用|gemini-2.0-flash-exp|83.5|20|
 |商用|Baichuan4-Turbo|83.5|21|
 |开源|deepseek-chat-v3|83.0|22|
-|商用|MiniMax-Text-01|83.0|23|
+|开源|MiniMax-Text-01|83.0|23|
 |开源|qwen2.5-32b-instruct|83.0|24|
 |商用|qwen-long|83.0|25|
 |开源|qwq-32b-preview|82.0|26|

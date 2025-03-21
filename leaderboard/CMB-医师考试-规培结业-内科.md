@@ -33,7 +33,7 @@
 |商用|GLM-4-AirX|80.0|30|
 |开源|qwen2.5-14b-instruct|80.0|31|
 |开源|qwq-32b-preview|80.0|32|
-|商用|MiniMax-Text-01|80.0|33|
+|开源|MiniMax-Text-01|80.0|33|
 |商用|SenseChat-5-beta|79.0|34|
 |商用|gemini-2.0-flash-001|79.0|35|
 |商用|gemini-2.0-flash-exp|79.0|36|

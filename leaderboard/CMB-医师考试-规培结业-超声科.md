@@ -34,7 +34,7 @@
 |开源|qwen2.5-72b-instruct|68.0|31|
 |商用|abab7-chat-preview|68.0|32|
 |开源|DeepSeek-R1-Distill-Llama-70B|68.0|33|
-|商用|MiniMax-Text-01|68.0|34|
+|开源|MiniMax-Text-01|68.0|34|
 |商用|gemini-2.0-flash-001|68.0|35|
 |开源|Llama-3.3-70B-Instruct-fp8|67.0|36|
 |商用|xunfei-spark-max|67.0|37|

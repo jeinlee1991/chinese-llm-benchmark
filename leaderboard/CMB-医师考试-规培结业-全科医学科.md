@@ -54,7 +54,7 @@
 |商用|360gpt-turbo|73.0|51|
 |商用|gemini-2.0-flash-exp|73.0|52|
 |开源|Llama-3.3-70B-Instruct-fp8|73.0|53|
-|商用|MiniMax-Text-01|73.0|54|
+|开源|MiniMax-Text-01|73.0|54|
 |开源|internlm2_5-20b-chat|72.0|55|
 |商用|gemini-2.0-flash-thinking-exp-01-21|71.0|56|
 |商用|ERNIE-4.0|70.0|57|

@@ -22,7 +22,7 @@
 |开源|DeepSeek-R1-Distill-Llama-70B|80.8|19|
 |开源|hunyuan-large|80.6|20|
 |商用|360gpt2-pro|80.3|21|
-|商用|MiniMax-Text-01|79.6|22|
+|开源|MiniMax-Text-01|79.6|22|
 |商用|abab7-chat-preview|79.6|23|
 |商用|GLM-4-Plus|79.6|24|
 |商用|mistral-large|79.5|25|

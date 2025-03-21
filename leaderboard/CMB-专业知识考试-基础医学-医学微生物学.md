@@ -26,7 +26,7 @@
 |开源|qwen2.5-32b-instruct|80.5|23|
 |商用|360gpt2-pro|80.5|24|
 |商用|xunfei-4.0Ultra|80.0|25|
-|商用|MiniMax-Text-01|80.0|26|
+|开源|MiniMax-Text-01|80.0|26|
 |商用|gemini-2.0-flash-thinking-exp-01-21|80.0|27|
 |商用|Claude-3.5-Sonnet|80.0|28|
 |开源|DeepSeek-R1-Distill-Qwen-32B|80.0|29|

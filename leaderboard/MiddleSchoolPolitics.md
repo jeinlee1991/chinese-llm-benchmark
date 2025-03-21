@@ -41,7 +41,7 @@
 |商用|xunfei-spark-pro|91.7|38|
 |商用|360gpt-pro|91.7|39|
 |商用|ERNIE-Lite-8K|91.7|40|
-|商用|MiniMax-Text-01|91.7|41|
+|开源|MiniMax-Text-01|91.7|41|
 |商用|SenseChat-Turbo-1202|91.7|42|
 |商用|SenseChat-5-1202|91.7|43|
 |商用|chatgpt-4o-latest|91.7|44|

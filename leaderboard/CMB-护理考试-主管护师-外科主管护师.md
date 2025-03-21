@@ -4,7 +4,7 @@
 |开源|hunyuan-large|90.0|1|
 |商用|hunyuan-turbo|90.0|2|
 |开源|qwen2.5-32b-instruct|90.0|3|
-|商用|MiniMax-Text-01|90.0|4|
+|开源|MiniMax-Text-01|90.0|4|
 |商用|ERNIE-4.0|80.0|5|
 |商用|hunyuan-standard|80.0|6|
 |商用|abab7-chat-preview|80.0|7|

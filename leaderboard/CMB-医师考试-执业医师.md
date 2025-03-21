@@ -30,7 +30,7 @@
 |开源|deepseek-chat-v3|74.8|27|
 |开源|DeepSeek-R1-Distill-Qwen-32B|74.6|28|
 |开源|qwen2.5-32b-instruct|74.6|29|
-|商用|MiniMax-Text-01|74.3|30|
+|开源|MiniMax-Text-01|74.3|30|
 |商用|SenseChat-5-beta|74.0|31|
 |商用|gemini-2.0-pro-exp-02-05|73.9|32|
 |商用|360gpt2-o1|73.6|33|

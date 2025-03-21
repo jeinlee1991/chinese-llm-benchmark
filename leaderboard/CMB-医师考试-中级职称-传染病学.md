@@ -36,7 +36,7 @@
 |商用|xunfei-4.0Ultra|74.0|33|
 |商用|360zhinao2-o1|74.0|34|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|73.0|35|
-|商用|MiniMax-Text-01|72.0|36|
+|开源|MiniMax-Text-01|72.0|36|
 |商用|chatgpt-4o-latest|72.0|37|
 |开源|qwen2.5-32b-instruct|72.0|38|
 |商用|ERNIE-4.0-Turbo-8K|72.0|39|

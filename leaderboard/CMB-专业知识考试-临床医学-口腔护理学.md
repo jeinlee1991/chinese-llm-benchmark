@@ -15,7 +15,7 @@
 |商用|qwen-long|68.0|12|
 |商用|qwen2.5-max|67.5|13|
 |开源|hunyuan-large|67.0|14|
-|商用|MiniMax-Text-01|66.5|15|
+|开源|MiniMax-Text-01|66.5|15|
 |商用|hunyuan-standard|65.5|16|
 |开源|DeepSeek-R1|65.0|17|
 |商用|xunfei-spark-pro|65.0|18|

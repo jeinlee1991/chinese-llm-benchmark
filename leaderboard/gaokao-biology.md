@@ -12,7 +12,7 @@
 |商用|xunfei-spark-max|90.5|9|
 |商用|qwen-long|90.0|10|
 |开源|DeepSeek-R1-Distill-Llama-70B|89.5|11|
-|商用|MiniMax-Text-01|89.3|12|
+|开源|MiniMax-Text-01|89.3|12|
 |商用|qwen-plus|89.3|13|
 |开源|qwq-32b-preview|88.9|14|
 |开源|qwen2.5-72b-instruct|88.6|15|

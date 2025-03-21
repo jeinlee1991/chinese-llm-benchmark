@@ -54,7 +54,7 @@
 |商用|gemini-1.5-pro|83.0|51|
 |开源|Yi-1.5-34B-Chat|83.0|52|
 |商用|GLM-4-FlashX|83.0|53|
-|商用|MiniMax-Text-01|83.0|54|
+|开源|MiniMax-Text-01|83.0|54|
 |商用|ERNIE-4.0-Turbo-8K|82.0|55|
 |商用|GLM-4-Long|82.0|56|
 |商用|GLM-4-Flash|82.0|57|

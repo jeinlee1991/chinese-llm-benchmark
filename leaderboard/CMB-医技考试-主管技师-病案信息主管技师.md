@@ -48,7 +48,7 @@
 |开源|Llama-3.1-8B-Instruct|59.1|45|
 |商用|GLM-4-Air|59.1|46|
 |商用|abab7-chat-preview|59.1|47|
-|商用|MiniMax-Text-01|59.1|48|
+|开源|MiniMax-Text-01|59.1|48|
 |商用|GLM-Zero-Preview|59.1|49|
 |商用|SenseChat-Turbo-1202|59.1|50|
 |开源|qwq-32b-preview|59.1|51|

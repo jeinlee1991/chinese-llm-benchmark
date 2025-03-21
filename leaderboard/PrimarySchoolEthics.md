@@ -24,7 +24,7 @@
 |开源|qwen2.5-3b-instruct|93.3|21|
 |商用|Doubao-1.5-pro-32k-250115|93.3|22|
 |商用|SenseChat-5-1202|93.3|23|
-|商用|MiniMax-Text-01|93.3|24|
+|开源|MiniMax-Text-01|93.3|24|
 |商用|GLM-Zero-Preview|93.3|25|
 |开源|DeepSeek-R1-Distill-Qwen-14B|93.3|26|
 |开源|DeepSeek-R1-Distill-Qwen-32B|93.3|27|

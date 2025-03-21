@@ -26,7 +26,7 @@
 |商用|qwen-long|82.5|23|
 |开源|qwen2.5-72b-instruct|82.0|24|
 |开源|Meta-Llama-3.1-405B-Instruct|81.5|25|
-|商用|MiniMax-Text-01|81.0|26|
+|开源|MiniMax-Text-01|81.0|26|
 |商用|qwen-turbo|80.5|27|
 |商用|GLM-4-AirX|79.5|28|
 |商用|GLM-4-Air|79.5|29|

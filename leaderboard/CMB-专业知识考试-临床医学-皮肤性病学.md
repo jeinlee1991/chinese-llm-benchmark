@@ -15,7 +15,7 @@
 |商用|qwen-plus|72.5|12|
 |商用|xunfei-spark-pro|72.5|13|
 |商用|hunyuan-standard|72.5|14|
-|商用|MiniMax-Text-01|72.0|15|
+|开源|MiniMax-Text-01|72.0|15|
 |开源|qwq-32b(new)|71.5|16|
 |开源|deepseek-chat-v3|71.5|17|
 |商用|abab7-chat-preview|71.0|18|

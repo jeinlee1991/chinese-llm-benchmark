@@ -28,7 +28,7 @@
 |开源|qwen2.5-32b-instruct|80.0|25|
 |商用|360gpt2-pro|80.0|26|
 |商用|360gpt-pro|80.0|27|
-|商用|MiniMax-Text-01|79.0|28|
+|开源|MiniMax-Text-01|79.0|28|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|79.0|29|
 |商用|qwq-plus-2025-03-05(new)|78.3|30|
 |商用|GLM-Zero-Preview|78.0|31|

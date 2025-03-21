@@ -30,7 +30,7 @@
 |开源|deepseek-chat-v3|53.5|27|
 |商用|GLM-4-AirX|53.0|28|
 |开源|DeepSeek-R1-Distill-Qwen-32B|53.0|29|
-|商用|MiniMax-Text-01|52.5|30|
+|开源|MiniMax-Text-01|52.5|30|
 |商用|yi-lightning|52.5|31|
 |商用|ERNIE-Speed-8K|52.4|32|
 |商用|gemini-2.0-pro-exp-02-05|52.0|33|

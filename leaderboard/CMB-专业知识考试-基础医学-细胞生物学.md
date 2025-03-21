@@ -17,7 +17,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|82.5|14|
 |商用|abab7-chat-preview|82.0|15|
 |开源|Llama-3.3-70B-Instruct-fp8|82.0|16|
-|商用|MiniMax-Text-01|81.5|17|
+|开源|MiniMax-Text-01|81.5|17|
 |开源|qwen2.5-32b-instruct|81.5|18|
 |商用|hunyuan-turbos-20250226(new)|81.5|19|
 |商用|gemini-2.0-flash-exp|81.0|20|

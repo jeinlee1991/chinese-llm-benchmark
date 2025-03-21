@@ -17,7 +17,7 @@
 |商用|GLM-4-Plus|93.8|14|
 |商用|qwq-plus-2025-03-05(new)|93.8|15|
 |商用|GLM-4-FlashX|93.8|16|
-|商用|MiniMax-Text-01|93.8|17|
+|开源|MiniMax-Text-01|93.8|17|
 |商用|qwen-long|93.8|18|
 |商用|GLM-4-Flash|93.8|19|
 |开源|hunyuan-large|90.6|20|

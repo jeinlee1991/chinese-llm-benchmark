@@ -31,7 +31,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|72.0|28|
 |商用|abab7-chat-preview|72.0|29|
 |商用|SenseChat-5-1202|72.0|30|
-|商用|MiniMax-Text-01|72.0|31|
+|开源|MiniMax-Text-01|72.0|31|
 |开源|qwen2.5-32b-instruct|71.0|32|
 |开源|internlm2_5-7b-chat|70.0|33|
 |商用|kimi-latest-8k|70.0|34|

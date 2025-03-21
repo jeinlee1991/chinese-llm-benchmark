@@ -27,7 +27,7 @@
 |商用|qwq-plus-2025-03-05(new)|58.0|24|
 |商用|SenseChat-5-beta|58.0|25|
 |商用|gemini-2.0-flash-exp|58.0|26|
-|商用|MiniMax-Text-01|57.5|27|
+|开源|MiniMax-Text-01|57.5|27|
 |商用|xunfei-spark-pro|57.0|28|
 |开源|qwq-32b-preview|56.5|29|
 |商用|kimi-latest-8k|55.0|30|

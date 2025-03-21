@@ -27,7 +27,7 @@
 |商用|SenseChat-5-beta|83.0|24|
 |商用|GLM-4-Long|83.0|25|
 |商用|360gpt2-pro|82.0|26|
-|商用|MiniMax-Text-01|82.0|27|
+|开源|MiniMax-Text-01|82.0|27|
 |商用|yi-lightning|82.0|28|
 |商用|360gpt-pro|82.0|29|
 |商用|qwen-long|82.0|30|

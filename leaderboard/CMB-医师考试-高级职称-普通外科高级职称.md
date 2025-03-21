@@ -28,7 +28,7 @@
 |开源|internlm2_5-7b-chat|67.1|25|
 |开源|DeepSeek-R1-Distill-Qwen-32B|67.1|26|
 |开源|deepseek-chat-v3|67.1|27|
-|商用|MiniMax-Text-01|67.1|28|
+|开源|MiniMax-Text-01|67.1|28|
 |商用|GLM-4-Flash|66.3|29|
 |商用|ERNIE-4.0|66.0|30|
 |开源|qwen2.5-32b-instruct|65.7|31|

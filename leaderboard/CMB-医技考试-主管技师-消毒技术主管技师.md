@@ -83,7 +83,7 @@
 |开源|DeepSeek-R1-Distill-Qwen-14B|57.1|80|
 |商用|o3-mini|57.1|81|
 |商用|GLM-Zero-Preview|57.1|82|
-|商用|MiniMax-Text-01|57.1|83|
+|开源|MiniMax-Text-01|57.1|83|
 |商用|ministral-8b|57.1|84|
 |开源|DeepSeek-R1-Distill-Llama-8B|57.1|85|
 |开源|DeepSeek-R1-Distill-Qwen-7B|57.1|86|

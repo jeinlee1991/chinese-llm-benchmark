@@ -31,7 +31,7 @@
 |商用|GLM-4-Flash|77.6|28|
 |商用|GLM-4-AirX|77.1|29|
 |商用|abab7-chat-preview|77.0|30|
-|商用|MiniMax-Text-01|76.8|31|
+|开源|MiniMax-Text-01|76.8|31|
 |商用|Baichuan4-Turbo|75.3|32|
 |开源|qwen2.5-14b-instruct|75.2|33|
 |开源|deepseek-chat-v3|75.2|34|

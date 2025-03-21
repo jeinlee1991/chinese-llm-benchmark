@@ -65,7 +65,7 @@
 |商用|GLM-4-FlashX|65.6|62|
 |开源|DeepSeek-R1-Distill-Llama-8B|65.6|63|
 |商用|o3-mini|65.6|64|
-|商用|MiniMax-Text-01|65.6|65|
+|开源|MiniMax-Text-01|65.6|65|
 |商用|ERNIE-Speed-Pro-128K|65.6|66|
 |商用|SenseChat-5-beta|65.6|67|
 |商用|GLM-4-Long|65.6|68|

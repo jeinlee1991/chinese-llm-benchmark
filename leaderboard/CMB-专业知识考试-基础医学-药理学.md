@@ -24,7 +24,7 @@
 |商用|Baichuan4-Turbo|76.5|21|
 |商用|yi-lightning|75.5|22|
 |开源|qwq-32b-preview|75.5|23|
-|商用|MiniMax-Text-01|75.5|24|
+|开源|MiniMax-Text-01|75.5|24|
 |商用|GLM-4-AirX|75.0|25|
 |开源|qwen2.5-14b-instruct|75.0|26|
 |商用|gemini-2.0-flash-thinking-exp-01-21|75.0|27|

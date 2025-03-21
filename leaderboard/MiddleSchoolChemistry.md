@@ -51,7 +51,7 @@
 |商用|gemini-2.0-flash-001|90.9|48|
 |开源|DeepSeek-R1-Distill-Llama-70B|90.9|49|
 |商用|360zhinao2-o1|90.9|50|
-|商用|MiniMax-Text-01|90.9|51|
+|开源|MiniMax-Text-01|90.9|51|
 |开源|qwen2.5-7b-instruct|90.9|52|
 |开源|deepseek-chat-v3|86.4|53|
 |商用|moonshot-v1-8k|86.4|54|

@@ -13,7 +13,7 @@
 |商用|Doubao-1.5-pro-32k-250115|90.0|10|
 |商用|gemini-2.0-flash-exp|90.0|11|
 |商用|qwq-plus-2025-03-05(new)|90.0|12|
-|商用|MiniMax-Text-01|90.0|13|
+|开源|MiniMax-Text-01|90.0|13|
 |商用|Baichuan4|90.0|14|
 |开源|deepseek-chat-v3|85.0|15|
 |商用|yi-lightning|85.0|16|

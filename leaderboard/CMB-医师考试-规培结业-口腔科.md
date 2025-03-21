@@ -30,7 +30,7 @@
 |商用|SenseChat-5-1202|73.0|27|
 |商用|abab7-chat-preview|72.0|28|
 |商用|gemini-2.0-pro-exp-02-05|72.0|29|
-|商用|MiniMax-Text-01|71.0|30|
+|开源|MiniMax-Text-01|71.0|30|
 |开源|qwen2.5-32b-instruct|70.0|31|
 |商用|360gpt2-o1|70.0|32|
 |商用|yi-lightning|69.0|33|

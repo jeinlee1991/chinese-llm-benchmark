@@ -17,7 +17,7 @@
 |开源|deepseek-chat-v3|82.0|14|
 |商用|gemini-2.0-flash-thinking-exp-01-21|82.0|15|
 |商用|360gpt2-pro|82.0|16|
-|商用|MiniMax-Text-01|82.0|17|
+|开源|MiniMax-Text-01|82.0|17|
 |商用|hunyuan-standard|81.0|18|
 |商用|GLM-4-Plus|80.0|19|
 |商用|gemini-2.0-pro-exp-02-05|80.0|20|

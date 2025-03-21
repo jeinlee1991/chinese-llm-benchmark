@@ -28,7 +28,7 @@
 |商用|GLM-4-Flash|78.2|25|
 |商用|yi-lightning|78.0|26|
 |商用|abab7-chat-preview|77.0|27|
-|商用|MiniMax-Text-01|77.0|28|
+|开源|MiniMax-Text-01|77.0|28|
 |开源|deepseek-chat-v3|77.0|29|
 |开源|internlm2_5-20b-chat|77.0|30|
 |开源|qwen2.5-14b-instruct|77.0|31|

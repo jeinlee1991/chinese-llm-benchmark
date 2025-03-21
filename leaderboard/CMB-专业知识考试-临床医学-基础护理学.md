@@ -50,7 +50,7 @@
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|73.5|47|
 |商用|GLM-4-Long|72.5|48|
 |商用|GLM-4-Flash|72.1|49|
-|商用|MiniMax-Text-01|71.5|50|
+|开源|MiniMax-Text-01|71.5|50|
 |开源|Llama-3.3-70B-Instruct-fp8|71.0|51|
 |商用|GLM-4-FlashX|71.0|52|
 |开源|DeepSeek-R1-Distill-Qwen-14B|71.0|53|

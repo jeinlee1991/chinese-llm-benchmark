@@ -14,7 +14,7 @@
 |开源|DeepSeek-R1|85.0|11|
 |商用|chatgpt-4o-latest|85.0|12|
 |商用|yi-lightning|85.0|13|
-|商用|MiniMax-Text-01|85.0|14|
+|开源|MiniMax-Text-01|85.0|14|
 |商用|qwen-plus|84.5|15|
 |商用|gemini-2.0-pro-exp-02-05|83.5|16|
 |商用|360gpt2-pro|83.0|17|

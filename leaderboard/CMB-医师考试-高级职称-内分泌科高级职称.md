@@ -54,7 +54,7 @@
 |商用|o1-mini|50.0|51|
 |开源|Llama-3.3-70B-Instruct|50.0|52|
 |商用|Claude-3.5-Sonnet|50.0|53|
-|商用|MiniMax-Text-01|50.0|54|
+|开源|MiniMax-Text-01|50.0|54|
 |商用|ERNIE-4.0|50.0|55|
 |商用|GLM-4-Long|50.0|56|
 |开源|glm-4-9b-chat|48.6|57|

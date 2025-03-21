@@ -51,7 +51,7 @@
 |商用|GLM-Zero-Preview|64.0|48|
 |开源|Yi-1.5-34B-Chat|63.0|49|
 |商用|gemini-2.0-flash-exp|63.0|50|
-|商用|MiniMax-Text-01|63.0|51|
+|开源|MiniMax-Text-01|63.0|51|
 |开源|DeepSeek-R1-Distill-Qwen-32B|63.0|52|
 |开源|qwq-32b-preview|62.0|53|
 |商用|SenseChat-Turbo-1202|62.0|54|

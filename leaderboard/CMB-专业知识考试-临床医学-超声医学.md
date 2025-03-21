@@ -32,7 +32,7 @@
 |开源|qwen2.5-32b-instruct|75.0|29|
 |商用|qwen-turbo|75.0|30|
 |商用|abab7-chat-preview|75.0|31|
-|商用|MiniMax-Text-01|75.0|32|
+|开源|MiniMax-Text-01|75.0|32|
 |开源|qwen2.5-72b-instruct|75.0|33|
 |开源|DeepSeek-R1-Distill-Qwen-32B|74.0|34|
 |商用|chatgpt-4o-latest|74.0|35|

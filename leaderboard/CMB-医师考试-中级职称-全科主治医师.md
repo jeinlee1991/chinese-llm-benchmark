@@ -19,7 +19,7 @@
 |商用|xunfei-spark-pro|77.0|16|
 |商用|GLM-4-Flash|76.5|17|
 |开源|qwq-32b(new)|76.5|18|
-|商用|MiniMax-Text-01|76.0|19|
+|开源|MiniMax-Text-01|76.0|19|
 |商用|kimi-latest-8k|76.0|20|
 |商用|Baichuan4-Turbo|76.0|21|
 |商用|qwen2.5-max|75.0|22|

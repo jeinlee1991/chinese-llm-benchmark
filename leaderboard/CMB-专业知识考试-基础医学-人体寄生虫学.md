@@ -34,7 +34,7 @@
 |商用|xunfei-spark-pro|63.0|31|
 |商用|gemini-1.5-pro|62.5|32|
 |商用|hunyuan-standard|62.5|33|
-|商用|MiniMax-Text-01|62.5|34|
+|开源|MiniMax-Text-01|62.5|34|
 |开源|Meta-Llama-3.1-405B-Instruct|62.5|35|
 |商用|gemini-2.0-flash-thinking-exp-01-21|62.0|36|
 |商用|gemini-2.0-flash-001|62.0|37|

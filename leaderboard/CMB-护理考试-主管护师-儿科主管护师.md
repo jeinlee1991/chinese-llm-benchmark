@@ -18,7 +18,7 @@
 |商用|ERNIE-4.0|90.0|15|
 |商用|xunfei-spark-max|88.5|16|
 |商用|qwen-long|88.5|17|
-|商用|MiniMax-Text-01|88.5|18|
+|开源|MiniMax-Text-01|88.5|18|
 |商用|hunyuan-standard|88.5|19|
 |商用|GLM-4-AirX|84.6|20|
 |商用|yi-lightning|84.6|21|

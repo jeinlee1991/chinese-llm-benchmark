@@ -17,7 +17,7 @@
 |商用|qwen-long|89.3|14|
 |商用|GLM-4-AirX|89.3|15|
 |开源|qwen2.5-72b-instruct|85.7|16|
-|商用|MiniMax-Text-01|85.7|17|
+|开源|MiniMax-Text-01|85.7|17|
 |商用|chatgpt-4o-latest|85.7|18|
 |商用|xunfei-4.0Ultra|85.7|19|
 |商用|xunfei-spark-pro|85.7|20|

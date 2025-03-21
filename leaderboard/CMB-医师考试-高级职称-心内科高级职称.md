@@ -21,7 +21,7 @@
 |商用|kimi-latest-8k|66.7|18|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|66.7|19|
 |商用|xunfei-spark-pro|66.7|20|
-|商用|MiniMax-Text-01|66.7|21|
+|开源|MiniMax-Text-01|66.7|21|
 |开源|qwen2.5-72b-instruct|66.7|22|
 |商用|gemini-2.0-flash-thinking-exp-01-21|65.3|23|
 |商用|ERNIE-4.0|64.0|24|

@@ -21,7 +21,7 @@
 |商用|gemini-1.5-pro|71.9|18|
 |商用|qwen2.5-max|71.4|19|
 |商用|Doubao-1.5-lite-32k-250115|71.4|20|
-|商用|MiniMax-Text-01|71.4|21|
+|开源|MiniMax-Text-01|71.4|21|
 |商用|gemini-2.0-pro-exp-02-05|70.8|22|
 |开源|Llama-3.3-70B-Instruct|70.3|23|
 |开源|DeepSeek-R1-Distill-Llama-70B|70.0|24|

@@ -19,7 +19,7 @@
 |商用|qwq-plus-2025-03-05(new)|79.1|16|
 |商用|xunfei-spark-pro|79.0|17|
 |商用|gemini-2.0-flash-exp|78.0|18|
-|商用|MiniMax-Text-01|78.0|19|
+|开源|MiniMax-Text-01|78.0|19|
 |开源|qwen2.5-72b-instruct|78.0|20|
 |开源|qwq-32b(new)|77.5|21|
 |开源|DeepSeek-R1-Distill-Qwen-32B|77.0|22|

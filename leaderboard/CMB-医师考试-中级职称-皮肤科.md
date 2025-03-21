@@ -35,7 +35,7 @@
 |商用|xunfei-spark-pro|70.0|32|
 |商用|xunfei-4.0Ultra|70.0|33|
 |商用|gemini-2.0-flash-thinking-exp-01-21|70.0|34|
-|商用|MiniMax-Text-01|69.0|35|
+|开源|MiniMax-Text-01|69.0|35|
 |商用|yi-lightning|68.0|36|
 |开源|qwen2.5-14b-instruct|68.0|37|
 |商用|GLM-4-Air|67.0|38|

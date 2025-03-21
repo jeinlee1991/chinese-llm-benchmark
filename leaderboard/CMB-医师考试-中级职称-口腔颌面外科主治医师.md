@@ -37,7 +37,7 @@
 |商用|360zhinao2-o1|57.0|34|
 |商用|GLM-Zero-Preview|57.0|35|
 |商用|gemini-2.0-flash-thinking-exp-01-21|56.0|36|
-|商用|MiniMax-Text-01|56.0|37|
+|开源|MiniMax-Text-01|56.0|37|
 |开源|qwen2.5-14b-instruct|56.0|38|
 |商用|gemini-2.0-flash-exp|56.0|39|
 |商用|GLM-4-Air|55.0|40|

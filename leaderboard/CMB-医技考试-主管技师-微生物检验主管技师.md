@@ -42,7 +42,7 @@
 |商用|gemini-2.0-flash-001|73.9|39|
 |开源|qwen2.5-7b-instruct|73.9|40|
 |商用|ERNIE-3.5-8K|73.9|41|
-|商用|MiniMax-Text-01|73.9|42|
+|开源|MiniMax-Text-01|73.9|42|
 |商用|360gpt2-o1|73.9|43|
 |商用|mistral-large|73.9|44|
 |商用|ERNIE-4.0-Turbo-8K|70.0|45|

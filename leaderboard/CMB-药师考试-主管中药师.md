@@ -30,7 +30,7 @@
 |商用|yi-lightning|74.5|27|
 |商用|gemini-2.0-pro-exp-02-05|73.5|28|
 |开源|DeepSeek-R1-Distill-Qwen-32B|73.0|29|
-|商用|MiniMax-Text-01|72.5|30|
+|开源|MiniMax-Text-01|72.5|30|
 |商用|Baichuan4-Turbo|72.0|31|
 |开源|qwen2.5-32b-instruct|72.0|32|
 |商用|360zhinao2-o1|72.0|33|

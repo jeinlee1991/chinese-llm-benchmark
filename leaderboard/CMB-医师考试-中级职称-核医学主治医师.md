@@ -21,7 +21,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|79.0|18|
 |商用|yi-lightning|79.0|19|
 |商用|hunyuan-standard|78.0|20|
-|商用|MiniMax-Text-01|78.0|21|
+|开源|MiniMax-Text-01|78.0|21|
 |商用|qwen-turbo|78.0|22|
 |商用|GLM-4-Air|77.0|23|
 |商用|360gpt-pro|77.0|24|

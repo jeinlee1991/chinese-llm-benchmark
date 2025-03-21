@@ -26,7 +26,7 @@
 |商用|qwen-plus|77.0|23|
 |开源|qwq-32b-preview|77.0|24|
 |开源|qwq-32b(new)|76.5|25|
-|商用|MiniMax-Text-01|76.0|26|
+|开源|MiniMax-Text-01|76.0|26|
 |商用|kimi-latest-8k|76.0|27|
 |商用|abab7-chat-preview|75.0|28|
 |商用|ERNIE-4.0|74.0|29|

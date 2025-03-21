@@ -20,7 +20,7 @@
 |商用|360gpt2-pro|85.7|17|
 |开源|deepseek-chat-v3|85.7|18|
 |商用|abab7-chat-preview|84.6|19|
-|商用|MiniMax-Text-01|84.6|20|
+|开源|MiniMax-Text-01|84.6|20|
 |商用|qwq-plus-2025-03-05(new)|83.5|21|
 |商用|SenseChat-5-1202|83.5|22|
 |商用|xunfei-spark-max|82.4|23|

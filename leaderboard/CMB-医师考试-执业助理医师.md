@@ -29,7 +29,7 @@
 |开源|deepseek-chat-v3|75.3|26|
 |商用|Baichuan4-Turbo|75.2|27|
 |开源|qwen2.5-32b-instruct|75.1|28|
-|商用|MiniMax-Text-01|74.9|29|
+|开源|MiniMax-Text-01|74.9|29|
 |商用|yi-lightning|74.7|30|
 |商用|GLM-4-Flash|74.4|31|
 |商用|SenseChat-5-beta|74.0|32|

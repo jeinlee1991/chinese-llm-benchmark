@@ -53,7 +53,7 @@
 |商用|step-1-8k|91.2|50|
 |开源|Hermes-3-Llama-3.1-405B|91.2|51|
 |开源|Meta-Llama-3.1-405B-Instruct|91.2|52|
-|商用|MiniMax-Text-01|91.2|53|
+|开源|MiniMax-Text-01|91.2|53|
 |开源|Mistral-Small-24B-Instruct-2501(new)|91.2|54|
 |商用|gemini-2.0-flash-001|91.2|55|
 |开源|internlm2_5-20b-chat|91.2|56|

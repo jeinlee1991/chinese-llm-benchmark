@@ -29,7 +29,7 @@
 |商用|gemini-2.0-flash-exp|66.0|26|
 |开源|qwen2.5-72b-instruct|66.0|27|
 |商用|qwen-plus|66.0|28|
-|商用|MiniMax-Text-01|66.0|29|
+|开源|MiniMax-Text-01|66.0|29|
 |商用|gemini-2.0-flash-thinking-exp-01-21|66.0|30|
 |商用|SenseChat-5-1202|65.0|31|
 |商用|Baichuan4-Turbo|65.0|32|

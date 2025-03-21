@@ -77,7 +77,7 @@
 |开源|qwen2.5-1.5b-instruct|54.5|74|
 |商用|ERNIE-Lite-Pro-128K|54.5|75|
 |商用|o1-mini|54.5|76|
-|商用|MiniMax-Text-01|54.5|77|
+|开源|MiniMax-Text-01|54.5|77|
 |商用|step-2-mini(new)|54.5|78|
 |商用|Baichuan4-Air|54.5|79|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|54.5|80|

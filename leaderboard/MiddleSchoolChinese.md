@@ -53,7 +53,7 @@
 |开源|deepseek-chat-v3|81.0|50|
 |开源|DeepSeek-R1-Distill-Llama-70B|76.2|51|
 |商用|yi-lightning|76.2|52|
-|商用|MiniMax-Text-01|76.2|53|
+|开源|MiniMax-Text-01|76.2|53|
 |商用|gemini-1.5-flash|76.2|54|
 |开源|Yi-1.5-9B-Chat|76.2|55|
 |开源|internlm2_5-20b-chat|76.2|56|

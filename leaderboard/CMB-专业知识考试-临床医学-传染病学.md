@@ -37,7 +37,7 @@
 |商用|SenseChat-Turbo-1202|70.0|34|
 |商用|xunfei-4.0Ultra|70.0|35|
 |开源|qwen2.5-32b-instruct|69.5|36|
-|商用|MiniMax-Text-01|69.5|37|
+|开源|MiniMax-Text-01|69.5|37|
 |商用|GLM-4-Air|69.5|38|
 |商用|GLM-4-AirX|69.0|39|
 |商用|gemini-2.0-flash-001|69.0|40|

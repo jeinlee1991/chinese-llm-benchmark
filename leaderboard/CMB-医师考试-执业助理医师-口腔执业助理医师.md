@@ -36,7 +36,7 @@
 |开源|deepseek-chat-v3|68.5|33|
 |商用|yi-lightning|68.5|34|
 |商用|360zhinao2-o1|68.0|35|
-|商用|MiniMax-Text-01|67.8|36|
+|开源|MiniMax-Text-01|67.8|36|
 |商用|360gpt-turbo|67.0|37|
 |商用|step-2-mini(new)|67.0|38|
 |商用|gemini-2.0-flash-exp|67.0|39|

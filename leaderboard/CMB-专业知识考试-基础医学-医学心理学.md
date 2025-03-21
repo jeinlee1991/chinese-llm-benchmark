@@ -15,7 +15,7 @@
 |商用|kimi-latest-8k|78.0|12|
 |开源|qwq-32b(new)|77.5|13|
 |商用|qwq-plus-2025-03-05(new)|77.0|14|
-|商用|MiniMax-Text-01|77.0|15|
+|开源|MiniMax-Text-01|77.0|15|
 |商用|qwen2.5-max|77.0|16|
 |开源|Meta-Llama-3.1-405B-Instruct|75.5|17|
 |开源|qwen2.5-32b-instruct|75.0|18|

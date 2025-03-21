@@ -37,7 +37,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|80.5|34|
 |商用|Claude-3.5-Sonnet|80.0|35|
 |商用|SenseChat-5-beta|80.0|36|
-|商用|MiniMax-Text-01|80.0|37|
+|开源|MiniMax-Text-01|80.0|37|
 |开源|Llama-3.3-70B-Instruct|80.0|38|
 |商用|360gpt2-o1|79.0|39|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|78.5|40|

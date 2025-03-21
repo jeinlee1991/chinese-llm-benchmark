@@ -35,7 +35,7 @@
 |商用|SenseChat-5-beta|68.0|32|
 |商用|gemini-2.0-pro-exp-02-05|68.0|33|
 |开源|internlm2_5-7b-chat|67.5|34|
-|商用|MiniMax-Text-01|67.0|35|
+|开源|MiniMax-Text-01|67.0|35|
 |商用|GLM-4-Air|66.5|36|
 |开源|qwen2.5-32b-instruct|66.0|37|
 |商用|GLM-4-AirX|66.0|38|

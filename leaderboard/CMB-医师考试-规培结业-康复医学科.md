@@ -47,7 +47,7 @@
 |商用|gemini-1.5-pro|79.0|44|
 |开源|qwen2.5-7b-instruct|78.0|45|
 |开源|glm-4-9b-chat|78.0|46|
-|商用|MiniMax-Text-01|78.0|47|
+|开源|MiniMax-Text-01|78.0|47|
 |开源|DeepSeek-R1-Distill-Qwen-32B|78.0|48|
 |商用|xunfei-spark-pro|78.0|49|
 |商用|SenseChat-5-beta|77.0|50|

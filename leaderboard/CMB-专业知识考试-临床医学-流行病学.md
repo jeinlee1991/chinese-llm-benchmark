@@ -45,7 +45,7 @@
 |商用|SenseChat-5-beta|71.0|42|
 |开源|qwq-32b-preview|70.5|43|
 |商用|abab7-chat-preview|70.5|44|
-|商用|MiniMax-Text-01|70.0|45|
+|开源|MiniMax-Text-01|70.0|45|
 |商用|Baichuan4|70.0|46|
 |商用|ERNIE-4.0|70.0|47|
 |商用|gemini-2.0-flash-thinking-exp-01-21|69.5|48|

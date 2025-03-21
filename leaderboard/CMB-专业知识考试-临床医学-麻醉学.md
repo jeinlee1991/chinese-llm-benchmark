@@ -36,7 +36,7 @@
 |商用|hunyuan-standard|76.5|33|
 |开源|deepseek-chat-v3|76.0|34|
 |开源|qwen2.5-32b-instruct|76.0|35|
-|商用|MiniMax-Text-01|76.0|36|
+|开源|MiniMax-Text-01|76.0|36|
 |商用|SenseChat-5-beta|75.0|37|
 |商用|GLM-4-Air|75.0|38|
 |商用|ERNIE-3.5-8K|74.5|39|

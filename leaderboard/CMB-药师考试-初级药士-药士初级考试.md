@@ -24,7 +24,7 @@
 |开源|qwen2.5-32b-instruct|82.0|21|
 |商用|hunyuan-standard|82.0|22|
 |商用|360zhinao2-o1|81.0|23|
-|商用|MiniMax-Text-01|80.5|24|
+|开源|MiniMax-Text-01|80.5|24|
 |商用|abab7-chat-preview|80.0|25|
 |商用|GLM-4-Plus|80.0|26|
 |商用|yi-lightning|80.0|27|

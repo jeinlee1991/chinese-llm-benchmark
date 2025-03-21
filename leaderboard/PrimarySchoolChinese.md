@@ -24,7 +24,7 @@
 |商用|hunyuan-turbo|87.5|21|
 |商用|moonshot-v1-8k|81.2|22|
 |开源|DeepSeek-R1-Distill-Qwen-32B|81.2|23|
-|商用|MiniMax-Text-01|81.2|24|
+|开源|MiniMax-Text-01|81.2|24|
 |商用|GLM-Zero-Preview|81.2|25|
 |商用|gemini-2.0-flash-exp|81.2|26|
 |开源|hunyuan-large|81.2|27|

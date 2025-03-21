@@ -52,7 +52,7 @@
 |商用|gemini-2.0-flash-001|78.6|49|
 |商用|GLM-4-Flash|76.9|50|
 |商用|o1-mini|71.4|51|
-|商用|MiniMax-Text-01|71.4|52|
+|开源|MiniMax-Text-01|71.4|52|
 |开源|DeepSeek-R1-Distill-Llama-70B|71.4|53|
 |商用|GLM-4-AirX|71.4|54|
 |商用|GLM-4-Long|71.4|55|

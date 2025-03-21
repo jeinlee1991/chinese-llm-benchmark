@@ -35,7 +35,7 @@
 |开源|DeepSeek-R1-Distill-Llama-70B|60.0|32|
 |开源|qwen2.5-14b-instruct|59.5|33|
 |商用|gemini-2.0-flash-exp|59.5|34|
-|商用|MiniMax-Text-01|59.5|35|
+|开源|MiniMax-Text-01|59.5|35|
 |商用|o3-mini|59.0|36|
 |开源|DeepSeek-R1-Distill-Qwen-32B|59.0|37|
 |商用|qwen-turbo|58.5|38|

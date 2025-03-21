@@ -51,7 +51,7 @@
 |商用|Baichuan4-Turbo|86.4|48|
 |商用|SenseChat-Turbo-1202|86.4|49|
 |商用|GLM-Zero-Preview|86.4|50|
-|商用|MiniMax-Text-01|86.4|51|
+|开源|MiniMax-Text-01|86.4|51|
 |商用|gemini-2.0-flash-thinking-exp-01-21|81.8|52|
 |开源|DeepSeek-R1-Distill-Qwen-7B|81.8|53|
 |商用|step-1-8k|81.8|54|

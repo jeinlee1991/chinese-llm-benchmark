@@ -49,7 +49,7 @@
 |商用|xunfei-4.0Ultra|80.0|46|
 |开源|DeepSeek-R1-Distill-Llama-70B|79.1|47|
 |开源|internlm2_5-7b-chat|79.1|48|
-|商用|MiniMax-Text-01|79.1|49|
+|开源|MiniMax-Text-01|79.1|49|
 |商用|hunyuan-standard|78.5|50|
 |开源|qwen2.5-7b-instruct|78.5|51|
 |开源|qwq-32b-preview|78.5|52|

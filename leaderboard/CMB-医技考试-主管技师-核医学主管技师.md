@@ -4,7 +4,7 @@
 |开源|hunyuan-large|86.2|1|
 |商用|hunyuan-turbos-20250226(new)|86.2|2|
 |商用|xunfei-4.0Ultra|80.0|3|
-|商用|MiniMax-Text-01|79.3|4|
+|开源|MiniMax-Text-01|79.3|4|
 |商用|abab7-chat-preview|79.3|5|
 |商用|gemini-2.0-pro-exp-02-05|75.9|6|
 |开源|DeepSeek-R1|72.4|7|

@@ -37,7 +37,7 @@
 |商用|chatgpt-4o-latest|79.0|34|
 |商用|abab7-chat-preview|79.0|35|
 |商用|Baichuan4-Turbo|79.0|36|
-|商用|MiniMax-Text-01|78.0|37|
+|开源|MiniMax-Text-01|78.0|37|
 |商用|GLM-4-Long|78.0|38|
 |商用|GLM-4-Air|77.0|39|
 |商用|GLM-4-AirX|77.0|40|

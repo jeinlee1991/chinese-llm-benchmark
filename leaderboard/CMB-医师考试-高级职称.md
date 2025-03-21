@@ -42,7 +42,7 @@
 |商用|abab7-chat-preview|56.8|39|
 |商用|360gpt-turbo|56.8|40|
 |商用|ERNIE-4.0|56.5|41|
-|商用|MiniMax-Text-01|56.1|42|
+|开源|MiniMax-Text-01|56.1|42|
 |商用|Baichuan4|56.0|43|
 |商用|o3-mini|55.6|44|
 |开源|Llama-3.3-70B-Instruct|55.6|45|

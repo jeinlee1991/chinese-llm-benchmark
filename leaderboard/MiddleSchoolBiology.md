@@ -15,7 +15,7 @@
 |商用|gemini-2.0-pro-exp-02-05|100.0|12|
 |商用|gemini-2.0-flash-001|100.0|13|
 |开源|DeepSeek-R1-Distill-Qwen-32B|100.0|14|
-|商用|MiniMax-Text-01|100.0|15|
+|开源|MiniMax-Text-01|100.0|15|
 |商用|chatgpt-4o-latest|100.0|16|
 |商用|Doubao-1.5-pro-32k-250115|100.0|17|
 |商用|SenseChat-5-1202|100.0|18|

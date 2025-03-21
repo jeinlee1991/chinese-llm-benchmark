@@ -23,7 +23,7 @@
 |商用|GLM-4-Plus|77.0|20|
 |商用|yi-lightning|77.0|21|
 |商用|qwen-turbo|76.0|22|
-|商用|MiniMax-Text-01|76.0|23|
+|开源|MiniMax-Text-01|76.0|23|
 |开源|qwq-32b-preview|76.0|24|
 |商用|qwen-plus|76.0|25|
 |商用|SenseChat-5-beta|76.0|26|

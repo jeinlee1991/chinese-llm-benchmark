@@ -34,7 +34,7 @@
 |商用|abab7-chat-preview|78.7|31|
 |商用|yi-lightning|78.2|32|
 |开源|Llama-3.3-70B-Instruct|78.2|33|
-|商用|MiniMax-Text-01|78.2|34|
+|开源|MiniMax-Text-01|78.2|34|
 |商用|xunfei-spark-max|78.0|35|
 |商用|xunfei-4.0Ultra|78.0|36|
 |商用|gemini-1.5-pro|77.7|37|

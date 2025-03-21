@@ -20,7 +20,7 @@
 |商用|gemini-2.0-pro-exp-02-05|81.2|17|
 |开源|hunyuan-large|81.2|18|
 |商用|xunfei-spark-pro|81.2|19|
-|商用|MiniMax-Text-01|81.2|20|
+|开源|MiniMax-Text-01|81.2|20|
 |开源|qwen2.5-14b-instruct|81.2|21|
 |开源|Yi-1.5-34B-Chat|81.2|22|
 |商用|ERNIE-4.0-Turbo-8K|81.2|23|

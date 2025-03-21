@@ -30,7 +30,7 @@
 |开源|DeepSeek-R1|100.0|27|
 |商用|gemini-2.0-flash-001|100.0|28|
 |商用|o3-mini|100.0|29|
-|商用|MiniMax-Text-01|100.0|30|
+|开源|MiniMax-Text-01|100.0|30|
 |商用|GLM-Zero-Preview|100.0|31|
 |商用|kimi-latest-8k|100.0|32|
 |商用|qwen2.5-max|100.0|33|

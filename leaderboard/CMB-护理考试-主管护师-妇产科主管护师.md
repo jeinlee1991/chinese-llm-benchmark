@@ -15,7 +15,7 @@
 |开源|qwq-32b-preview|91.7|12|
 |开源|deepseek-chat-v3|91.7|13|
 |商用|kimi-latest-8k|91.7|14|
-|商用|MiniMax-Text-01|91.7|15|
+|开源|MiniMax-Text-01|91.7|15|
 |商用|qwq-plus-2025-03-05(new)|91.7|16|
 |商用|Doubao-1.5-lite-32k-250115|91.7|17|
 |商用|xunfei-spark-pro|91.7|18|

@@ -52,7 +52,7 @@
 |开源|qwen2.5-14b-instruct|64.3|49|
 |商用|o3-mini|64.3|50|
 |开源|Llama-3.3-70B-Instruct-fp8|64.3|51|
-|商用|MiniMax-Text-01|64.3|52|
+|开源|MiniMax-Text-01|64.3|52|
 |商用|qwen-turbo|64.3|53|
 |开源|gemma-3-27b-it(new)|62.5|54|
 |商用|Baichuan4-Air|60.7|55|

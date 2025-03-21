@@ -51,7 +51,7 @@
 |商用|qwen-plus|64.0|48|
 |商用|GLM-4-Air|64.0|49|
 |商用|o1-mini|64.0|50|
-|商用|MiniMax-Text-01|64.0|51|
+|开源|MiniMax-Text-01|64.0|51|
 |商用|GLM-4-AirX|63.0|52|
 |开源|internlm2_5-7b-chat|63.0|53|
 |商用|moonshot-v1-8k|62.0|54|

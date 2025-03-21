@@ -33,7 +33,7 @@
 |商用|chatgpt-4o-latest|75.7|30|
 |商用|qwen-turbo|75.6|31|
 |商用|gemini-2.0-flash-thinking-exp-01-21|75.1|32|
-|商用|MiniMax-Text-01|74.7|33|
+|开源|MiniMax-Text-01|74.7|33|
 |商用|SenseChat-5-1202|74.4|34|
 |开源|qwen2.5-32b-instruct|74.2|35|
 |商用|gemini-2.0-flash-exp|74.1|36|

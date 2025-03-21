@@ -49,7 +49,7 @@
 |开源|internlm2_5-20b-chat|66.7|46|
 |开源|qwen2.5-32b-instruct|66.7|47|
 |商用|gemini-2.0-flash-001|66.7|48|
-|商用|MiniMax-Text-01|66.7|49|
+|开源|MiniMax-Text-01|66.7|49|
 |开源|phi-4|66.7|50|
 |商用|step-1-8k|66.7|51|
 |商用|Baichuan4-Air|66.7|52|

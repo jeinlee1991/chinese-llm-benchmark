@@ -17,7 +17,7 @@
 |商用|Doubao-1.5-lite-32k-250115|79.7|14|
 |商用|hunyuan-standard|79.7|15|
 |商用|abab7-chat-preview|78.1|16|
-|商用|MiniMax-Text-01|76.6|17|
+|开源|MiniMax-Text-01|76.6|17|
 |商用|qwen-plus|76.6|18|
 |开源|DeepSeek-R1-Distill-Qwen-32B|75.0|19|
 |开源|qwen2.5-32b-instruct|75.0|20|

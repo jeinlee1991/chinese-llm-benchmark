@@ -20,7 +20,7 @@
 |开源|qwen2.5-72b-instruct|67.0|17|
 |商用|360zhinao2-o1|66.0|18|
 |开源|deepseek-chat-v3|65.8|19|
-|商用|MiniMax-Text-01|65.8|20|
+|开源|MiniMax-Text-01|65.8|20|
 |商用|GLM-4-Air|64.9|21|
 |商用|360gpt-pro|64.9|22|
 |商用|Baichuan4-Turbo|64.9|23|

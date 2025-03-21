@@ -33,7 +33,7 @@
 |商用|qwen-turbo|72.1|30|
 |商用|qwen-long|72.1|31|
 |商用|gemini-2.0-pro-exp-02-05|72.1|32|
-|商用|MiniMax-Text-01|70.6|33|
+|开源|MiniMax-Text-01|70.6|33|
 |开源|qwq-32b(new)|70.6|34|
 |商用|gemini-2.0-flash-exp|69.1|35|
 |商用|yi-lightning|69.1|36|

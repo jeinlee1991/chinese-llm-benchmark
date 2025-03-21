@@ -33,7 +33,7 @@
 |商用|360gpt2-pro|63.0|30|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|63.0|31|
 |商用|SenseChat-5-1202|63.0|32|
-|商用|MiniMax-Text-01|63.0|33|
+|开源|MiniMax-Text-01|63.0|33|
 |商用|360zhinao2-o1|63.0|34|
 |开源|Llama-3.3-70B-Instruct-fp8|63.0|35|
 |开源|Llama-3.3-70B-Instruct|62.0|36|

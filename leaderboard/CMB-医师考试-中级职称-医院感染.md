@@ -31,7 +31,7 @@
 |商用|SenseChat-5-1202|56.0|28|
 |商用|qwen-turbo|55.0|29|
 |开源|internlm2_5-20b-chat|54.0|30|
-|商用|MiniMax-Text-01|54.0|31|
+|开源|MiniMax-Text-01|54.0|31|
 |商用|GLM-4-Flash|53.0|32|
 |商用|GLM-4-Air|53.0|33|
 |开源|qwen2.5-7b-instruct|53.0|34|

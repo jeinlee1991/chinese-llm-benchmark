@@ -24,7 +24,7 @@
 |商用|qwen-plus|78.8|21|
 |开源|qwen2.5-32b-instruct|78.5|22|
 |商用|xunfei-4.0Ultra|78.0|23|
-|商用|MiniMax-Text-01|78.0|24|
+|开源|MiniMax-Text-01|78.0|24|
 |商用|gemini-2.0-pro-exp-02-05|77.5|25|
 |商用|gemini-2.0-flash-thinking-exp-01-21|77.0|26|
 |商用|abab7-chat-preview|76.9|27|

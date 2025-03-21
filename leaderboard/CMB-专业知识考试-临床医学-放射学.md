@@ -29,7 +29,7 @@
 |商用|kimi-latest-8k|70.0|26|
 |商用|360gpt2-o1|70.0|27|
 |商用|Baichuan4|70.0|28|
-|商用|MiniMax-Text-01|69.5|29|
+|开源|MiniMax-Text-01|69.5|29|
 |商用|xunfei-spark-max|69.0|30|
 |商用|xunfei-spark-pro|69.0|31|
 |商用|GLM-4-AirX|68.5|32|

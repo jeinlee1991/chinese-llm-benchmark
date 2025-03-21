@@ -22,7 +22,7 @@
 |商用|GLM-4-Plus|84.0|19|
 |开源|qwq-32b(new)|83.5|20|
 |商用|qwen-plus|83.0|21|
-|商用|MiniMax-Text-01|83.0|22|
+|开源|MiniMax-Text-01|83.0|22|
 |商用|SenseChat-5-beta|83.0|23|
 |商用|qwen-turbo|82.0|24|
 |商用|gemini-2.0-pro-exp-02-05|81.0|25|

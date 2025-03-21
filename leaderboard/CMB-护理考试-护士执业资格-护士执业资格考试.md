@@ -33,7 +33,7 @@
 |商用|GLM-4-Long|83.5|30|
 |开源|internlm2_5-20b-chat|83.0|31|
 |商用|Baichuan4-Turbo|82.5|32|
-|商用|MiniMax-Text-01|82.5|33|
+|开源|MiniMax-Text-01|82.5|33|
 |开源|DeepSeek-R1-Distill-Qwen-32B|82.0|34|
 |商用|360gpt-turbo|80.5|35|
 |商用|qwen-turbo|80.5|36|

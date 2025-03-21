@@ -36,7 +36,7 @@
 |开源|deepseek-chat-v3|75.5|33|
 |商用|abab7-chat-preview|75.0|34|
 |商用|ERNIE-3.5-8K|74.5|35|
-|商用|MiniMax-Text-01|74.0|36|
+|开源|MiniMax-Text-01|74.0|36|
 |商用|gemini-2.0-pro-exp-02-05|72.5|37|
 |开源|internlm2_5-20b-chat|72.5|38|
 |开源|DeepSeek-R1-Distill-Qwen-32B|72.5|39|

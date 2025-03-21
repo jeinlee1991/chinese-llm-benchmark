@@ -39,7 +39,7 @@
 |开源|Meta-Llama-3.1-405B-Instruct|55.1|36|
 |商用|gemini-2.0-flash-thinking-exp-01-21|55.1|37|
 |商用|gemini-2.0-flash-001|53.6|38|
-|商用|MiniMax-Text-01|53.6|39|
+|开源|MiniMax-Text-01|53.6|39|
 |开源|Llama-3.3-70B-Instruct|53.6|40|
 |开源|DeepSeek-R1-Distill-Llama-70B|53.6|41|
 |商用|360gpt2-o1|53.6|42|

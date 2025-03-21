@@ -38,7 +38,7 @@
 |开源|Llama-3.3-70B-Instruct|84.0|35|
 |商用|gemini-2.0-flash-thinking-exp-01-21|84.0|36|
 |商用|Baichuan4-Turbo|84.0|37|
-|商用|MiniMax-Text-01|84.0|38|
+|开源|MiniMax-Text-01|84.0|38|
 |商用|360zhinao2-o1|84.0|39|
 |商用|SenseChat-5-beta|84.0|40|
 |开源|DeepSeek-R1-Distill-Qwen-32B|84.0|41|

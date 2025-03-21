@@ -43,7 +43,7 @@
 |商用|SenseChat-5-1202|79.2|40|
 |商用|GLM-4-FlashX|79.2|41|
 |商用|SenseChat-5-beta|79.2|42|
-|商用|MiniMax-Text-01|79.2|43|
+|开源|MiniMax-Text-01|79.2|43|
 |商用|step-2-mini(new)|79.2|44|
 |商用|kimi-latest-8k|79.2|45|
 |商用|mistral-large|79.2|46|

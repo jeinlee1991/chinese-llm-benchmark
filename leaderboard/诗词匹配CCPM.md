@@ -30,7 +30,7 @@
 |商用|360gpt-turbo|85.8|27|
 |商用|qwq-plus-2025-03-05(new)|85.5|28|
 |商用|xunfei-4.0Ultra|85.0|29|
-|商用|MiniMax-Text-01|85.0|30|
+|开源|MiniMax-Text-01|85.0|30|
 |商用|yi-lightning|84.7|31|
 |商用|step-2-mini(new)|84.7|32|
 |商用|gemini-1.5-pro|84.2|33|

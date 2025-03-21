@@ -48,7 +48,7 @@
 |商用|SenseChat-5-1202|73.3|45|
 |商用|360zhinao2-o1|73.3|46|
 |开源|DeepSeek-R1|73.3|47|
-|商用|MiniMax-Text-01|73.3|48|
+|开源|MiniMax-Text-01|73.3|48|
 |商用|360gpt-turbo|73.3|49|
 |商用|step-1-8k|73.3|50|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|73.3|51|

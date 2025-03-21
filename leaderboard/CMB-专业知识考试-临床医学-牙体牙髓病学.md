@@ -42,7 +42,7 @@
 |商用|SenseChat-5-beta|52.0|39|
 |商用|SenseChat-5-1202|52.0|40|
 |商用|GLM-4-Air|51.0|41|
-|商用|MiniMax-Text-01|51.0|42|
+|开源|MiniMax-Text-01|51.0|42|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|50.5|43|
 |商用|GLM-4-AirX|50.5|44|
 |商用|chatgpt-4o-latest|50.0|45|

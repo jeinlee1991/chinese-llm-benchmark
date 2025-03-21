@@ -30,7 +30,7 @@
 |开源|DeepSeek-R1-Distill-Qwen-32B|100.0|27|
 |开源|DeepSeek-R1|100.0|28|
 |商用|gemini-2.0-pro-exp-02-05|100.0|29|
-|商用|MiniMax-Text-01|100.0|30|
+|开源|MiniMax-Text-01|100.0|30|
 |商用|SenseChat-5-1202|100.0|31|
 |商用|GLM-Zero-Preview|100.0|32|
 |商用|hunyuan-turbos-20250226(new)|100.0|33|

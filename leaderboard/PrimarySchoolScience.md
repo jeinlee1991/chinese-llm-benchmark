@@ -43,7 +43,7 @@
 |商用|gemini-2.0-flash-exp|84.6|40|
 |商用|ERNIE-4.0-Turbo-8K|84.6|41|
 |商用|o1-mini|84.6|42|
-|商用|MiniMax-Text-01|84.6|43|
+|开源|MiniMax-Text-01|84.6|43|
 |开源|DeepSeek-R1-Distill-Qwen-32B|84.6|44|
 |商用|hunyuan-turbos-20250226(new)|84.6|45|
 |商用|GLM-4-FlashX|76.9|46|

@@ -7,7 +7,7 @@
 |开源|DeepSeek-R1|86.0|4|
 |商用|qwq-plus-2025-03-05(new)|85.0|5|
 |开源|qwq-32b(new)|84.5|6|
-|商用|MiniMax-Text-01|84.0|7|
+|开源|MiniMax-Text-01|84.0|7|
 |商用|Doubao-1.5-lite-32k-250115|84.0|8|
 |商用|xunfei-4.0Ultra|83.3|9|
 |商用|Claude-3.5-Sonnet|83.3|10|

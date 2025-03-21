@@ -44,7 +44,7 @@
 |商用|SenseChat-Turbo-1202|80.8|41|
 |商用|360gpt-pro|80.8|42|
 |商用|360gpt2-pro|80.8|43|
-|商用|MiniMax-Text-01|80.8|44|
+|开源|MiniMax-Text-01|80.8|44|
 |商用|SenseChat-5-beta|80.8|45|
 |开源|Hermes-3-Llama-3.1-405B|80.8|46|
 |商用|gemini-2.0-flash-exp|80.8|47|

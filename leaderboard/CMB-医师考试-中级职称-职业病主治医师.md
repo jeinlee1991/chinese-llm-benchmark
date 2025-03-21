@@ -24,7 +24,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|71.9|21|
 |开源|Meta-Llama-3.1-405B-Instruct|71.9|22|
 |商用|GLM-4-Plus|71.9|23|
-|商用|MiniMax-Text-01|71.9|24|
+|开源|MiniMax-Text-01|71.9|24|
 |商用|ERNIE-Speed-8K|70.4|25|
 |商用|hunyuan-standard|68.8|26|
 |商用|GLM-4-AirX|68.8|27|

@@ -38,7 +38,7 @@
 |开源|internlm2_5-7b-chat|51.0|35|
 |商用|GLM-4-Plus|51.0|36|
 |商用|SenseChat-5-1202|51.0|37|
-|商用|MiniMax-Text-01|51.0|38|
+|开源|MiniMax-Text-01|51.0|38|
 |商用|ERNIE-3.5-8K|51.0|39|
 |开源|DeepSeek-R1-Distill-Qwen-14B|50.0|40|
 |商用|Claude-3.5-Sonnet|49.0|41|

@@ -18,7 +18,7 @@
 |商用|kimi-latest-8k|83.0|15|
 |商用|Baichuan4-Turbo|81.0|16|
 |商用|abab7-chat-preview|81.0|17|
-|商用|MiniMax-Text-01|80.0|18|
+|开源|MiniMax-Text-01|80.0|18|
 |商用|360gpt2-pro|80.0|19|
 |商用|GLM-4-Flash|79.3|20|
 |开源|DeepSeek-R1-Distill-Qwen-32B|79.0|21|

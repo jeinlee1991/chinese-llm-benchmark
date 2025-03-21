@@ -25,7 +25,7 @@
 |商用|gemini-2.0-flash-001|63.5|22|
 |商用|yi-lightning|63.0|23|
 |开源|qwq-32b-preview|62.5|24|
-|商用|MiniMax-Text-01|62.5|25|
+|开源|MiniMax-Text-01|62.5|25|
 |商用|xunfei-4.0Ultra|62.0|26|
 |商用|SenseChat-5-1202|62.0|27|
 |商用|gemini-2.0-flash-exp|61.5|28|

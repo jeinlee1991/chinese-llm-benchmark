@@ -50,7 +50,7 @@
 |商用|GLM-4-Flash|77.0|47|
 |开源|Hermes-3-Llama-3.1-405B|77.0|48|
 |商用|ERNIE-3.5-8K|76.0|49|
-|商用|MiniMax-Text-01|76.0|50|
+|开源|MiniMax-Text-01|76.0|50|
 |开源|Llama-3.3-70B-Instruct-fp8|75.0|51|
 |开源|glm-4-9b-chat|75.0|52|
 |商用|gemini-1.5-pro|75.0|53|

@@ -47,7 +47,7 @@
 |商用|360zhinao2-o1|93.3|44|
 |开源|qwq-32b(new)|93.3|45|
 |开源|gemma-3-27b-it(new)|93.3|46|
-|商用|MiniMax-Text-01|93.3|47|
+|开源|MiniMax-Text-01|93.3|47|
 |商用|SenseChat-Turbo-1202|93.3|48|
 |商用|GLM-4-Long|93.3|49|
 |商用|GLM-4-Flash|93.3|50|

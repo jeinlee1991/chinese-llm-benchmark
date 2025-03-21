@@ -38,7 +38,7 @@
 |商用|Doubao-1.5-lite-32k-250115|85.8|35|
 |开源|qwen2.5-72b-instruct|85.8|36|
 |商用|360gpt2-o1|85.5|37|
-|商用|MiniMax-Text-01|85.5|38|
+|开源|MiniMax-Text-01|85.5|38|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|84.6|39|
 |商用|GLM-Zero-Preview|84.1|40|
 |商用|gemini-1.5-flash|83.3|41|

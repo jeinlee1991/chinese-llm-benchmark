@@ -41,7 +41,7 @@
 |开源|Llama-3.3-70B-Instruct|76.0|38|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|75.5|39|
 |商用|GLM-4-Flash|75.1|40|
-|商用|MiniMax-Text-01|75.0|41|
+|开源|MiniMax-Text-01|75.0|41|
 |商用|ERNIE-3.5-8K|74.5|42|
 |商用|360gpt-turbo|74.5|43|
 |开源|Llama-3.3-70B-Instruct-fp8|74.0|44|

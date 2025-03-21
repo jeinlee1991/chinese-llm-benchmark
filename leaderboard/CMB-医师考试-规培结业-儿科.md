@@ -42,7 +42,7 @@
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|75.0|39|
 |开源|qwen2.5-32b-instruct|74.0|40|
 |商用|o1-mini|74.0|41|
-|商用|MiniMax-Text-01|74.0|42|
+|开源|MiniMax-Text-01|74.0|42|
 |开源|Llama-3.3-70B-Instruct|74.0|43|
 |商用|GLM-Zero-Preview|74.0|44|
 |商用|yi-lightning|73.0|45|

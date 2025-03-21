@@ -23,7 +23,7 @@
 |商用|hunyuan-standard|77.0|20|
 |开源|qwq-32b(new)|76.5|21|
 |商用|qwen-plus|76.0|22|
-|商用|MiniMax-Text-01|76.0|23|
+|开源|MiniMax-Text-01|76.0|23|
 |商用|qwen-long|74.0|24|
 |开源|deepseek-chat-v3|74.0|25|
 |商用|gemini-2.0-flash-exp|74.0|26|

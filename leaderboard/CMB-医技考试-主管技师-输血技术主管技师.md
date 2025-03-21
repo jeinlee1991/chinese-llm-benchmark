@@ -14,7 +14,7 @@
 |商用|xunfei-spark-max|68.0|11|
 |开源|qwen2.5-72b-instruct|66.0|12|
 |商用|hunyuan-standard|66.0|13|
-|商用|MiniMax-Text-01|66.0|14|
+|开源|MiniMax-Text-01|66.0|14|
 |开源|qwq-32b(new)|66.0|15|
 |商用|gemini-2.0-pro-exp-02-05|66.0|16|
 |开源|DeepSeek-R1-Distill-Qwen-32B|64.0|17|

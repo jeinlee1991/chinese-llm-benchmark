@@ -25,7 +25,7 @@
 |商用|xunfei-spark-pro|74.1|22|
 |商用|xunfei-4.0Ultra|74.1|23|
 |商用|gemini-2.0-pro-exp-02-05|74.1|24|
-|商用|MiniMax-Text-01|74.1|25|
+|开源|MiniMax-Text-01|74.1|25|
 |商用|xunfei-spark-max|74.1|26|
 |开源|qwen2.5-72b-instruct|74.1|27|
 |商用|abab7-chat-preview|72.8|28|

@@ -34,7 +34,7 @@
 |商用|GLM-4-AirX|76.5|31|
 |开源|deepseek-chat-v3|76.5|32|
 |商用|GLM-Zero-Preview|76.0|33|
-|商用|MiniMax-Text-01|75.5|34|
+|开源|MiniMax-Text-01|75.5|34|
 |开源|qwen2.5-14b-instruct|75.5|35|
 |开源|internlm2_5-20b-chat|75.5|36|
 |商用|gemini-2.0-pro-exp-02-05|75.0|37|

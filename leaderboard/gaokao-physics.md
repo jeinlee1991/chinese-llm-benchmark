@@ -37,7 +37,7 @@
 |商用|GLM-4-Flash|69.9|34|
 |商用|ERNIE-3.5-8K|69.6|35|
 |商用|SenseChat-5-1202|69.6|36|
-|商用|MiniMax-Text-01|69.2|37|
+|开源|MiniMax-Text-01|69.2|37|
 |开源|qwen2.5-32b-instruct|68.3|38|
 |商用|abab7-chat-preview|68.3|39|
 |商用|kimi-latest-8k|67.8|40|

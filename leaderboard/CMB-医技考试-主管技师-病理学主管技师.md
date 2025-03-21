@@ -35,7 +35,7 @@
 |开源|internlm2_5-20b-chat|69.2|32|
 |开源|DeepSeek-R1-Distill-Qwen-32B|69.2|33|
 |商用|SenseChat-5-1202|69.2|34|
-|商用|MiniMax-Text-01|69.2|35|
+|开源|MiniMax-Text-01|69.2|35|
 |商用|abab7-chat-preview|65.4|36|
 |商用|gemini-1.5-flash|65.4|37|
 |商用|gemini-2.0-flash-001|65.4|38|

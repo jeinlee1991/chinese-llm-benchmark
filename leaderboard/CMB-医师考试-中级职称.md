@@ -28,7 +28,7 @@
 |商用|SenseChat-5-beta|72.1|25|
 |商用|Baichuan4-Turbo|71.2|26|
 |开源|deepseek-chat-v3|70.6|27|
-|商用|MiniMax-Text-01|70.6|28|
+|开源|MiniMax-Text-01|70.6|28|
 |商用|yi-lightning|70.5|29|
 |开源|qwen2.5-32b-instruct|70.0|30|
 |商用|qwen-turbo|69.0|31|

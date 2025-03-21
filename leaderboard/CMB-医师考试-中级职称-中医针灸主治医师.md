@@ -26,7 +26,7 @@
 |商用|qwen-long|72.0|23|
 |商用|qwen-plus|71.0|24|
 |商用|SenseChat-5-beta|71.0|25|
-|商用|MiniMax-Text-01|70.0|26|
+|开源|MiniMax-Text-01|70.0|26|
 |开源|qwen2.5-32b-instruct|70.0|27|
 |开源|qwen2.5-72b-instruct|69.0|28|
 |开源|Meta-Llama-3.1-405B-Instruct|69.0|29|

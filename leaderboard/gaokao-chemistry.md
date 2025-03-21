@@ -16,7 +16,7 @@
 |开源|qwen2.5-72b-instruct|69.2|13|
 |商用|Claude-3.5-Sonnet|68.0|14|
 |商用|gemini-2.0-pro-exp-02-05|67.8|15|
-|商用|MiniMax-Text-01|67.8|16|
+|开源|MiniMax-Text-01|67.8|16|
 |商用|SenseChat-5-beta|66.9|17|
 |商用|xunfei-4.0Ultra|66.1|18|
 |商用|GLM-4-AirX|65.6|19|

@@ -22,7 +22,7 @@
 |商用|360gpt-pro|73.3|19|
 |商用|360gpt2-pro|73.3|20|
 |商用|abab7-chat-preview|73.3|21|
-|商用|MiniMax-Text-01|72.4|22|
+|开源|MiniMax-Text-01|72.4|22|
 |开源|internlm2_5-20b-chat|72.4|23|
 |商用|qwen-turbo|72.4|24|
 |商用|GLM-4-Air|72.4|25|

@@ -37,7 +37,7 @@
 |商用|GLM-4-AirX|78.0|34|
 |商用|gemini-1.5-pro|77.5|35|
 |商用|SenseChat-5-beta|77.0|36|
-|商用|MiniMax-Text-01|77.0|37|
+|开源|MiniMax-Text-01|77.0|37|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|76.5|38|
 |开源|deepseek-chat-v3|76.5|39|
 |开源|qwen2.5-32b-instruct|76.5|40|

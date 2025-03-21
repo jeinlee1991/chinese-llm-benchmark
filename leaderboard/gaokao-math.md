@@ -45,7 +45,7 @@
 |商用|gemini-1.5-flash|74.6|42|
 |商用|360gpt-turbo|74.6|43|
 |商用|abab7-chat-preview|74.1|44|
-|商用|MiniMax-Text-01|73.9|45|
+|开源|MiniMax-Text-01|73.9|45|
 |商用|moonshot-v1-8k|73.5|46|
 |开源|qwen2.5-14b-instruct|73.5|47|
 |开源|phi-4|72.8|48|

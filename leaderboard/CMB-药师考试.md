@@ -28,7 +28,7 @@
 |商用|gemini-2.0-pro-exp-02-05|72.1|25|
 |开源|qwen2.5-32b-instruct|71.6|26|
 |商用|SenseChat-5-beta|71.2|27|
-|商用|MiniMax-Text-01|71.2|28|
+|开源|MiniMax-Text-01|71.2|28|
 |开源|deepseek-chat-v3|71.1|29|
 |商用|yi-lightning|70.9|30|
 |开源|DeepSeek-R1-Distill-Qwen-32B|70.4|31|
