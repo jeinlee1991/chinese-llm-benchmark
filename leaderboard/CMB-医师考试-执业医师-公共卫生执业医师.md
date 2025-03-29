@@ -18,14 +18,14 @@
 |商用|360gpt2-o1|80.0|15|
 |商用|hunyuan-standard|80.0|16|
 |开源|Meta-Llama-3.1-405B-Instruct|79.5|17|
-|商用|qwen-long|79.0|18|
+|商用|360gpt2-pro|79.0|18|
 |商用|360gpt-pro|79.0|19|
-|商用|360gpt2-pro|79.0|20|
-|商用|kimi-latest-8k|79.0|21|
+|商用|kimi-latest-8k|79.0|20|
+|商用|qwen-long|79.0|21|
 |商用|qwen-turbo|78.5|22|
 |商用|abab7-chat-preview|78.5|23|
-|开源|deepseek-chat-v3|78.0|24|
-|开源|MiniMax-Text-01|78.0|25|
+|开源|MiniMax-Text-01|78.0|24|
+|开源|deepseek-chat-v3|78.0|25|
 |商用|GLM-4-Plus|78.0|26|
 |商用|xunfei-spark-max|77.5|27|
 |商用|Baichuan4-Turbo|77.0|28|
@@ -50,12 +50,12 @@
 |商用|360gpt-turbo|71.0|47|
 |开源|qwen2.5-7b-instruct|71.0|48|
 |商用|gemini-2.0-flash-exp|70.5|49|
-|开源|internlm2_5-20b-chat|70.0|50|
-|商用|GLM-Zero-Preview|70.0|51|
+|商用|GLM-Zero-Preview|70.0|50|
+|开源|internlm2_5-20b-chat|70.0|51|
 |商用|ERNIE-3.5-8K|69.0|52|
-|商用|xunfei-4.0Ultra|68.0|53|
+|商用|GLM-4-Long|68.0|53|
 |商用|ERNIE-4.0|68.0|54|
-|商用|GLM-4-Long|68.0|55|
+|商用|xunfei-4.0Ultra|68.0|55|
 |开源|internlm2_5-7b-chat|67.5|56|
 |商用|gemini-1.5-pro|67.0|57|
 |开源|DeepSeek-R1-Distill-Llama-70B|67.0|58|
@@ -76,9 +76,9 @@
 |商用|Baichuan4-Air|58.5|73|
 |开源|phi-4|58.5|74|
 |商用|mistral-large|57.7|75|
-|商用|ERNIE-Lite-Pro-128K|56.5|76|
-|开源|glm-4-9b-chat|56.5|77|
-|商用|gpt-4o-mini-2024-07-18|56.5|78|
+|开源|glm-4-9b-chat|56.5|76|
+|商用|gpt-4o-mini-2024-07-18|56.5|77|
+|商用|ERNIE-Lite-Pro-128K|56.5|78|
 |商用|ERNIE-Speed-Pro-128K|56.0|79|
 |商用|o3-mini|56.0|80|
 |商用|Baichuan4|54.0|81|
@@ -96,9 +96,9 @@
 |开源|qwen2.5-1.5b-instruct|44.5|93|
 |商用|xunfei-spark-lite(new)|44.4|94|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|43.5|95|
-|开源|Llama-3.2-3B-Instruct|40.0|96|
+|开源|qwen2.5-0.5b-instruct|40.0|96|
 |开源|DeepSeek-R1-Distill-Qwen-7B|40.0|97|
-|开源|qwen2.5-0.5b-instruct|40.0|98|
+|开源|Llama-3.2-3B-Instruct|40.0|98|
 |商用|ministral-8b|37.4|99|
 |商用|ministral-3b|36.5|100|
 |开源|DeepSeek-R1-Distill-Llama-8B|36.5|101|
@@ -109,8 +109,6 @@
 |开源|Llama-3.2-1B-Instruct|26.5|106|
 |开源|gemma-3-1b-it(new)|22.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业医师-公共卫生执业医师.png)

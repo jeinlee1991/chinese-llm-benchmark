@@ -18,8 +18,8 @@
 |商用|qwen-long|77.5|15|
 |商用|GLM-4-Plus|77.0|16|
 |开源|qwen2.5-32b-instruct|76.0|17|
-|商用|qwen-plus|75.0|18|
-|商用|SenseChat-5-beta|75.0|19|
+|商用|SenseChat-5-beta|75.0|18|
+|商用|qwen-plus|75.0|19|
 |商用|SenseChat-5-1202|75.0|20|
 |商用|hunyuan-standard|71.5|21|
 |商用|Baichuan4-Turbo|70.5|22|
@@ -39,9 +39,9 @@
 |商用|ERNIE-4.0-Turbo-8K|60.0|36|
 |商用|GLM-4-Air|59.5|37|
 |开源|deepseek-chat-v3|59.0|38|
-|商用|abab7-chat-preview|59.0|39|
+|开源|MiniMax-Text-01|59.0|39|
 |商用|gemini-2.0-flash-exp|59.0|40|
-|开源|MiniMax-Text-01|59.0|41|
+|商用|abab7-chat-preview|59.0|41|
 |商用|GLM-4-Long|59.0|42|
 |商用|xunfei-spark-max|58.0|43|
 |商用|moonshot-v1-8k|58.0|44|
@@ -59,8 +59,8 @@
 |商用|Baichuan4-Air|51.0|56|
 |开源|Hermes-3-Llama-3.1-405B|51.0|57|
 |商用|abab6.5s-chat|50.5|58|
-|商用|ERNIE-4.0|50.0|59|
-|商用|Baichuan4|50.0|60|
+|商用|Baichuan4|50.0|59|
+|商用|ERNIE-4.0|50.0|60|
 |开源|glm-4-9b-chat|49.5|61|
 |商用|step-1-flash|49.0|62|
 |商用|GLM-Zero-Preview|49.0|63|
@@ -109,8 +109,6 @@
 |开源|Llama-3.2-3B-Instruct|13.5|106|
 |开源|Llama-3.2-1B-Instruct|10.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医学考研-考研政治.png)

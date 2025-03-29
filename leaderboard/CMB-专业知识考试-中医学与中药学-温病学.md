@@ -26,9 +26,9 @@
 |开源|qwq-32b-preview|61.5|23|
 |开源|deepseek-chat-v3|61.0|24|
 |商用|qwen-turbo|60.5|25|
-|开源|qwen2.5-72b-instruct|60.0|26|
+|商用|360gpt2-pro|60.0|26|
 |商用|Baichuan4-Turbo|60.0|27|
-|商用|360gpt2-pro|60.0|28|
+|开源|qwen2.5-72b-instruct|60.0|28|
 |商用|qwq-plus-2025-03-05(new)|60.0|29|
 |商用|360gpt-pro|59.5|30|
 |开源|qwen2.5-32b-instruct|58.0|31|
@@ -45,15 +45,15 @@
 |开源|DeepSeek-R1-Distill-Qwen-32B|52.0|42|
 |开源|qwen2.5-7b-instruct|51.0|43|
 |商用|GLM-4-Long|50.5|44|
-|开源|Llama-3.3-70B-Instruct-fp8|50.5|45|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|50.5|46|
-|开源|internlm2_5-7b-chat|50.0|47|
-|商用|ERNIE-4.0|50.0|48|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|50.5|45|
+|开源|Llama-3.3-70B-Instruct-fp8|50.5|46|
+|商用|ERNIE-4.0|50.0|47|
+|商用|ERNIE-4.0-Turbo-8K|50.0|48|
 |商用|step-2-mini(new)|50.0|49|
-|商用|ERNIE-4.0-Turbo-8K|50.0|50|
+|开源|internlm2_5-7b-chat|50.0|50|
 |开源|DeepSeek-R1-Distill-Qwen-14B|50.0|51|
-|商用|ERNIE-Lite-Pro-128K|49.5|52|
-|商用|GLM-4-Flash|49.5|53|
+|商用|GLM-4-Flash|49.5|52|
+|商用|ERNIE-Lite-Pro-128K|49.5|53|
 |商用|SenseChat-Turbo-1202|49.5|54|
 |商用|360gpt2-o1|49.0|55|
 |商用|GLM-4-FlashX|49.0|56|
@@ -66,8 +66,8 @@
 |开源|Llama-3.3-70B-Instruct|45.5|63|
 |商用|step-1-flash|45.0|64|
 |开源|Hermes-3-Llama-3.1-405B|45.0|65|
-|商用|moonshot-v1-8k|44.0|66|
-|商用|Baichuan4-Air|44.0|67|
+|商用|Baichuan4-Air|44.0|66|
+|商用|moonshot-v1-8k|44.0|67|
 |商用|ERNIE-Speed-8K|43.6|68|
 |商用|ERNIE-Lite-8K|43.0|69|
 |开源|Llama-3.1-8B-Instruct|42.5|70|
@@ -84,8 +84,8 @@
 |商用|mistral-small|34.0|81|
 |开源|gemma-2-27b-it|34.0|82|
 |开源|gemma-3-12b-it(new)|33.5|83|
-|开源|Meta-Llama-3.1-8B-Instruct-fp8|33.0|84|
-|商用|gpt-4o-mini-2024-07-18|33.0|85|
+|商用|gpt-4o-mini-2024-07-18|33.0|84|
+|开源|Meta-Llama-3.1-8B-Instruct-fp8|33.0|85|
 |开源|gemma-3-27b-it(new)|33.0|86|
 |开源|phi-4|33.0|87|
 |开源|Mistral-Small-24B-Instruct-2501(new)|32.5|88|
@@ -109,8 +109,6 @@
 |商用|ERNIE-Tiny-8K|22.0|106|
 |商用|Baichuan4|20.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-中医学与中药学-温病学.png)

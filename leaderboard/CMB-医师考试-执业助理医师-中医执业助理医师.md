@@ -14,8 +14,8 @@
 |商用|xunfei-spark-pro|88.5|11|
 |商用|qwq-plus-2025-03-05(new)|86.5|12|
 |商用|hunyuan-standard|84.5|13|
-|商用|GLM-4-Plus|84.0|14|
-|商用|kimi-latest-8k|84.0|15|
+|商用|kimi-latest-8k|84.0|14|
+|商用|GLM-4-Plus|84.0|15|
 |开源|qwq-32b(new)|84.0|16|
 |商用|360gpt-pro|81.5|17|
 |商用|360gpt2-pro|80.5|18|
@@ -25,15 +25,15 @@
 |商用|qwen-plus|79.0|22|
 |商用|GLM-4-Air|78.0|23|
 |商用|qwen-long|78.0|24|
-|商用|qwen-turbo|77.0|25|
-|开源|qwen2.5-72b-instruct|77.0|26|
-|开源|internlm2_5-7b-chat|77.0|27|
-|开源|qwen2.5-32b-instruct|76.5|28|
-|开源|qwen2.5-14b-instruct|76.5|29|
+|开源|qwen2.5-72b-instruct|77.0|25|
+|开源|internlm2_5-7b-chat|77.0|26|
+|商用|qwen-turbo|77.0|27|
+|开源|qwen2.5-14b-instruct|76.5|28|
+|开源|qwen2.5-32b-instruct|76.5|29|
 |商用|GLM-4-AirX|76.5|30|
 |商用|ERNIE-4.0|76.0|31|
-|商用|yi-lightning|76.0|32|
-|商用|SenseChat-5-beta|76.0|33|
+|商用|SenseChat-5-beta|76.0|32|
+|商用|yi-lightning|76.0|33|
 |商用|GLM-4-Flash|75.8|34|
 |开源|deepseek-chat-v3|75.5|35|
 |商用|abab7-chat-preview|75.0|36|
@@ -45,8 +45,8 @@
 |商用|GLM-4-Long|72.0|42|
 |商用|Baichuan4-Turbo|72.0|43|
 |商用|SenseChat-5-1202|71.0|44|
-|开源|Meta-Llama-3.1-405B-Instruct|70.0|45|
-|商用|360gpt-turbo|70.0|46|
+|商用|360gpt-turbo|70.0|45|
+|开源|Meta-Llama-3.1-405B-Instruct|70.0|46|
 |商用|360gpt2-o1|69.0|47|
 |商用|step-2-mini(new)|68.5|48|
 |开源|qwen2.5-7b-instruct|67.5|49|
@@ -58,8 +58,8 @@
 |商用|SenseChat-Turbo-1202|62.5|55|
 |商用|Baichuan4|62.0|56|
 |商用|gemini-2.0-flash-001|61.0|57|
-|商用|GLM-4-FlashX|60.5|58|
-|开源|glm-4-9b-chat|60.5|59|
+|开源|glm-4-9b-chat|60.5|58|
+|商用|GLM-4-FlashX|60.5|59|
 |商用|gemini-2.0-flash-thinking-exp-01-21|60.0|60|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|59.5|61|
 |商用|gemini-2.0-flash-exp|59.5|62|
@@ -82,13 +82,13 @@
 |商用|gemini-1.5-flash|43.0|79|
 |商用|mistral-large|43.0|80|
 |商用|Claude-3.5-Sonnet|42.0|81|
-|商用|chatgpt-4o-latest|41.0|82|
-|商用|gpt-4o-mini-2024-07-18|41.0|83|
+|商用|gpt-4o-mini-2024-07-18|41.0|82|
+|商用|chatgpt-4o-latest|41.0|83|
 |商用|o3-mini|39.0|84|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|38.0|85|
-|开源|gemma-2-27b-it|38.0|86|
+|商用|mistral-small|38.0|86|
 |开源|phi-4|38.0|87|
-|商用|mistral-small|38.0|88|
+|开源|gemma-2-27b-it|38.0|88|
 |开源|gemma-2-9b-it|37.5|89|
 |商用|o1-mini|37.0|90|
 |开源|Llama-3.2-3B-Instruct|35.5|91|
@@ -109,8 +109,6 @@
 |开源|Llama-3.2-1B-Instruct|25.5|106|
 |开源|gemma-3-1b-it(new)|24.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业助理医师-中医执业助理医师.png)

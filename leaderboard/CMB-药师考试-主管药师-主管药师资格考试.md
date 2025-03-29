@@ -13,19 +13,19 @@
 |商用|hunyuan-turbos-20250313(new)|85.0|10|
 |商用|xunfei-spark-max|82.0|11|
 |商用|kimi-latest-8k|81.0|12|
-|商用|ERNIE-4.0|80.0|13|
+|商用|360gpt-pro|80.0|13|
 |商用|ERNIE-4.0-Turbo-8K|80.0|14|
-|商用|360gpt-pro|80.0|15|
+|开源|qwen2.5-72b-instruct|80.0|15|
 |商用|Claude-3.5-Sonnet|80.0|16|
-|开源|qwen2.5-72b-instruct|80.0|17|
+|商用|ERNIE-4.0|80.0|17|
 |商用|qwq-plus-2025-03-05(new)|80.0|18|
 |开源|qwq-32b(new)|80.0|19|
 |商用|360gpt2-pro|79.5|20|
 |商用|qwen-long|78.5|21|
 |商用|xunfei-spark-pro|78.5|22|
 |开源|qwq-32b-preview|78.0|23|
-|商用|qwen-plus|77.5|24|
-|开源|qwen2.5-32b-instruct|77.5|25|
+|开源|qwen2.5-32b-instruct|77.5|24|
+|商用|qwen-plus|77.5|25|
 |商用|Baichuan4-Turbo|76.5|26|
 |商用|qwen2.5-max|76.5|27|
 |商用|SenseChat-5-beta|76.0|28|
@@ -40,8 +40,8 @@
 |商用|360zhinao2-o1|71.0|37|
 |商用|yi-lightning|70.5|38|
 |商用|chatgpt-4o-latest|70.0|39|
-|商用|Baichuan4|70.0|40|
-|商用|360gpt2-o1|70.0|41|
+|商用|360gpt2-o1|70.0|40|
+|商用|Baichuan4|70.0|41|
 |商用|GLM-4-Air|69.5|42|
 |开源|qwen2.5-14b-instruct|69.0|43|
 |商用|GLM-4-AirX|69.0|44|
@@ -56,8 +56,8 @@
 |商用|step-2-mini(new)|64.5|53|
 |开源|DeepSeek-R1-Distill-Llama-70B|64.0|54|
 |开源|internlm2_5-20b-chat|63.5|55|
-|商用|gemini-2.0-flash-001|63.0|56|
-|商用|GLM-4-Long|63.0|57|
+|商用|GLM-4-Long|63.0|56|
+|商用|gemini-2.0-flash-001|63.0|57|
 |开源|qwen2.5-7b-instruct|63.0|58|
 |开源|internlm2_5-7b-chat|62.0|59|
 |商用|SenseChat-Turbo-1202|60.0|60|
@@ -109,8 +109,6 @@
 |商用|ERNIE-Tiny-8K|22.5|106|
 |商用|ministral-3b|18.5|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-药师考试-主管药师-主管药师资格考试.png)

@@ -8,8 +8,8 @@
 |商用|hunyuan-turbos-20250313(new)|84.4|5|
 |商用|qwen-plus|82.8|6|
 |商用|hunyuan-turbo|82.0|7|
-|商用|qwen-long|81.8|8|
-|商用|qwen2.5-max|81.8|9|
+|商用|qwen2.5-max|81.8|8|
+|商用|qwen-long|81.8|9|
 |商用|yi-lightning|81.2|10|
 |开源|hunyuan-large|80.7|11|
 |开源|qwq-32b(new)|80.7|12|
@@ -17,10 +17,10 @@
 |商用|gemini-2.0-pro-exp-02-05|79.7|14|
 |商用|360gpt2-pro|79.2|15|
 |商用|360gpt-pro|78.6|16|
-|商用|hunyuan-standard|78.1|17|
-|商用|gemini-2.0-flash-001|78.1|18|
-|商用|gemini-2.0-flash-thinking-exp-01-21|78.1|19|
-|开源|deepseek-chat-v3|78.1|20|
+|商用|gemini-2.0-flash-thinking-exp-01-21|78.1|17|
+|开源|deepseek-chat-v3|78.1|18|
+|商用|hunyuan-standard|78.1|19|
+|商用|gemini-2.0-flash-001|78.1|20|
 |商用|gemini-2.0-flash-exp|77.6|21|
 |开源|qwq-32b-preview|77.6|22|
 |开源|Meta-Llama-3.1-405B-Instruct|77.1|23|
@@ -28,13 +28,13 @@
 |商用|xunfei-4.0Ultra|77.0|25|
 |商用|xunfei-spark-max|77.0|26|
 |商用|GLM-4-Plus|77.0|27|
-|商用|Doubao-1.5-lite-32k-250115|76.6|28|
-|商用|xunfei-spark-pro|76.6|29|
+|商用|xunfei-spark-pro|76.6|28|
+|商用|Doubao-1.5-lite-32k-250115|76.6|29|
 |商用|kimi-latest-8k|76.0|30|
-|商用|abab7-chat-preview|75.0|31|
-|开源|qwen2.5-32b-instruct|75.0|32|
-|开源|qwen2.5-72b-instruct|75.0|33|
-|商用|qwen-turbo|75.0|34|
+|开源|qwen2.5-72b-instruct|75.0|31|
+|商用|qwen-turbo|75.0|32|
+|商用|abab7-chat-preview|75.0|33|
+|开源|qwen2.5-32b-instruct|75.0|34|
 |开源|MiniMax-Text-01|75.0|35|
 |商用|chatgpt-4o-latest|74.0|36|
 |开源|DeepSeek-R1-Distill-Qwen-32B|74.0|37|
@@ -46,9 +46,9 @@
 |商用|o1-mini|72.0|43|
 |商用|GLM-4-Long|71.9|44|
 |商用|GLM-4-AirX|71.4|45|
-|商用|GLM-4-Air|70.8|46|
+|开源|Llama-3.3-70B-Instruct|70.8|46|
 |商用|360gpt-turbo|70.8|47|
-|开源|Llama-3.3-70B-Instruct|70.8|48|
+|商用|GLM-4-Air|70.8|48|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|70.3|49|
 |商用|ERNIE-3.5-8K|69.8|50|
 |商用|GLM-Zero-Preview|69.0|51|
@@ -64,8 +64,8 @@
 |商用|abab6.5s-chat|65.6|61|
 |开源|Hermes-3-Llama-3.1-405B|65.1|62|
 |开源|internlm2_5-20b-chat|63.5|63|
-|开源|glm-4-9b-chat|62.5|64|
-|开源|DeepSeek-R1-Distill-Qwen-14B|62.5|65|
+|开源|DeepSeek-R1-Distill-Qwen-14B|62.5|64|
+|开源|glm-4-9b-chat|62.5|65|
 |商用|step-1-8k|62.0|66|
 |商用|GLM-4-FlashX|62.0|67|
 |商用|gpt-4o-mini-2024-07-18|61.5|68|
@@ -82,9 +82,9 @@
 |商用|ERNIE-Lite-8K|53.6|79|
 |商用|ERNIE-Speed-8K|53.1|80|
 |开源|phi-4|51.6|81|
-|商用|Claude-3.5-Sonnet|50.0|82|
-|商用|ERNIE-4.0|50.0|83|
-|商用|ERNIE-4.0-Turbo-8K|50.0|84|
+|商用|ERNIE-4.0|50.0|82|
+|商用|ERNIE-4.0-Turbo-8K|50.0|83|
+|商用|Claude-3.5-Sonnet|50.0|84|
 |商用|step-1-flash|50.0|85|
 |开源|gemma-3-12b-it(new)|49.5|86|
 |开源|qwen2.5-3b-instruct|49.0|87|
@@ -109,8 +109,6 @@
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|20.3|106|
 |开源|gemma-3-1b-it(new)|17.7|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-临床医学-超声医学.png)

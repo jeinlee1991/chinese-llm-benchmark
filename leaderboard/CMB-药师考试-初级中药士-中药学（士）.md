@@ -12,9 +12,9 @@
 |商用|Doubao-1.5-lite-32k-250115|80.5|9|
 |商用|GLM-4-Plus|80.0|10|
 |商用|hunyuan-turbo|80.0|11|
-|开源|qwq-32b(new)|79.0|12|
+|商用|xunfei-spark-pro|79.0|12|
 |商用|kimi-latest-8k|79.0|13|
-|商用|xunfei-spark-pro|79.0|14|
+|开源|qwq-32b(new)|79.0|14|
 |商用|qwen2.5-max|78.5|15|
 |商用|hunyuan-standard|78.0|16|
 |商用|qwen-long|77.0|17|
@@ -24,8 +24,8 @@
 |商用|qwen-plus|75.5|21|
 |商用|abab7-chat-preview|75.0|22|
 |开源|qwen2.5-72b-instruct|73.0|23|
-|商用|gemini-2.0-pro-exp-02-05|72.5|24|
-|商用|qwen-turbo|72.5|25|
+|商用|qwen-turbo|72.5|24|
+|商用|gemini-2.0-pro-exp-02-05|72.5|25|
 |商用|360gpt2-o1|71.0|26|
 |开源|deepseek-chat-v3|70.5|27|
 |商用|ERNIE-4.0|70.0|28|
@@ -39,14 +39,14 @@
 |开源|DeepSeek-R1|66.7|36|
 |开源|internlm2_5-20b-chat|66.5|37|
 |商用|ERNIE-3.5-8K|64.5|38|
-|商用|360zhinao2-o1|64.0|39|
-|商用|SenseChat-5-1202|64.0|40|
-|开源|internlm2_5-7b-chat|64.0|41|
-|开源|qwen2.5-14b-instruct|64.0|42|
+|开源|internlm2_5-7b-chat|64.0|39|
+|开源|qwen2.5-14b-instruct|64.0|40|
+|商用|360zhinao2-o1|64.0|41|
+|商用|SenseChat-5-1202|64.0|42|
 |商用|step-2-mini(new)|63.5|43|
 |商用|360gpt-turbo|63.0|44|
-|商用|GLM-4-AirX|62.5|45|
-|商用|GLM-4-Long|62.5|46|
+|商用|GLM-4-Long|62.5|45|
+|商用|GLM-4-AirX|62.5|46|
 |商用|GLM-4-Air|62.5|47|
 |开源|qwen2.5-7b-instruct|62.5|48|
 |商用|gemini-2.0-flash-thinking-exp-01-21|61.5|49|
@@ -65,9 +65,9 @@
 |商用|ERNIE-Lite-Pro-128K|52.5|62|
 |商用|ERNIE-Speed-Pro-128K|51.5|63|
 |商用|step-1-flash|51.5|64|
-|商用|Baichuan4-Air|50.5|65|
+|开源|glm-4-9b-chat|50.5|65|
 |开源|Meta-Llama-3.1-405B-Instruct|50.5|66|
-|开源|glm-4-9b-chat|50.5|67|
+|商用|Baichuan4-Air|50.5|67|
 |商用|ERNIE-Lite-8K|50.0|68|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|49.0|69|
 |开源|qwen2.5-3b-instruct|48.5|70|
@@ -82,8 +82,8 @@
 |商用|xunfei-spark-lite(new)|37.8|79|
 |开源|qwen2.5-1.5b-instruct|36.0|80|
 |商用|mistral-large|35.0|81|
-|商用|o3-mini|33.0|82|
-|商用|gpt-4o-mini-2024-07-18|33.0|83|
+|商用|gpt-4o-mini-2024-07-18|33.0|82|
+|商用|o3-mini|33.0|83|
 |商用|o1-mini|32.0|84|
 |开源|gemma-3-27b-it(new)|30.0|85|
 |开源|gemma-2-9b-it|29.5|86|
@@ -100,8 +100,8 @@
 |开源|phi-4|25.0|97|
 |开源|Llama-3.2-3B-Instruct|24.5|98|
 |商用|ERNIE-Tiny-8K|23.5|99|
-|商用|ministral-8b|22.0|100|
-|开源|gemma-2-27b-it|22.0|101|
+|开源|gemma-2-27b-it|22.0|100|
+|商用|ministral-8b|22.0|101|
 |开源|gemma-3-1b-it(new)|21.0|102|
 |开源|Mistral-7B-Instruct-v0.3|20.5|103|
 |开源|Llama-3.2-1B-Instruct|20.5|104|
@@ -109,8 +109,6 @@
 |商用|ministral-3b|18.5|106|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|18.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-药师考试-初级中药士-中药学（士）.png)

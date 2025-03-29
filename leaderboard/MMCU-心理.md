@@ -14,8 +14,8 @@
 |商用|qwen-plus|54.0|11|
 |开源|qwen2.5-7b-instruct|53.0|12|
 |商用|Baichuan4-Turbo|53.0|13|
-|商用|hunyuan-turbo|53.0|14|
-|商用|ERNIE-4.5-8K-Preview(new)|53.0|15|
+|商用|ERNIE-4.5-8K-Preview(new)|53.0|14|
+|商用|hunyuan-turbo|53.0|15|
 |开源|qwq-32b(new)|52.5|16|
 |商用|360gpt-pro|52.0|17|
 |商用|qwen-turbo|51.5|18|
@@ -24,8 +24,8 @@
 |商用|qwen-long|51.5|21|
 |商用|xunfei-spark-pro|51.0|22|
 |开源|qwen2.5-32b-instruct|50.0|23|
-|商用|GLM-4-AirX|49.0|24|
-|商用|GLM-4-Air|49.0|25|
+|商用|GLM-4-Air|49.0|24|
+|商用|GLM-4-AirX|49.0|25|
 |商用|360gpt-turbo|48.5|26|
 |开源|qwen2.5-14b-instruct|47.5|27|
 |商用|yi-lightning|47.5|28|
@@ -43,8 +43,8 @@
 |开源|internlm2_5-20b-chat|40.3|40|
 |商用|step-1-8k|40.0|41|
 |商用|Baichuan4-Air|39.5|42|
-|商用|gemini-1.5-flash|39.0|43|
-|商用|moonshot-v1-8k|39.0|44|
+|商用|moonshot-v1-8k|39.0|43|
+|商用|gemini-1.5-flash|39.0|44|
 |商用|xunfei-spark-max|39.0|45|
 |商用|step-2-mini(new)|38.5|46|
 |商用|xunfei-4.0Ultra|38.0|47|
@@ -56,13 +56,13 @@
 |商用|ERNIE-3.5-8K|36.0|53|
 |商用|gemini-2.0-flash-001|35.5|54|
 |商用|gemini-1.5-flash-8b|35.5|55|
-|开源|glm-4-9b-chat|34.5|56|
-|开源|phi-4|34.5|57|
+|开源|phi-4|34.5|56|
+|开源|glm-4-9b-chat|34.5|57|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|34.5|58|
 |开源|gemma-3-27b-it(new)|34.0|59|
-|商用|SenseChat-5-beta|34.0|60|
+|开源|Meta-Llama-3.1-405B-Instruct|34.0|60|
 |商用|kimi-latest-8k|34.0|61|
-|开源|Meta-Llama-3.1-405B-Instruct|34.0|62|
+|商用|SenseChat-5-beta|34.0|62|
 |商用|abab6.5s-chat|33.5|63|
 |开源|qwen2.5-3b-instruct|33.5|64|
 |商用|step-1-flash|33.5|65|
@@ -76,10 +76,10 @@
 |商用|360zhinao2-o1|31.0|73|
 |商用|360gpt2-o1|31.0|74|
 |商用|ERNIE-Lite-Pro-128K|30.8|75|
-|商用|mistral-small|30.0|76|
-|商用|GLM-4-Plus|30.0|77|
-|商用|Claude-3.5-Sonnet|30.0|78|
-|商用|ERNIE-Lite-8K|30.0|79|
+|商用|GLM-4-Plus|30.0|76|
+|商用|mistral-small|30.0|77|
+|商用|ERNIE-Lite-8K|30.0|78|
+|商用|Claude-3.5-Sonnet|30.0|79|
 |开源|gemma-2-27b-it|29.0|80|
 |商用|ERNIE-Speed-Pro-128K|28.5|81|
 |开源|Mistral-Small-24B-Instruct-2501(new)|27.5|82|
@@ -93,10 +93,10 @@
 |商用|ministral-8b|22.0|90|
 |开源|Llama-3.1-8B-Instruct|22.0|91|
 |商用|o3-mini|22.0|92|
-|开源|Meta-Llama-3.1-8B-Instruct-fp8|21.0|93|
-|商用|o1-mini|21.0|94|
-|商用|GLM-Zero-Preview|21.0|95|
-|开源|DeepSeek-R1-Distill-Llama-70B|21.0|96|
+|商用|GLM-Zero-Preview|21.0|93|
+|开源|DeepSeek-R1-Distill-Llama-70B|21.0|94|
+|开源|Meta-Llama-3.1-8B-Instruct-fp8|21.0|95|
+|商用|o1-mini|21.0|96|
 |开源|DeepSeek-R1-Distill-Llama-8B|20.0|97|
 |商用|ministral-3b|19.5|98|
 |开源|Llama-3.2-3B-Instruct|18.5|99|
@@ -109,8 +109,6 @@
 |开源|Llama-3.2-1B-Instruct|12.0|106|
 |商用|ERNIE-Tiny-8K|11.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/MMCU-心理.png)

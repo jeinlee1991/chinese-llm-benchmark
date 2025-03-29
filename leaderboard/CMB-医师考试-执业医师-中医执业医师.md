@@ -4,12 +4,12 @@
 |商用|ERNIE-4.5-8K-Preview(new)|90.0|1|
 |商用|hunyuan-turbos-20250226(new)|87.5|2|
 |商用|hunyuan-turbo|87.0|3|
-|商用|Doubao-1.5-pro-32k-250115|86.0|4|
-|商用|xunfei-4.0Ultra|86.0|5|
+|商用|xunfei-4.0Ultra|86.0|4|
+|商用|Doubao-1.5-pro-32k-250115|86.0|5|
 |商用|Doubao-1.5-lite-32k-250115|85.0|6|
 |开源|hunyuan-large|83.5|7|
-|商用|xunfei-spark-max|82.0|8|
-|商用|hunyuan-turbos-20250313(new)|82.0|9|
+|商用|hunyuan-turbos-20250313(new)|82.0|8|
+|商用|xunfei-spark-max|82.0|9|
 |商用|xunfei-spark-pro|81.5|10|
 |商用|kimi-latest-8k|81.0|11|
 |开源|DeepSeek-R1|80.0|12|
@@ -39,14 +39,14 @@
 |开源|internlm2_5-7b-chat|67.5|36|
 |开源|MiniMax-Text-01|67.0|37|
 |商用|GLM-4-Air|66.5|38|
-|商用|Baichuan4|66.0|39|
+|商用|GLM-4-AirX|66.0|39|
 |开源|qwen2.5-32b-instruct|66.0|40|
-|开源|qwen2.5-14b-instruct|66.0|41|
-|商用|ERNIE-3.5-8K|66.0|42|
-|商用|GLM-4-AirX|66.0|43|
-|商用|360gpt-turbo|66.0|44|
-|商用|360zhinao2-o1|65.0|45|
-|商用|GLM-Zero-Preview|65.0|46|
+|商用|Baichuan4|66.0|41|
+|商用|360gpt-turbo|66.0|42|
+|商用|ERNIE-3.5-8K|66.0|43|
+|开源|qwen2.5-14b-instruct|66.0|44|
+|商用|GLM-Zero-Preview|65.0|45|
+|商用|360zhinao2-o1|65.0|46|
 |商用|step-2-mini(new)|63.5|47|
 |开源|internlm2_5-20b-chat|63.0|48|
 |商用|GLM-4-Long|62.0|49|
@@ -109,8 +109,6 @@
 |开源|DeepSeek-R1-Distill-Qwen-7B|20.5|106|
 |开源|Mistral-7B-Instruct-v0.3|15.5|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业医师-中医执业医师.png)

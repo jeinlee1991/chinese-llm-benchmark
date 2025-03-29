@@ -35,15 +35,15 @@
 |商用|abab7-chat-preview|62.6|32|
 |商用|GLM-4-AirX|62.5|33|
 |商用|GLM-4-Air|62.3|34|
-|商用|ERNIE-4.0-Turbo-8K|62.0|35|
-|商用|ERNIE-4.0|62.0|36|
+|商用|ERNIE-4.0|62.0|35|
+|商用|ERNIE-4.0-Turbo-8K|62.0|36|
 |开源|MiniMax-Text-01|62.0|37|
 |开源|qwen2.5-14b-instruct|61.7|38|
 |开源|internlm2_5-7b-chat|60.4|39|
 |商用|360gpt2-o1|60.2|40|
 |开源|DeepSeek-R1-Distill-Qwen-32B|60.0|41|
-|商用|360zhinao2-o1|59.6|42|
-|商用|xunfei-4.0Ultra|59.6|43|
+|商用|xunfei-4.0Ultra|59.6|42|
+|商用|360zhinao2-o1|59.6|43|
 |开源|qwen2.5-7b-instruct|59.3|44|
 |开源|internlm2_5-20b-chat|58.7|45|
 |商用|gemini-2.0-flash-exp|58.1|46|
@@ -72,9 +72,9 @@
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|45.5|69|
 |开源|Llama-3.3-70B-Instruct-fp8|45.1|70|
 |商用|o3-mini|45.0|71|
-|商用|mistral-large|44.9|72|
+|商用|gemini-1.5-flash|44.9|72|
 |商用|ERNIE-Speed-Pro-128K|44.9|73|
-|商用|gemini-1.5-flash|44.9|74|
+|商用|mistral-large|44.9|74|
 |开源|qwen2.5-3b-instruct|43.6|75|
 |商用|step-1-flash|43.6|76|
 |商用|gpt-4o-mini-2024-07-18|43.2|77|
@@ -109,8 +109,6 @@
 |商用|xunfei-spark-lite(new)|18.5|106|
 |开源|gemma-3-1b-it(new)|16.8|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医学考研.png)

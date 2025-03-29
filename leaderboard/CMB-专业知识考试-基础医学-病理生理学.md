@@ -4,9 +4,9 @@
 |商用|ERNIE-4.0-Turbo-8K|90.0|1|
 |商用|ERNIE-4.5-8K-Preview(new)|89.0|2|
 |开源|DeepSeek-R1|86.0|3|
-|商用|hunyuan-turbos-20250226(new)|84.0|4|
+|开源|qwen2.5-72b-instruct|84.0|4|
 |商用|hunyuan-turbo|84.0|5|
-|开源|qwen2.5-72b-instruct|84.0|6|
+|商用|hunyuan-turbos-20250226(new)|84.0|6|
 |开源|hunyuan-large|82.5|7|
 |商用|Doubao-1.5-pro-32k-250115|82.0|8|
 |商用|hunyuan-turbos-20250313(new)|80.5|9|
@@ -14,8 +14,8 @@
 |商用|SenseChat-5-beta|78.0|11|
 |商用|qwq-plus-2025-03-05(new)|78.0|12|
 |商用|qwen-long|77.5|13|
-|商用|GLM-4-Plus|77.0|14|
-|商用|chatgpt-4o-latest|77.0|15|
+|商用|chatgpt-4o-latest|77.0|14|
+|商用|GLM-4-Plus|77.0|15|
 |开源|qwq-32b(new)|77.0|16|
 |商用|hunyuan-standard|76.5|17|
 |商用|yi-lightning|76.0|18|
@@ -24,18 +24,18 @@
 |商用|qwen-plus|76.0|21|
 |商用|Doubao-1.5-lite-32k-250115|75.0|22|
 |商用|qwen-turbo|75.0|23|
-|开源|deepseek-chat-v3|75.0|24|
-|商用|360zhinao2-o1|75.0|25|
-|商用|SenseChat-5-1202|74.0|26|
-|开源|qwq-32b-preview|74.0|27|
-|商用|xunfei-4.0Ultra|74.0|28|
+|商用|360zhinao2-o1|75.0|24|
+|开源|deepseek-chat-v3|75.0|25|
+|商用|xunfei-4.0Ultra|74.0|26|
+|商用|SenseChat-5-1202|74.0|27|
+|开源|qwq-32b-preview|74.0|28|
 |开源|MiniMax-Text-01|73.5|29|
-|开源|Meta-Llama-3.1-405B-Instruct|73.0|30|
-|商用|360gpt2-pro|73.0|31|
+|商用|360gpt2-pro|73.0|30|
+|开源|Meta-Llama-3.1-405B-Instruct|73.0|31|
 |商用|xunfei-spark-max|73.0|32|
 |商用|360gpt-pro|73.0|33|
-|商用|360gpt2-o1|73.0|34|
-|商用|kimi-latest-8k|73.0|35|
+|商用|kimi-latest-8k|73.0|34|
+|商用|360gpt2-o1|73.0|35|
 |商用|gemini-2.0-pro-exp-02-05|72.5|36|
 |商用|o1-mini|72.0|37|
 |商用|Baichuan4-Turbo|71.5|38|
@@ -72,11 +72,11 @@
 |商用|GLM-4-Long|59.0|69|
 |商用|GLM-4-FlashX|57.0|70|
 |商用|GLM-4-Flash|54.7|71|
-|商用|mistral-small|54.5|72|
-|开源|Mistral-Small-24B-Instruct-2501(new)|54.5|73|
-|商用|step-2-mini(new)|54.5|74|
-|商用|moonshot-v1-8k|54.5|75|
-|商用|step-1-8k|54.5|76|
+|商用|moonshot-v1-8k|54.5|72|
+|商用|mistral-small|54.5|73|
+|商用|step-1-8k|54.5|74|
+|开源|Mistral-Small-24B-Instruct-2501(new)|54.5|75|
+|商用|step-2-mini(new)|54.5|76|
 |开源|glm-4-9b-chat|54.0|77|
 |开源|qwen2.5-3b-instruct|53.5|78|
 |商用|gemini-1.5-flash-8b|53.5|79|
@@ -109,8 +109,6 @@
 |商用|ERNIE-Tiny-8K|26.0|106|
 |开源|gemma-3-1b-it(new)|23.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-基础医学-病理生理学.png)

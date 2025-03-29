@@ -20,8 +20,8 @@
 |商用|qwen2.5-max|67.5|17|
 |商用|qwen-long|66.5|18|
 |商用|qwen-plus|65.0|19|
-|开源|qwq-32b-preview|63.5|20|
-|商用|gemini-2.0-pro-exp-02-05|63.5|21|
+|商用|gemini-2.0-pro-exp-02-05|63.5|20|
+|开源|qwq-32b-preview|63.5|21|
 |商用|Doubao-1.5-lite-32k-250115|63.5|22|
 |开源|MiniMax-Text-01|63.0|23|
 |开源|deepseek-chat-v3|61.5|24|
@@ -40,14 +40,14 @@
 |商用|SenseChat-5-1202|55.0|37|
 |商用|GLM-4-Air|53.5|38|
 |商用|GLM-4-AirX|53.5|39|
-|商用|360zhinao2-o1|53.0|40|
-|开源|Meta-Llama-3.1-405B-Instruct|53.0|41|
+|开源|Meta-Llama-3.1-405B-Instruct|53.0|40|
+|商用|360zhinao2-o1|53.0|41|
 |商用|moonshot-v1-8k|52.0|42|
 |商用|GLM-Zero-Preview|51.0|43|
 |开源|internlm2_5-20b-chat|51.0|44|
 |商用|360gpt-turbo|51.0|45|
-|商用|Baichuan4|50.0|46|
-|商用|360gpt2-o1|50.0|47|
+|商用|360gpt2-o1|50.0|46|
+|商用|Baichuan4|50.0|47|
 |商用|GLM-4-Long|49.5|48|
 |商用|gemini-2.0-flash-001|49.5|49|
 |商用|Baichuan4-Air|49.0|50|
@@ -62,12 +62,12 @@
 |开源|Llama-3.3-70B-Instruct-fp8|45.5|59|
 |商用|ERNIE-Speed-Pro-128K|45.5|60|
 |商用|step-1-8k|44.5|61|
-|开源|Llama-3.3-70B-Instruct|44.5|62|
+|商用|SenseChat-Turbo-1202|44.5|62|
 |开源|glm-4-9b-chat|44.5|63|
-|商用|SenseChat-Turbo-1202|44.5|64|
-|商用|ERNIE-Lite-Pro-128K|44.0|65|
+|开源|Llama-3.3-70B-Instruct|44.5|64|
+|商用|gemini-2.0-flash-thinking-exp-01-21|44.0|65|
 |开源|DeepSeek-R1-Distill-Llama-70B|44.0|66|
-|商用|gemini-2.0-flash-thinking-exp-01-21|44.0|67|
+|商用|ERNIE-Lite-Pro-128K|44.0|67|
 |开源|DeepSeek-R1-Distill-Qwen-14B|43.0|68|
 |商用|gemini-1.5-pro|42.0|69|
 |商用|chatgpt-4o-latest|41.0|70|
@@ -84,9 +84,9 @@
 |开源|Llama-3.1-8B-Instruct|31.5|81|
 |商用|gemini-1.5-flash-8b|31.5|82|
 |开源|qwen2.5-1.5b-instruct|30.5|83|
-|商用|ERNIE-4.0-Turbo-8K|30.0|84|
+|商用|gpt-4o-mini-2024-07-18|30.0|84|
 |开源|phi-4|30.0|85|
-|商用|gpt-4o-mini-2024-07-18|30.0|86|
+|商用|ERNIE-4.0-Turbo-8K|30.0|86|
 |开源|Mistral-Small-24B-Instruct-2501(new)|29.0|87|
 |开源|gemma-3-12b-it(new)|29.0|88|
 |开源|gemma-2-9b-it|28.5|89|
@@ -109,8 +109,6 @@
 |开源|qwen2.5-0.5b-instruct|16.0|106|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|14.5|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-中医学与中药学-内经讲义.png)

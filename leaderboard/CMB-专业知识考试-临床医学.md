@@ -109,8 +109,6 @@
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|25.1|106|
 |开源|gemma-3-1b-it(new)|24.4|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-临床医学.png)

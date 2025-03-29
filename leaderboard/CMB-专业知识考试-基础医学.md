@@ -18,12 +18,12 @@
 |商用|360gpt-pro|77.3|15|
 |商用|360gpt2-pro|77.1|16|
 |商用|yi-lightning|75.6|17|
-|商用|qwen-turbo|75.4|18|
-|商用|GLM-4-Plus|75.4|19|
+|商用|GLM-4-Plus|75.4|18|
+|商用|qwen-turbo|75.4|19|
 |开源|deepseek-chat-v3|75.3|20|
 |商用|hunyuan-standard|75.3|21|
-|商用|kimi-latest-8k|75.2|22|
-|开源|qwen2.5-72b-instruct|75.2|23|
+|开源|qwen2.5-72b-instruct|75.2|22|
+|商用|kimi-latest-8k|75.2|23|
 |商用|gemini-2.0-flash-thinking-exp-01-21|75.1|24|
 |商用|chatgpt-4o-latest|75.0|25|
 |开源|Meta-Llama-3.1-405B-Instruct|74.8|26|
@@ -109,8 +109,6 @@
 |商用|ERNIE-Tiny-8K|25.4|106|
 |开源|gemma-3-1b-it(new)|23.6|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-基础医学.png)

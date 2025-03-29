@@ -18,12 +18,12 @@
 |商用|qwen-long|77.0|15|
 |商用|SenseChat-5-1202|77.0|16|
 |商用|xunfei-spark-pro|76.0|17|
-|商用|hunyuan-standard|76.0|18|
-|开源|qwen2.5-72b-instruct|76.0|19|
+|开源|qwen2.5-72b-instruct|76.0|18|
+|商用|hunyuan-standard|76.0|19|
 |商用|360gpt-pro|75.5|20|
-|商用|SenseChat-5-beta|75.0|21|
+|商用|qwen-plus|75.0|21|
 |商用|360gpt2-pro|75.0|22|
-|商用|qwen-plus|75.0|23|
+|商用|SenseChat-5-beta|75.0|23|
 |开源|qwq-32b-preview|73.0|24|
 |开源|MiniMax-Text-01|72.0|25|
 |商用|Baichuan4-Turbo|71.5|26|
@@ -45,15 +45,15 @@
 |商用|GLM-4-Flash|64.4|42|
 |商用|ERNIE-3.5-8K|63.5|43|
 |开源|internlm2_5-20b-chat|63.5|44|
-|开源|internlm2_5-7b-chat|63.0|45|
-|商用|360zhinao2-o1|63.0|46|
+|商用|360zhinao2-o1|63.0|45|
+|开源|internlm2_5-7b-chat|63.0|46|
 |商用|step-2-mini(new)|62.5|47|
 |商用|GLM-Zero-Preview|62.0|48|
 |开源|DeepSeek-R1-Distill-Qwen-14B|62.0|49|
 |商用|gemini-2.0-flash-thinking-exp-01-21|61.0|50|
 |商用|gemini-2.0-flash-001|60.5|51|
-|商用|Baichuan4|60.0|52|
-|商用|ERNIE-4.0-Turbo-8K|60.0|53|
+|商用|ERNIE-4.0-Turbo-8K|60.0|52|
+|商用|Baichuan4|60.0|53|
 |开源|qwen2.5-7b-instruct|59.5|54|
 |商用|gemini-2.0-flash-exp|59.0|55|
 |商用|chatgpt-4o-latest|59.0|56|
@@ -64,8 +64,8 @@
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|53.0|61|
 |开源|glm-4-9b-chat|52.0|62|
 |商用|Baichuan4-Air|50.5|63|
-|商用|gemini-1.5-pro|50.0|64|
-|商用|moonshot-v1-8k|50.0|65|
+|商用|moonshot-v1-8k|50.0|64|
+|商用|gemini-1.5-pro|50.0|65|
 |商用|Claude-3.5-Sonnet|50.0|66|
 |商用|GLM-4-FlashX|49.5|67|
 |商用|step-1-flash|49.5|68|
@@ -86,9 +86,9 @@
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|36.0|83|
 |开源|Llama-3.1-8B-Instruct|35.0|84|
 |开源|gemma-3-27b-it(new)|33.0|85|
-|开源|gemma-2-9b-it|32.0|86|
+|商用|gpt-4o-mini-2024-07-18|32.0|86|
 |商用|o3-mini|32.0|87|
-|商用|gpt-4o-mini-2024-07-18|32.0|88|
+|开源|gemma-2-9b-it|32.0|88|
 |商用|mistral-small|31.0|89|
 |开源|gemma-3-12b-it(new)|30.5|90|
 |开源|phi-4|30.0|91|
@@ -109,8 +109,6 @@
 |开源|Mistral-7B-Instruct-v0.3|19.5|106|
 |开源|qwen2.5-0.5b-instruct|17.5|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-药师考试-初级中药师-中药学（师）.png)

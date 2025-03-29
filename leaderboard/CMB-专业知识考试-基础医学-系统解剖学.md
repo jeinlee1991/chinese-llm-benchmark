@@ -18,22 +18,22 @@
 |商用|qwq-plus-2025-03-05(new)|77.0|15|
 |商用|qwen-turbo|76.5|16|
 |商用|qwen-plus|76.5|17|
-|商用|xunfei-4.0Ultra|76.0|18|
+|商用|SenseChat-5-beta|76.0|18|
 |商用|gemini-2.0-flash-thinking-exp-01-21|76.0|19|
-|商用|SenseChat-5-beta|76.0|20|
+|商用|xunfei-4.0Ultra|76.0|20|
 |开源|qwq-32b-preview|75.5|21|
-|商用|chatgpt-4o-latest|75.0|22|
+|商用|SenseChat-5-1202|75.0|22|
 |商用|360gpt2-o1|75.0|23|
-|商用|SenseChat-5-1202|75.0|24|
+|商用|chatgpt-4o-latest|75.0|24|
 |商用|360gpt-pro|74.5|25|
 |商用|GLM-4-Plus|74.0|26|
 |商用|360gpt2-pro|74.0|27|
 |开源|qwq-32b(new)|74.0|28|
 |商用|yi-lightning|73.5|29|
 |商用|360zhinao2-o1|73.0|30|
-|开源|deepseek-chat-v3|72.0|31|
+|开源|Meta-Llama-3.1-405B-Instruct|72.0|31|
 |开源|qwen2.5-32b-instruct|72.0|32|
-|开源|Meta-Llama-3.1-405B-Instruct|72.0|33|
+|开源|deepseek-chat-v3|72.0|33|
 |商用|xunfei-spark-pro|71.5|34|
 |商用|gemini-2.0-flash-001|70.5|35|
 |商用|hunyuan-standard|69.5|36|
@@ -50,9 +50,9 @@
 |开源|DeepSeek-R1-Distill-Qwen-32B|64.0|47|
 |商用|GLM-4-Long|63.0|48|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|62.5|49|
-|开源|Llama-3.3-70B-Instruct-fp8|62.0|50|
+|商用|ERNIE-3.5-8K|62.0|50|
 |商用|o3-mini|62.0|51|
-|商用|ERNIE-3.5-8K|62.0|52|
+|开源|Llama-3.3-70B-Instruct-fp8|62.0|52|
 |开源|qwen2.5-7b-instruct|61.5|53|
 |开源|Llama-3.3-70B-Instruct|60.5|54|
 |商用|Claude-3.5-Sonnet|60.0|55|
@@ -109,8 +109,6 @@
 |开源|DeepSeek-R1-Distill-Qwen-7B|22.0|106|
 |开源|DeepSeek-R1-Distill-Llama-8B|22.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-基础医学-系统解剖学.png)

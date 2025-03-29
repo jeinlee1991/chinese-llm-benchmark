@@ -12,9 +12,9 @@
 |商用|hunyuan-turbos-20250313(new)|93.0|9|
 |商用|xunfei-spark-max|91.0|10|
 |商用|Doubao-1.5-lite-32k-250115|90.5|11|
-|商用|hunyuan-standard|90.0|12|
-|商用|GLM-4-Plus|90.0|13|
-|商用|ERNIE-4.0|90.0|14|
+|商用|GLM-4-Plus|90.0|12|
+|商用|ERNIE-4.0|90.0|13|
+|商用|hunyuan-standard|90.0|14|
 |商用|360gpt2-pro|89.0|15|
 |商用|360gpt-pro|89.0|16|
 |商用|kimi-latest-8k|88.0|17|
@@ -30,8 +30,8 @@
 |商用|GLM-4-Flash|84.9|27|
 |商用|abab7-chat-preview|84.5|28|
 |开源|qwen2.5-32b-instruct|84.5|29|
-|商用|qwen-plus|84.0|30|
-|开源|qwq-32b-preview|84.0|31|
+|开源|qwq-32b-preview|84.0|30|
+|商用|qwen-plus|84.0|31|
 |商用|GLM-4-Long|83.5|32|
 |开源|internlm2_5-20b-chat|83.0|33|
 |开源|MiniMax-Text-01|82.5|34|
@@ -55,11 +55,11 @@
 |商用|chatgpt-4o-latest|73.0|52|
 |商用|gemini-2.0-flash-exp|72.5|53|
 |商用|SenseChat-Turbo-1202|72.5|54|
-|商用|moonshot-v1-8k|72.0|55|
+|商用|step-2-mini(new)|72.0|55|
 |商用|GLM-Zero-Preview|72.0|56|
-|商用|step-2-mini(new)|72.0|57|
-|商用|GLM-4-FlashX|71.5|58|
-|开源|Meta-Llama-3.1-405B-Instruct|71.5|59|
+|商用|moonshot-v1-8k|72.0|57|
+|开源|Meta-Llama-3.1-405B-Instruct|71.5|58|
+|商用|GLM-4-FlashX|71.5|59|
 |商用|gemini-2.0-flash-001|69.5|60|
 |商用|ERNIE-Speed-Pro-128K|68.5|61|
 |商用|gemini-2.0-flash-thinking-exp-01-21|68.0|62|
@@ -72,11 +72,11 @@
 |商用|Baichuan4-Air|63.0|69|
 |开源|qwen2.5-1.5b-instruct|62.0|70|
 |商用|abab6.5s-chat|61.0|71|
-|商用|ERNIE-Lite-8K|60.5|72|
-|商用|gemini-1.5-flash|60.5|73|
-|商用|Claude-3.5-Sonnet|60.0|74|
+|商用|gemini-1.5-flash|60.5|72|
+|商用|ERNIE-Lite-8K|60.5|73|
+|商用|step-1-flash|60.0|74|
 |商用|Baichuan4|60.0|75|
-|商用|step-1-flash|60.0|76|
+|商用|Claude-3.5-Sonnet|60.0|76|
 |商用|step-1-8k|60.0|77|
 |开源|DeepSeek-R1-Distill-Llama-70B|59.0|78|
 |商用|gpt-4o-mini-2024-07-18|58.0|79|
@@ -96,8 +96,8 @@
 |开源|Mistral-Nemo-Instruct-2407|43.5|93|
 |商用|gemini-1.5-flash-8b|43.0|94|
 |开源|Llama-3.2-3B-Instruct|42.5|95|
-|商用|ministral-8b|37.0|96|
-|开源|qwen2.5-0.5b-instruct|37.0|97|
+|开源|qwen2.5-0.5b-instruct|37.0|96|
+|商用|ministral-8b|37.0|97|
 |开源|DeepSeek-R1-Distill-Qwen-7B|35.5|98|
 |商用|ministral-3b|33.5|99|
 |开源|DeepSeek-R1-Distill-Llama-8B|31.0|100|
@@ -108,9 +108,7 @@
 |商用|ERNIE-Tiny-8K|24.0|105|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|24.0|106|
 |开源|qwen2.5-math-72b-instruct|/|107|
-|开源|Yi-1.5-9B-Chat|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|商用|o3-mini|/|110|
+|商用|o3-mini|/|108|
 
 
 ![lin](../pic/CMB-护理考试-护士执业资格-护士执业资格考试.png)

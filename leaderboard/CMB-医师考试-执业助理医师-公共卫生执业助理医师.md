@@ -36,24 +36,24 @@
 |商用|GLM-Zero-Preview|76.0|33|
 |商用|GLM-4-Air|75.6|34|
 |商用|gemini-2.0-flash-exp|75.2|35|
-|开源|Llama-3.3-70B-Instruct|75.1|36|
-|商用|yi-lightning|75.1|37|
-|商用|GLM-4-AirX|74.5|38|
-|商用|Baichuan4-Turbo|74.5|39|
+|商用|yi-lightning|75.1|36|
+|开源|Llama-3.3-70B-Instruct|75.1|37|
+|商用|Baichuan4-Turbo|74.5|38|
+|商用|GLM-4-AirX|74.5|39|
 |开源|qwen2.5-14b-instruct|74.0|40|
 |商用|GLM-4-Flash|73.9|41|
 |商用|gemini-2.0-flash-001|73.8|42|
 |开源|internlm2_5-20b-chat|72.7|43|
 |商用|360gpt-turbo|72.5|44|
-|开源|qwen2.5-72b-instruct|72.0|45|
-|商用|ERNIE-4.0|72.0|46|
+|商用|ERNIE-4.0|72.0|45|
+|开源|qwen2.5-72b-instruct|72.0|46|
 |商用|360gpt2-o1|72.0|47|
 |开源|DeepSeek-R1-Distill-Qwen-14B|72.0|48|
 |开源|qwen2.5-7b-instruct|71.5|49|
 |商用|SenseChat-5-beta|71.0|50|
-|商用|ERNIE-4.0-Turbo-8K|71.0|51|
-|商用|360zhinao2-o1|71.0|52|
-|商用|gemini-1.5-pro|71.0|53|
+|商用|gemini-1.5-pro|71.0|51|
+|商用|ERNIE-4.0-Turbo-8K|71.0|52|
+|商用|360zhinao2-o1|71.0|53|
 |商用|ERNIE-3.5-8K|70.6|54|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|70.0|55|
 |开源|DeepSeek-R1-Distill-Qwen-32B|68.3|56|
@@ -68,8 +68,8 @@
 |商用|ERNIE-Speed-8K|64.8|65|
 |开源|glm-4-9b-chat|64.6|66|
 |商用|mistral-large|64.5|67|
-|商用|gemini-1.5-flash|63.5|68|
-|开源|Hermes-3-Llama-3.1-405B|63.5|69|
+|开源|Hermes-3-Llama-3.1-405B|63.5|68|
+|商用|gemini-1.5-flash|63.5|69|
 |开源|gemma-3-27b-it(new)|63.0|70|
 |商用|moonshot-v1-8k|63.0|71|
 |商用|mistral-small|61.5|72|
@@ -109,8 +109,6 @@
 |开源|gemma-3-1b-it(new)|28.0|106|
 |开源|Llama-3.2-1B-Instruct|27.2|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业助理医师-公共卫生执业助理医师.png)

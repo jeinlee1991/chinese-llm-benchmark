@@ -18,13 +18,13 @@
 |商用|xunfei-spark-max|69.0|15|
 |商用|kimi-latest-8k|69.0|16|
 |商用|qwen-long|68.5|17|
-|商用|abab7-chat-preview|68.5|18|
+|开源|qwq-32b(new)|68.5|18|
 |商用|gemini-2.0-pro-exp-02-05|68.5|19|
-|开源|qwq-32b(new)|68.5|20|
+|商用|abab7-chat-preview|68.5|20|
 |商用|Baichuan4-Turbo|68.0|21|
-|商用|360gpt2-pro|68.0|22|
+|商用|qwen-plus|68.0|22|
 |商用|360gpt-pro|68.0|23|
-|商用|qwen-plus|68.0|24|
+|商用|360gpt2-pro|68.0|24|
 |商用|SenseChat-5-1202|66.0|25|
 |开源|DeepSeek-R1-Distill-Qwen-32B|66.0|26|
 |开源|qwen2.5-72b-instruct|66.0|27|
@@ -34,10 +34,10 @@
 |开源|MiniMax-Text-01|62.5|31|
 |商用|gemini-2.0-flash-exp|62.0|32|
 |商用|yi-lightning|61.5|33|
-|开源|qwen2.5-14b-instruct|61.5|34|
-|商用|360gpt-turbo|61.5|35|
-|商用|360zhinao2-o1|61.0|36|
-|开源|qwen2.5-32b-instruct|61.0|37|
+|商用|360gpt-turbo|61.5|34|
+|开源|qwen2.5-14b-instruct|61.5|35|
+|开源|qwen2.5-32b-instruct|61.0|36|
+|商用|360zhinao2-o1|61.0|37|
 |商用|gemini-2.0-flash-001|61.0|38|
 |商用|360gpt2-o1|61.0|39|
 |商用|GLM-Zero-Preview|60.0|40|
@@ -80,9 +80,9 @@
 |商用|ERNIE-Speed-Pro-128K|42.0|77|
 |商用|o1-mini|41.0|78|
 |商用|ERNIE-Lite-Pro-128K|41.0|79|
-|商用|Baichuan4|40.0|80|
-|商用|ERNIE-4.0-Turbo-8K|40.0|81|
-|开源|Mistral-Small-24B-Instruct-2501(new)|40.0|82|
+|开源|Mistral-Small-24B-Instruct-2501(new)|40.0|80|
+|商用|Baichuan4|40.0|81|
+|商用|ERNIE-4.0-Turbo-8K|40.0|82|
 |开源|gemma-3-27b-it(new)|39.5|83|
 |商用|mistral-large|39.0|84|
 |商用|gemini-1.5-flash-8b|39.0|85|
@@ -109,8 +109,6 @@
 |开源|Llama-3.2-1B-Instruct|17.5|106|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|16.5|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-药师考试-执业西药师.png)

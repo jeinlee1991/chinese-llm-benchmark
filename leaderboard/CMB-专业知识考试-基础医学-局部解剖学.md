@@ -12,13 +12,13 @@
 |商用|qwen2.5-max|74.5|9|
 |商用|hunyuan-turbo|74.0|10|
 |商用|xunfei-spark-max|71.0|11|
-|商用|xunfei-spark-pro|70.0|12|
-|商用|qwen-plus|70.0|13|
+|商用|qwen-plus|70.0|12|
+|商用|xunfei-spark-pro|70.0|13|
 |商用|qwen-long|69.0|14|
 |商用|gemini-2.0-flash-thinking-exp-01-21|68.5|15|
-|商用|qwen-turbo|68.0|16|
+|商用|xunfei-4.0Ultra|68.0|16|
 |商用|360gpt-pro|68.0|17|
-|商用|xunfei-4.0Ultra|68.0|18|
+|商用|qwen-turbo|68.0|18|
 |商用|qwq-plus-2025-03-05(new)|67.5|19|
 |商用|360gpt2-pro|67.5|20|
 |商用|gemini-2.0-flash-001|67.5|21|
@@ -28,20 +28,20 @@
 |商用|kimi-latest-8k|66.0|25|
 |商用|gemini-2.0-flash-exp|65.0|26|
 |开源|qwen2.5-72b-instruct|65.0|27|
-|商用|abab7-chat-preview|65.0|28|
-|商用|SenseChat-5-beta|65.0|29|
+|商用|SenseChat-5-beta|65.0|28|
+|商用|abab7-chat-preview|65.0|29|
 |开源|deepseek-chat-v3|64.5|30|
 |开源|qwq-32b(new)|64.0|31|
-|商用|Baichuan4-Turbo|63.5|32|
+|开源|Meta-Llama-3.1-405B-Instruct|63.5|32|
 |开源|MiniMax-Text-01|63.5|33|
-|开源|Meta-Llama-3.1-405B-Instruct|63.5|34|
+|商用|Baichuan4-Turbo|63.5|34|
 |开源|qwen2.5-14b-instruct|63.0|35|
 |开源|qwq-32b-preview|63.0|36|
 |商用|yi-lightning|62.0|37|
 |商用|GLM-4-Plus|62.0|38|
 |商用|360gpt2-o1|61.0|39|
-|商用|GLM-4-Long|58.0|40|
-|商用|SenseChat-5-1202|58.0|41|
+|商用|SenseChat-5-1202|58.0|40|
+|商用|GLM-4-Long|58.0|41|
 |商用|360zhinao2-o1|58.0|42|
 |商用|gemini-1.5-pro|56.5|43|
 |商用|360gpt-turbo|56.0|44|
@@ -98,10 +98,10 @@
 |商用|mistral-small|24.5|95|
 |开源|DeepSeek-R1-Distill-Llama-8B|23.5|96|
 |商用|ministral-3b|21.5|97|
-|开源|Mistral-7B-Instruct-v0.3|21.5|98|
+|商用|ERNIE-Tiny-8K|21.5|98|
 |开源|gemma-3-4b-it(new)|21.5|99|
-|商用|ERNIE-Tiny-8K|21.5|100|
-|开源|DeepSeek-R1-Distill-Qwen-7B|21.5|101|
+|开源|DeepSeek-R1-Distill-Qwen-7B|21.5|100|
+|开源|Mistral-7B-Instruct-v0.3|21.5|101|
 |开源|qwen2.5-0.5b-instruct|20.5|102|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|20.0|103|
 |开源|Llama-3.2-1B-Instruct|19.5|104|
@@ -109,8 +109,6 @@
 |开源|gemma-3-1b-it(new)|18.5|106|
 |商用|Baichuan4|10.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-基础医学-局部解剖学.png)

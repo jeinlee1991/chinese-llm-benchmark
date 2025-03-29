@@ -109,8 +109,6 @@
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|26.4|106|
 |商用|ERNIE-Tiny-8K|25.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-护理考试.png)

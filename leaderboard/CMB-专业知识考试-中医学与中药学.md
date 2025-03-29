@@ -11,9 +11,9 @@
 |商用|Doubao-1.5-lite-32k-250115|76.1|8|
 |商用|xunfei-spark-pro|72.8|9|
 |开源|qwq-32b(new)|72.2|10|
-|商用|qwq-plus-2025-03-05(new)|71.8|11|
-|商用|xunfei-spark-max|71.8|12|
-|商用|xunfei-4.0Ultra|71.8|13|
+|商用|xunfei-spark-max|71.8|11|
+|商用|xunfei-4.0Ultra|71.8|12|
+|商用|qwq-plus-2025-03-05(new)|71.8|13|
 |商用|qwen2.5-max|71.5|14|
 |商用|qwen-plus|70.3|15|
 |商用|hunyuan-standard|70.0|16|
@@ -109,8 +109,6 @@
 |开源|gemma-3-1b-it(new)|21.5|106|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|19.7|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-中医学与中药学.png)

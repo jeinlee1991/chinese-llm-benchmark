@@ -3,9 +3,9 @@
 |-----|------------------------------|---------|----|
 |商用|ERNIE-4.5-8K-Preview(new)|91.0|1|
 |商用|hunyuan-turbos-20250226(new)|87.0|2|
-|商用|Doubao-1.5-pro-32k-250115|85.0|3|
+|商用|hunyuan-turbo|85.0|3|
 |开源|DeepSeek-R1|85.0|4|
-|商用|hunyuan-turbo|85.0|5|
+|商用|Doubao-1.5-pro-32k-250115|85.0|5|
 |开源|hunyuan-large|84.5|6|
 |商用|hunyuan-turbos-20250313(new)|84.5|7|
 |商用|Doubao-1.5-lite-32k-250115|83.5|8|
@@ -44,9 +44,9 @@
 |开源|qwen2.5-32b-instruct|70.5|41|
 |商用|gemini-2.0-flash-thinking-exp-01-21|70.5|42|
 |商用|ERNIE-Speed-8K|70.3|43|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|69.5|44|
-|商用|GLM-4-Long|69.5|45|
-|商用|360gpt-turbo|69.5|46|
+|商用|GLM-4-Long|69.5|44|
+|商用|360gpt-turbo|69.5|45|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|69.5|46|
 |开源|DeepSeek-R1-Distill-Qwen-32B|69.0|47|
 |商用|GLM-Zero-Preview|69.0|48|
 |开源|Llama-3.3-70B-Instruct-fp8|69.0|49|
@@ -77,9 +77,9 @@
 |商用|mistral-large|56.0|74|
 |商用|chatgpt-4o-latest|55.0|75|
 |开源|qwen2.5-3b-instruct|53.5|76|
-|商用|gemini-1.5-flash|52.0|77|
-|商用|gpt-4o-mini-2024-07-18|52.0|78|
-|商用|Baichuan4|52.0|79|
+|商用|gpt-4o-mini-2024-07-18|52.0|77|
+|商用|Baichuan4|52.0|78|
+|商用|gemini-1.5-flash|52.0|79|
 |商用|ERNIE-Lite-Pro-128K|51.5|80|
 |商用|ERNIE-Lite-8K|49.0|81|
 |开源|Mistral-Small-24B-Instruct-2501(new)|48.5|82|
@@ -90,8 +90,8 @@
 |商用|xunfei-spark-lite(new)|45.4|87|
 |开源|phi-4|44.5|88|
 |开源|Llama-3.1-8B-Instruct|43.5|89|
-|开源|Llama-3.2-3B-Instruct|43.0|90|
-|开源|qwen2.5-1.5b-instruct|43.0|91|
+|开源|qwen2.5-1.5b-instruct|43.0|90|
+|开源|Llama-3.2-3B-Instruct|43.0|91|
 |开源|gemma-2-9b-it|40.5|92|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|40.5|93|
 |开源|gemma-2-27b-it|40.0|94|
@@ -109,8 +109,6 @@
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|23.0|106|
 |开源|gemma-3-1b-it(new)|20.5|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业助理医师-临床执业助理医师.png)

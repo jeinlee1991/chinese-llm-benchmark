@@ -17,11 +17,11 @@
 |商用|qwen-long|81.5|14|
 |商用|360gpt2-pro|81.5|15|
 |商用|360gpt-pro|80.5|16|
-|商用|ERNIE-4.0-Turbo-8K|80.0|17|
+|商用|qwq-plus-2025-03-05(new)|80.0|17|
 |商用|ERNIE-4.0|80.0|18|
-|商用|qwq-plus-2025-03-05(new)|80.0|19|
-|商用|xunfei-spark-max|80.0|20|
-|商用|xunfei-4.0Ultra|80.0|21|
+|商用|xunfei-4.0Ultra|80.0|19|
+|商用|ERNIE-4.0-Turbo-8K|80.0|20|
+|商用|xunfei-spark-max|80.0|21|
 |商用|xunfei-spark-pro|79.0|22|
 |开源|qwen2.5-72b-instruct|78.0|23|
 |商用|abab7-chat-preview|77.0|24|
@@ -52,15 +52,15 @@
 |开源|internlm2_5-7b-chat|64.5|49|
 |商用|moonshot-v1-8k|62.5|50|
 |商用|gemini-2.0-flash-thinking-exp-01-21|61.5|51|
-|商用|gemini-2.0-flash-001|61.5|52|
-|商用|gemini-2.0-flash-exp|61.5|53|
+|商用|gemini-2.0-flash-exp|61.5|52|
+|商用|gemini-2.0-flash-001|61.5|53|
 |商用|ERNIE-Speed-8K|61.2|54|
 |商用|GLM-4-FlashX|60.5|55|
 |商用|GLM-4-Plus|60.0|56|
 |商用|Baichuan4|60.0|57|
-|开源|DeepSeek-R1-Distill-Qwen-14B|59.0|58|
+|商用|step-1-8k|59.0|58|
 |商用|chatgpt-4o-latest|59.0|59|
-|商用|step-1-8k|59.0|60|
+|开源|DeepSeek-R1-Distill-Qwen-14B|59.0|60|
 |开源|glm-4-9b-chat|57.0|61|
 |开源|Meta-Llama-3.1-405B-Instruct|56.5|62|
 |商用|Baichuan4-Air|56.5|63|
@@ -82,8 +82,8 @@
 |开源|DeepSeek-R1-Distill-Llama-70B|44.0|79|
 |商用|gemini-1.5-flash|43.5|80|
 |开源|qwen2.5-1.5b-instruct|41.5|81|
-|商用|mistral-large|41.5|82|
-|开源|gemma-2-9b-it|41.5|83|
+|开源|gemma-2-9b-it|41.5|82|
+|商用|mistral-large|41.5|83|
 |商用|gpt-4o-mini-2024-07-18|40.5|84|
 |商用|xunfei-spark-lite(new)|38.8|85|
 |开源|gemma-3-27b-it(new)|36.5|86|
@@ -109,8 +109,6 @@
 |开源|Llama-3.2-1B-Instruct|23.0|106|
 |商用|ministral-8b|22.5|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-药师考试-主管中药师.png)

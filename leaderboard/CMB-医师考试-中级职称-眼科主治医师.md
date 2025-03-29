@@ -18,8 +18,8 @@
 |商用|GLM-4-Plus|77.0|15|
 |开源|qwen2.5-72b-instruct|77.0|16|
 |商用|gemini-2.0-flash-exp|77.0|17|
-|商用|gemini-2.0-pro-exp-02-05|77.0|18|
-|商用|gemini-2.0-flash-thinking-exp-01-21|77.0|19|
+|商用|gemini-2.0-flash-thinking-exp-01-21|77.0|18|
+|商用|gemini-2.0-pro-exp-02-05|77.0|19|
 |商用|xunfei-4.0Ultra|76.0|20|
 |商用|abab7-chat-preview|76.0|21|
 |商用|360gpt-pro|75.0|22|
@@ -45,8 +45,8 @@
 |开源|qwen2.5-32b-instruct|66.0|42|
 |商用|360zhinao2-o1|66.0|43|
 |商用|ERNIE-4.0-Turbo-8K|63.0|44|
-|开源|qwen2.5-14b-instruct|63.0|45|
-|商用|GLM-4-AirX|63.0|46|
+|商用|GLM-4-AirX|63.0|45|
+|开源|qwen2.5-14b-instruct|63.0|46|
 |商用|GLM-4-Flash|62.1|47|
 |商用|Claude-3.5-Sonnet|62.0|48|
 |商用|Baichuan4|62.0|49|
@@ -54,12 +54,12 @@
 |商用|GLM-Zero-Preview|61.0|51|
 |商用|GLM-4-Air|61.0|52|
 |开源|DeepSeek-R1-Distill-Qwen-32B|61.0|53|
-|商用|GLM-4-Long|60.0|54|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|60.0|55|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|60.0|54|
+|商用|GLM-4-Long|60.0|55|
 |开源|internlm2_5-20b-chat|60.0|56|
-|开源|qwen2.5-7b-instruct|59.0|57|
-|商用|ERNIE-3.5-8K|59.0|58|
-|商用|360gpt-turbo|59.0|59|
+|商用|ERNIE-3.5-8K|59.0|57|
+|商用|360gpt-turbo|59.0|58|
+|开源|qwen2.5-7b-instruct|59.0|59|
 |商用|gemini-1.5-pro|58.0|60|
 |开源|DeepSeek-R1-Distill-Llama-70B|58.0|61|
 |开源|internlm2_5-7b-chat|58.0|62|
@@ -71,13 +71,13 @@
 |商用|step-2-mini(new)|52.0|68|
 |开源|gemma-3-27b-it(new)|51.5|69|
 |商用|step-1-8k|51.0|70|
-|商用|gpt-4o-mini-2024-07-18|51.0|71|
-|商用|abab6.5s-chat|51.0|72|
+|商用|abab6.5s-chat|51.0|71|
+|商用|gpt-4o-mini-2024-07-18|51.0|72|
 |商用|GLM-4-FlashX|50.0|73|
 |开源|DeepSeek-R1-Distill-Qwen-14B|50.0|74|
-|商用|Baichuan4-Air|48.0|75|
+|商用|moonshot-v1-8k|48.0|75|
 |商用|o3-mini|48.0|76|
-|商用|moonshot-v1-8k|48.0|77|
+|商用|Baichuan4-Air|48.0|77|
 |商用|ERNIE-Lite-Pro-128K|47.0|78|
 |开源|Hermes-3-Llama-3.1-405B|47.0|79|
 |开源|Mistral-Small-24B-Instruct-2501(new)|46.5|80|
@@ -109,8 +109,6 @@
 |开源|DeepSeek-R1-Distill-Llama-8B|21.0|106|
 |开源|Llama-3.2-1B-Instruct|19.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-中级职称-眼科主治医师.png)

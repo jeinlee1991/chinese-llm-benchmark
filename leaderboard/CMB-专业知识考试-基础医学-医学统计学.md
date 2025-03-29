@@ -32,21 +32,21 @@
 |开源|DeepSeek-R1-Distill-Qwen-14B|79.2|29|
 |商用|gemini-2.0-flash-001|79.2|30|
 |商用|SenseChat-5-beta|79.0|31|
-|商用|abab7-chat-preview|78.7|32|
-|商用|gemini-2.0-flash-exp|78.7|33|
+|商用|gemini-2.0-flash-exp|78.7|32|
+|商用|abab7-chat-preview|78.7|33|
 |开源|MiniMax-Text-01|78.2|34|
 |开源|Llama-3.3-70B-Instruct|78.2|35|
 |商用|yi-lightning|78.2|36|
-|商用|xunfei-spark-max|78.0|37|
-|商用|xunfei-4.0Ultra|78.0|38|
+|商用|xunfei-4.0Ultra|78.0|37|
+|商用|xunfei-spark-max|78.0|38|
 |商用|hunyuan-standard|77.7|39|
 |商用|gemini-1.5-pro|77.7|40|
 |开源|Llama-3.3-70B-Instruct-fp8|77.7|41|
 |开源|deepseek-chat-v3|77.2|42|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|76.1|43|
 |商用|xunfei-spark-pro|75.6|44|
-|商用|gemini-1.5-flash|75.6|45|
-|商用|ERNIE-3.5-8K|75.6|46|
+|商用|ERNIE-3.5-8K|75.6|45|
+|商用|gemini-1.5-flash|75.6|46|
 |商用|SenseChat-Turbo-1202|75.1|47|
 |商用|GLM-4-Plus|75.0|48|
 |商用|360gpt-turbo|74.6|49|
@@ -62,9 +62,9 @@
 |商用|step-1-8k|71.1|59|
 |商用|360gpt2-o1|71.0|60|
 |商用|Claude-3.5-Sonnet|70.0|61|
-|商用|Baichuan4|70.0|62|
+|商用|ERNIE-4.0-Turbo-8K|70.0|62|
 |商用|ERNIE-4.0|70.0|63|
-|商用|ERNIE-4.0-Turbo-8K|70.0|64|
+|商用|Baichuan4|70.0|64|
 |商用|mistral-large|69.5|65|
 |商用|gpt-4o-mini-2024-07-18|69.5|66|
 |商用|abab6.5s-chat|68.5|67|
@@ -80,10 +80,10 @@
 |商用|GLM-4-Flash|64.1|77|
 |商用|ERNIE-Lite-Pro-128K|64.0|78|
 |商用|o3-mini|64.0|79|
-|商用|step-2-mini(new)|62.9|80|
-|开源|Llama-3.1-8B-Instruct|62.9|81|
-|开源|gemma-2-27b-it|62.4|82|
-|商用|gemini-1.5-flash-8b|62.4|83|
+|开源|Llama-3.1-8B-Instruct|62.9|80|
+|商用|step-2-mini(new)|62.9|81|
+|商用|gemini-1.5-flash-8b|62.4|82|
+|开源|gemma-2-27b-it|62.4|83|
 |开源|internlm2_5-7b-chat|61.9|84|
 |商用|ERNIE-Speed-Pro-128K|61.9|85|
 |开源|qwen2.5-3b-instruct|60.9|86|
@@ -109,8 +109,6 @@
 |开源|Llama-3.2-1B-Instruct|30.5|106|
 |商用|ERNIE-Tiny-8K|29.9|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-基础医学-医学统计学.png)

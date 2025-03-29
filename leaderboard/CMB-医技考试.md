@@ -109,8 +109,6 @@
 |商用|ministral-3b|26.1|106|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|23.1|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医技考试.png)

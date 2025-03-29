@@ -4,9 +4,9 @@
 |开源|DeepSeek-R1|90.0|1|
 |商用|Doubao-1.5-pro-32k-250115|86.0|2|
 |商用|hunyuan-turbo|84.0|3|
-|商用|hunyuan-turbos-20250226(new)|82.0|4|
+|商用|xunfei-4.0Ultra|82.0|4|
 |商用|ERNIE-4.5-8K-Preview(new)|82.0|5|
-|商用|xunfei-4.0Ultra|82.0|6|
+|商用|hunyuan-turbos-20250226(new)|82.0|6|
 |商用|xunfei-spark-max|81.0|7|
 |开源|hunyuan-large|81.0|8|
 |商用|hunyuan-turbos-20250313(new)|80.0|9|
@@ -24,12 +24,12 @@
 |商用|xunfei-spark-pro|74.0|21|
 |商用|SenseChat-5-1202|73.0|22|
 |开源|qwq-32b-preview|72.5|23|
-|商用|yi-lightning|72.0|24|
-|商用|360gpt2-pro|72.0|25|
+|商用|360gpt2-pro|72.0|24|
+|商用|yi-lightning|72.0|25|
 |商用|360gpt-pro|71.5|26|
 |商用|abab7-chat-preview|71.0|27|
-|商用|gemini-2.0-pro-exp-02-05|70.5|28|
-|商用|qwen-turbo|70.5|29|
+|商用|qwen-turbo|70.5|28|
+|商用|gemini-2.0-pro-exp-02-05|70.5|29|
 |商用|360gpt2-o1|70.0|30|
 |商用|Baichuan4-Turbo|69.5|31|
 |商用|hunyuan-standard|69.5|32|
@@ -38,12 +38,12 @@
 |商用|ERNIE-3.5-8K|66.0|35|
 |商用|GLM-4-AirX|65.5|36|
 |商用|GLM-4-Air|65.5|37|
-|开源|qwen2.5-14b-instruct|65.0|38|
-|商用|chatgpt-4o-latest|65.0|39|
+|商用|chatgpt-4o-latest|65.0|38|
+|开源|qwen2.5-14b-instruct|65.0|39|
 |开源|deepseek-chat-v3|65.0|40|
 |开源|Meta-Llama-3.1-405B-Instruct|64.5|41|
-|商用|360zhinao2-o1|64.0|42|
-|开源|qwen2.5-7b-instruct|64.0|43|
+|开源|qwen2.5-7b-instruct|64.0|42|
+|商用|360zhinao2-o1|64.0|43|
 |商用|GLM-4-Long|63.5|44|
 |商用|GLM-Zero-Preview|63.0|45|
 |开源|internlm2_5-7b-chat|62.0|46|
@@ -78,8 +78,8 @@
 |开源|Hermes-3-Llama-3.1-405B|49.0|75|
 |商用|gemini-1.5-flash|49.0|76|
 |商用|mistral-large|48.0|77|
-|开源|qwen2.5-1.5b-instruct|46.0|78|
-|商用|gpt-4o-mini-2024-07-18|46.0|79|
+|商用|gpt-4o-mini-2024-07-18|46.0|78|
+|开源|qwen2.5-1.5b-instruct|46.0|79|
 |开源|qwen2.5-3b-instruct|45.0|80|
 |商用|o3-mini|44.0|81|
 |商用|Baichuan4|40.0|82|
@@ -109,8 +109,6 @@
 |开源|gemma-3-1b-it(new)|21.0|106|
 |开源|Mistral-7B-Instruct-v0.3|20.5|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-中医学与中药学-中医诊断学.png)

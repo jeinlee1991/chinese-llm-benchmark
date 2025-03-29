@@ -20,15 +20,15 @@
 |商用|GLM-4-Flash|75.8|17|
 |商用|qwq-plus-2025-03-05(new)|75.8|18|
 |开源|DeepSeek-R1-Distill-Qwen-32B|75.0|19|
-|开源|qwen2.5-72b-instruct|74.0|20|
-|商用|kimi-latest-8k|74.0|21|
+|商用|kimi-latest-8k|74.0|20|
+|开源|qwen2.5-72b-instruct|74.0|21|
 |商用|qwen-turbo|73.9|22|
-|开源|MiniMax-Text-01|73.3|23|
+|商用|360gpt2-pro|73.3|23|
 |开源|qwq-32b(new)|73.3|24|
-|商用|360gpt2-pro|73.3|25|
-|商用|360gpt-pro|72.7|26|
+|开源|MiniMax-Text-01|73.3|25|
+|商用|qwen-long|72.7|26|
 |商用|qwen-plus|72.7|27|
-|商用|qwen-long|72.7|28|
+|商用|360gpt-pro|72.7|28|
 |开源|qwen2.5-14b-instruct|72.1|29|
 |商用|Baichuan4-Turbo|71.5|30|
 |开源|internlm2_5-7b-chat|70.9|31|
@@ -58,8 +58,8 @@
 |商用|step-2-mini(new)|63.6|55|
 |商用|SenseChat-Turbo-1202|63.6|56|
 |商用|GLM-4-FlashX|63.6|57|
-|开源|internlm2_5-20b-chat|63.0|58|
-|商用|gemini-2.0-flash-thinking-exp-01-21|63.0|59|
+|商用|gemini-2.0-flash-thinking-exp-01-21|63.0|58|
+|开源|internlm2_5-20b-chat|63.0|59|
 |开源|Llama-3.3-70B-Instruct-fp8|62.4|60|
 |开源|Hermes-3-Llama-3.1-405B|62.4|61|
 |开源|DeepSeek-R1-Distill-Llama-70B|62.0|62|
@@ -108,9 +108,7 @@
 |商用|ministral-3b|26.1|105|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|23.6|106|
 |开源|qwen2.5-math-72b-instruct|/|107|
-|开源|Yi-1.5-9B-Chat|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|商用|o3-mini|/|110|
+|商用|o3-mini|/|108|
 
 
 ![lin](../pic/CMB-护理考试-主管护师-主管护师资格考试.png)

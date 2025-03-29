@@ -12,8 +12,8 @@
 |商用|xunfei-4.0Ultra|84.0|9|
 |商用|xunfei-spark-pro|80.5|10|
 |商用|xunfei-spark-max|80.0|11|
-|商用|qwen2.5-max|80.0|12|
-|开源|qwen2.5-72b-instruct|80.0|13|
+|开源|qwen2.5-72b-instruct|80.0|12|
+|商用|qwen2.5-max|80.0|13|
 |开源|qwq-32b-preview|78.5|14|
 |商用|qwq-plus-2025-03-05(new)|77.0|15|
 |商用|hunyuan-standard|77.0|16|
@@ -25,9 +25,9 @@
 |商用|GLM-4-Plus|75.0|22|
 |商用|Baichuan4-Turbo|74.5|23|
 |商用|360gpt-pro|74.5|24|
-|商用|abab7-chat-preview|74.0|25|
-|商用|360gpt2-pro|74.0|26|
-|商用|ERNIE-4.0|74.0|27|
+|商用|ERNIE-4.0|74.0|25|
+|商用|abab7-chat-preview|74.0|26|
+|商用|360gpt2-pro|74.0|27|
 |商用|qwen-plus|73.5|28|
 |开源|Meta-Llama-3.1-405B-Instruct|72.7|29|
 |商用|SenseChat-5-beta|72.0|30|
@@ -40,20 +40,20 @@
 |商用|360zhinao2-o1|68.0|37|
 |开源|MiniMax-Text-01|67.8|38|
 |商用|step-2-mini(new)|67.0|39|
-|商用|360gpt-turbo|67.0|40|
-|商用|gemini-2.0-flash-exp|67.0|41|
-|商用|SenseChat-5-1202|67.0|42|
-|商用|gemini-2.0-flash-001|67.0|43|
+|商用|SenseChat-5-1202|67.0|40|
+|商用|gemini-2.0-flash-001|67.0|41|
+|商用|360gpt-turbo|67.0|42|
+|商用|gemini-2.0-flash-exp|67.0|43|
 |开源|DeepSeek-R1-Distill-Llama-70B|66.7|44|
 |开源|DeepSeek-R1-Distill-Qwen-32B|66.7|45|
 |开源|Llama-3.3-70B-Instruct-fp8|66.2|46|
 |商用|Claude-3.5-Sonnet|66.0|47|
-|商用|GLM-4-Long|66.0|48|
-|开源|Llama-3.3-70B-Instruct|66.0|49|
+|开源|Llama-3.3-70B-Instruct|66.0|48|
+|商用|GLM-4-Long|66.0|49|
 |商用|GLM-4-Flash|65.8|50|
-|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|65.5|51|
+|开源|qwen2.5-7b-instruct|65.5|51|
 |开源|internlm2_5-7b-chat|65.5|52|
-|开源|qwen2.5-7b-instruct|65.5|53|
+|开源|Llama-3.1-Nemotron-70B-Instruct-fp8|65.5|53|
 |开源|internlm2_5-20b-chat|64.5|54|
 |商用|GLM-4-AirX|63.0|55|
 |商用|GLM-4-Air|63.0|56|
@@ -76,9 +76,9 @@
 |商用|ERNIE-Speed-Pro-128K|54.5|73|
 |开源|qwen2.5-3b-instruct|54.0|74|
 |商用|step-1-8k|53.5|75|
-|商用|abab6.5s-chat|53.0|76|
-|商用|gemini-1.5-flash|53.0|77|
-|开源|glm-4-9b-chat|53.0|78|
+|开源|glm-4-9b-chat|53.0|76|
+|商用|abab6.5s-chat|53.0|77|
+|商用|gemini-1.5-flash|53.0|78|
 |商用|ERNIE-Lite-Pro-128K|52.0|79|
 |商用|gpt-4o-mini-2024-07-18|51.5|80|
 |开源|gemma-2-9b-it|49.0|81|
@@ -109,8 +109,6 @@
 |开源|Mistral-7B-Instruct-v0.3|29.5|106|
 |开源|gemma-3-1b-it(new)|24.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业助理医师-口腔执业助理医师.png)

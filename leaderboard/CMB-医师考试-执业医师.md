@@ -52,9 +52,9 @@
 |商用|GLM-4-Long|68.5|49|
 |商用|gemini-2.0-flash-thinking-exp-01-21|68.3|50|
 |商用|GLM-Zero-Preview|68.0|51|
-|商用|gemini-2.0-flash-001|67.0|52|
+|商用|gemini-2.0-flash-exp|67.0|52|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|67.0|53|
-|商用|gemini-2.0-flash-exp|67.0|54|
+|商用|gemini-2.0-flash-001|67.0|54|
 |开源|DeepSeek-R1-Distill-Qwen-14B|66.8|55|
 |商用|step-2-mini(new)|66.4|56|
 |开源|Llama-3.3-70B-Instruct|65.6|57|
@@ -109,8 +109,6 @@
 |开源|Mistral-7B-Instruct-v0.3|26.9|106|
 |开源|gemma-3-1b-it(new)|24.6|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业医师.png)

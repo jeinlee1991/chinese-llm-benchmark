@@ -16,8 +16,8 @@
 |开源|qwq-32b(new)|63.7|13|
 |商用|hunyuan-standard|63.1|14|
 |商用|kimi-latest-8k|63.0|15|
-|商用|ERNIE-4.0|62.0|16|
-|商用|GLM-4-Plus|62.0|17|
+|商用|GLM-4-Plus|62.0|16|
+|商用|ERNIE-4.0|62.0|17|
 |商用|ERNIE-4.0-Turbo-8K|62.0|18|
 |开源|qwq-32b-preview|61.8|19|
 |开源|DeepSeek-R1|60.0|20|
@@ -28,8 +28,8 @@
 |商用|gemini-2.0-pro-exp-02-05|59.2|25|
 |开源|DeepSeek-R1-Distill-Qwen-32B|59.0|26|
 |商用|360gpt2-pro|58.6|27|
-|开源|qwen2.5-72b-instruct|58.0|28|
-|商用|qwen-plus|58.0|29|
+|商用|qwen-plus|58.0|28|
+|开源|qwen2.5-72b-instruct|58.0|29|
 |商用|qwen-long|57.3|30|
 |商用|yi-lightning|56.1|31|
 |商用|GLM-Zero-Preview|56.0|32|
@@ -55,9 +55,9 @@
 |商用|Claude-3.5-Sonnet|50.0|52|
 |商用|360gpt-turbo|49.7|53|
 |商用|gemini-2.0-flash-exp|49.7|54|
-|开源|qwen2.5-14b-instruct|49.0|55|
+|开源|DeepSeek-R1-Distill-Qwen-14B|49.0|55|
 |开源|Llama-3.3-70B-Instruct-fp8|49.0|56|
-|开源|DeepSeek-R1-Distill-Qwen-14B|49.0|57|
+|开源|qwen2.5-14b-instruct|49.0|57|
 |商用|gemini-2.0-flash-thinking-exp-01-21|48.4|58|
 |商用|GLM-4-Long|47.8|59|
 |开源|Llama-3.3-70B-Instruct|47.1|60|
@@ -108,9 +108,7 @@
 |商用|ERNIE-Tiny-8K|19.7|105|
 |开源|gemma-3-1b-it(new)|17.0|106|
 |开源|qwen2.5-math-72b-instruct|/|107|
-|开源|Yi-1.5-9B-Chat|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|商用|o3-mini|/|110|
+|商用|o3-mini|/|108|
 
 
 ![lin](../pic/CMB-医师考试-高级职称-妇产科学副主任、主任医师职称考试.png)

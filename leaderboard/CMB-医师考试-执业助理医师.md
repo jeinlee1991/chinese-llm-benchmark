@@ -109,8 +109,6 @@
 |开源|Llama-3.2-1B-Instruct|27.1|106|
 |开源|gemma-3-1b-it(new)|25.1|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业助理医师.png)

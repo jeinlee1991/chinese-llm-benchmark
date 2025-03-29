@@ -40,13 +40,13 @@
 |商用|step-2-mini(new)|46.0|37|
 |商用|GLM-4-AirX|43.0|38|
 |开源|internlm2_5-7b-chat|43.0|39|
-|商用|Baichuan4-Air|42.5|40|
-|商用|GLM-4-Air|42.5|41|
-|开源|qwen2.5-32b-instruct|42.0|42|
-|商用|chatgpt-4o-latest|42.0|43|
+|商用|GLM-4-Air|42.5|40|
+|商用|Baichuan4-Air|42.5|41|
+|商用|chatgpt-4o-latest|42.0|42|
+|开源|qwen2.5-32b-instruct|42.0|43|
 |开源|qwen2.5-14b-instruct|42.0|44|
-|商用|Baichuan4-Turbo|42.0|45|
-|商用|step-1-8k|42.0|46|
+|商用|step-1-8k|42.0|45|
+|商用|Baichuan4-Turbo|42.0|46|
 |商用|SenseChat-Turbo-1202|41.5|47|
 |商用|360gpt2-o1|41.0|48|
 |开源|DeepSeek-R1-Distill-Qwen-32B|41.0|49|
@@ -54,9 +54,9 @@
 |商用|GLM-4-Long|40.5|51|
 |商用|Claude-3.5-Sonnet|40.0|52|
 |商用|GLM-4-Flash|39.7|53|
-|商用|moonshot-v1-8k|39.5|54|
+|商用|360gpt-turbo|39.5|54|
 |商用|ERNIE-Lite-Pro-128K|39.5|55|
-|商用|360gpt-turbo|39.5|56|
+|商用|moonshot-v1-8k|39.5|56|
 |商用|GLM-4-FlashX|39.0|57|
 |开源|DeepSeek-R1-Distill-Qwen-14B|39.0|58|
 |开源|glm-4-9b-chat|38.0|59|
@@ -80,8 +80,8 @@
 |开源|gemma-3-27b-it(new)|26.5|77|
 |开源|phi-4|26.0|78|
 |商用|mistral-large|26.0|79|
-|商用|xunfei-spark-lite(new)|25.0|80|
-|开源|qwen2.5-3b-instruct|25.0|81|
+|开源|qwen2.5-3b-instruct|25.0|80|
+|商用|xunfei-spark-lite(new)|25.0|81|
 |商用|gemini-1.5-flash|24.5|82|
 |商用|o1-mini|24.0|83|
 |商用|gpt-4o-mini-2024-07-18|23.5|84|
@@ -104,13 +104,11 @@
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|16.5|101|
 |开源|DeepSeek-R1-Distill-Qwen-7B|16.5|102|
 |开源|Llama-3.2-1B-Instruct|16.0|103|
-|开源|gemma-3-12b-it(new)|16.0|104|
-|开源|qwen2.5-0.5b-instruct|16.0|105|
+|开源|qwen2.5-0.5b-instruct|16.0|104|
+|开源|gemma-3-12b-it(new)|16.0|105|
 |商用|ministral-3b|13.5|106|
 |开源|DeepSeek-R1-Distill-Llama-8B|13.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-中医学与中药学-金匮要略讲义.png)

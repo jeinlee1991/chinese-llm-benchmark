@@ -16,8 +16,8 @@
 |商用|qwen-long|67.5|13|
 |开源|DeepSeek-R1|67.0|14|
 |商用|Baichuan4-Turbo|63.5|15|
-|商用|gemini-2.0-pro-exp-02-05|63.0|16|
-|商用|qwen-turbo|63.0|17|
+|商用|qwen-turbo|63.0|16|
+|商用|gemini-2.0-pro-exp-02-05|63.0|17|
 |商用|yi-lightning|61.0|18|
 |开源|deepseek-chat-v3|61.0|19|
 |商用|gemini-2.0-flash-thinking-exp-01-21|59.5|20|
@@ -32,19 +32,19 @@
 |开源|MiniMax-Text-01|57.5|29|
 |商用|xunfei-spark-pro|57.0|30|
 |开源|qwq-32b-preview|56.5|31|
-|商用|kimi-latest-8k|55.0|32|
-|开源|qwen2.5-14b-instruct|55.0|33|
-|开源|Meta-Llama-3.1-405B-Instruct|53.0|34|
-|商用|360gpt-turbo|53.0|35|
-|商用|xunfei-spark-max|51.0|36|
-|商用|xunfei-4.0Ultra|51.0|37|
+|开源|qwen2.5-14b-instruct|55.0|32|
+|商用|kimi-latest-8k|55.0|33|
+|商用|360gpt-turbo|53.0|34|
+|开源|Meta-Llama-3.1-405B-Instruct|53.0|35|
+|商用|xunfei-4.0Ultra|51.0|36|
+|商用|xunfei-spark-max|51.0|37|
 |商用|GLM-4-AirX|50.5|38|
 |商用|Claude-3.5-Sonnet|50.0|39|
 |开源|internlm2_5-20b-chat|49.5|40|
-|商用|360zhinao2-o1|49.0|41|
-|商用|SenseChat-5-1202|49.0|42|
-|商用|gemini-1.5-pro|49.0|43|
-|商用|GLM-4-Long|49.0|44|
+|商用|gemini-1.5-pro|49.0|41|
+|商用|GLM-4-Long|49.0|42|
+|商用|360zhinao2-o1|49.0|43|
+|商用|SenseChat-5-1202|49.0|44|
 |商用|GLM-4-Air|48.5|45|
 |开源|qwen2.5-7b-instruct|48.0|46|
 |商用|360gpt2-o1|47.0|47|
@@ -67,9 +67,9 @@
 |开源|Llama-3.3-70B-Instruct-fp8|40.5|64|
 |开源|Llama-3.3-70B-Instruct|39.5|65|
 |商用|gpt-4o-mini-2024-07-18|39.5|66|
-|商用|moonshot-v1-8k|39.0|67|
+|开源|DeepSeek-R1-Distill-Qwen-14B|39.0|67|
 |商用|o3-mini|39.0|68|
-|开源|DeepSeek-R1-Distill-Qwen-14B|39.0|69|
+|商用|moonshot-v1-8k|39.0|69|
 |商用|o1-mini|39.0|70|
 |开源|gemma-3-27b-it(new)|38.5|71|
 |开源|qwen2.5-1.5b-instruct|38.5|72|
@@ -109,8 +109,6 @@
 |商用|ERNIE-Tiny-8K|19.0|106|
 |商用|ERNIE-4.0-Turbo-8K|10.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-专业知识考试-临床医学-口腔解剖生理学.png)

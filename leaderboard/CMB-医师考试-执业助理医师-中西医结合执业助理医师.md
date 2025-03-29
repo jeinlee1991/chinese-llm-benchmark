@@ -12,20 +12,20 @@
 |开源|DeepSeek-R1|90.0|9|
 |商用|xunfei-spark-max|89.9|10|
 |商用|xunfei-spark-pro|89.0|11|
-|商用|kimi-latest-8k|88.0|12|
-|商用|hunyuan-standard|88.0|13|
+|商用|hunyuan-standard|88.0|12|
+|商用|kimi-latest-8k|88.0|13|
 |开源|qwq-32b-preview|86.0|14|
 |商用|qwen2.5-max|85.1|15|
 |商用|abab7-chat-preview|85.0|16|
 |商用|360gpt2-pro|85.0|17|
-|开源|qwq-32b(new)|85.0|18|
-|商用|qwq-plus-2025-03-05(new)|85.0|19|
+|商用|qwq-plus-2025-03-05(new)|85.0|18|
+|开源|qwq-32b(new)|85.0|19|
 |商用|360gpt-pro|84.5|20|
 |商用|GLM-4-Plus|84.0|21|
 |商用|qwen-plus|84.0|22|
 |商用|ERNIE-4.0|84.0|23|
-|商用|qwen-long|82.5|24|
-|商用|Baichuan4-Turbo|82.5|25|
+|商用|Baichuan4-Turbo|82.5|24|
+|商用|qwen-long|82.5|25|
 |开源|qwen2.5-72b-instruct|82.0|26|
 |开源|Meta-Llama-3.1-405B-Instruct|81.5|27|
 |开源|MiniMax-Text-01|81.0|28|
@@ -48,14 +48,14 @@
 |开源|qwen2.5-32b-instruct|75.0|45|
 |开源|qwen2.5-7b-instruct|74.5|46|
 |商用|SenseChat-5-1202|74.0|47|
-|商用|SenseChat-Turbo-1202|73.0|48|
+|商用|gemini-2.0-pro-exp-02-05|73.0|48|
 |商用|step-1-8k|73.0|49|
-|商用|gemini-2.0-pro-exp-02-05|73.0|50|
+|商用|SenseChat-Turbo-1202|73.0|50|
 |商用|ERNIE-Speed-8K|72.2|51|
 |商用|GLM-Zero-Preview|72.0|52|
 |商用|gemini-2.0-flash-thinking-exp-01-21|71.0|53|
-|开源|DeepSeek-R1-Distill-Qwen-14B|71.0|54|
-|商用|step-2-mini(new)|71.0|55|
+|商用|step-2-mini(new)|71.0|54|
+|开源|DeepSeek-R1-Distill-Qwen-14B|71.0|55|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|70.9|56|
 |商用|360gpt2-o1|69.0|57|
 |商用|GLM-4-FlashX|68.0|58|
@@ -68,9 +68,9 @@
 |商用|gemini-2.0-flash-001|62.5|65|
 |商用|step-1-flash|61.5|66|
 |商用|Baichuan4|58.0|67|
-|商用|gemini-1.5-pro|57.5|68|
+|商用|ERNIE-Lite-Pro-128K|57.5|68|
 |商用|ERNIE-Speed-Pro-128K|57.5|69|
-|商用|ERNIE-Lite-Pro-128K|57.5|70|
+|商用|gemini-1.5-pro|57.5|70|
 |商用|ERNIE-Lite-8K|57.0|71|
 |开源|DeepSeek-R1-Distill-Llama-70B|56.2|72|
 |商用|Claude-3.5-Sonnet|56.0|73|
@@ -109,8 +109,6 @@
 |商用|ministral-3b|25.0|106|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|24.3|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业助理医师-中西医结合执业助理医师.png)

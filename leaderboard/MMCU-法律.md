@@ -8,8 +8,8 @@
 |商用|xunfei-spark-max|81.0|5|
 |开源|DeepSeek-R1|81.0|6|
 |商用|Claude-3.5-Sonnet|80.0|7|
-|商用|hunyuan-turbos-20250313(new)|76.0|8|
-|商用|xunfei-4.0Ultra|76.0|9|
+|商用|xunfei-4.0Ultra|76.0|8|
+|商用|hunyuan-turbos-20250313(new)|76.0|9|
 |商用|GLM-4-Plus|76.0|10|
 |商用|kimi-latest-8k|75.0|11|
 |商用|Doubao-1.5-pro-32k-250115|74.0|12|
@@ -20,17 +20,17 @@
 |商用|ERNIE-4.0-Turbo-8K|63.0|17|
 |开源|qwen2.5-72b-instruct|63.0|18|
 |商用|SenseChat-5-beta|63.0|19|
-|开源|qwq-32b(new)|62.0|20|
-|开源|DeepSeek-R1-Distill-Qwen-32B|62.0|21|
+|开源|DeepSeek-R1-Distill-Qwen-32B|62.0|20|
+|开源|qwq-32b(new)|62.0|21|
 |商用|qwq-plus-2025-03-05(new)|62.0|22|
 |商用|SenseChat-5-1202|62.0|23|
 |商用|hunyuan-standard|61.0|24|
 |商用|360gpt2-pro|59.5|25|
 |商用|360gpt-pro|59.5|26|
 |商用|qwen-long|58.5|27|
-|商用|360gpt-turbo|57.5|28|
-|商用|qwen-turbo|57.5|29|
-|开源|qwen2.5-14b-instruct|57.5|30|
+|开源|qwen2.5-14b-instruct|57.5|28|
+|商用|360gpt-turbo|57.5|29|
+|商用|qwen-turbo|57.5|30|
 |商用|GLM-Zero-Preview|57.0|31|
 |商用|qwen-plus|56.0|32|
 |商用|Baichuan4-Turbo|56.0|33|
@@ -42,14 +42,14 @@
 |开源|internlm2_5-20b-chat|54.0|39|
 |商用|360gpt2-o1|54.0|40|
 |商用|GLM-4-Long|52.5|41|
-|商用|GLM-4-AirX|52.5|42|
-|商用|GLM-4-Air|52.5|43|
+|商用|GLM-4-Air|52.5|42|
+|商用|GLM-4-AirX|52.5|43|
 |商用|ERNIE-Speed-8K|52.4|44|
 |商用|yi-lightning|51.0|45|
 |商用|Baichuan4|50.0|46|
 |商用|GLM-4-Flash|49.6|47|
-|商用|gemini-2.0-pro-exp-02-05|49.5|48|
-|商用|xunfei-spark-pro|49.5|49|
+|商用|xunfei-spark-pro|49.5|48|
+|商用|gemini-2.0-pro-exp-02-05|49.5|49|
 |开源|internlm2_5-7b-chat|49.0|50|
 |商用|gemini-2.0-flash-thinking-exp-01-21|49.0|51|
 |开源|qwen2.5-7b-instruct|48.0|52|
@@ -68,8 +68,8 @@
 |商用|ERNIE-Speed-Pro-128K|40.0|65|
 |商用|step-1-flash|39.5|66|
 |商用|abab6.5s-chat|39.0|67|
-|商用|GLM-4-FlashX|38.5|68|
-|商用|ERNIE-Lite-Pro-128K|38.5|69|
+|商用|ERNIE-Lite-Pro-128K|38.5|68|
+|商用|GLM-4-FlashX|38.5|69|
 |商用|mistral-large|38.5|70|
 |商用|Baichuan4-Air|38.0|71|
 |开源|Llama-3.3-70B-Instruct|38.0|72|
@@ -109,8 +109,6 @@
 |开源|gemma-3-1b-it(new)|15.5|106|
 |商用|ministral-3b|14.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/MMCU-法律.png)

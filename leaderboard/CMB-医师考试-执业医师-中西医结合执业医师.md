@@ -8,12 +8,12 @@
 |商用|Doubao-1.5-pro-32k-250115|93.0|5|
 |商用|Doubao-1.5-lite-32k-250115|90.5|6|
 |开源|hunyuan-large|89.5|7|
-|商用|xunfei-4.0Ultra|88.0|8|
-|开源|DeepSeek-R1|88.0|9|
+|开源|DeepSeek-R1|88.0|8|
+|商用|xunfei-4.0Ultra|88.0|9|
 |商用|qwen2.5-max|87.5|10|
 |商用|xunfei-spark-max|87.5|11|
-|商用|360gpt-pro|86.5|12|
-|商用|hunyuan-standard|86.5|13|
+|商用|hunyuan-standard|86.5|12|
+|商用|360gpt-pro|86.5|13|
 |商用|GLM-4-Plus|86.0|14|
 |开源|qwq-32b-preview|86.0|15|
 |商用|360gpt2-pro|86.0|16|
@@ -24,10 +24,10 @@
 |商用|qwen-plus|84.0|21|
 |商用|kimi-latest-8k|83.0|22|
 |商用|yi-lightning|82.5|23|
-|商用|ERNIE-4.0-Turbo-8K|82.0|24|
-|商用|abab7-chat-preview|82.0|25|
-|商用|SenseChat-5-1202|82.0|26|
-|开源|qwen2.5-72b-instruct|82.0|27|
+|商用|SenseChat-5-1202|82.0|24|
+|开源|qwen2.5-72b-instruct|82.0|25|
+|商用|abab7-chat-preview|82.0|26|
+|商用|ERNIE-4.0-Turbo-8K|82.0|27|
 |开源|MiniMax-Text-01|81.0|28|
 |商用|qwen-turbo|80.5|29|
 |商用|ERNIE-4.0|80.0|30|
@@ -36,16 +36,16 @@
 |开源|internlm2_5-20b-chat|79.0|33|
 |开源|DeepSeek-R1-Distill-Qwen-32B|79.0|34|
 |商用|SenseChat-5-beta|79.0|35|
-|开源|Meta-Llama-3.1-405B-Instruct|78.5|36|
-|开源|deepseek-chat-v3|78.5|37|
+|商用|ERNIE-3.5-8K|78.5|36|
+|开源|Meta-Llama-3.1-405B-Instruct|78.5|37|
 |商用|GLM-4-Flash|78.5|38|
-|商用|ERNIE-3.5-8K|78.5|39|
+|开源|deepseek-chat-v3|78.5|39|
 |商用|360zhinao2-o1|78.0|40|
 |商用|GLM-4-Air|77.5|41|
 |开源|qwen2.5-32b-instruct|77.5|42|
-|开源|DeepSeek-R1-Distill-Qwen-14B|76.5|43|
+|开源|internlm2_5-7b-chat|76.5|43|
 |商用|GLM-4-AirX|76.5|44|
-|开源|internlm2_5-7b-chat|76.5|45|
+|开源|DeepSeek-R1-Distill-Qwen-14B|76.5|45|
 |商用|GLM-4-Long|75.5|46|
 |商用|360gpt2-o1|75.0|47|
 |商用|step-2-mini(new)|74.5|48|
@@ -57,9 +57,9 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|71.0|54|
 |商用|gemini-2.0-flash-001|70.5|55|
 |商用|step-1-8k|70.5|56|
-|商用|Baichuan4|70.0|57|
+|商用|ERNIE-Lite-Pro-128K|70.0|57|
 |商用|gemini-2.0-flash-exp|70.0|58|
-|商用|ERNIE-Lite-Pro-128K|70.0|59|
+|商用|Baichuan4|70.0|59|
 |开源|Llama-3.1-Nemotron-70B-Instruct-fp8|69.0|60|
 |商用|moonshot-v1-8k|68.5|61|
 |开源|glm-4-9b-chat|67.0|62|
@@ -68,8 +68,8 @@
 |商用|ERNIE-Speed-Pro-128K|65.5|65|
 |开源|Llama-3.3-70B-Instruct-fp8|65.0|66|
 |商用|Baichuan4-Air|64.5|67|
-|商用|gemini-1.5-pro|64.5|68|
-|商用|GLM-4-FlashX|64.5|69|
+|商用|GLM-4-FlashX|64.5|68|
+|商用|gemini-1.5-pro|64.5|69|
 |商用|Claude-3.5-Sonnet|62.0|70|
 |商用|step-1-flash|60.0|71|
 |商用|abab6.5s-chat|59.0|72|
@@ -109,8 +109,6 @@
 |商用|ministral-3b|24.3|106|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|23.0|107|
 |开源|qwen2.5-math-72b-instruct|/|108|
-|开源|Yi-1.5-34B-Chat|/|109|
-|开源|Yi-1.5-9B-Chat|/|110|
 
 
 ![lin](../pic/CMB-医师考试-执业医师-中西医结合执业医师.png)
