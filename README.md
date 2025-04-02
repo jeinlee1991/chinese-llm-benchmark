@@ -288,6 +288,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医疗](leaderboard/医疗.md)<br>
 
 ### 2.1 医师
+☛☛完整排行榜见[医师](leaderboard/医师.md)<br>
 （1）内科
 <br>☛☛完整排行榜见[内科](leaderboard/内科.md)<br>
  - 内科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-内科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-内科)
@@ -427,8 +428,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
                            
 
 ### 2.2 护理
-护理考试，均为选择题，含护士执业资格考试、护师资格考试等10个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
-☛☛完整排行榜见[护理考试](leaderboard/CMB-护理考试.md)<br>
+☛☛完整排行榜见[护理](leaderboard/护理.md)<br>
 
  - 护士执业资格考试：[排行榜](leaderboard/CMB-护理考试-护士执业资格-护士执业资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护士执业资格-护士执业资格考试)
  - 护师资格考试：[排行榜](leaderboard/CMB-护理考试-护师执业资格-护师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护师执业资格-护师资格考试)
@@ -444,8 +444,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ### 2.3 药师
-药师考试，均为选择题，含执业西药师、执业中药师等8个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
-☛☛完整排行榜见[药师考试](leaderboard/CMB-药师考试.md)<br>
+☛☛完整排行榜见[药师](leaderboard/药师.md)<br>
 
  - 执业西药师：[排行榜](leaderboard/CMB-药师考试-执业西药师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业西药师)
  - 执业中药师：[排行榜](leaderboard/CMB-药师考试-执业中药师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业中药师)
@@ -459,8 +458,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 
 ### 2.4 医技
-医技，含医技士-康复医学治疗技术（士）、医技师-肿瘤学技术（师）等22个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
-☛☛完整排行榜见[医技考试](leaderboard/CMB-医技考试.md)<br>
+☛☛完整排行榜见[医技](leaderboard/医技.md)<br>
 
  - 超声科：[排行榜](leaderboard/CMB-医师考试-规培结业-超声科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-超声科)
  - 超声波医学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-超声波医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-超声波医学主治医师)
