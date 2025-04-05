@@ -1,4 +1,10 @@
 ## 最近更新
+- [2025/4/5] v3.15版本
+  - 金融领域新增多个评测维度，详见[link](#4金融排行榜)
+  - 删除陈旧的模型：abab7-chat-preview、gemini-2.0-flash-exp、gemma-2-9b-it、gemma-2-27b-it、qwen2.5-math-72b-instruct、Mistral-Nemo-Instruct-2407、Llama-3.1-Nemotron-70B-Instruct-fp8
+- [2025/4/3] v3.14版本
+  - 重新梳理医学及金融领域的细分评测维度
+  - 新增2个模型：hunyuan-t1-20250321、deepseek-chat-v3-0324
 - [2025/3/31] v3.13版本
   - 新增“医学综合考试”排行榜，并计入总分，详见[link](#214-医学综合考试)
 - [2025/3/29] v3.12版本

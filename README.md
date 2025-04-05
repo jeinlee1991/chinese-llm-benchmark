@@ -43,7 +43,9 @@
     - [4.2 银行](#42-银行)
     - [4.3 保险](#43-保险)
     - [4.4 证券](#44-证券)
-    - [4.5 其他金融领域](#45-其他金融领域)
+    - [4.5 其他金融资格考试](#45-其他金融资格考试)
+    - [4.6 金融基础知识](#46-金融基础知识)
+    - [4.7 金融应用](#47-金融应用)
   - [5、法律排行榜](#5法律排行榜)
     - [5.1 律师资格考试](#51-律师资格考试)
   - [6、行政公务排行榜](#6行政公务排行榜)
@@ -54,9 +56,10 @@
     - [8.2 常识推理](#82-常识推理)
     - [8.3 符号推理BBH](#83-符号推理BBH)
     - [8.4 算术能力](#84-算术能力)
-    - [8.5 七八九年级数学](#85-七八九年级数学)
-    - [8.6 表格问答](#86-表格问答)
-    - [8.7 高中奥林匹克数学竞赛](#87-高中奥林匹克数学竞赛)
+    - [8.5 表格问答](#85-表格问答)
+    - [8.6 高中奥数](#86-高中奥数)
+    - [8.7 初中奥数TODO](#87-初中奥数TODO)
+    - [8.8 小学奥数TODO](#88-小学奥数TODO)
   - [9、语言与指令遵从排行榜](#9语言与指令遵从排行榜)
     - [9.1 成语理解](#91-成语理解)
     - [9.2 情感分析](#92-情感分析)  
@@ -74,6 +77,9 @@
 - [大模型选型及评测交流群](#大模型选型及评测交流群)
 
 # 最近更新
+- [2025/4/5] v3.15版本
+  - 金融领域新增多个评测维度，详见[link](#4金融排行榜)
+  - 删除陈旧的模型：abab7-chat-preview、gemini-2.0-flash-exp、gemma-2-9b-it、gemma-2-27b-it、qwen2.5-math-72b-instruct、Mistral-Nemo-Instruct-2407、Llama-3.1-Nemotron-70B-Instruct-fp8
 - [2025/4/3] v3.14版本
   - 重新梳理医学及金融领域的细分评测维度
   - 新增2个模型：hunyuan-t1-20250321、deepseek-chat-v3-0324
@@ -185,9 +191,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|84.4| |        90.0|88.9|87.4|83.3|        81.6|78.2|        81.4|84.2|
-|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.7| |        81.9|89.5|83.9|74.8|        88.6|61.5|        88.5|84.8|
-|3|hunyuan-turbos-20250313(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|81.1| |        85.1|87.8|84.2|72.2|        80.0|72.9|        82.0|84.4|
+|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|83.9| |        90.0|88.9|85.2|83.3|        81.6|78.2|        79.3|84.2|
+|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        87.6|84.8|
+|3|hunyuan-turbos-20250313(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|80.3| |        85.1|87.8|80.5|72.2|        80.0|72.9|        79.8|84.4|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -197,9 +203,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|74.6| |        75.9|81.9|77.1|66.7|        72.0|61.2|        79.5|82.3|
-|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50.0元|73.6| |        75.1|81.3|72.4|63.1|        76.7|59.0|        77.2|84.1|
-|3|xunfei-spark-max☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|30.0元|73.5| |        76.5|83.8|76.2|66.5|        70.4|59.0|        76.6|79.3|
+|1|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|74.0| |        75.9|81.9|75.2|66.7|        72.0|61.2|        77.2|82.3|
+|2|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50.0元|73.6| |        75.1|81.3|74.0|63.1|        76.7|59.0|        75.2|84.1|
+|3|xunfei-spark-max☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|30.0元|73.2| |        76.5|83.8|75.0|66.5|        70.4|59.0|        75.6|79.3|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -208,9 +214,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-4.5-8K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|86.3| |        92.9|87.0|85.7|90.3|        87.0|75.2|        83.9|88.4|
-|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.7| |        81.9|89.5|83.9|74.8|        88.6|61.5|        88.5|84.8|
-|3|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|80.8| |        88.9|87.1|87.0|75.7|        76.2|71.8|        79.9|82.3|
+|1|ERNIE-4.5-8K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|86.0| |        92.9|87.0|85.2|90.3|        87.0|75.2|        81.6|88.4|
+|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        87.6|84.8|
+|3|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|80.5| |        88.9|87.1|84.8|75.7|        76.2|71.8|        77.5|82.3|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -219,9 +225,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|84.4| |        90.0|88.9|87.4|83.3|        81.6|78.2|        81.4|84.2|
-|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2.0元|82.0| |        86.6|89.9|86.1|72.3|        78.3|74.4|        82.8|86.5|
-|3|hunyuan-turbos-20250313(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|81.1| |        85.1|87.8|84.2|72.2|        80.0|72.9|        82.0|84.4|
+|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|83.9| |        90.0|88.9|85.2|83.3|        81.6|78.2|        79.3|84.2|
+|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2.0元|81.6| |        86.6|89.9|84.2|72.3|        78.3|74.4|        80.8|86.5|
+|3|hunyuan-turbos-20250313(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|80.3| |        85.1|87.8|80.5|72.2|        80.0|72.9|        79.8|84.4|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -230,9 +236,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|75.9| |        80.8|84.9|81.4|63.2|        70.7|65.8|        82.8|77.5|
-|2|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|0.0元|71.2| |        71.6|82.0|72.4|45.6|        73.7|60.6|        83.9|79.0|
-|3|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|0.0元|70.6| |        65.0|76.6|67.1|47.9|        85.1|53.5|        89.3|78.5|
+|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|75.2| |        80.8|84.9|78.2|63.2|        70.7|65.8|        80.8|77.5|
+|2|gemini-2.0-pro-exp-02-05☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|0.0元|71.2| |        71.6|82.0|74.0|45.6|        73.7|60.6|        82.8|79.0|
+|3|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|0.0元|70.2| |        65.0|76.6|67.2|47.9|        85.1|53.5|        87.8|78.5|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -249,9 +255,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|52.1| |        49.8|58.8|54.7|29.2|        51.3|43.8|        60.8|67.6|
-|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|43.3| |        43.8|52.2|48.3|29.6|        40.5|39.6|        40.4|51.5|
-|3|gemma-3-4b-it(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Google|0.0元|41.2| |        31.8|43.7|40.1|16.5|        39.5|29.2|        70.4|58.0|
+|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|51.6| |        49.8|58.8|53.8|29.2|        51.3|43.8|        58.3|67.6|
+|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|43.0| |        43.8|52.2|48.6|29.6|        40.5|39.6|        37.7|51.5|
+|3|gemma-3-4b-it(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Google|0.0元|40.9| |        31.8|43.7|39.7|16.5|        39.5|29.2|        69.1|58.0|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -260,9 +266,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|67.1| |        67.7|77.0|69.6|47.1|        67.0|56.1|        71.7|79.9|
-|2|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|66.9| |        62.8|77.0|68.3|42.2|        68.0|55.6|        82.3|78.7|
-|3|qwen2.5-7b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|63.8| |        64.5|72.3|69.0|43.8|        59.6|56.0|        68.5|76.1|
+|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|66.6| |        62.8|77.0|67.5|42.2|        68.0|55.6|        81.2|78.7|
+|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|66.4| |        67.7|77.0|68.0|47.1|        67.0|56.1|        68.1|79.9|
+|3|qwen2.5-7b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|63.2| |        64.5|72.3|66.5|43.8|        59.6|56.0|        66.7|76.1|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -271,9 +277,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.7| |        81.9|89.5|83.9|74.8|        88.6|61.5|        88.5|84.8|
-|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|腾讯|12.0元|80.6| |        88.6|83.3|86.2|83.2|        75.7|73.2|        77.1|80.1|
-|3|qwq-32b☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|78.7| |        76.5|86.1|81.8|62.5|        86.5|63.0|        87.6|85.2|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        87.6|84.8|
+|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|腾讯|12.0元|80.4| |        88.6|83.3|84.6|83.2|        75.7|73.2|        74.3|80.1|
+|3|qwq-32b☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|78.0| |        76.5|86.1|78.3|62.5|        86.5|63.0|        85.6|85.2|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -671,17 +677,31 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[金融](leaderboard/金融.md)<br>
 
 ### 4.1 财务
+☛☛完整排行榜见[财务](leaderboard/财务.md)<br>
  - 初级会计职称：[排行榜](leaderboard/CFLUE-初级会计职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-初级会计职称)
  - 注册会计师：[排行榜](leaderboard/注册会计师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=注册会计师)
+ - 会计从业资格：[排行榜](leaderboard/会计从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=会计从业资格)
+ - 审计师考试：[排行榜](leaderboard/审计师考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=审计师考试)
+ - 注册税务师：[排行榜](leaderboard/注册税务师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=注册税务师)
+ - 注册管理会计师：[排行榜](leaderboard/注册管理会计师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=注册管理会计师)
+
 ### 4.2 银行
+☛☛完整排行榜见[银行](leaderboard/银行.md)<br>
  - 银行初级资格：[排行榜](leaderboard/CFLUE-银行初级资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-银行初级资格)
  - 银从中级资格：[排行榜](leaderboard/CFLUE-银从中级资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-银从中级资格)
+ - 银行从业资格：[排行榜](leaderboard/银行从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=银行从业资格)
+
 ### 4.3 保险
+☛☛完整排行榜见[保险](leaderboard/保险.md)<br>
  - 保险从业资格：[排行榜](leaderboard/保险从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=保险从业资格)
+
 ### 4.4 证券
+☛☛完整排行榜见[证券](leaderboard/证券.md)<br>
  - 证券专项考试：[排行榜](leaderboard/CFLUE-证券专项考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-证券专项考试)
  - 证券从业资格：[排行榜](leaderboard/证券从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=证券从业资格)
-### 4.5 其他金融领域 
+
+### 4.5 其他金融资格考试
+☛☛完整排行榜见[其他金融资格考试](leaderboard/其他金融资格考试.md)<br>
  - 初级经济师：[排行榜](leaderboard/CFLUE-初级经济师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-初级经济师)
  - 中级经济师：[排行榜](leaderboard/CFLUE-中级经济师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-中级经济师)
  - 反假货币知识：[排行榜](leaderboard/CFLUE-反假货币知识.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-反假货币知识)
@@ -690,6 +710,61 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
  - 基金从业资格：[排行榜](leaderboard/基金从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基金从业资格)
  - 黄金从业资格：[排行榜](leaderboard/CFLUE-黄金从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-黄金从业资格)
  - 中国精算师：[排行榜](leaderboard/中国精算师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中国精算师)
+
+### 4.6 金融基础知识
+☛☛完整排行榜见[金融基础知识](leaderboard/金融基础知识.md)<br>
+ - 金融学：[排行榜](leaderboard/金融学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融学)
+ - 公司战略与风险管理：[排行榜](leaderboard/公司战略与风险管理.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=公司战略与风险管理)
+ - 宏观经济学：[排行榜](leaderboard/宏观经济学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=宏观经济学)
+ - 金融市场学：[排行榜](leaderboard/金融市场学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融市场学)
+ - 会计学：[排行榜](leaderboard/会计学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=会计学)
+ - 成本会计学：[排行榜](leaderboard/成本会计学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=成本会计学)
+ - 货币金融学：[排行榜](leaderboard/货币金融学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=货币金融学)
+ - 政治经济学：[排行榜](leaderboard/政治经济学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=政治经济学)
+ - 投资学：[排行榜](leaderboard/投资学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=投资学)
+ - 计量经济学：[排行榜](leaderboard/计量经济学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=计量经济学)
+ - 公司金融学：[排行榜](leaderboard/公司金融学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=公司金融学)
+ - 财政学：[排行榜](leaderboard/财政学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=财政学)
+ - 商业银行金融学：[排行榜](leaderboard/商业银行金融学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=商业银行金融学)
+ - 管理会计学：[排行榜](leaderboard/管理会计学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=管理会计学)
+ - 中央银行学：[排行榜](leaderboard/中央银行学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中央银行学)
+ - 审计学：[排行榜](leaderboard/审计学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=审计学)
+ - 国际经济学：[排行榜](leaderboard/国际经济学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=国际经济学)
+ - 中级财务会计：[排行榜](leaderboard/中级财务会计.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中级财务会计)
+ - 财务管理学：[排行榜](leaderboard/财务管理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=财务管理学)
+ - 微观经济学：[排行榜](leaderboard/微观经济学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=微观经济学)
+ - 国际金融学：[排行榜](leaderboard/国际金融学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=国际金融学)
+ - 金融工程学：[排行榜](leaderboard/金融工程学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融工程学)
+ - 经济法：[排行榜](leaderboard/经济法.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=经济法)
+ - 高级财务会计：[排行榜](leaderboard/高级财务会计.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=高级财务会计)
+ - 保险学：[排行榜](leaderboard/保险学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=保险学)
+
+### 4.7 金融应用
+☛☛完整排行榜见[金融应用](leaderboard/金融应用.md)<br>
+ - 保险知识解读：[排行榜](leaderboard/Fin-Eva-金融知识-保险知识解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-保险知识解读)
+ - 金融术语解释：[排行榜](leaderboard/Fin-Eva-金融知识-金融术语解释.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-金融术语解释)
+ - 执业医师资格考试：[排行榜](leaderboard/Fin-Eva-金融知识-执业医师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-执业医师资格考试)
+ - 理财知识解读：[排行榜](leaderboard/Fin-Eva-金融知识-理财知识解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-理财知识解读)
+ - 执业药师资格考试：[排行榜](leaderboard/Fin-Eva-金融知识-执业药师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-执业药师资格考试)
+ - 金融文档抽取：[排行榜](leaderboard/Fin-Eva-金融知识-金融文档抽取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-金融文档抽取)
+ - 研判观点提取：[排行榜](leaderboard/Fin-Eva-金融认知-研判观点提取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-研判观点提取)
+ - 金融情绪识别：[排行榜](leaderboard/Fin-Eva-金融认知-金融情绪识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-金融情绪识别)
+ - 保险槽位识别：[排行榜](leaderboard/Fin-Eva-金融认知-保险槽位识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-保险槽位识别)
+ - 保险意图理解：[排行榜](leaderboard/Fin-Eva-金融认知-保险意图理解.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-保险意图理解)
+ - 金融意图理解：[排行榜](leaderboard/Fin-Eva-金融认知-金融意图理解.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-金融意图理解)
+ - 保险属性抽取：[排行榜](leaderboard/Fin-Eva-金融逻辑-保险属性抽取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-保险属性抽取)
+ - 保险条款解读：[排行榜](leaderboard/Fin-Eva-金融逻辑-保险条款解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-保险条款解读)
+ - 金融产品分析：[排行榜](leaderboard/Fin-Eva-金融逻辑-金融产品分析.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-金融产品分析)
+ - 金融数值计算：[排行榜](leaderboard/Fin-Eva-金融逻辑-金融数值计算.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-金融数值计算)
+ - 金融事件解读：[排行榜](leaderboard/Fin-Eva-金融逻辑-金融事件解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-金融事件解读)
+ - 内容生成-投教话术生成：[排行榜](leaderboard/Fin-Eva-内容生成-投教话术生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-内容生成-投教话术生成)
+ - 内容生成-文本总结归纳：[排行榜](leaderboard/Fin-Eva-内容生成-文本总结归纳.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-内容生成-文本总结归纳)
+ - 内容生成-营销文案生成：[排行榜](leaderboard/Fin-Eva-内容生成-营销文案生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-内容生成-营销文案生成)
+ - 内容生成-资讯标题生成：[排行榜](leaderboard/Fin-Eva-内容生成-资讯标题生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-内容生成-资讯标题生成)
+ - 安全合规-金融合规性：[排行榜](leaderboard/Fin-Eva-安全合规-金融合规性.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-安全合规-金融合规性)
+ - 安全合规-金融问题识别：[排行榜](leaderboard/Fin-Eva-安全合规-金融问题识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-安全合规-金融问题识别)
+ - 安全合规-信息安全合规：[排行榜](leaderboard/Fin-Eva-安全合规-信息安全合规.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-安全合规-信息安全合规)
+ - 安全合规-金融事实性：[排行榜](leaderboard/Fin-Eva-安全合规-金融事实性.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-安全合规-金融事实性)
 <br><br><br>
 
 
@@ -824,20 +899,7 @@ A:
 <br><br><br>
 
 
-### 8.5 七八九年级数学
-七/八/九年级的平均分计入总分。<br>
-评分标准：七、八、九年级分别有40道题、21道题、36道题，所有题目都只判断对错（没有中间分数）。对于任何题目，只有模型response完全正确才给分，部分正确或错误都不得分。<br>
-评测样本举例：
-> 因式分解：3x^2y-12xy+12y
-
-完整排行榜见[初中数学](leaderboard/middle-school-math.md)<br>
-☛查看[七年级数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Grade7Math-zh)
-☛查看[八年级数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Grade8Math-zh)
-☛查看[九年级数学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Grade9Math-zh)
-<br><br><br>
-
-
-### 8.6 表格问答
+### 8.5 表格问答
 专门考查大模型对表格的理解分析能力，常用于数据分析。    
 评测样本举例：
 > 姓名,年龄,性别,国籍,身高(cm),体重(kg),学历   
@@ -856,7 +918,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 8.7 高中奥林匹克数学竞赛
+### 8.6 高中奥数
 2024年预赛试题，参考[Math24o](https://github.com/CLUEbenchmark/Math24o)。
 评测样本举例：
 > 设集合 $S=\{1, 2, 3, \cdots, 9 9 7, 9 9 8 \}$，集合 $S$ 的 $k$ 个 $499$ 元子集 $A_{1},A_{2}, \cdots, A_{k}$ 满足：对 $S$ 中任一二元子集 $B$，均存在 $i \in\{1, 2, \cdots, k \}$，使得 $B \subset A_{i}$。求 $k$ 的最小值。
@@ -865,6 +927,15 @@ Antonio,36,男,西班牙,182,75,博士
 完整排行榜见[高中奥林匹克数学竞赛](leaderboard/Math24o.md)<br>
 ☛查看[高中奥林匹克数学竞赛badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Math24o)
 <br><br><br>
+
+
+### 8.7 初中奥数TODO
+<br><br><br>
+
+
+### 8.8 小学奥数TODO
+<br><br><br>
+
 
 
 ## 9、语言与指令遵从排行榜
