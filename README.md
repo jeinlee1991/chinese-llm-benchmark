@@ -1,6 +1,6 @@
 
 # CLiB中文大模型能力评测榜单（持续更新）
-- 目前已囊括210个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括213个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及DeepSeek-R1、qwq-32b、deepseek-v3、qwen2.5、llama3.3、phi-4、glm4、gemma3、mistral、书生internLM2.5等开源大模型。
 - 模型来源涉及国内外大厂、大模型创业公司、高校研究机构。
 - 支持多维度能力评测，包括医疗、教育、金融、法律、行政公务、心理健康、推理与数学计算、语言与指令遵从等8个领域，以及细分的~300个维度（比如牙科、高中语文…）。
@@ -77,12 +77,14 @@
 - [大模型选型及评测交流群](#大模型选型及评测交流群)
 
 # 最近更新
+- [2025/4/9] v3.16版本
+  - 新增3个模型：Llama-4-Scout-17B-16E-Instruct、Llama-4-Maverick-17B-128E-Instruct-FP8、ERNIE-X1-32K-Preview，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/4/5] v3.15版本
   - 金融领域新增多个评测维度，详见[link](#4金融排行榜)
   - 删除陈旧的模型：abab7-chat-preview、gemini-2.0-flash-exp、gemma-2-9b-it、gemma-2-27b-it、qwen2.5-math-72b-instruct、Mistral-Nemo-Instruct-2407、Llama-3.1-Nemotron-70B-Instruct-fp8
 - [2025/4/3] v3.14版本
   - 重新梳理医学及金融领域的细分评测维度
-  - 新增2个模型：hunyuan-t1-20250321、deepseek-chat-v3-0324
+  - 新增2个模型：hunyuan-t1-20250321、deepseek-chat-v3-0324，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/3/31] v3.13版本
   - 新增“医学综合考试”排行榜，并计入总分，详见[link](#214-医学综合考试)
 - [2025/3/29] v3.12版本
@@ -97,7 +99,7 @@
 - [2025/3/23] v3.9版本
   - 新增“专业知识考试/中医学与中药学”排行榜，并计入总分
   - “律师资格考试”排行榜新增“MMCU法律”子项
-  - 新增5个模型：hunyuan-turbos-20250313、gemma-3-1b-it、gemma-3-4b-it、gemma-3-12b-it、ERNIE-4.5-8K-Preview
+  - 新增5个模型：hunyuan-turbos-20250313、gemma-3-1b-it、gemma-3-4b-it、gemma-3-12b-it、ERNIE-4.5-8K-Preview，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/3/21] 发布v3.8版本评测榜单
   - 新增“专业知识考试/预防医学与公共卫生学”、“心理健康”排行榜，并计入总分
 - [2025/3/19] 发布v3.7版本评测榜单
@@ -105,7 +107,7 @@
   - 高考排行榜新增政治学科，并增加大量考题，更新所有相关分数
 - [2025/3/17] 发布v3.6版本评测榜单
   - 新增“专业知识考试/基础医学”排行榜（含病理生理学、医学心理学等17个方向），并计入总分，详见[link](#29-专业知识考试基础医学)
-  - 新增2个模型：谷歌gemma-3-27b-it、Mistral-Small-24B-Instruct-2501
+  - 新增2个模型：谷歌gemma-3-27b-it、Mistral-Small-24B-Instruct-2501，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/3/15] 发布v3.5版本评测榜单 
   - 新增“医技考试”排行榜（含医技士-康复医学治疗技术、医技师-肿瘤学技术等22个方向），并计入总分，详见[link](#28-医技考试)
 - [2025/3/13] 发布v3.4版本评测榜单
@@ -193,7 +195,7 @@
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
 |1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|83.9| |        90.0|88.9|85.2|83.3|        81.6|78.2|        79.3|84.2|
 |2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        87.6|84.8|
-|3|hunyuan-turbos-20250313(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|80.3| |        85.1|87.8|80.5|72.2|        80.0|72.9|        79.8|84.4|
+|3|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|80.6| |        79.4|87.9|80.2|77.8|        80.0|66.7|        87.6|85.7|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -216,7 +218,7 @@
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
 |1|ERNIE-4.5-8K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|86.0| |        92.9|87.0|85.2|90.3|        87.0|75.2|        81.6|88.4|
 |2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        87.6|84.8|
-|3|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|80.5| |        88.9|87.1|84.8|75.7|        76.2|71.8|        77.5|82.3|
+|3|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|80.6| |        79.4|87.9|80.2|77.8|        80.0|66.7|        87.6|85.7|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>

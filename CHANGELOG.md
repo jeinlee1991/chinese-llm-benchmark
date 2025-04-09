@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/4/9] v3.16版本
+  - 新增3个模型：Llama-4-Scout-17B-16E-Instruct、Llama-4-Maverick-17B-128E-Instruct-FP8、ERNIE-X1-32K-Preview，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/4/5] v3.15版本
   - 金融领域新增多个评测维度，详见[link](#4金融排行榜)
   - 删除陈旧的模型：abab7-chat-preview、gemini-2.0-flash-exp、gemma-2-9b-it、gemma-2-27b-it、qwen2.5-math-72b-instruct、Mistral-Nemo-Instruct-2407、Llama-3.1-Nemotron-70B-Instruct-fp8
