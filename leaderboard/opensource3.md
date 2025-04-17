@@ -18,6 +18,7 @@
 |15|Llama-3.3-70B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|4.13元|60.0| |        59.2|62.7|56.9|32.1|        66.4|49.6|        75.0|78.0|
 |16|Llama-3.3-70B-Instruct-fp8☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|meta|2.2元|59.1| |        58.7|59.0|56.0|31.2|        64.8|48.5|        76.2|78.1|
 |17|Hermes-3-Llama-3.1-405B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|NousResearch|5.8元|58.6| |        55.6|59.2|59.2|31.6|        64.7|48.9|        71.7|78.0|
-|18|gemma-3-27b-it(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Google|1.45元|57.1| |        48.2|63.5|56.1|23.0|        70.5|44.5|        77.7|73.1|
-|19|Mistral-Small-24B-Instruct-2501(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Mistral|1.02元|53.7| |        45.8|57.9|53.1|28.5|        58.0|40.2|        71.3|74.4|
+|18|Mistral-Small-3.1-24B-Instruct-2503(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Mistral|2.175元|58.6| |        53.1|67.8|57.6|33.3|        57.0|47.1|        75.8|77.1|
+|19|gemma-3-27b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Google|1.45元|57.1| |        48.2|63.5|56.1|23.0|        70.5|44.5|        77.7|73.1|
+|20|Mistral-Small-24B-Instruct-2501☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Mistral|1.02元|53.7| |        45.8|57.9|53.1|28.5|        58.0|40.2|        71.3|74.4|
     

@@ -1,7 +1,7 @@
 ##### （2）输出价格5~30元商用大模型排行榜
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-4.5-8K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|86.0| |        92.9|87.0|85.2|90.3|        87.0|75.2|        81.6|88.4|
+|1|ERNIE-4.5-8K-Preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|86.0| |        92.9|87.0|85.2|90.3|        87.0|75.2|        81.6|88.4|
 |2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        87.6|84.8|
 |3|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|80.6| |        79.4|87.9|80.2|77.8|        80.0|66.7|        87.6|85.7|
 |4|hunyuan-turbo☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|9.6元|80.5| |        88.9|87.1|84.8|75.7|        76.2|71.8|        77.5|82.3|

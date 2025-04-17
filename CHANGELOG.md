@@ -1,4 +1,7 @@
 ## 最近更新
+- [2025/4/17] v3.17版本
+  - 新增2个模型：Mistral-Small-3.1-24B-Instruct-2503、gemini-2.5-pro-preview-03-25，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 删除陈旧的模型：o1-mini、gemini-2.0-pro-exp-02-05
 - [2025/4/9] v3.16版本
   - 新增3个模型：Llama-4-Scout-17B-16E-Instruct、Llama-4-Maverick-17B-128E-Instruct-FP8、ERNIE-X1-32K-Preview，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/4/5] v3.15版本

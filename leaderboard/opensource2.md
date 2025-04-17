@@ -8,7 +8,7 @@
 |5|internlm2_5-7b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|上海人工智能实验室|0.35元|61.3| |        64.8|61.7|64.1|45.3|        62.4|51.0|        64.6|76.3|
 |6|glm-4-9b-chat☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|智谱AI|0.6元|58.4| |        56.0|72.1|57.3|39.5|        64.1|47.1|        59.5|71.7|
 |7|phi-4☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|微软|1.0元|55.2| |        43.4|55.8|56.0|26.7|        66.1|43.2|        76.8|73.7|
-|8|gemma-3-12b-it(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Google|0.0元|51.8| |        43.6|54.8|46.6|20.3|        59.0|41.1|        77.1|71.6|
+|8|gemma-3-12b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Google|0.0元|51.8| |        43.6|54.8|46.6|20.3|        59.0|41.1|        77.1|71.6|
 |9|Llama-3.1-8B-Instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Meta|0.42元|45.2| |        39.9|41.8|40.9|22.8|        49.6|37.2|        64.0|65.8|
 |10|DeepSeek-R1-Distill-Llama-8B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.42元|44.9| |        29.7|48.4|42.6|21.8|        49.9|31.9|        70.2|64.8|
 |11|DeepSeek-R1-Distill-Qwen-7B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.35元|44.6| |        28.8|51.4|45.8|20.7|        48.8|30.4|        69.8|61.2|
