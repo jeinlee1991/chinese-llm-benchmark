@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/4/22] v3.18版本
+  - 新增“小学奥数”排行榜，gemini-2.5-pro以满分排第一，详见(#88-小学奥数)
 - [2025/4/17] v3.17版本
   - 新增2个模型：Mistral-Small-3.1-24B-Instruct-2503、gemini-2.5-pro-preview-03-25，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 删除陈旧的模型：o1-mini、gemini-2.0-pro-exp-02-05
