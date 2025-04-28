@@ -1,4 +1,8 @@
 ## 最近更新
+- [2025/4/28] v3.19版本
+  - 新增个模型：gemini-2.5-flash-preview-04-17、GLM-Z1-Flash、GLM-Z1-FlashX、GLM-Z1-Air、GLM-Z1-AirX、GLM-4-9B-0414、GLM-Z1-9B-0414、GLM-4-32B-0414、GLM-Z1-32B-0414、GLM-Z1-Rumination-32B-0414，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 删除陈旧的模型：GLM-Zero-Preview、Baichuan4、ERNIE-4.0、qwq-32b-preview、deepseek-chat-v3、step-1-flash、360gpt-pro、Mistral-7B-Instruct-v0.3
+  - “小学奥数”评测集新增数据，各模型分数有所变化
 - [2025/4/22] v3.18版本
   - 新增“小学奥数”排行榜，gemini-2.5-pro以满分排第一，详见(#88-小学奥数)
 - [2025/4/17] v3.17版本
