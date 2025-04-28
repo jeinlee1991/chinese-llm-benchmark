@@ -23,7 +23,7 @@
 |开源|qwen2.5-3b-instruct|75.0|20|
 |开源|qwen2.5-7b-instruct|75.0|21|
 |商用|hunyuan-turbo|75.0|22|
-|商用|GLM-Z1-Air|75.0|23|
+|商用|GLM-Z1-Air(new)|75.0|23|
 |商用|gemini-2.5-pro-preview-03-25(new)|75.0|24|
 |开源|Mistral-Small-3.1-24B-Instruct-2503(new)|75.0|25|
 |商用|hunyuan-turbos-20250313|75.0|26|
@@ -53,9 +53,9 @@
 |开源|gemma-3-4b-it|75.0|50|
 |商用|ERNIE-X1-32K-Preview(new)|75.0|51|
 |商用|360gpt-turbo|50.0|52|
-|商用|GLM-Z1-Flash|50.0|53|
-|开源|GLM-4-9B-0414|50.0|54|
-|开源|GLM-Z1-Rumination-32B-0414|50.0|55|
+|商用|GLM-Z1-Flash(new)|50.0|53|
+|开源|GLM-4-9B-0414(new)|50.0|54|
+|开源|GLM-Z1-Rumination-32B-0414(new)|50.0|55|
 |商用|SenseChat-5-beta|50.0|56|
 |商用|gemini-1.5-flash-8b|50.0|57|
 |开源|qwen2.5-14b-instruct|50.0|58|
@@ -77,9 +77,9 @@
 |商用|qwen2.5-max|50.0|74|
 |商用|step-1-8k|50.0|75|
 |开源|DeepSeek-R1-Distill-Qwen-7B|50.0|76|
-|开源|GLM-4-32B-0414|50.0|77|
+|开源|GLM-4-32B-0414(new)|50.0|77|
 |商用|step-2-mini|50.0|78|
-|商用|gemini-2.5-flash-preview-04-17|50.0|79|
+|商用|gemini-2.5-flash-preview-04-17(new)|50.0|79|
 |商用|hunyuan-t1-20250321(new)|50.0|80|
 |商用|ERNIE-Speed-Pro-128K|50.0|81|
 |商用|SenseChat-Turbo-1202|50.0|82|
@@ -101,13 +101,13 @@
 |商用|gemini-1.5-flash|25.0|98|
 |商用|ministral-8b|25.0|99|
 |商用|ERNIE-Lite-Pro-128K|25.0|100|
-|商用|GLM-Z1-AirX|25.0|101|
+|商用|GLM-Z1-AirX(new)|25.0|101|
 |开源|Mistral-Small-24B-Instruct-2501|25.0|102|
 |商用|360zhinao2-o1|25.0|103|
 |商用|xunfei-spark-lite|25.0|104|
-|开源|GLM-Z1-9B-0414|25.0|105|
-|商用|GLM-Z1-FlashX|25.0|106|
-|开源|GLM-Z1-32B-0414|25.0|107|
+|开源|GLM-Z1-9B-0414(new)|25.0|105|
+|商用|GLM-Z1-FlashX(new)|25.0|106|
+|开源|GLM-Z1-32B-0414(new)|25.0|107|
 |开源|Llama-3.2-1B-Instruct|/|108|
 
 

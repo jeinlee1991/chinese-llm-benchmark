@@ -1,8 +1,8 @@
 
 | 类别 | 大模型                         | PrimarySchoolScience | 排名 |
 |-----|------------------------------|---------|----|
-|开源|GLM-Z1-32B-0414|88.9|1|
-|商用|GLM-Z1-Flash|88.9|2|
+|开源|GLM-Z1-32B-0414(new)|88.9|1|
+|商用|GLM-Z1-Flash(new)|88.9|2|
 |开源|Llama-4-Maverick-17B-128E-Instruct-FP8(new)|88.9|3|
 |商用|ERNIE-X1-32K-Preview(new)|88.9|4|
 |商用|qwq-plus-2025-03-05|88.9|5|
@@ -22,9 +22,9 @@
 |开源|qwen2.5-7b-instruct|77.8|19|
 |商用|SenseChat-5-1202|77.8|20|
 |开源|gemma-3-27b-it|77.8|21|
-|商用|GLM-Z1-FlashX|77.8|22|
+|商用|GLM-Z1-FlashX(new)|77.8|22|
 |商用|gemini-2.5-pro-preview-03-25(new)|77.8|23|
-|商用|gemini-2.5-flash-preview-04-17|77.8|24|
+|商用|gemini-2.5-flash-preview-04-17(new)|77.8|24|
 |商用|hunyuan-turbos-20250226|77.8|25|
 |商用|Doubao-1.5-pro-32k-250115|77.8|26|
 |开源|qwq-32b|77.8|27|
@@ -45,14 +45,14 @@
 |开源|qwen2.5-3b-instruct|77.8|42|
 |商用|GLM-4-AirX|77.8|43|
 |商用|GLM-4-Air|77.8|44|
-|开源|GLM-Z1-Rumination-32B-0414|77.8|45|
+|开源|GLM-Z1-Rumination-32B-0414(new)|77.8|45|
 |开源|Llama-4-Scout-17B-16E-Instruct(new)|77.8|46|
 |商用|SenseChat-5-beta|77.8|47|
 |商用|gemini-2.0-flash-thinking-exp-01-21|77.8|48|
-|商用|GLM-Z1-Air|77.8|49|
-|商用|GLM-Z1-AirX|77.8|50|
-|开源|GLM-Z1-9B-0414|77.8|51|
-|开源|GLM-4-9B-0414|77.8|52|
+|商用|GLM-Z1-Air(new)|77.8|49|
+|商用|GLM-Z1-AirX(new)|77.8|50|
+|开源|GLM-Z1-9B-0414(new)|77.8|51|
+|开源|GLM-4-9B-0414(new)|77.8|52|
 |商用|qwen2.5-max|77.8|53|
 |商用|step-2-mini|66.7|54|
 |商用|360gpt2-o1|66.7|55|
@@ -93,7 +93,7 @@
 |商用|GLM-4-Long|55.6|90|
 |商用|ministral-8b|55.6|91|
 |开源|DeepSeek-R1-Distill-Qwen-14B|55.6|92|
-|开源|GLM-4-32B-0414|55.6|93|
+|开源|GLM-4-32B-0414(new)|55.6|93|
 |开源|gemma-3-12b-it|55.6|94|
 |开源|internlm2_5-7b-chat|44.4|95|
 |开源|Llama-3.2-1B-Instruct|44.4|96|

@@ -18,7 +18,7 @@
 |商用|Doubao-1.5-pro-32k-250115|78.0|15|
 |开源|qwen2.5-72b-instruct|77.3|16|
 |商用|hunyuan-t1-20250321(new)|76.9|17|
-|商用|GLM-Z1-Air|76.0|18|
+|商用|GLM-Z1-Air(new)|76.0|18|
 |商用|qwen2.5-max|75.5|19|
 |商用|SenseChat-5-beta|75.0|20|
 |商用|hunyuan-turbos-20250313|75.0|21|
@@ -40,7 +40,7 @@
 |商用|qwen-long|67.5|37|
 |商用|o3-mini|67.2|38|
 |开源|Meta-Llama-3.1-405B-Instruct|67.0|39|
-|开源|GLM-Z1-32B-0414|66.7|40|
+|开源|GLM-Z1-32B-0414(new)|66.7|40|
 |商用|moonshot-v1-8k|66.5|41|
 |商用|yi-lightning|66.5|42|
 |商用|qwen-plus|66.5|43|
@@ -57,7 +57,7 @@
 |商用|SenseChat-Turbo-1202|63.0|54|
 |商用|qwen-turbo|63.0|55|
 |商用|hunyuan-standard|63.0|56|
-|商用|GLM-Z1-FlashX|62.0|57|
+|商用|GLM-Z1-FlashX(new)|62.0|57|
 |商用|ERNIE-4.0-Turbo-8K|61.0|58|
 |开源|internlm2_5-20b-chat|61.0|59|
 |商用|step-2-mini|61.0|60|
@@ -65,12 +65,12 @@
 |商用|GLM-4-AirX|60.5|62|
 |商用|gemini-2.5-pro-preview-03-25(new)|60.0|63|
 |开源|qwen2.5-7b-instruct|60.0|64|
-|开源|GLM-4-32B-0414|60.0|65|
+|开源|GLM-4-32B-0414(new)|60.0|65|
 |开源|Hermes-3-Llama-3.1-405B|59.5|66|
 |开源|Llama-3.3-70B-Instruct-fp8|59.0|67|
 |商用|Claude-3.5-Sonnet|58.6|68|
 |商用|step-1-8k|58.0|69|
-|开源|GLM-4-9B-0414|57.0|70|
+|开源|GLM-4-9B-0414(new)|57.0|70|
 |商用|GLM-4-Long|57.0|71|
 |开源|Mistral-Small-24B-Instruct-2501|56.5|72|
 |开源|glm-4-9b-chat|56.0|73|
@@ -85,7 +85,7 @@
 |开源|gemma-3-12b-it|50.0|82|
 |商用|GLM-4-Flash|49.6|83|
 |商用|mistral-small|48.0|84|
-|商用|GLM-Z1-Flash|48.0|85|
+|商用|GLM-Z1-Flash(new)|48.0|85|
 |开源|phi-4|47.5|86|
 |开源|qwen2.5-3b-instruct|47.0|87|
 |商用|ERNIE-Speed-8K|46.7|88|
@@ -95,20 +95,20 @@
 |开源|Llama-3.1-8B-Instruct|43.5|92|
 |商用|ministral-8b|42.5|93|
 |开源|qwen2.5-1.5b-instruct|41.0|94|
-|开源|GLM-Z1-Rumination-32B-0414|40.0|95|
+|开源|GLM-Z1-Rumination-32B-0414(new)|40.0|95|
 |开源|qwen2.5-0.5b-instruct|39.5|96|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|39.5|97|
-|商用|gemini-2.5-flash-preview-04-17|36.7|98|
+|商用|gemini-2.5-flash-preview-04-17(new)|36.7|98|
 |开源|DeepSeek-R1-Distill-Qwen-7B|35.0|99|
 |开源|Llama-3.2-3B-Instruct|34.5|100|
 |商用|ministral-3b|34.0|101|
-|开源|GLM-Z1-9B-0414|32.0|102|
+|开源|GLM-Z1-9B-0414(new)|32.0|102|
 |开源|Llama-3.2-1B-Instruct|31.0|103|
 |开源|gemma-3-1b-it|28.0|104|
 |商用|ERNIE-Tiny-8K|27.5|105|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|23.0|106|
 |商用|xunfei-spark-lite|22.4|107|
-|商用|GLM-Z1-AirX|10.0|108|
+|商用|GLM-Z1-AirX(new)|10.0|108|
 
 
 ![lin](../pic/gaokao-geography.png)

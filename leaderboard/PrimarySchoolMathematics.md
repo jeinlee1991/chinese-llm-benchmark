@@ -1,15 +1,15 @@
 
 | 类别 | 大模型                         | PrimarySchoolMathematics | 排名 |
 |-----|------------------------------|---------|----|
-|商用|gemini-2.5-flash-preview-04-17|100.0|1|
-|商用|GLM-Z1-AirX|100.0|2|
-|开源|GLM-Z1-32B-0414|100.0|3|
-|商用|GLM-Z1-Flash|95.6|4|
-|商用|GLM-Z1-Air|95.6|5|
-|商用|GLM-Z1-FlashX|95.6|6|
-|开源|GLM-Z1-9B-0414|93.3|7|
-|开源|GLM-Z1-Rumination-32B-0414|92.3|8|
-|开源|GLM-4-32B-0414|91.1|9|
+|商用|gemini-2.5-flash-preview-04-17(new)|100.0|1|
+|商用|GLM-Z1-AirX(new)|100.0|2|
+|开源|GLM-Z1-32B-0414(new)|100.0|3|
+|商用|GLM-Z1-Flash(new)|95.6|4|
+|商用|GLM-Z1-Air(new)|95.6|5|
+|商用|GLM-Z1-FlashX(new)|95.6|6|
+|开源|GLM-Z1-9B-0414(new)|93.3|7|
+|开源|GLM-Z1-Rumination-32B-0414(new)|92.3|8|
+|开源|GLM-4-32B-0414(new)|91.1|9|
 |商用|xunfei-spark-max|90.9|10|
 |开源|DeepSeek-R1|90.9|11|
 |商用|ERNIE-4.5-8K-Preview|90.9|12|
@@ -17,7 +17,7 @@
 |商用|Doubao-1.5-pro-32k-250115|90.9|14|
 |商用|hunyuan-t1-20250321(new)|90.9|15|
 |开源|qwq-32b|90.9|16|
-|开源|GLM-4-9B-0414|86.7|17|
+|开源|GLM-4-9B-0414(new)|86.7|17|
 |商用|xunfei-4.0Ultra|81.8|18|
 |开源|qwen2.5-14b-instruct|81.8|19|
 |商用|yi-lightning|81.8|20|

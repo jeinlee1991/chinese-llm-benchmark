@@ -202,9 +202,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|83.9| |        90.0|88.9|85.2|83.3|        81.6|78.2|        81.2|84.2|
-|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        89.0|84.8|
-|3|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|80.6| |        79.4|87.9|80.2|77.8|        80.0|66.7|        87.5|85.7|
+|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|83.7| |        90.0|89.5|85.2|82.6|        78.1|78.2|        81.3|84.2|
+|2|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|81.0| |        79.4|89.2|80.2|77.8|        80.0|66.7|        88.8|85.7|
+|3|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|80.8| |        81.9|89.2|82.9|73.8|        83.0|61.5|        89.2|84.8|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -214,9 +214,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|gemini-2.5-pro-preview-03-25(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|72.5元|76.5| |        77.6|85.6|72.5|53.3|        90.0|52.5|        95.9|84.8|
-|2|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|74.0| |        75.9|81.9|75.2|66.7|        72.0|61.2|        78.0|82.3|
-|3|GLM-4-Plus☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|50.0元|73.6| |        75.1|81.3|74.0|63.1|        76.7|59.0|        74.2|84.1|
+|1|gemini-2.5-pro-preview-03-25(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|72.5元|76.3| |        77.6|87.2|72.3|53.3|        90.0|52.5|        92.5|84.8|
+|2|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|73.6| |        75.9|83.7|75.2|64.0|        68.7|61.2|        78.0|82.3|
+|3|xunfei-spark-max☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|30.0元|73.3| |        76.5|85.0|75.0|65.3|        69.0|59.0|        77.7|79.3|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -225,9 +225,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-4.5-8K-Preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|86.0| |        92.9|87.0|85.2|90.3|        87.0|75.2|        83.1|88.4|
-|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        89.0|84.8|
-|3|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|80.6| |        79.4|87.9|80.2|77.8|        80.0|66.7|        87.5|85.7|
+|1|ERNIE-4.5-8K-Preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|86.4| |        92.9|88.8|85.2|90.6|        87.0|75.2|        83.4|88.4|
+|2|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|81.0| |        79.4|89.2|80.2|77.8|        80.0|66.7|        88.8|85.7|
+|3|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|80.8| |        81.9|89.2|82.9|73.8|        83.0|61.5|        89.2|84.8|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -236,9 +236,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|83.9| |        90.0|88.9|85.2|83.3|        81.6|78.2|        81.2|84.2|
-|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2.0元|81.6| |        86.6|89.9|84.2|72.3|        78.3|74.4|        83.1|86.5|
-|3|hunyuan-turbos-20250313☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|80.3| |        85.1|87.8|80.5|72.2|        80.0|72.9|        81.9|84.4|
+|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|83.7| |        90.0|89.5|85.2|82.6|        78.1|78.2|        81.3|84.2|
+|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2.0元|81.8| |        86.6|89.6|84.2|71.2|        78.5|74.4|        83.4|86.5|
+|3|hunyuan-turbos-20250313☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|80.8| |        85.1|88.8|80.5|72.4|        80.0|72.9|        82.1|84.4|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -247,9 +247,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|75.2| |        80.8|84.9|78.2|63.2|        70.7|65.8|        82.2|77.5|
-|2|GLM-Z1-Air☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|70.6| |        71.3|80.7|71.4|52.0|        76.0|53.5|        80.8|79.2|
-|3|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|0.0元|70.2| |        65.0|76.6|67.2|47.9|        85.1|53.5|        88.2|78.5|
+|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|74.8| |        80.8|86.3|78.2|61.6|        65.8|65.8|        82.3|77.5|
+|2|GLM-Z1-Air(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|70.6| |        71.3|80.7|71.4|52.0|        76.0|53.5|        80.8|79.2|
+|3|gemini-2.0-flash-thinking-exp-01-21☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|0.0元|69.5| |        65.0|77.9|67.2|46.1|        79.5|53.5|        88.3|78.5|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -266,9 +266,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|51.6| |        49.8|58.8|53.8|29.2|        51.3|43.8|        59.0|67.6|
-|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|43.0| |        43.8|52.2|48.6|29.6|        40.5|39.6|        38.6|51.5|
-|3|gemma-3-4b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Google|0.0元|40.9| |        31.8|43.7|39.7|16.5|        39.5|29.2|        67.5|58.0|
+|1|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|50.6| |        49.8|62.4|53.8|26.9|        42.0|43.8|        59.1|67.6|
+|2|qwen2.5-1.5b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|42.3| |        43.8|56.0|48.6|25.6|        35.0|39.6|        38.5|51.5|
+|3|gemma-3-4b-it☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|Google|0.0元|41.1| |        31.8|46.6|39.7|16.6|        39.5|29.2|        67.6|58.0|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -277,9 +277,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|66.6| |        62.8|77.0|67.5|42.2|        68.0|55.6|        81.0|78.7|
-|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|66.4| |        67.7|77.0|68.0|47.1|        67.0|56.1|        70.3|79.9|
-|3|GLM-Z1-9B-0414☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|智谱AI|0.0元|63.2| |        58.0|66.9|63.8|31.5|        75.5|48.8|        84.8|76.2|
+|1|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|66.5| |        62.8|79.3|67.5|40.2|        66.5|55.6|        81.0|78.7|
+|2|qwen2.5-14b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|65.9| |        67.7|78.6|68.0|45.4|        61.0|56.1|        70.4|79.9|
+|3|GLM-Z1-9B-0414(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|智谱AI|0.0元|63.2| |        58.0|66.9|63.8|31.5|        75.5|48.8|        84.8|76.2|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -288,9 +288,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.4| |        81.9|89.5|82.9|74.8|        88.6|61.5|        89.0|84.8|
-|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|腾讯|12.0元|80.4| |        88.6|83.3|84.6|83.2|        75.7|73.2|        76.8|80.1|
-|3|qwq-32b☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|4.0元|78.0| |        76.5|86.1|78.3|62.5|        86.5|63.0|        87.1|85.2|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|80.8| |        81.9|89.2|82.9|73.8|        83.0|61.5|        89.2|84.8|
+|2|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|腾讯|12.0元|80.2| |        88.6|85.5|84.6|82.4|        70.4|73.2|        76.8|80.1|
+|3|deepseek-chat-v3-0324(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|8.0元|77.7| |        78.0|87.0|76.1|61.7|        81.2|64.6|        87.6|85.4|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>

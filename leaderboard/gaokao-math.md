@@ -8,8 +8,8 @@
 |商用|Doubao-1.5-pro-32k-250115|94.1|5|
 |商用|hunyuan-turbos-20250313|93.5|6|
 |商用|ERNIE-X1-32K-Preview(new)|93.3|7|
-|开源|GLM-Z1-Rumination-32B-0414|93.3|8|
-|商用|gemini-2.5-flash-preview-04-17|93.3|9|
+|开源|GLM-Z1-Rumination-32B-0414(new)|93.3|8|
+|商用|gemini-2.5-flash-preview-04-17(new)|93.3|9|
 |开源|Llama-4-Maverick-17B-128E-Instruct-FP8(new)|93.0|10|
 |商用|hunyuan-t1-20250321(new)|92.0|11|
 |商用|qwq-plus-2025-03-05|92.0|12|
@@ -19,11 +19,11 @@
 |开源|DeepSeek-R1-Distill-Qwen-32B|88.1|16|
 |开源|DeepSeek-R1-Distill-Qwen-14B|87.6|17|
 |开源|DeepSeek-R1-Distill-Llama-70B|87.4|18|
-|商用|GLM-Z1-Air|86.0|19|
+|商用|GLM-Z1-Air(new)|86.0|19|
 |商用|ERNIE-4.5-8K-Preview|86.0|20|
 |商用|xunfei-spark-max|85.2|21|
 |商用|gemini-2.0-flash-001|85.1|22|
-|开源|GLM-4-32B-0414|84.5|23|
+|开源|GLM-4-32B-0414(new)|84.5|23|
 |开源|DeepSeek-R1-Distill-Qwen-7B|84.5|24|
 |商用|xunfei-4.0Ultra|82.0|25|
 |商用|360zhinao2-o1|80.0|26|
@@ -36,14 +36,14 @@
 |开源|DeepSeek-R1-Distill-Llama-8B|78.1|33|
 |商用|kimi-latest-8k|78.0|34|
 |商用|SenseChat-5-beta|77.0|35|
-|商用|GLM-Z1-FlashX|76.0|36|
+|商用|GLM-Z1-FlashX(new)|76.0|36|
 |商用|qwen-long|76.0|37|
 |开源|qwen2.5-32b-instruct|75.8|38|
 |商用|gemini-2.5-pro-preview-03-25(new)|75.0|39|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|74.5|40|
 |开源|qwen2.5-72b-instruct|74.5|41|
 |商用|qwen-plus|74.5|42|
-|开源|GLM-Z1-32B-0414|73.3|43|
+|开源|GLM-Z1-32B-0414(new)|73.3|43|
 |商用|o3-mini|73.2|44|
 |商用|mistral-large|72.7|45|
 |商用|qwen-turbo|72.2|46|
@@ -65,7 +65,7 @@
 |开源|Mistral-Small-3.1-24B-Instruct-2503(new)|65.5|62|
 |商用|ERNIE-3.5-8K|64.9|63|
 |商用|Baichuan4-Turbo|64.7|64|
-|商用|GLM-Z1-Flash|64.0|65|
+|商用|GLM-Z1-Flash(new)|64.0|65|
 |商用|GLM-4-Flash|62.4|66|
 |商用|chatgpt-4o-latest|61.0|67|
 |商用|gpt-4o-mini-2024-07-18|59.8|68|
@@ -79,7 +79,7 @@
 |商用|GLM-4-Air|56.7|76|
 |商用|step-1-8k|56.7|77|
 |开源|Llama-3.3-70B-Instruct-fp8|55.7|78|
-|开源|GLM-4-9B-0414|55.5|79|
+|开源|GLM-4-9B-0414(new)|55.5|79|
 |商用|gemini-1.5-flash-8b|55.2|80|
 |开源|qwen2.5-3b-instruct|54.4|81|
 |开源|glm-4-9b-chat|53.9|82|
@@ -98,7 +98,7 @@
 |商用|ERNIE-Lite-Pro-128K|39.7|95|
 |开源|Meta-Llama-3.1-405B-Instruct|38.1|96|
 |商用|Baichuan4-Air|37.6|97|
-|开源|GLM-Z1-9B-0414|37.5|98|
+|开源|GLM-Z1-9B-0414(new)|37.5|98|
 |商用|ERNIE-Lite-8K|29.6|99|
 |开源|gemma-3-1b-it|27.5|100|
 |商用|xunfei-spark-lite|26.4|101|
@@ -108,7 +108,7 @@
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|23.7|105|
 |开源|Llama-3.2-1B-Instruct|21.4|106|
 |商用|ERNIE-Tiny-8K|20.6|107|
-|商用|GLM-Z1-AirX|3.3|108|
+|商用|GLM-Z1-AirX(new)|3.3|108|
 
 
 ![lin](../pic/gaokao-math.png)

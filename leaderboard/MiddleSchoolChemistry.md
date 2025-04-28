@@ -14,7 +14,7 @@
 |商用|ERNIE-Lite-Pro-128K|100.0|11|
 |开源|DeepSeek-R1-Distill-Qwen-32B|100.0|12|
 |商用|hunyuan-t1-20250321(new)|100.0|13|
-|商用|GLM-Z1-AirX|100.0|14|
+|商用|GLM-Z1-AirX(new)|100.0|14|
 |商用|gemini-2.5-pro-preview-03-25(new)|100.0|15|
 |商用|ERNIE-4.5-8K-Preview|100.0|16|
 |商用|GLM-4-Plus|85.7|17|
@@ -22,9 +22,9 @@
 |商用|GLM-4-Long|85.7|19|
 |商用|gemini-2.0-flash-001|85.7|20|
 |开源|deepseek-chat-v3-0324(new)|85.7|21|
-|商用|GLM-Z1-Air|85.7|22|
-|开源|GLM-Z1-32B-0414|85.7|23|
-|开源|GLM-4-32B-0414|85.7|24|
+|商用|GLM-Z1-Air(new)|85.7|22|
+|开源|GLM-Z1-32B-0414(new)|85.7|23|
+|开源|GLM-4-32B-0414(new)|85.7|24|
 |开源|Llama-4-Maverick-17B-128E-Instruct-FP8(new)|85.7|25|
 |商用|hunyuan-turbos-20250313|85.7|26|
 |商用|qwq-plus-2025-03-05|85.7|27|
@@ -32,7 +32,7 @@
 |商用|GLM-4-FlashX|85.7|29|
 |商用|gemini-2.0-flash-thinking-exp-01-21|85.7|30|
 |开源|DeepSeek-R1-Distill-Qwen-14B|85.7|31|
-|开源|GLM-Z1-Rumination-32B-0414|85.7|32|
+|开源|GLM-Z1-Rumination-32B-0414(new)|85.7|32|
 |商用|SenseChat-5-beta|85.7|33|
 |商用|SenseChat-5-1202|85.7|34|
 |商用|ERNIE-Speed-Pro-128K|85.7|35|
@@ -47,7 +47,7 @@
 |商用|xunfei-spark-pro|85.7|44|
 |商用|mistral-large|71.4|45|
 |开源|Llama-4-Scout-17B-16E-Instruct(new)|71.4|46|
-|商用|gemini-2.5-flash-preview-04-17|71.4|47|
+|商用|gemini-2.5-flash-preview-04-17(new)|71.4|47|
 |商用|360zhinao2-o1|71.4|48|
 |开源|MiniMax-Text-01|71.4|49|
 |商用|360gpt-turbo|71.4|50|
@@ -66,7 +66,7 @@
 |开源|qwen2.5-1.5b-instruct|71.4|63|
 |商用|Claude-3.5-Sonnet|57.1|64|
 |商用|gemini-1.5-flash|57.1|65|
-|开源|GLM-Z1-9B-0414|57.1|66|
+|开源|GLM-Z1-9B-0414(new)|57.1|66|
 |商用|step-2-mini|57.1|67|
 |开源|gemma-3-12b-it|57.1|68|
 |商用|hunyuan-standard|57.1|69|
@@ -77,12 +77,12 @@
 |开源|qwen2.5-3b-instruct|57.1|74|
 |开源|phi-4|57.1|75|
 |商用|gemini-1.5-flash-8b|57.1|76|
-|开源|GLM-4-9B-0414|57.1|77|
+|开源|GLM-4-9B-0414(new)|57.1|77|
 |商用|360gpt2-pro|57.1|78|
 |商用|step-1-8k|57.1|79|
 |开源|DeepSeek-R1-Distill-Llama-8B|57.1|80|
 |商用|qwen2.5-max|57.1|81|
-|商用|GLM-Z1-Flash|57.1|82|
+|商用|GLM-Z1-Flash(new)|57.1|82|
 |商用|abab6.5s-chat|42.9|83|
 |商用|gpt-4o-mini-2024-07-18|42.9|84|
 |商用|ministral-3b|42.9|85|
@@ -93,7 +93,7 @@
 |开源|Meta-Llama-3.1-405B-Instruct|42.9|90|
 |商用|mistral-small|42.9|91|
 |开源|Llama-3.3-70B-Instruct|42.9|92|
-|商用|GLM-Z1-FlashX|42.9|93|
+|商用|GLM-Z1-FlashX(new)|42.9|93|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|42.9|94|
 |商用|chatgpt-4o-latest|42.9|95|
 |商用|SenseChat-Turbo-1202|42.9|96|

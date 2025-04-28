@@ -1,19 +1,19 @@
 
 | 类别 | 大模型                         | MiddleSchoolMathematics | 排名 |
 |-----|------------------------------|---------|----|
-|开源|GLM-Z1-32B-0414|96.8|1|
-|商用|GLM-Z1-AirX|94.7|2|
-|商用|GLM-Z1-Air|94.6|3|
-|商用|GLM-Z1-FlashX|94.6|4|
-|商用|gemini-2.5-flash-preview-04-17|93.7|5|
-|商用|GLM-Z1-Flash|93.7|6|
-|开源|GLM-Z1-9B-0414|93.7|7|
+|开源|GLM-Z1-32B-0414(new)|96.8|1|
+|商用|GLM-Z1-AirX(new)|94.7|2|
+|商用|GLM-Z1-Air(new)|94.6|3|
+|商用|GLM-Z1-FlashX(new)|94.6|4|
+|商用|gemini-2.5-flash-preview-04-17(new)|93.7|5|
+|商用|GLM-Z1-Flash(new)|93.7|6|
+|开源|GLM-Z1-9B-0414(new)|93.7|7|
 |商用|hunyuan-turbos-20250226|93.3|8|
 |商用|hunyuan-turbo|93.3|9|
 |商用|hunyuan-turbos-20250313|93.3|10|
 |开源|Llama-4-Maverick-17B-128E-Instruct-FP8(new)|93.3|11|
-|开源|GLM-Z1-Rumination-32B-0414|92.6|12|
-|开源|GLM-4-32B-0414|89.2|13|
+|开源|GLM-Z1-Rumination-32B-0414(new)|92.6|12|
+|开源|GLM-4-32B-0414(new)|89.2|13|
 |商用|ERNIE-4.5-8K-Preview|86.7|14|
 |开源|DeepSeek-R1|86.7|15|
 |商用|gemini-2.0-flash-001|86.7|16|
@@ -21,7 +21,7 @@
 |商用|hunyuan-standard|86.7|18|
 |商用|Doubao-1.5-lite-32k-250115|86.7|19|
 |商用|Doubao-1.5-pro-32k-250115|86.7|20|
-|开源|GLM-4-9B-0414|80.2|21|
+|开源|GLM-4-9B-0414(new)|80.2|21|
 |开源|MiniMax-Text-01|80.0|22|
 |商用|gemini-2.0-flash-thinking-exp-01-21|80.0|23|
 |商用|SenseChat-Turbo-1202|80.0|24|

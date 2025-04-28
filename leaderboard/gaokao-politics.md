@@ -16,7 +16,7 @@
 |商用|ERNIE-X1-32K-Preview(new)|90.0|13|
 |商用|qwen2.5-max|90.0|14|
 |开源|qwen2.5-72b-instruct|90.0|15|
-|开源|GLM-Z1-32B-0414|90.0|16|
+|开源|GLM-Z1-32B-0414(new)|90.0|16|
 |商用|GLM-4-Air|89.5|17|
 |商用|qwen-plus|89.5|18|
 |开源|qwq-32b|89.5|19|
@@ -46,7 +46,7 @@
 |商用|ERNIE-4.0-Turbo-8K|83.0|43|
 |商用|xunfei-spark-max|83.0|44|
 |开源|internlm2_5-7b-chat|81.5|45|
-|开源|GLM-4-9B-0414|81.5|46|
+|开源|GLM-4-9B-0414(new)|81.5|46|
 |商用|gemini-2.0-flash-001|81.0|47|
 |商用|moonshot-v1-8k|81.0|48|
 |商用|gemini-1.5-pro|81.0|49|
@@ -73,27 +73,27 @@
 |开源|qwen2.5-7b-instruct|75.5|70|
 |商用|step-2-mini|74.5|71|
 |商用|gemini-1.5-flash|74.0|72|
-|开源|GLM-Z1-9B-0414|73.5|73|
+|开源|GLM-Z1-9B-0414(new)|73.5|73|
 |商用|ERNIE-Lite-Pro-128K|73.0|74|
 |开源|Llama-3.3-70B-Instruct|73.0|75|
 |商用|mistral-large|72.0|76|
 |商用|o3-mini|72.0|77|
 |开源|qwen2.5-3b-instruct|70.5|78|
-|开源|GLM-4-32B-0414|70.5|79|
+|开源|GLM-4-32B-0414(new)|70.5|79|
 |开源|gemma-3-27b-it|70.5|80|
-|开源|GLM-Z1-Rumination-32B-0414|70.0|81|
+|开源|GLM-Z1-Rumination-32B-0414(new)|70.0|81|
 |开源|Mistral-Small-3.1-24B-Instruct-2503(new)|69.5|82|
 |开源|Mistral-Small-24B-Instruct-2501|67.0|83|
 |开源|qwen2.5-1.5b-instruct|67.0|84|
 |商用|mistral-small|66.5|85|
-|商用|GLM-Z1-Air|66.0|86|
+|商用|GLM-Z1-Air(new)|66.0|86|
 |商用|gpt-4o-mini-2024-07-18|64.0|87|
 |商用|gemini-1.5-flash-8b|63.0|88|
 |开源|gemma-3-12b-it|61.0|89|
 |开源|phi-4|59.5|90|
-|商用|GLM-Z1-FlashX|56.5|91|
-|商用|gemini-2.5-flash-preview-04-17|53.3|92|
-|商用|GLM-Z1-Flash|51.0|93|
+|商用|GLM-Z1-FlashX(new)|56.5|91|
+|商用|gemini-2.5-flash-preview-04-17(new)|53.3|92|
+|商用|GLM-Z1-Flash(new)|51.0|93|
 |开源|Llama-3.1-8B-Instruct|51.0|94|
 |开源|DeepSeek-R1-Distill-Qwen-7B|50.5|95|
 |商用|ministral-8b|48.0|96|
@@ -108,7 +108,7 @@
 |商用|ERNIE-Tiny-8K|32.0|105|
 |开源|gemma-3-1b-it|30.5|106|
 |开源|Llama-3.2-1B-Instruct|29.5|107|
-|商用|GLM-Z1-AirX|3.3|108|
+|商用|GLM-Z1-AirX(new)|3.3|108|
 
 
 ![lin](../pic/gaokao-politics.png)

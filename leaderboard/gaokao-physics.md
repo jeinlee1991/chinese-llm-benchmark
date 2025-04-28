@@ -7,7 +7,7 @@
 |开源|qwq-32b|88.1|4|
 |商用|qwq-plus-2025-03-05|87.5|5|
 |商用|hunyuan-turbos-20250226|85.5|6|
-|开源|GLM-4-32B-0414|83.5|7|
+|开源|GLM-4-32B-0414(new)|83.5|7|
 |商用|hunyuan-turbos-20250313|83.0|8|
 |开源|hunyuan-large|83.0|9|
 |商用|Doubao-1.5-pro-32k-250115|83.0|10|
@@ -20,10 +20,10 @@
 |开源|Llama-4-Maverick-17B-128E-Instruct-FP8(new)|79.0|17|
 |开源|DeepSeek-R1-Distill-Qwen-32B|77.6|18|
 |商用|Claude-3.5-Sonnet|77.3|19|
-|开源|GLM-Z1-32B-0414|76.7|20|
-|商用|GLM-Z1-Flash|76.5|21|
+|开源|GLM-Z1-32B-0414(new)|76.7|20|
+|商用|GLM-Z1-Flash(new)|76.5|21|
 |商用|360zhinao2-o1|75.9|22|
-|开源|GLM-Z1-Rumination-32B-0414|73.3|23|
+|开源|GLM-Z1-Rumination-32B-0414(new)|73.3|23|
 |商用|gemini-2.0-flash-001|72.5|24|
 |商用|qwen2.5-max|72.5|25|
 |商用|qwen-plus|72.0|26|
@@ -37,7 +37,7 @@
 |商用|chatgpt-4o-latest|69.0|34|
 |商用|xunfei-spark-max|68.2|35|
 |商用|gemini-1.5-pro|68.0|36|
-|商用|GLM-Z1-FlashX|67.0|37|
+|商用|GLM-Z1-FlashX(new)|67.0|37|
 |商用|ERNIE-3.5-8K|66.0|38|
 |商用|SenseChat-5-1202|65.9|39|
 |开源|MiniMax-Text-01|65.5|40|
@@ -58,7 +58,7 @@
 |商用|GLM-4-Air|60.0|55|
 |商用|GLM-4-AirX|60.0|56|
 |开源|qwen2.5-14b-instruct|59.5|57|
-|开源|GLM-4-9B-0414|59.0|58|
+|开源|GLM-4-9B-0414(new)|59.0|58|
 |商用|GLM-4-FlashX|59.0|59|
 |商用|gemini-1.5-flash|58.5|60|
 |商用|Baichuan4-Turbo|57.0|61|
@@ -74,7 +74,7 @@
 |商用|step-2-mini|50.0|71|
 |商用|ERNIE-4.0-Turbo-8K|50.0|72|
 |开源|gemma-3-27b-it|49.0|73|
-|商用|GLM-Z1-Air|48.0|74|
+|商用|GLM-Z1-Air(new)|48.0|74|
 |商用|gpt-4o-mini-2024-07-18|48.0|75|
 |开源|Llama-3.3-70B-Instruct|48.0|76|
 |商用|ERNIE-Speed-Pro-128K|46.5|77|
@@ -96,19 +96,19 @@
 |商用|ERNIE-Lite-8K|31.5|93|
 |开源|qwen2.5-1.5b-instruct|28.0|94|
 |开源|gemma-3-4b-it|28.0|95|
-|开源|GLM-Z1-9B-0414|28.0|96|
+|开源|GLM-Z1-9B-0414(new)|28.0|96|
 |商用|ministral-8b|27.0|97|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|26.5|98|
 |开源|Llama-3.1-8B-Instruct|26.0|99|
 |商用|ministral-3b|23.0|100|
 |开源|Llama-3.2-3B-Instruct|23.0|101|
 |开源|Llama-3.2-1B-Instruct|22.0|102|
-|商用|gemini-2.5-flash-preview-04-17|20.0|103|
+|商用|gemini-2.5-flash-preview-04-17(new)|20.0|103|
 |开源|gemma-3-1b-it|19.5|104|
 |开源|qwen2.5-0.5b-instruct|17.5|105|
 |商用|ERNIE-Tiny-8K|17.0|106|
 |商用|xunfei-spark-lite|14.5|107|
-|商用|GLM-Z1-AirX|/|108|
+|商用|GLM-Z1-AirX(new)|/|108|
 
 
 ![lin](../pic/gaokao-physics.png)

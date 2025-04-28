@@ -37,7 +37,7 @@
 |商用|qwen2.5-max|78.0|34|
 |商用|GLM-4-Long|78.0|35|
 |商用|qwq-plus-2025-03-05|77.9|36|
-|开源|GLM-4-32B-0414|77.5|37|
+|开源|GLM-4-32B-0414(new)|77.5|37|
 |商用|GLM-4-FlashX|77.0|38|
 |商用|360gpt2-o1|76.0|39|
 |开源|glm-4-9b-chat|75.5|40|
@@ -48,7 +48,7 @@
 |开源|DeepSeek-R1-Distill-Qwen-14B|72.5|45|
 |开源|internlm2_5-20b-chat|71.5|46|
 |开源|DeepSeek-R1-Distill-Qwen-32B|71.0|47|
-|开源|GLM-4-9B-0414|70.5|48|
+|开源|GLM-4-9B-0414(new)|70.5|48|
 |商用|yi-lightning|70.5|49|
 |开源|Llama-4-Maverick-17B-128E-Instruct-FP8(new)|69.0|50|
 |开源|qwen2.5-7b-instruct|69.0|51|
@@ -66,16 +66,16 @@
 |开源|internlm2_5-7b-chat|60.5|63|
 |商用|gemini-1.5-pro|59.0|64|
 |商用|chatgpt-4o-latest|58.0|65|
-|商用|GLM-Z1-Air|58.0|66|
+|商用|GLM-Z1-Air(new)|58.0|66|
 |商用|gemini-2.0-flash-001|57.5|67|
-|开源|GLM-Z1-9B-0414|55.5|68|
+|开源|GLM-Z1-9B-0414(new)|55.5|68|
 |开源|Mistral-Small-3.1-24B-Instruct-2503(new)|54.5|69|
 |商用|abab6.5s-chat|54.0|70|
 |商用|mistral-large|53.7|71|
 |开源|Llama-4-Scout-17B-16E-Instruct(new)|53.5|72|
 |开源|Hermes-3-Llama-3.1-405B|51.0|73|
 |商用|gemini-1.5-flash|51.0|74|
-|开源|GLM-Z1-Rumination-32B-0414|50.0|75|
+|开源|GLM-Z1-Rumination-32B-0414(new)|50.0|75|
 |开源|qwen2.5-3b-instruct|50.0|76|
 |商用|mistral-small|49.0|77|
 |开源|Meta-Llama-3.1-405B-Instruct|44.5|78|
@@ -84,9 +84,9 @@
 |开源|phi-4|42.0|81|
 |商用|gemini-1.5-flash-8b|42.0|82|
 |商用|gpt-4o-mini-2024-07-18|42.0|83|
-|商用|GLM-Z1-Flash|40.5|84|
+|商用|GLM-Z1-Flash(new)|40.5|84|
 |开源|Mistral-Small-24B-Instruct-2501|39.5|85|
-|商用|GLM-Z1-FlashX|39.0|86|
+|商用|GLM-Z1-FlashX(new)|39.0|86|
 |开源|Llama-3.3-70B-Instruct|38.5|87|
 |商用|o3-mini|37.0|88|
 |开源|qwen2.5-1.5b-instruct|36.5|89|
@@ -101,14 +101,14 @@
 |商用|ministral-8b|29.0|98|
 |开源|qwen2.5-0.5b-instruct|27.5|99|
 |开源|Llama-3.2-1B-Instruct|27.0|100|
-|开源|GLM-Z1-32B-0414|26.7|101|
+|开源|GLM-Z1-32B-0414(new)|26.7|101|
 |商用|ministral-3b|25.5|102|
 |开源|DeepSeek-R1-Distill-Llama-8B|25.5|103|
 |商用|xunfei-spark-lite|25.3|104|
 |开源|Llama-3.2-3B-Instruct|24.5|105|
 |开源|gemma-3-1b-it|22.0|106|
-|商用|gemini-2.5-flash-preview-04-17|10.0|107|
-|商用|GLM-Z1-AirX|/|108|
+|商用|gemini-2.5-flash-preview-04-17(new)|10.0|107|
+|商用|GLM-Z1-AirX(new)|/|108|
 
 
 ![lin](../pic/gaokao-chinese.png)

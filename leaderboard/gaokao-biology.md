@@ -37,7 +37,7 @@
 |商用|360gpt-turbo|80.5|34|
 |商用|xunfei-spark-pro|80.5|35|
 |商用|360zhinao2-o1|80.1|36|
-|开源|GLM-Z1-32B-0414|80.0|37|
+|开源|GLM-Z1-32B-0414(new)|80.0|37|
 |商用|gemini-2.0-flash-001|79.5|38|
 |开源|qwen2.5-7b-instruct|79.0|39|
 |商用|Baichuan4-Turbo|79.0|40|
@@ -53,7 +53,7 @@
 |商用|ERNIE-4.0-Turbo-8K|76.0|50|
 |商用|gemini-1.5-pro|76.0|51|
 |商用|GLM-4-Long|76.0|52|
-|商用|GLM-Z1-FlashX|75.5|53|
+|商用|GLM-Z1-FlashX(new)|75.5|53|
 |商用|qwen-turbo|75.5|54|
 |商用|step-1-8k|75.5|55|
 |商用|chatgpt-4o-latest|75.0|56|
@@ -62,7 +62,7 @@
 |开源|internlm2_5-20b-chat|74.5|59|
 |商用|GLM-4-Flash|74.5|60|
 |开源|Llama-3.3-70B-Instruct|73.5|61|
-|开源|GLM-4-9B-0414|73.5|62|
+|开源|GLM-4-9B-0414(new)|73.5|62|
 |商用|ERNIE-X1-32K-Preview(new)|73.3|63|
 |商用|hunyuan-standard|72.5|64|
 |开源|Llama-3.3-70B-Instruct-fp8|72.0|65|
@@ -83,16 +83,16 @@
 |开源|phi-4|62.5|80|
 |商用|ERNIE-Lite-Pro-128K|62.0|81|
 |商用|ERNIE-Speed-Pro-128K|62.0|82|
-|开源|GLM-Z1-Rumination-32B-0414|60.0|83|
+|开源|GLM-Z1-Rumination-32B-0414(new)|60.0|83|
 |开源|qwen2.5-1.5b-instruct|60.0|84|
-|商用|gemini-2.5-flash-preview-04-17|60.0|85|
+|商用|gemini-2.5-flash-preview-04-17(new)|60.0|85|
 |开源|qwen2.5-3b-instruct|59.0|86|
 |开源|gemma-3-12b-it|56.0|87|
 |商用|ERNIE-Lite-8K|54.5|88|
-|商用|GLM-Z1-Flash|54.5|89|
-|开源|GLM-4-32B-0414|54.0|90|
+|商用|GLM-Z1-Flash(new)|54.5|89|
+|开源|GLM-4-32B-0414(new)|54.0|90|
 |开源|DeepSeek-R1-Distill-Llama-8B|52.5|91|
-|商用|GLM-Z1-Air|50.0|92|
+|商用|GLM-Z1-Air(new)|50.0|92|
 |开源|DeepSeek-R1-Distill-Qwen-7B|48.5|93|
 |商用|mistral-small|47.0|94|
 |开源|Llama-3.1-8B-Instruct|46.5|95|
@@ -102,13 +102,13 @@
 |开源|qwen2.5-0.5b-instruct|37.0|99|
 |开源|gemma-3-4b-it|36.5|100|
 |开源|Llama-3.2-1B-Instruct|35.5|101|
-|开源|GLM-Z1-9B-0414|35.5|102|
+|开源|GLM-Z1-9B-0414(new)|35.5|102|
 |开源|Llama-3.2-3B-Instruct|34.0|103|
 |商用|ERNIE-Tiny-8K|27.5|104|
 |开源|gemma-3-1b-it|26.0|105|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|25.5|106|
 |商用|xunfei-spark-lite|21.4|107|
-|商用|GLM-Z1-AirX|/|108|
+|商用|GLM-Z1-AirX(new)|/|108|
 
 
 ![lin](../pic/gaokao-biology.png)

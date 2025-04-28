@@ -1,7 +1,7 @@
 
 | 类别 | 大模型                         | MiddleSchoolPhysics | 排名 |
 |-----|------------------------------|---------|----|
-|商用|gemini-2.5-flash-preview-04-17|100.0|1|
+|商用|gemini-2.5-flash-preview-04-17(new)|100.0|1|
 |商用|qwen-turbo|90.9|2|
 |商用|yi-lightning|90.9|3|
 |开源|qwen2.5-32b-instruct|90.9|4|
@@ -10,7 +10,7 @@
 |商用|GLM-4-Long|90.9|7|
 |开源|qwq-32b|90.9|8|
 |开源|DeepSeek-R1|90.9|9|
-|开源|GLM-Z1-32B-0414|90.9|10|
+|开源|GLM-Z1-32B-0414(new)|90.9|10|
 |商用|SenseChat-5-beta|90.9|11|
 |商用|GLM-4-Air|90.9|12|
 |开源|Llama-4-Scout-17B-16E-Instruct(new)|90.9|13|
@@ -24,7 +24,7 @@
 |商用|hunyuan-turbo|81.8|21|
 |开源|phi-4|81.8|22|
 |商用|GLM-4-Flash|81.8|23|
-|商用|GLM-Z1-AirX|81.8|24|
+|商用|GLM-Z1-AirX(new)|81.8|24|
 |商用|hunyuan-turbos-20250226|81.8|25|
 |商用|step-2-mini|81.8|26|
 |商用|hunyuan-turbos-20250313|81.8|27|
@@ -38,27 +38,27 @@
 |商用|ERNIE-Speed-Pro-128K|81.8|35|
 |商用|kimi-latest-8k|81.8|36|
 |商用|ERNIE-4.5-8K-Preview|81.8|37|
-|商用|GLM-Z1-Air|81.8|38|
-|开源|GLM-Z1-9B-0414|81.8|39|
+|商用|GLM-Z1-Air(new)|81.8|38|
+|开源|GLM-Z1-9B-0414(new)|81.8|39|
 |开源|qwen2.5-72b-instruct|81.8|40|
 |商用|xunfei-spark-max|81.8|41|
 |开源|glm-4-9b-chat|81.8|42|
 |商用|xunfei-4.0Ultra|81.8|43|
 |商用|ERNIE-4.0-Turbo-8K|81.8|44|
-|开源|GLM-Z1-Rumination-32B-0414|81.8|45|
+|开源|GLM-Z1-Rumination-32B-0414(new)|81.8|45|
 |开源|deepseek-chat-v3-0324(new)|81.8|46|
-|开源|GLM-4-32B-0414|81.8|47|
+|开源|GLM-4-32B-0414(new)|81.8|47|
 |商用|qwen2.5-max|81.8|48|
 |开源|DeepSeek-R1-Distill-Llama-70B|72.7|49|
 |商用|mistral-small|72.7|50|
 |商用|step-1-8k|72.7|51|
 |开源|Mistral-Small-3.1-24B-Instruct-2503(new)|72.7|52|
-|商用|GLM-Z1-FlashX|72.7|53|
+|商用|GLM-Z1-FlashX(new)|72.7|53|
 |开源|MiniMax-Text-01|72.7|54|
 |开源|DeepSeek-R1-Distill-Qwen-7B|72.7|55|
 |商用|ERNIE-X1-32K-Preview(new)|72.7|56|
-|开源|GLM-4-9B-0414|72.7|57|
-|商用|GLM-Z1-Flash|72.7|58|
+|开源|GLM-4-9B-0414(new)|72.7|57|
+|商用|GLM-Z1-Flash(new)|72.7|58|
 |商用|360zhinao2-o1|72.7|59|
 |商用|mistral-large|72.7|60|
 |开源|hunyuan-large|72.7|61|

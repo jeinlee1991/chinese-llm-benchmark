@@ -22,12 +22,12 @@
 |开源|qwq-32b|94.4|19|
 |商用|Doubao-1.5-lite-32k-250115|94.4|20|
 |开源|internlm2_5-20b-chat|94.4|21|
-|开源|GLM-Z1-32B-0414|93.3|22|
+|开源|GLM-Z1-32B-0414(new)|93.3|22|
 |开源|Llama-4-Maverick-17B-128E-Instruct-FP8(new)|93.0|23|
-|开源|GLM-4-32B-0414|91.1|24|
+|开源|GLM-4-32B-0414(new)|91.1|24|
 |开源|deepseek-chat-v3-0324(new)|91.1|25|
-|商用|GLM-Z1-Air|91.0|26|
-|商用|gemini-2.5-flash-preview-04-17|90.0|27|
+|商用|GLM-Z1-Air(new)|91.0|26|
+|商用|gemini-2.5-flash-preview-04-17(new)|90.0|27|
 |商用|hunyuan-turbos-20250313|88.9|28|
 |商用|yi-lightning|88.9|29|
 |商用|Baichuan4-Turbo|88.9|30|
@@ -48,7 +48,7 @@
 |商用|qwen2.5-max|88.9|45|
 |商用|gemini-2.0-flash-thinking-exp-01-21|88.9|46|
 |商用|SenseChat-Turbo-1202|88.9|47|
-|商用|GLM-Z1-AirX|86.7|48|
+|商用|GLM-Z1-AirX(new)|86.7|48|
 |开源|Llama-4-Scout-17B-16E-Instruct(new)|85.9|49|
 |商用|ERNIE-4.0-Turbo-8K|83.3|50|
 |商用|360gpt-turbo|83.3|51|
@@ -63,7 +63,7 @@
 |商用|360gpt2-pro|83.3|60|
 |商用|Claude-3.5-Sonnet|83.3|61|
 |开源|hunyuan-large|83.3|62|
-|开源|GLM-4-9B-0414|79.2|63|
+|开源|GLM-4-9B-0414(new)|79.2|63|
 |开源|Llama-3.3-70B-Instruct-fp8|77.8|64|
 |商用|360gpt2-o1|77.8|65|
 |开源|gemma-3-12b-it|77.8|66|
@@ -72,8 +72,8 @@
 |商用|hunyuan-standard|77.8|69|
 |商用|abab6.5s-chat|77.8|70|
 |开源|DeepSeek-R1-Distill-Llama-70B|76.5|71|
-|开源|GLM-Z1-Rumination-32B-0414|73.3|72|
-|开源|GLM-Z1-9B-0414|72.4|73|
+|开源|GLM-Z1-Rumination-32B-0414(new)|73.3|72|
+|开源|GLM-Z1-9B-0414(new)|72.4|73|
 |商用|gpt-4o-mini-2024-07-18|72.2|74|
 |开源|internlm2_5-7b-chat|72.2|75|
 |开源|qwen2.5-1.5b-instruct|72.2|76|
@@ -83,8 +83,8 @@
 |商用|mistral-large|72.2|80|
 |商用|ERNIE-Lite-Pro-128K|72.2|81|
 |商用|ERNIE-Lite-8K|72.2|82|
-|商用|GLM-Z1-FlashX|68.8|83|
-|商用|GLM-Z1-Flash|68.8|84|
+|商用|GLM-Z1-FlashX(new)|68.8|83|
+|商用|GLM-Z1-Flash(new)|68.8|84|
 |商用|gemini-1.5-flash|66.7|85|
 |开源|Hermes-3-Llama-3.1-405B|66.7|86|
 |商用|mistral-small|66.7|87|
