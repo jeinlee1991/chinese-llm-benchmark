@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/4/30] v3.20版本
+  - 新增8个qwen3系列模型：Qwen3-235B-A22B、Qwen3-32B、Qwen3-30B-A3B、Qwen3-14B、Qwen3-8B、Qwen3-4B、Qwen3-1.7B、Qwen3-0.6B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/4/28] v3.19版本
   - 新增个模型：gemini-2.5-flash-preview-04-17、GLM-Z1-Flash、GLM-Z1-FlashX、GLM-Z1-Air、GLM-Z1-AirX、GLM-4-9B-0414、GLM-Z1-9B-0414、GLM-4-32B-0414、GLM-Z1-32B-0414、GLM-Z1-Rumination-32B-0414，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 删除陈旧的模型：GLM-Zero-Preview、Baichuan4、ERNIE-4.0、qwq-32b-preview、deepseek-chat-v3、step-1-flash、360gpt-pro、Mistral-7B-Instruct-v0.3
