@@ -73,7 +73,7 @@
 |商用|360zhinao2-o1|66.7|70|
 |开源|internlm2_5-20b-chat|50.0|71|
 |商用|gemini-1.5-pro|50.0|72|
-|商用|gpt-4o-mini-2024-07-18|50.0|73|
+|商用|gpt-4o-mini|50.0|73|
 |开源|internlm2_5-7b-chat|50.0|74|
 |开源|qwen2.5-3b-instruct|50.0|75|
 |商用|Claude-3.5-Sonnet|50.0|76|

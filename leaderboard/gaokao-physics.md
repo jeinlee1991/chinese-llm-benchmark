@@ -82,7 +82,7 @@
 |开源|gemma-3-27b-it|49.0|79|
 |商用|GLM-Z1-Air(new)|48.0|80|
 |开源|Llama-3.3-70B-Instruct|48.0|81|
-|商用|gpt-4o-mini-2024-07-18|48.0|82|
+|商用|gpt-4o-mini|48.0|82|
 |开源|Qwen3-1.7B(new)|46.7|83|
 |开源|internlm2_5-20b-chat|46.5|84|
 |商用|ERNIE-Speed-Pro-128K|46.5|85|

@@ -76,7 +76,7 @@
 |商用|GLM-Z1-Flash(new)|64.0|73|
 |商用|GLM-4-Flash|62.4|74|
 |商用|chatgpt-4o-latest|61.0|75|
-|商用|gpt-4o-mini-2024-07-18|59.8|76|
+|商用|gpt-4o-mini|59.8|76|
 |商用|GLM-4-Long|59.0|77|
 |商用|hunyuan-standard|58.8|78|
 |商用|GLM-4-AirX|58.0|79|

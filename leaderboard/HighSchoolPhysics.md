@@ -94,7 +94,7 @@
 |商用|ERNIE-Speed-Pro-128K|52.9|91|
 |商用|o3-mini|52.9|92|
 |商用|moonshot-v1-8k|52.9|93|
-|商用|gpt-4o-mini-2024-07-18|52.9|94|
+|商用|gpt-4o-mini|52.9|94|
 |商用|ERNIE-Lite-Pro-128K|52.9|95|
 |开源|DeepSeek-R1-Distill-Qwen-1.5B|47.1|96|
 |商用|gemini-1.5-flash|47.1|97|

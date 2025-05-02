@@ -76,7 +76,7 @@
 |开源|qwen2.5-1.5b-instruct|50.0|73|
 |开源|internlm2_5-7b-chat|50.0|74|
 |商用|GLM-4-Long|50.0|75|
-|商用|gpt-4o-mini-2024-07-18|50.0|76|
+|商用|gpt-4o-mini|50.0|76|
 |商用|gemini-1.5-flash-8b|50.0|77|
 |商用|360gpt-turbo|50.0|78|
 |开源|qwen2.5-14b-instruct|50.0|79|

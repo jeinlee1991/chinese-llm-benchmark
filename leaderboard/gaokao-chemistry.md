@@ -92,7 +92,7 @@
 |开源|gemma-3-1b-it|30.0|89|
 |商用|step-1-8k|30.0|90|
 |商用|Baichuan4-Turbo|29.4|91|
-|商用|gpt-4o-mini-2024-07-18|29.4|92|
+|商用|gpt-4o-mini|29.4|92|
 |开源|DeepSeek-R1-Distill-Qwen-7B|29.4|93|
 |开源|Llama-3.3-70B-Instruct|28.9|94|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|28.9|95|

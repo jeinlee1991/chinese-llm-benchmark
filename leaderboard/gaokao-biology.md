@@ -85,7 +85,7 @@
 |商用|abab6.5s-chat|66.5|82|
 |开源|Mistral-Small-24B-Instruct-2501|66.5|83|
 |商用|gemini-1.5-flash-8b|66.0|84|
-|商用|gpt-4o-mini-2024-07-18|64.0|85|
+|商用|gpt-4o-mini|64.0|85|
 |开源|phi-4|62.5|86|
 |商用|ERNIE-Lite-Pro-128K|62.0|87|
 |商用|ERNIE-Speed-Pro-128K|62.0|88|

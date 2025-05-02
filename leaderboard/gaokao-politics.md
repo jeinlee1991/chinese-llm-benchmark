@@ -94,7 +94,7 @@
 |开源|qwen2.5-1.5b-instruct|67.0|91|
 |商用|mistral-small|66.5|92|
 |商用|GLM-Z1-Air(new)|66.0|93|
-|商用|gpt-4o-mini-2024-07-18|64.0|94|
+|商用|gpt-4o-mini|64.0|94|
 |商用|gemini-1.5-flash-8b|63.0|95|
 |开源|gemma-3-12b-it|61.0|96|
 |开源|phi-4|59.5|97|

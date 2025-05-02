@@ -110,7 +110,7 @@
 |开源|Hermes-3-Llama-3.1-405B|33.3|107|
 |开源|Meta-Llama-3.1-405B-Instruct|33.3|108|
 |开源|Llama-3.1-8B-Instruct|26.7|109|
-|商用|gpt-4o-mini-2024-07-18|26.7|110|
+|商用|gpt-4o-mini|26.7|110|
 |开源|Llama-3.2-3B-Instruct|20.0|111|
 |开源|Llama-3.2-1B-Instruct|20.0|112|
 |商用|xunfei-spark-lite|20.0|113|

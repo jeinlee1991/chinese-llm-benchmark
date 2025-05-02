@@ -63,7 +63,7 @@
 |商用|Baichuan4-Air|58.2|60|
 |商用|step-2-mini|57.5|61|
 |开源|Llama-3.3-70B-Instruct-fp8|57.5|62|
-|商用|gpt-4o-mini-2024-07-18|56.8|63|
+|商用|gpt-4o-mini|56.8|63|
 |开源|Hermes-3-Llama-3.1-405B|56.8|64|
 |开源|phi-4|55.5|65|
 |开源|Mistral-Small-24B-Instruct-2501|55.5|66|

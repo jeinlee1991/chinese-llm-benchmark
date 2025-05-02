@@ -93,7 +93,7 @@
 |商用|gemini-1.5-pro|53.3|90|
 |开源|Llama-3.3-70B-Instruct|53.3|91|
 |开源|Hermes-3-Llama-3.1-405B|53.3|92|
-|商用|gpt-4o-mini-2024-07-18|46.7|93|
+|商用|gpt-4o-mini|46.7|93|
 |商用|mistral-small|46.7|94|
 |开源|qwen2.5-0.5b-instruct|46.7|95|
 |开源|Llama-3.3-70B-Instruct-fp8|46.7|96|

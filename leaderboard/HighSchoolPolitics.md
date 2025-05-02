@@ -80,7 +80,7 @@
 |开源|gemma-3-12b-it|66.7|77|
 |开源|GLM-Z1-Rumination-32B-0414(new)|63.3|78|
 |开源|internlm2_5-7b-chat|61.9|79|
-|商用|gpt-4o-mini-2024-07-18|61.9|80|
+|商用|gpt-4o-mini|61.9|80|
 |开源|Meta-Llama-3.1-405B-Instruct|61.9|81|
 |开源|Hermes-3-Llama-3.1-405B|61.9|82|
 |开源|internlm2_5-20b-chat|61.9|83|

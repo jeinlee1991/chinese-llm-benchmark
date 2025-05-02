@@ -84,7 +84,7 @@
 |商用|ERNIE-Speed-8K|58.3|81|
 |开源|qwen2.5-3b-instruct|58.0|82|
 |开源|Mistral-Small-24B-Instruct-2501|58.0|83|
-|商用|gpt-4o-mini-2024-07-18|57.0|84|
+|商用|gpt-4o-mini|57.0|84|
 |商用|SenseChat-Turbo-1202|57.0|85|
 |商用|ERNIE-Speed-Pro-128K|57.0|86|
 |开源|Qwen3-0.6B(new)|56.7|87|

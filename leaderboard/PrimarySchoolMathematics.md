@@ -108,7 +108,7 @@
 |开源|gemma-3-12b-it|36.4|105|
 |开源|Llama-3.2-3B-Instruct|36.4|106|
 |商用|step-1-8k|36.4|107|
-|商用|gpt-4o-mini-2024-07-18|27.3|108|
+|商用|gpt-4o-mini|27.3|108|
 |商用|ministral-3b|27.3|109|
 |开源|DeepSeek-R1-Distill-Llama-8B|27.3|110|
 |开源|Llama-3.2-1B-Instruct|18.2|111|

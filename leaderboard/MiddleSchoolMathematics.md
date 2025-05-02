@@ -88,7 +88,7 @@
 |商用|yi-lightning|60.0|85|
 |商用|Baichuan4-Air|60.0|86|
 |开源|qwen2.5-3b-instruct|60.0|87|
-|商用|gpt-4o-mini-2024-07-18|60.0|88|
+|商用|gpt-4o-mini|60.0|88|
 |商用|Baichuan4-Turbo|60.0|89|
 |商用|360gpt2-o1|60.0|90|
 |商用|xunfei-spark-pro|53.3|91|

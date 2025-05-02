@@ -83,7 +83,7 @@
 |商用|step-1-8k|72.7|80|
 |商用|mistral-small|72.7|81|
 |商用|Claude-3.5-Sonnet|72.7|82|
-|商用|gpt-4o-mini-2024-07-18|63.6|83|
+|商用|gpt-4o-mini|63.6|83|
 |开源|Llama-3.3-70B-Instruct-fp8|63.6|84|
 |开源|qwen2.5-3b-instruct|63.6|85|
 |商用|qwen-plus|63.6|86|

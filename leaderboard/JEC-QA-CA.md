@@ -99,7 +99,7 @@
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|19.9|96|
 |开源|phi-4|19.8|97|
 |开源|qwen2.5-0.5b-instruct|19.3|98|
-|商用|gpt-4o-mini-2024-07-18|19.1|99|
+|商用|gpt-4o-mini|19.1|99|
 |商用|gemini-1.5-flash|19.0|100|
 |商用|ERNIE-Tiny-8K|18.8|101|
 |开源|DeepSeek-R1-Distill-Llama-8B|18.4|102|

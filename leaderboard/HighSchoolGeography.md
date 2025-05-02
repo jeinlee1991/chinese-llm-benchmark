@@ -93,7 +93,7 @@
 |开源|Hermes-3-Llama-3.1-405B|61.1|90|
 |商用|ERNIE-Lite-8K|55.6|91|
 |开源|Mistral-Small-24B-Instruct-2501|55.6|92|
-|商用|gpt-4o-mini-2024-07-18|55.6|93|
+|商用|gpt-4o-mini|55.6|93|
 |商用|ERNIE-Speed-Pro-128K|55.6|94|
 |开源|phi-4|55.6|95|
 |商用|mistral-small|50.0|96|

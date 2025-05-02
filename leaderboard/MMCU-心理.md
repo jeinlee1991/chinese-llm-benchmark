@@ -76,7 +76,7 @@
 |开源|gemma-3-27b-it|34.0|73|
 |开源|qwen2.5-3b-instruct|33.5|74|
 |商用|abab6.5s-chat|33.5|75|
-|商用|gpt-4o-mini-2024-07-18|33.3|76|
+|商用|gpt-4o-mini|33.3|76|
 |商用|mistral-large|33.0|77|
 |开源|Llama-3.3-70B-Instruct|33.0|78|
 |开源|Llama-3.3-70B-Instruct-fp8|32.5|79|

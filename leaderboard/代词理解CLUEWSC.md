@@ -102,7 +102,7 @@
 |商用|ERNIE-Speed-8K|79.4|99|
 |商用|Baichuan4-Air|78.3|100|
 |开源|Qwen3-0.6B(new)|76.7|101|
-|商用|gpt-4o-mini-2024-07-18|76.7|102|
+|商用|gpt-4o-mini|76.7|102|
 |开源|gemma-3-12b-it|72.0|103|
 |开源|gemma-3-27b-it|70.0|104|
 |开源|DeepSeek-R1-Distill-Llama-8B|69.3|105|

@@ -100,7 +100,7 @@
 |开源|gemma-3-27b-it|30.0|97|
 |开源|qwen2.5-3b-instruct|30.0|98|
 |开源|Mistral-Small-24B-Instruct-2501|28.5|99|
-|商用|gpt-4o-mini-2024-07-18|27.5|100|
+|商用|gpt-4o-mini|27.5|100|
 |商用|ERNIE-Tiny-8K|27.0|101|
 |商用|gemini-1.5-flash-8b|27.0|102|
 |开源|DeepSeek-R1-Distill-Llama-8B|25.5|103|

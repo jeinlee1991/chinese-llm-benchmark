@@ -98,7 +98,7 @@
 |商用|gemini-1.5-flash|28.8|95|
 |开源|Mistral-Small-24B-Instruct-2501|28.0|96|
 |商用|mistral-small|27.2|97|
-|商用|gpt-4o-mini-2024-07-18|27.0|98|
+|商用|gpt-4o-mini|27.0|98|
 |开源|phi-4|26.7|99|
 |开源|Meta-Llama-3.1-8B-Instruct-fp8|26.0|100|
 |商用|ministral-8b|25.2|101|

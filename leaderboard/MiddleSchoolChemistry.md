@@ -97,7 +97,7 @@
 |开源|Llama-3.3-70B-Instruct|42.9|94|
 |商用|abab6.5s-chat|42.9|95|
 |商用|mistral-small|42.9|96|
-|商用|gpt-4o-mini-2024-07-18|42.9|97|
+|商用|gpt-4o-mini|42.9|97|
 |开源|DeepSeek-R1-Distill-Qwen-7B|42.9|98|
 |商用|SenseChat-Turbo-1202|42.9|99|
 |商用|ministral-3b|42.9|100|

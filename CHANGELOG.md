@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/5/2] v3.21版本
+  - 新增“数独”（推理与数学计算）排行榜，并计入总分，详见[link](#811-数独)
 - [2025/4/30] v3.20版本
   - 新增8个qwen3系列模型：Qwen3-235B-A22B、Qwen3-32B、Qwen3-30B-A3B、Qwen3-14B、Qwen3-8B、Qwen3-4B、Qwen3-1.7B、Qwen3-0.6B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
 - [2025/4/28] v3.19版本

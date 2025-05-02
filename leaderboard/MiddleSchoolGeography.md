@@ -94,7 +94,7 @@
 |商用|mistral-small|66.7|91|
 |开源|Hermes-3-Llama-3.1-405B|66.7|92|
 |商用|Baichuan4-Air|66.7|93|
-|商用|gpt-4o-mini-2024-07-18|58.3|94|
+|商用|gpt-4o-mini|58.3|94|
 |开源|Llama-3.3-70B-Instruct|58.3|95|
 |开源|Llama-3.3-70B-Instruct-fp8|58.3|96|
 |开源|gemma-3-27b-it|58.3|97|

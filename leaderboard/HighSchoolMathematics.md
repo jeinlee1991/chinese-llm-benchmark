@@ -104,7 +104,7 @@
 |开源|Hermes-3-Llama-3.1-405B|51.7|101|
 |商用|ERNIE-Lite-8K|51.7|102|
 |商用|ministral-8b|48.3|103|
-|商用|gpt-4o-mini-2024-07-18|44.8|104|
+|商用|gpt-4o-mini|44.8|104|
 |商用|ERNIE-Lite-Pro-128K|41.4|105|
 |商用|ministral-3b|41.4|106|
 |开源|Meta-Llama-3.1-405B-Instruct|41.4|107|

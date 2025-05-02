@@ -90,7 +90,7 @@
 |商用|chatgpt-4o-latest|62.5|87|
 |开源|gemma-3-12b-it|62.0|88|
 |开源|Mistral-Small-24B-Instruct-2501|61.2|89|
-|商用|gpt-4o-mini-2024-07-18|60.9|90|
+|商用|gpt-4o-mini|60.9|90|
 |开源|qwen2.5-1.5b-instruct|60.6|91|
 |开源|Qwen3-14B(new)|60.0|92|
 |开源|Qwen3-235B-A22B(new)|60.0|93|

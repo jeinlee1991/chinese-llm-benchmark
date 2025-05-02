@@ -85,7 +85,7 @@
 |开源|Llama-3.3-70B-Instruct-fp8|85.7|82|
 |商用|mistral-small|85.7|83|
 |商用|GLM-4-Long|78.6|84|
-|商用|gpt-4o-mini-2024-07-18|78.6|85|
+|商用|gpt-4o-mini|78.6|85|
 |开源|Mistral-Small-24B-Instruct-2501|78.6|86|
 |商用|360zhinao2-o1|78.6|87|
 |开源|DeepSeek-R1-Distill-Qwen-7B|78.6|88|

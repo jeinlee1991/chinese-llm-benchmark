@@ -76,7 +76,7 @@
 |开源|qwen2.5-0.5b-instruct|80.0|73|
 |商用|moonshot-v1-8k|80.0|74|
 |开源|glm-4-9b-chat|80.0|75|
-|商用|gpt-4o-mini-2024-07-18|80.0|76|
+|商用|gpt-4o-mini|80.0|76|
 |商用|GLM-4-Flash|80.0|77|
 |商用|gemini-1.5-flash-8b|80.0|78|
 |开源|Meta-Llama-3.1-405B-Instruct|80.0|79|

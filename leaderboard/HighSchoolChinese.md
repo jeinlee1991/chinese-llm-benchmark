@@ -85,7 +85,7 @@
 |商用|gemini-2.0-flash-thinking-exp-01-21|41.7|82|
 |商用|ERNIE-Lite-Pro-128K|41.7|83|
 |商用|GLM-Z1-Flash(new)|41.7|84|
-|商用|gpt-4o-mini-2024-07-18|37.5|85|
+|商用|gpt-4o-mini|37.5|85|
 |开源|internlm2_5-20b-chat|37.5|86|
 |开源|Llama-4-Scout-17B-16E-Instruct(new)|37.5|87|
 |商用|mistral-large|37.5|88|

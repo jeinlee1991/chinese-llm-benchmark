@@ -89,7 +89,7 @@
 |开源|Meta-Llama-3.1-405B-Instruct|44.5|86|
 |开源|gemma-3-27b-it|44.0|87|
 |开源|gemma-3-12b-it|42.0|88|
-|商用|gpt-4o-mini-2024-07-18|42.0|89|
+|商用|gpt-4o-mini|42.0|89|
 |商用|gemini-1.5-flash-8b|42.0|90|
 |开源|phi-4|42.0|91|
 |商用|GLM-Z1-Flash(new)|40.5|92|

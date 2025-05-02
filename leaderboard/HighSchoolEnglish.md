@@ -58,7 +58,7 @@
 |商用|GLM-Z1-AirX(new)|91.3|55|
 |商用|gemini-2.0-flash-001|87.0|56|
 |开源|MiniMax-Text-01|87.0|57|
-|商用|gpt-4o-mini-2024-07-18|87.0|58|
+|商用|gpt-4o-mini|87.0|58|
 |开源|glm-4-9b-chat|87.0|59|
 |开源|Mistral-Small-24B-Instruct-2501|87.0|60|
 |商用|Baichuan4-Air|87.0|61|

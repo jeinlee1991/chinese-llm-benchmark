@@ -86,7 +86,7 @@
 |开源|Hermes-3-Llama-3.1-405B|66.7|83|
 |商用|360gpt2-o1|66.7|84|
 |开源|Mistral-Small-3.1-24B-Instruct-2503(new)|66.7|85|
-|商用|gpt-4o-mini-2024-07-18|55.6|86|
+|商用|gpt-4o-mini|55.6|86|
 |商用|ERNIE-Speed-8K|55.6|87|
 |开源|gemma-3-12b-it|55.6|88|
 |商用|ERNIE-Lite-Pro-128K|55.6|89|

@@ -81,7 +81,7 @@
 |开源|Mistral-Small-24B-Instruct-2501|56.5|78|
 |开源|glm-4-9b-chat|56.0|79|
 |商用|gemini-1.5-flash|56.0|80|
-|商用|gpt-4o-mini-2024-07-18|55.0|81|
+|商用|gpt-4o-mini|55.0|81|
 |商用|GLM-4-FlashX|54.5|82|
 |商用|abab6.5s-chat|54.5|83|
 |商用|ERNIE-Lite-8K|54.0|84|

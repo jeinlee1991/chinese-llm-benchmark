@@ -52,7 +52,7 @@
 |开源|qwen2.5-32b-instruct|85.7|49|
 |开源|qwen2.5-72b-instruct|85.7|50|
 |开源|qwen2.5-14b-instruct|85.7|51|
-|商用|gpt-4o-mini-2024-07-18|85.7|52|
+|商用|gpt-4o-mini|85.7|52|
 |开源|Qwen3-8B(new)|85.7|53|
 |开源|Qwen3-4B(new)|85.7|54|
 |开源|Qwen3-1.7B(new)|85.7|55|

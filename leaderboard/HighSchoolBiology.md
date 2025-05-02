@@ -82,7 +82,7 @@
 |开源|GLM-Z1-Rumination-32B-0414(new)|73.3|79|
 |开源|GLM-Z1-9B-0414(new)|72.4|80|
 |开源|qwen2.5-1.5b-instruct|72.2|81|
-|商用|gpt-4o-mini-2024-07-18|72.2|82|
+|商用|gpt-4o-mini|72.2|82|
 |开源|Llama-3.3-70B-Instruct|72.2|83|
 |开源|internlm2_5-7b-chat|72.2|84|
 |开源|gemma-3-27b-it|72.2|85|

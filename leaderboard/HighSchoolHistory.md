@@ -77,7 +77,7 @@
 |商用|abab6.5s-chat|62.5|74|
 |商用|Baichuan4-Turbo|62.5|75|
 |商用|moonshot-v1-8k|56.2|76|
-|商用|gpt-4o-mini-2024-07-18|56.2|77|
+|商用|gpt-4o-mini|56.2|77|
 |商用|gemini-2.0-flash-thinking-exp-01-21|56.2|78|
 |商用|mistral-large|56.2|79|
 |商用|step-2-mini|56.2|80|
