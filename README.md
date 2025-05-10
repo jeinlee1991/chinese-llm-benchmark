@@ -69,11 +69,11 @@
     - [9.1 成语理解](#91-成语理解)
     - [9.2 情感分析](#92-情感分析)  
     - [9.3 文本蕴含](#93-文本蕴含)
-    - [9.4 分类能力](#94-分类能力)
+    - [9.4 文本分类](#94-文本分类)
     - [9.5 信息抽取](#95-信息抽取)
     - [9.6 阅读理解](#96-阅读理解)
-    - [9.7 代词理解CLUEWSC](#97-代词理解CLUEWSC)
-    - [9.8 诗词匹配CCPM](#98-诗词匹配CCPM)
+    - [9.7 代词理解](#97-代词理解)
+    - [9.8 诗词匹配](#98-诗词匹配)
     - [9.9 中文指令遵从](#99-中文指令遵从)
     - [9.10 汉字字形](#910-汉字字形)
     - [9.11 汉语拼音TODO](#911-汉语拼音TODO)
@@ -88,6 +88,8 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/5/10] v3.23版本
+  - “表格问答”新增评测样本并删除部分简单样本，详见[link](#85-表格问答)
 - [2025/5/5] v3.22版本
   - 新增“汉字字形”（语言与指令遵从）排行榜，并计入总分，详见[link](#910-汉字字形)
   - 删除陈旧的模型：gemini-1.5-flash、gemini-1.5-pro、gemini-1.5-flash-8b、
@@ -195,7 +197,7 @@
   - 新增o1-mini、o1-preview的初中数学成绩
   - 删除陈旧的模型：abab5.5-chat、abab5.5s-chat
 - [2025/1/7] 发布v2.7版本评测榜单
-  - 新增代词理解CLUEWSC榜单（比如“他”是指谁）、诗词匹配CCPM榜单
+  - 新增代词理解榜单（比如“他”是指谁）、诗词匹配榜单
   - 新增5个模型：Claude-3.5-Sonnet、gemma-2-27b-it、Llama-3.1-405B-Instruct、Baichuan4-Air、Baichuan4-Turbo，☛查看[模型完整信息](https://easyllm.site/static/models.html)
   - 删除陈旧的模型：Baichuan3-Turbo、qwen2-72b-instruct、Qwen2-7B-Instruct、qwen2-1.5b-instruct、qwen2-0.5b-instruct、qwen2-57b-a14b-instruct
 - [2024/12/28]v2.6版本, [2024/12/27]v2.5版本, [2024/12/25]v2.4版本, [2024/10/20]v2.3版本，[2024/9/29]v2.2版本，[2024/8/27]v2.1版本，[2024/8/7]v2.0版本，[2024/7/26]v1.21版本，[2024/7/15]v1.20版本，[2024/6/29]v1.19版本，[2024/6/2]v1.18版本，[2024/5/8]v1.17版本，[2024/4/13]v1.16版本，[2024/3/20]v1.15版本，[2024/2/28]v1.14版本，[2024/1/29]v1.13版本
@@ -223,9 +225,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|82.4| |        90.0|89.5|85.2|82.6|        78.1|78.2|        72.0|83.9|
-|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|80.0| |        81.9|89.2|82.9|73.8|        83.0|61.5|        84.4|83.5|
-|3|Qwen3-235B-A22B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|79.9| |        82.1|91.4|78.1|70.0|        90.0|62.5|        85.5|79.8|
+|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|81.7| |        90.0|89.2|85.2|82.6|        78.1|78.2|        65.9|83.9|
+|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|79.8| |        81.9|88.8|82.9|73.8|        83.0|61.5|        83.0|83.5|
+|3|Qwen3-235B-A22B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|79.6| |        82.1|91.1|78.1|70.0|        90.0|62.5|        83.2|79.8|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -235,9 +237,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-235B-A22B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|79.9| |        82.1|91.4|78.1|70.0|        90.0|62.5|        85.5|79.8|
-|2|gemini-2.5-pro-preview-03-25(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|72.5元|75.2| |        77.6|87.2|72.3|53.3|        90.0|52.5|        86.5|82.6|
-|3|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|71.5| |        75.9|83.7|75.2|64.0|        68.7|61.2|        65.6|77.4|
+|1|Qwen3-235B-A22B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|79.6| |        82.1|91.1|78.1|70.0|        90.0|62.5|        83.2|79.8|
+|2|gemini-2.5-pro-preview-03-25(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|Google|72.5元|75.0| |        77.6|86.9|72.3|53.3|        90.0|52.5|        85.0|82.6|
+|3|xunfei-4.0Ultra☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|70.7| |        75.9|82.8|75.2|64.0|        68.7|61.2|        60.4|77.4|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -246,9 +248,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-4.5-8K-Preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|86.1| |        92.9|88.8|85.2|90.6|        87.0|75.2|        83.9|85.0|
-|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|80.0| |        81.9|89.2|82.9|73.8|        83.0|61.5|        84.4|83.5|
-|3|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|79.1| |        79.4|89.2|80.2|77.8|        80.0|66.7|        76.9|82.7|
+|1|ERNIE-4.5-8K-Preview☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|16.0元|85.4| |        92.9|88.7|85.2|90.6|        87.0|75.2|        78.5|85.0|
+|2|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|79.8| |        81.9|88.8|82.9|73.8|        83.0|61.5|        83.0|83.5|
+|3|ERNIE-X1-32K-Preview(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|百度|8.0元|78.8| |        79.4|88.9|80.2|77.8|        80.0|66.7|        74.3|82.7|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -257,9 +259,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|82.4| |        90.0|89.5|85.2|82.6|        78.1|78.2|        72.0|83.9|
-|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2.0元|80.0| |        86.6|89.6|84.2|71.2|        78.5|74.4|        71.8|83.8|
-|3|hunyuan-turbos-20250313☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|79.1| |        85.1|88.8|80.5|72.4|        80.0|72.9|        70.4|82.7|
+|1|hunyuan-turbos-20250226☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|2.0元|81.7| |        90.0|89.2|85.2|82.6|        78.1|78.2|        65.9|83.9|
+|2|Doubao-1.5-pro-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|2.0元|79.3| |        86.6|89.0|84.2|71.2|        78.5|74.4|        66.7|83.8|
+|3|hunyuan-t1-20250321☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|腾讯|4.0元|78.5| |        81.6|89.0|81.2|68.9|        83.5|69.2|        74.5|80.3|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -268,18 +270,14 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|73.3| |        80.8|86.3|78.2|61.6|        65.8|65.8|        69.8|77.8|
-|2|GLM-Z1-Air(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|68.4| |        71.3|80.7|71.4|52.0|        76.0|53.5|        66.5|75.5|
-|3|yi-lightning☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|零一万物|0.99元|65.3| |        70.6|78.4|70.4|42.6|        61.5|56.8|        67.2|74.9|
+|1|Doubao-1.5-lite-32k-250115☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|豆包|0.6元|72.6| |        80.8|85.5|78.2|61.6|        65.8|65.8|        65.0|77.8|
+|2|GLM-Z1-Air(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|67.8| |        71.3|80.0|71.4|52.0|        76.0|53.5|        62.5|75.5|
+|3|yi-lightning☛[去体验](https://easyllm.site/static/modelcompare.html?type=proprietary)|零一万物|0.99元|64.3| |        70.6|76.6|70.4|42.6|        61.5|56.8|        61.2|74.9|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
 
 DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmarking.html) 
-
-旗舰商用模型badcase: [gpt-4o](http://easyllm.site/static/badcase/badcase-of-llm.html?model=gpt-4o) | 
-[deepseek-chat-v3](http://easyllm.site/static/badcase/badcase-of-llm.html?model=deepseek-chat-v3) |
-[更多](http://easyllm.site/static/badcase.html)
 <br><br>
 <br>
 #### 1.3、开源大模型排行榜
@@ -287,9 +285,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-4B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|66.2| |        63.4|82.0|70.2|44.4|        60.0|55.8|        77.5|76.0|
-|2|Qwen3-1.7B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|57.0| |        48.9|67.2|60.2|34.5|        50.0|50.0|        72.4|73.1|
-|3|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|48.3| |        49.8|62.4|53.8|26.9|        42.0|43.8|        45.4|62.4|
+|1|Qwen3-4B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|65.6| |        63.4|81.4|70.2|44.4|        60.0|55.8|        73.6|76.0|
+|2|Qwen3-1.7B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|56.4| |        48.9|66.2|60.2|34.5|        50.0|50.0|        68.2|73.1|
+|3|qwen2.5-3b-instruct☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|47.4| |        49.8|60.8|53.8|26.9|        42.0|43.8|        39.6|62.4|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -298,9 +296,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-14B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|74.8| |        75.6|84.4|79.6|62.2|        73.3|63.4|        82.1|78.6|
-|2|Qwen3-8B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|5.0元|69.7| |        72.3|81.5|74.0|54.4|        53.3|65.8|        77.2|78.8|
-|3|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|64.3| |        62.8|79.3|67.5|40.2|        66.5|55.6|        69.8|72.7|
+|1|Qwen3-14B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|74.5| |        75.6|83.9|79.6|62.2|        73.3|63.4|        79.6|78.6|
+|2|Qwen3-8B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|5.0元|69.1| |        72.3|80.2|74.0|54.4|        53.3|65.8|        73.9|78.8|
+|3|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|0.7元|63.6| |        62.8|78.4|67.5|40.2|        66.5|55.6|        65.3|72.7|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -309,9 +307,9 @@ DIY自定义维度筛选榜单：☛ [link](https://easyllm.site/static/benchmar
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|80.0| |        81.9|89.2|82.9|73.8|        83.0|61.5|        84.4|83.5|
-|2|Qwen3-235B-A22B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|79.9| |        82.1|91.4|78.1|70.0|        90.0|62.5|        85.5|79.8|
-|3|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|腾讯|12.0元|78.6| |        88.6|85.5|84.6|82.4|        70.4|73.2|        65.7|78.0|
+|1|DeepSeek-R1☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|深度求索|16.0元|79.8| |        81.9|88.8|82.9|73.8|        83.0|61.5|        83.0|83.5|
+|2|Qwen3-235B-A22B(new)☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|79.6| |        82.1|91.1|78.1|70.0|        90.0|62.5|        83.2|79.8|
+|3|hunyuan-large☛[去体验](https://easyllm.site/static/modelcompare.html?type=open-source)|腾讯|12.0元|77.8| |        88.6|85.0|84.6|82.4|        70.4|73.2|        60.4|78.0|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -328,210 +326,210 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ☛☛完整排行榜见[医师](leaderboard/医师.md)<br>
 （1）内科
 <br>☛☛完整排行榜见[内科](leaderboard/内科.md)<br>
- - 内科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-内科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-内科)
- - 中医内科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-中医内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中医内科主治医师)
- - 内科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-内科主治医师)
- - 心血管内科与呼吸内科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-心血管内科与呼吸内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心血管内科与呼吸内科主治医师)
- - 肾内科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-肾内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-肾内科主治医师)
- - 消化内科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-消化内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-消化内科主治医师)
- - 中西医结合内科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-中西医结合内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中西医结合内科主治医师)
- - 消化内科高级职称：[排行榜](leaderboard/CMB-医师考试-高级职称-消化内科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-消化内科高级职称)
- - 普通内科高级职称：[排行榜](leaderboard/CMB-医师考试-高级职称-普通内科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-普通内科高级职称)
- - 呼吸内科高级职称：[排行榜](leaderboard/CMB-医师考试-高级职称-呼吸内科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-呼吸内科高级职称)
- - 心内科高级职称：[排行榜](leaderboard/CMB-医师考试-高级职称-心内科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-心内科高级职称)
- - 结核病主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-结核病主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-结核病主治医师)
- - 内分泌科高级职称：[排行榜](leaderboard/CMB-医师考试-高级职称-内分泌科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-内分泌科高级职称)
+ - 内科规培结业：[排行榜](leaderboard/规培结业-内科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-内科)
+ - 中医内科主治医师：[排行榜](leaderboard/中医内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医内科主治医师)
+ - 内科主治医师：[排行榜](leaderboard/内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=内科主治医师)
+ - 心血管内科与呼吸内科主治医师：[排行榜](leaderboard/心血管内科与呼吸内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=心血管内科与呼吸内科主治医师)
+ - 肾内科主治医师：[排行榜](leaderboard/肾内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=肾内科主治医师)
+ - 消化内科主治医师：[排行榜](leaderboard/消化内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=消化内科主治医师)
+ - 中西医结合内科主治医师：[排行榜](leaderboard/中西医结合内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中西医结合内科主治医师)
+ - 消化内科高级职称：[排行榜](leaderboard/消化内科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=消化内科高级职称)
+ - 普通内科高级职称：[排行榜](leaderboard/普通内科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=普通内科高级职称)
+ - 呼吸内科高级职称：[排行榜](leaderboard/呼吸内科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=呼吸内科高级职称)
+ - 心内科高级职称：[排行榜](leaderboard/心内科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=心内科高级职称)
+ - 结核病主治医师：[排行榜](leaderboard/结核病主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=结核病主治医师)
+ - 内分泌科高级职称：[排行榜](leaderboard/内分泌科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=内分泌科高级职称)
 <br>
 
 （2）外科
 <br>☛☛完整排行榜见[外科](leaderboard/外科.md)<br>
- - 外科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-外科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-外科)
- - 口腔颌面外科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-口腔颌面外科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔颌面外科主治医师)
- - 整形外科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-整形外科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-整形外科主治医师)
- - 外科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-外科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-外科主治医师)
- - 普通外科高级职称：[排行榜](leaderboard/CMB-医师考试-高级职称-普通外科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-普通外科高级职称)
- - 骨科：[排行榜](leaderboard/CMB-医师考试-规培结业-骨科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-骨科)
- - 骨科：[排行榜](leaderboard/CMB-医师考试-中级职称-骨科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-骨科)
- - 骨科高级职称：[排行榜](leaderboard/CMB-医师考试-高级职称-骨科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-骨科高级职称)
+ - 外科规培结业：[排行榜](leaderboard/规培结业-外科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-外科)
+ - 口腔颌面外科主治医师：[排行榜](leaderboard/口腔颌面外科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=口腔颌面外科主治医师)
+ - 整形外科主治医师：[排行榜](leaderboard/整形外科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=整形外科主治医师)
+ - 外科主治医师：[排行榜](leaderboard/外科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=外科主治医师)
+ - 普通外科高级职称：[排行榜](leaderboard/普通外科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=普通外科高级职称)
+ - 骨科：[排行榜](leaderboard/规培结业-骨科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-骨科)
+ - 骨科：[排行榜](leaderboard/骨科中级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=骨科中级职称)
+ - 骨科高级职称：[排行榜](leaderboard/骨科高级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=骨科高级职称)
 <br>
 
 （3）妇产科
 <br>☛☛完整排行榜见[妇产科](leaderboard/妇产科.md)<br>
- - 妇产科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-妇产科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-妇产科)
- - 妇产科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-妇产科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-妇产科主治医师)
- - 妇产科学副主任、主任医师职称考试：[排行榜](leaderboard/CMB-医师考试-高级职称-妇产科学副主任、主任医师职称考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-高级职称-妇产科学副主任、主任医师职称考试)
+ - 妇产科规培结业：[排行榜](leaderboard/规培结业-妇产科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-妇产科)
+ - 妇产科主治医师：[排行榜](leaderboard/妇产科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=妇产科主治医师)
+ - 妇产科学副主任、主任医师职称考试：[排行榜](leaderboard/妇产科学副主任、主任医师职称考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=妇产科学副主任、主任医师职称考试)
 <br>
 
 （4）儿科
 <br>☛☛完整排行榜见[儿科](leaderboard/儿科.md)<br>
- - 儿科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-儿科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-儿科)
- - 儿科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-儿科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-儿科主治医师)
- - 小儿外科：[排行榜](leaderboard/CMB-医师考试-规培结业-小儿外科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-小儿外科) 
+ - 儿科规培结业：[排行榜](leaderboard/规培结业-儿科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-儿科)
+ - 儿科主治医师：[排行榜](leaderboard/儿科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=儿科主治医师)
+ - 小儿外科：[排行榜](leaderboard/规培结业-小儿外科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-小儿外科) 
 <br>
 
 （5）眼科
 <br>☛☛完整排行榜见[眼科](leaderboard/眼科.md)<br>
- - 眼科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-眼科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-眼科)
- - 眼科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-眼科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-眼科主治医师)
+ - 眼科规培结业：[排行榜](leaderboard/规培结业-眼科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-眼科)
+ - 眼科主治医师：[排行榜](leaderboard/眼科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=眼科主治医师)
 <br>
 
 （6）口腔科
 <br>☛☛完整排行榜见[口腔科](leaderboard/口腔科.md)<br>
- - 口腔科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-口腔科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-口腔科)
- - 口腔执业助理医师：[排行榜](leaderboard/CMB-医师考试-执业助理医师-口腔执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-口腔执业助理医师)
- - 口腔执业医师：[排行榜](leaderboard/CMB-医师考试-执业医师-口腔执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-口腔执业医师)
- - 口腔内科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-口腔内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔内科主治医师)
- - 口腔科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-口腔科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔科主治医师)
- - 口腔修复科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-口腔修复科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔修复科主治医师)
- - 口腔正畸学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-口腔正畸学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-口腔正畸学主治医师)
+ - 口腔科规培结业：[排行榜](leaderboard/规培结业-口腔科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-口腔科)
+ - 口腔执业助理医师：[排行榜](leaderboard/口腔执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=口腔执业助理医师)
+ - 口腔执业医师：[排行榜](leaderboard/口腔执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=口腔执业医师)
+ - 口腔内科主治医师：[排行榜](leaderboard/口腔内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=口腔内科主治医师)
+ - 口腔科主治医师：[排行榜](leaderboard/口腔科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=口腔科主治医师)
+ - 口腔修复科主治医师：[排行榜](leaderboard/口腔修复科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=口腔修复科主治医师)
+ - 口腔正畸学主治医师：[排行榜](leaderboard/口腔正畸学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=口腔正畸学主治医师)
 <br>
 
 （7）耳鼻咽喉科
 <br>☛☛完整排行榜见[耳鼻咽喉科](leaderboard/耳鼻咽喉科.md)<br>
- - 耳鼻咽喉科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-耳鼻咽喉科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-耳鼻咽喉科)
- - 耳鼻咽喉科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-耳鼻咽喉科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-耳鼻咽喉科主治医师)
+ - 耳鼻咽喉科规培结业：[排行榜](leaderboard/规培结业-耳鼻咽喉科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-耳鼻咽喉科)
+ - 耳鼻咽喉科主治医师：[排行榜](leaderboard/耳鼻咽喉科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=耳鼻咽喉科主治医师)
 <br>
 
 （8）脑系科
 <br>☛☛完整排行榜见[脑系科](leaderboard/脑系科.md)<br>
- - 神经内科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-神经内科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-神经内科)
- - 神经内科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-神经内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-神经内科主治医师)
- - 精神科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-精神科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-精神科)
- - 精神病学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-精神病学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-精神病学主治医师)
- - 心理治疗学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-心理治疗学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理治疗学主治医师)
- - 心理咨询师：[排行榜](leaderboard/CMB-医师考试-中级职称-心理咨询师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理咨询师)
+ - 神经内科规培结业：[排行榜](leaderboard/规培结业-神经内科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-神经内科)
+ - 神经内科主治医师：[排行榜](leaderboard/神经内科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=神经内科主治医师)
+ - 精神科规培结业：[排行榜](leaderboard/规培结业-精神科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-精神科)
+ - 精神病学主治医师：[排行榜](leaderboard/精神病学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=精神病学主治医师)
+ - 心理治疗学主治医师：[排行榜](leaderboard/心理治疗学主治医师考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=心理治疗学主治医师考试)
+ - 心理咨询师：[排行榜](leaderboard/心理咨询师考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=心理咨询师考试)
 <br>
 
 （9）皮肤科
 <br>☛☛完整排行榜见[皮肤科](leaderboard/皮肤科.md)<br>
- - 皮肤科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-皮肤科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-皮肤科)
- - 皮肤科中级职称：[排行榜](leaderboard/CMB-医师考试-中级职称-皮肤科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-皮肤科)
- - 皮肤与性病学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-皮肤与性病学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-皮肤与性病学主治医师)
+ - 皮肤科规培结业：[排行榜](leaderboard/规培结业-皮肤科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-皮肤科)
+ - 皮肤科中级职称：[排行榜](leaderboard/皮肤科中级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=皮肤科中级职称)
+ - 皮肤与性病学主治医师：[排行榜](leaderboard/皮肤与性病学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=皮肤与性病学主治医师)
 <br>
 
 （10）中医与中西医结合
 <br>☛☛完整排行榜见[中医与中西医结合](leaderboard/中医与中西医结合.md)<br>
- - 中西医结合执业助理医师：[排行榜](leaderboard/CMB-医师考试-执业助理医师-中西医结合执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-中西医结合执业助理医师)
- - 中医执业助理医师：[排行榜](leaderboard/CMB-医师考试-执业助理医师-中医执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-中医执业助理医师)
- - 中西医结合执业医师：[排行榜](leaderboard/CMB-医师考试-执业医师-中西医结合执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-中西医结合执业医师)
- - 中医执业医师：[排行榜](leaderboard/CMB-医师考试-执业医师-中医执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-中医执业医师)
- - 中医针灸主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-中医针灸主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-中医针灸主治医师)
+ - 中西医结合执业助理医师：[排行榜](leaderboard/中西医结合执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中西医结合执业助理医师)
+ - 中医执业助理医师：[排行榜](leaderboard/中医执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医执业助理医师)
+ - 中西医结合执业医师：[排行榜](leaderboard/中西医结合执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中西医结合执业医师)
+ - 中医执业医师：[排行榜](leaderboard/中医执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医执业医师)
+ - 中医针灸主治医师：[排行榜](leaderboard/中医针灸主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医针灸主治医师)
 <br>
 
 （11）康复医学科
 <br>☛☛完整排行榜见[康复医学科](leaderboard/康复医学科.md)<br>
- - 康复医学科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-康复医学科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-康复医学科)
- - 康复医学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-康复医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-康复医学主治医师)
+ - 康复医学科规培结业：[排行榜](leaderboard/规培结业-康复医学科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-康复医学科)
+ - 康复医学主治医师：[排行榜](leaderboard/康复医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=康复医学主治医师)
 <br>
 
 （12）全科医学科
 <br>☛☛完整排行榜见[全科医学科](leaderboard/全科医学科.md)<br>
- - 全科医学科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-全科医学科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-全科医学科)
- - 全科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-全科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-全科主治医师)
+ - 全科医学科规培结业：[排行榜](leaderboard/规培结业-全科医学科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-全科医学科)
+ - 全科主治医师：[排行榜](leaderboard/全科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=全科主治医师)
 <br>
 
 （13）临床营养与重症医学      
 <br>☛☛完整排行榜见[临床营养与重症医学](leaderboard/临床营养与重症医学.md)<br>   
- - 临床执业助理医师：[排行榜](leaderboard/CMB-医师考试-执业助理医师-临床执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-临床执业助理医师)
- - 临床执业医师：[排行榜](leaderboard/CMB-医师考试-执业医师-临床执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-临床执业医师)
- - 风湿与临床免疫主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-风湿与临床免疫主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-风湿与临床免疫主治医师)
- - 重症医学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-重症医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-重症医学主治医师)
- - 营养学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-营养学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-营养学主治医师)
- - 临床病理科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-临床病理科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-临床病理科)
+ - 临床执业助理医师：[排行榜](leaderboard/临床执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床执业助理医师)
+ - 临床执业医师：[排行榜](leaderboard/临床执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床执业医师)
+ - 风湿与临床免疫主治医师：[排行榜](leaderboard/风湿与临床免疫主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=风湿与临床免疫主治医师)
+ - 重症医学主治医师：[排行榜](leaderboard/重症医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=重症医学主治医师)
+ - 营养学主治医师：[排行榜](leaderboard/营养学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=营养学主治医师)
+ - 临床病理科规培结业：[排行榜](leaderboard/规培结业-临床病理科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-临床病理科)
 <br>
 
 （14）肿瘤科
 <br>☛☛完整排行榜见[肿瘤科](leaderboard/肿瘤科.md)<br>  
- - 肿瘤学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-肿瘤学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-肿瘤学主治医师)
+ - 肿瘤学主治医师：[排行榜](leaderboard/肿瘤学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=肿瘤学主治医师)
 <br>
 
 （15）麻醉疼痛科
 <br>☛☛完整排行榜见[麻醉疼痛科](leaderboard/麻醉疼痛科.md)<br>  
- - 麻醉科规培结业：[排行榜](leaderboard/CMB-医师考试-规培结业-麻醉科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-麻醉科)
- - 麻醉科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-麻醉科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-麻醉科主治医师)
- - 疼痛科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-疼痛科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-疼痛科主治医师)
+ - 麻醉科规培结业：[排行榜](leaderboard/规培结业-麻醉科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-麻醉科)
+ - 麻醉科主治医师：[排行榜](leaderboard/麻醉科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=麻醉科主治医师)
+ - 疼痛科主治医师：[排行榜](leaderboard/疼痛科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=疼痛科主治医师)
 <br>
 
 （16）公共卫生与职业病
 <br>☛☛完整排行榜见[公共卫生与职业病](leaderboard/公共卫生与职业病.md)<br> 
- - 公共卫生执业助理医师：[排行榜](leaderboard/CMB-医师考试-执业助理医师-公共卫生执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业助理医师-公共卫生执业助理医师)
- - 公共卫生执业医师：[排行榜](leaderboard/CMB-医师考试-执业医师-公共卫生执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-执业医师-公共卫生执业医师)
- - 医院感染中级职称：[排行榜](leaderboard/CMB-医师考试-中级职称-医院感染.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-医院感染)
- - 传染病主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-传染病主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-传染病主治医师)
- - 预防医学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-预防医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-预防医学主治医师)
- - 传染病学中级职称：[排行榜](leaderboard/CMB-医师考试-中级职称-传染病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-传染病学)
- - 职业病主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-职业病主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-职业病主治医师)
+ - 公共卫生执业助理医师：[排行榜](leaderboard/公共卫生执业助理医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=公共卫生执业助理医师)
+ - 公共卫生执业医师：[排行榜](leaderboard/公共卫生执业医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=公共卫生执业医师)
+ - 医院感染中级职称：[排行榜](leaderboard/医院感染中级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=医院感染中级职称)
+ - 传染病主治医师：[排行榜](leaderboard/传染病主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=传染病主治医师)
+ - 预防医学主治医师：[排行榜](leaderboard/预防医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=预防医学主治医师)
+ - 传染病学中级职称：[排行榜](leaderboard/传染病学中级职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=传染病学中级职称)
+ - 职业病主治医师：[排行榜](leaderboard/职业病主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=职业病主治医师)
 <br><br><br>
                            
 
 ### 2.2 护理
 ☛☛完整排行榜见[护理](leaderboard/护理.md)<br>
 
- - 护士执业资格考试：[排行榜](leaderboard/CMB-护理考试-护士执业资格-护士执业资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护士执业资格-护士执业资格考试)
- - 护师资格考试：[排行榜](leaderboard/CMB-护理考试-护师执业资格-护师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-护师执业资格-护师资格考试)
- - 儿科主管护师：[排行榜](leaderboard/CMB-护理考试-主管护师-儿科主管护师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-儿科主管护师)
- - 内科护理学：[排行榜](leaderboard/CMB-护理考试-主管护师-内科护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-内科护理学)
- - 妇产科护理学：[排行榜](leaderboard/CMB-护理考试-主管护师-妇产科护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-妇产科护理学)
- - 妇产科主管护师：[排行榜](leaderboard/CMB-护理考试-主管护师-妇产科主管护师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-妇产科主管护师)
- - 外科主管护师：[排行榜](leaderboard/CMB-护理考试-主管护师-外科主管护师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-外科主管护师)
- - 主管护师资格考试：[排行榜](leaderboard/CMB-护理考试-主管护师-主管护师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-主管护师资格考试)
- - 内科主管护师：[排行榜](leaderboard/CMB-护理考试-主管护师-内科主管护师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-主管护师-内科主管护师)
- - 副主任、主任护师资格考试：[排行榜](leaderboard/CMB-护理考试-高级护师-副主任、主任护师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-护理考试-高级护师-副主任、主任护师资格考试)
+ - 护士执业资格考试：[排行榜](leaderboard/护士执业资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=护士执业资格考试)
+ - 护师资格考试：[排行榜](leaderboard/护师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=护师资格考试)
+ - 儿科主管护师：[排行榜](leaderboard/儿科主管护师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=儿科主管护师)
+ - 内科护理学：[排行榜](leaderboard/主管护师-内科护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=主管护师-内科护理学)
+ - 妇产科护理学：[排行榜](leaderboard/主管护师-妇产科护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=主管护师-妇产科护理学)
+ - 妇产科主管护师：[排行榜](leaderboard/妇产科主管护师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=妇产科主管护师)
+ - 外科主管护师：[排行榜](leaderboard/外科主管护师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=外科主管护师)
+ - 主管护师资格考试：[排行榜](leaderboard/主管护师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=主管护师资格考试)
+ - 内科主管护师：[排行榜](leaderboard/内科主管护师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=内科主管护师)
+ - 副主任、主任护师资格考试：[排行榜](leaderboard/高级护师-副主任、主任护师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=高级护师-副主任、主任护师资格考试)
 <br><br><br>
 
 
 ### 2.3 药师
 ☛☛完整排行榜见[药师](leaderboard/药师.md)<br>
 
- - 执业西药师：[排行榜](leaderboard/CMB-药师考试-执业西药师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业西药师)
- - 执业中药师：[排行榜](leaderboard/CMB-药师考试-执业中药师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-执业中药师)
- - 药士初级考试：[排行榜](leaderboard/CMB-药师考试-初级药士-药士初级考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级药士-药士初级考试)
- - 药师初级考试：[排行榜](leaderboard/CMB-药师考试-初级药师-药师初级考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级药师-药师初级考试)
- - 中药学（士）：[排行榜](leaderboard/CMB-药师考试-初级中药士-中药学（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级中药士-中药学（士）)
- - 中药学（师）：[排行榜](leaderboard/CMB-药师考试-初级中药师-中药学（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-初级中药师-中药学（师）)
- - 主管药师资格考试：[排行榜](leaderboard/CMB-药师考试-主管药师-主管药师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-主管药师-主管药师资格考试)
- - 主管中药师：[排行榜](leaderboard/CMB-药师考试-主管中药师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-药师考试-主管中药师)
+ - 执业西药师：[排行榜](leaderboard/执业西药师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=执业西药师)
+ - 执业中药师：[排行榜](leaderboard/执业中药师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=执业中药师)
+ - 药士初级考试：[排行榜](leaderboard/药士初级考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=药士初级考试)
+ - 药师初级考试：[排行榜](leaderboard/药师初级考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=药师初级考试)
+ - 中药学（士）：[排行榜](leaderboard/初级中药士-中药学（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=初级中药士-中药学（士）)
+ - 中药学（师）：[排行榜](leaderboard/初级中药师-中药学（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=初级中药师-中药学（师）)
+ - 主管药师资格考试：[排行榜](leaderboard/主管药师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=主管药师资格考试)
+ - 主管中药师：[排行榜](leaderboard/主管中药师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=主管中药师)
 <br><br><br>
 
 
 ### 2.4 医技
 ☛☛完整排行榜见[医技](leaderboard/医技.md)<br>
 
- - 超声科：[排行榜](leaderboard/CMB-医师考试-规培结业-超声科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-超声科)
- - 超声波医学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-超声波医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-超声波医学主治医师)
- - 超声波医学主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-超声波医学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-超声波医学主管技师)
+ - 超声科：[排行榜](leaderboard/规培结业-超声科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-超声科)
+ - 超声波医学主治医师：[排行榜](leaderboard/超声波医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=超声波医学主治医师)
+ - 超声波医学主管技师：[排行榜](leaderboard/超声波医学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=超声波医学主管技师)
  <br><br>
- - 心电学主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-心电学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-心电学主管技师)
- - 医学影像科：[排行榜](leaderboard/CMB-医师考试-规培结业-医学影像科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-规培结业-医学影像科)
- - 核医学主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-核医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-核医学主治医师)
- - 核医学主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-核医学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-核医学主管技师)
+ - 心电学主管技师：[排行榜](leaderboard/心电学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=心电学主管技师)
+ - 医学影像科：[排行榜](leaderboard/规培结业-医学影像科.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-医学影像科)
+ - 核医学主治医师：[排行榜](leaderboard/核医学主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=核医学主治医师)
+ - 核医学主管技师：[排行榜](leaderboard/核医学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=核医学主管技师)
  <br><br>  
- - 放射科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-放射科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-放射科主治医师)
- - 放射学技术（士）：[排行榜](leaderboard/CMB-医技考试-医技士-放射学技术（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-放射学技术（士）)
- - 放射学技术（师）：[排行榜](leaderboard/CMB-医技考试-医技师-放射学技术（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-放射学技术（师）)
- - 放射医学主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-放射医学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-放射医学主管技师)
+ - 放射科主治医师：[排行榜](leaderboard/放射科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=放射科主治医师)
+ - 放射学技术（士）：[排行榜](leaderboard/放射学技术（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=放射学技术（士）)
+ - 放射学技术（师）：[排行榜](leaderboard/放射学技术（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=放射学技术（师）)
+ - 放射医学主管技师：[排行榜](leaderboard/放射医学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=放射医学主管技师)
  <br><br>  
- - 检验技术（士）：[排行榜](leaderboard/CMB-医技考试-医技士-检验技术（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-检验技术（士）)
- - 检验技术（师）：[排行榜](leaderboard/CMB-医技考试-医技师-检验技术（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-检验技术（师）)
- - 微生物检验主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-微生物检验主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-微生物检验主管技师)
- - 理化检验主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-理化检验主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-理化检验主管技师)
- - 临床医学检验主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-临床医学检验主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-临床医学检验主管技师)
+ - 检验技术（士）：[排行榜](leaderboard/检验技术（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=检验技术（士）)
+ - 检验技术（师）：[排行榜](leaderboard/检验技术（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=检验技术（师）)
+ - 微生物检验主管技师：[排行榜](leaderboard/微生物检验主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=微生物检验主管技师)
+ - 理化检验主管技师：[排行榜](leaderboard/理化检验主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=理化检验主管技师)
+ - 临床医学检验主管技师：[排行榜](leaderboard/临床医学检验主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学检验主管技师)
  <br><br>      
- - 病理科主治医师：[排行榜](leaderboard/CMB-医师考试-中级职称-病理科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-病理科主治医师)
- - 病理学主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-病理学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病理学主管技师)
- - 病理学技术：[排行榜](leaderboard/CMB-医技考试-主管技师-病理学技术.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病理学技术)
+ - 病理科主治医师：[排行榜](leaderboard/病理科主治医师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=病理科主治医师)
+ - 病理学主管技师：[排行榜](leaderboard/病理学主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=病理学主管技师)
+ - 病理学技术：[排行榜](leaderboard/主管技师-病理学技术.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=主管技师-病理学技术)
  <br><br>  
- - 康复医学治疗技术（士）：[排行榜](leaderboard/CMB-医技考试-医技士-康复医学治疗技术（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-康复医学治疗技术（士）)
- - 康复医学治疗技术（师）：[排行榜](leaderboard/CMB-医技考试-医技师-康复医学治疗技术（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-康复医学治疗技术（师）)
- - 康复医学与治疗主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-康复医学与治疗主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-康复医学与治疗主管技师)
+ - 康复医学治疗技术（士）：[排行榜](leaderboard/康复医学治疗技术（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=康复医学治疗技术（士）)
+ - 康复医学治疗技术（师）：[排行榜](leaderboard/康复医学治疗技术（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=康复医学治疗技术（师）)
+ - 康复医学与治疗主管技师：[排行榜](leaderboard/康复医学与治疗主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=康复医学与治疗主管技师)
  <br><br>
- - 肿瘤学技术（士）：[排行榜](leaderboard/CMB-医技考试-医技士-肿瘤学技术（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技士-肿瘤学技术（士）)
- - 肿瘤学技术（师）：[排行榜](leaderboard/CMB-医技考试-医技师-肿瘤学技术（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-医技师-肿瘤学技术（师）)
- - 肿瘤放射治疗主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-肿瘤放射治疗主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-肿瘤放射治疗主管技师)
+ - 肿瘤学技术（士）：[排行榜](leaderboard/肿瘤学技术（士）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=肿瘤学技术（士）)
+ - 肿瘤学技术（师）：[排行榜](leaderboard/肿瘤学技术（师）.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=肿瘤学技术（师）)
+ - 肿瘤放射治疗主管技师：[排行榜](leaderboard/肿瘤放射治疗主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=肿瘤放射治疗主管技师)
  <br><br>
- - 输血技术主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-输血技术主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-输血技术主管技师)
- - 消毒技术主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-消毒技术主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-消毒技术主管技师)
- - 病案信息主管技师：[排行榜](leaderboard/CMB-医技考试-主管技师-病案信息主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医技考试-主管技师-病案信息主管技师)
+ - 输血技术主管技师：[排行榜](leaderboard/输血技术主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=输血技术主管技师)
+ - 消毒技术主管技师：[排行榜](leaderboard/消毒技术主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=消毒技术主管技师)
+ - 病案信息主管技师：[排行榜](leaderboard/病案信息主管技师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=病案信息主管技师)
 <br><br><br>
 
 
@@ -539,83 +537,83 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 （1）基础医学
 <br>☛☛完整排行榜见[基础医学](leaderboard/基础医学.md)<br>
 
- - 医学三基：[排行榜](leaderboard/MMCU-医疗-医学三基.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MMCU-医疗-医学三基)
- - 医学心理学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-医学心理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学心理学)
- - 生物化学与分子生物学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-生物化学与分子生物学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-生物化学与分子生物学)
- - 细胞生物学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-细胞生物学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-细胞生物学)
- - 医学免疫学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-医学免疫学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学免疫学)
- - 免疫学：[排行榜](leaderboard/MMCU-医疗-免疫学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MMCU-医疗-免疫学)
- - 病理生理学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-病理生理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-病理生理学)  
+ - 医学三基：[排行榜](leaderboard/医学三基.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=医学三基)
+ - 医学心理学：[排行榜](leaderboard/基础医学-医学心理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-医学心理学)
+ - 生物化学与分子生物学：[排行榜](leaderboard/生物化学与分子生物学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=生物化学与分子生物学)
+ - 细胞生物学：[排行榜](leaderboard/基础医学-细胞生物学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-细胞生物学)
+ - 医学免疫学：[排行榜](leaderboard/基础医学-医学免疫学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-医学免疫学)
+ - 免疫学：[排行榜](leaderboard/基础医学-免疫学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-免疫学)
+ - 病理生理学：[排行榜](leaderboard/基础医学-病理生理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-病理生理学)  
  - 病理学：[排行榜](leaderboard/基础医学-病理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-病理学)
 
- - 医学遗传学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-医学遗传学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学遗传学)
+ - 医学遗传学：[排行榜](leaderboard/基础医学-医学遗传学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-医学遗传学)
  - 寄生虫学：[排行榜](leaderboard/基础医学-寄生虫学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-寄生虫学)
- - 人体寄生虫学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-人体寄生虫学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-人体寄生虫学)
+ - 人体寄生虫学：[排行榜](leaderboard/基础医学-人体寄生虫学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-人体寄生虫学)
   
- - 系统解剖学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-系统解剖学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-系统解剖学)
- - 解剖学：[排行榜](leaderboard/MMCU-医疗-解剖学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MMCU-医疗-解剖学)
- - 局部解剖学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-局部解剖学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-局部解剖学)
+ - 系统解剖学：[排行榜](leaderboard/基础医学-系统解剖学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-系统解剖学)
+ - 解剖学：[排行榜](leaderboard/基础医学-解剖学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-解剖学)
+ - 局部解剖学：[排行榜](leaderboard/基础医学-局部解剖学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-局部解剖学)
  
- - 生物信息学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-生物信息学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-生物信息学)
- - 生理学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-生理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-生理学)
+ - 生物信息学：[排行榜](leaderboard/基础医学-生物信息学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-生物信息学)
+ - 生理学：[排行榜](leaderboard/基础医学-生理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-生理学)
  - 药理学：[排行榜](leaderboard/基础医学-药理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-药理学)
- - 药物分析学：[排行榜](leaderboard/MMCU-医疗-药物分析学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MMCU-医疗-药物分析学)
+ - 药物分析学：[排行榜](leaderboard/基础医学-药物分析学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-药物分析学)
    
- - 医学微生物学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-医学微生物学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学微生物学)
+ - 医学微生物学：[排行榜](leaderboard/基础医学-医学微生物学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-医学微生物学)
  - 组织学与胚胎学：[排行榜](leaderboard/基础医学-组织学与胚胎学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-组织学与胚胎学)
- - 医学统计学：[排行榜](leaderboard/CMB-专业知识考试-基础医学-医学统计学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学统计学)
+ - 医学统计学：[排行榜](leaderboard/基础医学-医学统计学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-医学统计学)
 <br>
 
 （2）临床医学
 <br>☛☛完整排行榜见[临床医学](leaderboard/临床医学.md)<br>
- - 临床医学：[排行榜](leaderboard/MMCU-医疗-临床医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MMCU-医疗-临床医学)
+ - 临床医学：[排行榜](leaderboard/临床医学综合.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学综合)
  - 医学影像学：[排行榜](leaderboard/临床医学-医学影像学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-医学影像学)
- - 放射学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-放射学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-放射学)
- - 实验诊断学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-实验诊断学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-实验诊断学)
- - 神经病学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-神经病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-神经病学)
+ - 放射学：[排行榜](leaderboard/临床医学-放射学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-放射学)
+ - 实验诊断学：[排行榜](leaderboard/临床医学-实验诊断学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-实验诊断学)
+ - 神经病学：[排行榜](leaderboard/临床医学-神经病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-神经病学)
  - 外科学：[排行榜](leaderboard/临床医学-外科学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-外科学)
  - 皮肤性病学：[排行榜](leaderboard/临床医学-皮肤性病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-皮肤性病学)
  - 儿科学：[排行榜](leaderboard/临床医学-儿科学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-儿科学)
- - 核医学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-核医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-核医学)
- - 物理诊断学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-物理诊断学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-物理诊断学)
- - 牙体牙髓病学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-牙体牙髓病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-牙体牙髓病学)
- - 护理学基础：[排行榜](leaderboard/CMB-专业知识考试-临床医学-护理学基础.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-护理学基础)
- - 护理学：[排行榜](leaderboard/MMCU-医疗-护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MMCU-医疗-护理学)
- - 基础护理学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-基础护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-基础护理学)
+ - 核医学：[排行榜](leaderboard/临床医学-核医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-核医学)
+ - 物理诊断学：[排行榜](leaderboard/临床医学-物理诊断学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-物理诊断学)
+ - 牙体牙髓病学：[排行榜](leaderboard/临床医学-牙体牙髓病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-牙体牙髓病学)
+ - 护理学基础：[排行榜](leaderboard/临床医学-护理学基础.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-护理学基础)
+ - 护理学：[排行榜](leaderboard/临床医学-护理学基础.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-护理学基础)
+ - 基础护理学：[排行榜](leaderboard/临床医学-基础护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-基础护理学)
    
- - 诊断学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-诊断学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-诊断学)
- - 超声医学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-超声医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-超声医学)
- - 口腔护理学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-口腔护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-口腔护理学)
- - 循证医学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-循证医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-循证医学)
- - 流行病学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-流行病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-流行病学)
- - 口腔组织病理学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-口腔组织病理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-口腔组织病理学)
+ - 诊断学：[排行榜](leaderboard/临床医学-诊断学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-诊断学)
+ - 超声医学：[排行榜](leaderboard/临床医学-超声医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-超声医学)
+ - 口腔护理学：[排行榜](leaderboard/临床医学-口腔护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-口腔护理学)
+ - 循证医学：[排行榜](leaderboard/临床医学-循证医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-循证医学)
+ - 流行病学：[排行榜](leaderboard/临床医学-流行病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-流行病学)
+ - 口腔组织病理学：[排行榜](leaderboard/临床医学-口腔组织病理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-口腔组织病理学)
  - 传染病学：[排行榜](leaderboard/临床医学-传染病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-传染病学)
- - 口腔解剖生理学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-口腔解剖生理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-口腔解剖生理学)
- - 麻醉学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-麻醉学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-麻醉学)
- - 介入放射学：[排行榜](leaderboard/CMB-专业知识考试-临床医学-介入放射学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-临床医学-介入放射学)
+ - 口腔解剖生理学：[排行榜](leaderboard/临床医学-口腔解剖生理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-口腔解剖生理学)
+ - 麻醉学：[排行榜](leaderboard/临床医学-麻醉学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-麻醉学)
+ - 介入放射学：[排行榜](leaderboard/临床医学-介入放射学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-介入放射学)
 <br>
 
 （3）预防医学与公共卫生学
 <br>☛☛完整排行榜见[预防医学与公共卫生学](leaderboard/预防医学与公共卫生学.md)<br>
- - 预防医学：[排行榜](leaderboard/CMB-专业知识考试-预防医学与公共卫生学-预防医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-预防医学与公共卫生学-预防医学)
- - 卫生学：[排行榜](leaderboard/CMB-专业知识考试-预防医学与公共卫生学-卫生学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-预防医学与公共卫生学-卫生学)
- - 医学伦理学：[排行榜](leaderboard/CMB-专业知识考试-预防医学与公共卫生学-医学伦理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-预防医学与公共卫生学-医学伦理学)
+ - 预防医学：[排行榜](leaderboard/预防医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=预防医学)
+ - 卫生学：[排行榜](leaderboard/卫生学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=卫生学)
+ - 医学伦理学：[排行榜](leaderboard/医学伦理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=医学伦理学)
 <br>
 
 （4）中医学与中药学
 <br>☛☛完整排行榜见[中医学与中药学](leaderboard/中医学与中药学.md)<br>
 
- - 中医眼科学：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-中医眼科学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-中医眼科学)
- - 金匮要略讲义：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-金匮要略讲义.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-金匮要略讲义)
- - 中医基础理论：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-中医基础理论.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-中医基础理论)
- - 中医诊断学：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-中医诊断学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-中医诊断学)
- - 中医学：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-中医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-中医学)
- - 温病学：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-温病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-温病学)
- - 中国医学史：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-中国医学史.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-中国医学史)
- - 中医内科学：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-中医内科学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-中医内科学)
- - 中医儿科学：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-中医儿科学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-中医儿科学)
- - 伤寒论：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-伤寒论.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-伤寒论)
- - 内经讲义：[排行榜](leaderboard/CMB-专业知识考试-中医学与中药学-内经讲义.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-中医学与中药学-内经讲义)
+ - 中医眼科学：[排行榜](leaderboard/中医眼科学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医眼科学)
+ - 金匮要略讲义：[排行榜](leaderboard/金匮要略讲义.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金匮要略讲义)
+ - 中医基础理论：[排行榜](leaderboard/中医基础理论.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医基础理论)
+ - 中医诊断学：[排行榜](leaderboard/中医诊断学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医诊断学)
+ - 中医学：[排行榜](leaderboard/中医学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医学)
+ - 温病学：[排行榜](leaderboard/温病学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=温病学)
+ - 中国医学史：[排行榜](leaderboard/中国医学史.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中国医学史)
+ - 中医内科学：[排行榜](leaderboard/中医内科学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医内科学)
+ - 中医儿科学：[排行榜](leaderboard/中医儿科学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中医儿科学)
+ - 伤寒论：[排行榜](leaderboard/伤寒论.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=伤寒论)
+ - 内经讲义：[排行榜](leaderboard/内经讲义.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=内经讲义)
 <br><br><br>
 
 
@@ -623,11 +621,11 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 医学考研，包含外科护理学、基础护理学、西医综合等5个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
 ☛☛完整排行榜见[医学考研](leaderboard/CMB-医学考研.md)<br>
 
- - 外科护理学：[排行榜](leaderboard/CMB-医学考研-护理学-外科护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医学考研-护理学-外科护理学)
- - 基础护理学：[排行榜](leaderboard/CMB-医学考研-护理学-基础护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医学考研-护理学-基础护理学)
- - 考研政治：[排行榜](leaderboard/CMB-医学考研-考研政治.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医学考研-考研政治)
- - 西医综合：[排行榜](leaderboard/CMB-医学考研-西医综合.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医学考研-西医综合)
- - 中医综合：[排行榜](leaderboard/CMB-医学考研-中医综合.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医学考研-中医综合)
+ - 外科护理学：[排行榜](leaderboard/医学考研-外科护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=医学考研-外科护理学)
+ - 基础护理学：[排行榜](leaderboard/医学考研-基础护理学.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=医学考研-基础护理学)
+ - 考研政治：[排行榜](leaderboard/考研政治.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=考研政治)
+ - 西医综合：[排行榜](leaderboard/医学考研-西医综合.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=医学考研-西医综合)
+ - 中医综合：[排行榜](leaderboard/医学考研-中医综合.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=医学考研-中医综合)
 <br><br><br>
 
 
@@ -710,7 +708,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 ### 4.1 财务
 ☛☛完整排行榜见[财务](leaderboard/财务.md)<br>
- - 初级会计职称：[排行榜](leaderboard/CFLUE-初级会计职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-初级会计职称)
+ - 初级会计职称：[排行榜](leaderboard/初级会计职称.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=初级会计职称)
  - 注册会计师：[排行榜](leaderboard/注册会计师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=注册会计师)
  - 会计从业资格：[排行榜](leaderboard/会计从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=会计从业资格)
  - 审计师考试：[排行榜](leaderboard/审计师考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=审计师考试)
@@ -719,8 +717,8 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 ### 4.2 银行
 ☛☛完整排行榜见[银行](leaderboard/银行.md)<br>
- - 银行初级资格：[排行榜](leaderboard/CFLUE-银行初级资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-银行初级资格)
- - 银从中级资格：[排行榜](leaderboard/CFLUE-银从中级资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-银从中级资格)
+ - 银行初级资格：[排行榜](leaderboard/银行初级资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=银行初级资格)
+ - 银从中级资格：[排行榜](leaderboard/银从中级资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=银从中级资格)
  - 银行从业资格：[排行榜](leaderboard/银行从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=银行从业资格)
 
 ### 4.3 保险
@@ -729,18 +727,18 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 ### 4.4 证券
 ☛☛完整排行榜见[证券](leaderboard/证券.md)<br>
- - 证券专项考试：[排行榜](leaderboard/CFLUE-证券专项考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-证券专项考试)
+ - 证券专项考试：[排行榜](leaderboard/证券专项考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=证券专项考试)
  - 证券从业资格：[排行榜](leaderboard/证券从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=证券从业资格)
 
 ### 4.5 其他金融资格考试
 ☛☛完整排行榜见[其他金融资格考试](leaderboard/其他金融资格考试.md)<br>
- - 初级经济师：[排行榜](leaderboard/CFLUE-初级经济师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-初级经济师)
- - 中级经济师：[排行榜](leaderboard/CFLUE-中级经济师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-中级经济师)
- - 反假货币知识：[排行榜](leaderboard/CFLUE-反假货币知识.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-反假货币知识)
+ - 初级经济师：[排行榜](leaderboard/初级经济师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=初级经济师)
+ - 中级经济师：[排行榜](leaderboard/中级经济师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中级经济师)
+ - 反假货币知识：[排行榜](leaderboard/反假货币知识.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=反假货币知识)
  - 期货从业资格：[排行榜](leaderboard/期货从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=期货从业资格)
- - 金融理财师AFP：[排行榜](leaderboard/CFLUE-金融理财师AFP.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-金融理财师AFP)
+ - 金融理财师AFP：[排行榜](leaderboard/金融理财师AFP.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融理财师AFP)
  - 基金从业资格：[排行榜](leaderboard/基金从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基金从业资格)
- - 黄金从业资格：[排行榜](leaderboard/CFLUE-黄金从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CFLUE-黄金从业资格)
+ - 黄金从业资格：[排行榜](leaderboard/黄金从业资格.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=黄金从业资格)
  - 中国精算师：[排行榜](leaderboard/中国精算师.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中国精算师)
 
 ### 4.6 金融基础知识
@@ -773,30 +771,30 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 
 ### 4.7 金融应用
 ☛☛完整排行榜见[金融应用](leaderboard/金融应用.md)<br>
- - 保险知识解读：[排行榜](leaderboard/Fin-Eva-金融知识-保险知识解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-保险知识解读)
- - 金融术语解释：[排行榜](leaderboard/Fin-Eva-金融知识-金融术语解释.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-金融术语解释)
- - 执业医师资格考试：[排行榜](leaderboard/Fin-Eva-金融知识-执业医师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-执业医师资格考试)
- - 理财知识解读：[排行榜](leaderboard/Fin-Eva-金融知识-理财知识解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-理财知识解读)
- - 执业药师资格考试：[排行榜](leaderboard/Fin-Eva-金融知识-执业药师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-执业药师资格考试)
- - 金融文档抽取：[排行榜](leaderboard/Fin-Eva-金融知识-金融文档抽取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融知识-金融文档抽取)
- - 研判观点提取：[排行榜](leaderboard/Fin-Eva-金融认知-研判观点提取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-研判观点提取)
- - 金融情绪识别：[排行榜](leaderboard/Fin-Eva-金融认知-金融情绪识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-金融情绪识别)
- - 保险槽位识别：[排行榜](leaderboard/Fin-Eva-金融认知-保险槽位识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-保险槽位识别)
- - 保险意图理解：[排行榜](leaderboard/Fin-Eva-金融认知-保险意图理解.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-保险意图理解)
- - 金融意图理解：[排行榜](leaderboard/Fin-Eva-金融认知-金融意图理解.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融认知-金融意图理解)
- - 保险属性抽取：[排行榜](leaderboard/Fin-Eva-金融逻辑-保险属性抽取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-保险属性抽取)
- - 保险条款解读：[排行榜](leaderboard/Fin-Eva-金融逻辑-保险条款解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-保险条款解读)
- - 金融产品分析：[排行榜](leaderboard/Fin-Eva-金融逻辑-金融产品分析.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-金融产品分析)
- - 金融数值计算：[排行榜](leaderboard/Fin-Eva-金融逻辑-金融数值计算.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-金融数值计算)
- - 金融事件解读：[排行榜](leaderboard/Fin-Eva-金融逻辑-金融事件解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-金融逻辑-金融事件解读)
- - 内容生成-投教话术生成：[排行榜](leaderboard/Fin-Eva-内容生成-投教话术生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-内容生成-投教话术生成)
- - 内容生成-文本总结归纳：[排行榜](leaderboard/Fin-Eva-内容生成-文本总结归纳.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-内容生成-文本总结归纳)
- - 内容生成-营销文案生成：[排行榜](leaderboard/Fin-Eva-内容生成-营销文案生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-内容生成-营销文案生成)
- - 内容生成-资讯标题生成：[排行榜](leaderboard/Fin-Eva-内容生成-资讯标题生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-内容生成-资讯标题生成)
- - 安全合规-金融合规性：[排行榜](leaderboard/Fin-Eva-安全合规-金融合规性.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-安全合规-金融合规性)
- - 安全合规-金融问题识别：[排行榜](leaderboard/Fin-Eva-安全合规-金融问题识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-安全合规-金融问题识别)
- - 安全合规-信息安全合规：[排行榜](leaderboard/Fin-Eva-安全合规-信息安全合规.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-安全合规-信息安全合规)
- - 安全合规-金融事实性：[排行榜](leaderboard/Fin-Eva-安全合规-金融事实性.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Fin-Eva-安全合规-金融事实性)
+ - 保险知识解读：[排行榜](leaderboard/保险知识解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=保险知识解读)
+ - 金融术语解释：[排行榜](leaderboard/金融术语解释.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融术语解释)
+ - 执业医师资格考试：[排行榜](leaderboard/金融知识-执业医师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融知识-执业医师资格考试)
+ - 理财知识解读：[排行榜](leaderboard/理财知识解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=理财知识解读)
+ - 执业药师资格考试：[排行榜](leaderboard/金融知识-执业药师资格考试.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融知识-执业药师资格考试)
+ - 金融文档抽取：[排行榜](leaderboard/金融文档抽取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融文档抽取)
+ - 研判观点提取：[排行榜](leaderboard/金融认知-研判观点提取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融认知-研判观点提取)
+ - 金融情绪识别：[排行榜](leaderboard/金融情绪识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融情绪识别)
+ - 保险槽位识别：[排行榜](leaderboard/保险槽位识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=保险槽位识别)
+ - 保险意图理解：[排行榜](leaderboard/保险意图理解.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=保险意图理解)
+ - 金融意图理解：[排行榜](leaderboard/金融意图理解.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融意图理解)
+ - 保险属性抽取：[排行榜](leaderboard/保险属性抽取.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=保险属性抽取)
+ - 保险条款解读：[排行榜](leaderboard/保险条款解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=保险条款解读)
+ - 金融产品分析：[排行榜](leaderboard/金融产品分析.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融产品分析)
+ - 金融数值计算：[排行榜](leaderboard/金融数值计算.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融数值计算)
+ - 金融事件解读：[排行榜](leaderboard/金融事件解读.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融事件解读)
+ - 内容生成-投教话术生成：[排行榜](leaderboard/金融投教话术生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融投教话术生成)
+ - 内容生成-文本总结归纳：[排行榜](leaderboard/金融文本总结归纳.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融文本总结归纳)
+ - 内容生成-营销文案生成：[排行榜](leaderboard/金融营销文案生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融营销文案生成)
+ - 内容生成-资讯标题生成：[排行榜](leaderboard/金融资讯标题生成.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融资讯标题生成)
+ - 安全合规-金融合规性：[排行榜](leaderboard/金融合规性.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融合规性)
+ - 安全合规-金融问题识别：[排行榜](leaderboard/金融问题识别.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融问题识别)
+ - 安全合规-信息安全合规：[排行榜](leaderboard/金融信息安全合规.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融信息安全合规)
+ - 安全合规-金融事实性：[排行榜](leaderboard/金融事实性.md) | [样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=金融事实性)
 <br><br><br>
 
 
@@ -806,16 +804,16 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 ### 5.1 律师资格考试
 #### （1）JEC-QA-KD
 选择题，共1000道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。<br>
-完整排行榜见[JEC-QA-KD](leaderboard/JEC-QA-KD.md)，☛查看[JEC-QA-KD badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=JEC-QA-KD)
+完整排行榜见[JEC-QA-KD](leaderboard/JEC-QA-KD.md)，☛查看[JEC-QA-KD：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=JEC-QA-KD)
 <br>
 
 #### （2）JEC-QA-CA
 选择题，共1000道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。<br>
-完整排行榜见[JEC-QA-CA](leaderboard/JEC-QA-CA.md)，☛查看[JEC-QA-CA badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=JEC-QA-CA)
+完整排行榜见[JEC-QA-CA](leaderboard/JEC-QA-CA.md)，☛查看[JEC-QA-CA：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=JEC-QA-CA)
 <br>
 
-#### （3）MMCU法律
-完整排行榜见[MMCU法律](leaderboard/MMCU-法律.md)，☛查看[MMCU法律badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MMCU-法律)
+#### （3）法律综合
+完整排行榜见[法律综合](leaderboard/法律综合.md)，☛查看[法律综合：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=法律综合)
 <br><br><br>
 
 
@@ -834,28 +832,28 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 >  
 
 完整排行榜见[公务员考试](leaderboard/考公.md)<br>
-☛查看[公务员考试badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=kaogong)
+☛查看[公务员考试：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=kaogong)
 <br><br><br>
 
 
 ## 7、心理健康排行榜
-目前包含4个子项：MMCU心理，心理治疗学主治医师，心理咨询师，医学心理学。<br>
+目前包含4个子项：心理综合，心理治疗学主治医师，心理咨询师，医学心理学。<br>
 ☛☛完整排行榜见[心理健康](leaderboard/心理健康.md)<br>
 
-#### （1）MMCU心理
-完整排行榜见[MMCU心理](leaderboard/MMCU-心理.md)，☛查看[MMCU心理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=MMCU-心理)
+#### （1）心理综合
+完整排行榜见[心理综合](leaderboard/心理综合.md)，☛查看[MMCU心理：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=心理综合)
 <br>
 
 #### （2）心理治疗学主治医师
-完整排行榜见[心理治疗学主治医师](leaderboard/CMB-医师考试-中级职称-心理治疗学主治医师.md)，☛查看[心理治疗学主治医师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理治疗学主治医师)
+完整排行榜见[心理治疗学主治医师](leaderboard/心理治疗学主治医师考试.md)，☛查看[心理治疗学主治医师：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=心理治疗学主治医师考试)
 <br>
 
 #### （3）心理咨询师
-完整排行榜见[心理咨询师](leaderboard/CMB-医师考试-中级职称-心理咨询师.md)，☛查看[心理咨询师badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-医师考试-中级职称-心理咨询师)
+完整排行榜见[心理咨询师](leaderboard/心理咨询师考试.md)，☛查看[心理咨询师：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=心理咨询师考试)
 <br>
 
 #### （4）医学心理学
-完整排行榜见[医学心理学](leaderboard/CMB-专业知识考试-基础医学-医学心理学.md)，☛查看[医学心理学badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CMB-专业知识考试-基础医学-医学心理学)
+完整排行榜见[医学心理学](leaderboard/基础医学-医学心理学.md)，☛查看[医学心理学：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-医学心理学)
 <br><br><br>
 
 
@@ -877,7 +875,7 @@ DIY自定义维度筛选榜单：☛[link](https://easyllm.site/static/benchmark
 >   
 
 完整排行榜见[演绎推理](leaderboard/演绎推理.md)<br>
-☛查看[演绎推理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=dedReason)
+☛查看[演绎推理：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=演绎推理)
 <br><br><br>
 
 
@@ -892,7 +890,7 @@ B、吸收热量
 >      
 
 完整排行榜见[常识推理](leaderboard/常识推理.md)<br>
-☛查看[常识推理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=commonsense)
+☛查看[常识推理：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=常识推理)
 <br><br><br>
 
 
@@ -918,7 +916,7 @@ A:
 > 
 
 完整排行榜见[BBH](leaderboard/符号推理BBH.md)<br>
-☛查看[BBH符号推理badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=BBH)
+☛查看[BBH符号推理：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=BBH)
 <br><br><br>
 
 
@@ -926,8 +924,8 @@ A:
 考查大模型的数学基础能力之算数能力，测试题目为1000以内的整数加减法、不超过2位有效数字的浮点数加减乘除。
 举例：166 + 215 + 53 = ？，0.97 + 0.4 / 4.51 = ？
 
-完整排行榜见[arithmetic](leaderboard/arithmetic.md)<br>
-☛查看[算术能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=arithmetic)
+完整排行榜见[算术能力](leaderboard/算术能力.md)<br>
+☛查看[算术能力：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=算术能力)
 <br><br><br>
 
 
@@ -945,8 +943,8 @@ Antonio,36,男,西班牙,182,75,博士
 基于这个表格回答：学历最低的是哪国人？
 > 
 
-完整排行榜见[tableqa](leaderboard/表格问答.md)<br>
-☛查看[数据分析badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=tableqa)
+完整排行榜见[表格问答](leaderboard/表格问答.md)<br>
+☛查看[表格问答：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=表格问答)
 <br><br><br>
 
 
@@ -957,7 +955,7 @@ Antonio,36,男,西班牙,182,75,博士
 > 
 
 完整排行榜见[高中奥林匹克数学竞赛](leaderboard/Math24o.md)<br>
-☛查看[高中奥林匹克数学竞赛badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Math24o)
+☛查看[高中奥林匹克数学竞赛：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=Math24o)
 <br><br><br>
 
 
@@ -967,7 +965,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 ### 8.8 小学奥数
 完整排行榜见[小学奥数](leaderboard/小学奥数.md)<br>
-☛查看[小学奥数badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=小学奥数一年级)
+☛查看[小学奥数：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=小学奥数一年级)
 <br><br><br>
 
 
@@ -981,7 +979,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 ### 8.11 数独
 完整排行榜见[数独](leaderboard/数独.md)<br>
-☛查看[数独badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=数独入门)
+☛查看[数独：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=数独入门)
 <br><br><br>
 
 
@@ -1013,7 +1011,7 @@ Antonio,36,男,西班牙,182,75,博士
 > 
 
 完整排行榜见[成语理解](leaderboard/成语理解.md)<br>
-☛查看[成语理解badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=idiom)
+☛查看[成语理解：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=成语理解)
 <br><br><br>
 
 
@@ -1028,7 +1026,7 @@ Antonio,36,男,西班牙,182,75,博士
 >    
 
 完整排行榜见[情感分析](leaderboard/情感分析.md)<br>
-☛查看[情感分析badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=sentiment)
+☛查看[情感分析：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=情感分析)
 <br><br><br>
 
 
@@ -1045,17 +1043,17 @@ Antonio,36,男,西班牙,182,75,博士
 >   
 
 完整排行榜见[文本蕴含](leaderboard/文本蕴含.md)<br>
-☛查看[文本蕴含badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=textEntail)
+☛查看[文本蕴含：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=文本蕴含)
 <br><br><br>
 
 
-### 9.4 分类能力
+### 9.4 文本分类
 评测样本举例：
 > 将下列单词按词性分类。    
 > 狗，追，跑，大人，高兴，树
 
-完整排行榜见[classification](leaderboard/分类能力.md)<br>
-☛查看[分类能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=classification)
+完整排行榜见[文本分类](leaderboard/文本分类.md)<br>
+☛查看[文本分类：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=文本分类)
 <br><br><br>
 
 
@@ -1064,8 +1062,8 @@ Antonio,36,男,西班牙,182,75,博士
 > “中信银行3亿元，交通银行增长约2.7亿元，光大银行约1亿元。”    
 > 提取出以上文本中的所有组织机构名称
 
-完整排行榜见[extract](leaderboard/信息抽取.md)<br>
-☛查看[信息抽取能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=extract)
+完整排行榜见[信息抽取](leaderboard/信息抽取.md)<br>
+☛查看[信息抽取：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=信息抽取)
 <br><br><br>
 
 
@@ -1083,12 +1081,12 @@ Antonio,36,男,西班牙,182,75,博士
 基于以上对话回答：病人在检查中发现的牙齿问题有哪些？
 > 
 
-完整排行榜见[mrc](leaderboard/阅读理解.md)<br>
-☛查看[阅读理解能力badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=mrc)
+完整排行榜见[阅读理解](leaderboard/阅读理解.md)<br>
+☛查看[阅读理解：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=阅读理解)
 <br><br><br>
 
 
-### 9.7 代词理解CLUEWSC
+### 9.7 代词理解
 中文指代消解任务，参考[CLUEWSC2020](https://github.com/CLUEbenchmark/CLUEWSC2020)。
 评测样本举例：
 > 少平仍然不知道怎样给奶奶说清他姐夫的事，就只好随口说：“他犯了点错误，人家让他劳教！”  
@@ -1097,12 +1095,12 @@ Antonio,36,男,西班牙,182,75,博士
 (B)否      
 >    
 
-完整排行榜见[CLUEWSC](leaderboard/代词理解CLUEWSC.md)<br>
-☛查看[代词理解CLUEWSC badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CLUEWSC)
+完整排行榜见[代词理解](leaderboard/代词理解.md)<br>
+☛查看[代词理解：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=代词理解)
 <br><br><br>
 
 
-### 9.8 诗词匹配CCPM
+### 9.8 诗词匹配
 中国古典诗歌匹配，给定中国古典诗歌的现代问描述，要求从候选的四句诗中选出与现代文描述语义匹配的那一句。
 利用古典诗歌和现代文翻译的平行语料构建正确选项，并利用正确选项从古代诗歌语料库中利用相似检索构造出错误候选。
 参考[CCPM](https://github.com/THUNLP-AIPoet/CCPM)。
@@ -1115,8 +1113,8 @@ Antonio,36,男,西班牙,182,75,博士
 (D)残灯灭又明   
 >    
 
-完整排行榜见[CCPM](leaderboard/诗词匹配CCPM.md)<br>
-☛查看[诗词匹配CCPM badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=CCPM)
+完整排行榜见[诗词匹配](leaderboard/诗词匹配.md)<br>
+☛查看[诗词匹配：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=诗词匹配)
 <br><br><br>
 
 
@@ -1125,13 +1123,13 @@ Antonio,36,男,西班牙,182,75,博士
 ![lin](pic/IFEval.jpg)
 
 完整排行榜见[IFEval](leaderboard/中文指令遵从.md)<br>
-☛查看[中文指令遵从badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=IFEval-zh)
+☛查看[中文指令遵从：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=中文指令遵从)
 <br><br><br>
 
 
 ### 9.10 汉字字形
 完整排行榜见[汉字字形](leaderboard/汉字字形.md)<br>
-☛查看[汉字字形badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=汉字字形)
+☛查看[汉字字形：样本举例及badcase](http://easyllm.site/static/badcase/badcase-of-benchmark.html?benchmark=汉字字形)
 <br><br><br>
 
 
