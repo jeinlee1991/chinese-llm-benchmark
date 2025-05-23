@@ -90,7 +90,8 @@
 
 # 最近更新
 - [2025/5/23] v3.26版本
-  - 新增模型：Doubao-1.5-thinking-pro、gpt-4.1、gpt-4.1-mini、o4-mini，☛查看[模型完整信息](https://nonelinear.com/static/models.html)- [2025/5/18] v3.25版本
+  - 新增模型：Doubao-1.5-thinking-pro、gpt-4.1、gpt-4.1-mini、o4-mini，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+- [2025/5/18] v3.25版本
   - “高中学科”每个学科都新增评测样本并删除部分简单陈旧的样本，相关分数有所更新，详见[link](#34-高中学科)
   - “医疗”领域删除部分不良样本，相关分数有所更新，详见[link](#2医疗排行榜)
 - [2025/5/15] v3.24版本
