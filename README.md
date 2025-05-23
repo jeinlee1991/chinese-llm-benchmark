@@ -1,7 +1,7 @@
 
 # ReLE中文大模型能力评测（持续更新）
 - 原名CLiB，现已更名为ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM）
-- 目前已囊括233个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini-2.5、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括237个大模型，覆盖chatgpt、gpt-4o、o3-mini、谷歌gemini-2.5、Claude3.5、智谱GLM-Zero、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及DeepSeek-R1、qwq-32b、deepseek-v3、qwen3、llama4、phi-4、glm4、gemma3、mistral、书生internLM2.5等开源大模型。
 - 支持多维度能力评测，包括医疗、教育、金融、法律、行政公务、心理健康、推理与数学计算、语言与指令遵从等8个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型错题本**！方便广大社区研究分析、改进大模型。
@@ -89,11 +89,12 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
-- [2025/5/18] v3.25版本
+- [2025/5/23] v3.26版本
+  - 新增模型：Doubao-1.5-thinking-pro、gpt-4.1、gpt-4.1-mini、o4-mini，☛查看[模型完整信息](https://nonelinear.com/static/models.html)- [2025/5/18] v3.25版本
   - “高中学科”每个学科都新增评测样本并删除部分简单陈旧的样本，相关分数有所更新，详见[link](#34-高中学科)
   - “医疗”领域删除部分不良样本，相关分数有所更新，详见[link](#2医疗排行榜)
 - [2025/5/15] v3.24版本
-  - 新增模型：xunfei-spark-x1推理模型，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增模型：xunfei-spark-x1推理模型，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - “数独”新增评测样本并删除部分简单样本，相关分数有所更新，详见[link](#811-数独)
 - [2025/5/10] v3.23版本
   - “表格问答”新增评测样本并删除部分简单样本，相关分数有所更新，详见[link](#85-表格问答)
@@ -106,24 +107,24 @@
 - [2025/5/2] v3.21版本
   - 新增“数独”（推理与数学计算）排行榜，并计入总分，详见[link](#811-数独)
 - [2025/4/30] v3.20版本
-  - 新增8个qwen3系列模型：Qwen3-235B-A22B、Qwen3-32B、Qwen3-30B-A3B、Qwen3-14B、Qwen3-8B、Qwen3-4B、Qwen3-1.7B、Qwen3-0.6B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增8个qwen3系列模型：Qwen3-235B-A22B、Qwen3-32B、Qwen3-30B-A3B、Qwen3-14B、Qwen3-8B、Qwen3-4B、Qwen3-1.7B、Qwen3-0.6B，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/4/28] v3.19版本
-  - 新增10个模型：gemini-2.5-flash-preview-04-17、GLM-Z1-Flash、GLM-Z1-FlashX、GLM-Z1-Air、GLM-Z1-AirX、GLM-4-9B-0414、GLM-Z1-9B-0414、GLM-4-32B-0414、GLM-Z1-32B-0414、GLM-Z1-Rumination-32B-0414，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增10个模型：gemini-2.5-flash-preview-04-17、GLM-Z1-Flash、GLM-Z1-FlashX、GLM-Z1-Air、GLM-Z1-AirX、GLM-4-9B-0414、GLM-Z1-9B-0414、GLM-4-32B-0414、GLM-Z1-32B-0414、GLM-Z1-Rumination-32B-0414，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 删除陈旧的模型：GLM-Zero-Preview、Baichuan4、ERNIE-4.0、qwq-32b-preview、deepseek-chat-v3、step-1-flash、360gpt-pro、Mistral-7B-Instruct-v0.3
   - “小学奥数”评测集新增数据，各模型分数有所变化
 - [2025/4/22] v3.18版本
   - 新增“小学奥数”排行榜，并计入总分，gemini-2.5-pro以满分排第一，详见[link](#88-小学奥数)
 - [2025/4/17] v3.17版本
-  - 新增2个模型：Mistral-Small-3.1-24B-Instruct-2503、gemini-2.5-pro-preview-03-25，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增2个模型：Mistral-Small-3.1-24B-Instruct-2503、gemini-2.5-pro-preview-03-25，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 删除陈旧的模型：o1-mini、gemini-2.0-pro-exp-02-05
 - [2025/4/9] v3.16版本
-  - 新增3个模型：Llama-4-Scout-17B-16E-Instruct、Llama-4-Maverick-17B-128E-Instruct-FP8、ERNIE-X1-32K-Preview，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增3个模型：Llama-4-Scout-17B-16E-Instruct、Llama-4-Maverick-17B-128E-Instruct-FP8、ERNIE-X1-32K-Preview，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/4/5] v3.15版本
   - 金融领域新增多个评测维度，详见[link](#4金融排行榜)
   - 删除陈旧的模型：abab7-chat-preview、gemini-2.0-flash-exp、gemma-2-9b-it、gemma-2-27b-it、qwen2.5-math-72b-instruct、Mistral-Nemo-Instruct-2407、Llama-3.1-Nemotron-70B-Instruct-fp8
 - [2025/4/3] v3.14版本
   - 重新梳理医学及金融领域的细分评测维度
-  - 新增2个模型：hunyuan-t1-20250321、deepseek-chat-v3-0324，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增2个模型：hunyuan-t1-20250321、deepseek-chat-v3-0324，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/3/31] v3.13版本
   - 新增“医学综合考试”排行榜，并计入总分，详见[link](#214-医学综合考试)
 - [2025/3/29] v3.12版本
@@ -138,7 +139,7 @@
 - [2025/3/23] v3.9版本
   - 新增“专业知识考试/中医学与中药学”排行榜，并计入总分
   - “律师资格考试”排行榜新增“MMCU法律”子项
-  - 新增5个模型：hunyuan-turbos-20250313、gemma-3-1b-it、gemma-3-4b-it、gemma-3-12b-it、ERNIE-4.5-8K-Preview，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增5个模型：hunyuan-turbos-20250313、gemma-3-1b-it、gemma-3-4b-it、gemma-3-12b-it、ERNIE-4.5-8K-Preview，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/3/21] 发布v3.8版本评测榜单
   - 新增“专业知识考试/预防医学与公共卫生学”、“心理健康”排行榜，并计入总分
 - [2025/3/19] 发布v3.7版本评测榜单
@@ -146,14 +147,14 @@
   - 高考排行榜新增政治学科，并增加大量考题，更新所有相关分数
 - [2025/3/17] 发布v3.6版本评测榜单
   - 新增“专业知识考试/基础医学”排行榜（含病理生理学、医学心理学等17个方向），并计入总分，详见[link](#29-专业知识考试基础医学)
-  - 新增2个模型：谷歌gemma-3-27b-it、Mistral-Small-24B-Instruct-2501，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增2个模型：谷歌gemma-3-27b-it、Mistral-Small-24B-Instruct-2501，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/3/15] 发布v3.5版本评测榜单 
   - 新增“医技考试”排行榜（含医技士-康复医学治疗技术、医技师-肿瘤学技术等22个方向），并计入总分，详见[link](#28-医技考试)
 - [2025/3/13] 发布v3.4版本评测榜单
   - 新增“药师考试”排行榜（含执业西药师、执业中药师等8个方向），并计入总分，详见[link](#27-药师考试)
 - [2025/3/11] 发布v3.3版本评测榜单
   - 新增“护理考试”排行榜（含护士执业资格考试、护师资格考试等10个方向），并计入总分，详见[link](#26-护理考试)
-  - 新增6个模型：qwq-32b、qwq-plus-2025-03-05、step-2-mini、hunyuan-turbos-20250226、xunfei-spark-lite，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增6个模型：qwq-32b、qwq-plus-2025-03-05、step-2-mini、hunyuan-turbos-20250226、xunfei-spark-lite，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/3/10] 发布v3.2版本评测榜单
   - 新增“医师考试/高级职称”排行榜（含等消化内科高级职称、普通内科高级职称等8个方向），并计入总分，详见[link](#25-医师考试高级职称)
 - [2025/3/7] 发布v3.1版本评测榜单
@@ -171,20 +172,20 @@
   - 新增高中学科排行榜、初中学科排行榜、小学学科排行榜，并计入总分
   - 删除陈旧的模型：gpt-4o-2024-08-06、qwen-max-2024-09-19
 - [2025/2/22] 发布v2.19版本评测榜单
-  - 新增6个模型：kimi-latest-8k、SenseChat-5-beta、chatgpt-4o-latest、Doubao-1.5-pro-32k-250115、Doubao-1.5-lite-32k-250115、360zhinao2-o1，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增6个模型：kimi-latest-8k、SenseChat-5-beta、chatgpt-4o-latest、Doubao-1.5-pro-32k-250115、Doubao-1.5-lite-32k-250115、360zhinao2-o1，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 新增推理类大模型排行榜，详见[link](leaderboard/reasonmodel.md)
 - [2025/2/18] 发布v2.18版本评测榜单
-  - 新增2个模型：qwen2.5-max、gemini-2.0-flash-thinking-exp-01-21，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增2个模型：qwen2.5-max、gemini-2.0-flash-thinking-exp-01-21，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 新增演绎推理排行榜、C3中文阅读理解排行榜，并计入总分
 - [2025/2/14] 发布v2.17版本评测榜单
-  - 新增10个模型：GLM-Zero-Preview、MiniMax-Text-01、SenseChat-5-1202、SenseChat-Turbo-1202、GLM-4-FlashX、ERNIE-Lite-8K、ERNIE-Tiny-8K、ERNIE-Lite-Pro-128K、ERNIE-Speed-Pro-128K、qwen2.5-math-72b-instruct，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增10个模型：GLM-Zero-Preview、MiniMax-Text-01、SenseChat-5-1202、SenseChat-Turbo-1202、GLM-4-FlashX、ERNIE-Lite-8K、ERNIE-Tiny-8K、ERNIE-Lite-Pro-128K、ERNIE-Speed-Pro-128K、qwen2.5-math-72b-instruct，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 删除陈旧的模型：GLM4、gemini-1.0-pro、Llama-3.1-70B-Instruct、Meta-Llama-3.1-70B-Instruct-fp8
 - [2025/2/13] 发布v2.16版本评测榜单
-  - 新增6个模型：qwq-32b-preview、o1-mini、o3-mini、gemini-2.0-pro-exp-02-05、gemini-2.0-flash-lite-preview-02-05、gemini-2.0-flash-001，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增6个模型：qwq-32b-preview、o1-mini、o3-mini、gemini-2.0-pro-exp-02-05、gemini-2.0-flash-lite-preview-02-05、gemini-2.0-flash-001，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/2/12] 发布v2.15版本评测榜单
   - 新增成语理解排行榜、情感分析排行榜，并计入总分
 - [2025/2/10] 发布v2.14版本评测榜单
-  - 新增7个模型：DeepSeek-R1、DeepSeek-R1-Distill-Qwen-1.5B、DeepSeek-R1-Distill-Qwen-7B、DeepSeek-R1-Distill-Llama-8B、DeepSeek-R1-Distill-Qwen-14B、DeepSeek-R1-Distill-Qwen-32B、DeepSeek-R1-Distill-Llama-70B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增7个模型：DeepSeek-R1、DeepSeek-R1-Distill-Qwen-1.5B、DeepSeek-R1-Distill-Qwen-7B、DeepSeek-R1-Distill-Llama-8B、DeepSeek-R1-Distill-Qwen-14B、DeepSeek-R1-Distill-Qwen-32B、DeepSeek-R1-Distill-Llama-70B，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/1/29] 发布v2.13版本评测榜单
   - 新增常识推理排行榜、文本蕴含（语言理解）排行榜，并计入总分
   - 阅读理解评测样本增加至600多个，并更新各模型评分
@@ -192,20 +193,20 @@
   - 新增高考榜单及各学科细分榜单（生物、化学、语文、地理、历史、数学、物理），并以各科平均分（100分制）计入总分
 - [2025/1/23] 发布v2.11版本评测榜单
   - 公务员考试kaogong、律师资格考试JEC-QA开始计入总分
-  - 新增4个模型：mistral-small、Hermes-3-Llama-3.1-405B、mistral-large、360gpt2-o1，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增4个模型：mistral-small、Hermes-3-Llama-3.1-405B、mistral-large、360gpt2-o1，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/1/22] 发布v2.10版本评测榜单
   - 新增律师资格考试JEC-QA榜单，暂不计入总分
-  - 新增7个模型：ministral-3b、Mistral-7B-Instruct-v0.3、Mistral-Nemo-Instruct-2407、ministral-8b、Mixtral-8x7B-Instruct-v0.1、Llama-3.1-Nemotron-70B-Instruct-fp8、WizardLM-2-8x22B，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增7个模型：ministral-3b、Mistral-7B-Instruct-v0.3、Mistral-Nemo-Instruct-2407、ministral-8b、Mixtral-8x7B-Instruct-v0.1、Llama-3.1-Nemotron-70B-Instruct-fp8、WizardLM-2-8x22B，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/1/20] 发布v2.9版本评测榜单
   - 新增公务员考试kaogong榜单，暂不计入总分
-  - 新增5个模型：Llama-3.2-1B-Instruct、Llama-3.2-3B-Instruct、Llama-3.1-8B-Instruct-fp8、Llama-3.3-70B-Instruct-fp8、Llama-3.1-70B-Instruct-fp8，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增5个模型：Llama-3.2-1B-Instruct、Llama-3.2-3B-Instruct、Llama-3.1-8B-Instruct-fp8、Llama-3.3-70B-Instruct-fp8、Llama-3.1-70B-Instruct-fp8，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/1/17] 发布v2.8版本评测榜单
-  - 新增9个模型：gemini-2.0-flash-exp、phi-4、gemini-1.5-flash-8b、360gpt-turbo、step-1-flash、Llama-3.3-70B-Instruct、360gpt-pro、360gpt2-pro、step-1-8k，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增9个模型：gemini-2.0-flash-exp、phi-4、gemini-1.5-flash-8b、360gpt-turbo、step-1-flash、Llama-3.3-70B-Instruct、360gpt-pro、360gpt2-pro、step-1-8k，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 新增o1-mini、o1-preview的初中数学成绩
   - 删除陈旧的模型：abab5.5-chat、abab5.5s-chat
 - [2025/1/7] 发布v2.7版本评测榜单
   - 新增代词理解榜单（比如“他”是指谁）、诗词匹配榜单
-  - 新增5个模型：Claude-3.5-Sonnet、gemma-2-27b-it、Llama-3.1-405B-Instruct、Baichuan4-Air、Baichuan4-Turbo，☛查看[模型完整信息](https://easyllm.site/static/models.html)
+  - 新增5个模型：Claude-3.5-Sonnet、gemma-2-27b-it、Llama-3.1-405B-Instruct、Baichuan4-Air、Baichuan4-Turbo，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 删除陈旧的模型：Baichuan3-Turbo、qwen2-72b-instruct、Qwen2-7B-Instruct、qwen2-1.5b-instruct、qwen2-0.5b-instruct、qwen2-57b-a14b-instruct
 - [2024/12/28]v2.6版本, [2024/12/27]v2.5版本, [2024/12/25]v2.4版本, [2024/10/20]v2.3版本，[2024/9/29]v2.2版本，[2024/8/27]v2.1版本，[2024/8/7]v2.0版本，[2024/7/26]v1.21版本，[2024/7/15]v1.20版本，[2024/6/29]v1.19版本，[2024/6/2]v1.18版本，[2024/5/8]v1.17版本，[2024/4/13]v1.16版本，[2024/3/20]v1.15版本，[2024/2/28]v1.14版本，[2024/1/29]v1.13版本
 - 2023年：[2023/12/10]v1.12版本，[2023/11/22]v1.11版本，[2023/11/5]v1.10版本，[2023/10/11]v1.9版本，[2023/9/13]v1.8版本，[2023/8/29]v1.7版本，[2023/8/13]v1.6版本，[2023/7/26]v1.5版本， [2023/7/18]v1.4版本， [2023/7/2]v1.3版本， [2023/6/17]v1.2版， [2023/6/10]v1.1版本， [2023/6/4]v1版本
@@ -219,22 +220,22 @@
 - 加入更多评测数据，使得评测得分越来越有说服力
 
 # 大模型基本信息
-详见[模型列表](https://easyllm.site/static/models.html)
+详见[模型列表](https://nonelinear.com/static/models.html)
 <br><br>
 
 # 📊 排行榜
 ## 1、综合能力排行榜
 综合能力得分为医疗、教育、金融、法律、行政公务、心理健康、推理与数学计算、语言与指令遵从等8个领域得分的平均值。
-![lin](pic/总分.png)    
+![link](pic/总分.png)    
 详细数据见[total](leaderboard/总分.md)<br>
 
 #### 1.1、推理类模型排行榜
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|hunyuan-turbos-20250226☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2元|81.2| |        91.0|86.0|85.2|82.6|        78.1|78.2|        64.8|83.9|
-|2|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16元|79.8| |        82.3|88.0|82.9|73.8|        83.0|61.5|        83.2|83.5|
-|3|Qwen3-235B-A22B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40元|79.4| |        81.3|89.7|78.1|70.0|        90.0|62.5|        83.7|79.8|
+|1|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.5| |        88.0|92.6|83.9|83.3|        80.0|71.2|        86.7|82.0|
+|2|hunyuan-turbos-20250226☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2.0元|81.2| |        91.0|86.0|85.2|82.6|        78.1|78.2|        64.8|83.9|
+|3|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|79.8| |        82.3|88.0|82.9|73.8|        83.0|61.5|        83.2|83.5|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -244,9 +245,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-235B-A22B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40元|79.4| |        81.3|89.7|78.1|70.0|        90.0|62.5|        83.7|79.8|
-|2|gemini-2.5-pro-preview-03-25(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Google|72.5元|75.1| |        79.6|84.1|72.3|53.3|        90.0|52.5|        86.7|82.6|
-|3|xunfei-4.0Ultra☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|70元|70.8| |        80.2|79.3|75.2|64.0|        68.7|61.2|        60.0|77.4|
+|1|Qwen3-235B-A22B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|79.4| |        81.3|89.7|78.1|70.0|        90.0|62.5|        83.7|79.8|
+|2|gemini-2.5-pro-preview-03-25☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Google|72.5元|75.1| |        79.6|84.1|72.3|53.3|        90.0|52.5|        86.7|82.6|
+|3|xunfei-4.0Ultra☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|70.8| |        80.2|79.3|75.2|64.0|        68.7|61.2|        60.0|77.4|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -255,9 +256,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-4.5-8K-Preview☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|16元|85.1| |        93.7|85.4|85.2|90.6|        87.0|75.2|        78.5|85.0|
-|2|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16元|79.8| |        82.3|88.0|82.9|73.8|        83.0|61.5|        83.2|83.5|
-|3|ERNIE-X1-32K-Preview☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|8元|78.8| |        80.8|86.9|80.2|77.8|        80.0|66.7|        75.2|82.7|
+|1|ERNIE-4.5-8K-Preview☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|16.0元|85.1| |        93.7|85.4|85.2|90.6|        87.0|75.2|        78.5|85.0|
+|2|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.5| |        88.0|92.6|83.9|83.3|        80.0|71.2|        86.7|82.0|
+|3|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|79.8| |        82.3|88.0|82.9|73.8|        83.0|61.5|        83.2|83.5|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -266,9 +267,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|hunyuan-turbos-20250226☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2元|81.2| |        91.0|86.0|85.2|82.6|        78.1|78.2|        64.8|83.9|
-|2|Doubao-1.5-pro-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|2元|79.2| |        87.9|87.2|84.2|71.2|        78.5|74.4|        66.6|83.8|
-|3|hunyuan-turbos-20250313☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2元|78.3| |        86.9|85.4|80.5|72.4|        80.0|72.9|        66.1|82.7|
+|1|hunyuan-turbos-20250226☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2.0元|81.2| |        91.0|86.0|85.2|82.6|        78.1|78.2|        64.8|83.9|
+|2|Doubao-1.5-pro-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|2.0元|79.2| |        87.9|87.2|84.2|71.2|        78.5|74.4|        66.6|83.8|
+|3|hunyuan-turbos-20250313☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2.0元|78.3| |        86.9|85.4|80.5|72.4|        80.0|72.9|        66.1|82.7|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -292,8 +293,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-4B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3元|65.4| |        65.0|77.6|70.2|44.4|        60.0|55.8|        73.8|76.0|
-|2|Qwen3-1.7B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3元|56.0| |        49.1|62.9|60.2|34.5|        50.0|50.0|        68.5|73.1|
+|1|Qwen3-4B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|65.4| |        65.0|77.6|70.2|44.4|        60.0|55.8|        73.8|76.0|
+|2|Qwen3-1.7B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|56.0| |        49.1|62.9|60.2|34.5|        50.0|50.0|        68.5|73.1|
 |3|qwen2.5-3b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|47.0| |        52.2|55.8|53.8|26.9|        42.0|43.8|        39.6|62.4|
     
    
@@ -303,8 +304,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-14B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10元|74.5| |        77.7|81.6|79.6|62.2|        73.3|63.4|        79.7|78.6|
-|2|Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|5元|68.7| |        72.1|77.1|74.0|54.4|        53.3|65.8|        74.4|78.8|
+|1|Qwen3-14B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|74.5| |        77.7|81.6|79.6|62.2|        73.3|63.4|        79.7|78.6|
+|2|Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|5.0元|68.7| |        72.1|77.1|74.0|54.4|        53.3|65.8|        74.4|78.8|
 |3|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.7元|63.4| |        61.2|76.4|67.5|40.2|        66.5|55.6|        67.2|72.7|
     
    
@@ -314,9 +315,9 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16元|79.8| |        82.3|88.0|82.9|73.8|        83.0|61.5|        83.2|83.5|
-|2|Qwen3-235B-A22B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40元|79.4| |        81.3|89.7|78.1|70.0|        90.0|62.5|        83.7|79.8|
-|3|hunyuan-large☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|12元|77.5| |        90.0|81.3|84.6|82.4|        70.4|73.2|        60.0|78.0|
+|1|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|79.8| |        82.3|88.0|82.9|73.8|        83.0|61.5|        83.2|83.5|
+|2|Qwen3-235B-A22B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|79.4| |        81.3|89.7|78.1|70.0|        90.0|62.5|        83.7|79.8|
+|3|hunyuan-large☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|12.0元|77.5| |        90.0|81.3|84.6|82.4|        70.4|73.2|        60.0|78.0|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -333,6 +334,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 ☛☛完整排行榜见[医师](leaderboard/医师.md)<br>
 （1）内科
 <br>☛☛完整排行榜见[内科](leaderboard/内科.md)<br>
+
  - 内科规培结业：[排行榜](leaderboard/规培结业-内科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-内科)
  - 中医内科主治医师：[排行榜](leaderboard/中医内科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=中医内科主治医师)
  - 内科主治医师：[排行榜](leaderboard/内科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=内科主治医师)
@@ -350,6 +352,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （2）外科
 <br>☛☛完整排行榜见[外科](leaderboard/外科.md)<br>
+
  - 外科规培结业：[排行榜](leaderboard/规培结业-外科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-外科)
  - 口腔颌面外科主治医师：[排行榜](leaderboard/口腔颌面外科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=口腔颌面外科主治医师)
  - 整形外科主治医师：[排行榜](leaderboard/整形外科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=整形外科主治医师)
@@ -362,6 +365,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （3）妇产科
 <br>☛☛完整排行榜见[妇产科](leaderboard/妇产科.md)<br>
+
  - 妇产科规培结业：[排行榜](leaderboard/规培结业-妇产科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-妇产科)
  - 妇产科主治医师：[排行榜](leaderboard/妇产科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=妇产科主治医师)
  - 妇产科学副主任、主任医师职称考试：[排行榜](leaderboard/妇产科学副主任、主任医师职称考试.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=妇产科学副主任、主任医师职称考试)
@@ -369,6 +373,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （4）儿科
 <br>☛☛完整排行榜见[儿科](leaderboard/儿科.md)<br>
+
  - 儿科规培结业：[排行榜](leaderboard/规培结业-儿科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-儿科)
  - 儿科主治医师：[排行榜](leaderboard/儿科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=儿科主治医师)
  - 小儿外科：[排行榜](leaderboard/规培结业-小儿外科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-小儿外科) 
@@ -376,12 +381,14 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （5）眼科
 <br>☛☛完整排行榜见[眼科](leaderboard/眼科.md)<br>
+
  - 眼科规培结业：[排行榜](leaderboard/规培结业-眼科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-眼科)
  - 眼科主治医师：[排行榜](leaderboard/眼科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=眼科主治医师)
 <br>
 
 （6）口腔科
 <br>☛☛完整排行榜见[口腔科](leaderboard/口腔科.md)<br>
+
  - 口腔科规培结业：[排行榜](leaderboard/规培结业-口腔科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-口腔科)
  - 口腔执业助理医师：[排行榜](leaderboard/口腔执业助理医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=口腔执业助理医师)
  - 口腔执业医师：[排行榜](leaderboard/口腔执业医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=口腔执业医师)
@@ -393,12 +400,14 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （7）耳鼻咽喉科
 <br>☛☛完整排行榜见[耳鼻咽喉科](leaderboard/耳鼻咽喉科.md)<br>
+
  - 耳鼻咽喉科规培结业：[排行榜](leaderboard/规培结业-耳鼻咽喉科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-耳鼻咽喉科)
  - 耳鼻咽喉科主治医师：[排行榜](leaderboard/耳鼻咽喉科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=耳鼻咽喉科主治医师)
 <br>
 
 （8）脑系科
 <br>☛☛完整排行榜见[脑系科](leaderboard/脑系科.md)<br>
+
  - 神经内科规培结业：[排行榜](leaderboard/规培结业-神经内科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-神经内科)
  - 神经内科主治医师：[排行榜](leaderboard/神经内科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=神经内科主治医师)
  - 精神科规培结业：[排行榜](leaderboard/规培结业-精神科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-精神科)
@@ -409,6 +418,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （9）皮肤科
 <br>☛☛完整排行榜见[皮肤科](leaderboard/皮肤科.md)<br>
+
  - 皮肤科规培结业：[排行榜](leaderboard/规培结业-皮肤科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-皮肤科)
  - 皮肤科中级职称：[排行榜](leaderboard/皮肤科中级职称.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=皮肤科中级职称)
  - 皮肤与性病学主治医师：[排行榜](leaderboard/皮肤与性病学主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=皮肤与性病学主治医师)
@@ -416,6 +426,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （10）中医与中西医结合
 <br>☛☛完整排行榜见[中医与中西医结合](leaderboard/中医与中西医结合.md)<br>
+
  - 中西医结合执业助理医师：[排行榜](leaderboard/中西医结合执业助理医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=中西医结合执业助理医师)
  - 中医执业助理医师：[排行榜](leaderboard/中医执业助理医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=中医执业助理医师)
  - 中西医结合执业医师：[排行榜](leaderboard/中西医结合执业医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=中西医结合执业医师)
@@ -425,18 +436,21 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （11）康复医学科
 <br>☛☛完整排行榜见[康复医学科](leaderboard/康复医学科.md)<br>
+
  - 康复医学科规培结业：[排行榜](leaderboard/规培结业-康复医学科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-康复医学科)
  - 康复医学主治医师：[排行榜](leaderboard/康复医学主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=康复医学主治医师)
 <br>
 
 （12）全科医学科
 <br>☛☛完整排行榜见[全科医学科](leaderboard/全科医学科.md)<br>
+
  - 全科医学科规培结业：[排行榜](leaderboard/规培结业-全科医学科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-全科医学科)
  - 全科主治医师：[排行榜](leaderboard/全科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=全科主治医师)
 <br>
 
 （13）临床营养与重症医学      
-<br>☛☛完整排行榜见[临床营养与重症医学](leaderboard/临床营养与重症医学.md)<br>   
+<br>☛☛完整排行榜见[临床营养与重症医学](leaderboard/临床营养与重症医学.md)<br> 
+  
  - 临床执业助理医师：[排行榜](leaderboard/临床执业助理医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=临床执业助理医师)
  - 临床执业医师：[排行榜](leaderboard/临床执业医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=临床执业医师)
  - 风湿与临床免疫主治医师：[排行榜](leaderboard/风湿与临床免疫主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=风湿与临床免疫主治医师)
@@ -446,12 +460,14 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br>
 
 （14）肿瘤科
-<br>☛☛完整排行榜见[肿瘤科](leaderboard/肿瘤科.md)<br>  
+<br>☛☛完整排行榜见[肿瘤科](leaderboard/肿瘤科.md)<br>
+  
  - 肿瘤学主治医师：[排行榜](leaderboard/肿瘤学主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=肿瘤学主治医师)
 <br>
 
 （15）麻醉疼痛科
 <br>☛☛完整排行榜见[麻醉疼痛科](leaderboard/麻醉疼痛科.md)<br>  
+
  - 麻醉科规培结业：[排行榜](leaderboard/规培结业-麻醉科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-麻醉科)
  - 麻醉科主治医师：[排行榜](leaderboard/麻醉科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=麻醉科主治医师)
  - 疼痛科主治医师：[排行榜](leaderboard/疼痛科主治医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=疼痛科主治医师)
@@ -459,6 +475,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （16）公共卫生与职业病
 <br>☛☛完整排行榜见[公共卫生与职业病](leaderboard/公共卫生与职业病.md)<br> 
+
  - 公共卫生执业助理医师：[排行榜](leaderboard/公共卫生执业助理医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=公共卫生执业助理医师)
  - 公共卫生执业医师：[排行榜](leaderboard/公共卫生执业医师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=公共卫生执业医师)
  - 医院感染中级职称：[排行榜](leaderboard/医院感染中级职称.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=医院感染中级职称)
@@ -573,6 +590,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （2）临床医学
 <br>☛☛完整排行榜见[临床医学](leaderboard/临床医学.md)<br>
+
  - 临床医学：[排行榜](leaderboard/临床医学综合.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=临床医学综合)
  - 医学影像学：[排行榜](leaderboard/临床医学-医学影像学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-医学影像学)
  - 放射学：[排行榜](leaderboard/临床医学-放射学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=临床医学-放射学)
@@ -602,6 +620,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 （3）预防医学与公共卫生学
 <br>☛☛完整排行榜见[预防医学与公共卫生学](leaderboard/预防医学与公共卫生学.md)<br>
+
  - 预防医学：[排行榜](leaderboard/预防医学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=预防医学)
  - 卫生学：[排行榜](leaderboard/卫生学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=卫生学)
  - 医学伦理学：[排行榜](leaderboard/医学伦理学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=医学伦理学)
@@ -715,6 +734,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 ### 4.1 财务
 ☛☛完整排行榜见[财务](leaderboard/财务.md)<br>
+
  - 初级会计职称：[排行榜](leaderboard/初级会计职称.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=初级会计职称)
  - 注册会计师：[排行榜](leaderboard/注册会计师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=注册会计师)
  - 会计从业资格：[排行榜](leaderboard/会计从业资格.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=会计从业资格)
@@ -724,21 +744,25 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 ### 4.2 银行
 ☛☛完整排行榜见[银行](leaderboard/银行.md)<br>
+
  - 银行初级资格：[排行榜](leaderboard/银行初级资格.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=银行初级资格)
  - 银从中级资格：[排行榜](leaderboard/银从中级资格.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=银从中级资格)
  - 银行从业资格：[排行榜](leaderboard/银行从业资格.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=银行从业资格)
 
 ### 4.3 保险
 ☛☛完整排行榜见[保险](leaderboard/保险.md)<br>
+
  - 保险从业资格：[排行榜](leaderboard/保险从业资格.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=保险从业资格)
 
 ### 4.4 证券
 ☛☛完整排行榜见[证券](leaderboard/证券.md)<br>
+
  - 证券专项考试：[排行榜](leaderboard/证券专项考试.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=证券专项考试)
  - 证券从业资格：[排行榜](leaderboard/证券从业资格.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=证券从业资格)
 
 ### 4.5 其他金融资格考试
 ☛☛完整排行榜见[其他金融资格考试](leaderboard/其他金融资格考试.md)<br>
+
  - 初级经济师：[排行榜](leaderboard/初级经济师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=初级经济师)
  - 中级经济师：[排行榜](leaderboard/中级经济师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=中级经济师)
  - 反假货币知识：[排行榜](leaderboard/反假货币知识.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=反假货币知识)
@@ -750,6 +774,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 ### 4.6 金融基础知识
 ☛☛完整排行榜见[金融基础知识](leaderboard/金融基础知识.md)<br>
+
  - 金融学：[排行榜](leaderboard/金融学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=金融学)
  - 公司战略与风险管理：[排行榜](leaderboard/公司战略与风险管理.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=公司战略与风险管理)
  - 宏观经济学：[排行榜](leaderboard/宏观经济学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=宏观经济学)
@@ -778,6 +803,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 ### 4.7 金融应用
 ☛☛完整排行榜见[金融应用](leaderboard/金融应用.md)<br>
+
  - 保险知识解读：[排行榜](leaderboard/保险知识解读.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=保险知识解读)
  - 金融术语解释：[排行榜](leaderboard/金融术语解释.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=金融术语解释)
  - 执业医师资格考试：[排行榜](leaderboard/金融知识-执业医师资格考试.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=金融知识-执业医师资格考试)
@@ -902,7 +928,7 @@ B、吸收热量
 
 
 ### 8.3 符号推理BBH
-学术界最常用的符号推理评测集，包含23个子任务，详细介绍见[BBH](https://easyllm.site/static/benchmarks.html)。
+学术界最常用的符号推理评测集，包含23个子任务，详细介绍见[BBH](https://nonelinear.com/static/benchmarks.html)。
 评测样本举例：
 > Task description: Answer questions about which times certain events could have occurred.  
 Q: Today, Emily went to the museum. Between what times could they have gone?   
