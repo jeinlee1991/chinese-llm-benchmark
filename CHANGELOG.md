@@ -1,4 +1,8 @@
 ## 最近更新
+- [2025/6/9] v3.29版本
+  - 教育“高中学科”各学科增加简单题、填空题，相关分数有所更新，详见[link](#34-高中学科)
+  - 新增模型：claude-4-sonnet、claude-4-sonnet-thinking，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 删除陈旧的模型：DeepSeek-R1-Distill-Qwen-1.5B、gemini-2.0-flash-001、internlm2_5-20b-chat、ERNIE-4.0-Turbo-8K、ERNIE-X1-32K-Preview、glm-4-9b-chat、abab6.5s-chat、o3-mini
 - [2025/6/4] v3.28版本
   - 教育“初中学科”每个学科都新增评测样本并删除部分简单陈旧的样本，相关分数有所更新，详见[link](#32-初中学科)
   - 新增模型：DeepSeek-R1-0528、DeepSeek-R1-0528-Qwen3-8B、ERNIE-4.5-Turbo-32K、ERNIE-X1-Turbo-32K、gemini-2.5-flash-preview-05-20、gemini-2.5-pro-preview-05-06

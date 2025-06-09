@@ -89,6 +89,10 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/6/9] v3.29版本
+  - 教育“高中学科”各学科增加简单题、填空题，相关分数有所更新，详见[link](#34-高中学科)
+  - 新增模型：claude-4-sonnet、claude-4-sonnet-thinking，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 删除陈旧的模型：DeepSeek-R1-Distill-Qwen-1.5B、gemini-2.0-flash-001、internlm2_5-20b-chat、ERNIE-4.0-Turbo-8K、ERNIE-X1-32K-Preview、glm-4-9b-chat、abab6.5s-chat、o3-mini
 - [2025/6/4] v3.28版本
   - 教育“初中学科”每个学科都新增评测样本并删除部分简单陈旧的样本，相关分数有所更新，详见[link](#32-初中学科)
   - 新增模型：DeepSeek-R1-0528、DeepSeek-R1-0528-Qwen3-8B、ERNIE-4.5-Turbo-32K、ERNIE-X1-Turbo-32K、gemini-2.5-flash-preview-05-20、gemini-2.5-pro-preview-05-06，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
@@ -239,8 +243,8 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-X1-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|83.8| |        82.8|87.0|83.0|81.1|        96.7|75.0|        79.7|85.2|
-|2|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.6| |        88.0|92.1|83.9|83.3|        80.0|71.2|        88.1|81.9|
+|1|ERNIE-X1-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|83.8| |        82.8|87.3|83.0|81.1|        96.7|75.0|        79.7|85.2|
+|2|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.5| |        88.0|91.5|83.9|83.3|        80.0|71.2|        88.1|81.9|
 |3|hunyuan-turbos-20250226☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2.0元|82.2| |        91.0|84.5|85.3|82.6|        79.8|86.5|        64.8|83.0|
     
 
@@ -251,8 +255,8 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-235B-A22B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|78.8| |        81.3|89.3|78.1|70.0|        90.0|58.2|        83.7|79.9|
-|2|gemini-2.5-pro-preview-05-06(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|75.6| |        76.8|86.5|73.1|53.3|        90.0|56.2|        89.0|79.8|
+|1|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|78.8| |        81.3|89.1|78.1|70.0|        90.0|58.2|        83.7|79.9|
+|2|gemini-2.5-pro-preview-05-06(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|75.6| |        76.8|86.2|73.1|53.3|        90.0|56.2|        89.0|79.8|
 |3|gemini-2.5-pro-preview-03-25☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Google|72.5元|73.9| |        79.6|82.3|72.3|53.3|        90.0|46.1|        86.7|80.6|
     
   
@@ -263,7 +267,7 @@
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
 |1|ERNIE-4.5-8K-Preview☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|16.0元|85.9| |        93.7|83.7|85.2|90.6|        88.8|82.5|        78.5|84.2|
-|2|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.6| |        88.0|92.1|83.9|83.3|        80.0|71.2|        88.1|81.9|
+|2|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.5| |        88.0|91.5|83.9|83.3|        80.0|71.2|        88.1|81.9|
 |3|DeepSeek-R1-0528(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.7| |        80.7|84.5|78.0|72.2|        96.7|70.8|        87.7|82.9|
     
    
@@ -273,8 +277,8 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-4.5-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|84.1| |        91.2|89.2|86.7|88.7|        74.0|80.5|        77.0|85.4|
-|2|ERNIE-X1-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|83.8| |        82.8|87.0|83.0|81.1|        96.7|75.0|        79.7|85.2|
+|1|ERNIE-4.5-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|84.1| |        91.2|89.1|86.7|88.7|        74.0|80.5|        77.0|85.4|
+|2|ERNIE-X1-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|83.8| |        82.8|87.3|83.0|81.1|        96.7|75.0|        79.7|85.2|
 |3|hunyuan-turbos-20250226☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2.0元|82.2| |        91.0|84.5|85.3|82.6|        79.8|86.5|        64.8|83.0|
     
   
@@ -284,9 +288,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|72.2| |        83.1|81.3|78.2|61.6|        67.5|64.6|        65.0|76.2|
-|2|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|69.0| |        71.6|74.1|71.4|52.0|        77.6|65.6|        63.8|76.0|
-|3|DeepSeek-R1-0528-Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|66.1| |        64.3|73.4|65.1|50.0|        76.7|57.9|        65.3|76.2|
+|1|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|72.2| |        83.1|81.2|78.2|61.6|        67.5|64.6|        65.0|76.2|
+|2|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|70.7| |        71.6|87.6|71.4|52.0|        77.6|65.6|        63.8|76.0|
+|3|DeepSeek-R1-0528-Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|66.1| |        64.3|73.3|65.1|50.0|        76.7|57.9|        65.3|76.2|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -299,9 +303,9 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-4B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|66.2| |        65.0|74.5|70.2|44.4|        60.0|65.2|        73.8|76.8|
-|2|Qwen3-1.7B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|57.4| |        49.1|60.9|60.2|34.5|        50.0|63.2|        68.5|73.1|
-|3|qwen2.5-3b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|48.6| |        52.2|52.4|53.8|26.9|        42.5|59.5|        39.6|62.1|
+|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|66.2| |        65.0|74.4|70.2|44.4|        60.0|65.2|        73.8|76.8|
+|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|57.4| |        49.1|60.9|60.2|34.5|        50.0|63.2|        68.5|73.1|
+|3|qwen2.5-3b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|48.6| |        52.2|52.2|53.8|26.9|        42.5|59.5|        39.6|62.1|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -310,9 +314,9 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-14B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|75.0| |        77.7|80.2|79.6|62.2|        73.3|68.8|        79.7|78.8|
-|2|Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|5.0元|69.2| |        72.1|74.1|74.0|54.4|        53.3|71.8|        74.4|79.2|
-|3|DeepSeek-R1-0528-Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|66.1| |        64.3|73.4|65.1|50.0|        76.7|57.9|        65.3|76.2|
+|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|75.0| |        77.7|80.2|79.6|62.2|        73.3|68.8|        79.7|78.8|
+|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|5.0元|69.2| |        72.1|74.1|74.0|54.4|        53.3|71.8|        74.4|79.2|
+|3|DeepSeek-R1-0528-Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|66.1| |        64.3|73.3|65.1|50.0|        76.7|57.9|        65.3|76.2|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -322,8 +326,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
 |1|DeepSeek-R1-0528(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.7| |        80.7|84.5|78.0|72.2|        96.7|70.8|        87.7|82.9|
-|2|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|80.9| |        82.3|86.1|82.9|73.8|        84.7|70.8|        83.2|83.4|
-|3|Qwen3-235B-A22B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|78.8| |        81.3|89.3|78.1|70.0|        90.0|58.2|        83.7|79.9|
+|2|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|80.9| |        82.3|86.0|82.9|73.8|        84.7|70.8|        83.2|83.4|
+|3|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|40.0元|78.8| |        81.3|89.1|78.1|70.0|        90.0|58.2|        83.7|79.9|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
