@@ -1,4 +1,9 @@
 ## 最近更新
+- [2025/6/13] v3.30版本
+  - “语言与指令遵从”剔除一些有歧义或不良的样本，相关分数有所更新
+  - 新增模型：step-r1-v-mini、hunyuan-turbos-20250604、hunyuan-t1-20250529
+  - 更新模型：GLM-Z1-FlashX、GLM-4-AirX、GLM-4-Air、GLM-4-Long，相关分数有所更新
+  - 删除陈旧的模型：hunyuan-turbos-20250226、ERNIE-4.5-8K-Preview、Claude-3.5-Sonnet、ERNIE-Speed-Pro-128K、ERNIE-Lite-Pro-128K
 - [2025/6/9] v3.29版本
   - 教育“高中学科”各学科增加简单题、填空题，相关分数有所更新，详见[link](#34-高中学科)
   - 新增模型：claude-4-sonnet、claude-4-sonnet-thinking，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
