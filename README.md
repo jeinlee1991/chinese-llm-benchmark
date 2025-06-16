@@ -89,9 +89,13 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/6/16] v3.31版本
+  - “高考”新增2025年各省各学科高考真题，**Doubao-1.5-thinking-pro数学第一，准确率92%；DeepSeek-R1-0528未进前五，准确率仅87%**，详见[link](#35-高考)
+  - 教育“初中学科”各学科增加简单题、填空题，相关分数有所更新，详见[link](#32-初中学科)
+  - 更新模型：GLM-4-Plus，相关分数有所更新
 - [2025/6/13] v3.30版本
   - “语言与指令遵从”剔除一些有歧义或不良的样本，相关分数有所更新
-  - 新增模型：step-r1-v-mini、hunyuan-turbos-20250604、hunyuan-t1-20250529
+  - 新增模型：step-r1-v-mini、hunyuan-turbos-20250604、hunyuan-t1-20250529，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 更新模型：GLM-Z1-FlashX、GLM-4-AirX、GLM-4-Air、GLM-4-Long，相关分数有所更新
   - 删除陈旧的模型：hunyuan-turbos-20250226、ERNIE-4.5-8K-Preview、Claude-3.5-Sonnet、ERNIE-Speed-Pro-128K、ERNIE-Lite-Pro-128K
 - [2025/6/9] v3.29版本
@@ -249,9 +253,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-X1-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|84.1| |        82.8|87.3|83.0|81.1|        96.7|75.0|        79.7|87.5|
-|2|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.9| |        88.0|91.5|83.9|83.3|        80.0|71.2|        88.1|84.8|
-|3|DeepSeek-R1-0528(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|82.2| |        80.7|84.5|78.0|72.2|        96.7|70.8|        87.7|86.8|
+|1|ERNIE-X1-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|84.0%| |        82.8%|85.9%|83.0%|81.1%|        96.7%|75.0%|        79.7%|87.5%|
+|2|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.7%| |        88.0%|90.5%|83.9%|83.3%|        80.0%|71.2%|        88.1%|84.8%|
+|3|DeepSeek-R1-0528(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|82.1%| |        80.7%|83.5%|78.0%|72.2%|        96.7%|70.8%|        87.7%|86.8%|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -261,9 +265,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|gemini-2.5-pro-preview-05-06(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|75.7| |        76.8|86.2|73.1|53.3|        90.0|56.2|        89.0|80.9|
-|2|gemini-2.5-pro-preview-03-25☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Google|72.5元|74.1| |        79.6|82.3|72.3|53.3|        90.0|46.1|        86.7|82.8|
-|3|claude-4-sonnet(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|72.2| |        72.2|79.0|69.1|46.7|        90.0|57.5|        75.5|87.7|
+|1|gemini-2.5-pro-preview-05-06(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|75.5%| |        76.8%|84.9%|73.1%|53.3%|        90.0%|56.2%|        89.0%|80.9%|
+|2|claude-4-sonnet(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|72.1%| |        72.2%|78.0%|69.1%|46.7%|        90.0%|57.5%|        75.5%|87.7%|
+|3|xunfei-4.0Ultra☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|72.0%| |        80.2%|76.8%|75.2%|64.0%|        70.1%|72.3%|        60.0%|77.7%|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
@@ -272,9 +276,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.9| |        88.0|91.5|83.9|83.3|        80.0|71.2|        88.1|84.8|
-|2|GLM-4-Plus☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|5.0元|82.9| |        81.6|85.0|83.8|94.3|        97.4|68.4|        64.3|88.3|
-|3|DeepSeek-R1-0528(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|82.2| |        80.7|84.5|78.0|72.2|        96.7|70.8|        87.7|86.8|
+|1|Doubao-1.5-thinking-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.7%| |        88.0%|90.5%|83.9%|83.3%|        80.0%|71.2%|        88.1%|84.8%|
+|2|DeepSeek-R1-0528(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|82.1%| |        80.7%|83.5%|78.0%|72.2%|        96.7%|70.8%|        87.7%|86.8%|
+|3|hunyuan-turbo☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|9.6元|78.8%| |        90.0%|80.5%|84.9%|75.0%|        73.5%|79.9%|        64.0%|82.8%|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -283,9 +287,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|ERNIE-4.5-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|84.3| |        91.2|89.1|86.7|88.7|        74.0|80.5|        77.0|87.2|
-|2|ERNIE-X1-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|84.1| |        82.8|87.3|83.0|81.1|        96.7|75.0|        79.7|87.5|
-|3|Doubao-1.5-pro-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|2.0元|80.3| |        87.9|85.7|84.2|71.2|        80.0|82.8|        66.6|83.9|
+|1|ERNIE-X1-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|84.0%| |        82.8%|85.9%|83.0%|81.1%|        96.7%|75.0%|        79.7%|87.5%|
+|2|ERNIE-4.5-Turbo-32K(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|83.9%| |        91.2%|86.0%|86.7%|88.7%|        74.0%|80.5%|        77.0%|87.2%|
+|3|Doubao-1.5-pro-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|2.0元|80.3%| |        87.9%|85.7%|84.2%|71.2%|        80.0%|82.8%|        66.6%|83.9%|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
@@ -294,9 +298,9 @@
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|83.4| |        86.2|87.6|84.7|77.2|        90.0|70.2|        80.8|90.4|
-|2|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|72.4| |        83.1|81.2|78.2|61.6|        67.5|64.6|        65.0|78.0|
-|3|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|69.4| |        72.1|74.1|74.0|54.4|        53.3|71.8|        74.4|80.9|
+|1|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|83.2%| |        86.2%|86.0%|84.7%|77.2%|        90.0%|70.2%|        80.8%|90.4%|
+|2|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|72.3%| |        83.1%|80.1%|78.2%|61.6%|        67.5%|64.6%|        65.0%|78.0%|
+|3|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|69.1%| |        72.1%|71.9%|74.0%|54.4%|        53.3%|71.8%|        74.4%|80.9%|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -309,9 +313,9 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|66.4| |        65.0|74.4|70.2|44.4|        60.0|65.2|        73.8|78.1|
-|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|57.4| |        49.1|60.9|60.2|34.5|        50.0|63.2|        68.5|73.0|
-|3|qwen2.5-3b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|48.7| |        52.2|52.2|53.8|26.9|        42.5|59.5|        39.6|62.8|
+|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|66.3%| |        65.0%|73.6%|70.2%|44.4%|        60.0%|65.2%|        73.8%|78.1%|
+|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|57.2%| |        49.1%|58.7%|60.2%|34.5%|        50.0%|63.2%|        68.5%|73.0%|
+|3|qwen2.5-3b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|48.8%| |        52.2%|52.9%|53.8%|26.9%|        42.5%|59.5%|        39.6%|62.8%|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -320,9 +324,9 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|75.2| |        77.7|80.2|79.6|62.2|        73.3|68.8|        79.7|80.0|
-|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|69.4| |        72.1|74.1|74.0|54.4|        53.3|71.8|        74.4|80.9|
-|3|DeepSeek-R1-0528-Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|66.3| |        64.3|73.3|65.1|50.0|        76.7|57.9|        65.3|77.9|
+|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|75.1%| |        77.7%|79.2%|79.6%|62.2%|        73.3%|68.8%|        79.7%|80.0%|
+|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|69.1%| |        72.1%|71.9%|74.0%|54.4%|        53.3%|71.8%|        74.4%|80.9%|
+|3|DeepSeek-R1-0528-Qwen3-8B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|66.1%| |        64.3%|71.5%|65.1%|50.0%|        76.7%|57.9%|        65.3%|77.9%|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -331,9 +335,9 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|DeepSeek-R1-0528(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|82.2| |        80.7|84.5|78.0|72.2|        96.7|70.8|        87.7|86.8|
-|2|DeepSeek-R1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|81.3| |        82.3|86.0|82.9|73.8|        84.7|70.8|        83.2|86.4|
-|3|hunyuan-large☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|12.0元|79.0| |        90.0|79.9|84.7|82.4|        72.1|83.0|        60.0|79.8|
+|1|DeepSeek-R1-0528(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|82.1%| |        80.7%|83.5%|78.0%|72.2%|        96.7%|70.8%|        87.7%|86.8%|
+|2|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|78.8%| |        81.3%|88.1%|78.1%|70.0%|        90.0%|58.2%|        83.7%|81.2%|
+|3|hunyuan-large☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|12.0元|78.8%| |        90.0%|78.3%|84.7%|82.4%|        72.1%|83.0%|        60.0%|79.8%|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -720,17 +724,28 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 
 ### 3.5 高考
-历年高考题，绝大部分为选择题，少部分为填空题。<br>
+历年高考真题，含简单题、填空题、选择题等等，只保留客观题。所有分数均为准确率，全部答对为100%；比如数学100，表示全部答对。<br>
 ☛☛完整排行榜见[高考](leaderboard/高考.md)<br>
+ - 2025年高考
+     - 高考生物：[排行榜](leaderboard/2025高考生物.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考生物)
+     - 高考化学：[排行榜](leaderboard/2025高考化学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考化学)
+     - 高考语文：[排行榜](leaderboard/2025高考语文.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考语文)
+     - 高考英语：[排行榜](leaderboard/2025高考英语.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考英语)
+     - 高考地理：[排行榜](leaderboard/2025高考地理.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考地理)
+     - 高考历史：[排行榜](leaderboard/2025高考历史.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考历史)
+     - 高考数学：[排行榜](leaderboard/2025高考数学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考数学)
+     - 高考物理：[排行榜](leaderboard/2025高考物理.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考物理)
+     - 高考政治：[排行榜](leaderboard/2025高考政治.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考政治)
 
- - 高考生物：[排行榜](leaderboard/gaokao-biology.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-biology)
- - 高考化学：[排行榜](leaderboard/gaokao-chemistry.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chemistry)
- - 高考语文：[排行榜](leaderboard/gaokao-chinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chinese)
- - 高考地理：[排行榜](leaderboard/gaokao-geography.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-geography)
- - 高考历史：[排行榜](leaderboard/gaokao-history.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-history)
- - 高考数学：[排行榜](leaderboard/gaokao-math.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-math)
- - 高考物理：[排行榜](leaderboard/gaokao-physics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-physics)
- - 高考政治：[排行榜](leaderboard/gaokao-politics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-politics)
+ - 2024年及之前高考
+     - 高考生物：[排行榜](leaderboard/gaokao-biology.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-biology)
+     - 高考化学：[排行榜](leaderboard/gaokao-chemistry.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chemistry)
+     - 高考语文：[排行榜](leaderboard/gaokao-chinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chinese)
+     - 高考地理：[排行榜](leaderboard/gaokao-geography.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-geography)
+     - 高考历史：[排行榜](leaderboard/gaokao-history.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-history)
+     - 高考数学：[排行榜](leaderboard/gaokao-math.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-math)
+     - 高考物理：[排行榜](leaderboard/gaokao-physics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-physics)
+     - 高考政治：[排行榜](leaderboard/gaokao-politics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-politics)
 <br><br>
 
 
