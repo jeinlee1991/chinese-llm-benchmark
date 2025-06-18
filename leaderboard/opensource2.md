@@ -15,5 +15,4 @@
 |12|DeepSeek-R1-Distill-Qwen-7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.35元|43.9%| |        29.0%|50.2%|45.8%|19.2%|        56.4%|37.2%|        54.5%|58.9%|
 |13|DeepSeek-R1-Distill-Llama-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.42元|42.0%| |        29.5%|49.5%|42.6%|20.3%|        54.7%|24.5%|        52.7%|62.1%|
 |14|Llama-3.1-8B-Instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Meta|0.42元|40.8%| |        43.6%|41.7%|40.9%|21.3%|        45.3%|30.1%|        42.3%|61.3%|
-|15|Meta-Llama-3.1-8B-Instruct-fp8☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Meta|0.36元|39.6%| |        42.3%|40.5%|40.8%|19.5%|        37.6%|30.2%|        44.1%|62.1%|
     
