@@ -1,0 +1,823 @@
+[
+  {
+    "prompt": "设数列$\\{a_n\\}$满足$a_1=3$, $\\frac{a_{n+1}}{n}=\\frac{a_n}{n+1}+\\frac{1}{n(n+1)}$。\n设$f(x) = a_1 x + a_2 x^2 + \\cdots + a_m x^m$，求$f'(-2)$。",
+    "reference": "$f'(-2) = \\frac{7}{9} - \\frac{3m+7}{9} \\cdot (-2)^m,\\; m \\in \\mathbb{N}^*$",
+    "class": "2025高考数学",
+    "id": "ReLE-420191019",
+    "detail": "2025年新高考I卷-数学-解答题-16（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知$f(x)=\\cos(2x+\\varphi) (0\\leq\\varphi<\\pi)$，且$f(0)=\\frac{1}{2}$。\n（设$g(x)=f(x)+f\\left(x-\\frac{\\pi}{6}\\right)$，求$g(x)$的值域和单调区间。",
+    "reference": "值域：$[-\\sqrt{3}, \\sqrt{3}]$，递增区间$\\left[ -\frac{7\\pi}{12}+k\\pi,-\\frac{\\pi}{12}+k\\pi \\right)$，递减区间$\\left[-\\frac{\\pi}{12}+k\\pi,\\frac{5\\pi}{12}+k\\pi \\right) k \\in \\mathbb{Z}$",
+    "class": "2025高考数学",
+    "id": "ReLE-d0f2f4669",
+    "detail": "2025年新高考II卷-数学-解答题-15（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "一个底面半径为$4\\mathrm{cm}$，高为$9\\mathrm{cm}$的封闭圆柱形容器（容器壁厚度忽略不计）内有两个半径相等的铁球，则铁球半径的最大值为________cm。",
+    "reference": "$\\frac{5}{2}$",
+    "class": "2025高考数学",
+    "id": "ReLE-74b7d8773",
+    "detail": "2025年新高考II卷-数学-填空题-14",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知椭圆$\\Gamma: \\frac{x^2}{a^2}+\\frac{y^2}{5}=1\\ (a>\\sqrt{5})$，$M(0,m)\\ (m>0)$，$A$是$\\Gamma$的右顶点。\n若$\\Gamma$的焦点是$(2,0)$，求离心率；",
+    "reference": "$\\frac{2}{3}$",
+    "class": "2025高考数学",
+    "id": "ReLE-4be838339",
+    "detail": "2025年上海市高考试卷-数学-解答题-20（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知函数$y=f(x)$的定义域为$\\mathbb{R}$。对于正实数$a$，定义集合$M_a=\\{x|f(x+a)=f(x)\\}$。\n若$f(x)=\\sin x$，判断$\\frac{\\pi}{3}$是否是$M_{\\pi}$中的元素",
+    "reference": "$\\frac{\\pi}{3}$不属于$M_\\pi$",
+    "class": "2025高考数学",
+    "id": "ReLE-9c03b6060",
+    "detail": "2025年上海市高考试卷-数学-解答题-21（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知椭圆$C: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 (a>b>0)$的离心率为$\\frac{\\sqrt{2}}{2}$，长轴长为$4$。\n求椭圆$C$的方程；",
+    "reference": "$\\frac{x^2}{4} + \\frac{y^2}{2} = 1$",
+    "class": "2025高考数学",
+    "id": "ReLE-1982f2160",
+    "detail": "2025年新高考II卷-数学-解答题-16（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "设$a,b>0$，$a+\\frac{1}{b}=1$，则$b+\\frac{1}{a}$的最小值为________。",
+    "reference": "4",
+    "class": "2025高考数学",
+    "id": "ReLE-d0c564553",
+    "detail": "2025年上海市高考试卷-数学-填空题-8",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "设$\\lambda\\in [0,1]$, 数列$a_n=10n-9$, 数列$b_n=2^n$。设$c_n=\\lambda a_n+(1-\\lambda)b_n$。若对任意$\\lambda\\in[0,1]$, 长为$a_n,\\ b_n,\\ c_n$的线段均能构成三角形, 则满足条件的$n$有（  ）\n（A） 1个\n（B） 3个\n（C） 4个\n（D） 无穷\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-fe8b81061",
+    "detail": "2025年上海市高考试卷-数学-选择题-16"
+  },
+  {
+    "prompt": "若 $m$ 为直线，$\\alpha, \\beta$ 为两个平面，则下列结论中正确的是（ ）\n（A） 若 $m\\parallel\\alpha$, $n\\subset\\alpha$，则 $m\\parallel n$\n（B） 若 $m\\perp\\alpha$, $m\\perp\\beta$，则 $\\alpha\\perp\\beta$\n（C） 若 $m\\parallel\\alpha$, $m\\perp\\beta$，则 $\\alpha\\perp\\beta$\n（D） 若 $m\\subset\\alpha$, $\\alpha\\perp\\beta$，则 $m\\perp\\beta$\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-dc55c4869",
+    "detail": "2025年天津市高考试卷-数学-选择题-4"
+  },
+  {
+    "prompt": "已知事件$A, B$相互独立，事件$A$发生的概率为$P(A)=\\frac{1}{2}$，事件$B$发生的概率为$P(B)=\\frac{1}{2}$，则事件$A\\cap B$发生的概率$P(A\\cap B)$为（  ）\n（A） $\\frac{1}{8}$\n（B） $\\frac{1}{4}$\n（C） $\\frac{1}{2}$\n（D） 0\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-0f9337923",
+    "detail": "2025年上海市高考试卷-数学-选择题-13"
+  },
+  {
+    "prompt": "已知函数$y=f(x)$的定义域为$\\mathbb{R}$。对于正实数$a$，定义集合$M_a=\\{x|f(x+a)=f(x)\\}$。\n若$f(x)=\\begin{cases}x+2, & x<0\\\\ \\sqrt{x}, & x\\geq 0\\end{cases}$，$M_a\\neq\\emptyset$，求$a$的取值范围；",
+    "reference": "$a \\in \\left[\\frac{7}{4}, 4\\right)$",
+    "class": "2025高考数学",
+    "id": "ReLE-fc0738787",
+    "detail": "2025年上海市高考试卷-数学-解答题-21（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知全集$U=\\{x\\mid 2\\leq x\\leq 5,\\ x\\in\\mathbb{R}\\}$，集合$A=\\{x\\mid 2\\leq x<4,\\ x\\in\\mathbb{R}\\}$，则$\\overline{A}$=________。",
+    "reference": "$\\{ x \\in \\mathbb{R} \\mid 4 \\leq x \\leq 5 \\}$",
+    "class": "2025高考数学",
+    "id": "ReLE-27fe49673",
+    "detail": "2025年上海市高考试卷-数学-填空题-1",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知椭圆$\\Gamma: \\frac{x^2}{a^2}+\\frac{y^2}{5}=1\\ (a>\\sqrt{5})$，$M(0,m)\\ (m>0)$，$A$是$\\Gamma$的右顶点。\n若$AM$中垂线l的斜率为$2$，l与$\\Gamma$交于$C, D$两点，$\\angle CMD$为锐角，求$a$的取值范围。",
+    "reference": "$\\left( \\sqrt{5}, \\sqrt{11} \\right)$",
+    "class": "2025高考数学",
+    "id": "ReLE-56d939019",
+    "detail": "2025年上海市高考试卷-数学-解答题-20（3）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知椭圆 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1\\ (a>b>0)$ 的左焦点为 $F$，右顶点为 $A$，$P$ 为 $x=a$ 上一点，且直线 $PF$ 的斜率为 $\\frac{1}{3}$，$\\triangle PFA$ 的面积为 $\\frac{3}{2}$，离心率为 $\\frac{1}{2}$。\n求椭圆的方程；",
+    "reference": "$\\frac{x^2}{4} + \\frac{y^2}{3} = 1$",
+    "class": "2025高考数学",
+    "id": "ReLE-657b21402",
+    "detail": "2025年天津市高考试卷-数学-解答题-18（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "若 $a,b\\in\\mathbb{R}$，对 $\\forall x\\in[-2,2]$，均有 $(2a+b)x^2+bx-a-1\\leq0$ 恒成立，则 $2a+b$ 的最小值为__________。",
+    "reference": "-4",
+    "class": "2025高考数学",
+    "id": "ReLE-c96995920",
+    "detail": "2025年天津市高考试卷-数学-填空题-15",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "样本数据$2,8,14,16,20$的平均数为（    ）\n（A） 8\n（B） 9\n（C） 12\n（D） 18\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-b7c6a6819",
+    "detail": "2025年新高考II卷-数学-选择题-1"
+  },
+  {
+    "prompt": "设 $x \\in \\mathbb{R}$，则“$x=0$”是“$\\sin2x=0$”的（ ）\n（A） 充分不必要条件\n（B） 必要而不充分条件\n（C） 充要条件\n（D） 既不充分也不必要条件\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-2dcd12615",
+    "detail": "2025年天津市高考试卷-数学-选择题-2"
+  },
+  {
+    "prompt": "设函数$f(x) = 5 \\cos x - \\cos 5x$。\n若存在$\\varphi$，使得对任意$x$，都有$5\\cos x - \\cos(5x+\\varphi) \\leq b$，求$b$的最小值。",
+    "reference": "$3\\sqrt{3}$",
+    "class": "2025高考数学",
+    "id": "ReLE-212444172",
+    "detail": "2025年新高考I卷-数学-解答题-19（3）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "甲、乙两人进行乒乓球练习，每个球胜者得$1$分，负者得$0$分。设每个球甲胜概率为$p (\\frac{1}{2}<p<1)$，乙胜概率为$q,p+q=1$，且各球胜负独立。对正整数$k\\geq 2$，记$p_k$为打完$k$个球后甲比乙至少多得$2$分的概率，$q_k$为打完$k$个球后乙比甲至少多得$2$分的概率。\n求$p_3,p_4$（用$p$表示）；",
+    "reference": "$p_{3}=p^{3}$, $p_{4}=4p^{3}-3p^{4}$",
+    "class": "2025高考数学",
+    "id": "ReLE-477766067",
+    "detail": "2025年新高考II卷-数学-解答题-19（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1\\ (a>0,b>0)$ 的左、右焦点分别为 $F_1, F_2$，以右焦点 $F_2$ 为焦点的抛物线 $y^2 = 2px\\ (p>0)$ 与双曲线在第一象限的交点为 $P$，若 $|PF_1| + |PF_2| = 3|F_1F_2|$，则双曲线的离心率 $e = $（ ）\n（A） 2\n（B） 5\n（C） \\frac{\\sqrt{2}+1}{2}\n（D） \\frac{\\sqrt{5}+1}{2}\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-0807e6469",
+    "detail": "2025年天津市高考试卷-数学-选择题-9"
+  },
+  {
+    "prompt": "已知函数 $f(x)=a x-(\\ln x)^2$。\n$a=1$ 时，求 $f(x)$ 在点 $(1, f(1))$ 处的切线方程；",
+    "reference": "y=x",
+    "class": "2025高考数学",
+    "id": "ReLE-9a7147166",
+    "detail": "2025年天津市高考试卷-数学-解答题-20（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "设抛物线$C: y^2=6x$的焦点为$F$，过$F$的直线交$C$于$A、B$，过$A$作$l: x=-\\frac{3}{2}$的垂线交于$D$，过$F$且垂直于$AB$的直线交$l$于$E$，则（  ）\n（A） $|AD|=|AF|$\n（B） $|AE|=|AB|$\n（C） $|AB|\\geq 6$\n（D） $|AE|\\cdot|BE|\\geq 18$\n",
+    "reference": "ACD",
+    "class": "2025高考数学",
+    "id": "ReLE-6f2a35880",
+    "detail": "2025年新高考I卷-数学-选择题-10"
+  },
+  {
+    "prompt": "已知$A(0,1)$，$B(1,2)$，$C$在$\\Gamma: x^2-y^2=1\\ (x\\geq 1,\\ y\\geq 0)$上，则$\\triangle ABC$的面积（  ）\n（A） 有最大值，但没有最小值\n（B） 没有最大值，但有最小值\n（C） 既有最大值，也有最小值\n（D） 既没有最大值，也没有最小值\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-a34b04385",
+    "detail": "2025年上海市高考试卷-数学-选择题-15"
+  },
+  {
+    "prompt": "下列说法中错误的是（ ）\n（A） 若 $X \\sim N(\\mu, \\sigma^2)$，则 $P(X \\leq \\mu - \\sigma) = P(x \\geq \\mu + \\sigma)$\n（B） 若 $X \\sim N(1, 2^2)$，$Y \\sim N(2, 2^2)$，则 $P(X<1)<P(Y<2)$\n（C） $|r|$ 越接近 1，相关性越强\n（D） $|r|$ 越接近 0，相关性越弱\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-ef41a7474",
+    "detail": "2025年天津市高考试卷-数学-选择题-5"
+  },
+  {
+    "prompt": "已知全集 $U=\\{1,2,3,4,5\\}$，集合 $A=\\{1,3\\}$，$B=\\{2,3,5\\}$，则 $C_U(A \\cup B) =$\n（A） \\{1,3\\}\n（B） \\{2,3,5\\}\n（C） \\{2,4\\}\n（D） \\{1\\}\n",
+    "reference": "D",
+    "class": "2025高考数学",
+    "id": "ReLE-794f46649",
+    "detail": "2025年天津市高考试卷-数学-选题题-1"
+  },
+  {
+    "prompt": "已知椭圆$\\Gamma: \\frac{x^2}{a^2}+\\frac{y^2}{5}=1\\ (a>\\sqrt{5})$，$M(0,m)\\ (m>0)$，$A$是$\\Gamma$的右顶点。\n若$a=4$，且上存在一点$P$，满足$\\overrightarrow{PA}=2\\overrightarrow{MP}$，求$m$；",
+    "reference": "$\\sqrt{10}$",
+    "class": "2025高考数学",
+    "id": "ReLE-030e51082",
+    "detail": "2025年上海市高考试卷-数学-解答题-20（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知$0<\\alpha<\\pi, \\cos\\frac{\\alpha}{2}=\\frac{\\sqrt{5}}{5}$，则$\\sin\\left(\\alpha-\\frac{\\pi}{4}\\right)=$（    ）\n（A） $\\frac{\\sqrt{2}}{10}$\n（B） $\\frac{\\sqrt{2}}{5}$\n（C） $\\frac{3\\sqrt{2}}{10}$\n（D） $\\frac{7\\sqrt{2}}{10}$\n",
+    "reference": "D",
+    "class": "2025高考数学",
+    "id": "ReLE-282254856",
+    "detail": "2025年新高考II卷-数学-选择题-8"
+  },
+  {
+    "prompt": "2024年东京奥运会，中国获得了男子$4\\times 100$米混合泳接力金牌。以下是历届奥运会男子$4\\times 100$米混合泳接力项目冠军成绩记录（单位：秒），数据按照升序排列。\n206.78 207.46 207.95 209.34 209.35\n210.68 213.73 214.84 216.93 216.93\n若比赛成绩关于年份的回归方程为$y=-0.311x+b$，年份$x$的平均数为2006，预测2028年冠军队的成绩（精确到0.01秒）。",
+    "reference": "204.56",
+    "class": "2025高考数学",
+    "id": "ReLE-74ce74052",
+    "detail": "2025年上海市高考试卷-数学-解答题-17（3）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知$f(x)=x^2-(m+2)x+m\\ln x,\\ m\\in\\mathbb{R}$。\n若$f(1)=0$，求不等式$f(x)\\leq x^2-1$的解集；",
+    "reference": "$[1, +\\infty)$",
+    "class": "2025高考数学",
+    "id": "ReLE-f8e297860",
+    "detail": "2025年上海市高考试卷-数学-解答题-19（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "在$\\triangle ABC$中，$BC=2$，$AC=1+\\sqrt{3}$，$AB=\\sqrt{6}$，则$\\angle A=$（    ）\n（A） $45^\\circ$\n（B） $60^\\circ$\n（C） $120^\\circ$\n（D） $135^\\circ$\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-f76a93562",
+    "detail": "2025年新高考II卷-数学-选择题-5"
+  },
+  {
+    "prompt": "设全集$U=\\{1,2,3,4,5,6,7,8\\}$，集合$A=\\{1,3,5\\}$，则$U \\setminus A$中元素个数为（  ）\n（A） 2\n（B） 3\n（C） 5\n（D） 8\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-893f02757",
+    "detail": "2025年新高考I卷-数学-选择题-2"
+  },
+  {
+    "prompt": "在 $(x-1)^6$ 的展开式中，$x^3$ 项的系数为______。",
+    "reference": "-20",
+    "class": "2025高考数学",
+    "id": "ReLE-f7f5e4382",
+    "detail": "2025年天津市高考试卷-数学-填空题-11",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "一个箱子里有5个球，分别以1~5标号，若有放回取三次，记至少取出一次的球的个数$X$，则$E(X)=$________。",
+    "reference": "$\\frac{61}{25}$",
+    "class": "2025高考数学",
+    "id": "ReLE-b9ddf7497",
+    "detail": "2025年新高考I卷-数学-填空题-14",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "在二项式$(2x-1)^5$的展开式中，$x^3$的系数为________。",
+    "reference": "80",
+    "class": "2025高考数学",
+    "id": "ReLE-d03e02924",
+    "detail": "2025年上海市高考试卷-数学-填空题-4",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "设函数$f(x) = 5 \\cos x - \\cos 5x$。\n求$f(x)$在$[0, \\frac{\\pi}{4}]$的最大值；",
+    "reference": "$3\\sqrt{3}$",
+    "class": "2025高考数学",
+    "id": "ReLE-426e79323",
+    "detail": "2025年新高考I卷-数学-解答题-19（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知集合$A=\\{-4,0,1,2,8\\}$，$B=\\{x|x^3=x\\}$，则$A\\cap B=$（    ）\n（A） $\\{0,1,2\\}$\n（B） $\\{1,2,8\\}$\n（C） $\\{2,8\\}$\n（D） $\\{0,1\\}$\n",
+    "reference": "D",
+    "class": "2025高考数学",
+    "id": "ReLE-bdf174763",
+    "detail": "2025年新高考II卷-数学-选择题-3"
+  },
+  {
+    "prompt": "已知$z=1+i$, 计算$\\frac{1}{z-1}=$（    ）\n（A） -i\n（B） i\n（C） -1\n（D） 1\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-da81d9966",
+    "detail": "2025年新高考II卷-数学-选择题-2"
+  },
+  {
+    "prompt": "在正三棱柱$ABC-A_1B_1C_1$中，$D$为$BC$中点，则（  ）\n（A） $AD \\perp A_1C$\n（B） $BC \\perp \\text{平面}AA_1D$\n（C） $CC_1 // \\text{平面}AA_1D$\n（D） $AD // A_1B_1$\n",
+    "reference": "BC",
+    "class": "2025高考数学",
+    "id": "ReLE-0e2398799",
+    "detail": "2025年新高考I卷-数学-选择题-9"
+  },
+  {
+    "prompt": "2024年东京奥运会，中国获得了男子$4\\times 100$米混合泳接力金牌。以下是历届奥运会男子$4\\times 100$米混合泳接力项目冠军成绩记录（单位：秒），数据按照升序排列。\n206.78 207.46 207.95 209.34 209.35\n210.68 213.73 214.84 216.93 216.93\n求这组数据的极差与中位数；",
+    "reference": "极差为10.15，中位数为210.015",
+    "class": "2025高考数学",
+    "id": "ReLE-f52c51447",
+    "detail": "2025年上海市高考试卷-数学-解答题-17（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "函数 $f(x) = 0.3^x - \\sqrt{x}$ 的零点所在区间是（ ）\n（A） (0, 0.3)\n（B） (0.3, 0.5)\n（C） (0.5, 1)\n（D） (1, 2)\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-80dbc1410",
+    "detail": "2025年天津市高考试卷-数学-选择题-7"
+  },
+  {
+    "prompt": "若双曲线$C$的虚轴长为实轴长的$\\sqrt{7}$倍，则$C$的离心率为（  ）\n（A） $\\sqrt{2}$\n（B） $2$\n（C） $\\sqrt{7}$\n（D） $2\\sqrt{2}$\n",
+    "reference": "D",
+    "class": "2025高考数学",
+    "id": "ReLE-2ef3d8408",
+    "detail": "2025年新高考I卷-数学-选择题-3"
+  },
+  {
+    "prompt": "已知椭圆$C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 (a > b > 0) $的离心率为$\\frac{2\\sqrt{2}}{3}$，椭圆下顶点为$A$，右顶点为$B$，$|AB|=\\sqrt{10}$。\n求椭圆的标准方程；",
+    "reference": "$\\frac{x^2}{9} + y^2 = 1$",
+    "class": "2025高考数学",
+    "id": "ReLE-22ac21819",
+    "detail": "2025年新高考I卷-数学-解答题-18（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知$f(x)=x^2-(m+2)x+m\\ln x,\\ m\\in\\mathbb{R}$。\n若函数$y=f(x)$满足在$(0,+\\infty)$上存在极大值，求$m$的取值范围。",
+    "reference": "$(0, 2) \\cup (2, +\\infty)$",
+    "class": "2025高考数学",
+    "id": "ReLE-8767d2549",
+    "detail": "2025年上海市高考试卷-数学-解答题-19（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知平面向量$\\vec{a}=(x,1)$，$\\vec{b}=(x-1,2x)$，若$\\vec{a}\\perp(\\vec{a}-\\vec{b})$，则$|\\vec{a}|=________。",
+    "reference": "$\\sqrt{2}$",
+    "class": "2025高考数学",
+    "id": "ReLE-8e9e98991",
+    "detail": "2025年新高考II卷-数学-填空题-12",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知等差数列$\\{a_n\\}$的首项$a_1=-3$，公差$d=2$，则该数列的前6项和为________。",
+    "reference": "12",
+    "class": "2025高考数学",
+    "id": "ReLE-888978470",
+    "detail": "2025年上海市高考试卷-数学-填空题-3",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "设抛物线$C:y^2=2px~(p>0)$的焦点为$F$，点$A$在$C$上，过$A$作$C$准线的垂线，垂足为$B$。若直线$BF$的方程为$y=-2x+2$，则$|AF|=$（    ）\n（A） 3\n（B） 4\n（C） 5\n（D） 6\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-7d2376094",
+    "detail": "2025年新高考II卷-数学-选择题-6"
+  },
+  {
+    "prompt": "函数$y=\\cos x$在$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{4}\\right]$上的值域为________。",
+    "reference": "[0, 1]",
+    "class": "2025高考数学",
+    "id": "ReLE-ece729113",
+    "detail": "2025年上海市高考试卷-数学-填空题-5",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "若圆$x^2+(y+2)^2=r^2\\ (r>0)$上到直线$y=\\sqrt{3}x+2$的距离为$1$的点有且仅有2个，则$r$的取值范围是（  ）\n（A） (0,1)\n（B） (1,3)\n（C） (3,+\\infty)\n（D） (0,+\\infty)\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-945b67069",
+    "detail": "2025年新高考I卷-数学-选择题-7"
+  },
+  {
+    "prompt": "若实数$x,y,z$满足$2+\\log_2 x=3+\\log_3 y=5+\\log_5 z$，则$x,y,z$的大小关系不可能是（  ）\n（A） $x>y>z$\n（B） $x>z>y$\n（C） $y>x>z$\n（D） $y>z>x$\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-f04f08430",
+    "detail": "2025年新高考I卷-数学-选择题-8"
+  },
+  {
+    "prompt": "小桐操场跑圈，一周 2 次，一次 5 圈或 6 圈。第一次跑 5 圈或 6 圈的概率均为 0.5，若第一次跑 5 圈，则第二次跑 5 圈的概率为 0.4，6 圈的概率为 0.6；若第一次跑 6 圈，则第二次跑 5 圈的概率为 0.6，4 圈的概率为 0.4。小桐一周跑 11 圈的概率为________；若一周至少跑 11 圈为运动量达标，则连续跑 4 周，记合格周数为 $X$，则期望 $E(X)=$________。",
+    "reference": "0.6  3.2",
+    "class": "2025高考数学",
+    "id": "ReLE-dccdd2193",
+    "detail": "2025年天津市高考试卷-数学-填空题-13",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知$f(x)=\\cos(2x+\\varphi) (0\\leq\\varphi<\\pi)$，且$f(0)=\\frac{1}{2}$。\n求$\\varphi$的值；",
+    "reference": "$\\frac{\\pi}{3}$",
+    "class": "2025高考数学",
+    "id": "ReLE-389b87090",
+    "detail": "2025年新高考II卷-数学-解答题-15（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "在 $\\triangle ABC$ 中，角 $A,B,C$ 的对边分别为 $a, b, c$。已知 $a\\sin B=\\sqrt{3}b\\cos A,\\ c=2b=1,\\ a=\\sqrt{7}$。\n求 $A$ 的值；",
+    "reference": "$\\frac{\\pi}{3}$",
+    "class": "2025高考数学",
+    "id": "ReLE-034c28030",
+    "detail": "2025年天津市高考试卷-数学-解答题-16（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知$\\triangle ABC$的面积为$\\frac{1}{4}$，若$\\cos 2A+\\cos 2B+2\\sin C=2,\\ \\cos A \\cos B \\sin C=\\frac{1}{4}$，则（  ）\n（A） $\\sin C=\\sin^2A+\\sin^2B$\n（B） $AB=\\sqrt{2}$\n（C） $\\sin A+\\sin B=\\frac{\\sqrt{6}}{2}$\n（D） $AC^2+BC^2=3$\n",
+    "reference": "ABC",
+    "class": "2025高考数学",
+    "id": "ReLE-faf154669",
+    "detail": "2025年新高考I卷-数学-选择题-11"
+  },
+  {
+    "prompt": "在 $\\triangle ABC$ 中，角 $A,B,C$ 的对边分别为 $a, b, c$。已知 $a\\sin B=\\sqrt{3}b\\cos A,\\ c=2b=1,\\ a=\\sqrt{7}$。\n求 $c$ 的值；",
+    "reference": "3",
+    "class": "2025高考数学",
+    "id": "ReLE-cfe5b9409",
+    "detail": "2025年天津市高考试卷-数学-解答题-16（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "不等式$\\frac{x-1}{x-3}<0$的解集为________。",
+    "reference": "(1,3)",
+    "class": "2025高考数学",
+    "id": "ReLE-742939897",
+    "detail": "2025年上海市高考试卷-数学-填空题-2",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "$f(x)=\\sin(\\omega x+\\varphi)\\ (\\omega>0,-\\pi<\\varphi<\\pi)$，在 $\\left[-\\frac{\\pi}{12},\\frac{\\pi}{12}\\right]$ 上单调递增，且 $x=\\frac{\\pi}{12}$ 为它的一条对称轴，$(\\frac{\\pi}{3}, 0)$ 是它的一个对称中心，当 $x\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，$f(x)$ 的最小值为（ ）\n（A） -\\frac{\\sqrt{3}}{2}\n（B） -\\frac{1}{2}\n（C） 1\n（D） 0\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-807eb3296",
+    "detail": "2025年天津市高考试卷-数学-选择题-8"
+  },
+  {
+    "prompt": "已知函数$y=f(x)$的定义域为$\\mathbb{R}$。对于正实数$a$，定义集合$M_a=\\{x|f(x+a)=f(x)\\}$。\n设$y=f(x)$是偶函数，当$x\\in (0,1]$时，$f(x)=1-x$，且对任意$a\\in (0,2)$，均有$M_a\\subseteq M_2$。写出$y=f(x)$，$x\\in (1,2)$的解析式",
+    "reference": "$x \\in (1, 2)$时，f(x)=x-1",
+    "class": "2025高考数学",
+    "id": "ReLE-9818f9741",
+    "detail": "2025年上海市高考试卷-数学-解答题-21（3）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "若直线$y=2x+5$是曲线$y=e^x+x+a$的切线，则$a=$________。",
+    "reference": "4",
+    "class": "2025高考数学",
+    "id": "ReLE-4b5b06141",
+    "detail": "2025年新高考I卷-数学-填空题-12",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知椭圆$C: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1 (a>b>0)$的离心率为$\\frac{\\sqrt{2}}{2}$，长轴长为$4$。\n过点$(0,-2)$的直线l与椭圆$C$交于$A,B$两点，$O$为坐标原点。若$\\triangle OAB$的面积为$\\sqrt{2}$，求$|AB|$。",
+    "reference": "$\\sqrt{5}$",
+    "class": "2025高考数学",
+    "id": "ReLE-d0e298069",
+    "detail": "2025年新高考II卷-数学-解答题-16（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "不等式$\\frac{x-4}{x-1}\\geq2$解集是（    ）\n（A） $\\{x|-2\\leq x\\leq 1\\}$\n（B） $\\{x|x\\leq -2\\}$\n（C） $\\{x|-2\\leq x<1\\}$\n（D） $\\{x|x>1\\}$\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-a311e1957",
+    "detail": "2025年新高考II卷-数学-选择题-4"
+  },
+  {
+    "prompt": "$(1+5i)i$的虚部为（  ）\n（A） -1\n（B） 0\n（C） 1\n（D） 6\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-7c5a29659",
+    "detail": "2025年新高考I卷-数学-选择题-1"
+  },
+  {
+    "prompt": "双曲线$C: \\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1 (a>0,b>0)$的左、右焦点分别是$F_1,F_2$，左、右顶点分别为$A_1,A_2$，以$F_1F_2$为直径的圆与曲线$C$的一条渐近线交于$M,N$两点，且$\\angle NA_1M=\\frac{5\\pi}{6}$，则（    ）\n（A） $\\angle A_1MA_2=\\frac{\\pi}{6}$\n（B） $|MA_1|=2|MA_2|$\n（C） $C$的离心率为$\\sqrt{13}$\n（D） 当$a=\\sqrt{2}$时，四边形$NA_1MA_2$的面积为$8\\sqrt{3}$\n",
+    "reference": "ACD",
+    "class": "2025高考数学",
+    "id": "ReLE-cb6414446",
+    "detail": "2025年新高考II卷-数学-选择题-11"
+  },
+  {
+    "prompt": "记$S_n$为等差数列$\\{a_n\\}$的前$n$项和，若$S_3=6$，$S_5=-5$，则$S_6=$（    ）\n（A） -20\n（B） -15\n（C） -10\n（D） -5\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-1ed386042",
+    "detail": "2025年新高考II卷-数学-选择题-7"
+  },
+  {
+    "prompt": "$\\{a_n\\}$ 是等差数列，$\\{b_n\\}$ 是等比数列，$a_1=b_1=2$，$a_2=b_2+1$，$a_3=b_3$。\n求 $\\{a_n\\}, \\{b_n\\}$ 的通项公式；",
+    "reference": "$a_{n}=3n-1, b_{n}=2^{n}$",
+    "class": "2025高考数学",
+    "id": "ReLE-edefc1224",
+    "detail": "2025年天津市高考试卷-数学-解答题-19（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "若$x=2$是函数$f(x)=(x-1)(x-2)(x-a)$的极值点，则$f(0)=________。",
+    "reference": "-4",
+    "class": "2025高考数学",
+    "id": "ReLE-8d5de3758",
+    "detail": "2025年新高考II卷-数学-填空题-13",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知函数 $f(x)=a x-(\\ln x)^2$。\n$f(x)$ 有 3 个零点 $x_1,x_2,x_3$，且 $x_1 < x_2 < x_3$。\n(i) 求 $a$ 的取值范围；",
+    "reference": "$\\left(0,\\frac{4}{e^{2}}\\right)$",
+    "class": "2025高考数学",
+    "id": "ReLE-69d959884",
+    "detail": "2025年天津市高考试卷-数学-解答题-20（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "记$S_n$为等比数列$\\{a_n\\}$的前$n$项和，$q$为$\\{a_n\\}$的公比，$q>0$。若$S_3=7,a_3=1$，则（    ）\n（A） $q=\\frac{1}{2}$\n（B） $a_5=\\frac{1}{9}$\n（C） $S_5=8$\n（D） $a_n+S_n=8$\n",
+    "reference": "AD",
+    "class": "2025高考数学",
+    "id": "ReLE-491059456",
+    "detail": "2025年新高考II卷-数学-选择题-9"
+  },
+  {
+    "prompt": "已知随机变量$X$的分布为\\( \\begin{pmatrix}5 & 6 & 7 \\\\ 0.2 & 0.3 & 0.5\\end{pmatrix} \\)，则期望$E[X]=$________。",
+    "reference": "6.3",
+    "class": "2025高考数学",
+    "id": "ReLE-95d4a3401",
+    "detail": "2025年上海市高考试卷-数学-填空题-6",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知i是虚数单位，则 $\\left|\\frac{3+i}{i}\\right|$=______。",
+    "reference": "$\\sqrt{10}$",
+    "class": "2025高考数学",
+    "id": "ReLE-3e2191447",
+    "detail": "2025年天津市高考试卷-数学-填空题-10",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "甲、乙两人进行乒乓球练习，每个球胜者得$1$分，负者得$0$分。设每个球甲胜概率为$p (\\frac{1}{2}<p<1)$，乙胜概率为$q,p+q=1$，且各球胜负独立。对正整数$k\\geq 2$，记$p_k$为打完$k$个球后甲比乙至少多得$2$分的概率，$q_k$为打完$k$个球后乙比甲至少多得$2$分的概率。\n若$\\frac{p_4-p_3}{q_4-q_3}=4$，求$p$；",
+    "reference": "$p=\\frac{2}{3}$",
+    "class": "2025高考数学",
+    "id": "ReLE-fdcaf3069",
+    "detail": "2025年新高考II卷-数学-解答题-19（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知函数$f(x)=\\begin{cases}1, & x>0\\\\ 0, & x=0\\\\ -1, & x<0\\end{cases}$，$\\vec{a}$、$\\vec{b}$、$\\vec{c}$是平面内三个不同的单位向量。若$f(\\vec{a}\\cdot\\vec{b})+f(\\vec{b}\\cdot\\vec{c})+f(\\vec{c}\\cdot\\vec{a})=0$，则$|\\vec{a}+\\vec{b}+\\vec{c}|$的取值范围是________。",
+    "reference": "$(1, \\sqrt{5})$",
+    "class": "2025高考数学",
+    "id": "ReLE-860138669",
+    "detail": "2025年上海市高考试卷-数学-填空题-12",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "（5分）4个家长和2个儿童去爬山，6个人需要排成一条队列，要求队列的头和尾均是家长，则不同的排列个数有________种。",
+    "reference": "288",
+    "class": "2025高考数学",
+    "id": "ReLE-b91306480",
+    "detail": "2025年上海市高考试卷-数学-填空题-9",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "$\\triangle ABC$ 中，$D$ 为 $AB$ 边中点，$\\overrightarrow{CE}=\\frac{1}{3}\\overrightarrow{CD}$，$\\overrightarrow{AB}=\\mathbf{a}$，$\\overrightarrow{AC}=\\mathbf{b}$，则 $\\overrightarrow{AE}=$______；若 $|\\overrightarrow{AE}|=5$ 且 $AE\\perp CB$，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{CD}=$______。",
+    "reference": "$$  -15",
+    "class": "2025高考数学",
+    "id": "ReLE-3c0688500",
+    "detail": "2025年天津市高考试卷-数学-填空题-14",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "$\\{a_n\\}$ 是等差数列，$\\{b_n\\}$ 是等比数列，$a_1=b_1=2$，$a_2=b_2+1$，$a_3=b_3$。\n$\\forall n\\in\\mathbb{N}^*$ 有 $T_n=\\{p_1a_1b_1+p_2a_2b_2+\\cdots+p_na_nb_n|p_1,p_2,\\cdots,p_n\\in I\\}, I=\\{0,1\\}$。\n求 $T_n$ 所有元素之和。",
+    "reference": "$2^{n-1}\\left[8 + (3n-4)2^{n+1}\\right]$",
+    "class": "2025高考数学",
+    "id": "ReLE-7408b8138",
+    "detail": "2025年天津市高考试卷-数学-解答题-19（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "设$f(x)$是定义在$\\mathbb{R}$上且周期为$2$的偶函数，当$2\\leq x\\leq 3$时，$f(x)=5-2x$，则$f\\left(-\\frac{3}{4}\\right)=（  ）$\n（A） $-\\frac{1}{2}$\n（B） $-\\frac{1}{4}$\n（C） $\\frac{1}{4}$\n（D） $\\frac{1}{2}$\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-b02988109",
+    "detail": "2025年新高考I卷-数学-选择题-5"
+  },
+  {
+    "prompt": "已知$f(x)$是定义在$\\mathbb{R}$上的奇函数，且当$x>0$时，$f(x)=(x^2-3)e^x+2$，则（    ）\n（A） $f(0)=0$\n（B） 当$x<0$时，$f(x)=-(x^2-3)e^{-x}-2$\n（C） $f(x)\\geq 2$，且仅当$x\\geq \\sqrt{3}$\n（D） $x=-1$是$f(x)$的极大值点\n",
+    "reference": "ABD",
+    "class": "2025高考数学",
+    "id": "ReLE-ddbeb3022",
+    "detail": "2025年新高考II卷-数学-选择题-10"
+  },
+  {
+    "prompt": "$l_1: x-y+6=0$ 与 $x$ 轴交于点 $A$，与 $y$ 轴交于点 $B$，与圆 $(x+1)^2+(y-3)^2=r^2$ 交于 $C, D$ 两点，$|AB|=3|CD|$，则 $r=$______。",
+    "reference": "2",
+    "class": "2025高考数学",
+    "id": "ReLE-e7cfa6683",
+    "detail": "2025年天津市高考试卷-数学-填空题-12",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "若一个正项等比数列的前4项和为4，前8项和为68，则该等比数列的公比为________。",
+    "reference": "2",
+    "class": "2025高考数学",
+    "id": "ReLE-0f3a31067",
+    "detail": "2025年新高考I卷-数学-填空题-13",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "$S_n = -n^2 + 8n$，则 $\\{a_n\\}$ 的前 $2n$ 项和为（ ）\n（A） 112\n（B） 48\n（C） 80\n（D） 64\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-e2ef32408",
+    "detail": "2025年天津市高考试卷-数学-选择题-6"
+  },
+  {
+    "prompt": "为研究某疾病与超声波检查结果的关系，从做过超声波检查的人群中随机调查了1000人，得到如下列联表：\n\n\\begin{array}{|c|c|c|c|}\n\\hline\n\\text{超声波检查结果/组别} & \\text{正常} & \\text{不正常} & \\text{合计} \\\\\n\\hline\n\\text{患该疾病} & 20 & 180 & 200 \\\\\n\\hline\n\\text{未患该疾病} & 780 & 20 & 800 \\\\\n\\hline\n\\text{合计} & 800 & 200 & 1000 \\\\\n\\hline\n\\end{array}\n\n记超声波检查结果不正常者患该疾病的概率为 $p$，求$p$的估计值；",
+    "reference": "$\\frac{9}{10}$",
+    "class": "2025高考数学",
+    "id": "ReLE-996ad2595",
+    "detail": "2025年新高考I卷-数学-解答题-15（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知椭圆$C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 (a > b > 0) $的离心率为$\\frac{2\\sqrt{2}}{3}$，椭圆下顶点为$A$，右顶点为$B$，$|AB|=\\sqrt{10}$。\n已知动点$P$不在$y$轴上，$R$在射线$AP$上，且满足$|AR|\\cdot|AP|=3$。\n（i）设$P(m, n)$，求$R$的坐标（用$m, n$表示）；\n（ii）设$O$为坐标原点，$Q$是$C$上的动点，直线$OR$的斜率是直线$OP$斜率的3倍，求$|PQ|$的最大值。",
+    "reference": "(i) $\\left(\\frac{3m}{m^2 + (n+1)^2},\\frac{-m^2 - n^2 + n + 2}{m^2 + (n+1)^2}\\right)$ \n (ii) $3\\sqrt{3} + 3\\sqrt{2}$",
+    "class": "2025高考数学",
+    "id": "ReLE-dc3eb4524",
+    "detail": "2025年新高考I卷-数学-解答题-18（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "已知复数$z$满足$z^2=(\\overline{z})^2$，$|z|\\leq 1$，则$|z-2-3i|$的最小值是________。",
+    "reference": "$2\\sqrt{2}$",
+    "class": "2025高考数学",
+    "id": "ReLE-a46e13267",
+    "detail": "2025年上海市高考试卷-数学-填空题-10",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "设$a>0,\\ s\\in\\mathbb{R}$。下列各项中，能推出$a^s>a$的一项是（  ）\n（A） $a>1,且s>0$\n（B） $a>1,且s<0$\n（C） $0<a<1,且s>0$\n（D） $0<a<1,且s<0$\n",
+    "reference": "D",
+    "class": "2025高考数学",
+    "id": "ReLE-253126695",
+    "detail": "2025年上海市高考试卷-数学-选择题-14"
+  },
+  {
+    "prompt": "2024年东京奥运会，中国获得了男子$4\\times 100$米混合泳接力金牌。以下是历届奥运会男子$4\\times 100$米混合泳接力项目冠军成绩记录（单位：秒），数据按照升序排列。\n206.78 207.46 207.95 209.34 209.35\n210.68 213.73 214.84 216.93 216.93\n从这10个数据中任选3个，求恰有2个数据在211以上的概率；",
+    "reference": "$\\frac{3}{10}$",
+    "class": "2025高考数学",
+    "id": "ReLE-cd6637395",
+    "detail": "2025年上海市高考试卷-数学-解答题-17（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "若点$(a,0)\\ (a>0)$是函数$y=2\\tan\\left(x-\\frac{\\pi}{3}\\right)$的图象的一个对称中心，则$a$的最小值为（  ）\n（A） $30^\\circ$\n（B） $60^\\circ$\n（C） $90^\\circ$\n（D） $135^\\circ$\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-507d21626",
+    "detail": "2025年新高考I卷-数学-选择题-4"
+  },
+  {
+    "prompt": "为研究某疾病与超声波检查结果的关系，从做过超声波检查的人群中随机调查了1000人，得到如下列联表：\n\n\\begin{array}{|c|c|c|c|}\n\\hline\n\\text{超声波检查结果/组别} & \\text{正常} & \\text{不正常} & \\text{合计} \\\\\n\\hline\n\\text{患该疾病} & 20 & 180 & 200 \\\\\n\\hline\n\\text{未患该疾病} & 780 & 20 & 800 \\\\\n\\hline\n\\text{合计} & 800 & 200 & 1000 \\\\\n\\hline\n\\end{array}\n\n根据小概率值$\\alpha=0.001$的独立性检验，分析超声波检查结果是否与患该疾病有关。\n\n附：$\\chi^2=\\frac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}$\n\n$P(\\chi^2\\geq k)$与$k$表如下：\n\\begin{array}{|c|c|c|c|}\n\\hline\nP(\\chi^2\\geq k) & 0.050 & 0.010 & 0.001 \\\\\n\\hline\nk & 3.841 & 6.635 & 10.828 \\\\\n\\hline\n\\end{array}",
+    "reference": "超声波检查结果与患该疾病有关",
+    "class": "2025高考数学",
+    "id": "ReLE-67f084852",
+    "detail": "2025年新高考I卷-数学-解答题-15（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "在 $\\triangle ABC$ 中，角 $A,B,C$ 的对边分别为 $a, b, c$。已知 $a\\sin B=\\sqrt{3}b\\cos A,\\ c=2b=1,\\ a=\\sqrt{7}$。\n求 $\\sin(A+2B)$ 的值。",
+    "reference": "$\\frac{4\\sqrt{3}}{7}$",
+    "class": "2025高考数学",
+    "id": "ReLE-663532143",
+    "detail": "2025年天津市高考试卷-数学-解答题-16（3）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "19. 已知椭圆 $E: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ ($a > b > 0$) 的离心率为 $\\frac{\\sqrt{2}}{2}$，椭圆上的点到两个焦点的距离之和为 4。\n求椭圆方程；",
+    "reference": "$\\frac{x^2}{4} + \\frac{y^2}{2} = 1$",
+    "class": "2025高考数学",
+    "id": "ReLE-5d6565603",
+    "detail": "2025年北京市高考试卷-数学-解答题19（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "6. 已知 $a > 0$, $b > 0$，则 (  )\n（A） $a^2 + b^2 > 2ab$\n（B） $\\frac{1}{a} + \\frac{1}{b} \\ge \\frac{1}{ab}$\n（C） $a + b > \\sqrt{ab}$\n（D） $\\frac{1}{a} + \\frac{1}{b} \\le \\frac{2}{\\sqrt{ab}}$\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-e47339591",
+    "detail": "2025年北京市高考试卷-数学-选择题6"
+  },
+  {
+    "prompt": "16. 在 $\\triangle ABC$ 中，$\\cos A = -\\frac{1}{3}$，$a \\sin C = 4\\sqrt{2}$，\n求 $c$；",
+    "reference": "c=6",
+    "class": "2025高考数学",
+    "id": "ReLE-063262622",
+    "detail": "2025年北京市高考试卷-数学-解答题16（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "5. 已知 $\\{a_n\\}$ 是公差不为 0 的等差数列，$a_1 = -2$，若 $a_3$, $a_4$, $a_6$ 成等比数列，则 $a_{10}$ = (   )\n（A） -20\n（B） -18\n（C） 16\n（D） 18\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-c3ca27612",
+    "detail": "2025年北京市高考试卷-数学-选择题5"
+  },
+  {
+    "prompt": "10. 已知平面直角坐标系 $xOy$ 中，$|\\vec{OA}| = |\\vec{OB}| = \\sqrt{2}$，$|\\vec{AB}| = 2$，设 $C(3, 4)$，则 $|2\\vec{CA} + \\vec{AB}|$ 的取值范围是（   ）\n（A） [6, 14]\n（B） [6, 12]\n（C） [8, 14]\n（D） [8, 12]\n",
+    "reference": "D",
+    "class": "2025高考数学",
+    "id": "ReLE-8c27e2738",
+    "detail": "2025年北京市高考试卷-数学-选择题10"
+  },
+  {
+    "prompt": "15. 已知函数 $f(x)$ 的定义域为 $\\mathbb{R}$，则下列说法正确的有 ______。\n① 存在在 $\\mathbb{R}$ 上单调递增的函数 $f(x)$ 使得 $f(x) + f(2x) = -x$ 恒成立；\n② 存在在 $\\mathbb{R}$ 上单调递减的函数 $f(x)$ 使得 $f(x) + f(2x) = -x$ 恒成立；\n③ 使得 $f(x) + f(-x) = \\cos x$ 恒成立的函数 $f(x)$ 存在且且有无穷多个；\n④ 使得 $f(x) - f(-x) = \\cos x$ 恒成立的函数 $f(x)$ 存在且且有无穷多个。",
+    "reference": "②③",
+    "class": "2025高考数学",
+    "id": "ReLE-1ffe05261",
+    "detail": "2025年北京市高考试卷-数学-填空题15",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "16. 在 $\\triangle ABC$ 中，$\\cos A = -\\frac{1}{3}$，$a \\sin C = 4\\sqrt{2}$，\n 再从条件①、条件②、条件③这三个条件中选择一个作为已知，使得 $\\triangle ABC$ 存在，求 $BC$ 边上的高。\n条件①：$a = 6$；\n条件②：$b \\sin C = \\frac{10\\sqrt{2}}{3}$；\n条件③：$\\triangle ABC$ 面积为 $10\\sqrt{2}$。\n注：如果选择的条件不符合要求，第(2)问得 0 分；如果选择多个符合要求的条件分别解答，按第一个解答得分。",
+    "reference": "选②，BC边上的高为 $\\frac{10\\sqrt{2}}{3}$；选③，BC边上的高为 $\\frac{20\\sqrt{2}}{9}$",
+    "class": "2025高考数学",
+    "id": "ReLE-761534285",
+    "detail": "2025年北京市高考试卷-数学-解答题16（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "18. 有一道选择题考查了一个知识点。甲、乙两校各随机抽取 100 人，甲校有 80 人答对，乙校有 75 人答对，用频率估计概率：\n若甲校同学掌握这个知识点则有 100% 的概率做对该题，乙校同学掌握该知识点的概率做对该题为 85%；未掌握该知识点的同学都是从四个选项里随机选择一个。设甲校学生掌握该知识点的概率为 $p_1$，乙校学生掌握该知识点的概率为 $p_2$，试比较 $p_1$ 与 $p_2$ 的大小（结论不要求证明）。",
+    "reference": "$P_2 > P_1$",
+    "class": "2025高考数学",
+    "id": "ReLE-a9d138163",
+    "detail": "2025年北京市高考试卷-数学-解答题18（3）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "7. 已知函数 $f(x)$ 的定义域为 $D$，则“函数 $f(x)$ 的值域为 $\\mathbb{R}$”是“对任意 $M \\in \\mathbb{R}$，存在 $x_0 \\in D$，使得 $|f(x_0)| > M$”的 (   )\n（A） 充分不必要条件\n（B） 必要不充分条件\n（C） 充分必要条件\n（D） 既不充分也不必要条件\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-6fa288524",
+    "detail": "2025年北京市高考试卷-数学-选择题7"
+  },
+  {
+    "prompt": "13. 已知 $\\alpha, \\beta \\in [0, 2\\pi]$，且 $\\sin(\\alpha + \\beta) = \\sin(\\alpha - \\beta)$，$\\cos(\\alpha + \\beta) \\ne \\cos(\\alpha - \\beta)$，写出满足条件的一组 $(\\alpha, \\beta) $= ______。",
+    "reference": "$\\left( \\frac{\\pi}{2}, \\frac{\\pi}{3} \\right)$，答案不唯一。",
+    "class": "2025高考数学",
+    "id": "ReLE-7f5c77117",
+    "detail": "2025年北京市高考试卷-数学-填空题13",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "18. 有一道选择题考查了一个知识点。甲、乙两校各随机抽取 100 人，甲校有 80 人答对，乙校有 75 人答对，用频率估计概率：\n从甲、乙两校各随机抽取 1 人，设 $X$ 为做对的总人数，求恰有 1 人做对的概率以及 $X$ 的数学期望；",
+    "reference": "1人做对的概率 $\\frac{7}{20}$；$E(X) = \\frac{31}{20}$",
+    "class": "2025高考数学",
+    "id": "ReLE-303875035",
+    "detail": "2025年北京市高考试卷-数学-解答题18（2）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "11. 已知抛物线 $y^2 = 2px$ ($p > 0$) 的顶点到焦点的距离为 3，则 $p$ = ______。",
+    "reference": "6",
+    "class": "2025高考数学",
+    "id": "ReLE-9f24c8143",
+    "detail": "2025年北京市高考试卷-数学-填空题11",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "2. 已知复数 $z$ 满足 $i \\cdot z + 2 = 2i$，则 $|z|$ = (  )\n（A） $\\sqrt{2}$\n（B） $2\\sqrt{2}$\n（C） 4\n（D） 8\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-9a64e7415",
+    "detail": "2025年北京市高考试卷-数学-选择题2"
+  },
+  {
+    "prompt": "12. 已知 $(1 - 2x)^4 = a_0 - 2a_1x + 4a_2x^2 - 8a_3x^3 + 16a_4x^4$，则 $a_0$ = ______；$a_1 + a_2 + a_3 + a_4$ = ______。",
+    "reference": "1；15",
+    "class": "2025高考数学",
+    "id": "ReLE-72cf35851",
+    "detail": "2025年北京市高考试卷-数学-填空题12",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "3. 双曲线 $x^2 - 4y^2 = 4$ 的离心率为 (   )\n（A） $\\frac{\\sqrt{3}}{2}$\n（B） $\\frac{\\sqrt{5}}{2}$\n（C） $\\frac{5}{4}$\n（D） $\\sqrt{5}$\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-cf3256989",
+    "detail": "2025年北京市高考试卷-数学-选择题3"
+  },
+  {
+    "prompt": "18. 有一道选择题考查了一个知识点。甲、乙两校各随机抽取 100 人，甲校有 80 人答对，乙校有 75 人答对，用频率估计概率：\n从甲校随机抽取 1 人，求这个人做对该题的概率；",
+    "reference": "$\\frac{4}{5}$",
+    "class": "2025高考数学",
+    "id": "ReLE-511625590",
+    "detail": "2025年北京市高考试卷-数学-解答题18（1）",
+    "mode": "free_form"
+  },
+  {
+    "prompt": "8. 设函数 $f(x) = \\sin(\\omega x) + \\cos(\\omega x) (\\omega > 0)$，若 $f(x + \\pi) = f(x)$ 恒成立，且 $f(x)$ 在 $[0, \\frac{\\pi}{4}]$ 上存在零点，则 $\\omega$ 的最小值为 (   )\n（A） 8\n（B） 6\n（C） 4\n（D） 3\n",
+    "reference": "C",
+    "class": "2025高考数学",
+    "id": "ReLE-a4b9a1113",
+    "detail": "2025年北京市高考试卷-数学-选择题8"
+  },
+  {
+    "prompt": "9. 在一定条件下，某人工智能大语言模型训练 $N$ 个单位的数据量所需要时间 $T = k \\log_2 N$ (单位：小时)，其中 $k$ 为常数，在此条件下，已知训练数据量 $N$ 从 $10^6$ 个单位增加到 $1.024 \\times 10^9$ 个单位时，训练时间增加 20 小时；当训练数据量 $N$ 从 $1.024 \\times 10^9$ 个单位增加到 $4.096 \\times 10^9$ 个单位时，训练时间增加（单位：小时）(   )\n（A） 2\n（B） 4\n（C） 20\n（D） 40\n",
+    "reference": "B",
+    "class": "2025高考数学",
+    "id": "ReLE-8ca865526",
+    "detail": "2025年北京市高考试卷-数学-选择题9"
+  },
+  {
+    "prompt": "1. 集合 $M=\\{x\\mid 2x - 1 > 5\\}$，$N=\\{1, 2, 3\\}$，则 $M \\cap N $= (  )\n（A） {1, 2, 3}\n（B） {2, 3}\n（C） {3}\n（D） ∅\n",
+    "reference": "D",
+    "class": "2025高考数学",
+    "id": "ReLE-572125715",
+    "detail": "2025年北京市高考试卷-数学-选择题1"
+  },
+  {
+    "prompt": "4. 为得到函数 $y = 9^x$ 的图像，只需把函数 $y = 3^x$ 的图像上的所有点 (  )\n（A） 横坐标变成原来的 $\\frac{1}{2}$ 倍，纵坐标不变\n（B） 横坐标变成原来的 2 倍，纵坐标不变\n（C） 纵坐标变成原来的 $\\frac{1}{3}$ 倍，横坐标不变\n（D） 纵坐标变成原来的 3 倍，横坐标不变\n",
+    "reference": "A",
+    "class": "2025高考数学",
+    "id": "ReLE-ea36c9760",
+    "detail": "2025年北京市高考试卷-数学-选择题4"
+  },
+  {
+    "prompt": "19. 已知椭圆 $E: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ ($a > b > 0$) 的离心率为 $\\frac{\\sqrt{2}}{2}$，椭圆上的点到两个焦点的距离之和为 4。\n设 $O$ 为原点，$M(x_0, y_0)(x_0 \\ne 0)$ 为椭圆上一点，直线 $x_0 x + 2y_0 y - 4 = 0$ 与 $y = 2$ 和 $y = -2$ 分别交于 $A, B$ 两点。设 $\\triangle OMA$ 和 $\\triangle OMB$ 的面积分别为 $S_1$ 和 $S_2$，猜想 $\\frac{S_1}{S_2}$ 与 $\\frac{|OA|}{|OB|}$ 的数量关系并求证。",
+    "reference": "$\\frac{S_1}{S_2} = \\frac{|\\mathrm{OA}|}{|\\mathrm{OB}|}$",
+    "class": "2025高考数学",
+    "id": "ReLE-f61349175",
+    "detail": "2025年北京市高考试卷-数学-解答题19（2）",
+    "mode": "free_form"
+  }
+]

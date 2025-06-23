@@ -90,6 +90,7 @@
 
 # 最近更新
 - [2025/6/23] v3.33版本
+  - 开放数据：我们开放了2025高考已收集的所有真题数据（公式已LaTex），详见[link](opendata/2025高考各省真题)
   - “高考”新增生物、化学、地理、历史、物理、政治6科的真题数据（来自新解锁的各省试卷），详见[link](#35-高考)
   - 新增模型：MiniMax-M1、qwen-plus-2025-04-28、qwen-plus-think-2025-04-28（qwen-plus开启思考模式）、qwen-turbo-2025-04-28、qwen-turbo-think-2025-04-28（qwen-turbo开启思考模式），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 更新模型：GLM-Z1-Air，相关分数有所更新
