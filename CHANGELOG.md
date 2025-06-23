@@ -1,4 +1,9 @@
 ## 最近更新
+- [2025/6/23] v3.33版本
+  - “高考”新增生物、化学、地理、历史、物理、政治6科的真题数据（来自新解锁的各省试卷），详见[link](#35-高考)
+  - 新增模型：MiniMax-M1、qwen-plus-2025-04-28、qwen-plus-think-2025-04-28（qwen-plus开启思考模式）、qwen-turbo-2025-04-28、qwen-turbo-think-2025-04-28（qwen-turbo开启思考模式），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 更新模型：GLM-Z1-Air，相关分数有所更新
+  - 删除陈旧的模型：gemini-2.5-pro-preview-03-25、gemini-2.5-flash-preview-04-17、Llama-3.1-8B-Instruct、Llama-3.2-1B-Instruct、Llama-3.2-3B-Instruct、Llama-3.3-70B-Instruct、Llama-3.3-70B-Instruct-fp8
 - [2025/6/18] v3.32版本
   - “高考”新增2025年生物、化学、地理、数学、政治5科的真题数据（来自新解锁的各省试卷），大部分模型的准确率明显下降，排名也有所变化，**hunyuan-t1-20250529数学第一，准确率93%；DeepSeek-R1-0528未进前五，准确率仅90%**，详见[link](#35-高考)
   - 新增模型：豆包seed1.6系列4个模型，doubao-seed-1-6-flash-250615、doubao-seed-1-6-flash-thinking-250615（seed1.6flash开启思考模式）、doubao-seed-1-6-250615、doubao-seed-1-6-thinking-250615，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
