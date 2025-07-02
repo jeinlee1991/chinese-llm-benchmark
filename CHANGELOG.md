@@ -1,8 +1,13 @@
 ## 最近更新
+- [2025/7/2] v4.0版本
+  - 首次新增多模态评测：“公式识别”，覆盖常见的数学、物理、化学公式，详见[link](leaderboard/公式识别.md)
+  - 新增4个语言大模型：腾讯首个混合推理模型 Hunyuan-A13B-Instruct、百度ERNIE4.5系列开源模型（ERNIE-4.5-0.3B、ERNIE-4.5-21B-A3B、ERNIE-4.5-300B-A47B），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 更新数据：各维度新增及更新部分评测数据，各模型相关分数有所更新
+  - 删除陈旧的模型：DeepSeek-R1-Distill-Qwen-7B、DeepSeek-R1-Distill-Llama-8B、DeepSeek-R1-Distill-Llama-70B
 - [2025/6/23] v3.33版本
   - **开放数据**：我们开放了所有已收集的**2025高考真题数据**（公式已转LaTex），详见[link](opendata/2025高考各省真题)
   - “高考”新增生物、化学、地理、历史、物理、政治6科的真题数据（来自新解锁的各省试卷），详见[link](#35-高考)
-  - 新增模型：MiniMax-M1、qwen-plus-2025-04-28、qwen-plus-think-2025-04-28（qwen-plus开启思考模式）、qwen-turbo-2025-04-28、qwen-turbo-think-2025-04-28（qwen-turbo开启思考模式），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 新增5个模型：MiniMax-M1、qwen-plus-2025-04-28、qwen-plus-think-2025-04-28（qwen-plus开启思考模式）、qwen-turbo-2025-04-28、qwen-turbo-think-2025-04-28（qwen-turbo开启思考模式），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 更新模型：GLM-Z1-Air，相关分数有所更新
   - 删除陈旧的模型：gemini-2.5-pro-preview-03-25、gemini-2.5-flash-preview-04-17、Llama-3.1-8B-Instruct、Llama-3.2-1B-Instruct、Llama-3.2-3B-Instruct、Llama-3.3-70B-Instruct、Llama-3.3-70B-Instruct-fp8
 - [2025/6/18] v3.32版本
