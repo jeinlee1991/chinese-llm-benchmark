@@ -7,7 +7,7 @@
 |4|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|73.3%| |        82.9%|81.4%|77.2%|62.0%|        70.0%|66.2%|        65.8%|81.0%|
 |5|GLM-Z1-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|70.6%| |        66.6%|72.2%|71.9%|50.0%|        82.0%|63.8%|        77.3%|81.0%|
 |6|DeepSeek-R1-0528-Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|68.6%| |        65.9%|73.1%|67.4%|51.7%|        70.0%|66.2%|        75.7%|78.4%|
-|7|ERNIE-4.5-21B-A3B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.0元|67.8%| |        73.8%|76.5%|68.4%|56.7%|        62.0%|73.8%|        51.2%|79.7%|
+|7|ERNIE-4.5-21B-A3B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.0元|67.7%| |        73.8%|76.6%|68.4%|56.7%|        62.0%|73.8%|        51.2%|79.4%|
 |8|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|67.6%| |        68.7%|73.1%|71.4%|50.0%|        78.0%|61.2%|        61.5%|76.9%|
 |9|yi-lightning☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|零一万物|0.99元|66.2%| |        72.4%|68.5%|68.0%|53.0%|        58.0%|73.8%|        61.4%|74.8%|
 |10|qwen-turbo-2025-04-28☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|0.6元|66.1%| |        71.6%|76.0%|69.6%|46.7%|        56.7%|62.5%|        64.6%|80.8%|
@@ -33,7 +33,7 @@
 |30|ministral-8b☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Mistral|0.72元|36.0%| |        32.4%|39.3%|39.1%|23.0%|        30.0%|20.0%|        46.4%|58.1%|
 |31|ministral-3b☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Mistral|0.29元|31.9%| |        28.1%|32.5%|34.9%|10.7%|        32.0%|25.0%|        43.3%|49.1%|
 |32|ERNIE-Tiny-8K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|0.0元|31.2%| |        26.3%|31.4%|28.6%|28.3%|        32.0%|37.5%|        18.7%|46.4%|
-|33|ERNIE-4.5-0.3B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.0元|30.3%| |        24.8%|25.4%|30.0%|20.0%|        46.0%|28.8%|        23.8%|43.5%|
+|33|ERNIE-4.5-0.3B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.0元|30.2%| |        24.8%|25.0%|30.0%|20.0%|        46.0%|28.8%|        23.4%|43.4%|
 |34|qwen2.5-0.5b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|28.3%| |        28.1%|29.5%|35.0%|25.8%|        18.0%|25.0%|        26.9%|38.4%|
 |35|xunfei-spark-lite☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|0.0元|23.8%| |        20.9%|22.8%|18.5%|25.7%|        24.0%|27.5%|        13.6%|37.8%|
     

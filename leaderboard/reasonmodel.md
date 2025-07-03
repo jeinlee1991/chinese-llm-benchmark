@@ -13,10 +13,10 @@
 |10|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|78.8%| |        81.3%|87.4%|78.1%|70.0%|        90.0%|58.2%|        83.6%|81.9%|
 |11|doubao-seed-1-6-flash-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.75元|78.3%| |        83.2%|85.0%|79.2%|77.2%|        80.0%|70.0%|        69.5%|82.3%|
 |12|Qwen3-32B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|4.0元|77.8%| |        81.8%|82.3%|79.7%|65.6%|        73.3%|81.2%|        79.3%|78.9%|
-|13|MiniMax-M1(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|minimax|8.0元|77.6%| |        77.9%|82.1%|78.0%|70.0%|        80.0%|72.5%|        78.9%|81.0%|
-|14|qwq-plus-2025-03-05☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|4.0元|77.4%| |        77.4%|84.4%|78.2%|66.0%|        80.0%|75.0%|        79.3%|78.8%|
-|15|qwq-32b☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|77.2%| |        77.9%|84.0%|78.6%|65.7%|        82.0%|72.5%|        76.6%|80.2%|
-|16|xunfei-spark-x1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|12.0元|76.5%| |        77.5%|81.7%|80.4%|67.7%|        80.0%|62.5%|        76.8%|85.1%|
+|13|qwq-plus-2025-03-05☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|4.0元|77.4%| |        77.4%|84.4%|78.2%|66.0%|        80.0%|75.0%|        79.3%|78.8%|
+|14|qwq-32b☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|77.2%| |        77.9%|84.0%|78.6%|65.7%|        82.0%|72.5%|        76.6%|80.2%|
+|15|xunfei-spark-x1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|12.0元|76.5%| |        77.5%|81.7%|80.4%|67.7%|        80.0%|62.5%|        76.8%|85.1%|
+|16|MiniMax-M1(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|minimax|8.0元|76.4%| |        77.9%|80.3%|78.0%|68.0%|        78.0%|72.5%|        78.6%|77.8%|
 |17|qwen-turbo-think-2025-04-28☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|6.0元|76.4%| |        75.5%|80.2%|73.8%|57.2%|        90.0%|71.2%|        79.5%|83.5%|
 |18|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|76.0%| |        78.2%|79.3%|80.2%|63.9%|        73.3%|73.8%|        79.6%|80.0%|
 |19|Qwen3-30B-A3B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.8元|75.3%| |        78.1%|82.7%|78.4%|52.8%|        66.7%|80.0%|        81.2%|82.6%|
@@ -24,7 +24,7 @@
 |21|GLM-Z1-32B-0414☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|4.0元|75.2%| |        74.0%|80.1%|74.0%|63.3%|        80.0%|75.0%|        76.7%|78.2%|
 |22|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|74.3%| |        74.0%|80.2%|75.1%|62.3%|        70.0%|75.0%|        76.5%|81.3%|
 |23|gemini-2.5-pro-preview-05-06☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|74.1%| |        76.9%|83.8%|72.5%|53.3%|        80.0%|56.2%|        89.0%|80.9%|
-|24|Hunyuan-A13B-Instruct(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|4.0元|73.3%| |        72.2%|82.3%|69.4%|60.7%|        84.0%|66.2%|        73.1%|78.8%|
+|24|Hunyuan-A13B-Instruct(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|4.0元|73.4%| |        72.2%|82.3%|69.4%|60.7%|        84.0%|66.2%|        73.1%|79.6%|
 |25|claude-4-sonnet-thinking☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|71.2%| |        73.7%|77.3%|72.2%|50.0%|        80.0%|51.2%|        79.4%|86.0%|
 |26|DeepSeek-R1-Distill-Qwen-32B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|1.26元|71.2%| |        70.5%|77.4%|72.8%|57.0%|        74.0%|75.0%|        68.6%|74.1%|
 |27|gemini-2.5-flash-preview-05-20☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|25.38元|70.7%| |        73.3%|80.0%|67.0%|60.0%|        80.0%|47.5%|        82.5%|75.1%|

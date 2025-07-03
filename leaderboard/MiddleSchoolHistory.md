@@ -15,14 +15,14 @@
 |商用|百度|ERNIE-X1-Turbo-32K|91.7%|12|
 |商用|豆包|doubao-seed-1-6-thinking-250615(new)|91.7%|13|
 |商用|豆包|doubao-seed-1-6-250615(new)|91.7%|14|
-|商用|豆包|doubao-seed-1-6-flash-thinking-250615(new)|91.7%|15|
+|开源|百度|ERNIE-4.5-300B-A47B(new)|91.7%|15|
 |开源|智谱AI|GLM-Z1-32B-0414|91.7%|16|
 |开源|阿里巴巴|Qwen3-32B|91.7%|17|
 |商用|阿里巴巴|qwq-plus-2025-03-05|91.7%|18|
 |商用|腾讯|hunyuan-t1-20250321|91.7%|19|
 |开源|腾讯|Hunyuan-A13B-Instruct(new)|91.7%|20|
-|商用|科大讯飞|xunfei-4.0Ultra|90.5%|21|
-|开源|百度|ERNIE-4.5-300B-A47B(new)|90.0%|22|
+|商用|豆包|doubao-seed-1-6-flash-thinking-250615(new)|91.7%|21|
+|商用|科大讯飞|xunfei-4.0Ultra|90.5%|22|
 |开源|阿里巴巴|qwen2.5-32b-instruct|87.5%|23|
 |开源|阿里巴巴|Qwen3-235B-A22B|87.5%|24|
 |商用|阿里巴巴|qwen-plus-think-2025-04-28|87.5%|25|

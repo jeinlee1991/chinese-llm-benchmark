@@ -7,6 +7,6 @@
 |4|Qwen3-0.6B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|40.1%| |        33.8%|38.9%|40.5%|13.3%|        46.7%|25.0%|        54.4%|68.3%|
 |5|qwen2.5-1.5b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|39.1%| |        46.0%|45.8%|44.6%|26.4%|        28.0%|46.2%|        28.4%|47.2%|
 |6|gemma-3-4b-it☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Google|0.0元|38.4%| |        33.0%|38.0%|39.4%|21.0%|        36.0%|35.8%|        49.5%|54.6%|
-|7|ERNIE-4.5-0.3B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.0元|30.3%| |        24.8%|25.4%|30.0%|20.0%|        46.0%|28.8%|        23.8%|43.5%|
+|7|ERNIE-4.5-0.3B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.0元|30.2%| |        24.8%|25.0%|30.0%|20.0%|        46.0%|28.8%|        23.4%|43.4%|
 |8|qwen2.5-0.5b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|28.3%| |        28.1%|29.5%|35.0%|25.8%|        18.0%|25.0%|        26.9%|38.4%|
     

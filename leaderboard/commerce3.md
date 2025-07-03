@@ -16,7 +16,7 @@
 |13|Qwen3-30B-A3B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.8元|75.3%| |        78.1%|82.7%|78.4%|52.8%|        66.7%|80.0%|        81.2%|82.6%|
 |14|GLM-Z1-32B-0414☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|4.0元|75.2%| |        74.0%|80.1%|74.0%|63.3%|        80.0%|75.0%|        76.7%|78.2%|
 |15|qwen-plus-2025-04-28☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|2.0元|75.2%| |        79.3%|78.7%|78.3%|65.0%|        83.3%|70.0%|        66.3%|80.3%|
-|16|Hunyuan-A13B-Instruct(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|4.0元|73.3%| |        72.2%|82.3%|69.4%|60.7%|        84.0%|66.2%|        73.1%|78.8%|
+|16|Hunyuan-A13B-Instruct(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|4.0元|73.4%| |        72.2%|82.3%|69.4%|60.7%|        84.0%|66.2%|        73.1%|79.6%|
 |17|Llama-4-Maverick-17B-128E-Instruct-FP8☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Meta|4.35元|72.5%| |        75.3%|76.5%|72.1%|59.0%|        70.0%|81.2%|        66.8%|78.7%|
 |18|GLM-4-32B-0414☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|1.89元|71.6%| |        71.4%|74.8%|72.7%|60.0%|        78.0%|71.7%|        64.8%|79.8%|
 |19|qwen-plus-2025-01-25☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|2.0元|71.2%| |        76.3%|73.5%|77.4%|64.3%|        62.0%|78.8%|        59.4%|78.3%|
