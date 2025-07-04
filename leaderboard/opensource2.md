@@ -1,9 +1,9 @@
 ##### （2）5B~20B开源大模型排行榜
 |排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|76.0%| |        78.2%|79.3%|80.2%|63.9%|        73.3%|73.8%|        79.6%|80.0%|
-|2|DeepSeek-R1-0528-Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|68.6%| |        65.9%|73.1%|67.4%|51.7%|        70.0%|66.2%|        75.7%|78.4%|
-|3|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|67.6%| |        68.7%|73.1%|71.4%|50.0%|        78.0%|61.2%|        61.5%|76.9%|
+|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|74.0%| |        77.0%|80.0%|80.2%|60.3%|        72.0%|67.5%|        76.2%|79.0%|
+|2|DeepSeek-R1-0528-Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|68.3%| |        65.9%|73.8%|67.4%|47.0%|        70.0%|66.2%|        76.1%|79.7%|
+|3|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|67.6%| |        68.7%|73.1%|71.4%|50.0%|        78.0%|61.2%|        61.5%|76.6%|
 |4|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.7元|64.5%| |        62.0%|73.4%|68.8%|40.7%|        60.0%|68.8%|        67.7%|75.0%|
 |5|qwen2.5-14b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|64.4%| |        69.2%|69.4%|67.7%|56.3%|        60.0%|62.5%|        54.8%|75.5%|
 |6|GLM-Z1-9B-0414☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|0.0元|60.5%| |        57.8%|65.9%|65.8%|35.0%|        78.0%|37.5%|        70.8%|73.2%|
