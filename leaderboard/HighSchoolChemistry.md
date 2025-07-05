@@ -46,9 +46,9 @@
 |商用|月之暗面|kimi-latest-8k|71.1%|43|
 |商用|科大讯飞|xunfei-spark-max|71.1%|44|
 |开源|智谱AI|GLM-4-32B-0414|71.1%|45|
-|商用|阶跃星辰|step-r1-v-mini|70.0%|46|
+|开源|深度求索|DeepSeek-R1-0528-Qwen3-8B|69.7%|46|
 |商用|阿里巴巴|qwen-turbo-2025-04-28|69.7%|47|
-|开源|深度求索|DeepSeek-R1-0528-Qwen3-8B|69.7%|48|
+|商用|阶跃星辰|step-r1-v-mini|69.7%|48|
 |开源|minimax|MiniMax-Text-01|68.4%|49|
 |商用|科大讯飞|xunfei-spark-pro|68.4%|50|
 |商用|百度|ERNIE-3.5-8K|68.4%|51|

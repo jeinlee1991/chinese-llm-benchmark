@@ -10,10 +10,10 @@
 |7|hunyuan-large☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|腾讯|12.0元|78.5%| |        89.8%|79.0%|83.5%|82.3%|        68.0%|86.2%|        60.2%|79.0%|
 |8|GLM-Z1-AirX☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|5.0元|78.2%| |        78.2%|84.9%|77.4%|67.7%|        82.0%|72.5%|        78.8%|84.0%|
 |9|deepseek-chat-v3-0324☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|8.0元|78.2%| |        80.1%|80.9%|76.8%|70.0%|        80.0%|78.8%|        74.6%|84.1%|
-|10|qwq-32b☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|77.2%| |        77.9%|84.0%|78.6%|65.7%|        82.0%|72.5%|        76.6%|80.2%|
-|11|MiniMax-M1(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|minimax|8.0元|76.9%| |        77.9%|81.2%|78.0%|68.0%|        78.0%|72.5%|        79.9%|79.8%|
-|12|xunfei-spark-x1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|12.0元|76.5%| |        77.5%|81.7%|80.4%|67.7%|        80.0%|62.5%|        76.8%|85.1%|
-|13|step-r1-v-mini☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阶跃星辰|8.0元|75.0%| |        74.6%|82.0%|71.1%|60.0%|        87.5%|61.1%|        79.6%|83.7%|
+|10|step-r1-v-mini☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阶跃星辰|8.0元|77.7%| |        74.1%|81.2%|77.4%|69.7%|        86.0%|75.0%|        77.3%|80.7%|
+|11|qwq-32b☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|6.0元|77.2%| |        77.9%|84.0%|78.6%|65.7%|        82.0%|72.5%|        76.6%|80.2%|
+|12|MiniMax-M1(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|minimax|8.0元|76.9%| |        77.9%|81.2%|78.0%|68.0%|        78.0%|72.5%|        79.9%|79.8%|
+|13|xunfei-spark-x1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|12.0元|76.5%| |        77.5%|81.7%|80.4%|67.7%|        80.0%|62.5%|        76.8%|85.1%|
 |14|GLM-4-Plus☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|5.0元|74.8%| |        79.2%|78.8%|79.9%|67.7%|        74.0%|71.2%|        63.7%|83.7%|
 |15|qwen2.5-max☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|9.6元|73.1%| |        78.8%|74.4%|74.7%|66.3%|        64.0%|76.2%|        66.7%|83.2%|
 |16|gemini-2.5-flash-preview-05-20☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|25.38元|73.0%| |        73.0%|79.1%|68.7%|61.3%|        78.0%|65.0%|        80.6%|78.4%|

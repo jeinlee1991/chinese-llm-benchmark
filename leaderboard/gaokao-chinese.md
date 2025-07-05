@@ -41,13 +41,13 @@
 |开源|阿里巴巴|qwen2.5-32b-instruct|80.5%|38|
 |开源|阿里巴巴|qwq-32b|80.5%|39|
 |商用|豆包|Doubao-1.5-thinking-pro|80.0%|40|
-|商用|阶跃星辰|step-r1-v-mini|80.0%|41|
+|开源|minimax|MiniMax-M1(new)|80.0%|41|
 |商用|智谱AI|GLM-4-Air|80.0%|42|
 |商用|百度|ERNIE-3.5-8K|80.0%|43|
 |商用|月之暗面|kimi-latest-8k|80.0%|44|
-|开源|minimax|MiniMax-M1(new)|80.0%|45|
-|商用|奇虎360|360gpt-turbo|79.5%|46|
-|商用|阶跃星辰|step-2-mini|79.5%|47|
+|商用|奇虎360|360gpt-turbo|79.5%|45|
+|商用|阶跃星辰|step-2-mini|79.5%|46|
+|商用|阶跃星辰|step-r1-v-mini|79.0%|47|
 |商用|阿里巴巴|qwen-plus-2025-04-28|78.8%|48|
 |开源|腾讯|Hunyuan-A13B-Instruct(new)|78.0%|49|
 |商用|阿里巴巴|qwq-plus-2025-03-05|77.9%|50|
