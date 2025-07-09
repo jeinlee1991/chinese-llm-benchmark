@@ -1,4 +1,9 @@
 ## 最近更新
+- [2025/7/9] v4.1版本
+  - 8大评测领域调整为6大：“心理健康”合并到“医疗与心理健康”、“行政公务”合并到“法律与行政公务”，各模型整体排名有所变化
+  - 新增各模型在各评测维度的耗时、消耗token等信息，详见各维度榜单
+  - 新增3个语言大模型：Gemini2.5系列（gemini-2.5-pro稳定版、gemini-2.5-flash稳定版、gemini-2.5-flash-lite-preview-06-17），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 新增3个多模态模型：GLM-4.1V-Thinking-FlashX、GLM-4.1V-Thinking-Flash、GLM-4.1V-9B-Thinking，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/7/2] v4.0版本
   - 首次新增多模态评测：“公式识别”，覆盖常见的数学、物理、化学公式，详见[link](leaderboard/公式识别.md)
   - 新增4个语言大模型：腾讯首个混合推理模型 Hunyuan-A13B-Instruct、百度ERNIE4.5系列开源模型（ERNIE-4.5-0.3B、ERNIE-4.5-21B-A3B、ERNIE-4.5-300B-A47B），☛查看[模型完整信息](https://nonelinear.com/static/models.html)

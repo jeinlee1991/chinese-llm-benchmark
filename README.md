@@ -1,9 +1,9 @@
 
 # ReLE中文大模型能力评测（持续更新）
 - 原名CLiB，现已更名为ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM）
-- 目前已囊括261个大模型，覆盖chatgpt、gpt-4.1、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括267个大模型，覆盖chatgpt、gpt-4.1、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及DeepSeek-R1-0528、qwq-32b、deepseek-v3、qwen3、llama4、phi-4、glm4、gemma3、mistral、书生internLM2.5等开源大模型。
-- 支持多维度能力评测，包括医疗、教育、金融、法律、行政公务、心理健康、推理与数学计算、语言与指令遵从等8个领域，以及细分的~300个维度（比如牙科、高中语文…）。
+- 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从等6个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
 - 为您的私有大模型提供免费评测服务，联系我们：[加微信](#联系我们)
 
@@ -16,80 +16,46 @@
   - [1、综合能力排行榜](#1综合能力排行榜)
     - [1.1 推理类模型排行榜](#11推理类模型排行榜)
     - [1.2 商用大模型排行榜（含开源模型的付费API）](#12商用大模型排行榜含开源模型的付费API)
-      - 输出价格30元及以上
-      - 输出价格5~30元
-      - 输出价格1~5元
-      - 输出价格1元以下
     - [1.3 开源大模型排行榜](#13开源大模型排行榜)
-      - 5B以下
-      - 5B~20B
-      - 20B以上
-  - [2、医疗排行榜](#2医疗排行榜)    
-    - [2.1 医师](#21-医师)
-    - [2.2 护理](#22-护理)
-    - [2.3 药师](#23-药师)
-    - [2.4 医技](#24-医技)
-    - [2.5 医学基础知识](#25-医学基础知识)
-    - [2.6 医学考研](#26-医学考研)
-  - [3、教育排行榜](#3教育排行榜)
-    - [3.1 小学学科](#31-小学学科)
-    - [3.2 初中学科](#32-初中学科)
-    - [3.3 中考TODO](#33-中考TODO)
-    - [3.4 高中学科](#34-高中学科)
-    - [3.5 高考](#35-高考)
-    - [3.6 高等教育TODO](#36-高等教育TODO)
-    - [3.7 考研TODO](#37-考研TODO)
-    - [3.8 教师资格TODO](#37-教师资格TODO)
+  - [2、教育排行榜](#2教育排行榜)
+    - [2.1 小学学科](#21-小学学科) &nbsp;|&nbsp; [2.2 初中学科](#22-初中学科) &nbsp;|&nbsp; [2.3 中考TODO](#23-中考TODO)
+    - [2.4 高中学科](#24-高中学科) &nbsp;|&nbsp; [2.5 高考](#25-高考) &nbsp;|&nbsp; [2.6 高等教育TODO](#26-高等教育TODO)
+    - [2.7 考研TODO](#27-考研TODO) &nbsp;|&nbsp; [2.8 教师资格TODO](#28-教师资格TODO)
+  - [3、医疗与心理健康排行榜](#3医疗与心理健康排行榜)    
+    - [3.1 医师](#31-医师) &nbsp;|&nbsp; [3.2 护理](#32-护理) &nbsp;|&nbsp; [3.3 药师](#33-药师)
+    - [3.4 医技](#34-医技) &nbsp;|&nbsp; [3.5 医学基础知识](#35-医学基础知识) &nbsp;|&nbsp; [3.6 医学考研](#36-医学考研)
+    - [3.7 心理健康](#37-心理健康)
   - [4、金融排行榜](#4金融排行榜)
-    - [4.1 财务](#41-财务)
-    - [4.2 银行](#42-银行)
-    - [4.3 保险](#43-保险)
-    - [4.4 证券](#44-证券)
-    - [4.5 其他金融资格考试](#45-其他金融资格考试)
-    - [4.6 金融基础知识](#46-金融基础知识)
+    - [4.1 财务](#41-财务) &nbsp;|&nbsp; [4.2 银行](#42-银行) &nbsp;|&nbsp; [4.3 保险](#43-保险)
+    - [4.4 证券](#44-证券) &nbsp;|&nbsp; [4.5 其他金融资格考试](#45-其他金融资格考试) &nbsp;|&nbsp; [4.6 金融基础知识](#46-金融基础知识)
     - [4.7 金融应用](#47-金融应用)
-  - [5、法律排行榜](#5法律排行榜)
+  - [5、法律与行政公务排行榜](#5法律与行政公务排行榜)
     - [5.1 律师资格考试](#51-律师资格考试)
-  - [6、行政公务排行榜](#6行政公务排行榜)
-    - [6.1 公务员考试](#61-公务员考试)
-  - [7、心理健康排行榜](#7心理健康排行榜)
-  - [8、推理与数学计算排行榜](#8推理与数学计算排行榜)
-    - [8.1 演绎推理](#81-演绎推理)  
-    - [8.2 常识推理](#82-常识推理)
-    - [8.3 符号推理BBH](#83-符号推理BBH)
-    - [8.4 算术能力](#84-算术能力)
-    - [8.5 表格问答](#85-表格问答)
-    - [8.6 高中奥数](#86-高中奥数)
-    - [8.7 初中奥数TODO](#87-初中奥数TODO)
-    - [8.8 小学奥数](#88-小学奥数)
-    - [8.9 地图推理TODO](#89-地图推理TODO)
-    - [8.10 空间推理TODO](#810-空间推理TODO)
-    - [8.11 数独](#811-数独)
-    - [8.12 金额大小写转换TODO](#812-金额大小写转换TODO)
-    - [8.13 日期计算TODO](#813-日期计算TODO)
-  - [9、语言与指令遵从排行榜](#9语言与指令遵从排行榜)
-    - [9.1 成语理解](#91-成语理解)
-    - [9.2 情感分析](#92-情感分析)  
-    - [9.3 文本蕴含](#93-文本蕴含)
-    - [9.4 文本分类](#94-文本分类)
-    - [9.5 信息抽取](#95-信息抽取)
-    - [9.6 阅读理解](#96-阅读理解)
-    - [9.7 代词理解](#97-代词理解)
-    - [9.8 诗词匹配](#98-诗词匹配)
-    - [9.9 中文指令遵从](#99-中文指令遵从)
-    - [9.10 汉字字形](#910-汉字字形)
-    - [9.11 汉语拼音TODO](#911-汉语拼音TODO)
-    - [9.12 找错别字TODO](#912-找错别字TODO)
-    - [9.13 句子理解TODO](#913-句子理解TODO)
-    - [9.14 标点符号TODO](#914-标点符号TODO)
-    - [9.15 汉字繁简转换TODO](#915-汉字繁简转换TODO)
-    - [9.16 语种识别TODO](#916-语种识别TODO)
+    - [5.2 公务员考试](#52-公务员考试)
+  - [6、推理与数学计算排行榜](#6推理与数学计算排行榜)
+    - [6.1 演绎推理](#61-演绎推理)  &nbsp;|&nbsp; [6.2 常识推理](#62-常识推理) &nbsp;|&nbsp; [6.3 符号推理BBH](#63-符号推理BBH)
+    - [6.4 算术能力](#64-算术能力) &nbsp;|&nbsp; [6.5 表格问答](#65-表格问答) 
+    - [6.6 高中奥数](#66-高中奥数) &nbsp;|&nbsp; [6.7 初中奥数TODO](#67-初中奥数TODO) &nbsp;|&nbsp; [6.8 小学奥数](#68-小学奥数)
+    - [6.9 地图推理TODO](#69-地图推理TODO) &nbsp;|&nbsp; [6.10 空间推理TODO](#610-空间推理TODO) &nbsp;|&nbsp; [6.11 数独](#611-数独)
+    - [6.12 金额大小写转换TODO](#612-金额大小写转换TODO) &nbsp;|&nbsp; [6.13 日期计算TODO](#613-日期计算TODO)
+  - [7、语言与指令遵从排行榜](#7语言与指令遵从排行榜)
+    - [7.1 成语理解](#71-成语理解) &nbsp;|&nbsp; [7.2 情感分析](#72-情感分析) &nbsp;|&nbsp; [7.3 文本蕴含](#73-文本蕴含) 
+    - [7.4 文本分类](#74-文本分类) &nbsp;|&nbsp; [7.5 信息抽取](#75-信息抽取) &nbsp;|&nbsp; [7.6 阅读理解](#76-阅读理解) 
+    - [7.7 代词理解](#77-代词理解) &nbsp;|&nbsp; [7.8 诗词匹配](#78-诗词匹配) &nbsp;|&nbsp; [7.9 中文指令遵从](#79-中文指令遵从) 
+    - [7.10 汉字字形](#710-汉字字形) &nbsp;|&nbsp; [7.11 汉语拼音TODO](#711-汉语拼音TODO) &nbsp;|&nbsp; [7.12 找错别字TODO](#712-找错别字TODO) 
+    - [7.13 句子理解TODO](#713-句子理解TODO) &nbsp;|&nbsp; [7.14 标点符号TODO](#714-标点符号TODO) &nbsp;|&nbsp; [7.15 汉字繁简转换TODO](#715-汉字繁简转换TODO) 
+    - [7.16 语种识别TODO](#716-语种识别TODO)
 - [🌐各项能力评分](#🌐各项能力评分)
 - [⚖️原始评测数据](#⚖️原始评测数据)
 - [为什么做榜单？](#为什么做榜单)
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/7/9] v4.1版本
+  - 8大评测领域调整为6大：“心理健康”合并到“医疗与心理健康”、“行政公务”合并到“法律与行政公务”，各模型整体排名有所变化
+  - 新增各模型在各评测维度的耗时、消耗token等信息，详见各维度榜单
+  - 新增3个语言大模型：Gemini2.5系列（gemini-2.5-pro稳定版、gemini-2.5-flash稳定版、gemini-2.5-flash-lite-preview-06-17），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 新增3个多模态模型：GLM-4.1V-Thinking-FlashX、GLM-4.1V-Thinking-Flash、GLM-4.1V-9B-Thinking，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/7/2] v4.0版本
   - 首次新增多模态评测：“公式识别”，覆盖常见的数学、物理、化学公式，详见[link](leaderboard/公式识别.md)
   - 新增4个语言大模型：腾讯首个混合推理模型 Hunyuan-A13B-Instruct、百度ERNIE4.5系列开源模型（ERNIE-4.5-0.3B、ERNIE-4.5-21B-A3B、ERNIE-4.5-300B-A47B），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
@@ -246,17 +212,17 @@
 
 
 ## 1、综合能力排行榜
-综合能力得分为医疗、教育、金融、法律、行政公务、心理健康、推理与数学计算、语言与指令遵从等8个领域得分的平均值。
+综合能力得分为教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从等6个领域得分的平均值。
 ![link](pic/总分.png)    
 详细数据见[total](leaderboard/总分.md)<br>
 
 #### 1.1、推理类模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|doubao-seed-1-6-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.1%| |        87.6%|89.5%|84.4%|81.7%|        88.0%|88.8%|        88.9%|87.9%|
-|2|Doubao-1.5-thinking-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.8%| |        88.0%|90.3%|83.9%|83.3%|        80.0%|71.2%|        88.1%|85.8%|
-|3|hunyuan-t1-20250529☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|83.5%| |        84.0%|87.9%|81.7%|76.7%|        84.0%|83.8%|        81.1%|89.3%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
+|1|doubao-seed-1-6-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.2%| |        89.5%|87.7%|84.4%|        84.8%|88.9%|87.9%|
+|2|Doubao-1.5-thinking-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|85.9%| |        90.3%|85.6%|83.9%|        81.7%|88.1%|85.8%|
+|3|hunyuan-t1-20250529☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.1%| |        87.9%|84.1%|81.7%|        80.3%|81.1%|89.3%|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -264,44 +230,44 @@
 #### 1.2、商用大模型排行榜（含开源模型的付费API）
 ##### （1）输出价格30元及以上商用大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|gemini-2.5-pro-preview-05-06☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|74.1%| |        76.9%|83.8%|72.5%|53.3%|        80.0%|56.2%|        89.0%|80.9%|
-|2|xunfei-spark-max☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|30.0元|73.5%| |        80.8%|75.7%|75.5%|67.3%|        70.0%|80.0%|        60.0%|79.0%|
-|3|xunfei-4.0Ultra☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|73.2%| |        80.0%|77.1%|75.5%|68.6%|        66.0%|78.8%|        60.9%|78.7%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
+|1|gemini-2.5-pro-preview-05-06☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|77.8%| |        83.8%|73.9%|72.5%|        66.7%|89.0%|80.9%|
+|2|claude-4-sonnet☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.8%| |        79.0%|70.7%|71.1%|        70.0%|76.8%|87.7%|
+|3|claude-4-sonnet-thinking☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.1%| |        77.3%|70.5%|72.2%|        65.0%|79.4%|86.0%|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
 
 ##### （2）输出价格5~30元商用大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Doubao-1.5-thinking-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|83.8%| |        88.0%|90.3%|83.9%|83.3%|        80.0%|71.2%|        88.1%|85.8%|
-|2|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|82.3%| |        81.2%|82.6%|79.0%|74.0%|        88.0%|77.5%|        88.3%|87.6%|
-|3|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|81.7%| |        81.5%|87.5%|79.3%|78.0%|        84.0%|81.2%|        80.5%|81.4%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
+|1|Doubao-1.5-thinking-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|85.9%| |        90.3%|85.6%|83.9%|        81.7%|88.1%|85.8%|
+|2|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|83.2%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
+|3|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|81.8%| |        87.5%|81.4%|79.3%|        81.0%|80.5%|81.4%|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
 
 ##### （3）输出价格1~5元商用大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|doubao-seed-1-6-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.1%| |        87.6%|89.5%|84.4%|81.7%|        88.0%|88.8%|        88.9%|87.9%|
-|2|ERNIE-4.5-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|85.1%| |        91.6%|85.6%|85.8%|89.0%|        74.0%|91.2%|        76.7%|87.1%|
-|3|hunyuan-t1-20250529☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|83.5%| |        84.0%|87.9%|81.7%|76.7%|        84.0%|83.8%|        81.1%|89.3%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
+|1|doubao-seed-1-6-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.2%| |        89.5%|87.7%|84.4%|        84.8%|88.9%|87.9%|
+|2|ERNIE-4.5-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|84.7%| |        85.6%|91.5%|85.8%|        81.5%|76.7%|87.1%|
+|3|hunyuan-t1-20250529☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.1%| |        87.9%|84.1%|81.7%|        80.3%|81.1%|89.3%|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
 
 ##### （4）输出价格1元以下商用大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|doubao-seed-1-6-flash-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.75元|77.8%| |        83.2%|85.0%|79.2%|73.7%|        80.0%|70.0%|        69.5%|82.1%|
-|2|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|74.3%| |        74.0%|80.2%|75.1%|62.3%|        70.0%|75.0%|        76.5%|81.3%|
-|3|doubao-seed-1-6-flash-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.75元|73.5%| |        82.7%|83.6%|77.2%|70.3%|        62.0%|70.0%|        63.0%|79.5%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
+|1|doubao-seed-1-6-flash-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.75元|79.0%| |        85.0%|81.3%|79.2%|        76.8%|69.5%|82.1%|
+|2|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|75.5%| |        80.2%|74.1%|75.1%|        66.2%|76.5%|81.3%|
+|3|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|75.3%| |        81.4%|80.5%|77.2%|        66.0%|65.8%|81.0%|
     
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
@@ -312,33 +278,33 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 #### 1.3、开源大模型排行榜
 ##### （1）5B以下开源大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|65.6%| |        64.7%|73.2%|70.6%|42.0%|        64.0%|65.0%|        69.4%|76.2%|
-|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|57.0%| |        50.6%|58.5%|59.1%|32.0%|        60.0%|58.8%|        64.1%|73.0%|
-|3|qwen2.5-3b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|49.5%| |        51.5%|53.0%|52.5%|40.7%|        34.0%|58.8%|        42.8%|63.0%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
+|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|67.9%| |        73.2%|64.8%|70.6%|        53.0%|69.4%|76.2%|
+|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|58.7%| |        58.5%|51.7%|59.1%|        46.0%|64.1%|73.0%|
+|3|qwen2.5-3b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.9元|50.2%| |        53.0%|52.5%|52.5%|        37.4%|42.8%|63.0%|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
 
 ##### （2）5B~20B开源大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|74.0%| |        77.0%|80.0%|80.2%|60.3%|        72.0%|67.5%|        76.2%|79.0%|
-|2|DeepSeek-R1-0528-Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|68.3%| |        65.9%|73.8%|67.4%|47.0%|        70.0%|66.2%|        76.1%|79.7%|
-|3|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|67.6%| |        68.7%|73.1%|71.4%|50.0%|        78.0%|61.2%|        61.5%|76.6%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
+|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|76.2%| |        80.0%|75.6%|80.2%|        66.2%|76.2%|79.0%|
+|2|DeepSeek-R1-0528-Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|70.2%| |        73.8%|65.9%|67.4%|        58.5%|76.1%|79.7%|
+|3|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|69.0%| |        73.1%|67.6%|71.4%|        64.0%|61.5%|76.6%|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
 
 ##### （3）20B以上开源大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |医疗|教育|金融|法律|行政公务|心理健康|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|----|---|---|---|------|-------|-----------|------------|
-|1|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|82.3%| |        81.2%|82.6%|79.0%|74.0%|        88.0%|77.5%|        88.3%|87.6%|
-|2|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|81.7%| |        81.5%|87.5%|79.3%|78.0%|        84.0%|81.2%|        80.5%|81.4%|
-|3|ERNIE-4.5-300B-A47B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|8.0元|78.6%| |        83.2%|87.4%|78.9%|74.3%|        72.0%|78.8%|        65.7%|88.5%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
+|1|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|83.2%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
+|2|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|81.8%| |        87.5%|81.4%|79.3%|        81.0%|80.5%|81.4%|
+|3|ERNIE-4.5-300B-A47B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|8.0元|79.4%| |        87.4%|82.6%|78.9%|        73.2%|65.7%|88.5%|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
@@ -348,10 +314,96 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br>
 
 
-## 2、医疗排行榜
-☛☛完整排行榜见[医疗](leaderboard/医疗.md)<br>
 
-### 2.1 医师
+## 2、教育排行榜
+☛☛完整排行榜见[教育](leaderboard/教育.md)<br>
+
+### 2.1 小学学科
+☛☛完整排行榜见[小学学科](leaderboard/小学学科.md)<br>
+
+ - 小学语文：[排行榜](leaderboard/PrimarySchoolChinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolChinese)
+ - 小学英语：[排行榜](leaderboard/PrimarySchoolEnglish.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEnglish)
+ - 小学数学：[排行榜](leaderboard/PrimarySchoolMathematics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolMathematics)
+ - 小学道德与法治：[排行榜](leaderboard/PrimarySchoolEthics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEthics)
+ - 小学科学：[排行榜](leaderboard/PrimarySchoolScience.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolScience)
+<br><br>
+
+
+### 2.2 初中学科
+☛☛完整排行榜见[初中学科](leaderboard/初中学科.md)<br>
+
+ - 初中生物：[排行榜](leaderboard/MiddleSchoolBiology.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolBiology)
+ - 初中化学：[排行榜](leaderboard/MiddleSchoolChemistry.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChemistry)
+ - 初中语文：[排行榜](leaderboard/MiddleSchoolChinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChinese)
+ - 初中英语：[排行榜](leaderboard/MiddleSchoolEnglish.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolEnglish)
+ - 初中地理：[排行榜](leaderboard/MiddleSchoolGeography.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolGeography)
+ - 初中历史：[排行榜](leaderboard/MiddleSchoolHistory.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolHistory)
+ - 初中数学：[排行榜](leaderboard/MiddleSchoolMathematics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolMathematics)
+ - 初中物理：[排行榜](leaderboard/MiddleSchoolPhysics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPhysics)
+ - 初中政治：[排行榜](leaderboard/MiddleSchoolPolitics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPolitics)
+<br><br>
+
+
+### 2.3 中考TODO
+<br><br>
+
+
+### 2.4 高中学科
+☛☛完整排行榜见[高中学科](leaderboard/高中学科.md)<br>
+
+ - 高中生物：[排行榜](leaderboard/HighSchoolBiology.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolBiology)
+ - 高中化学：[排行榜](leaderboard/HighSchoolChemistry.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChemistry)
+ - 高中语文：[排行榜](leaderboard/HighSchoolChinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChinese)
+ - 高中英语：[排行榜](leaderboard/HighSchoolEnglish.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolEnglish)
+ - 高中地理：[排行榜](leaderboard/HighSchoolGeography.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolGeography)
+ - 高中历史：[排行榜](leaderboard/HighSchoolHistory.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolHistory)
+ - 高中数学：[排行榜](leaderboard/HighSchoolMathematics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolMathematics)
+ - 高中物理：[排行榜](leaderboard/HighSchoolPhysics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPhysics)
+ - 高中政治：[排行榜](leaderboard/HighSchoolPolitics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPolitics)
+<br><br>
+
+
+### 2.5 高考
+历年高考真题，含简单题、填空题、选择题等等，只保留客观题。所有分数均为准确率，全部答对为100%；比如数学100，表示全部答对。<br>
+☛☛完整排行榜见[高考](leaderboard/高考.md)<br>
+ - 2025年高考
+     - 高考生物：[排行榜](leaderboard/2025高考生物.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考生物)
+     - 高考化学：[排行榜](leaderboard/2025高考化学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考化学)
+     - 高考语文：[排行榜](leaderboard/2025高考语文.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考语文)
+     - 高考英语：[排行榜](leaderboard/2025高考英语.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考英语)
+     - 高考地理：[排行榜](leaderboard/2025高考地理.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考地理)
+     - 高考历史：[排行榜](leaderboard/2025高考历史.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考历史)
+     - 高考数学：[排行榜](leaderboard/2025高考数学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考数学)
+     - 高考物理：[排行榜](leaderboard/2025高考物理.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考物理)
+     - 高考政治：[排行榜](leaderboard/2025高考政治.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考政治)
+
+ - 2024年及之前高考
+     - 高考生物：[排行榜](leaderboard/gaokao-biology.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-biology)
+     - 高考化学：[排行榜](leaderboard/gaokao-chemistry.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chemistry)
+     - 高考语文：[排行榜](leaderboard/gaokao-chinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chinese)
+     - 高考地理：[排行榜](leaderboard/gaokao-geography.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-geography)
+     - 高考历史：[排行榜](leaderboard/gaokao-history.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-history)
+     - 高考数学：[排行榜](leaderboard/gaokao-math.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-math)
+     - 高考物理：[排行榜](leaderboard/gaokao-physics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-physics)
+     - 高考政治：[排行榜](leaderboard/gaokao-politics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-politics)
+<br><br>
+
+
+### 2.6 高等教育TODO
+<br><br>
+
+### 2.7 考研TODO
+<br><br>
+
+### 2.8 教师资格TODO
+<br><br><br>
+
+
+
+## 3、医疗与心理健康排行榜
+☛☛完整排行榜见[医疗与心理健康](leaderboard/医疗与心理健康.md)<br>
+
+### 3.1 医师
 ☛☛完整排行榜见[医师](leaderboard/医师.md)<br>
 （1）内科
 <br>☛☛完整排行榜见[内科](leaderboard/内科.md)<br>
@@ -507,7 +559,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
                            
 
-### 2.2 护理
+### 3.2 护理
 ☛☛完整排行榜见[护理](leaderboard/护理.md)<br>
 
  - 护士执业资格考试：[排行榜](leaderboard/护士执业资格考试.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=护士执业资格考试)
@@ -523,7 +575,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-### 2.3 药师
+### 3.3 药师
 ☛☛完整排行榜见[药师](leaderboard/药师.md)<br>
 
  - 执业西药师：[排行榜](leaderboard/执业西药师.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=执业西药师)
@@ -537,7 +589,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-### 2.4 医技
+### 3.4 医技
 ☛☛完整排行榜见[医技](leaderboard/医技.md)<br>
 
  - 超声科：[排行榜](leaderboard/规培结业-超声科.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=规培结业-超声科)
@@ -578,7 +630,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-### 2.5 医学基础知识
+### 3.5 医学基础知识
 （1）基础医学
 <br>☛☛完整排行榜见[基础医学](leaderboard/基础医学.md)<br>
 
@@ -664,7 +716,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-### 2.6 医学考研
+### 3.6 医学考研
 医学考研，包含外科护理学、基础护理学、西医综合等5个方向，参考[CMB](https://github.com/FreedomIntelligence/CMB)。<br>
 ☛☛完整排行榜见[医学考研](leaderboard/CMB-医学考研.md)<br>
 
@@ -676,87 +728,24 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-## 3、教育排行榜
-☛☛完整排行榜见[教育](leaderboard/教育.md)<br>
+### 3.7 心理健康
+目前包含4个子项：心理综合，心理治疗学主治医师，心理咨询师，医学心理学。<br>
+☛☛完整排行榜见[心理健康](leaderboard/心理健康.md)<br>
 
-### 3.1 小学学科
-☛☛完整排行榜见[小学学科](leaderboard/小学学科.md)<br>
+#### （1）心理综合
+完整排行榜见[心理综合](leaderboard/心理综合.md)，☛查看[心理综合：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=心理综合)
+<br>
 
- - 小学语文：[排行榜](leaderboard/PrimarySchoolChinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolChinese)
- - 小学英语：[排行榜](leaderboard/PrimarySchoolEnglish.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEnglish)
- - 小学数学：[排行榜](leaderboard/PrimarySchoolMathematics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolMathematics)
- - 小学道德与法治：[排行榜](leaderboard/PrimarySchoolEthics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolEthics)
- - 小学科学：[排行榜](leaderboard/PrimarySchoolScience.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=PrimarySchoolScience)
-<br><br>
+#### （2）心理治疗学主治医师
+完整排行榜见[心理治疗学主治医师](leaderboard/心理治疗学主治医师考试.md)，☛查看[心理治疗学主治医师：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=心理治疗学主治医师考试)
+<br>
 
+#### （3）心理咨询师
+完整排行榜见[心理咨询师](leaderboard/心理咨询师考试.md)，☛查看[心理咨询师：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=心理咨询师考试)
+<br>
 
-### 3.2 初中学科
-☛☛完整排行榜见[初中学科](leaderboard/初中学科.md)<br>
-
- - 初中生物：[排行榜](leaderboard/MiddleSchoolBiology.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolBiology)
- - 初中化学：[排行榜](leaderboard/MiddleSchoolChemistry.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChemistry)
- - 初中语文：[排行榜](leaderboard/MiddleSchoolChinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolChinese)
- - 初中英语：[排行榜](leaderboard/MiddleSchoolEnglish.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolEnglish)
- - 初中地理：[排行榜](leaderboard/MiddleSchoolGeography.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolGeography)
- - 初中历史：[排行榜](leaderboard/MiddleSchoolHistory.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolHistory)
- - 初中数学：[排行榜](leaderboard/MiddleSchoolMathematics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolMathematics)
- - 初中物理：[排行榜](leaderboard/MiddleSchoolPhysics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPhysics)
- - 初中政治：[排行榜](leaderboard/MiddleSchoolPolitics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=MiddleSchoolPolitics)
-<br><br>
-
-
-### 3.3 中考TODO
-<br><br>
-
-
-### 3.4 高中学科
-☛☛完整排行榜见[高中学科](leaderboard/高中学科.md)<br>
-
- - 高中生物：[排行榜](leaderboard/HighSchoolBiology.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolBiology)
- - 高中化学：[排行榜](leaderboard/HighSchoolChemistry.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChemistry)
- - 高中语文：[排行榜](leaderboard/HighSchoolChinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolChinese)
- - 高中英语：[排行榜](leaderboard/HighSchoolEnglish.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolEnglish)
- - 高中地理：[排行榜](leaderboard/HighSchoolGeography.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolGeography)
- - 高中历史：[排行榜](leaderboard/HighSchoolHistory.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolHistory)
- - 高中数学：[排行榜](leaderboard/HighSchoolMathematics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolMathematics)
- - 高中物理：[排行榜](leaderboard/HighSchoolPhysics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPhysics)
- - 高中政治：[排行榜](leaderboard/HighSchoolPolitics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=HighSchoolPolitics)
-<br><br>
-
-
-### 3.5 高考
-历年高考真题，含简单题、填空题、选择题等等，只保留客观题。所有分数均为准确率，全部答对为100%；比如数学100，表示全部答对。<br>
-☛☛完整排行榜见[高考](leaderboard/高考.md)<br>
- - 2025年高考
-     - 高考生物：[排行榜](leaderboard/2025高考生物.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考生物)
-     - 高考化学：[排行榜](leaderboard/2025高考化学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考化学)
-     - 高考语文：[排行榜](leaderboard/2025高考语文.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考语文)
-     - 高考英语：[排行榜](leaderboard/2025高考英语.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考英语)
-     - 高考地理：[排行榜](leaderboard/2025高考地理.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考地理)
-     - 高考历史：[排行榜](leaderboard/2025高考历史.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考历史)
-     - 高考数学：[排行榜](leaderboard/2025高考数学.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考数学)
-     - 高考物理：[排行榜](leaderboard/2025高考物理.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考物理)
-     - 高考政治：[排行榜](leaderboard/2025高考政治.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=2025高考政治)
-
- - 2024年及之前高考
-     - 高考生物：[排行榜](leaderboard/gaokao-biology.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-biology)
-     - 高考化学：[排行榜](leaderboard/gaokao-chemistry.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chemistry)
-     - 高考语文：[排行榜](leaderboard/gaokao-chinese.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-chinese)
-     - 高考地理：[排行榜](leaderboard/gaokao-geography.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-geography)
-     - 高考历史：[排行榜](leaderboard/gaokao-history.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-history)
-     - 高考数学：[排行榜](leaderboard/gaokao-math.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-math)
-     - 高考物理：[排行榜](leaderboard/gaokao-physics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-physics)
-     - 高考政治：[排行榜](leaderboard/gaokao-politics.md) | [样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=gaokao-politics)
-<br><br>
-
-
-### 3.6 高等教育TODO
-<br><br>
-
-### 3.7 考研TODO
-<br><br>
-
-### 3.8 教师资格TODO
+#### （4）医学心理学
+完整排行榜见[医学心理学](leaderboard/基础医学-医学心理学.md)，☛查看[医学心理学：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-医学心理学)
 <br><br><br>
 
 
@@ -863,8 +852,8 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-## 5、法律排行榜
-☛☛完整排行榜见[法律](leaderboard/法律.md)<br>
+## 5、法律与行政公务排行榜
+☛☛完整排行榜见[法律与行政公务](leaderboard/法律与行政公务.md)<br>
 
 ### 5.1 律师资格考试
 #### （1）JEC-QA-KD
@@ -882,10 +871,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-## 6、行政公务排行榜
-☛☛完整排行榜见[行政公务](leaderboard/行政公务.md)<br>
-
-### 6.1 公务员考试
+### 5.2 公务员考试
 公务员考试行测选择题，共651道，参考[AGIEval](https://github.com/ruixiangcui/AGIEval)。
 评测样本举例：
 > 某乡镇进行新区规划，决定以市民公园为中心，在东南西北分别建设一个特色社区。这四个社区分别定为，文化区、休闲区、商业区和行政服务区。已知行政服务区在文化区的西南方向，文化区在休闲区的东南方向。   
@@ -901,31 +887,11 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-## 7、心理健康排行榜
-目前包含4个子项：心理综合，心理治疗学主治医师，心理咨询师，医学心理学。<br>
-☛☛完整排行榜见[心理健康](leaderboard/心理健康.md)<br>
 
-#### （1）心理综合
-完整排行榜见[心理综合](leaderboard/心理综合.md)，☛查看[心理综合：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=心理综合)
-<br>
-
-#### （2）心理治疗学主治医师
-完整排行榜见[心理治疗学主治医师](leaderboard/心理治疗学主治医师考试.md)，☛查看[心理治疗学主治医师：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=心理治疗学主治医师考试)
-<br>
-
-#### （3）心理咨询师
-完整排行榜见[心理咨询师](leaderboard/心理咨询师考试.md)，☛查看[心理咨询师：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=心理咨询师考试)
-<br>
-
-#### （4）医学心理学
-完整排行榜见[医学心理学](leaderboard/基础医学-医学心理学.md)，☛查看[医学心理学：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=基础医学-医学心理学)
-<br><br><br>
-
-
-## 8、推理与数学计算排行榜
+## 6、推理与数学计算排行榜
 ☛☛完整排行榜见[推理与数学计算](leaderboard/推理与数学计算.md)<br>
 
-### 8.1 演绎推理
+### 6.1 演绎推理
 演绎推理（modus_tollens）选择题，共123道，参考[ISP](https://arxiv.org/abs/2306.09479)。
 
 评测样本举例：
@@ -944,7 +910,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 <br><br><br>
 
 
-### 8.2 常识推理
+### 6.2 常识推理
 常识推理选择题，共99道，参考[ISP](https://arxiv.org/abs/2306.09479)。
 
 评测样本举例：
@@ -959,7 +925,7 @@ B、吸收热量
 <br><br><br>
 
 
-### 8.3 符号推理BBH
+### 6.3 符号推理BBH
 学术界最常用的符号推理评测集，包含23个子任务，详细介绍见[BBH](https://nonelinear.com/static/benchmarks.html)。
 评测样本举例：
 > Task description: Answer questions about which times certain events could have occurred.  
@@ -985,7 +951,7 @@ A:
 <br><br><br>
 
 
-### 8.4 算术能力
+### 6.4 算术能力
 考查大模型的数学基础能力之算数能力，测试题目为1000以内的整数加减法、不超过2位有效数字的浮点数加减乘除。
 举例：166 + 215 + 53 = ？，0.97 + 0.4 / 4.51 = ？
 
@@ -994,7 +960,7 @@ A:
 <br><br><br>
 
 
-### 8.5 表格问答
+### 6.5 表格问答
 专门考查大模型对表格的理解分析能力，常用于数据分析。    
 评测样本举例：
 > 姓名,年龄,性别,国籍,身高(cm),体重(kg),学历   
@@ -1013,7 +979,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 8.6 高中奥数
+### 6.6 高中奥数
 2024年预赛试题，参考[Math24o](https://github.com/CLUEbenchmark/Math24o)。
 评测样本举例：
 > 设集合 $S=\{1, 2, 3, \cdots, 9 9 7, 9 9 8 \}$，集合 $S$ 的 $k$ 个 $499$ 元子集 $A_{1},A_{2}, \cdots, A_{k}$ 满足：对 $S$ 中任一二元子集 $B$，均存在 $i \in\{1, 2, \cdots, k \}$，使得 $B \subset A_{i}$。求 $k$ 的最小值。
@@ -1024,43 +990,43 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 8.7 初中奥数TODO
+### 6.7 初中奥数TODO
 <br><br><br>
 
 
-### 8.8 小学奥数
+### 6.8 小学奥数
 完整排行榜见[小学奥数](leaderboard/小学奥数.md)<br>
 ☛查看[小学奥数：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=小学奥数一年级)
 <br><br><br>
 
 
-### 8.9 地图推理TODO
+### 6.9 地图推理TODO
 <br><br><br>
 
 
-### 8.10 空间推理TODO
+### 6.10 空间推理TODO
 <br><br><br>
 
 
-### 8.11 数独
+### 6.11 数独
 完整排行榜见[数独](leaderboard/数独.md)<br>
 ☛查看[数独：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=数独入门)
 <br><br><br>
 
 
-### 8.12 金额大小写转换TODO
+### 6.12 金额大小写转换TODO
 <br><br><br>
 
 
-### 8.13 日期计算TODO
+### 6.13 日期计算TODO
 <br><br><br>
     
     
 
-## 9、语言与指令遵从排行榜
+## 7、语言与指令遵从排行榜
 ☛☛完整排行榜见[语言与指令遵从](leaderboard/语言与指令遵从.md)<br>
 
-### 9.1 成语理解
+### 7.1 成语理解
 给定上下文，选择最匹配的成语。
 
 评测样本举例：
@@ -1080,7 +1046,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.2 情感分析
+### 7.2 情感分析
 分析用户评论的情感属性，消极或积极。
 
 评测样本举例：
@@ -1095,7 +1061,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.3 文本蕴含
+### 7.3 文本蕴含
 文本蕴含，判断两个句子之间的语义关系：蕴含、中立、矛盾，参考[OCNLI](https://arxiv.org/abs/2010.05444)。
 
 评测样本举例：
@@ -1112,7 +1078,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.4 文本分类
+### 7.4 文本分类
 评测样本举例：
 > 将下列单词按词性分类。    
 > 狗，追，跑，大人，高兴，树
@@ -1122,7 +1088,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.5 信息抽取
+### 7.5 信息抽取
 评测样本举例：  
 > “中信银行3亿元，交通银行增长约2.7亿元，光大银行约1亿元。”    
 > 提取出以上文本中的所有组织机构名称
@@ -1132,7 +1098,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.6 阅读理解
+### 7.6 阅读理解
 阅读理解能力是一种符合能力，考查针对给定信息的理解能力。
 依据给定信息的种类，可以细分为：文章问答、表格问答、对话问答……    
 评测样本举例：
@@ -1151,7 +1117,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.7 代词理解
+### 7.7 代词理解
 中文指代消解任务，参考[CLUEWSC2020](https://github.com/CLUEbenchmark/CLUEWSC2020)。
 评测样本举例：
 > 少平仍然不知道怎样给奶奶说清他姐夫的事，就只好随口说：“他犯了点错误，人家让他劳教！”  
@@ -1165,7 +1131,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.8 诗词匹配
+### 7.8 诗词匹配
 中国古典诗歌匹配，给定中国古典诗歌的现代问描述，要求从候选的四句诗中选出与现代文描述语义匹配的那一句。
 利用古典诗歌和现代文翻译的平行语料构建正确选项，并利用正确选项从古代诗歌语料库中利用相似检索构造出错误候选。
 参考[CCPM](https://github.com/THUNLP-AIPoet/CCPM)。
@@ -1183,7 +1149,7 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.9 中文指令遵从
+### 7.9 中文指令遵从
 参考谷歌IFEval，并将其翻译和适配到中文，精选9类25种指令，说明如下：
 ![lin](pic/IFEval.jpg)
 
@@ -1192,33 +1158,33 @@ Antonio,36,男,西班牙,182,75,博士
 <br><br><br>
 
 
-### 9.10 汉字字形
+### 7.10 汉字字形
 完整排行榜见[汉字字形](leaderboard/汉字字形.md)<br>
 ☛查看[汉字字形：样本举例及badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=汉字字形)
 <br><br><br>
 
 
-### 9.11 汉语拼音TODO
+### 7.11 汉语拼音TODO
 <br><br><br>
 
 
-### 9.12 找错别字TODO
+### 7.12 找错别字TODO
 <br><br><br>
 
 
-### 9.13 句子理解TODO
+### 7.13 句子理解TODO
 <br><br><br>
 
 
-### 9.14 标点符号TODO
+### 7.14 标点符号TODO
 <br><br><br>
 
 
-### 9.15 汉字繁简转换TODO
+### 7.15 汉字繁简转换TODO
 <br><br><br>
 
 
-### 9.16 语种识别TODO
+### 7.16 语种识别TODO
 <br><br><br>
 
     
