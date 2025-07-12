@@ -1,7 +1,7 @@
 
 # ReLE中文大模型能力评测（持续更新）
-- 原名CLiB，现已更名为ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM）
-- 目前已囊括267个大模型，覆盖chatgpt、gpt-4.1、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
+- 目前已囊括269个大模型，覆盖chatgpt、gpt-4.1、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及DeepSeek-R1-0528、qwq-32b、deepseek-v3、qwen3、llama4、phi-4、glm4、gemma3、mistral、书生internLM2.5等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从等6个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -51,6 +51,10 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/7/12] v4.2版本
+  - 多模态评测新增“2025高考（图形题）”，详见[多模态评测](README-多模态评测.md)<br>
+  - 新增2个语言大模型：马斯克xAI的grok-4-0709、grok-3-mini，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 删除陈旧的模型：DeepSeek-R1（0120）
 - [2025/7/9] v4.1版本
   - 8大评测领域调整为6大：“心理健康”合并到“医疗与心理健康”、“行政公务”合并到“法律与行政公务”，各模型整体排名有所变化
   - 新增各模型在各评测维度的耗时、消耗token等信息，详见各维度榜单
@@ -232,9 +236,9 @@
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|gemini-2.5-pro-preview-05-06☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|77.8%| |        83.8%|73.9%|72.5%|        66.7%|89.0%|80.9%|
-|2|claude-4-sonnet☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.8%| |        79.0%|70.7%|71.1%|        70.0%|76.8%|87.7%|
-|3|claude-4-sonnet-thinking☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.1%| |        77.3%|70.5%|72.2%|        65.0%|79.4%|86.0%|
+|1|grok-4-0709(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|79.2%| |        81.3%|75.0%|75.1%|        74.0%|82.5%|87.5%|
+|2|gemini-2.5-pro-preview-05-06☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|77.8%| |        83.8%|73.9%|72.5%|        66.7%|89.0%|80.9%|
+|3|claude-4-sonnet☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.8%| |        79.0%|70.7%|71.1%|        70.0%|76.8%|87.7%|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
