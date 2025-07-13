@@ -95,8 +95,8 @@
 |商用|阶跃星辰|step-r1-v-mini|nan%|129s|4453|92|
 |商用|腾讯|hunyuan-turbos-20250604(new)|nan%|39s|1822|93|
 |商用|腾讯|hunyuan-t1-20250529|nan%|60s|4488|94|
-|商用|豆包|doubao-seed-1-6-flash-250615(new)|nan%|14s|1323|95|
-|商用|豆包|doubao-seed-1-6-flash-thinking-250615(new)|nan%|46s|3888|96|
+|商用|豆包|doubao-seed-1-6-flash-250615(new)|nan%|112s|6706|95|
+|商用|豆包|doubao-seed-1-6-flash-thinking-250615(new)|nan%|140s|8504|96|
 |商用|豆包|doubao-seed-1-6-250615(new)|nan%|114s|834|97|
 |商用|豆包|doubao-seed-1-6-thinking-250615(new)|nan%|394s|3365|98|
 |商用|阿里巴巴|qwen-plus-2025-04-28|nan%|196s|1202|99|
@@ -110,9 +110,11 @@
 |开源|腾讯|Hunyuan-A13B-Instruct(new)|nan%|136s|3338|107|
 |商用|google|gemini-2.5-flash(new)|nan%|14s|2974|108|
 |商用|google|gemini-2.5-flash-lite-preview-06-17(new)|nan%|9s|2812|109|
-|商用|google|gemini-2.5-pro(new)|nan%|/|/|110|
-|商用|XAI|grok-4-0709(new)|nan%|383s|3049|111|
-|商用|XAI|grok-3-mini(new)|nan%|155s|2206|112|
+|商用|XAI|grok-4-0709(new)|nan%|383s|3049|110|
+|商用|XAI|grok-3-mini(new)|nan%|155s|2206|111|
+|商用|google|gemini-2.5-pro(new)|nan%|/|/|112|
+|开源|月之暗面|kimi-k2-0711-preview(new)|nan%|136s|1248|113|
+|开源|阿里巴巴|Qwen3-235B-A22B-nothink|nan%|68s|1004|114|
 
 
 ![lin](../pic/金融理财师AFP.png)

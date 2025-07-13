@@ -1,7 +1,7 @@
 
 # ReLE中文大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括269个大模型，覆盖chatgpt、gpt-4.1、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括270个大模型，覆盖chatgpt、gpt-4.1、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及DeepSeek-R1-0528、qwq-32b、deepseek-v3、qwen3、llama4、phi-4、glm4、gemma3、mistral、书生internLM2.5等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从等6个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -51,6 +51,8 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/7/13] v4.3版本
+  - 新增2个语言大模型：首个万亿参数开源模型kimi-k2-0711-preview、Qwen3-235B-A22B-nothink（关闭思考），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/7/12] v4.2版本
   - 多模态评测新增“2025高考（图形题）”，详见[多模态评测](README-多模态评测.md)<br>
   - 新增2个语言大模型：马斯克xAI的grok-4-0709、grok-3-mini，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
@@ -249,7 +251,7 @@
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|Doubao-1.5-thinking-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|85.9%| |        90.3%|85.6%|83.9%|        81.7%|88.1%|85.8%|
 |2|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|83.2%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
-|3|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|81.8%| |        87.5%|81.4%|79.3%|        81.0%|80.5%|81.4%|
+|3|kimi-k2-0711-preview(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|月之暗面|16.0元|82.2%| |        84.6%|80.5%|78.6%|        78.7%|82.5%|88.2%|
     
    
 完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
@@ -307,8 +309,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|83.2%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
-|2|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|81.8%| |        87.5%|81.4%|79.3%|        81.0%|80.5%|81.4%|
-|3|ERNIE-4.5-300B-A47B(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|8.0元|79.4%| |        87.4%|82.6%|78.9%|        73.2%|65.7%|88.5%|
+|2|kimi-k2-0711-preview(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|月之暗面|16.0元|82.2%| |        84.6%|80.5%|78.6%|        78.7%|82.5%|88.2%|
+|3|Qwen3-235B-A22B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|81.8%| |        87.5%|81.4%|79.3%|        81.0%|80.5%|81.4%|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
