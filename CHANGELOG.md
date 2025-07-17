@@ -1,6 +1,7 @@
 ## 最近更新
 - [2025/7/13] v4.3版本
   - 新增2个语言大模型：首个万亿参数开源模型kimi-k2-0711-preview、Qwen3-235B-A22B-nothink（关闭思考），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 删除陈旧的模型：gemini-2.5-flash-preview-05-20、gemini-2.5-pro-preview-05-06
 - [2025/7/12] v4.2版本
   - 多模态评测新增“2025高考（图形题）”，详见[多模态评测](README-多模态评测.md)<br>
   - 新增2个语言大模型：马斯克xAI的grok-4-0709、grok-3-mini，☛查看[模型完整信息](https://nonelinear.com/static/models.html)

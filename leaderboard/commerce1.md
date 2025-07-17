@@ -1,8 +1,8 @@
 ##### （1）输出价格30元及以上商用大模型排行榜
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|grok-4-0709(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|79.2%| |        81.3%|75.0%|75.1%|        74.0%|82.5%|87.5%|
-|2|gemini-2.5-pro-preview-05-06☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|77.8%| |        83.8%|73.9%|72.5%|        66.7%|89.0%|80.9%|
+|1|gemini-2.5-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|81.5%| |        84.9%|77.8%|78.5%|        78.8%|83.2%|85.6%|
+|2|grok-4-0709(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|79.2%| |        81.3%|75.0%|75.1%|        74.0%|82.5%|87.5%|
 |3|claude-4-sonnet☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.8%| |        79.0%|70.7%|71.1%|        70.0%|76.8%|87.7%|
 |4|claude-4-sonnet-thinking☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.1%| |        77.3%|70.5%|72.2%|        65.0%|79.4%|86.0%|
 |5|xunfei-spark-max☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|30.0元|73.3%| |        75.7%|80.7%|75.5%|        68.7%|60.0%|79.0%|

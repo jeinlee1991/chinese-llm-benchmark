@@ -53,6 +53,7 @@
 # 最近更新
 - [2025/7/13] v4.3版本
   - 新增2个语言大模型：首个万亿参数开源模型kimi-k2-0711-preview、Qwen3-235B-A22B-nothink（关闭思考），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 删除陈旧的模型：gemini-2.5-flash-preview-05-20、gemini-2.5-pro-preview-05-06
 - [2025/7/12] v4.2版本
   - 多模态评测新增“2025高考（图形题）”，详见[多模态评测](README-多模态评测.md)<br>
   - 新增2个语言大模型：马斯克xAI的grok-4-0709、grok-3-mini，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
@@ -238,8 +239,8 @@
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|grok-4-0709(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|79.2%| |        81.3%|75.0%|75.1%|        74.0%|82.5%|87.5%|
-|2|gemini-2.5-pro-preview-05-06☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|77.8%| |        83.8%|73.9%|72.5%|        66.7%|89.0%|80.9%|
+|1|gemini-2.5-pro(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|81.5%| |        84.9%|77.8%|78.5%|        78.8%|83.2%|85.6%|
+|2|grok-4-0709(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|79.2%| |        81.3%|75.0%|75.1%|        74.0%|82.5%|87.5%|
 |3|claude-4-sonnet☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.8%| |        79.0%|70.7%|71.1%|        70.0%|76.8%|87.7%|
     
   
