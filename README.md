@@ -51,6 +51,9 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/7/17] v4.4版本
+  - 新增2个语言大模型：华为开源模型pangu-pro-moe、腾讯闭源推理模型hunyuan-t1-20250711
+  - 删除陈旧的模型：moonshot-v1-8k、hunyuan-turbo
 - [2025/7/13] v4.3版本
   - 新增2个语言大模型：首个万亿参数开源模型kimi-k2-0711-preview、Qwen3-235B-A22B-nothink（关闭思考），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 删除陈旧的模型：gemini-2.5-flash-preview-05-20、gemini-2.5-pro-preview-05-06
@@ -155,48 +158,7 @@
 - [2025/3/19] 发布v3.7版本评测榜单
   - 新增“专业知识考试/临床医学”排行榜（含医学影像学、放射学等22个方向），并计入总分，详见[link](#210-专业知识考试临床医学)
   - 高考排行榜新增政治学科，并增加大量考题，更新所有相关分数
-- [2025/3/17] 发布v3.6版本评测榜单
-  - 新增“专业知识考试/基础医学”排行榜（含病理生理学、医学心理学等17个方向），并计入总分，详见[link](#29-专业知识考试基础医学)
-  - 新增2个模型：谷歌gemma-3-27b-it、Mistral-Small-24B-Instruct-2501，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
-- [2025/3/15] 发布v3.5版本评测榜单 
-  - 新增“医技考试”排行榜（含医技士-康复医学治疗技术、医技师-肿瘤学技术等22个方向），并计入总分，详见[link](#28-医技考试)
-- [2025/3/13] 发布v3.4版本评测榜单
-  - 新增“药师考试”排行榜（含执业西药师、执业中药师等8个方向），并计入总分，详见[link](#27-药师考试)
-- [2025/3/11] 发布v3.3版本评测榜单
-  - 新增“护理考试”排行榜（含护士执业资格考试、护师资格考试等10个方向），并计入总分，详见[link](#26-护理考试)
-  - 新增6个模型：qwq-32b、qwq-plus-2025-03-05、step-2-mini、hunyuan-turbos-20250226、xunfei-spark-lite，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
-- [2025/3/10] 发布v3.2版本评测榜单
-  - 新增“医师考试/高级职称”排行榜（含等消化内科高级职称、普通内科高级职称等8个方向），并计入总分，详见[link](#25-医师考试高级职称)
-- [2025/3/7] 发布v3.1版本评测榜单
-  - 新增“医师考试/中级职称”排行榜（含超声波医学主治医师、妇产科主治医师等43个方向），并计入总分，详见[link](#24-医师考试中级职称)
-- [2025/3/4] 发布v3.0版本评测榜单
-  - 综合能力得分计算方式改为：医疗、教育、法律、行政公务、推理与数学计算、语言与指令遵从等6个领域得分的平均值。
-  - 新增“医师考试/执业医师”排行榜（含中西医结合执业医师、口腔执业医师等5个方向），并计入总分，详见[link](#23-医师考试执业医师)
-- [2025/3/3] 发布v2.22版本评测榜单
-  - 新增“医师考试/执业助理医师”排行榜（含临床执业助理医师、口腔执业助理医师等5个方向），并计入总分，详见[link](#22-医师考试执业助理医师)
-  - 删除陈旧的模型：SenseChat-Turbo、SenseChat-v4、SenseChat-5、Mixtral-8x7B-Instruct-v0.1
-- [2025/2/28] 发布v2.21版本评测榜单
-  - 新增“CMB-医师考试-规培结业”排行榜（含外科、皮肤科等18个方向），并计入总分，详见[link](#2医疗医师考试规培结业排行榜)
-  - 删除陈旧的模型：Doubao-lite-32k-240428、Doubao-pro-32k-240615、o1-preview、WizardLM-2-8x22B、gemini-2.0-flash-lite-preview-02-05
-- [2025/2/24] 发布v2.20版本评测榜单
-  - 新增高中学科排行榜、初中学科排行榜、小学学科排行榜，并计入总分
-  - 删除陈旧的模型：gpt-4o-2024-08-06、qwen-max-2024-09-19
-- [2025/2/22] 发布v2.19版本评测榜单
-  - 新增6个模型：kimi-latest-8k、SenseChat-5-beta、chatgpt-4o-latest、Doubao-1.5-pro-32k-250115、Doubao-1.5-lite-32k-250115、360zhinao2-o1，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
-  - 新增推理类大模型排行榜，详见[link](leaderboard/reasonmodel.md)
-- [2025/2/18] 发布v2.18版本评测榜单
-  - 新增2个模型：qwen2.5-max、gemini-2.0-flash-thinking-exp-01-21，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
-  - 新增演绎推理排行榜、C3中文阅读理解排行榜，并计入总分
-- [2025/2/14] 发布v2.17版本评测榜单
-  - 新增10个模型：GLM-Zero-Preview、MiniMax-Text-01、SenseChat-5-1202、SenseChat-Turbo-1202、GLM-4-FlashX、ERNIE-Lite-8K、ERNIE-Tiny-8K、ERNIE-Lite-Pro-128K、ERNIE-Speed-Pro-128K、qwen2.5-math-72b-instruct，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
-  - 删除陈旧的模型：GLM4、gemini-1.0-pro、Llama-3.1-70B-Instruct、Meta-Llama-3.1-70B-Instruct-fp8
-- [2025/2/13] 发布v2.16版本评测榜单
-  - 新增6个模型：qwq-32b-preview、o1-mini、o3-mini、gemini-2.0-pro-exp-02-05、gemini-2.0-flash-lite-preview-02-05、gemini-2.0-flash-001，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
-- [2025/2/12] 发布v2.15版本评测榜单
-  - 新增成语理解排行榜、情感分析排行榜，并计入总分
-- [2025/2/10] 发布v2.14版本评测榜单
-  - 新增7个模型：DeepSeek-R1、DeepSeek-R1-Distill-Qwen-1.5B、DeepSeek-R1-Distill-Qwen-7B、DeepSeek-R1-Distill-Llama-8B、DeepSeek-R1-Distill-Qwen-14B、DeepSeek-R1-Distill-Qwen-32B、DeepSeek-R1-Distill-Llama-70B，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
-- [2025/1/29]v2.13版本，[2025/1/25]v2.12版本，[2025/1/23]v2.11版本，[2025/1/22]v2.10版本，[2025/1/20]v2.9版本，[2025/1/17]v2.8版本，[2025/1/7]v2.7版本
+- [2025/3/17]v3.6版本，[2025/3/15]v3.5版本，[2025/3/13]v3.4版本，[2025/3/11]v3.3版本，[2025/3/10]v3.2版本，[2025/3/7]v3.1版本，[2025/3/4]v3.0版本，[2025/3/3]v2.22版本，[2025/2/28]v2.21版本，[2025/2/24]v2.20版本，[2025/2/22]v2.19版本，[2025/2/18]v2.18版本，[2025/2/14]v2.17版本，[2025/2/13]v2.16版本，[2025/2/12]v2.15版本，[2025/2/10]v2.14版本，[2025/1/29]v2.13版本，[2025/1/25]v2.12版本，[2025/1/23]v2.11版本，[2025/1/22]v2.10版本，[2025/1/20]v2.9版本，[2025/1/17]v2.8版本，[2025/1/7]v2.7版本
 - 2024年：[2024/12/28]v2.6版本，[2024/12/27]v2.5版本，[2024/12/25]v2.4版本, [2024/10/20]v2.3版本，[2024/9/29]v2.2版本，[2024/8/27]v2.1版本，[2024/8/7]v2.0版本，[2024/7/26]v1.21版本，[2024/7/15]v1.20版本，[2024/6/29]v1.19版本，[2024/6/2]v1.18版本，[2024/5/8]v1.17版本，[2024/4/13]v1.16版本，[2024/3/20]v1.15版本，[2024/2/28]v1.14版本，[2024/1/29]v1.13版本
 - 2023年：[2023/12/10]v1.12版本，[2023/11/22]v1.11版本，[2023/11/5]v1.10版本，[2023/10/11]v1.9版本，[2023/9/13]v1.8版本，[2023/8/29]v1.7版本，[2023/8/13]v1.6版本，[2023/7/26]v1.5版本， [2023/7/18]v1.4版本， [2023/7/2]v1.3版本， [2023/6/17]v1.2版， [2023/6/10]v1.1版本， [2023/6/4]v1版本
 
@@ -229,7 +191,7 @@
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|doubao-seed-1-6-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.2%| |        89.5%|87.7%|84.4%|        84.8%|88.9%|87.9%|
 |2|Doubao-1.5-thinking-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|85.9%| |        90.3%|85.6%|83.9%|        81.7%|88.1%|85.8%|
-|3|hunyuan-t1-20250529☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.1%| |        87.9%|84.1%|81.7%|        80.3%|81.1%|89.3%|
+|3|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.7%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
     
 
 完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
@@ -263,7 +225,7 @@
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|doubao-seed-1-6-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.2%| |        89.5%|87.7%|84.4%|        84.8%|88.9%|87.9%|
 |2|ERNIE-4.5-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|84.7%| |        85.6%|91.5%|85.8%|        81.5%|76.7%|87.1%|
-|3|hunyuan-t1-20250529☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.1%| |        87.9%|84.1%|81.7%|        80.3%|81.1%|89.3%|
+|3|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.7%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
     
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
