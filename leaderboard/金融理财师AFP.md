@@ -116,6 +116,7 @@
 |商用|阿里巴巴|qwen-turbo-2025-07-15(new)|nan%|31s|1673|1.0|113|
 |商用|阿里巴巴|qwen-plus-2025-07-14(new)|nan%|34s|2379|4.6|114|
 |开源|腾讯|Hunyuan-A13B-Instruct-nothink(new)|nan%|25s|759|2.6|115|
+|开源|阿里巴巴|qwen3-235b-a22b-instruct-2507(new)|nan%|46s|1886|14.2|116|
 
 
 ![lin](../pic/金融理财师AFP.png)
