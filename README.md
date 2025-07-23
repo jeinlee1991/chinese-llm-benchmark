@@ -51,7 +51,10 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/7/23] v4.5版本
+  - 新增2个语言大模型：阿里闭源qwen-turbo-2025-07-15、阿里闭源qwen-plus-2025-07-14
 - [2025/7/17] v4.4版本
+  - 新增各模型在各评测维度的费用信息，详见各维度榜单
   - 新增2个语言大模型：华为开源模型pangu-pro-moe、腾讯闭源推理模型hunyuan-t1-20250711
   - 删除陈旧的模型：moonshot-v1-8k、hunyuan-turbo
 - [2025/7/13] v4.3版本
@@ -189,7 +192,7 @@
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|doubao-seed-1-6-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.2%| |        89.5%|87.7%|84.4%|        84.8%|88.9%|87.9%|
+|1|doubao-seed-1-6-thinking-250615☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.2%| |        89.5%|87.7%|84.4%|        84.8%|88.9%|87.9%|
 |2|Doubao-1.5-thinking-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|16.0元|85.9%| |        90.3%|85.6%|83.9%|        81.7%|88.1%|85.8%|
 |3|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.7%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
     
@@ -223,7 +226,7 @@
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|doubao-seed-1-6-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.2%| |        89.5%|87.7%|84.4%|        84.8%|88.9%|87.9%|
+|1|doubao-seed-1-6-thinking-250615☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|4.0元|87.2%| |        89.5%|87.7%|84.4%|        84.8%|88.9%|87.9%|
 |2|ERNIE-4.5-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|84.7%| |        85.6%|91.5%|85.8%|        81.5%|76.7%|87.1%|
 |3|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.7%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
     
@@ -234,7 +237,7 @@
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|doubao-seed-1-6-flash-thinking-250615(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.75元|79.0%| |        85.0%|81.3%|79.2%|        76.8%|69.5%|82.1%|
+|1|doubao-seed-1-6-flash-thinking-250615☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.75元|79.0%| |        85.0%|81.3%|79.2%|        76.8%|69.5%|82.1%|
 |2|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|75.5%| |        80.2%|74.1%|75.1%|        66.2%|76.5%|81.3%|
 |3|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|75.3%| |        81.4%|80.5%|77.2%|        66.0%|65.8%|81.0%|
     

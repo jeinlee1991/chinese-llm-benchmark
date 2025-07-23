@@ -89,12 +89,12 @@
 |商用|anthropic|claude-4-sonnet|nan%|99s|856|73.8|86|
 |商用|anthropic|claude-4-sonnet-thinking|nan%|105s|1538|148.0|87|
 |商用|阶跃星辰|step-r1-v-mini|nan%|129s|4453|34.8|88|
-|商用|腾讯|hunyuan-turbos-20250604(new)|nan%|39s|1822|3.4|89|
+|商用|腾讯|hunyuan-turbos-20250604|nan%|39s|1822|3.4|89|
 |商用|腾讯|hunyuan-t1-20250529|nan%|60s|4488|15.0|90|
-|商用|豆包|doubao-seed-1-6-flash-250615(new)|nan%|112s|6706|0.9|91|
-|商用|豆包|doubao-seed-1-6-flash-thinking-250615(new)|nan%|140s|8504|2.8|92|
-|商用|豆包|doubao-seed-1-6-250615(new)|nan%|114s|834|2.4|93|
-|商用|豆包|doubao-seed-1-6-thinking-250615(new)|nan%|394s|3365|13.0|94|
+|商用|豆包|doubao-seed-1-6-flash-250615|nan%|112s|6706|0.9|91|
+|商用|豆包|doubao-seed-1-6-flash-thinking-250615|nan%|140s|8504|2.8|92|
+|商用|豆包|doubao-seed-1-6-250615|nan%|114s|834|2.4|93|
+|商用|豆包|doubao-seed-1-6-thinking-250615|nan%|394s|3365|13.0|94|
 |商用|阿里巴巴|qwen-plus-2025-04-28|nan%|196s|1202|1.4|95|
 |商用|阿里巴巴|qwen-plus-think-2025-04-28|nan%|281s|4896|31.3|96|
 |商用|阿里巴巴|qwen-turbo-2025-04-28|nan%|30s|1311|0.5|97|
@@ -113,6 +113,9 @@
 |开源|阿里巴巴|Qwen3-235B-A22B-nothink|nan%|68s|1004|8.9|110|
 |商用|腾讯|hunyuan-t1-20250711(new)|nan%|106s|7105|27.9|111|
 |开源|华为|pangu-pro-moe(new)|nan%|172s|4295|16.8|112|
+|商用|阿里巴巴|qwen-turbo-2025-07-15(new)|nan%|31s|1673|1.0|113|
+|商用|阿里巴巴|qwen-plus-2025-07-14(new)|nan%|34s|2379|4.6|114|
+|开源|腾讯|Hunyuan-A13B-Instruct-nothink(new)|nan%|25s|759|2.6|115|
 
 
 ![lin](../pic/金融理财师AFP.png)
