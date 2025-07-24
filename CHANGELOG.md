@@ -1,6 +1,7 @@
 ## 最近更新
 - [2025/7/23] v4.5版本
-  - 新增3个语言大模型：阿里开源qwen3-235b-a22b-instruct-2507、阿里闭源qwen-turbo-2025-07-15、阿里闭源qwen-plus-2025-07-14，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 新增4个语言大模型：阿里开源qwen3-235b-a22b-instruct-2507、阿里闭源qwen-turbo-2025-07-15、阿里闭源qwen-plus-2025-07-14、豆包闭源doubao-seed-1-6-thinking-250715，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 删除陈旧的模型：Doubao-1.5-thinking-pro
 - [2025/7/17] v4.4版本
   - 新增各模型在各评测维度的费用信息，详见各维度榜单
   - 新增2个语言大模型：华为开源模型pangu-pro-moe、腾讯闭源推理模型hunyuan-t1-20250711
