@@ -175,7 +175,10 @@
 - 加入更多评测数据，使得评测得分越来越有说服力
 
 # 大模型基本信息
-详见[模型列表](https://nonelinear.com/static/models.html)
+- [每周最新模型](每周最新模型.md)
+  - [7月14~7月20](每周最新模型.md#7月147月20)
+  - [7月7~7月13](每周最新模型.md#7月77月13)
+- 更多信息详见[模型列表](https://nonelinear.com/static/models.html)
 <br><br>
 
 # 📊 排行榜
