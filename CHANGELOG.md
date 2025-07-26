@@ -1,4 +1,7 @@
 ## 最近更新
+- [2025/7/26] v4.6版本
+  - 新增2个语言大模型：阿里开源qwen3-235b-a22b-thinking-2507、讯飞闭源xunfei-spark-x1-0725
+  - 删除陈旧的模型：hunyuan-t1-20250529
 - [2025/7/23] v4.5版本
   - 新增4个语言大模型：阿里开源qwen3-235b-a22b-instruct-2507、阿里闭源qwen-turbo-2025-07-15、阿里闭源qwen-plus-2025-07-14、豆包闭源doubao-seed-1-6-thinking-250715，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 删除陈旧的模型：Doubao-1.5-thinking-pro
