@@ -118,6 +118,15 @@
 |商用|豆包|doubao-seed-1-6-thinking-250715(new)|nan%|124s|4936|38.4|115|
 |开源|阿里巴巴|qwen3-235b-a22b-thinking-2507(new)|nan%|348s|5784|113.0|116|
 |商用|科大讯飞|xunfei-spark-x1-0725(new)|nan%|/|7872|94.5|117|
+|开源|阿里巴巴|Qwen3-0.6B-nothink|nan%|19s|667|1.6|118|
+|开源|阿里巴巴|Qwen3-1.7B-nothink|nan%|12s|1245|3.3|119|
+|开源|阿里巴巴|Qwen3-4B-nothink|nan%|23s|1107|2.9|120|
+|开源|阿里巴巴|Qwen3-8B-nothink|nan%|59s|1309|0.0|121|
+|开源|阿里巴巴|Qwen3-14B-nothink|nan%|22s|1409|2.6|122|
+|开源|阿里巴巴|Qwen3-30B-A3B-nothink|nan%|41s|2054|5.4|123|
+|开源|阿里巴巴|Qwen3-32B-nothink|nan%|25s|909|3.2|124|
+|商用|智谱AI|GLM-4.5-Flash(new)|nan%|141s|8338|0.0|125|
+|开源|智谱AI|GLM-4.5-Air(new)|nan%|193s|7374|34.8|126|
 
 
 ![lin](../pic/金融理财师AFP.png)
