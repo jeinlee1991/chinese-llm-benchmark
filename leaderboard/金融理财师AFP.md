@@ -126,7 +126,7 @@
 |开源|阿里巴巴|Qwen3-30B-A3B-nothink|nan%|41s|2054|5.4|123|
 |开源|阿里巴巴|Qwen3-32B-nothink|nan%|25s|909|3.2|124|
 |商用|智谱AI|GLM-4.5-Flash(new)|nan%|141s|8338|0.0|125|
-|开源|智谱AI|GLM-4.5-Air(new)|nan%|193s|7374|34.8|126|
+|开源|智谱AI|GLM-4.5-Air(new)|nan%|130s|8116|48.0|126|
 
 
 ![lin](../pic/金融理财师AFP.png)

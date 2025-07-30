@@ -54,12 +54,12 @@
 |开源|meta|Llama-4-Scout-17B-16E-Instruct|70.0%|27s|534|1.0|51|
 |开源|meta|Llama-4-Maverick-17B-128E-Instruct-FP8|70.0%|21s|685|2.7|52|
 |开源|深度求索|DeepSeek-R1-Distill-Qwen-14B|70.0%|20s|1044|0.7|53|
-|开源|阿里巴巴|Qwen3-4B|70.0%|58s|3546|10.3|54|
+|商用|anthropic|claude-4-sonnet-thinking|70.0%|21s|983|93.4|54|
 |开源|阿里巴巴|Qwen3-32B-nothink|70.0%|65s|607|2.1|55|
-|开源|华为|pangu-pro-moe(new)|70.0%|107s|2264|8.7|56|
-|商用|anthropic|claude-4-sonnet-thinking|70.0%|21s|983|93.4|57|
+|商用|智谱AI|GLM-4.5-Flash(new)|70.0%|41s|2549|0.0|56|
+|开源|华为|pangu-pro-moe(new)|70.0%|107s|2264|8.7|57|
 |商用|奇虎360|360gpt2-pro|70.0%|14s|398|1.6|58|
-|商用|智谱AI|GLM-4.5-Flash(new)|69.0%|54s|3175|0.0|59|
+|开源|阿里巴巴|Qwen3-4B|70.0%|58s|3546|10.3|59|
 |开源|深度求索|deepseek-chat-v3-0324|69.0%|42s|815|6.0|60|
 |商用|科大讯飞|xunfei-spark-max|68.0%|14s|424|12.7|61|
 |开源|minimax|MiniMax-Text-01|68.0%|16s|930|7.5|62|
