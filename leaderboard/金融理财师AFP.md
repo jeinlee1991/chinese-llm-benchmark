@@ -129,6 +129,7 @@
 |开源|智谱AI|GLM-4.5-Air(new)|nan%|130s|8116|48.0|126|
 |开源|智谱AI|GLM-4.5(new)|nan%|288s|5820|80.0|127|
 |开源|阿里巴巴|Qwen3-30B-A3B-Instruct-2507(new)|nan%|30s|3143|9.1|128|
+|开源|阿里巴巴|Qwen3-30B-A3B-Thinking-2507(new)|nan%|171s|7555|20.8|129|
 
 
 ![lin](../pic/金融理财师AFP.png)
