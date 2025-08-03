@@ -1,6 +1,8 @@
 ## 最近更新
 - [2025/8/1] v4.8版本
-  - 新增多个大模型：阿里开源Qwen3-30B-A3B-Thinking-2507
+  - 新增多个大模型：阿里开源Qwen3-30B-A3B-Thinking-2507、阶跃星辰开源step-3
+  - 删除陈旧的模型：doubao-seed-1-6-thinking-250615、xunfei-spark-x1、SenseChat-5-beta、SenseChat-Turbo-120、
+  GLM-4-Flash、GLM-4-Air、qwen-plus-2025-04-28、qwen-turbo-2025-04-28
 - [2025/7/29] v4.7版本
   - 新增多个大模型：GLM4.5系列、Qwen3-30B-A3B-Instruct-2507、Qwen3-nothink系列（关闭思考）
 - [2025/7/26] v4.6版本
