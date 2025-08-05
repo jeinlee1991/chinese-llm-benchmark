@@ -123,6 +123,9 @@
 |开源|阿里巴巴|Qwen3-30B-A3B-Instruct-2507(new)|nan%|30s|3143|9.1|120|
 |开源|阿里巴巴|Qwen3-30B-A3B-Thinking-2507(new)|nan%|171s|7555|20.8|121|
 |开源|阶跃星辰|step-3(new)|nan%|436s|8562|33.9|122|
+|开源|智谱AI|GLM-4.5-nothink|nan%|60s|1836|24.2|123|
+|开源|智谱AI|GLM-4.5-Air-nothink|nan%|28s|1767|9.9|124|
+|商用|智谱AI|GLM-4.5-Flash-nothink|nan%|33s|1673|0.0|125|
 
 
 ![lin](../pic/金融理财师AFP.png)
