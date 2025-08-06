@@ -51,6 +51,8 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/8/7] v4.9版本
+  - 新增2个大模型：OpenAI开源gpt-oss-120b、gpt-oss-20b
 - [2025/8/1] v4.8版本
   - 新增多个大模型：阿里开源Qwen3-30B-A3B-Thinking-2507、阶跃星辰开源step-3、GLM4.5-nothink系列（关闭思考）
   - 删除陈旧的模型：doubao-seed-1-6-thinking-250615、xunfei-spark-x1、SenseChat-5-beta、SenseChat-Turbo-120、

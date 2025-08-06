@@ -126,6 +126,8 @@
 |开源|智谱AI|GLM-4.5-nothink|nan%|60s|1836|24.2|123|
 |开源|智谱AI|GLM-4.5-Air-nothink|nan%|28s|1767|9.9|124|
 |商用|智谱AI|GLM-4.5-Flash-nothink|nan%|33s|1673|0.0|125|
+|开源|openAI|gpt-oss-120b(new)|nan%|14s|1766|5.2|126|
+|开源|openAI|gpt-oss-20b(new)|nan%|330s|11085|12.7|127|
 
 
 ![lin](../pic/金融理财师AFP.png)
