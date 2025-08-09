@@ -128,7 +128,7 @@
 |商用|智谱AI|GLM-4.5-Flash-nothink|nan%|33s|1673|0.0|125|
 |开源|openAI|gpt-oss-120b(new)|nan%|14s|1766|5.2|126|
 |开源|openAI|gpt-oss-20b(new)|nan%|330s|11085|12.7|127|
-|商用|openAI|gpt-5-2025-08-07(new)|nan%|71s|839|0.0|128|
+|商用|openAI|gpt-5-2025-08-07(new)|nan%|71s|839|51.3|128|
 |商用|openAI|gpt-5-mini-2025-08-07(new)|nan%|31s|2530|34.7|129|
 |商用|openAI|gpt-5-nano-2025-08-07(new)|nan%|44s|8248|23.5|130|
 

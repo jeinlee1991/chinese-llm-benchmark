@@ -55,7 +55,7 @@
 |商用|零一万物|yi-lightning|69.7%|14s|464|0.5|52|
 |开源|腾讯|Hunyuan-A13B-Instruct-nothink(new)|69.0%|331s|601|1.9|53|
 |开源|智谱AI|GLM-Z1-32B-0414|68.7%|91s|2928|11.2|54|
-|商用|openAI|gpt-5-2025-08-07(new)|68.0%|38s|513|0.0|55|
+|商用|openAI|gpt-5-2025-08-07(new)|68.0%|38s|513|23.8|55|
 |商用|anthropic|claude-4-sonnet-thinking|68.0%|24s|1258|111.7|56|
 |开源|阿里巴巴|qwen2.5-72b-instruct|67.7%|14s|418|3.3|57|
 |开源|minimax|MiniMax-Text-01|67.7%|15s|993|8.0|58|
