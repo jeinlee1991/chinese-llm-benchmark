@@ -1,7 +1,7 @@
 
 # ReLE中文大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括279个大模型，覆盖chatgpt、gpt-4.1、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括284个大模型，覆盖chatgpt、gpt-5、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及kimi-k2、ernie4.5、minimax-M1、DeepSeek-R1-0528、deepseek-v3、qwen3-2507、llama4、phi-4、GLM4.5、gemma3、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从等6个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -52,7 +52,7 @@
 
 # 最近更新
 - [2025/8/7] v4.9版本
-  - 新增2个大模型：OpenAI开源gpt-oss-120b、gpt-oss-20b
+  - 新增5个大模型：OpenAI闭源GPT5系列（gpt5/gpt5-mini/gpt5-nano），OpenAI开源gpt-oss-120b、gpt-oss-20b
 - [2025/8/1] v4.8版本
   - 新增多个大模型：阿里开源Qwen3-30B-A3B-Thinking-2507、阶跃星辰开源step-3、GLM4.5-nothink系列（关闭思考）
   - 删除陈旧的模型：doubao-seed-1-6-thinking-250615、xunfei-spark-x1、SenseChat-5-beta、SenseChat-Turbo-120、
@@ -201,8 +201,8 @@
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|gemini-2.5-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|81.5%| |        84.9%|77.8%|78.5%|        78.8%|83.2%|85.6%|
-|2|grok-4-0709☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|79.2%| |        81.3%|75.0%|75.1%|        74.0%|82.5%|87.5%|
-|3|claude-4-sonnet☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|75.8%| |        79.0%|70.7%|71.1%|        70.0%|76.8%|87.7%|
+|2|gpt-5-2025-08-07(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|72.5元|79.9%| |        81.3%|75.6%|71.3%|        73.7%|89.2%|88.6%|
+|3|grok-4-0709☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|79.2%| |        81.3%|75.0%|75.1%|        74.0%|82.5%|87.5%|
     
   
 完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>

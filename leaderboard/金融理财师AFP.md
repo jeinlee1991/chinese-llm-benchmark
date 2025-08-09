@@ -102,7 +102,7 @@
 |开源|月之暗面|kimi-k2-0711-preview(new)|nan%|136s|1248|18.5|99|
 |开源|阿里巴巴|Qwen3-235B-A22B-nothink|nan%|68s|1004|8.9|100|
 |商用|腾讯|hunyuan-t1-20250711(new)|nan%|106s|7105|27.9|101|
-|开源|华为|pangu-pro-moe(new)|nan%|172s|4295|16.8|102|
+|开源|华为|pangu-pro-moe|nan%|172s|4295|16.8|102|
 |商用|阿里巴巴|qwen-turbo-2025-07-15(new)|nan%|31s|1673|1.0|103|
 |商用|阿里巴巴|qwen-plus-2025-07-14(new)|nan%|34s|2379|4.6|104|
 |开源|腾讯|Hunyuan-A13B-Instruct-nothink(new)|nan%|25s|759|2.6|105|
@@ -128,6 +128,9 @@
 |商用|智谱AI|GLM-4.5-Flash-nothink|nan%|33s|1673|0.0|125|
 |开源|openAI|gpt-oss-120b(new)|nan%|14s|1766|5.2|126|
 |开源|openAI|gpt-oss-20b(new)|nan%|330s|11085|12.7|127|
+|商用|openAI|gpt-5-2025-08-07(new)|nan%|71s|839|0.0|128|
+|商用|openAI|gpt-5-mini-2025-08-07(new)|nan%|31s|2530|34.7|129|
+|商用|openAI|gpt-5-nano-2025-08-07(new)|nan%|44s|8248|23.5|130|
 
 
 ![lin](../pic/金融理财师AFP.png)
