@@ -89,18 +89,18 @@
   - 更新数据：各维度新增及更新部分评测数据，各模型相关分数有所更新
   - 删除陈旧的模型：hunyuan-turbos-20250313、hunyuan-t1-20250321、DeepSeek-R1-Distill-Qwen-7B、DeepSeek-R1-Distill-Llama-8B、DeepSeek-R1-Distill-Llama-70B、qwen-turbo-2025-02-11、qwen-plus-2025-01-25
 - [2025/6/23] v3.33版本
-  - **开放数据**：我们开放了所有已收集的**2025高考真题数据**（公式已转LaTex），详见[link](opendata/2025高考各省真题)
+  - 开放数据：我们开放了所有已收集的2025高考真题数据（公式已转LaTex），详见[link](opendata/2025高考各省真题)
   - “高考”新增生物、化学、地理、历史、物理、政治6科的真题数据（来自新解锁的各省试卷），详见[link](#35-高考)
   - 新增5个模型：MiniMax-M1、qwen-plus-2025-04-28、qwen-plus-think-2025-04-28（qwen-plus开启思考模式）、qwen-turbo-2025-04-28、qwen-turbo-think-2025-04-28（qwen-turbo开启思考模式），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 更新模型：GLM-Z1-Air，相关分数有所更新
   - 删除陈旧的模型：gemini-2.5-pro-preview-03-25、gemini-2.5-flash-preview-04-17、Llama-3.1-8B-Instruct、Llama-3.2-1B-Instruct、Llama-3.2-3B-Instruct、Llama-3.3-70B-Instruct、Llama-3.3-70B-Instruct-fp8
 - [2025/6/18] v3.32版本
-  - “高考”新增2025年生物、化学、地理、数学、政治5科的真题数据（来自新解锁的各省试卷），大部分模型的准确率明显下降，排名也有所变化，**hunyuan-t1-20250529数学第一，准确率93%；DeepSeek-R1-0528未进前五，准确率仅90%**，详见[link](#35-高考)
+  - “高考”新增2025年生物、化学、地理、数学、政治5科的真题数据（来自新解锁的各省试卷），大部分模型的准确率明显下降，排名也有所变化，hunyuan-t1-20250529数学第一，准确率93%；DeepSeek-R1-0528未进前五，准确率仅90%，详见[link](#35-高考)
   - 新增模型：豆包seed1.6系列4个模型，doubao-seed-1-6-flash-250615、doubao-seed-1-6-flash-thinking-250615（seed1.6flash开启思考模式）、doubao-seed-1-6-250615、doubao-seed-1-6-thinking-250615，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
-  - **新模型doubao-seed-1-6-thinking-250615超过百度文心4.5，霸榜第一且大幅领先第二名**
+  - 新模型doubao-seed-1-6-thinking-250615超过百度文心4.5，霸榜第一且大幅领先第二名
   - 删除陈旧的模型：Meta-Llama-3.1-405B-Instruct、Meta-Llama-3.1-8B-Instruct-fp8
 - [2025/6/16] v3.31版本
-  - “高考”新增2025年各省各学科高考真题（各省试卷都按学科汇总到一起），**Doubao-1.5-thinking-pro数学第一，准确率92%；DeepSeek-R1-0528未进前五，准确率仅87%**，详见[link](#35-高考)
+  - “高考”新增2025年各省各学科高考真题（各省试卷都按学科汇总到一起），Doubao-1.5-thinking-pro数学第一，准确率92%；DeepSeek-R1-0528未进前五，准确率仅87%，详见[link](#35-高考)
   - 教育“初中学科”各学科增加简单题、填空题，相关分数有所更新，详见[link](#32-初中学科)
   - 更新模型：GLM-4-Plus，相关分数有所更新
 - [2025/6/13] v3.30版本
@@ -117,7 +117,7 @@
   - 教育“初中学科”每个学科都新增评测样本并删除部分简单陈旧的样本，相关分数有所更新，详见[link](#32-初中学科)
   - 新增模型：DeepSeek-R1-0528、DeepSeek-R1-0528-Qwen3-8B、ERNIE-4.5-Turbo-32K、ERNIE-X1-Turbo-32K、gemini-2.5-flash-preview-05-20、gemini-2.5-pro-preview-05-06，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/5/29] v3.27版本
-  - “汉字字形”（语言与指令遵从）新增评测样本，并增加考察汉字笔顺（比如“乃”字的笔顺为：㇌丿）；相关分数有所更新，**DeepSeek-R1排第二，也仅得不到80分**，详见[link](#910-汉字字形)
+  - “汉字字形”（语言与指令遵从）新增评测样本，并增加考察汉字笔顺（比如“乃”字的笔顺为：㇌丿）；相关分数有所更新，DeepSeek-R1排第二，也仅得不到80分，详见[link](#910-汉字字形)
 - [2025/5/23] v3.26版本
   - 新增模型：Doubao-1.5-thinking-pro、gpt-4.1、gpt-4.1-mini、o4-mini，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/5/18] v3.25版本
