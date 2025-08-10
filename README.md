@@ -740,10 +740,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 评测样本举例：
 > 某乡镇进行新区规划，决定以市民公园为中心，在东南西北分别建设一个特色社区。这四个社区分别定为，文化区、休闲区、商业区和行政服务区。已知行政服务区在文化区的西南方向，文化区在休闲区的东南方向。   
 根据以上陈述，可以得出以下哪项？   
-(A)市民公园在行政服务区的北面    
-(B)休闲区在文化区的西南   
-(C)文化区在商业区的东北   
-(D)商业区在休闲区的东南   
+(A)市民公园在行政服务区的北面 (B)休闲区在文化区的西南 (C)文化区在商业区的东北 (D)商业区在休闲区的东南   
 >  
 
 完整排行榜见[公务员考试](leaderboard/考公.md)<br>
@@ -760,18 +757,14 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 评测样本举例：
 > 考虑以下语句：  
-1.如果约翰是个好父母，那么约翰就是严格但公平的。   
-2.约翰不严格但公平。   
-结论：因此，约翰不是一个好父母。   
+1.如果约翰是个好父母，那么约翰就是严格但公平的。2.约翰不严格但公平。 结论：因此，约翰不是一个好父母。
 问题：根据陈述1.和2.，结论是否正确？   
-回答：   
-(A) 否   
-(B) 是   
->   
+回答： (A) 否   (B) 是   
+>  
 
 完整排行榜见[演绎推理](leaderboard/演绎推理.md)<br>
 ☛查看[演绎推理：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=演绎推理)
-<br><br><br>
+<br>
 
 
 ### 6.2 常识推理
@@ -780,13 +773,12 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 评测样本举例：
 > 以下是关于常识的选择题。   
 问题：当某人把土豆放到篝火边的余烬中，此时余烬并没有在   
-A、释放热量  
-B、吸收热量   
+A、释放热量  B、吸收热量   
 >      
 
 完整排行榜见[常识推理](leaderboard/常识推理.md)<br>
 ☛查看[常识推理：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=常识推理)
-<br><br><br>
+<br>
 
 
 ### 6.3 符号推理BBH
@@ -803,16 +795,13 @@ William saw Emily buying clothes at the mall from 6pm to 7pm.
 The museum was closed after 7pm.   
 Between what times could Emily have gone to the museum?   
 Options:   
-(A) 1pm to 2pm   
-(B) 6pm to 7pm   
-(C) 5pm to 6pm   
-(D) 2pm to 4pm   
-A:    
+(A) 1pm to 2pm   (B) 6pm to 7pm   (C) 5pm to 6pm   (D) 2pm to 4pm   
+A:  
 > 
 
 完整排行榜见[BBH](leaderboard/符号推理BBH.md)<br>
 ☛查看[BBH符号推理：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=BBH)
-<br><br><br>
+<br>
 
 
 ### 6.4 算术能力
@@ -821,7 +810,7 @@ A:
 
 完整排行榜见[算术能力](leaderboard/算术能力.md)<br>
 ☛查看[算术能力：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=算术能力)
-<br><br><br>
+<br>
 
 
 ### 6.5 表格问答
@@ -840,7 +829,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[表格问答](leaderboard/表格问答.md)<br>
 ☛查看[表格问答：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=表格问答)
-<br><br><br>
+<br>
 
 
 ### 6.6 高中奥数
@@ -851,35 +840,35 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[高中奥林匹克数学竞赛](leaderboard/Math24o.md)<br>
 ☛查看[高中奥林匹克数学竞赛：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=Math24o)
-<br><br><br>
+<br>
 
 
 ### 6.7 初中奥数TODO
-<br><br><br>
+<br>
 
 
 ### 6.8 小学奥数
 完整排行榜见[小学奥数](leaderboard/小学奥数.md)<br>
 ☛查看[小学奥数：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=小学奥数一年级)
-<br><br><br>
+<br>
 
 
 ### 6.9 地图推理TODO
-<br><br><br>
+<br>
 
 
 ### 6.10 空间推理TODO
-<br><br><br>
+<br>
 
 
 ### 6.11 数独
 完整排行榜见[数独](leaderboard/数独.md)<br>
 ☛查看[数独：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=数独入门)
-<br><br><br>
+<br>
 
 
 ### 6.12 金额大小写转换TODO
-<br><br><br>
+<br>
 
 
 ### 6.13 日期计算TODO
@@ -896,18 +885,12 @@ Antonio,36,男,西班牙,182,75,博士
 评测样本举例：
 > 说完作品的优点,咱们再来聊聊为何说它最后的结局____,片子本身提出的话题观点很尖锐,“扶弟魔”也成为众多当代年轻人婚姻里的不定因素,所以对于这种过于敏感的东西,片子的结局仅仅只是以弟弟的可爱化解了姐姐的心结,最后选择陪伴照顾...   
 给上文空格处选择最合适的成语或俗语：   
-(A) 有条有理   
-(B) 偏听偏信   
-(C) 狗尾续貂   
-(D) 半壁江山   
-(E) 身家性命   
-(F) 胆小如鼠   
-(G) 独善其身    
+(A) 有条有理   (B) 偏听偏信   (C) 狗尾续貂   (D) 半壁江山   (E) 身家性命   (F) 胆小如鼠   (G) 独善其身    
 > 
 
 完整排行榜见[成语理解](leaderboard/成语理解.md)<br>
 ☛查看[成语理解：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=成语理解)
-<br><br><br>
+<br>
 
 
 ### 7.2 情感分析
@@ -916,13 +899,12 @@ Antonio,36,男,西班牙,182,75,博士
 评测样本举例：
 > 用了几天，发现很多问题，无线网容易掉线，屏幕容易刮花，打开网页容易死掉，不值的买   
 以上用户评论是正面还是负面？    
-(A) 负面   
-(B) 正面   
+(A) 负面   (B) 正面   
 >    
 
 完整排行榜见[情感分析](leaderboard/情感分析.md)<br>
 ☛查看[情感分析：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=情感分析)
-<br><br><br>
+<br>
 
 
 ### 7.3 文本蕴含
@@ -932,14 +914,12 @@ Antonio,36,男,西班牙,182,75,博士
 > 句子一：农机具购置补贴覆盖到全国所有农牧业县(场),中央财政拟安排资金130亿元,比上年增加90亿元   
 句子二：按农民人数发放补贴  
 以上两个句子是什么关系？   
-(A)蕴含  
-(B)中立  
-(C)矛盾   
+(A)蕴含  (B)中立  (C)矛盾   
 >   
 
 完整排行榜见[文本蕴含](leaderboard/文本蕴含.md)<br>
 ☛查看[文本蕴含：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=文本蕴含)
-<br><br><br>
+<br>
 
 
 ### 7.4 文本分类
@@ -949,7 +929,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[文本分类](leaderboard/文本分类.md)<br>
 ☛查看[文本分类：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=文本分类)
-<br><br><br>
+<br>
 
 
 ### 7.5 信息抽取
@@ -959,7 +939,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[信息抽取](leaderboard/信息抽取.md)<br>
 ☛查看[信息抽取：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=信息抽取)
-<br><br><br>
+<br>
 
 
 ### 7.6 阅读理解
@@ -978,21 +958,19 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[阅读理解](leaderboard/阅读理解.md)<br>
 ☛查看[阅读理解：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=阅读理解)
-<br><br><br>
+<br>
 
 
 ### 7.7 代词理解
 中文指代消解任务，参考[CLUEWSC2020](https://github.com/CLUEbenchmark/CLUEWSC2020)。
 评测样本举例：
 > 少平仍然不知道怎样给奶奶说清他姐夫的事，就只好随口说：“他犯了点错误，人家让他劳教！”  
-上述文本中的“他犯了点错误”中的“他”是指少平吗？   
-选项：(A)是   
-(B)否      
+上述文本中的“他犯了点错误”中的“他”是指少平吗？   选项：(A)是   (B)否      
 >    
 
 完整排行榜见[代词理解](leaderboard/代词理解.md)<br>
 ☛查看[代词理解：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=代词理解)
-<br><br><br>
+<br>
 
 
 ### 7.8 诗词匹配
@@ -1002,15 +980,12 @@ Antonio,36,男,西班牙,182,75,博士
 评测样本举例：
 > 昏暗的灯熄灭了又被重新点亮。   
 上述文本最匹配下面哪句诗：   
-(A)渔灯灭复明   
-(B)残灯灭又然   
-(C)残灯暗复明   
-(D)残灯灭又明   
+(A)渔灯灭复明   (B)残灯灭又然   (C)残灯暗复明   (D)残灯灭又明   
 >    
 
 完整排行榜见[诗词匹配](leaderboard/诗词匹配.md)<br>
 ☛查看[诗词匹配：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=诗词匹配)
-<br><br><br>
+<br>
 
 
 ### 7.9 中文指令遵从
@@ -1019,33 +994,33 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[IFEval](leaderboard/中文指令遵从.md)<br>
 ☛查看[中文指令遵从：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=中文指令遵从)
-<br><br><br>
+<br>
 
 
 ### 7.10 汉字字形
 完整排行榜见[汉字字形](leaderboard/汉字字形.md)<br>
 ☛查看[汉字字形：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=汉字字形)
-<br><br><br>
+<br>
 
 
 ### 7.11 汉语拼音TODO
-<br><br><br>
+<br>
 
 
 ### 7.12 找错别字TODO
-<br><br><br>
+<br>
 
 
 ### 7.13 句子理解TODO
-<br><br><br>
+<br>
 
 
 ### 7.14 标点符号TODO
-<br><br><br>
+<br>
 
 
 ### 7.15 汉字繁简转换TODO
-<br><br><br>
+<br>
 
 
 ### 7.16 语种识别TODO
