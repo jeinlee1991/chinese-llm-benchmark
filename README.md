@@ -164,64 +164,56 @@
 
 ## 1、综合能力排行榜
 综合能力得分为教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从等6个领域得分的平均值。
-![link](pic/总分.png)    
-详细数据见[total](leaderboard/总分.md)<br>
+![link](pic/总分.png)
 
-#### 1.1、推理类模型排行榜
+|类别|机构|大模型|【总分】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
+|---|---|-----|-------------------|-------|-----------|-----------|-----------|
+|商用|豆包|doubao-seed-1-6-thinking-250715(new)|87.5%|37s|1976|14.6|1|
+|商用|百度|ERNIE-4.5-Turbo-32K|84.7%|33s|676|1.8|2|
+
+   
+详细数据见[综合能力排行榜](leaderboard/总分.md)<br><br> 
+
+#### 1.1、推理模型排行榜
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|doubao-seed-1-6-thinking-250715(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|87.5%| |        89.8%|87.8%|84.1%|        85.0%|89.6%|88.5%|
 |2|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.7%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
-|3|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|83.2%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
     
 
-完整排行榜见[推理类模型排行榜](leaderboard/reasonmodel.md)<br>
+完整排行榜见[推理模型排行榜](leaderboard/reasonmodel.md)<br>
 <br>
 #### 1.2、商用大模型排行榜（含开源模型的付费API）
-##### （1）输出价格30元及以上商用大模型排行榜
-
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|gemini-2.5-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|81.5%| |        84.9%|77.8%|78.5%|        78.8%|83.2%|85.6%|
-|2|gpt-5-2025-08-07(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|72.5元|79.9%| |        81.3%|75.6%|71.3%|        73.7%|89.2%|88.6%|
-|3|grok-4-0709☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|79.2%| |        81.3%|75.0%|75.1%|        74.0%|82.5%|87.5%|
-    
-  
-完整排行榜见[30元及以上商用大模型](leaderboard/commerce1.md)<br><br>
-
-##### （2）输出价格5~30元商用大模型排行榜
+##### （1）输出价格5元及以上商用大模型排行榜
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|doubao-seed-1-6-thinking-250715(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|87.5%| |        89.8%|87.8%|84.1%|        85.0%|89.6%|88.5%|
 |2|qwen3-235b-a22b-instruct-2507(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|8.0元|83.4%| |        85.3%|82.7%|81.7%|        79.3%|84.8%|86.6%|
-|3|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|83.2%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
     
-   
-完整排行榜见[5~30元商用大模型](leaderboard/commerce2.md)<br><br>
+  
+完整排行榜见[5元及以上商用大模型](leaderboard/commerce1.md)<br><br>
 
-##### （3）输出价格1~5元商用大模型排行榜
+##### （2）输出价格1~5元商用大模型排行榜
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|ERNIE-4.5-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|84.7%| |        85.6%|91.5%|85.8%|        81.5%|76.7%|87.1%|
 |2|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.7%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
-|3|hunyuan-turbos-20250716(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2.0元|83.9%| |        85.8%|89.5%|83.9%|        82.2%|72.9%|89.3%|
     
   
-完整排行榜见[1~5元商用大模型](leaderboard/commerce3.md)<br><br>
+完整排行榜见[1~5元商用大模型](leaderboard/commerce2.md)<br><br>
 
-##### （4）输出价格1元以下商用大模型排行榜
+##### （3）输出价格1元以下商用大模型排行榜
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|GLM-4.5-Flash(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|75.8%| |        75.6%|73.3%|70.3%|        72.7%|79.2%|83.5%|
 |2|GLM-Z1-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.5元|75.5%| |        80.2%|74.1%|75.1%|        66.2%|76.5%|81.3%|
-|3|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|75.3%| |        81.4%|80.5%|77.2%|        66.0%|65.8%|81.0%|
     
    
-完整排行榜见[1元以下商用大模型](leaderboard/commerce4.md)<br>
+完整排行榜见[1元以下商用大模型](leaderboard/commerce3.md)<br>
 
 DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchmarking.html) 
 <br><br>
@@ -233,7 +225,6 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|67.9%| |        73.2%|64.8%|70.6%|        53.0%|69.4%|76.2%|
 |2|Qwen3-4B-nothink☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|1.2元|59.0%| |        64.3%|54.6%|63.4%|        39.0%|60.6%|71.8%|
-|3|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|58.7%| |        58.5%|51.7%|59.1%|        46.0%|64.1%|73.0%|
     
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
@@ -244,7 +235,6 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|76.2%| |        80.0%|75.6%|80.2%|        66.2%|76.2%|79.0%|
 |2|DeepSeek-R1-0528-Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|70.2%| |        73.8%|65.9%|67.4%|        58.5%|76.1%|79.7%|
-|3|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|69.0%| |        73.1%|67.6%|71.4%|        64.0%|61.5%|76.6%|
     
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
@@ -255,7 +245,6 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|qwen3-235b-a22b-instruct-2507(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|8.0元|83.4%| |        85.3%|82.7%|81.7%|        79.3%|84.8%|86.6%|
 |2|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|83.2%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
-|3|qwen3-235b-a22b-thinking-2507(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|10.0元|82.3%| |        86.8%|79.5%|79.6%|        78.3%|86.9%|82.6%|
     
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
