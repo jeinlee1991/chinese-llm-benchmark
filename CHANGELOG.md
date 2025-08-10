@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/8/10] v4.10版本
+  - 新增3个大模型：腾讯闭源hunyuan-turbos-20250716、阿里闭源qwen-flash-2025-07-28、阿里闭源qwen-flash-think-2025-07-28（qwen-flash开启思考模式）
 - [2025/8/7] v4.9版本
   - 新增5个大模型：OpenAI闭源GPT5系列（gpt5/gpt5-mini/gpt5-nano），OpenAI开源gpt-oss-120b、gpt-oss-20b
 - [2025/8/1] v4.8版本

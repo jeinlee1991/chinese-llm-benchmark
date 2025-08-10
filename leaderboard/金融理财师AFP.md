@@ -131,6 +131,9 @@
 |商用|openAI|gpt-5-2025-08-07(new)|nan%|71s|839|51.3|128|
 |商用|openAI|gpt-5-mini-2025-08-07(new)|nan%|31s|2530|34.7|129|
 |商用|openAI|gpt-5-nano-2025-08-07(new)|nan%|44s|8248|23.5|130|
+|商用|腾讯|hunyuan-turbos-20250716(new)|nan%|76s|3289|6.4|131|
+|商用|阿里巴巴|qwen-flash-2025-07-28(new)|nan%|42s|3922|5.7|132|
+|商用|阿里巴巴|qwen-flash-think-2025-07-28(new)|nan%|51s|5736|8.4|133|
 
 
 ![lin](../pic/金融理财师AFP.png)
