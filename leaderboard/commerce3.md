@@ -53,4 +53,3 @@
 |50|Qwen3-1.7B-nothink☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|1.2元|46.4%| |        45.0%|41.3%|49.9%|        22.0%|50.9%|69.2%|
 |51|Qwen3-0.6B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|43.5%| |        37.3%|34.8%|40.5%|        30.7%|51.2%|66.9%|
 |52|Qwen3-0.6B-nothink☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|1.2元|34.4%| |        30.4%|29.5%|35.5%|        27.0%|32.1%|52.1%|
-    

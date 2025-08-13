@@ -13,4 +13,3 @@
 |10|360gpt2-o1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|奇虎360|50.0元|68.5%| |        76.8%|69.3%|69.1%|        57.2%|68.4%|70.2%|
 |11|chatgpt-4o-latest☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|72.4元|65.0%| |        66.1%|66.7%|65.5%|        49.1%|63.6%|79.2%|
 |12|mistral-large☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Mistral|43.4元|59.2%| |        60.6%|54.8%|56.9%|        49.0%|60.4%|73.4%|
-    

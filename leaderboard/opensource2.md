@@ -15,4 +15,3 @@
 |12|internlm2_5-7b-chat☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|上海人工智能实验室|0.0元|58.2%| |        54.8%|64.5%|62.4%|        50.7%|47.4%|69.6%|
 |13|phi-4☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|微软|1.0元|54.7%| |        50.9%|42.7%|57.7%|        45.0%|61.8%|70.3%|
 |14|gemma-3-12b-it☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Google|0.0元|52.1%| |        52.4%|44.6%|47.7%|        42.5%|61.2%|64.3%|
-    

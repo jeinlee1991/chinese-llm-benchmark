@@ -39,4 +39,3 @@
 |36|Mistral-Small-3.1-24B-Instruct-2503☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Mistral|2.175元|59.0%| |        59.5%|54.1%|60.1%|        46.0%|59.9%|74.3%|
 |37|GLM-Z1-Rumination-32B-0414☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|4.0元|55.9%| |        54.0%|48.5%|51.8%|        47.2%|67.1%|66.5%|
 |38|gemma-3-27b-it☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Google|1.45元|55.3%| |        57.3%|50.6%|56.4%|        39.7%|61.7%|66.0%|
-    

@@ -37,4 +37,3 @@
 |34|Baichuan4-Turbo☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百川智能|15.0元|66.3%| |        72.4%|74.3%|70.1%|        56.5%|56.1%|68.5%|
 |35|gpt-4.1-mini☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|11.6元|65.6%| |        64.7%|57.9%|64.8%|        56.7%|73.0%|76.9%|
 |36|GLM-4-AirX☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|10.0元|63.4%| |        69.4%|70.4%|66.4%|        50.0%|48.9%|75.1%|
-    

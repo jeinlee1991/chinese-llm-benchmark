@@ -134,4 +134,3 @@
 |131|qwen2.5-0.5b-instruct☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|29.9%| |        29.5%|27.7%|35.0%|        21.9%|26.9%|38.4%|
 |132|ERNIE-4.5-0.3B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.0元|28.4%| |        23.4%|24.2%|27.2%|        29.0%|23.4%|43.2%|
 |133|xunfei-spark-lite☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|0.0元|23.2%| |        22.8%|21.9%|18.5%|        24.8%|13.6%|37.8%|
-
