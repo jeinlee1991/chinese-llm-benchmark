@@ -6,7 +6,7 @@
   - [2.2 初中学科（图形题）TODO](#2.2-初中学科图形题TODO)
   - [2.3 中考（图形题）TODO](#2.3-中考图形题TODO)
   - [2.4 高中学科（图形题）](#2.4-高中学科图形题TODO)
-  - [2.5 高考（图形题）TODO](#2.5-高考图形题TODO)
+  - [2.5 高考（图形题）](#2.5-高考图形题)
 <br><br><br><br>
   
 # 1、OCR文字识别
@@ -26,7 +26,7 @@
 - HighSchoolHistory（图形题）：[排行榜](leaderboard/HighSchoolHistory（图形题）.md)
 - HighSchoolPolitics（图形题）：[排行榜](leaderboard/HighSchoolPolitics（图形题）.md)
 
-## 2.5 高考（图形题）TODO
+## 2.5 高考（图形题）
 ### （1）2025高考（图形题）
 ![link](pic/2025高考（图形题）.png) 
 详细数据见[2025高考（图形题）](leaderboard/2025高考（图形题）.md)<br>
