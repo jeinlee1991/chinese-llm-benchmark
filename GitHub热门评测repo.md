@@ -9,7 +9,7 @@
 | [phoenix](https://github.com/Arize-ai/phoenix)                                    |6.6k|
 | [opencompass](https://github.com/open-compass/opencompass)                        |5.8k|
 | [garak](https://github.com/NVIDIA/garak)                                          |4.9k|
-| [我们⭐chinese-llm-benchmark](https://github.com/jeinlee1991/chinese-llm-benchmark)  |4.7k|
+| [⭐chinese-llm-benchmark（我们）](https://github.com/jeinlee1991/chinese-llm-benchmark)  |4.7k|
 | [ARC-AGI](https://github.com/fchollet/ARC-AGI)                                    |4.5k|
 | [helicone](https://github.com/Helicone/helicone)                                  |4.3k|
 | [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)                            |4.2k|
@@ -24,5 +24,5 @@
 | [trulens](https://github.com/truera/trulens)                                      |2.7k|
 | [promptbench](https://github.com/microsoft/promptbench)                           |2.7k|
 | [evaluate](https://github.com/huggingface/evaluate)                               |2.3k|
-| [langwatch](https://github.com/langwatch/langwatch)                                                                     |2.3k|
+| [langwatch](https://github.com/langwatch/langwatch)                               |2.3k|
 |                                                                                   ||
