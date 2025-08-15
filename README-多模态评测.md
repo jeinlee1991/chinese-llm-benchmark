@@ -21,10 +21,18 @@
 ## 2.2 初中学科（图形题）TODO
 ## 2.3 中考（图形题）TODO
 ## 2.4 高中学科（图形题）
+![link](pic/高中学科（图形题）.png) 
+详细数据见[高中学科（图形题）](leaderboard/高中学科（图形题）.md)<br>
 - HighSchoolChinese（图形题）：[排行榜](leaderboard/HighSchoolChinese（图形题）.md)
 - HighSchoolGeography（图形题）：[排行榜](leaderboard/HighSchoolGeography（图形题）.md)
 - HighSchoolHistory（图形题）：[排行榜](leaderboard/HighSchoolHistory（图形题）.md)
 - HighSchoolPolitics（图形题）：[排行榜](leaderboard/HighSchoolPolitics（图形题）.md)
+- HighSchoolBiology（图形题）：[排行榜](leaderboard/HighSchoolBiology（图形题）.md)
+- HighSchoolChemistry（图形题）：[排行榜](leaderboard/HighSchoolChemistry（图形题）.md)
+- HighSchoolMathematics（图形题）：[排行榜](leaderboard/HighSchoolMathematics（图形题）.md)
+- HighSchoolPhysics（图形题）：[排行榜](leaderboard/HighSchoolPhysics（图形题）.md)
+
+
 
 ## 2.5 高考（图形题）
 ### （1）2025高考（图形题）

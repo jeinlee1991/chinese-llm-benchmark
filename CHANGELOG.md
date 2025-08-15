@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/8/15] v4.11版本
+  - 多模态新增4个评测集（高中理科）：HighSchoolBiology（图形题）、HighSchoolChemistry（图形题）、HighSchoolMathematics（图形题）、HighSchoolPhysics（图形题），详见[多模态评测](README-多模态评测.md)
 - [2025/8/10] v4.10版本
   - 多模态新增4个评测集：HighSchoolChinese（图形题）、HighSchoolGeography（图形题）、HighSchoolHistory（图形题）、HighSchoolPolitics（图形题），详见[多模态评测](README-多模态评测.md)
   - 新增4个大模型：智谱开源多模态GLM-4.5V（详见[多模态榜单](README-多模态评测.md)）、腾讯闭源hunyuan-turbos-20250716、阿里闭源qwen-flash-2025-07-28、阿里闭源qwen-flash-think-2025-07-28（qwen-flash开启思考模式）
