@@ -3,7 +3,7 @@
   - [1.1 公式识别](#11-公式识别)
 - [2、教育（图形题）](#2教育图形题)
   - [2.1 小学学科（图形题）TODO](#21-小学学科图形题TODO)
-  - [2.2 初中学科（图形题）TODO](#22-初中学科图形题TODO)
+  - [2.2 初中学科（图形题）](#22-初中学科图形题)
   - [2.3 中考（图形题）TODO](#23-中考图形题TODO)
   - [2.4 高中学科（图形题）](#24-高中学科图形题)
   - [2.5 高考（图形题）](#25-高考图形题)
@@ -18,7 +18,19 @@
 
 # 2、教育（图形题）
 ## 2.1 小学学科（图形题）TODO
-## 2.2 初中学科（图形题）TODO
+## 2.2 初中学科（图形题）
+![link](pic/初中学科（图形题）.png) 
+详细数据见[初中学科（图形题）](leaderboard/初中学科（图形题）.md)<br>
+- MiddleSchoolBiology（图形题）：[排行榜](leaderboard/MiddleSchoolBiology（图形题）.md)
+- MiddleSchoolChemistry（图形题）：[排行榜](leaderboard/MiddleSchoolChemistry（图形题）.md)
+- MiddleSchoolChinese（图形题）：[排行榜](leaderboard/MiddleSchoolChinese（图形题）.md)
+- MiddleSchoolPolitics（图形题）：[排行榜](leaderboard/MiddleSchoolPolitics（图形题）.md)
+- MiddleSchoolGeography（图形题）：[排行榜](leaderboard/MiddleSchoolGeography（图形题）.md)
+- MiddleSchoolHistory（图形题）：[排行榜](leaderboard/MiddleSchoolHistory（图形题）.md)
+- MiddleSchoolMathematics（图形题）：[排行榜](leaderboard/MiddleSchoolMathematics（图形题）.md)
+- MiddleSchoolPhysics（图形题）：[排行榜](leaderboard/MiddleSchoolPhysics（图形题）.md)
+<br><br>
+
 ## 2.3 中考（图形题）TODO
 ## 2.4 高中学科（图形题）
 ![link](pic/高中学科（图形题）.png) 
@@ -31,7 +43,7 @@
 - HighSchoolChemistry（图形题）：[排行榜](leaderboard/HighSchoolChemistry（图形题）.md)
 - HighSchoolMathematics（图形题）：[排行榜](leaderboard/HighSchoolMathematics（图形题）.md)
 - HighSchoolPhysics（图形题）：[排行榜](leaderboard/HighSchoolPhysics（图形题）.md)
-
+<br><br>
 
 
 ## 2.5 高考（图形题）
