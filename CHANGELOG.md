@@ -1,5 +1,6 @@
 ## 最近更新
 - [2025/8/15] v4.11版本
+  - “多模态·小学学科”新增3个评测集：PrimarySchoolChinese（图形题）、PrimarySchoolMathematics（图形题）、PrimarySchoolScience（图形题），详见[多模态评测](README-多模态评测.md)
   - “多模态·高中学科”新增4个评测集：HighSchoolBiology（图形题）、HighSchoolChemistry（图形题）、HighSchoolMathematics（图形题）、HighSchoolPhysics（图形题），详见[多模态评测](README-多模态评测.md)
   - “多模态·初中学科”新增8个评测集：'MiddleSchoolBiology（图形题）', 'MiddleSchoolChemistry（图形题）', 'MiddleSchoolChinese（图形题）', 'MiddleSchoolPolitics（图形题）',
     'MiddleSchoolGeography（图形题）', 'MiddleSchoolHistory（图形题）', 'MiddleSchoolMathematics（图形题）', 'MiddleSchoolPhysics（图形题）'，详见[多模态评测](README-多模态评测.md)

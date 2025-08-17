@@ -2,7 +2,7 @@
 - [1、OCR文字识别](#1OCR文字识别)
   - [1.1 公式识别](#11-公式识别)
 - [2、教育（图形题）](#2教育图形题)
-  - [2.1 小学学科（图形题）TODO](#21-小学学科图形题TODO)
+  - [2.1 小学学科（图形题）](#21-小学学科图形题)
   - [2.2 初中学科（图形题）](#22-初中学科图形题)
   - [2.3 中考（图形题）TODO](#23-中考图形题TODO)
   - [2.4 高中学科（图形题）](#24-高中学科图形题)
@@ -16,8 +16,19 @@
 详细数据见[公式识别](leaderboard/公式识别.md)<br>
 <br><br>
 
+
 # 2、教育（图形题）
+![link](pic/教育（图形题）.png) 
+详细数据见[教育（图形题）](leaderboard/教育（图形题）.md)<br>
+
 ## 2.1 小学学科（图形题）TODO
+![link](pic/小学学科（图形题）.png) 
+详细数据见[小学学科（图形题）](leaderboard/小学学科（图形题）.md)<br>
+- PrimarySchoolChinese（图形题）：[排行榜](leaderboard/PrimarySchoolChinese（图形题）.md)
+- PrimarySchoolMathematics（图形题）：[排行榜](leaderboard/PrimarySchoolMathematics（图形题）.md)
+- PrimarySchoolScience（图形题）：[排行榜](leaderboard/PrimarySchoolScience（图形题）.md)
+<br><br>
+
 ## 2.2 初中学科（图形题）
 ![link](pic/初中学科（图形题）.png) 
 详细数据见[初中学科（图形题）](leaderboard/初中学科（图形题）.md)<br>
