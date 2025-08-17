@@ -21,7 +21,7 @@
 ![link](pic/教育（图形题）.png) 
 详细数据见[教育（图形题）](leaderboard/教育（图形题）.md)<br>
 
-## 2.1 小学学科（图形题）TODO
+## 2.1 小学学科（图形题）
 ![link](pic/小学学科（图形题）.png) 
 详细数据见[小学学科（图形题）](leaderboard/小学学科（图形题）.md)<br>
 - PrimarySchoolChinese（图形题）：[排行榜](leaderboard/PrimarySchoolChinese（图形题）.md)
