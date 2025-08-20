@@ -54,8 +54,8 @@
 - [2025/8/15] v4.11版本
   - “多模态·小学学科”新增3个评测集：PrimarySchoolChinese（图形题）、PrimarySchoolMathematics（图形题）、PrimarySchoolScience（图形题），详见[多模态评测](README-多模态评测.md)
   - “多模态·高中学科”新增4个评测集：HighSchoolBiology（图形题）、HighSchoolChemistry（图形题）、HighSchoolMathematics（图形题）、HighSchoolPhysics（图形题），详见[多模态评测](README-多模态评测.md)
-  - “多模态·初中学科”新增8个评测集：'MiddleSchoolBiology（图形题）', 'MiddleSchoolChemistry（图形题）', 'MiddleSchoolChinese（图形题）', 'MiddleSchoolPolitics（图形题）',
-    'MiddleSchoolGeography（图形题）', 'MiddleSchoolHistory（图形题）', 'MiddleSchoolMathematics（图形题）', 'MiddleSchoolPhysics（图形题）'，详见[多模态评测](README-多模态评测.md)
+  - “多模态·初中学科”新增8个评测集：MiddleSchoolBiology（图形题）、MiddleSchoolChemistry（图形题）、MiddleSchoolChinese（图形题）、MiddleSchoolPolitics（图形题）、
+    MiddleSchoolGeography（图形题）、MiddleSchoolHistory（图形题）、MiddleSchoolMathematics（图形题）、MiddleSchoolPhysics（图形题），详见[多模态评测](README-多模态评测.md)
   - 删除陈旧的模型：hunyuan-turbos-20250604、gpt-4o-mini
 - [2025/8/10] v4.10版本
   - 多模态新增4个评测集：HighSchoolChinese（图形题）、HighSchoolGeography（图形题）、HighSchoolHistory（图形题）、HighSchoolPolitics（图形题），详见[多模态评测](README-多模态评测.md)
@@ -167,9 +167,9 @@
 
 # 大模型基本信息
 - [每周最新模型](每周最新模型.md)
+  - [8月11~8月17](每周最新模型.md#8月118月17)
+  - [8月4~8月10](每周最新模型.md#8月48月10)
   - [7月28~8月3](每周最新模型.md#7月288月3)
-  - [7月21~7月27](每周最新模型.md#7月217月27)
-  - [7月14~7月20](每周最新模型.md#7月147月20)
 - 更多信息详见[模型列表](https://nonelinear.com/static/models.html)
 <br><br>
 
