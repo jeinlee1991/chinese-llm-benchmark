@@ -1,4 +1,8 @@
 ## 最近更新
+- [2025/8/20] v4.12版本
+  - 更新“算术能力”、“公式识别”（多模态）评测集：剔除过于简单的样本并新增部分数据，各模型相关分数有所更新
+  - 删除陈旧的模型：internlm2_5-7b-chat 、qwen2.5系列开源模型、 qwen2.5-max、GLM-4/GLM-Z1系列闭源模型、GLM-Z1-Rumination-32B-0414、hunyuan-standard 、hunyuan-large 、phi-4 、360gpt-turbo
+Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothink、gemini-2.5-flash-lite-preview-06-17、qwen-plus-think-2025-04-28、qwen-turbo-think-2025-04-28
 - [2025/8/15] v4.11版本
   - “多模态·小学学科”新增3个评测集：PrimarySchoolChinese（图形题）、PrimarySchoolMathematics（图形题）、PrimarySchoolScience（图形题），详见[多模态评测](README-多模态评测.md)
   - “多模态·高中学科”新增4个评测集：HighSchoolBiology（图形题）、HighSchoolChemistry（图形题）、HighSchoolMathematics（图形题）、HighSchoolPhysics（图形题），详见[多模态评测](README-多模态评测.md)
