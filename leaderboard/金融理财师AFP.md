@@ -104,6 +104,8 @@
 |商用|腾讯|hunyuan-turbos-20250716(new)|nan%|76s|3289|6.4|101|
 |商用|阿里巴巴|qwen-flash-2025-07-28(new)|nan%|42s|3922|5.7|102|
 |商用|阿里巴巴|qwen-flash-think-2025-07-28(new)|nan%|51s|5736|8.4|103|
+|开源|深度求索|DeepSeek-V3.1(new)|nan%|45s|978|10.7|104|
+|开源|深度求索|DeepSeek-V3.1-Think(new)|nan%|120s|2470|28.6|105|
 
 
 ![lin](../pic/金融理财师AFP.png)
