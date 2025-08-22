@@ -1,8 +1,8 @@
 
 # ReLE中文大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括288个大模型，覆盖chatgpt、gpt-5、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
-以及kimi-k2、ernie4.5、minimax-M1、DeepSeek-R1-0528、deepseek-v3、qwen3-2507、llama4、phi-4、GLM4.5、gemma3、mistral等开源大模型。
+- 目前已囊括291个大模型，覆盖chatgpt、gpt-5、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+以及kimi-k2、ernie4.5、minimax-M1、DeepSeek-R1-0528、deepseek-v3.1、qwen3-2507、llama4、phi-4、GLM4.5、gemma3、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从等6个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
 - 为您的私有大模型提供免费评测服务，联系我们：[加微信](#联系我们)
@@ -52,7 +52,7 @@
 
 # 最近更新
 - [2025/8/20] v4.12版本
-  - 新增2个大模型：DeepSeek-V3.1、DeepSeek-V3.1-Think，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 新增3个大模型：DeepSeek-V3.1、DeepSeek-V3.1-Think、gemini-2.5-flash-lite，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 更新“算术能力”、“公式识别”（多模态）评测集：剔除过于简单的样本并新增部分数据，各模型相关分数有所更新
   - 删除陈旧的模型：internlm2_5-7b-chat 、qwen2.5系列开源模型、 qwen2.5-max、GLM-4/GLM-Z1系列闭源模型、GLM-Z1-Rumination-32B-0414、hunyuan-standard 、hunyuan-large 、phi-4 、360gpt-turbo
 Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothink、gemini-2.5-flash-lite-preview-06-17、qwen-plus-think-2025-04-28、qwen-turbo-think-2025-04-28
@@ -202,7 +202,7 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|doubao-seed-1-6-thinking-250715(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|87.5%| |        89.8%|87.8%|84.1%|        85.0%|89.6%|88.5%|
-|2|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.6%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
+|2|hunyuan-t1-20250711☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.6%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
 
 完整排行榜见[推理模型排行榜](leaderboard/reasonmodel.md)<br>
 <br>
@@ -221,7 +221,7 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|ERNIE-4.5-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|84.7%| |        85.6%|91.5%|85.8%|        81.5%|76.7%|87.1%|
-|2|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.6%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
+|2|hunyuan-t1-20250711☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.6%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce2.md)<br><br>
 

@@ -2,7 +2,7 @@
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|doubao-seed-1-6-thinking-250715(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|87.5%| |        89.8%|87.8%|84.1%|        85.0%|89.6%|88.5%|
-|2|hunyuan-t1-20250711(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.6%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
+|2|hunyuan-t1-20250711☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|84.6%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
 |3|DeepSeek-V3.1-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|12.0元|83.6%| |        85.0%|80.5%|82.8%|        82.0%|85.4%|85.9%|
 |4|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|83.2%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
 |5|ERNIE-X1-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|4.0元|83.0%| |        85.8%|82.8%|82.5%|        81.2%|78.0%|87.8%|
@@ -46,5 +46,6 @@
 |43|gpt-oss-20b(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|openAI|1.16元|66.1%| |        61.2%|53.1%|60.8%|        59.7%|82.9%|79.2%|
 |44|DeepSeek-R1-Distill-Qwen-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.7元|66.0%| |        73.4%|62.9%|68.8%|        50.3%|65.5%|75.0%|
 |45|GLM-Z1-9B-0414☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|0.0元|64.6%| |        65.9%|54.9%|65.8%|        56.5%|71.2%|73.2%|
-|46|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|58.7%| |        58.5%|51.7%|59.1%|        46.0%|63.8%|73.0%|
-|47|Qwen3-0.6B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|43.1%| |        37.3%|34.8%|40.5%|        30.7%|48.5%|66.9%|
+|46|gemini-2.5-flash-lite(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|2.9元|61.9%| |        67.0%|54.2%|57.8%|        50.7%|68.0%|73.8%|
+|47|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|58.7%| |        58.5%|51.7%|59.1%|        46.0%|63.8%|73.0%|
+|48|Qwen3-0.6B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|43.1%| |        37.3%|34.8%|40.5%|        30.7%|48.5%|66.9%|

@@ -71,12 +71,12 @@
 |商用|XAI|grok-4-0709|nan%|383s|3049|319.2|68|
 |商用|XAI|grok-3-mini|nan%|155s|2206|7.8|69|
 |商用|google|gemini-2.5-pro|nan%|33s|3119|217.1|70|
-|开源|月之暗面|kimi-k2-0711-preview(new)|nan%|136s|1248|18.5|71|
-|商用|腾讯|hunyuan-t1-20250711(new)|nan%|106s|7105|27.9|72|
+|开源|月之暗面|kimi-k2-0711-preview|nan%|136s|1248|18.5|71|
+|商用|腾讯|hunyuan-t1-20250711|nan%|106s|7105|27.9|72|
 |开源|华为|pangu-pro-moe|nan%|172s|4295|16.8|73|
-|商用|阿里巴巴|qwen-turbo-2025-07-15(new)|nan%|31s|1673|1.0|74|
-|商用|阿里巴巴|qwen-plus-2025-07-14(new)|nan%|34s|2379|4.6|75|
-|开源|腾讯|Hunyuan-A13B-Instruct-nothink(new)|nan%|25s|759|2.6|76|
+|商用|阿里巴巴|qwen-turbo-2025-07-15|nan%|31s|1673|1.0|74|
+|商用|阿里巴巴|qwen-plus-2025-07-14|nan%|34s|2379|4.6|75|
+|开源|腾讯|Hunyuan-A13B-Instruct-nothink|nan%|25s|759|2.6|76|
 |开源|阿里巴巴|qwen3-235b-a22b-instruct-2507(new)|nan%|46s|1886|14.2|77|
 |商用|豆包|doubao-seed-1-6-thinking-250715(new)|nan%|124s|4936|38.4|78|
 |开源|阿里巴巴|qwen3-235b-a22b-thinking-2507(new)|nan%|348s|5784|113.0|79|
@@ -106,6 +106,7 @@
 |商用|阿里巴巴|qwen-flash-think-2025-07-28(new)|nan%|51s|5736|8.4|103|
 |开源|深度求索|DeepSeek-V3.1(new)|nan%|45s|978|10.7|104|
 |开源|深度求索|DeepSeek-V3.1-Think(new)|nan%|120s|2470|28.6|105|
+|商用|google|gemini-2.5-flash-lite(new)|nan%|21s|6276|17.9|106|
 
 
 ![lin](../pic/金融理财师AFP.png)

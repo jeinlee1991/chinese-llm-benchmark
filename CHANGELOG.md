@@ -1,6 +1,6 @@
 ## 最近更新
 - [2025/8/20] v4.12版本
-  - 新增2个大模型：DeepSeek-V3.1、DeepSeek-V3.1-Think，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 新增3个大模型：DeepSeek-V3.1、DeepSeek-V3.1-Think、gemini-2.5-flash-lite，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 更新“算术能力”、“公式识别”（多模态）评测集：剔除过于简单的样本并新增部分数据，各模型相关分数有所更新
   - 删除陈旧的模型：internlm2_5-7b-chat 、qwen2.5系列开源模型、 qwen2.5-max、GLM-4/GLM-Z1系列闭源模型、GLM-Z1-Rumination-32B-0414、hunyuan-standard 、hunyuan-large 、phi-4 、360gpt-turbo
 Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothink、gemini-2.5-flash-lite-preview-06-17、qwen-plus-think-2025-04-28、qwen-turbo-think-2025-04-28
