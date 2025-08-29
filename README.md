@@ -52,7 +52,8 @@
 
 # 最近更新
 - [2025/8/26] v4.13版本
-  - 多模态评测新增gpt-5系列、gemini-2.5系列模型，详见[多模态评测](README-多模态评测.md)
+  - 多模态评测新增qwen-vl-max-2025-08-13、qwen-vl-plus-2025-08-15、gpt-5系列、gemini-2.5系列模型，详见[多模态评测](README-多模态评测.md)
+  - 删除陈旧的模型：chatgpt-4o-latest、gpt-4.1、gpt-4.1-mini、step-r1-v-mini
 - [2025/8/20] v4.12版本
   - 新增3个大模型：DeepSeek-V3.1、DeepSeek-V3.1-Think、gemini-2.5-flash-lite，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
   - 更新“算术能力”、“公式识别”（多模态）评测集：剔除过于简单的样本并新增部分数据，各模型相关分数有所更新
