@@ -843,7 +843,7 @@ Antonio,36,男,西班牙,182,75,博士
 > 基于以上表格写一段总结，格式为：“xx机构、xx机构……占据前5（机构名不要重复），然后描述开源模型和商用模型的分布。新模型中，xx排第xx，xx排第xx……（排名由高到低）”。严格按照表格中的模型名称、机构名称。   
 >   
 
-完整排行榜见[表格问答](leaderboard/表格总结.md)<br>
+完整排行榜见[表格总结](leaderboard/表格总结.md)<br>
 ☛查看[表格总结：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=表格总结)
 <br>
 
