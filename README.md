@@ -185,7 +185,11 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 |商用|腾讯|hunyuan-t1-20250711|85.5%|40s|2693|9.9|2|
 
    
-详细数据见[综合能力排行榜](leaderboard/总分.md)<br><br> 
+详细数据见：
+- [综合能力排行榜](leaderboard/总分.md)
+- [专业能力排行榜](leaderboard/专业能力.md)
+- [通用能力排行榜](leaderboard/通用能力.md)
+<br><br> 
 
 #### 1.1、推理模型排行榜
 
