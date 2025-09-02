@@ -34,10 +34,10 @@
     - [5.2 公务员考试](#52-公务员考试)
   - [6、推理与数学计算排行榜](#6推理与数学计算排行榜)
     - [6.1 演绎推理](#61-演绎推理)  &nbsp;|&nbsp; [6.2 常识推理](#62-常识推理) &nbsp;|&nbsp; [6.3 符号推理BBH](#63-符号推理BBH)
-    - [6.4 算术能力](#64-算术能力) &nbsp;|&nbsp; [6.5 表格问答](#65-表格问答) 
-    - [6.6 高中奥数](#66-高中奥数) &nbsp;|&nbsp; [6.7 初中奥数TODO](#67-初中奥数TODO) &nbsp;|&nbsp; [6.8 小学奥数](#68-小学奥数)
-    - [6.9 地图推理TODO](#69-地图推理TODO) &nbsp;|&nbsp; [6.10 空间推理TODO](#610-空间推理TODO) &nbsp;|&nbsp; [6.11 数独](#611-数独)
-    - [6.12 金额大小写转换TODO](#612-金额大小写转换TODO) &nbsp;|&nbsp; [6.13 日期计算TODO](#613-日期计算TODO)
+    - [6.4 算术能力](#64-算术能力) &nbsp;|&nbsp; [6.5 表格问答](#65-表格问答) &nbsp;|&nbsp; [6.6 表格总结](#66-表格总结)
+    - [6.7 高中奥数](#67-高中奥数) &nbsp;|&nbsp; [6.8 初中奥数TODO](#68-初中奥数TODO) &nbsp;|&nbsp; [6.9 小学奥数](#69-小学奥数)
+    - [6.10 地图推理TODO](#610-地图推理TODO) &nbsp;|&nbsp; [6.11 空间推理TODO](#611-空间推理TODO) &nbsp;|&nbsp; [6.12 数独](#612-数独)
+    - [6.13 金额大小写转换TODO](#613-金额大小写转换TODO) &nbsp;|&nbsp; [6.14 日期计算TODO](#614-日期计算TODO)
   - [7、语言与指令遵从排行榜](#7语言与指令遵从排行榜)
     - [7.1 成语理解](#71-成语理解) &nbsp;|&nbsp; [7.2 情感分析](#72-情感分析) &nbsp;|&nbsp; [7.3 文本蕴含](#73-文本蕴含) 
     - [7.4 文本分类](#74-文本分类) &nbsp;|&nbsp; [7.5 信息抽取](#75-信息抽取) &nbsp;|&nbsp; [7.6 阅读理解](#76-阅读理解) 
@@ -54,7 +54,8 @@
 - [2025/9/1] v5.0版本
   - 优化“综合能力”计分方式：“综合能力”改为“专业能力”和“通用能力”平均分，
   其中“专业能力”为“教育”、“医疗与心理健康”、“金融”、“法律与行政公务”4大领域平均分，
-  “通用能力”为“推理与数学计算”、“语言与指令遵从”两大领域平均分。
+  “通用能力”为“推理与数学计算”、“语言与指令遵从”两大领域平均分。各模型排名有所变动。
+  - 新增“表格总结”评测集，属于“推理与数学计算”领域，详见[表格问答排行榜](leaderboard/表格总结.md)<br>
   - 删除陈旧的模型：SenseChat-5-1202、qwq-32b、qwq-plus-2025-03-05、GLM-Z1-Flash、mistral-small2、
   mistral-large2.1、ERNIE-Tiny-8K、Mistral-Small-3.1-24B-Instruct-2503
 
@@ -181,8 +182,8 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 
 |类别|机构|大模型|【总分】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
-|商用|豆包|doubao-seed-1-6-thinking-250715|87.9%|37s|1984|14.7|1|
-|商用|腾讯|hunyuan-t1-20250711|85.4%|37s|2469|9.2|2|
+|商用|豆包|doubao-seed-1-6-thinking-250715|88.0%|37s|2144|15.5|1|
+|商用|腾讯|hunyuan-t1-20250711|85.5%|40s|2693|9.9|2|
 
    
 详细数据见[综合能力排行榜](leaderboard/总分.md)<br><br> 
@@ -191,8 +192,8 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|87.9%| |        89.8%|87.8%|84.1%|        85.0%|89.6%|88.5%|
-|2|hunyuan-t1-20250711☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|85.4%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
+|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|88.0%| |        89.8%|87.8%|84.1%|        85.0%|90.0%|88.5%|
+|2|hunyuan-t1-20250711☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|85.5%| |        89.3%|82.9%|83.6%|        76.5%|87.0%|89.0%|
 
 完整排行榜见[推理模型排行榜](leaderboard/reasonmodel.md)<br>
 <br>
@@ -201,8 +202,8 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|87.9%| |        89.8%|87.8%|84.1%|        85.0%|89.6%|88.5%|
-|2|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|84.4%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
+|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|88.0%| |        89.8%|87.8%|84.1%|        85.0%|90.0%|88.5%|
+|2|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|84.4%| |        82.6%|80.6%|79.0%|        81.0%|88.5%|87.6%|
   
 完整排行榜见[5元及以上商用大模型](leaderboard/commerce1.md)<br><br>
 
@@ -210,8 +211,8 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|hunyuan-t1-20250711☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|85.4%| |        89.3%|82.9%|83.6%|        76.5%|86.7%|89.0%|
-|2|qwen-plus-2025-07-14☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|2.0元|84.3%| |        85.3%|82.5%|83.6%|        79.0%|85.9%|86.0%|
+|1|hunyuan-t1-20250711☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|85.5%| |        89.3%|82.9%|83.6%|        76.5%|87.0%|89.0%|
+|2|ERNIE-4.5-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|83.6%| |        85.6%|91.5%|85.8%|        81.5%|74.9%|87.1%|
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce2.md)<br><br>
 
@@ -219,8 +220,8 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|GLM-4.5-Flash(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|77.1%| |        75.6%|73.3%|70.3%|        72.7%|78.7%|83.5%|
-|2|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|74.8%| |        81.4%|80.5%|77.2%|        66.0%|65.8%|81.0%|
+|1|GLM-4.5-Flash(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|77.4%| |        75.6%|73.3%|70.3%|        72.7%|79.9%|83.5%|
+|2|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|74.7%| |        81.4%|80.5%|77.2%|        66.0%|65.2%|81.0%|
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce3.md)<br>
 
@@ -232,8 +233,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|69.2%| |        73.2%|64.8%|70.6%|        53.0%|69.6%|76.2%|
-|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|61.1%| |        58.5%|51.7%|59.1%|        46.0%|63.8%|73.0%|
+|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|68.9%| |        73.2%|64.8%|70.6%|        53.0%|68.5%|76.2%|
+|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|60.4%| |        58.5%|51.7%|59.1%|        46.0%|61.1%|73.0%|
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
 
@@ -241,8 +242,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|76.5%| |        80.0%|75.6%|80.2%|        66.2%|76.2%|79.0%|
-|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|72.4%| |        73.1%|67.6%|71.4%|        64.0%|71.9%|76.6%|
+|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|75.9%| |        80.0%|75.6%|80.2%|        66.2%|73.8%|79.0%|
+|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|72.1%| |        73.1%|67.6%|71.4%|        64.0%|70.8%|76.6%|
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
 
@@ -250,8 +251,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|84.4%| |        82.6%|80.6%|79.0%|        81.0%|88.3%|87.6%|
-|2|DeepSeek-V3.1-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|12.0元|84.1%| |        85.0%|80.5%|82.8%|        82.0%|85.4%|85.9%|
+|1|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|84.4%| |        82.6%|80.6%|79.0%|        81.0%|88.5%|87.6%|
+|2|DeepSeek-V3.1-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|12.0元|84.3%| |        85.0%|80.5%|82.8%|        82.0%|86.2%|85.9%|
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
 
@@ -828,7 +829,27 @@ Antonio,36,男,西班牙,182,75,博士
 <br>
 
 
-### 6.6 高中奥数
+### 6.6 表格总结
+专门考查大模型对表格的分析总结能力，常用于数据分析、文章撰写，没有固定的标准答案，但容易相对客观地分辨好坏。
+评测样本举例（由于例子过长，部分数据予以省略）：
+> |类别|机构|大模型|准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|  
+|---|---|-----|-------------------|-------|-----------|-----------|-----------|  
+|商用|豆包|doubao-seed-1-6-thinking-250715|87.5|37s|1976|14.6|1|   
+|商用|百度|ERNIE-4.5-Turbo-32K|84.7|33s|676|1.8|2|   
+|商用|腾讯|hunyuan-t1-20250711|84.7|37s|2465|9.2|3|   
+|商用|腾讯|hunyuan-turbos-20250716|83.9|24s|1288|2.3|4|   
+|……|……|……|……|……|……|……|……|   
+-------------------------   
+已知新模型为：GLM-4.5,GLM-4.5-Air,GLM-4.5-Flash,step-3。   
+基于以上表格写一段总结，格式为：“xx机构、xx机构……占据前5（机构名不要重复），然后描述开源模型和商用模型的分布。新模型中，xx排第xx，xx排第xx……（排名由高到低）”。严格按照表格中的模型名称、机构名称。   
+>   
+
+完整排行榜见[表格问答](leaderboard/表格总结.md)<br>
+☛查看[表格总结：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=表格总结)
+<br>
+
+
+### 6.7 高中奥数
 2024年预赛试题，参考[Math24o](https://github.com/CLUEbenchmark/Math24o)。
 评测样本举例：
 > 设集合 $S=\{1, 2, 3, \cdots, 9 9 7, 9 9 8 \}$，集合 $S$ 的 $k$ 个 $499$ 元子集 $A_{1},A_{2}, \cdots, A_{k}$ 满足：对 $S$ 中任一二元子集 $B$，均存在 $i \in\{1, 2, \cdots, k \}$，使得 $B \subset A_{i}$。求 $k$ 的最小值。
@@ -839,35 +860,35 @@ Antonio,36,男,西班牙,182,75,博士
 <br>
 
 
-### 6.7 初中奥数TODO
+### 6.8 初中奥数TODO
 <br>
 
 
-### 6.8 小学奥数
+### 6.9 小学奥数
 完整排行榜见[小学奥数](leaderboard/小学奥数.md)<br>
 ☛查看[小学奥数：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=小学奥数一年级)
 <br>
 
 
-### 6.9 地图推理TODO
+### 6.10 地图推理TODO
 <br>
 
 
-### 6.10 空间推理TODO
+### 6.11 空间推理TODO
 <br>
 
 
-### 6.11 数独
+### 6.12 数独
 完整排行榜见[数独](leaderboard/数独.md)<br>
 ☛查看[数独：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=数独入门)
 <br>
 
 
-### 6.12 金额大小写转换TODO
+### 6.13 金额大小写转换TODO
 <br>
 
 
-### 6.13 日期计算TODO
+### 6.14 日期计算TODO
 <br><br><br>
 
 

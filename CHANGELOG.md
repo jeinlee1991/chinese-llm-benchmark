@@ -1,8 +1,11 @@
 ## 最近更新
 - [2025/9/1] v5.0版本
   - 优化“综合能力”计分方式：“综合能力”改为“专业能力”和“通用能力”平均分，
-  其中“专业能力”为“教育”、“医疗与心理健康”、“金融”、“法律与行政公务”4大领域平均分， “通用能力”为“推理与数学计算”、“语言与指令遵从”两大领域平均分。
-  - 删除陈旧的模型：SenseChat-5-1202、qwq-32b、qwq-plus-2025-03-05、GLM-Z1-Flash、mistral-small2、 mistral-large2.1、ERNIE-Tiny-8K、Mistral-Small-3.1-24B-Instruct-2503
+  其中“专业能力”为“教育”、“医疗与心理健康”、“金融”、“法律与行政公务”4大领域平均分，
+  “通用能力”为“推理与数学计算”、“语言与指令遵从”两大领域平均分。各模型排名有所变动。
+  - 新增“表格总结”评测集，属于“推理与数学计算”领域
+  - 删除陈旧的模型：SenseChat-5-1202、qwq-32b、qwq-plus-2025-03-05、GLM-Z1-Flash、mistral-small2、
+  mistral-large2.1、ERNIE-Tiny-8K、Mistral-Small-3.1-24B-Instruct-2503
 - [2025/8/26] v4.13版本
   - 多模态评测新增qwen-vl-max-2025-08-13、qwen-vl-plus-2025-08-15、gpt-5系列、gemini-2.5系列模型，详见[多模态评测](README-多模态评测.md)
   - 删除陈旧的模型：chatgpt-4o-latest、gpt-4.1、gpt-4.1-mini、step-r1-v-mini
