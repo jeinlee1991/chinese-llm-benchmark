@@ -75,12 +75,12 @@
 |开源|阿里巴巴|Qwen3-8B-nothink|nan%|59s|1309|0.0|72|
 |开源|阿里巴巴|Qwen3-14B-nothink|nan%|22s|1409|2.6|73|
 |开源|阿里巴巴|Qwen3-32B-nothink|nan%|25s|909|3.2|74|
-|商用|智谱AI|GLM-4.5-Flash(new)|nan%|141s|8338|0.0|75|
-|开源|智谱AI|GLM-4.5-Air(new)|nan%|130s|8116|48.0|76|
-|开源|智谱AI|GLM-4.5(new)|nan%|288s|5820|80.0|77|
-|开源|阿里巴巴|Qwen3-30B-A3B-Instruct-2507(new)|nan%|30s|3143|9.1|78|
-|开源|阿里巴巴|Qwen3-30B-A3B-Thinking-2507(new)|nan%|171s|7555|20.8|79|
-|开源|阶跃星辰|step-3(new)|nan%|436s|8562|33.9|80|
+|商用|智谱AI|GLM-4.5-Flash|nan%|141s|8338|0.0|75|
+|开源|智谱AI|GLM-4.5-Air|nan%|130s|8116|48.0|76|
+|开源|智谱AI|GLM-4.5|nan%|288s|5820|80.0|77|
+|开源|阿里巴巴|Qwen3-30B-A3B-Instruct-2507|nan%|30s|3143|9.1|78|
+|开源|阿里巴巴|Qwen3-30B-A3B-Thinking-2507|nan%|171s|7555|20.8|79|
+|开源|阶跃星辰|step-3|nan%|436s|8562|33.9|80|
 |开源|智谱AI|GLM-4.5-nothink|nan%|60s|1836|24.2|81|
 |开源|智谱AI|GLM-4.5-Air-nothink|nan%|28s|1767|9.9|82|
 |商用|智谱AI|GLM-4.5-Flash-nothink|nan%|33s|1673|0.0|83|
@@ -94,7 +94,10 @@
 |商用|阿里巴巴|qwen-flash-think-2025-07-28|nan%|51s|5736|8.4|91|
 |开源|深度求索|DeepSeek-V3.1(new)|nan%|45s|978|10.7|92|
 |开源|深度求索|DeepSeek-V3.1-Think(new)|nan%|120s|2470|28.6|93|
-|商用|google|gemini-2.5-flash-lite(new)|nan%|21s|6276|17.9|94|
+|商用|google|gemini-2.5-flash-lite|nan%|21s|6276|17.9|94|
+|商用|Mistral|mistral-medium-2508(new)|nan%|23s|1158|14.6|95|
+|开源|Mistral|Magistral-Small-2507(new)|nan%|322s|11700|125.9|96|
+|开源|Mistral|Mistral-Small-3.2-24B-Instruct-2506(new)|nan%|161s|2421|5.0|97|
 
 
 ![lin](../pic/金融理财师AFP.png)

@@ -1,7 +1,7 @@
 ##### （4）输出价格1元以下商用大模型排行榜
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|GLM-4.5-Flash(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|77.4%| |        75.6%|73.3%|70.3%|        72.7%|79.9%|83.5%|
+|1|GLM-4.5-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|77.4%| |        75.6%|73.3%|70.3%|        72.7%|79.9%|83.5%|
 |2|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|74.7%| |        81.4%|80.5%|77.2%|        66.0%|65.2%|81.0%|
 |3|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|72.1%| |        73.1%|67.6%|71.4%|        64.0%|70.8%|76.6%|
 |4|DeepSeek-R1-0528-Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|71.7%| |        73.8%|65.9%|67.4%|        58.5%|74.5%|79.7%|
