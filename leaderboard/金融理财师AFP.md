@@ -98,6 +98,10 @@
 |商用|Mistral|mistral-medium-2508(new)|nan%|23s|1158|14.6|95|
 |开源|Mistral|Magistral-Small-2507(new)|nan%|322s|11700|125.9|96|
 |开源|Mistral|Mistral-Small-3.2-24B-Instruct-2506(new)|nan%|161s|2421|5.0|97|
+|商用|阿里巴巴|qwen-plus-2025-07-28(new)|nan%|95s|3919|7.7|98|
+|商用|阿里巴巴|qwen-plus-think-2025-07-28(new)|nan%|/|4955|38.6|99|
+|商用|阿里巴巴|qwen-turbo-think-2025-07-15(new)|nan%|/|10170|30.1|100|
+|商用|阿里巴巴|qwen3-max-preview(new)|nan%|49s|2336|53.4|101|
 
 
 ![lin](../pic/金融理财师AFP.png)

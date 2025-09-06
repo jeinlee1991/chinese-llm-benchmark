@@ -1,7 +1,7 @@
 
 # ReLE中文大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括294个大模型，覆盖chatgpt、gpt-5、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括298个大模型，覆盖chatgpt、gpt-5、o4-mini、谷歌gemini-2.5、Claude4、智谱GLM-Z1、文心一言、qwen3-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及kimi-k2、ernie4.5、minimax-M1、DeepSeek-R1-0528、deepseek-v3.1、qwen3-2507、llama4、phi-4、GLM4.5、gemma3、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从等6个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -51,6 +51,9 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/9/6] v5.1版本
+  - 新增4个大模型：阿里万亿参数模型qwen3-max-preview、qwen-plus-2025-07-28、qwen-plus-think-2025-07-28（qwen-plus思考模式）、
+  qwen-turbo-think-2025-07-15（qwen-turbo思考模式），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/9/1] v5.0版本
   - 优化“综合能力”计分方式：“综合能力”改为“专业能力”和“通用能力”平均分，其中“专业能力”为“教育”、“医疗与心理健康”、“金融”、“法律与行政公务”4大领域平均分，“通用能力”为“推理与数学计算”、“语言与指令遵从”两大领域平均分。各模型排名有所变动。
   - 新增“表格总结”评测集，属于“推理与数学计算”领域，详见[表格总结排行榜](#66-表格总结)
