@@ -51,6 +51,8 @@
 - [大模型选型及评测交流群](#大模型评测交流群)
 
 # 最近更新
+- [2025/9/10] v5.2版本
+  - 新增大模型：豆包开源Seed-OSS-36B-Instruct，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/9/6] v5.1版本
   - 新增4个大模型：阿里万亿参数模型qwen3-max-preview、qwen-plus-2025-07-28、qwen-plus-think-2025-07-28（qwen-plus思考模式）、
   qwen-turbo-think-2025-07-15（qwen-turbo思考模式），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
@@ -188,7 +190,7 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
 |1|hunyuan-t1-20250711☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|85.5%| |        89.3%|82.9%|83.6%|        76.5%|87.0%|89.0%|
-|2|ERNIE-4.5-Turbo-32K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|3.2元|83.6%| |        85.6%|91.5%|85.8%|        81.5%|74.9%|87.1%|
+|2|Seed-OSS-36B-Instruct(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|豆包|4.0元|85.2%| |        89.6%|82.5%|75.9%|        81.0%|90.2%|86.0%|
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce2.md)<br><br>
 
@@ -227,8 +229,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|84.4%| |        82.6%|80.6%|79.0%|        81.0%|88.5%|87.6%|
-|2|DeepSeek-V3.1-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|12.0元|84.3%| |        85.0%|80.5%|82.8%|        82.0%|86.2%|85.9%|
+|1|Seed-OSS-36B-Instruct(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|豆包|4.0元|85.2%| |        89.6%|82.5%|75.9%|        81.0%|90.2%|86.0%|
+|2|DeepSeek-R1-0528☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|16.0元|84.4%| |        82.6%|80.6%|79.0%|        81.0%|88.5%|87.6%|
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
 

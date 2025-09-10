@@ -102,6 +102,7 @@
 |商用|阿里巴巴|qwen-plus-think-2025-07-28(new)|nan%|/|4955|38.6|99|
 |商用|阿里巴巴|qwen-turbo-think-2025-07-15(new)|nan%|/|10170|30.1|100|
 |商用|阿里巴巴|qwen3-max-preview(new)|nan%|49s|2336|53.4|101|
+|开源|豆包|Seed-OSS-36B-Instruct(new)|nan%|315s|6932|27.4|102|
 
 
 ![lin](../pic/金融理财师AFP.png)
