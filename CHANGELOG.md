@@ -1,6 +1,7 @@
 ## 最近更新
 - [2025/9/10] v5.2版本
   - 新增大模型：豆包开源Seed-OSS-36B-Instruct，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 删除陈旧的模型：qwen-plus-2025-07-14
 - [2025/9/6] v5.1版本
   - 新增4个大模型：阿里万亿参数模型qwen3-max-preview、qwen-plus-2025-07-28、qwen-plus-think-2025-07-28（qwen-plus思考模式）、
   qwen-turbo-think-2025-07-15（qwen-turbo思考模式），☛查看[模型完整信息](https://nonelinear.com/static/models.html)
