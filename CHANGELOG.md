@@ -1,5 +1,6 @@
 ## 最近更新
 - [2025/9/14] v5.3版本
+  - 新增“agent与工具调用”大领域排行榜，详见[link](#8agent与工具调用排行榜)
   - 新增大模型：阿里开源qwen3-next-80b-a3b-instruct，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/9/10] v5.2版本
   - 新增大模型：豆包开源Seed-OSS-36B-Instruct，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
