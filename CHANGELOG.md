@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/9/22] v5.4版本
+  - “agent与工具调用”领域新增BFCL-V3排行榜，详见[link](#82-BFCL-V3)  
 - [2025/9/14] v5.3版本
   - 新增“agent与工具调用”大领域排行榜，详见[link](#8agent与工具调用排行榜)
   - 新增大模型：阿里开源qwen3-next-80b-a3b-instruct，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
