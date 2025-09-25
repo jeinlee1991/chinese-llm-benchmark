@@ -7,5 +7,3 @@
 |4|claude-4-sonnet-thinking☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|77.1%| |        77.3%|70.5%|72.2%|        65.0%|80.0%|86.0%|
 |5|claude-4-sonnet☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|76.9%| |        79.0%|70.7%|71.1%|        70.0%|74.8%|87.7%|
 |6|o4-mini☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|31.9元|76.7%| |        71.8%|60.4%|66.5%|        63.3%|91.1%|84.5%|
-|7|xunfei-spark-max☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|30.0元|72.1%| |        75.7%|80.7%|75.5%|        68.7%|59.2%|79.0%|
-|8|xunfei-4.0Ultra☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|70.0元|71.9%| |        77.1%|79.9%|75.5%|        67.3%|59.2%|78.7%|
