@@ -175,6 +175,16 @@ client.chat.completions.create(
 <br><br>
 
 
+# 💥模型选型：目标降本90%
+拒绝“盲选”大模型🎉！上传你的【专属测试数据】📊，5分钟🔍测出哪个模型在你的场景下效果最好🏆、最划算💰！选择最合适模型，成本或降90%💥！
+![link](docs/modelSelection/img/task-create-html.png)
+![link](docs/modelSelection/img/task-result-html.png)
+示例：
+- [微信文章撰写之表格总结](docs/modelSelection/微信文章撰写之表格总结.md)
+- [MathML转LaTeX格式](docs/modelSelection/MathML转LaTeX格式.md)
+<br><br>
+
+
 # 📊 排行榜
 ## 0、多模态排行榜
 详细数据见[多模态评测](README-多模态评测.md)<br>
