@@ -90,12 +90,14 @@
 |商用|Mistral|mistral-medium-2508(new)|nan%|23s|1158|14.6|87|
 |开源|Mistral|Magistral-Small-2507|nan%|322s|11700|125.9|88|
 |开源|Mistral|Mistral-Small-3.2-24B-Instruct-2506|nan%|161s|2421|5.0|89|
-|商用|阿里巴巴|qwen-plus-2025-07-28(new)|nan%|95s|3919|7.7|90|
-|商用|阿里巴巴|qwen-plus-think-2025-07-28(new)|nan%|/|4955|38.6|91|
-|商用|阿里巴巴|qwen-turbo-think-2025-07-15(new)|nan%|/|10170|30.1|92|
+|商用|阿里巴巴|qwen-plus-2025-07-28|nan%|95s|3919|7.7|90|
+|商用|阿里巴巴|qwen-plus-think-2025-07-28|nan%|/|4955|38.6|91|
+|商用|阿里巴巴|qwen-turbo-think-2025-07-15|nan%|/|10170|30.1|92|
 |商用|阿里巴巴|qwen3-max-preview(new)|nan%|49s|2336|53.4|93|
 |开源|豆包|Seed-OSS-36B-Instruct(new)|nan%|315s|6932|27.4|94|
 |开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|nan%|18s|1314|4.8|95|
+|开源|深度求索|DeepSeek-V3.2-Exp(new)|nan%|28s|781|2.2|96|
+|开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|nan%|126s|3409|10.1|97|
 
 
 ![lin](../pic/金融理财师AFP.png)
