@@ -98,6 +98,7 @@
 |开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|nan%|18s|1314|4.8|95|
 |开源|深度求索|DeepSeek-V3.2-Exp(new)|nan%|28s|781|2.2|96|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|nan%|126s|3409|10.1|97|
+|商用|腾讯|hunyuan-turbos-20250926(new)|nan%|85s|3280|6.3|98|
 
 
 ![lin](../pic/金融理财师AFP.png)

@@ -1,6 +1,6 @@
 ## 最近更新
 - [2025/9/30] v5.5版本
-  - 新增大模型：开源DeepSeek-V3.2-Exp、DeepSeek-V3.2-Exp-Think，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
+  - 新增大模型：开源DeepSeek-V3.2-Exp、DeepSeek-V3.2-Exp-Think、hunyuan-turbos-20250926，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
 - [2025/9/22] v5.4版本
   - “agent与工具调用”领域新增BFCL-V3排行榜，详见[link](#82-BFCL-V3)  
 - [2025/9/14] v5.3版本
