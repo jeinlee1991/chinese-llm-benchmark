@@ -1,6 +1,7 @@
 ## 最近更新
 - [2025/10/13] v5.6版本
   - 各评测集删除太简单的样本，并补充新样本，各模型分数均有较大变动
+  - “agent与工具调用”计入总分，各模型排名有所变动
   - 新增大模型：GLM-4.6，☛查看模型完整信息并体验[link](https://nonelinear.com/static/models.html)
 - [2025/9/30] v5.5版本
   - 新增大模型：开源DeepSeek-V3.2-Exp、DeepSeek-V3.2-Exp-Think、hunyuan-turbos-20250926，☛查看[模型完整信息](https://nonelinear.com/static/models.html)
