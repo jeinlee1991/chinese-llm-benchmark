@@ -185,38 +185,38 @@ client.chat.completions.create(
 
 #### 1.1、推理模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|74.2%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|
-|2|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|71.0%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
+|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|74.2%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|        54.4%|
+|2|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|71.0%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|        53.2%|
 
 完整排行榜见[推理模型排行榜](leaderboard/reasonmodel.md)<br>
 <br>
 #### 1.2、商用大模型排行榜（含开源模型的付费API）
 ##### （1）输出价格5元及以上商用大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|74.2%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|
-|2|qwen-plus-think-2025-07-28☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|8.0元|69.7%| |        58.2%|81.2%|83.0%|        78.7%|73.1%|66.7%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
+|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|74.2%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|        54.4%|
+|2|qwen-plus-think-2025-07-28☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|8.0元|69.7%| |        58.2%|81.2%|83.0%|        78.7%|73.1%|66.7%|        52.7%|
   
 完整排行榜见[5元及以上商用大模型](leaderboard/commerce1.md)<br><br>
 
 ##### （2）输出价格1~5元商用大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|71.0%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|
-|2|hunyuan-turbos-20250716☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2.0元|69.9%| |        49.9%|89.5%|83.9%|        82.0%|53.2%|63.4%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
+|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|71.0%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|        53.2%|
+|2|hunyuan-turbos-20250716☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|2.0元|69.9%| |        49.9%|89.5%|83.9%|        82.0%|53.2%|63.4%|        74.0%|
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce2.md)<br><br>
 
 ##### （3）输出价格1元以下商用大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|GLM-4.5-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|62.5%| |        29.6%|73.3%|70.3%|        72.7%|61.1%|65.5%|
-|2|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|58.2%| |        49.6%|80.5%|77.2%|        66.0%|50.3%|64.0%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
+|1|GLM-4.5-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|62.5%| |        29.6%|73.3%|70.3%|        72.7%|61.1%|65.5%|        64.1%|
+|2|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|58.2%| |        49.6%|80.5%|77.2%|        66.0%|50.3%|64.0%|        30.0%|
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce3.md)<br>
 
@@ -226,28 +226,28 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 #### 1.3、开源大模型排行榜
 ##### （1）5B以下开源大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|52.4%| |        33.1%|64.8%|70.6%|        53.0%|51.2%|56.0%|
-|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|43.9%| |        30.5%|51.7%|59.1%|        46.0%|45.3%|49.0%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
+|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|52.4%| |        33.1%|64.8%|70.6%|        53.0%|51.2%|56.0%|        40.8%|
+|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|43.9%| |        30.5%|51.7%|59.1%|        46.0%|45.3%|49.0%|        28.3%|
    
 完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
 
 ##### （2）5B~20B开源大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|59.4%| |        43.0%|75.6%|80.2%|        66.2%|54.3%|53.3%|
-|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|56.8%| |        35.0%|67.5%|72.4%|        66.8%|55.8%|57.8%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
+|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|59.4%| |        43.0%|75.6%|80.2%|        66.2%|54.3%|53.3%|        50.0%|
+|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|56.8%| |        35.0%|67.5%|72.4%|        66.8%|55.8%|57.8%|        45.9%|
    
 完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
 
 ##### （3）20B以上开源大模型排行榜
 
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|
-|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|71.0%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|
-|2|DeepSeek-V3.1-Think☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|12.0元|69.4%| |        50.4%|80.5%|82.8%|        82.0%|70.9%|71.7%|
+|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
+|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
+|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|71.0%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|        53.2%|
+|2|DeepSeek-V3.1-Think☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|12.0元|69.4%| |        50.4%|80.5%|82.8%|        82.0%|70.9%|71.7%|        52.3%|
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
 
