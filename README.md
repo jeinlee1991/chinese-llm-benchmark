@@ -1,5 +1,5 @@
 
-# ReLE中文大模型能力评测（持续更新）
+# ReLE评测：中文AI大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
 - 目前已囊括303个大模型，覆盖chatgpt、gpt-5、o4-mini、谷歌gemini-2.5、Claude4.5、智谱GLM-Z1、文心一言、qwen3-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及kimi-k2、ernie4.5、minimax-M1、DeepSeek-R1-0528、deepseek-v3.2、qwen3-2507、llama4、GLM4.5、gemma3、mistral等开源大模型。
@@ -138,7 +138,7 @@ Qwen3-235B-A22B、Qwen3-235B-A22B-nothink、Qwen3-30B-A3B、Qwen3-30B-A3B-nothin
 
 # 🚀 大模型统一网关
 隆重推出 一站式 AI 模型超市 🛒，提供当下最全的大模型，让您永远快人一步。
-- 🌐 全球模型，一网打尽：GPT-5、Gemini-2.5-Pro、Claude-4、DeepSeek-v3.1、Kimi-k2……
+- 🌐 全球模型，一网打尽：GPT-5、Gemini-2.5-Pro、Claude-4.5、DeepSeek-v3.2、Kimi-k2……
 - ⚖️ 智能负载与高并发：我们聚合了多家顶级供应商，通过智能路由实现自动负载均衡。您从此可以告别烦人的 Rate Limit 报错，轻松应对任何流量洪峰！
 - 🔀 自动故障切换：单一供应商的 API 临时“抽风”？没关系！我们的系统会毫秒级无感切换到健康的备用渠道，确保您的服务 99.9999% 高可用，让您的用户远离“服务不可用”的尴尬。
 - 🛡️在线监控与智能选型：无缝衔接在线效果监测工具，打通模型选型评测闭环。用真实数据说话，助您轻松找到性能最佳、性价比最高的模型方案。
