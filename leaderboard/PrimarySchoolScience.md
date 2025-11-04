@@ -25,7 +25,7 @@
 |商用|豆包|doubao-seed-1-6-flash-thinking-250615|50.0%|4s|427|0.5|22|
 |商用|豆包|doubao-seed-1-6-flash-250615|50.0%|3s|245|0.3|23|
 |开源|深度求索|DeepSeek-V3.2-Exp(new)|50.0%|83s|180|0.5|24|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|50.0%|8s|322|1.1|25|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|50.0%|8s|322|1.1|25|
 |商用|豆包|doubao-seed-1-6-lite-251015(new)|50.0%|24s|354|0.7|26|
 |开源|阿里巴巴|Qwen3-1.7B|/%|40s|1107|3.2|27|
 |商用|openAI|o4-mini|/%|38s|406|11.6|28|

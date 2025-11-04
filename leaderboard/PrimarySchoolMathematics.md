@@ -4,7 +4,7 @@
 |商用|anthropic|claude-4-sonnet|100.0%|37s|301|27.4|1|
 |商用|豆包|doubao-seed-1-6-thinking-250715|90.0%|33s|3310|26.0|2|
 |开源|深度求索|DeepSeek-V3.1-Think|86.7%|107s|2505|29.6|3|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|86.7%|201s|1286|4.9|4|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|86.7%|201s|1286|4.9|4|
 |开源|阿里巴巴|qwen3-235b-a22b-thinking-2507|86.7%|152s|3905|62.8|5|
 |商用|阿里巴巴|qwen-plus-think-2025-07-28|86.7%|1115s|3698|29.1|6|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|86.7%|221s|2412|7.2|7|

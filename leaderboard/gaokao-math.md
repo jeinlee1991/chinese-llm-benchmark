@@ -19,7 +19,7 @@
 |开源|腾讯|Hunyuan-A13B-Instruct-nothink|70.0%|265s|970|3.5|16|
 |商用|google|gemini-2.5-pro|70.0%|72s|7711|552.0|17|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|70.0%|187s|2490|7.4|18|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|70.0%|202s|1890|7.2|19|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|70.0%|202s|1890|7.2|19|
 |开源|豆包|Seed-OSS-36B-Instruct|70.0%|408s|4820|19.0|20|
 |商用|豆包|doubao-seed-1-6-251015(new)|66.7%|33s|3947|30.4|21|
 |商用|阿里巴巴|qwen-turbo-think-2025-07-15|66.7%|933s|6381|18.8|22|

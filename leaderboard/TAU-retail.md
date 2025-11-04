@@ -26,7 +26,7 @@
 |开源|深度求索|DeepSeek-V3.2-Exp(new)|60.0%|/|/|/|23|
 |开源|阿里巴巴|qwen3-235b-a22b-instruct-2507|60.0%|/|/|/|24|
 |开源|minimax|MiniMax-M2(new)|60.0%|/|/|/|25|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|60.0%|/|/|/|26|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|60.0%|/|/|/|26|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|60.0%|/|/|/|27|
 |开源|阿里巴巴|Qwen3-30B-A3B-Thinking-2507|60.0%|/|/|/|28|
 |商用|豆包|doubao-seed-1-6-thinking-250715|60.0%|/|/|/|29|

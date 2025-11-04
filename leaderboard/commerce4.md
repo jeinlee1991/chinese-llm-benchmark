@@ -1,9 +1,9 @@
 ##### （4）输出价格1元以下商用大模型排行榜
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|GLM-4.5-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|63.0%| |        29.6%|73.3%|70.3%|        72.7%|61.1%|65.5%|        64.1%|
+|1|GLM-4.5-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|63.0%| |        29.6%|73.3%|70.3%|        72.7%|61.5%|65.5%|        64.1%|
 |2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|55.3%| |        35.0%|67.5%|72.4%|        66.8%|55.8%|57.8%|        45.9%|
-|3|GLM-4.5-Flash-nothink☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|54.7%| |        39.1%|65.2%|69.6%|        60.7%|45.9%|57.1%|        56.2%|
+|3|GLM-4.5-Flash-nothink☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|54.8%| |        39.1%|65.2%|69.6%|        60.7%|46.0%|57.1%|        56.2%|
 |4|DeepSeek-R1-0528-Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|0.0元|54.5%| |        35.7%|65.9%|67.4%|        58.5%|60.0%|56.3%|        43.9%|
 |5|Doubao-1.5-lite-32k-250115☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|0.6元|54.2%| |        49.6%|80.5%|77.2%|        66.0%|50.3%|64.0%|        30.0%|
 |6|qwen-turbo-2025-07-15☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|0.6元|52.3%| |        41.4%|69.6%|70.8%|        61.3%|46.0%|59.8%|        40.2%|

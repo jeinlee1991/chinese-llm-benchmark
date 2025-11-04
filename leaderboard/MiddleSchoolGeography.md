@@ -53,7 +53,7 @@
 |开源|Mistral|Mistral-Small-3.2-24B-Instruct-2506|27.3%|14s|478|0.9|50|
 |商用|阿里巴巴|qwen-plus-2025-07-28|27.3%|11s|427|0.7|51|
 |开源|minimax|MiniMax-M2(new)|27.3%|106s|1290|10.3|52|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|27.3%|6s|491|1.7|53|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|27.3%|6s|491|1.7|53|
 |开源|阿里巴巴|Qwen3-32B|27.3%|59s|2102|8.1|54|
 |开源|阿里巴巴|Qwen3-14B|27.3%|77s|3682|7.2|55|
 |商用|anthropic|claude-4-sonnet|27.3%|13s|478|41.9|56|

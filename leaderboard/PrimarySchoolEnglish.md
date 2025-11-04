@@ -59,7 +59,7 @@
 |商用|豆包|doubao-seed-1-6-lite-251015(new)|100.0%|5s|272|0.5|56|
 |商用|腾讯|hunyuan-turbos-20250926(new)|100.0%|5s|251|0.4|57|
 |开源|深度求索|DeepSeek-V3.2-Exp(new)|100.0%|274s|185|0.5|58|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|100.0%|4s|318|1.1|59|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|100.0%|4s|318|1.1|59|
 |商用|阿里巴巴|qwen3-max-preview|100.0%|7s|300|6.3|60|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|100.0%|289s|589|1.7|61|
 |开源|openAI|gpt-oss-20b|100.0%|3s|401|0.4|62|

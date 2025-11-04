@@ -29,7 +29,7 @@
 |商用|anthropic|claude-4-sonnet-thinking|40.0%|21s|983|93.4|26|
 |开源|深度求索|DeepSeek-R1-0528-Qwen3-8B|40.0%|117s|2653|0.0|27|
 |开源|阿里巴巴|Qwen3-14B|36.7%|165s|8856|17.6|28|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|36.7%|13s|835|3.0|29|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|36.7%|13s|835|3.0|29|
 |商用|阿里巴巴|qwen3-max-preview|36.7%|13s|654|13.7|30|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|36.7%|224s|1529|4.5|31|
 |开源|阿里巴巴|qwen3-235b-a22b-thinking-2507|36.7%|57s|2909|56.2|32|

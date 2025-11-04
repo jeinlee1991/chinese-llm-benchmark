@@ -28,7 +28,7 @@
 |开源|阿里巴巴|Qwen3-32B|50.0%|49s|1688|6.3|25|
 |商用|openAI|o4-mini|50.0%|36s|1432|41.9|26|
 |商用|anthropic|claude-4-sonnet|50.0%|45s|774|62.2|27|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|50.0%|14s|774|2.6|28|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|50.0%|14s|774|2.6|28|
 |开源|阿里巴巴|Qwen3-30B-A3B-Thinking-2507|50.0%|157s|3111|8.4|29|
 |商用|anthropic|claude-4-sonnet-thinking|50.0%|51s|1495|140.6|30|
 |商用|科大讯飞|xunfei-spark-x1-0725|50.0%|/|1426|11.8|31|

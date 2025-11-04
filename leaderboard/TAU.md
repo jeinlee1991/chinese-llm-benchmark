@@ -20,7 +20,7 @@
 |商用|智谱AI|GLM-4.5-Flash-nothink|57.5%|/|/|/|17|
 |商用|阿里巴巴|qwen-plus-2025-07-28|57.5%|/|/|/|18|
 |开源|深度求索|DeepSeek-R1-0528|57.5%|/|/|/|19|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|57.5%|/|/|/|20|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|57.5%|/|/|/|20|
 |开源|深度求索|DeepSeek-V3.1-Think|57.5%|/|/|/|21|
 |开源|阿里巴巴|qwen3-235b-a22b-thinking-2507|55.0%|/|/|/|22|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|55.0%|/|/|/|23|

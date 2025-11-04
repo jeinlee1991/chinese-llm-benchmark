@@ -80,7 +80,7 @@
 |商用|阿里巴巴|qwen-plus-think-2025-07-28|/%|/|2267|17.7|77|
 |商用|阿里巴巴|qwen-turbo-think-2025-07-15|/%|/|1050|3.0|78|
 |商用|阿里巴巴|qwen3-max-preview|/%|6s|333|7.0|79|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|/%|5s|425|1.5|80|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|/%|5s|425|1.5|80|
 |开源|深度求索|DeepSeek-V3.2-Exp(new)|/%|18s|197|0.5|81|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|/%|23s|517|1.5|82|
 |商用|腾讯|hunyuan-turbos-20250926(new)|/%|9s|392|0.7|83|

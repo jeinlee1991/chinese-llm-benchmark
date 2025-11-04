@@ -1,7 +1,7 @@
 
 # ReLE评测：中文AI大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括303个大模型，覆盖chatgpt、gpt-5、o4-mini、谷歌gemini-2.5、Claude4.5、智谱GLM-Z1、文心一言、qwen3-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括304个大模型，覆盖chatgpt、gpt-5、o4-mini、谷歌gemini-2.5、Claude4.5、智谱GLM-Z1、文心一言、qwen3-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及kimi-k2、ernie4.5、minimax-M1、DeepSeek-R1-0528、deepseek-v3.2、qwen3-2507、llama4、GLM4.5、gemma3、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从、agent与工具调用等7个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -161,7 +161,7 @@ client.chat.completions.create(
 |类别|机构|大模型|【总分】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
 |商用|豆包|doubao-seed-1-6-thinking-250715|71.7%|37s|2162|15.6|1|
-|开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|69.9%|248s|2106|6.1|2|
+|开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|70.1%|248s|2106|6.1|2|
 
    
 详细数据见：
@@ -175,7 +175,7 @@ client.chat.completions.create(
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
 |1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|71.7%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|        54.4%|
-|2|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|69.9%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|        53.2%|
+|2|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.1%| |        50.4%|80.9%|82.5%|        82.0%|75.1%|77.2%|        53.2%|
 
 完整排行榜见[推理模型排行榜](leaderboard/reasonmodel.md)<br>
 <br>
@@ -193,8 +193,8 @@ client.chat.completions.create(
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|69.9%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|        53.2%|
-|2|qwen-plus-2025-07-28☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|2.0元|67.5%| |        50.8%|82.0%|82.8%|        82.7%|65.6%|70.1%|        57.6%|
+|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.1%| |        50.4%|80.9%|82.5%|        82.0%|75.1%|77.2%|        53.2%|
+|2|qwen-plus-2025-07-28☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|2.0元|67.6%| |        50.8%|82.0%|82.8%|        82.7%|66.4%|70.1%|        57.6%|
   
 完整排行榜见[1~5元商用大模型](leaderboard/commerce2.md)<br><br>
 
@@ -202,7 +202,7 @@ client.chat.completions.create(
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|GLM-4.5-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|63.0%| |        29.6%|73.3%|70.3%|        72.7%|61.1%|65.5%|        64.1%|
+|1|GLM-4.5-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|63.0%| |        29.6%|73.3%|70.3%|        72.7%|61.5%|65.5%|        64.1%|
 |2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|55.3%| |        35.0%|67.5%|72.4%|        66.8%|55.8%|57.8%|        45.9%|
    
 完整排行榜见[1元以下商用大模型](leaderboard/commerce3.md)<br>
@@ -233,8 +233,8 @@ DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchm
 
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|69.9%| |        50.4%|80.9%|82.5%|        82.0%|74.0%|77.2%|        53.2%|
-|2|GLM-4.6(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|67.9%| |        46.9%|77.6%|77.7%|        80.3%|65.8%|64.6%|        69.9%|
+|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.1%| |        50.4%|80.9%|82.5%|        82.0%|75.1%|77.2%|        53.2%|
+|2|GLM-4.6(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|68.1%| |        46.9%|77.6%|77.7%|        80.3%|66.7%|64.6%|        69.9%|
    
 完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
 

@@ -59,7 +59,7 @@
 |商用|腾讯|hunyuan-turbos-20250926(new)|33.3%|7s|324|0.5|56|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|33.3%|57s|1361|4.0|57|
 |商用|Mistral|mistral-medium-2508|33.3%|17s|266|3.0|58|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|33.3%|12s|336|1.1|59|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|33.3%|12s|336|1.1|59|
 |开源|深度求索|DeepSeek-V3.2-Exp(new)|33.3%|7s|163|0.4|60|
 |开源|阿里巴巴|Qwen3-14B-nothink|33.3%|9s|307|0.5|61|
 |开源|阿里巴巴|Qwen3-8B-nothink|33.3%|11s|266|0.0|62|

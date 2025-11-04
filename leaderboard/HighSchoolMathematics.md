@@ -9,7 +9,7 @@
 |开源|深度求索|DeepSeek-V3.1-Think|63.6%|179s|3600|42.2|6|
 |商用|openAI|o4-mini|54.5%|24s|1866|56.2|7|
 |商用|科大讯飞|xunfei-spark-x1-0725|54.5%|/|6256|75.1|8|
-|开源|阿里巴巴|qwen3-next-80b-a3b-instruct(new)|54.5%|34s|2329|8.9|9|
+|开源|阿里巴巴|qwen3-next-80b-a3b-instruct|54.5%|34s|2329|8.9|9|
 |商用|腾讯|hunyuan-turbos-20250926(new)|54.5%|55s|2124|4.0|10|
 |开源|腾讯|Hunyuan-A13B-Instruct-nothink|54.5%|371s|1204|4.4|11|
 |商用|openAI|gpt-5-mini-2025-08-07|54.5%|53s|1926|26.1|12|
