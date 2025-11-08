@@ -2,6 +2,7 @@
 - [2025/11/3] v5.8版本
   - 新增大模型：MiniMax-M2
   - 删除陈旧的模型：Doubao-1.5-pro-32k-250115、ministral-3b、ministral-8b、hunyuan-turbos-20250716
+  - 整合LMArena和Artificial Analysis（简称AA）排行榜数据，详见[link](#9整合LMArena和AA分数)
 - [2025/10/24] v5.7版本
   - 修改“专业能力”“通用能力”权重，从5：5改为3：7，更突出通用能力；模型排名有较大变动。
   - 新增大模型：doubao-seed-1-6-251015、doubao-seed-1-6-lite-251015
