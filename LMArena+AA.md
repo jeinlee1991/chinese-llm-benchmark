@@ -1,6 +1,9 @@
-整合LMArena和Artificial Analysis（简称AA）排行榜数据
-
-
+整合LMArena和Artificial Analysis（简称AA）排行榜数据。
+维度说明：
+- 综合能力评分：AA-Intelligence、LMArena-Text-overall
+- 代码能力评分：AA-Coding、LMArena-Text-coding、LMArena-WebDev
+- 数学能力评分：AA-Math  
+  
 
 | 大模型             | AA-Intelligence | AA-Coding | AA-Math | | LMArena-Text-overall | LMArena-Text-coding | LMArena-WebDev | 别名                                           |
 |-----------------|-----------------|-----------|---------|-|----------------------|---------------------|----------------|----------------------------------------------|
