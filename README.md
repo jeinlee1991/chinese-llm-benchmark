@@ -168,10 +168,7 @@ client.chat.completions.create(
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|70.1%|248s|2106|6.1|2|
 
    
-详细数据见：
-- [综合能力排行榜](leaderboard/总分.md)
-- [专业能力排行榜](leaderboard/专业能力.md)
-- [通用能力排行榜](leaderboard/通用能力.md)
+详细数据见：[综合能力排行榜](leaderboard/总分.md) | [通用能力排行榜](leaderboard/通用能力.md) | [专业能力排行榜](leaderboard/专业能力.md)
 <br><br> 
 
 #### 1.1、推理模型排行榜
