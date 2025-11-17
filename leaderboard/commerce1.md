@@ -7,3 +7,4 @@
 |4|claude-4-sonnet☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|66.9%| |        46.4%|70.7%|71.1%|        70.0%|69.1%|78.5%|        56.2%|
 |5|claude-4-sonnet-thinking☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|108.75元|62.1%| |        41.7%|70.5%|72.2%|        65.0%|61.0%|68.6%|        56.2%|
 |6|grok-4-0709☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|61.2%| |        41.9%|75.0%|75.1%|        74.0%|63.7%|64.6%|        48.4%|
+|7|gpt-5.1(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|71.0元|57.6%| |        35.7%|64.2%|67.4%|        52.0%|55.8%|59.4%|        61.1%|
