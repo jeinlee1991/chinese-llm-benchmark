@@ -6,7 +6,7 @@
 |3|gpt-5.1-medium(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|71.0元|69.3%| |        47.7%|77.3%|75.4%|        71.3%|83.5%|64.5%|        61.7%|
 |4|o4-mini☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|31.9元|69.0%| |        42.1%|60.4%|66.5%|        63.3%|87.0%|73.2%|        60.6%|
 |5|gpt-5-2025-08-07☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|72.5元|68.9%| |        51.0%|75.6%|71.3%|        73.7%|74.7%|75.6%|        57.8%|
-|6|gemini-2.5-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|68.7%| |        49.1%|77.8%|78.5%|        78.8%|71.4%|70.6%|        61.0%|
+|6|gemini-2.5-pro☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|72.5元|68.9%| |        49.1%|77.8%|78.5%|        78.8%|72.2%|70.6%|        61.0%|
 |7|GLM-4.6(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|68.1%| |        46.9%|77.6%|77.7%|        80.3%|66.7%|64.6%|        69.9%|
 |8|Kimi-K2-Thinking(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|月之暗面|16.0元|67.9%| |        45.6%|77.7%|71.9%|        72.3%|73.7%|63.4%|        68.0%|
 |9|DeepSeek-V3.1-Think☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|12.0元|67.7%| |        50.4%|80.5%|82.8%|        82.0%|71.2%|71.7%|        52.3%|
