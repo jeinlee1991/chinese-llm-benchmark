@@ -1007,14 +1007,10 @@ BFCL-V3是加州大学伯克利分校发布的工具调用评测集，首创多�
 
 
 ## 联系我们
-### 免费评测服务
-加小编微信，备注“评测服务”<br>
-![lin](pic/qrcode-wxgroup.jpg)
-<br><br><br><br>
 ### 大模型评测交流群
-先加小编微信，后拉入群，备注“加群”<br>
+先加小编微信，后拉入群，备注“来源github，加群”<br>
 ![lin](pic/qrcode-wxgroup.jpg)
-<br><br><br><br>
+<br><br><br>
 ### 大模型评测微信公众号
 关注大模型评测微信公众号，及时获取最新评测信息<br>
 ![lin](pic/qrcode-gzh.jpg)
