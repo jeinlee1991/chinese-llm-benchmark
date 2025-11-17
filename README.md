@@ -175,73 +175,15 @@ client.chat.completions.create(
 <br><br> 
 
 #### 1.1、推理模型排行榜
-
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|71.7%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|        54.4%|
-|2|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.1%| |        50.4%|80.9%|82.5%|        82.0%|75.1%|77.2%|        53.2%|
-
-完整排行榜见[推理模型排行榜](leaderboard/reasonmodel.md)<br>
+见[推理模型排行榜](leaderboard/reasonmodel.md)<br>
 <br>
 #### 1.2、商用大模型排行榜（含开源模型的付费API）
-##### （1）输出价格5元及以上商用大模型排行榜
-
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|71.7%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|        54.4%|
-|2|o4-mini☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|31.9元|69.0%| |        42.1%|60.4%|66.5%|        63.3%|87.0%|73.2%|        60.6%|
-  
-完整排行榜见[5元及以上商用大模型](leaderboard/commerce1.md)<br><br>
-
-##### （2）输出价格1~5元商用大模型排行榜
-
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.1%| |        50.4%|80.9%|82.5%|        82.0%|75.1%|77.2%|        53.2%|
-|2|qwen-plus-2025-07-28☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|阿里巴巴|2.0元|67.6%| |        50.8%|82.0%|82.8%|        82.7%|66.4%|70.1%|        57.6%|
-  
-完整排行榜见[1~5元商用大模型](leaderboard/commerce2.md)<br><br>
-
-##### （3）输出价格1元以下商用大模型排行榜
-
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|GLM-4.5-Flash☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|智谱AI|0.0元|63.0%| |        29.6%|73.3%|70.3%|        72.7%|61.5%|65.5%|        64.1%|
-|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|55.3%| |        35.0%|67.5%|72.4%|        66.8%|55.8%|57.8%|        45.9%|
-   
-完整排行榜见[1元以下商用大模型](leaderboard/commerce3.md)<br>
-
+[输出价格5元及以上商用大模型](leaderboard/commerce1.md) | [输出价格1~5元商用大模型](leaderboard/commerce2.md) | [输出价格1元以下商用大模型](leaderboard/commerce3.md)<br>
 DIY自定义维度筛选榜单：☛ [link](https://nonelinear.com/static/benchmarking.html) 
-<br><br>
+<br>
 <br>
 #### 1.3、开源大模型排行榜
-##### （1）5B以下开源大模型排行榜
-
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|Qwen3-4B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|51.2%| |        33.1%|64.8%|70.6%|        53.0%|51.2%|56.0%|        40.8%|
-|2|Qwen3-1.7B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|3.0元|42.7%| |        30.5%|51.7%|59.1%|        46.0%|45.3%|49.0%|        28.3%|
-   
-完整排行榜见[5B以下开源大模型](leaderboard/opensource1.md)<br><br>
-
-##### （2）5B~20B开源大模型排行榜
-
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|Qwen3-14B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|2.0元|56.6%| |        43.0%|75.6%|80.2%|        66.2%|54.3%|53.3%|        50.0%|
-|2|Qwen3-8B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|55.3%| |        35.0%|67.5%|72.4%|        66.8%|55.8%|57.8%|        45.9%|
-   
-完整排行榜见[5B~20B开源大模型](leaderboard/opensource2.md)<br><br>
-
-##### （3）20B以上开源大模型排行榜
-
-|排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
-|---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.1%| |        50.4%|80.9%|82.5%|        82.0%|75.1%|77.2%|        53.2%|
-|2|GLM-4.6(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|68.1%| |        46.9%|77.6%|77.7%|        80.3%|66.7%|64.6%|        69.9%|
-   
-完整排行榜见[20B以上开源大模型](leaderboard/opensource3.md)<br><br>
-
+[5B以下开源大模型](leaderboard/opensource1.md) | [5B~20B开源大模型](leaderboard/opensource2.md) | [20B以上开源大模型](leaderboard/opensource3.md)<br>
 DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchmarking.html)
 
 <br><br>
@@ -747,7 +689,7 @@ DIY自定义维度筛选榜单：☛[link](https://nonelinear.com/static/benchma
 
 完整排行榜见[演绎推理](leaderboard/演绎推理.md)<br>
 ☛查看[演绎推理：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=演绎推理)
-<br>
+<br><br>
 
 
 ### 6.2 常识推理
@@ -761,7 +703,7 @@ A、释放热量  B、吸收热量
 
 完整排行榜见[常识推理](leaderboard/常识推理.md)<br>
 ☛查看[常识推理：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=常识推理)
-<br>
+<br><br>
 
 
 ### 6.3 符号推理BBH
@@ -784,7 +726,7 @@ A:
 
 完整排行榜见[BBH](leaderboard/符号推理BBH.md)<br>
 ☛查看[BBH符号推理：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=BBH)
-<br>
+<br><br>
 
 
 ### 6.4 算术能力
@@ -793,7 +735,7 @@ A:
 
 完整排行榜见[算术能力](leaderboard/算术能力.md)<br>
 ☛查看[算术能力：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=算术能力)
-<br>
+<br><br>
 
 
 ### 6.5 表格问答
@@ -812,7 +754,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[表格问答](leaderboard/表格问答.md)<br>
 ☛查看[表格问答：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=表格问答)
-<br>
+<br><br>
 
 
 ### 6.6 表格总结
@@ -832,7 +774,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[表格总结](leaderboard/表格总结.md)<br>
 ☛查看[表格总结：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=表格总结)
-<br>
+<br><br>
 
 
 ### 6.7 高中奥数
@@ -843,7 +785,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[高中奥林匹克数学竞赛](leaderboard/Math24o.md)<br>
 ☛查看[高中奥林匹克数学竞赛：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=Math24o)
-<br>
+<br><br>
 
 
 ### 6.8 初中奥数TODO
@@ -853,13 +795,10 @@ Antonio,36,男,西班牙,182,75,博士
 ### 6.9 小学奥数
 完整排行榜见[小学奥数](leaderboard/小学奥数.md)<br>
 ☛查看[小学奥数：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=小学奥数一年级)
-<br>
+<br><br>
 
 
 ### 6.10 地图推理TODO
-<br>
-
-
 ### 6.11 空间推理TODO
 <br>
 
@@ -871,9 +810,6 @@ Antonio,36,男,西班牙,182,75,博士
 
 
 ### 6.13 金额大小写转换TODO
-<br>
-
-
 ### 6.14 日期计算TODO
 <br><br><br>
 
@@ -893,7 +829,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[成语理解](leaderboard/成语理解.md)<br>
 ☛查看[成语理解：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=成语理解)
-<br>
+<br><br>
 
 
 ### 7.2 情感分析
@@ -907,7 +843,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[情感分析](leaderboard/情感分析.md)<br>
 ☛查看[情感分析：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=情感分析)
-<br>
+<br><br>
 
 
 ### 7.3 文本蕴含
@@ -922,7 +858,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[文本蕴含](leaderboard/文本蕴含.md)<br>
 ☛查看[文本蕴含：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=文本蕴含)
-<br>
+<br><br>
 
 
 ### 7.4 文本分类
@@ -932,7 +868,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[文本分类](leaderboard/文本分类.md)<br>
 ☛查看[文本分类：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=文本分类)
-<br>
+<br><br>
 
 
 ### 7.5 信息抽取
@@ -942,7 +878,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[信息抽取](leaderboard/信息抽取.md)<br>
 ☛查看[信息抽取：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=信息抽取)
-<br>
+<br><br>
 
 
 ### 7.6 阅读理解
@@ -961,7 +897,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[阅读理解](leaderboard/阅读理解.md)<br>
 ☛查看[阅读理解：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=阅读理解)
-<br>
+<br><br>
 
 
 ### 7.7 代词理解
@@ -973,7 +909,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[代词理解](leaderboard/代词理解.md)<br>
 ☛查看[代词理解：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=代词理解)
-<br>
+<br><br>
 
 
 ### 7.8 诗词匹配
@@ -988,7 +924,7 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[诗词匹配](leaderboard/诗词匹配.md)<br>
 ☛查看[诗词匹配：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=诗词匹配)
-<br>
+<br><br>
 
 
 ### 7.9 中文指令遵从
@@ -997,35 +933,20 @@ Antonio,36,男,西班牙,182,75,博士
 
 完整排行榜见[IFEval](leaderboard/中文指令遵从.md)<br>
 ☛查看[中文指令遵从：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=中文指令遵从)
-<br>
+<br><br>
 
 
 ### 7.10 汉字字形
 完整排行榜见[汉字字形](leaderboard/汉字字形.md)<br>
 ☛查看[汉字字形：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=汉字字形)
-<br>
+<br><br>
 
 
 ### 7.11 汉语拼音TODO
-<br>
-
-
 ### 7.12 找错别字TODO
-<br>
-
-
 ### 7.13 句子理解TODO
-<br>
-
-
 ### 7.14 标点符号TODO
-<br>
-
-
 ### 7.15 汉字繁简转换TODO
-<br>
-
-
 ### 7.16 语种识别TODO
 <br><br><br>
 
@@ -1041,26 +962,29 @@ Antonio,36,男,西班牙,182,75,博士
 
 #### (2) TAU-retail
 完整排行榜见[TAU-retail](leaderboard/TAU-retail.md)<br>
+<br><br>
+
 
 ### 8.2 BFCL-V3
 BFCL-V3是加州大学伯克利分校发布的工具调用评测集，首创多轮、多步函数调用场景，并通过API状态验证评估模型真实交互能力，是目前最权威的大模型工具使用基准之一。
 <br>完整排行榜见[BFCL-V3](leaderboard/BFCL-V3.md)<br>
-<br><br>
+<br><br><br>
+
 
 ## 9、整合LMArena和AA分数
 整合LMArena和Artificial Analysis（简称AA）排行榜数据
 
-
-| 大模型             | AA-Intelligence | AA-Coding | AA-Math | | LMArena-Text-overall | LMArena-Text-coding | LMArena-WebDev | 别名                                           |
-|-----------------|-----------------|-----------|---------|-|----------------------|---------------------|----------------|----------------------------------------------|
-| GPT-5 (high)    | 68.5            | 52.7      | 94.3    | | 1436                 | 1470                | 1473           | gpt-5-high                                   |
-| GPT-5 Codex (high) | 68.5            | 53.5      | 98.7    | | /                    | /                   | /              | /                                            |
-| GPT-5 (medium)  | 66.4            | 49.2      | 91.7    | | /                    | /                   | /              | /                                            |
-| o3              | 65.5            | 52.2      | 88.3    | | 1435                 | 1458                | 1186           | o3-2025-04-16                                |
-| Grok 4          | 65.3            | 55.1      | 92.7    | | 1410                 | 1435                | 1174           | grok-4-0709                                  |
-| GPT-5 mini (high) | 64.3            | 51.4      | 90.7    | | 1392                 | 1427                | /              | gpt-5-mini-high                              |
-| Claude 4.5 Sonnet (Reasoning) | 62.7            | 49.8      | 88      | | 1448                 | 1524                | 1420           | claude-sonnet-4-5-20250929-thinking          |
-| ……      | ……             | ……       | ……    | | ……                 | ……                | ……           | ……                                         |
+| 大模型                                    | ReLE评测   |    | AA-Intelligence   | AA-Coding   | AA-Math   |    | LMArena-Text-overall   | LMArena-Text-coding   | LMArena-WebDev   |
+|:---------------------------------------|:---------|:---|:------------------|:------------|:----------|:---|:-----------------------|:----------------------|:-----------------|
+| gpt-5-high                             | /        |    | 68.5              | 52.7        | 94.3      |    | 1436                   | 1470                  | 1473             |
+| GPT-5 Codex (high)                     | /        |    | 68.5              | 53.5        | 98.7      |    | /                      | /                     | /                |
+| kimi-k2-thinking(new)                  | 67.93    |    | 67                | 52.2        | 94.7      |    | 1422                   | 1473                  | /                |
+| gpt-5-2025-08-07                       | 68.92    |    | 66.4              | 49.2        | 91.7      |    | /                      | /                     | /                |
+| o3                                     | /        |    | 65.5              | 52.2        | 88.3      |    | 1435                   | 1458                  | 1186             |
+| grok-4-0709                            | 61.18    |    | 65.3              | 55.1        | 92.7      |    | 1410                   | 1435                  | 1174             |
+| gpt-5-mini-high                        | /        |    | 64.3              | 51.4        | 90.7      |    | 1392                   | 1427                  | /                |
+| claude-sonnet-4-5-20250929-thinking    | /        |    | 62.7              | 49.8        | 88        |    | 1448                   | 1524                  | 1420             |
+| ...    | ...      |    | ...             | ...        | ...        |    | ...                  | ...                  | ...             |
 
 完整分数见[LMArena+AA](LMArena+AA.md)
 <br><br>
