@@ -55,7 +55,7 @@
 
 # 最近更新
 - [2025/11/17] v5.8.1版本
-  - 新增大模型：Kimi-K2-Thinking、gpt5.1
+  - 新增大模型：Kimi-K2-Thinking、gpt5.1、gpt-5.1-medium
 - [2025/11/3] v5.8版本
   - 新增大模型：MiniMax-M2
   - 删除陈旧的模型：Doubao-1.5-pro-32k-250115、ministral-3b、ministral-8b、hunyuan-turbos-20250716
