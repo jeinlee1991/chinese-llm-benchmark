@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/11/22] v5.8.2版本
+  - 新增大模型：grok-4-1-fast-reasoning、grok-4-1-fast-non-reasoning
 - [2025/11/17] v5.8.1版本
   - 新增大模型：Kimi-K2-Thinking、gpt5.1、gpt-5.1-medium、claude-haiku-4.5、claude-haiku-4.5-thinking
 - [2025/11/3] v5.8版本
