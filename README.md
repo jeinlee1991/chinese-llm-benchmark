@@ -1,7 +1,7 @@
 
 # ReLE评测：中文AI大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括307个大模型，覆盖chatgpt、gpt-5.1、o4-mini、谷歌gemini-2.5、Claude-4.5、智谱GLM-4.6、文心一言、qwen3-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
+- 目前已囊括309个大模型，覆盖chatgpt、gpt-5.1、o4-mini、谷歌gemini-2.5、Claude-4.5、智谱GLM-4.6、文心一言、qwen3-max、百川、讯飞星火、商汤senseChat、minimax等商用模型，
 以及kimi-k2、ernie4.5、minimax-M2、deepseek-v3.2、qwen3-2507、llama4、GLM4.5、gemma3、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从、agent与工具调用等7个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -55,7 +55,7 @@
 
 # 最近评测更新
 - [2025/11/22] v5.8.2版本
-  - 新增大模型：grok-4-1-fast-reasoning、grok-4-1-fast-non-reasoning
+  - 新增大模型：grok-4-1-fast-reasoning、grok-4-1-fast-non-reasoning、gemini-3-pro-preview、kimi-k2-0905
 - [2025/11/17] v5.8.1版本
   - 新增大模型：Kimi-K2-Thinking、gpt5.1、gpt-5.1-medium、claude-haiku-4.5、claude-haiku-4.5-thinking
 - [2025/11/3] v5.8版本
@@ -161,8 +161,8 @@ client.chat.completions.create(
 
 |类别|机构|大模型|【总分】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
-|商用|豆包|doubao-seed-1-6-thinking-250715|71.7%|37s|2162|15.6|1|
-|开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|70.1%|248s|2106|6.1|2|
+|商用|google|gemini-3-pro-preview(new)|72.5%|64s|3119|247.3|1|
+|商用|豆包|doubao-seed-1-6-thinking-250715|71.7%|37s|2162|15.6|2|
 
    
 详细数据见：[综合能力排行榜](leaderboard/总分.md) | [通用能力排行榜](leaderboard/通用能力.md) | [专业能力排行榜](leaderboard/专业能力.md)
