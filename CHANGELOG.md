@@ -1,6 +1,6 @@
 ## 最近更新
 - [2025/11/26] v5.8.3版本
-  - 新增大模型：gpt-5.1-high、claude-sonnet-4.5、claude-sonnet-4.5-thinking、ERNIE-X1.1-Preview、ERNIE-5.0-Thinking-Preview
+  - 新增大模型：claude-opus-4.5、gpt-5.1-high、claude-sonnet-4.5、claude-sonnet-4.5-thinking、ERNIE-X1.1-Preview、ERNIE-5.0-Thinking-Preview
 - [2025/11/22] v5.8.2版本
   - 新增大模型：grok-4-1-fast-reasoning、grok-4-1-fast-non-reasoning、gemini-3-pro-preview、kimi-k2-0905
 - [2025/11/17] v5.8.1版本
