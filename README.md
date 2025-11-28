@@ -164,7 +164,7 @@ client.chat.completions.create(
 |类别|机构|大模型|【总分】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
 |商用|google|gemini-3-pro-preview(new)|72.5%|64s|3119|247.3|1|
-|商用|豆包|doubao-seed-1-6-thinking-250715|71.7%|37s|2162|15.6|2|
+|商用|豆包|doubao-seed-1-6-thinking-250715|71.7%|27s|2162|15.6|2|
 
    
 详细数据见：[综合能力排行榜](leaderboard/总分.md) | [通用能力排行榜](leaderboard/通用能力.md) | [专业能力排行榜](leaderboard/专业能力.md)
@@ -779,8 +779,8 @@ Antonio,36,男,西班牙,182,75,博士
 > 设集合 $S=\{1, 2, 3, \cdots, 9 9 7, 9 9 8 \}$，集合 $S$ 的 $k$ 个 $499$ 元子集 $A_{1},A_{2}, \cdots, A_{k}$ 满足：对 $S$ 中任一二元子集 $B$，均存在 $i \in\{1, 2, \cdots, k \}$，使得 $B \subset A_{i}$。求 $k$ 的最小值。
 > 
 
-完整排行榜见[高中奥林匹克数学竞赛](leaderboard/Math24o.md)<br>
-☛查看[高中奥林匹克数学竞赛：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=Math24o)
+完整排行榜见[高中奥林匹克数学竞赛](leaderboard/高中奥数.md)<br>
+☛查看[高中奥林匹克数学竞赛：badcase](https://nonelinear.com/static/badcase/badcase-of-benchmark.html?benchmark=高中奥数)
 <br><br>
 
 
