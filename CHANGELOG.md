@@ -1,4 +1,7 @@
 ## 最近更新
+- [2025/12/1] v5.8.4版本
+  - 新增大模型：qwen3-max-2025-09-23、gpt-5-mini-high、gpt-5-nano-high
+  - 更新Kimi-K2-Thinking评测结果
 - [2025/11/26] v5.8.3版本
   - 新增大模型：claude-opus-4.5、gpt-5.1-high、claude-sonnet-4.5、claude-sonnet-4.5-thinking、ERNIE-X1.1-Preview、ERNIE-5.0-Thinking-Preview
 - [2025/11/22] v5.8.2版本
