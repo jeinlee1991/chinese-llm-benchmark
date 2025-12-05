@@ -28,8 +28,9 @@
 |25|MiniMax-M1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|minimax|8.0元|56.2%| |        36.3%|76.4%|75.6%|        74.5%|62.3%|54.0%|        40.2%|
 |26|GLM-4.5-Air-nothink☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|6.0元|55.8%| |        37.1%|63.5%|68.8%|        52.3%|46.8%|56.5%|        64.8%|
 |27|xunfei-spark-x1-0725☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|科大讯飞|12.0元|55.3%| |        53.3%|80.0%|75.0%|        76.7%|48.7%|57.0%|        39.9%|
-|28|360zhinao2-o1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|360|10.0元|52.9%| |        38.7%|67.8%|65.4%|        55.8%|53.2%|58.3%|        42.0%|
-|29|MiniMax-Text-01☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|minimax|8.0元|49.0%| |        30.0%|69.4%|69.5%|        64.0%|41.7%|64.8%|        28.8%|
-|30|Baichuan4-Turbo☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百川智能|15.0元|48.3%| |        39.2%|74.3%|70.1%|        56.5%|43.9%|56.7%|        29.4%|
-|31|mistral-medium-2508☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Mistral|14.5元|47.0%| |        36.4%|68.0%|73.1%|        64.3%|37.8%|52.0%|        33.9%|
-|32|Magistral-Small-2507☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Mistral|10.875元|44.8%| |        34.4%|55.3%|55.9%|        53.3%|43.9%|49.1%|        35.1%|
+|28|mistral-large-2512(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Mistral|10.68元|54.3%| |        44.2%|73.5%|74.4%|        69.0%|53.1%|53.7%|        42.0%|
+|29|360zhinao2-o1☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|360|10.0元|52.9%| |        38.7%|67.8%|65.4%|        55.8%|53.2%|58.3%|        42.0%|
+|30|MiniMax-Text-01☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|minimax|8.0元|49.0%| |        30.0%|69.4%|69.5%|        64.0%|41.7%|64.8%|        28.8%|
+|31|Baichuan4-Turbo☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百川智能|15.0元|48.3%| |        39.2%|74.3%|70.1%|        56.5%|43.9%|56.7%|        29.4%|
+|32|mistral-medium-2508☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|Mistral|14.5元|47.0%| |        36.4%|68.0%|73.1%|        64.3%|37.8%|52.0%|        33.9%|
+|33|Magistral-Small-2507☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Mistral|10.875元|44.8%| |        34.4%|55.3%|55.9%|        53.3%|43.9%|49.1%|        35.1%|
