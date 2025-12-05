@@ -10,7 +10,8 @@
 |7|Qwen3-8B-nothink☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|阿里巴巴|0.0元|45.3%| |        20.3%|62.1%|64.2%|        45.0%|36.4%|54.5%|        41.7%|
 |8|Baichuan4-Air☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百川智能|0.98元|41.6%| |        36.4%|55.3%|57.4%|        39.3%|42.1%|53.4%|        22.4%|
 |9|GLM-4-9B-0414☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|0.0元|41.6%| |        30.8%|58.4%|64.1%|        51.5%|31.2%|52.3%|        28.9%|
-|10|gemma-3-12b-it☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|google|0.725元|38.2%| |        22.1%|44.6%|47.7%|        42.5%|45.0%|47.6%|        20.5%|
-|11|ERNIE-Lite-8K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|0.0元|37.7%| |        27.0%|45.6%|49.2%|        42.3%|26.4%|52.5%|        29.8%|
-|12|gemma-3-4b-it☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|google|0.29元|32.1%| |        28.1%|33.4%|39.4%|        28.5%|34.5%|41.8%|        19.7%|
-|13|ERNIE-4.5-0.3B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.4元|24.0%| |        14.7%|23.6%|27.0%|        21.3%|18.9%|35.5%|        20.5%|
+|10|Ministral-3-3B-Instruct-2512(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|Mistral|0.712元|38.6%| |        30.2%|41.6%|46.4%|        37.0%|41.9%|38.2%|        35.2%|
+|11|gemma-3-12b-it☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|google|0.725元|38.2%| |        22.1%|44.6%|47.7%|        42.5%|45.0%|47.6%|        20.5%|
+|12|ERNIE-Lite-8K☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|百度|0.0元|37.7%| |        27.0%|45.6%|49.2%|        42.3%|26.4%|52.5%|        29.8%|
+|13|gemma-3-4b-it☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|google|0.29元|32.1%| |        28.1%|33.4%|39.4%|        28.5%|34.5%|41.8%|        19.7%|
+|14|ERNIE-4.5-0.3B☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|百度|0.4元|24.0%| |        14.7%|23.6%|27.0%|        21.3%|18.9%|35.5%|        20.5%|
