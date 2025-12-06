@@ -1,6 +1,6 @@
 ## 最近更新
 - [2025/12/6] v5.8.5版本
-  - 新增大模型：hunyuan-2.0-instruct-20251111、qwen3-next-80b-a3b-thinking、mistral-large-2512、
+  - 新增大模型：hunyuan-2.0-thinking-20251109、hunyuan-2.0-instruct-20251111、qwen3-next-80b-a3b-thinking、mistral-large-2512、
   Ministral-3-14B-Instruct-2512、Ministral-3-8B-Instruct-2512、Ministral-3-3B-Instruct-2512
 - [2025/12/3] v5.8.4版本
   - 新增大模型：DeepSeek-V3.2、DeepSeek-V3.2-Think、qwen3-max-2025-09-23、gpt-5-mini-high、gpt-5-nano-high

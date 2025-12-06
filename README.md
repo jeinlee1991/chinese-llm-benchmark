@@ -1,7 +1,7 @@
 
 # ReLE评测：中文AI大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括328个大模型，覆盖chatgpt、gpt-5.1、o4-mini、谷歌gemini-3-pro、Claude-4.5、文心ERNIE-X1.1、ERNIE-5.0-Thinking、qwen3-max、百川、讯飞星火、商汤senseChat等商用模型，
+- 目前已囊括330个大模型，覆盖chatgpt、gpt-5.1、o4-mini、谷歌gemini-3-pro、Claude-4.5、文心ERNIE-X1.1、ERNIE-5.0-Thinking、qwen3-max、百川、讯飞星火、商汤senseChat等商用模型，
 以及kimi-k2、ernie4.5、minimax-M2、deepseek-v3.2、qwen3-2507、llama4、智谱GLM-4.6、gemma3、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从、agent与工具调用等7个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -55,7 +55,7 @@
 
 # 最近评测更新
 - [2025/12/6] v5.8.5版本
-  - 新增大模型：hunyuan-2.0-instruct-20251111、qwen3-next-80b-a3b-thinking、mistral-large-2512、
+  - 新增大模型：hunyuan-2.0-thinking-20251109、hunyuan-2.0-instruct-20251111、qwen3-next-80b-a3b-thinking、mistral-large-2512、
   Ministral-3-14B-Instruct-2512、Ministral-3-8B-Instruct-2512、Ministral-3-3B-Instruct-2512
 - [2025/12/3] v5.8.4版本
   - 新增大模型：DeepSeek-V3.2、DeepSeek-V3.2-Think、qwen3-max-2025-09-23、gpt-5-mini-high、gpt-5-nano-high
@@ -170,7 +170,7 @@ client.chat.completions.create(
 |类别|机构|大模型|【总分】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
 |商用|google|gemini-3-pro-preview(new)|72.5%|64s|3119|247.3|1|
-|商用|豆包|doubao-seed-1-6-thinking-250715|71.7%|27s|2162|15.6|2|
+|商用|腾讯|hunyuan-2.0-thinking-20251109(new)|71.9%|28s|2544|9.5|2|
 
    
 详细数据见：[综合能力排行榜](leaderboard/总分.md) | [通用能力排行榜](leaderboard/通用能力.md) | [专业能力排行榜](leaderboard/专业能力.md)
