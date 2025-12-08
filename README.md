@@ -52,6 +52,7 @@
 - [🌐各项能力评分](#🌐各项能力评分)
 - [为什么做榜单？](#为什么做榜单)
 - [大模型选型及评测交流群](#大模型评测交流群)
+- [Cite Us](#如何引用-ReLE-评测Cite-Us)
 
 # 最近评测更新
 - [2025/12/6] v5.8.5版本
@@ -1021,3 +1022,42 @@ BFCL-V3是加州大学伯克利分校发布的工具调用评测集，首创多�
 ### 大模型评测微信公众号
 关注大模型评测微信公众号，及时获取最新评测信息<br>
 ![lin](pic/qrcode-gzh.jpg)
+<br><br><br>
+
+---
+
+## 📖如何引用 ReLE 评测（Cite Us）
+
+若您在自己的论文、报告或开源项目中使用了 ReLE（ chinese-llm-benchmark ）数据、结果或代码，请按以下格式引用，帮助我们持续维护开源评测生态。
+
+### 中文引用（GB/T 7714）
+ReLE 评测组. ReLE：中文 AI 大模型能力评测数据集与开放排行榜[EB/OL]. GitHub, 2023-06-04[2025-12-06]. https://github.com/jeinlee1991/chinese-llm-benchmark. DOI: 10.5281/zenodo.xxxxxxx.
+
+### APA (7th)
+ReLE Benchmark Team. (2023, June 4). *ReLE: Really Reliable Live Evaluation for Chinese LLMs* (Version v5.8.5) [Computer software]. GitHub. https://github.com/jeinlee1991/chinese-llm-benchmark
+
+### IEEE
+[1] ReLE Benchmark Team, "ReLE: Really Reliable Live Evaluation for Chinese LLMs," GitHub repository, v5.8.5, Jun. 4, 2023. https://github.com/jeinlee1991/chinese-llm-benchmark
+
+### BibTeX
+```bibtex
+@misc{rele2023benchmark,
+  author       = {{ReLE Benchmark Team}},
+  title        = {ReLE: Really Reliable Live Evaluation for Chinese LLMs},
+  year         = {2023},
+  url          = {https://github.com/jeinlee1991/chinese-llm-benchmark},
+  version      = {v5.8.5},
+  publisher    = {GitHub},
+  doi          = {10.5281/zenodo.xxxxxxx},  % 待 Zenodo 生成后补全
+  note         = {Accessed: YYYY-MM-DD}
+}
+```
+
+### 版本号说明
+ReLE 采用语义化版本号（`主版本.次版本.修订号`）。  
+- 主版本：重大框架或指标权级调整  
+- 次版本：新增领域、子榜单或>10% 题库扩充  
+- 修订号：bug 修复、样本去噪、模型增补  
+
+请在引用时注明您使用的 **精确 tag**（如 `v5.8.5`），以保证结果可复现。
+
