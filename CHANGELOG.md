@@ -1,4 +1,6 @@
 ## 最近更新
+- [2025/12/12] v5.8.6版本
+  - 多模态评测新增：GLM-4.6V、GLM-4.6V-Flash
 - [2025/12/6] v5.8.5版本
   - 新增大模型：hunyuan-2.0-thinking-20251109、hunyuan-2.0-instruct-20251111、qwen3-next-80b-a3b-thinking、mistral-large-2512、
   Ministral-3-14B-Instruct-2512、Ministral-3-8B-Instruct-2512、Ministral-3-3B-Instruct-2512
