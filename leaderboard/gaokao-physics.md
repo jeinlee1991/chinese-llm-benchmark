@@ -72,7 +72,7 @@
 |开源|meta|Llama-4-Scout-17B-16E-Instruct|43.3%|11s|712|1.3|69|
 |商用|阿里巴巴|qwen-long-2025-01-25|40.0%|104s|754|1.2|70|
 |开源|Mistral|Ministral-3-3B-Instruct-2512(new)|40.0%|18s|3602|2.6|71|
-|商用|智谱AI|GLM-4.5-Flash-nothink|40.0%|167s|5194|0.0|72|
+|商用|智谱AI|GLM-4.5-Flash-nothink|40.0%|150s|4509|0.0|72|
 |开源|百度|ERNIE-4.5-21B-A3B|40.0%|117s|1578|0.7|73|
 |开源|Mistral|Ministral-3-14B-Instruct-2512(new)|36.7%|29s|3511|5.0|74|
 |商用|openAI|gpt-5.1(new)|36.7%|77s|835|48.0|75|

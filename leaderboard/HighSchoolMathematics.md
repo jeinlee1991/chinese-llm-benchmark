@@ -32,7 +32,7 @@
 |商用|XAI|grok-4-1-fast-reasoning(new)|45.5%|172s|7724|26.8|29|
 |开源|阿里巴巴|qwen3-235b-a22b-thinking-2507|45.5%|156s|4829|94.0|30|
 |商用|anthropic|claude-opus-4.5(new)|45.5%|43s|1395|218.1|31|
-|商用|智谱AI|GLM-4.5-Flash-nothink|45.5%|86s|4948|0.0|32|
+|商用|智谱AI|GLM-4.5-Flash-nothink|45.5%|51s|2628|0.0|32|
 |开源|深度求索|DeepSeek-V3.2(new)|45.5%|72s|2238|6.6|33|
 |开源|阿里巴巴|qwen3-next-80b-a3b-thinking(new)|45.5%|330s|7417|29.1|34|
 |开源|月之暗面|kimi-k2-0711-preview|45.5%|131s|1734|26.2|35|

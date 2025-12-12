@@ -91,7 +91,7 @@
 |商用|anthropic|claude-haiku-4.5(new)|26.7%|30s|944|29.3|88|
 |开源|阿里巴巴|Qwen3-14B-nothink|26.7%|163s|1204|2.2|89|
 |开源|阿里巴巴|Qwen3-32B-nothink|26.7%|68s|1247|4.6|90|
-|商用|智谱AI|GLM-4.5-Flash-nothink|26.7%|99s|3349|0.0|91|
+|商用|智谱AI|GLM-4.5-Flash-nothink|26.7%|83s|2855|0.0|91|
 |商用|google|gemini-2.5-flash-lite|26.7%|101s|3542|10.0|92|
 |开源|深度求索|DeepSeek-R1-0528|26.7%|199s|4514|70.9|93|
 |开源|Mistral|Ministral-3-8B-Instruct-2512(new)|23.3%|38s|3604|3.9|94|

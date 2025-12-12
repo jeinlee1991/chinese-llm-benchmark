@@ -90,7 +90,7 @@
 |开源|智谱AI|GLM-4.5-Air-nothink|20.0%|87s|4363|25.2|87|
 |开源|meta|Llama-4-Maverick-17B-128E-Instruct-FP8|18.2%|18s|1001|3.7|88|
 |开源|minimax|MiniMax-M1|17.4%|418s|9177|71.6|89|
-|商用|智谱AI|GLM-4.5-Flash-nothink|16.7%|120s|4406|0.0|90|
+|商用|智谱AI|GLM-4.5-Flash-nothink|16.7%|124s|4216|0.0|90|
 |商用|openAI|gpt-5-nano-high(new)|16.7%|127s|12804|36.6|91|
 |开源|智谱AI|GLM-4-9B-0414|16.7%|25s|1095|0.0|92|
 |商用|anthropic|claude-haiku-4.5(new)|16.7%|17s|1185|34.1|93|

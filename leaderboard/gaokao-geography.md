@@ -97,7 +97,7 @@
 |商用|Mistral|mistral-medium-2508|23.1%|207s|646|7.3|94|
 |开源|Mistral|Magistral-Small-2507|23.1%|71s|5887|62.7|95|
 |商用|阿里巴巴|qwen-long-2025-01-25|20.0%|98s|302|0.5|96|
-|商用|智谱AI|GLM-4.5-Flash-nothink|20.0%|34s|1130|0.0|97|
+|商用|智谱AI|GLM-4.5-Flash-nothink|20.0%|34s|1129|0.0|97|
 |开源|google|gemma-3-12b-it|20.0%|/|/|/|98|
 |商用|阿里巴巴|qwen-flash-2025-07-28|20.0%|175s|882|1.1|99|
 |商用|openAI|gpt-5-mini-high(new)|20.0%|623s|2160|29.3|100|

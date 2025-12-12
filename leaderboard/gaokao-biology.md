@@ -98,7 +98,7 @@
 |开源|阿里巴巴|Qwen3-8B-nothink|26.7%|29s|799|0.0|95|
 |开源|Mistral|Ministral-3-14B-Instruct-2512(new)|26.7%|24s|2149|3.1|96|
 |开源|阿里巴巴|Qwen3-1.7B-nothink|23.3%|187s|692|1.7|97|
-|商用|智谱AI|GLM-4.5-Flash-nothink|23.3%|34s|1363|0.0|98|
+|商用|智谱AI|GLM-4.5-Flash-nothink|23.3%|29s|1068|0.0|98|
 |开源|google|gemma-3-27b-it|22.7%|/|/|/|99|
 |开源|Mistral|Ministral-3-3B-Instruct-2512(new)|20.0%|24s|3214|2.3|100|
 |开源|百度|ERNIE-4.5-0.3B|20.0%|225s|517|0.0|101|

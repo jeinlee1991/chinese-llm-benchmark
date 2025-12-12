@@ -112,7 +112,7 @@
 |开源|openAI|gpt-oss-20b|16.7%|25s|1687|1.8|109|
 |开源|阿里巴巴|Qwen3-1.7B-nothink|16.7%|23s|585|1.3|110|
 |商用|google|gemini-2.5-flash|11.1%|88s|2767|47.3|111|
-|商用|智谱AI|GLM-4.5-Flash-nothink|11.1%|37s|885|0.0|112|
+|商用|智谱AI|GLM-4.5-Flash-nothink|11.1%|36s|882|0.0|112|
 |开源|google|gemma-3-12b-it|10.0%|50s|477|0.0|113|
 |商用|google|gemini-2.5-flash-lite|/%|4s|710|1.7|114|
 

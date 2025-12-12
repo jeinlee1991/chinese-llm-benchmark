@@ -58,7 +58,7 @@
 |开源|阿里巴巴|Qwen3-30B-A3B-Thinking-2507|51.7%|458s|4044|11.0|55|
 |商用|阿里巴巴|qwen-flash-think-2025-07-28|51.7%|459s|3696|5.3|56|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|51.7%|248s|1615|4.7|57|
-|商用|智谱AI|GLM-4.5-Flash-nothink|51.7%|35s|927|0.0|58|
+|商用|智谱AI|GLM-4.5-Flash-nothink|51.7%|34s|939|0.0|58|
 |开源|阿里巴巴|Qwen3-4B-nothink|51.7%|485s|628|1.4|59|
 |商用|openAI|gpt-5-nano-high(new)|51.7%|764s|7019|19.9|60|
 |开源|meta|Llama-4-Scout-17B-16E-Instruct|50.0%|11s|685|1.3|61|

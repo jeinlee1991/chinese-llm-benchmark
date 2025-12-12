@@ -81,7 +81,7 @@
 |开源|minimax|MiniMax-M2(new)|26.7%|122s|5925|48.8|78|
 |开源|google|gemma-3-12b-it|26.7%|/|/|/|79|
 |开源|google|gemma-3-27b-it|26.7%|/|/|/|80|
-|商用|智谱AI|GLM-4.5-Flash-nothink|26.7%|39s|1509|0.0|81|
+|商用|智谱AI|GLM-4.5-Flash-nothink|26.7%|40s|1515|0.0|81|
 |商用|openAI|gpt-5-nano-high(new)|26.7%|112s|11516|33.0|82|
 |开源|百度|ERNIE-4.5-0.3B|26.7%|137s|360|0.0|83|
 |商用|google|gemini-2.5-flash|23.3%|26s|2980|51.8|84|

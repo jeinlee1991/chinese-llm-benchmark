@@ -97,7 +97,7 @@
 |商用|XAI|grok-4-0709|29.4%|488s|1296|130.2|94|
 |开源|Mistral|Ministral-3-14B-Instruct-2512(new)|28.6%|3s|505|0.7|95|
 |开源|阿里巴巴|Qwen3-8B|28.6%|992s|17414|0.0|96|
-|商用|智谱AI|GLM-4.5-Flash-nothink|28.6%|15s|684|0.0|97|
+|商用|智谱AI|GLM-4.5-Flash-nothink|28.6%|16s|682|0.0|97|
 |开源|openAI|gpt-oss-120b|28.6%|15s|709|1.9|98|
 |商用|XAI|grok-4-1-fast-reasoning(new)|28.6%|131s|1789|5.8|99|
 |开源|Mistral|Ministral-3-8B-Instruct-2512(new)|23.8%|11s|460|0.5|100|

@@ -97,7 +97,7 @@
 |商用|openAI|gpt-5-2025-08-07|/%|18s|217|12.5|94|
 |开源|openAI|gpt-oss-20b|/%|2s|385|0.4|95|
 |开源|openAI|gpt-oss-120b|/%|3s|372|0.9|96|
-|商用|智谱AI|GLM-4.5-Flash-nothink|/%|12s|539|0.0|97|
+|商用|智谱AI|GLM-4.5-Flash-nothink|/%|13s|515|0.0|97|
 |开源|智谱AI|GLM-4.5-Air-nothink|/%|6s|486|2.6|98|
 |开源|智谱AI|GLM-4.5-nothink|/%|12s|404|5.0|99|
 |商用|百川智能|Baichuan4-Air|/%|/|/|/|100|

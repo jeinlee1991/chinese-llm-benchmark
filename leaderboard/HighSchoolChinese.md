@@ -85,7 +85,7 @@
 |商用|anthropic|claude-4-sonnet-thinking|33.3%|115s|1719|157.8|82|
 |商用|openAI|o4-mini|33.3%|32s|1564|43.8|83|
 |开源|Mistral|Magistral-Small-2507|33.3%|240s|7015|69.8|84|
-|商用|智谱AI|GLM-4.5-Flash-nothink|33.3%|27s|1448|0.0|85|
+|商用|智谱AI|GLM-4.5-Flash-nothink|33.3%|28s|1434|0.0|85|
 |商用|Mistral|mistral-medium-2508|33.3%|152s|1169|6.6|86|
 |商用|openAI|gpt-5-nano-2025-08-07|26.7%|196s|5426|14.9|87|
 |商用|openAI|gpt-5-nano-high(new)|26.7%|1107s|11149|31.1|88|

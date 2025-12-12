@@ -96,7 +96,7 @@
 |开源|Mistral|Ministral-3-14B-Instruct-2512(new)|30.0%|5s|648|0.9|93|
 |开源|meta|Llama-4-Scout-17B-16E-Instruct|30.0%|15s|557|1.1|94|
 |开源|Mistral|Ministral-3-8B-Instruct-2512(new)|30.0%|4s|592|0.6|95|
-|商用|智谱AI|GLM-4.5-Flash-nothink|30.0%|28s|960|0.0|96|
+|商用|智谱AI|GLM-4.5-Flash-nothink|30.0%|28s|962|0.0|96|
 |商用|XAI|grok-3-mini|30.0%|138s|1073|3.8|97|
 |商用|openAI|gpt-5-nano-2025-08-07|30.0%|125s|1888|5.2|98|
 |开源|阿里巴巴|Qwen3-1.7B-nothink|30.0%|147s|473|1.1|99|

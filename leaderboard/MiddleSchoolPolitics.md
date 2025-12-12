@@ -104,7 +104,7 @@
 |开源|Mistral|Ministral-3-14B-Instruct-2512(new)|16.7%|13s|333|0.5|101|
 |开源|智谱AI|GLM-4.5-nothink|16.7%|17s|554|6.6|102|
 |开源|Mistral|Ministral-3-8B-Instruct-2512(new)|13.3%|2s|328|0.4|103|
-|商用|智谱AI|GLM-4.5-Flash-nothink|13.3%|19s|551|0.0|104|
+|商用|智谱AI|GLM-4.5-Flash-nothink|13.3%|20s|561|0.0|104|
 |开源|Mistral|Mistral-Small-3.2-24B-Instruct-2506|13.3%|9s|314|0.6|105|
 |开源|智谱AI|GLM-4.5-Air|13.3%|22s|1454|7.6|106|
 |开源|百度|ERNIE-4.5-0.3B|13.3%|148s|218|0.0|107|

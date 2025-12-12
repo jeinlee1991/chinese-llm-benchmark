@@ -56,7 +56,7 @@
 |商用|XAI|grok-4-1-fast-reasoning(new)|50.0%|99s|1038|3.1|53|
 |商用|anthropic|claude-haiku-4.5-thinking(new)|50.0%|40s|2347|77.1|54|
 |商用|openAI|gpt-5.1-medium(new)|50.0%|41s|848|50.0|55|
-|商用|智谱AI|GLM-4.5-Flash-nothink|50.0%|17s|810|0.0|56|
+|商用|智谱AI|GLM-4.5-Flash-nothink|50.0%|18s|831|0.0|56|
 |商用|豆包|doubao-seed-1-6-lite-251015(new)|50.0%|18s|781|1.5|57|
 |商用|豆包|doubao-seed-1-6-251015(new)|50.0%|14s|760|4.9|58|
 |开源|月之暗面|Kimi-K2-Thinking(new)|50.0%|168s|2588|39.9|59|

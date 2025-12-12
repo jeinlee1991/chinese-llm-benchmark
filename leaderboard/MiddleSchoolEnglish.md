@@ -63,7 +63,7 @@
 |商用|openAI|gpt-5.1(new)|/%|85s|175|8.3|60|
 |商用|openAI|gpt-5.1-medium(new)|/%|163s|621|39.9|61|
 |开源|阶跃星辰|step-3|/%|69s|1339|5.2|62|
-|商用|智谱AI|GLM-4.5-Flash-nothink|/%|13s|583|0.0|63|
+|商用|智谱AI|GLM-4.5-Flash-nothink|/%|11s|522|0.0|63|
 |开源|智谱AI|GLM-4.5-Air-nothink|/%|9s|489|2.6|64|
 |开源|minimax|MiniMax-M1|/%|51s|1144|6.0|65|
 |商用|豆包|doubao-seed-1-6-250615|/%|165s|380|2.3|66|

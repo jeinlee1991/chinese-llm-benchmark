@@ -33,7 +33,7 @@
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|35.7%|41s|1012|2.9|30|
 |开源|Mistral|mistral-large-2512(new)|35.7%|18s|668|6.0|31|
 |商用|XAI|grok-4-1-fast-non-reasoning(new)|35.7%|118s|667|1.8|32|
-|商用|智谱AI|GLM-4.5-Flash-nothink|35.7%|26s|990|0.0|33|
+|商用|智谱AI|GLM-4.5-Flash-nothink|35.7%|23s|1004|0.0|33|
 |开源|深度求索|DeepSeek-V3.1|35.7%|17s|374|3.6|34|
 |开源|百度|ERNIE-4.5-21B-A3B|35.7%|78s|410|0.1|35|
 |开源|百度|ERNIE-4.5-0.3B|35.7%|118s|445|0.0|36|
