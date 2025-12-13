@@ -16,5 +16,4 @@
 |13|grok-4-0709☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|XAI|108.75元|61.2%| |        41.9%|75.0%|75.1%|        74.0%|63.7%|64.6%|        48.4%|
 |14|gpt-5.1(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|71.0元|57.6%| |        35.7%|64.2%|67.4%|        52.0%|55.8%|59.4%|        61.1%|
 |15|gpt-5.2(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|99.4元|56.9%| |        39.6%|72.9%|71.4%|        66.3%|54.7%|52.5%|        56.2%|
-|16|gpt-5.2(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|99.4元|56.8%| |        39.6%|72.9%|71.4%|        66.3%|54.7%|52.5%|        55.6%|
-|17|claude-haiku-4.5(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|36.25元|54.5%| |        35.8%|63.1%|63.2%|        53.3%|53.0%|55.8%|        55.3%|
+|16|claude-haiku-4.5(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|anthropic|36.25元|54.5%| |        35.8%|63.1%|63.2%|        53.3%|53.0%|55.8%|        55.3%|
