@@ -1,7 +1,7 @@
 
 # ReLE评测：中文AI大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括332个大模型，覆盖chatgpt、gpt-5.1、o4-mini、谷歌gemini-3-pro、Claude-4.5、文心ERNIE-X1.1、ERNIE-5.0-Thinking、qwen3-max、百川、讯飞星火、商汤senseChat等商用模型，
+- 目前已囊括333个大模型，覆盖chatgpt、gpt-5.2、o4-mini、谷歌gemini-3-pro、Claude-4.5、文心ERNIE-X1.1、ERNIE-5.0-Thinking、qwen3-max、百川、讯飞星火、商汤senseChat等商用模型，
 以及kimi-k2、ernie4.5、minimax-M2、deepseek-v3.2、qwen3-2507、llama4、智谱GLM-4.6、gemma3、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从、agent与工具调用等7个领域，以及细分的~300个维度（比如牙科、高中语文…）。
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -56,6 +56,7 @@
 
 # 最近评测更新
 - [2025/12/12] v5.8.6版本
+  - 新增大模型：gpt-5.2
   - 多模态评测新增：GLM-4.6V、GLM-4.6V-Flash
 - [2025/12/6] v5.8.5版本
   - 新增大模型：hunyuan-2.0-thinking-20251109、hunyuan-2.0-instruct-20251111、qwen3-next-80b-a3b-thinking、mistral-large-2512、
