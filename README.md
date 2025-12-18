@@ -55,6 +55,8 @@
 - [Cite Us](#如何引用-ReLE-评测Cite-Us)
 
 # 最近评测更新
+- [2025/12/18] v5.8.7版本
+  - 新增大模型：gemini-3-flash-preview
 - [2025/12/13] v5.8.6版本
   - 新增大模型：gpt-5.2、gpt-5.2-high、gpt-5.2-medium、qwen-plus-2025-12-01、qwen-plus-think-2025-12-01
   - 多模态评测新增：GLM-4.6V、GLM-4.6V-Flash
