@@ -122,7 +122,7 @@
 |商用|百川智能|Baichuan4-Turbo|16.7%|35s|497|7.5|119|
 |商用|openAI|o4-mini|/%|19s|816|23.1|120|
 |商用|anthropic|claude-4-sonnet|/%|44s|629|53.6|121|
-|商用|anthropic|claude-4-sonnet-thinking|/%|44s|1226|118.5|122|
+|商用|anthropic|claude-4-sonnet-thinking|/%|10s|757|62.2|122|
 |开源|google|gemma-3-4b-it|/%|29s|480|0.0|123|
 
 

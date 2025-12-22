@@ -3,7 +3,7 @@
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
 |商用|anthropic|claude-4-sonnet|100.0%|35s|868|84.0|1|
 |商用|openAI|o4-mini|100.0%|29s|1112|32.8|2|
-|商用|anthropic|claude-4-sonnet-thinking|90.0%|114s|1704|174.9|3|
+|商用|anthropic|claude-4-sonnet-thinking|90.0%|70s|1264|120.2|3|
 |开源|阿里巴巴|qwen3-235b-a22b-thinking-2507|73.3%|297s|4151|65.7|4|
 |商用|anthropic|claude-sonnet-4.5-thinking(new)|73.3%|84s|7324|776.6|5|
 |开源|智谱AI|GLM-4.6(new)|73.3%|63s|3009|40.8|6|

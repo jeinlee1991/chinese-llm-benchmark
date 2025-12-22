@@ -122,7 +122,7 @@
 |商用|anthropic|claude-4-sonnet|/%|44s|612|53.3|119|
 |商用|openAI|o4-mini|/%|27s|781|22.5|120|
 |开源|阿里巴巴|Qwen3-1.7B|/%|189s|3502|10.2|121|
-|商用|anthropic|claude-4-sonnet-thinking|/%|49s|1162|113.1|122|
+|商用|anthropic|claude-4-sonnet-thinking|/%|10s|747|62.9|122|
 |商用|XAI|grok-4-0709|/%|60s|1733|176.3|123|
 
 

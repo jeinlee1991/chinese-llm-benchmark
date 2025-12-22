@@ -43,7 +43,7 @@
 |开源|阶跃星辰|step-3|40.0%|133s|2570|10.0|40|
 |商用|openAI|o4-mini|40.0%|15s|905|26.1|41|
 |开源|小米|MiMo-V2-Flash-think(new)|40.0%|148s|3171|0.0|42|
-|商用|anthropic|claude-4-sonnet-thinking|40.0%|21s|983|93.4|43|
+|商用|anthropic|claude-4-sonnet-thinking|40.0%|51s|586|50.9|43|
 |开源|腾讯|Hunyuan-A13B-Instruct|40.0%|190s|1258|4.7|44|
 |开源|深度求索|DeepSeek-R1-0528-Qwen3-8B|40.0%|117s|2653|0.0|45|
 |商用|阿里巴巴|qwen3-max-preview|36.7%|13s|654|13.7|46|

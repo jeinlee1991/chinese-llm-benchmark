@@ -96,7 +96,7 @@
 |商用|anthropic|claude-4-sonnet|33.3%|13s|550|47.1|93|
 |开源|google|gemma-3-4b-it|33.3%|20s|392|0.0|94|
 |商用|阿里巴巴|qwen-flash-think-2025-07-28|33.3%|22s|2173|3.1|95|
-|商用|anthropic|claude-4-sonnet-thinking|33.3%|18s|815|75.8|96|
+|商用|anthropic|claude-4-sonnet-thinking|33.3%|43s|569|47.0|96|
 |开源|月之暗面|Kimi-K2-Thinking(new)|33.3%|168s|1839|28.2|97|
 |商用|百川智能|Baichuan4-Air|33.3%|17s|366|0.4|98|
 |商用|XAI|grok-3-mini|33.3%|157s|1050|3.7|99|

@@ -82,7 +82,7 @@
 |商用|阿里巴巴|qwen-turbo-2025-07-15|42.0%|12s|751|0.4|79|
 |开源|智谱AI|GLM-4.5-Air-nothink|40.0%|18s|1284|6.9|80|
 |商用|anthropic|claude-haiku-4.5-thinking(new)|40.0%|74s|7979|280.4|81|
-|商用|anthropic|claude-4-sonnet-thinking|40.0%|52s|1590|149.0|82|
+|商用|anthropic|claude-4-sonnet-thinking|40.0%|59s|824|66.9|82|
 |商用|Mistral|mistral-medium-2508|38.0%|22s|823|9.3|83|
 |开源|小米|MiMo-V2-Flash(new)|38.0%|17s|827|0.0|84|
 |商用|XAI|grok-4-1-fast-reasoning(new)|36.0%|30s|2599|8.6|85|

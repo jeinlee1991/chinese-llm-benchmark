@@ -33,7 +33,7 @@
 |商用|阿里巴巴|qwen-plus-2025-12-01(new)|54.5%|99s|3861|7.5|30|
 |商用|openAI|gpt-5.2-medium(new)|54.5%|50s|2607|244.4|31|
 |开源|深度求索|DeepSeek-V3.1|54.5%|66s|1438|16.3|32|
-|商用|anthropic|claude-4-sonnet-thinking|50.0%|61s|1758|180.9|33|
+|商用|anthropic|claude-4-sonnet-thinking|50.0%|67s|1374|130.9|33|
 |商用|openAI|gpt-5-nano-2025-08-07|45.5%|47s|3943|11.1|34|
 |开源|openAI|gpt-oss-20b|45.5%|179s|2977|3.3|35|
 |商用|阿里巴巴|qwen-flash-think-2025-07-28|45.5%|43s|4464|6.5|36|

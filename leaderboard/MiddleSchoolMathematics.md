@@ -32,7 +32,7 @@
 |商用|openAI|gpt-5-nano-high(new)|46.7%|97s|7903|22.6|29|
 |商用|openAI|gpt-5.1-high(new)|46.7%|60s|4221|292.2|30|
 |开源|百度|ERNIE-4.5-300B-A47B|46.7%|413s|1353|10.1|31|
-|商用|anthropic|claude-4-sonnet-thinking|46.7%|26s|1219|120.0|32|
+|商用|anthropic|claude-4-sonnet-thinking|46.7%|62s|926|87.2|32|
 |开源|深度求索|DeepSeek-R1-0528-Qwen3-8B|46.7%|127s|4475|0.0|33|
 |商用|openAI|gpt-5-2025-08-07|46.7%|144s|1065|69.2|34|
 |开源|openAI|gpt-oss-20b|46.7%|218s|2356|2.6|35|

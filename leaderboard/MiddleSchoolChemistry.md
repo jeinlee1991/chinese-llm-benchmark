@@ -107,7 +107,7 @@
 |开源|google|gemma-3-12b-it|22.2%|38s|512|0.0|104|
 |开源|智谱AI|GLM-4-9B-0414|22.2%|25s|688|0.0|105|
 |开源|Mistral|Mistral-Small-3.2-24B-Instruct-2506|20.8%|25s|1199|2.3|106|
-|商用|anthropic|claude-4-sonnet-thinking|20.7%|27s|1125|102.9|107|
+|商用|anthropic|claude-4-sonnet-thinking|20.7%|8s|714|57.4|107|
 |商用|XAI|grok-4-1-fast-non-reasoning(new)|20.7%|4s|617|1.5|108|
 |商用|openAI|gpt-5-nano-high(new)|20.7%|754s|5591|15.8|109|
 |商用|openAI|gpt-5-mini-2025-08-07|20.7%|45s|1258|16.0|110|

@@ -76,7 +76,7 @@
 |商用|豆包|doubao-seed-1-6-250615|/%|165s|380|2.3|73|
 |商用|豆包|doubao-seed-1-6-flash-thinking-250615|/%|5s|513|0.6|74|
 |商用|豆包|doubao-seed-1-6-flash-250615|/%|2s|220|0.3|75|
-|商用|anthropic|claude-4-sonnet-thinking|/%|40s|692|70.4|76|
+|商用|anthropic|claude-4-sonnet-thinking|/%|58s|425|39.4|76|
 |商用|anthropic|claude-4-sonnet|/%|41s|330|31.1|77|
 |开源|深度求索|DeepSeek-R1-0528-Qwen3-8B|/%|337s|1625|0.0|78|
 |商用|百度|ERNIE-X1-Turbo-32K|/%|20s|545|2.0|79|

@@ -89,7 +89,7 @@
 |开源|Mistral|mistral-large-2512(new)|56.7%|57s|2911|30.4|86|
 |商用|豆包|doubao-seed-1-6-flash-thinking-250615|56.7%|12s|2457|3.5|87|
 |开源|minimax|MiniMax-M2(new)|56.7%|115s|6635|55.1|88|
-|商用|anthropic|claude-4-sonnet-thinking|50.0%|47s|708|71.6|89|
+|商用|anthropic|claude-4-sonnet-thinking|50.0%|69s|1167|117.8|89|
 |商用|openAI|o4-mini|50.0%|25s|719|21.8|90|
 |商用|anthropic|claude-haiku-4.5(new)|50.0%|10s|1115|37.0|91|
 |商用|google|gemini-2.5-flash-lite|50.0%|153s|4285|12.3|92|

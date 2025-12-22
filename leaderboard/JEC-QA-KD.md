@@ -116,7 +116,7 @@
 |商用|anthropic|claude-haiku-4.5(new)|22.0%|14s|720|20.3|113|
 |商用|openAI|gpt-5-nano-2025-08-07|22.0%|32s|3607|10.1|114|
 |开源|google|gemma-3-12b-it|20.0%|/|/|/|115|
-|商用|anthropic|claude-4-sonnet-thinking|20.0%|110s|1204|115.5|116|
+|商用|anthropic|claude-4-sonnet-thinking|20.0%|58s|700|59.9|116|
 |开源|阿里巴巴|Qwen3-0.6B-nothink|20.0%|9s|255|0.5|117|
 |开源|阿里巴巴|Qwen3-1.7B-nothink|20.0%|8s|515|1.2|118|
 |开源|openAI|gpt-oss-120b|20.0%|27s|1030|2.9|119|

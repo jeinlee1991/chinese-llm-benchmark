@@ -83,7 +83,7 @@
 |开源|阶跃星辰|step-3|21.4%|105s|2050|7.9|80|
 |开源|阿里巴巴|Qwen3-30B-A3B-Thinking-2507|21.4%|147s|2531|6.8|81|
 |开源|腾讯|Hunyuan-A13B-Instruct-nothink|21.4%|70s|443|1.4|82|
-|商用|anthropic|claude-4-sonnet-thinking|20.0%|52s|1246|120.9|83|
+|商用|anthropic|claude-4-sonnet-thinking|20.0%|51s|692|58.2|83|
 |商用|阿里巴巴|qwen-long-2025-01-25|16.7%|33s|396|0.6|84|
 |商用|百度|ERNIE-Lite-8K|16.7%|30s|379|0.0|85|
 |商用|豆包|Doubao-1.5-lite-32k-250115|16.7%|11s|287|0.1|86|

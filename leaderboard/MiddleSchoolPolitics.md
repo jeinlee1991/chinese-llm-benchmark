@@ -47,7 +47,7 @@
 |商用|XAI|grok-4-0709|52.0%|188s|736|74.1|44|
 |商用|openAI|gpt-5-2025-08-07|50.0%|20s|236|12.7|45|
 |开源|meta|Llama-4-Scout-17B-16E-Instruct|50.0%|22s|558|1.0|46|
-|商用|anthropic|claude-4-sonnet-thinking|50.0%|9s|333|31.9|47|
+|商用|anthropic|claude-4-sonnet-thinking|50.0%|7s|464|42.3|47|
 |商用|openAI|gpt-5.1-medium(new)|50.0%|37s|487|30.4|48|
 |商用|openAI|gpt-5-mini-high(new)|50.0%|39s|1451|20.2|49|
 |商用|openAI|gpt-5.2-high(new)|50.0%|8s|269|20.9|50|

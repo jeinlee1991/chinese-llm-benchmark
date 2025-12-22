@@ -77,7 +77,7 @@
 |开源|百度|ERNIE-4.5-21B-A3B|/%|7s|228|0.0|74|
 |开源|百度|ERNIE-4.5-0.3B|/%|15s|307|0.0|75|
 |开源|minimax|MiniMax-M1|/%|41s|1035|5.1|76|
-|商用|anthropic|claude-4-sonnet-thinking|/%|53s|734|73.0|77|
+|商用|anthropic|claude-4-sonnet-thinking|/%|7s|403|37.5|77|
 |商用|anthropic|claude-4-sonnet|/%|42s|369|33.3|78|
 |开源|深度求索|DeepSeek-R1-0528-Qwen3-8B|/%|346s|1540|0.0|79|
 |开源|深度求索|DeepSeek-R1-0528|/%|135s|781|11.9|80|

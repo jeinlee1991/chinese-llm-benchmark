@@ -94,7 +94,7 @@
 |商用|openAI|gpt-5-nano-2025-08-07|33.3%|35s|1276|3.5|91|
 |商用|阿里巴巴|qwen-flash-2025-07-28|33.3%|4s|275|0.3|92|
 |开源|深度求索|DeepSeek-V3.1|33.3%|20s|388|4.2|93|
-|商用|anthropic|claude-4-sonnet-thinking|33.3%|47s|854|84.0|94|
+|商用|anthropic|claude-4-sonnet-thinking|33.3%|7s|463|41.4|94|
 |开源|阿里巴巴|Qwen3-32B-nothink|33.3%|19s|325|1.1|95|
 |商用|Mistral|mistral-medium-2508|33.3%|17s|266|3.0|96|
 |开源|Mistral|Mistral-Small-3.2-24B-Instruct-2506|33.3%|30s|253|0.4|97|

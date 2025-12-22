@@ -122,7 +122,7 @@
 |商用|阿里巴巴|qwen-long-2025-01-25|9.1%|15s|797|1.4|119|
 |开源|Mistral|Ministral-3-8B-Instruct-2512(new)|4.8%|14s|2704|2.9|120|
 |开源|阿里巴巴|Qwen3-8B-nothink|4.8%|44s|1130|0.0|121|
-|商用|anthropic|claude-4-sonnet-thinking|/%|50s|1623|162.5|122|
+|商用|anthropic|claude-4-sonnet-thinking|/%|13s|1044|92.8|122|
 |商用|anthropic|claude-4-sonnet|/%|48s|737|66.1|123|
 
 

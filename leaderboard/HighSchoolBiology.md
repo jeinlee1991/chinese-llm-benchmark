@@ -2,7 +2,7 @@
 |类别|机构|大模型|【HighSchoolBiology】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
 |商用|anthropic|claude-4-sonnet|90.0%|41s|733|64.2|1|
-|商用|anthropic|claude-4-sonnet-thinking|90.0%|50s|1415|138.3|2|
+|商用|anthropic|claude-4-sonnet-thinking|90.0%|64s|927|76.3|2|
 |商用|google|gemini-3-pro-preview(new)|76.7%|42s|5078|419.5|3|
 |商用|anthropic|claude-opus-4.5(new)|73.3%|24s|1889|296.0|4|
 |商用|豆包|doubao-seed-1-6-thinking-250715|66.7%|26s|3159|24.1|5|

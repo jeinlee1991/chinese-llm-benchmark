@@ -1,7 +1,7 @@
 
 |类别|机构|大模型|【PrimarySchoolChinese】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
-|商用|anthropic|claude-4-sonnet-thinking|100.0%|51s|1054|105.3|1|
+|商用|anthropic|claude-4-sonnet-thinking|100.0%|64s|432|39.4|1|
 |商用|anthropic|claude-4-sonnet|100.0%|41s|438|38.1|2|
 |商用|openAI|o4-mini|100.0%|39s|938|27.9|3|
 |开源|Mistral|Magistral-Small-2507|71.4%|48s|3637|39.1|4|

@@ -91,7 +91,7 @@
 |开源|阿里巴巴|Qwen3-4B-nothink|18.2%|11s|362|0.8|88|
 |开源|Mistral|Ministral-3-8B-Instruct-2512(new)|18.2%|13s|447|0.5|89|
 |开源|月之暗面|kimi-k2-0711-preview|18.2%|25s|431|5.9|90|
-|商用|anthropic|claude-4-sonnet-thinking|18.2%|19s|774|73.6|91|
+|商用|anthropic|claude-4-sonnet-thinking|18.2%|5s|341|29.6|91|
 |开源|阿里巴巴|Qwen3-32B-nothink|18.2%|32s|388|1.2|92|
 |开源|阿里巴巴|Qwen3-4B|18.2%|28s|1621|4.6|93|
 |开源|阿里巴巴|Qwen3-8B|18.2%|601s|16589|0.0|94|

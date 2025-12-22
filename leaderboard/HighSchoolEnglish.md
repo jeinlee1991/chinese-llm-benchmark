@@ -74,7 +74,7 @@
 |商用|豆包|doubao-seed-1-6-250615|100.0%|60s|383|2.4|71|
 |商用|豆包|doubao-seed-1-6-flash-thinking-250615|100.0%|6s|741|1.0|72|
 |商用|豆包|doubao-seed-1-6-flash-250615|100.0%|3s|285|0.4|73|
-|商用|anthropic|claude-4-sonnet-thinking|100.0%|51s|796|81.6|74|
+|商用|anthropic|claude-4-sonnet-thinking|100.0%|6s|368|34.7|74|
 |商用|阿里巴巴|qwen-turbo-2025-07-15|100.0%|181s|286|0.2|75|
 |开源|阿里巴巴|Qwen3-4B|100.0%|19s|1644|4.8|76|
 |开源|阿里巴巴|qwen3-235b-a22b-instruct-2507|100.0%|205s|469|3.4|77|

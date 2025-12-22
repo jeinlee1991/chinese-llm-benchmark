@@ -72,7 +72,7 @@
 |开源|百度|ERNIE-4.5-0.3B|50.0%|34s|398|0.0|69|
 |商用|豆包|doubao-seed-1-6-250615|50.0%|154s|175|0.3|70|
 |商用|豆包|doubao-seed-1-6-flash-thinking-250615|50.0%|8s|577|0.6|71|
-|商用|anthropic|claude-4-sonnet-thinking|50.0%|29s|1141|106.3|72|
+|商用|anthropic|claude-4-sonnet-thinking|50.0%|54s|771|63.8|72|
 |商用|anthropic|claude-4-sonnet|50.0%|24s|743|62.9|73|
 |开源|深度求索|DeepSeek-R1-0528-Qwen3-8B|50.0%|214s|1517|0.0|74|
 |商用|百度|ERNIE-X1-Turbo-32K|50.0%|56s|1350|5.1|75|

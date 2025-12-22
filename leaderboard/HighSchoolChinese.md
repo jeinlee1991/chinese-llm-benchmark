@@ -86,7 +86,7 @@
 |商用|openAI|gpt-5.2(new)|36.7%|9s|627|20.5|83|
 |开源|腾讯|Hunyuan-A13B-Instruct-nothink|36.7%|762s|598|1.6|84|
 |商用|google|gemini-2.5-flash|36.7%|157s|3600|60.2|85|
-|商用|anthropic|claude-4-sonnet-thinking|33.3%|115s|1719|157.8|86|
+|商用|anthropic|claude-4-sonnet-thinking|33.3%|10s|1155|69.0|86|
 |开源|智谱AI|GLM-4.5-nothink|33.3%|48s|1423|16.8|87|
 |开源|minimax|MiniMax-M2(new)|33.3%|102s|5015|39.7|88|
 |商用|openAI|gpt-5-mini-high(new)|33.3%|88s|5871|79.0|89|

@@ -121,7 +121,7 @@
 |开源|Mistral|Magistral-Small-2507|4.3%|331s|9623|103.1|118|
 |开源|google|gemma-3-12b-it|3.3%|/|/|/|119|
 |商用|百川智能|Baichuan4-Turbo|3.3%|/|/|/|120|
-|商用|anthropic|claude-4-sonnet-thinking|/%|57s|1801|173.5|121|
+|商用|anthropic|claude-4-sonnet-thinking|/%|58s|1138|98.3|121|
 |商用|openAI|o4-mini|/%|28s|2023|59.2|122|
 |商用|anthropic|claude-4-sonnet|/%|49s|907|76.2|123|
 

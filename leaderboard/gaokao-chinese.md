@@ -122,7 +122,7 @@
 |开源|阿里巴巴|Qwen3-8B-nothink|10.0%|23s|631|0.0|119|
 |商用|XAI|grok-4-1-fast-non-reasoning(new)|6.7%|114s|650|1.6|120|
 |商用|openAI|o4-mini|/%|32s|1748|51.2|121|
-|商用|anthropic|claude-4-sonnet-thinking|/%|55s|1386|127.0|122|
+|商用|anthropic|claude-4-sonnet-thinking|/%|9s|721|58.2|122|
 |商用|anthropic|claude-4-sonnet|/%|45s|747|57.5|123|
 
 

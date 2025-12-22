@@ -52,7 +52,7 @@
 |商用|openAI|o4-mini|50.0%|36s|1432|41.9|49|
 |商用|openAI|gpt-5.1-high(new)|50.0%|151s|2648|174.9|50|
 |商用|anthropic|claude-4-sonnet|50.0%|45s|774|62.2|51|
-|商用|anthropic|claude-4-sonnet-thinking|50.0%|51s|1495|140.6|52|
+|商用|anthropic|claude-4-sonnet-thinking|50.0%|8s|787|59.7|52|
 |开源|阿里巴巴|Qwen3-32B|50.0%|49s|1688|6.3|53|
 |开源|月之暗面|Kimi-K2-Thinking(new)|44.4%|294s|3989|61.9|54|
 |开源|智谱AI|GLM-4.5-nothink|44.4%|91s|1230|15.6|55|

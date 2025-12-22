@@ -67,7 +67,7 @@
 |商用|阿里巴巴|qwen-long-2025-01-25|36.7%|73s|457|0.7|64|
 |开源|小米|MiMo-V2-Flash-think(new)|36.7%|52s|5036|0.0|65|
 |商用|openAI|gpt-5-2025-08-07|36.7%|38s|513|23.8|66|
-|商用|anthropic|claude-4-sonnet-thinking|36.7%|24s|1258|111.7|67|
+|商用|anthropic|claude-4-sonnet-thinking|36.7%|58s|793|61.4|67|
 |开源|阿里巴巴|Qwen3-32B-nothink|36.7%|35s|756|2.4|68|
 |商用|openAI|gpt-5-nano-2025-08-07|33.3%|51s|4868|13.6|69|
 |开源|智谱AI|GLM-4.5-nothink|33.3%|32s|1145|14.0|70|

@@ -1,7 +1,7 @@
 
 |类别|机构|大模型|【gaokao-biology】准确率|平均耗时|平均消耗token|花费/千次（元）|排名（准确率）|
 |---|---|-----|-------------------|-------|-----------|-----------|-----------|
-|商用|anthropic|claude-4-sonnet-thinking|100.0%|52s|1441|140.7|1|
+|商用|anthropic|claude-4-sonnet-thinking|100.0%|60s|835|73.4|1|
 |商用|openAI|o4-mini|100.0%|27s|872|24.6|2|
 |商用|anthropic|claude-4-sonnet|90.0%|44s|722|62.5|3|
 |商用|腾讯|hunyuan-2.0-instruct-20251111(new)|73.3%|26s|961|1.7|4|

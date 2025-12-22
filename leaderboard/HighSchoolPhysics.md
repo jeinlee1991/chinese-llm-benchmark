@@ -121,7 +121,7 @@
 |开源|google|gemma-3-27b-it|/%|51s|812|1.0|118|
 |开源|阿里巴巴|Qwen3-32B-nothink|/%|48s|952|3.4|119|
 |商用|豆包|Doubao-1.5-lite-32k-250115|/%|10s|417|0.2|120|
-|商用|anthropic|claude-4-sonnet-thinking|/%|60s|1365|133.2|121|
+|商用|anthropic|claude-4-sonnet-thinking|/%|49s|878|78.5|121|
 |开源|百度|ERNIE-4.5-0.3B|/%|111s|900|0.0|122|
 |开源|智谱AI|GLM-4-9B-0414|/%|21s|738|0.0|123|
 
