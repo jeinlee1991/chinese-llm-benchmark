@@ -1,5 +1,6 @@
 ## 最近更新
 - [2025/12/23] v5.8.8版本
+  - 新增coding排行榜，暂不进入总分，详见[coding排行榜](#9coding排行榜)
   - 新增大模型：GLM-4.7、MiniMax-M2.1
 - [2025/12/18] v5.8.7版本
   - 新增大模型：gemini-3-flash-preview、doubao-seed-1-8-251215、MiMo-V2-Flash、MiMo-V2-Flash-think

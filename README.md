@@ -48,7 +48,8 @@
   - [8、agent与工具调用排行榜](#8agent与工具调用排行榜)
     - [8.1 TAU](#81-TAU)
     - [8.2 BFCL-V3](#82-BFCL-V3)
-  - [9、整合LMArena和AA分数](#9整合LMArena和AA分数)    
+  - [9、coding排行榜](#9coding排行榜)
+  - [10、整合LMArena和AA分数](#10整合LMArena和AA分数)    
 - [🌐各项能力评分](#🌐各项能力评分)
 - [为什么做榜单？](#为什么做榜单)
 - [大模型选型及评测交流群](#大模型评测交流群)
@@ -56,6 +57,7 @@
 
 # 最近评测更新
 - [2025/12/23] v5.8.8版本
+  - 新增coding排行榜，暂不进入总分，详见[coding排行榜](#9coding排行榜)
   - 新增大模型：GLM-4.7、MiniMax-M2.1
 - [2025/12/18] v5.8.7版本
   - 新增大模型：gemini-3-flash-preview、doubao-seed-1-8-251215、MiMo-V2-Flash、MiMo-V2-Flash-think
@@ -981,8 +983,18 @@ BFCL-V3是加州大学伯克利分校发布的工具调用评测集，首创多�
 <br><br><br>
 
 
-## 9、整合LMArena和AA分数
+
+## 9、coding排行榜
+评估大模型编程能力，暂时不计入总分。
+### 9.1 livecodebench
+完整排行榜见[livecodebench](leaderboard/livecodebench.md)
+<br><br><br>
+
+
+
+## 10、整合LMArena和AA分数
 整合我们ReLE评测（中文）和LMArena（英文）、Artificial Analysis（简称AA，英文）排行榜数据。
+
 | 大模型                                    | ReLE评测（中文）   |    | AA-Intelligence（英文）   | AA-Coding（英文）   | AA-Math（英文）   |    | LMArena-Text-overall（英文）   | LMArena-Text-coding（英文）   | LMArena-WebDev（英文）   |
 |:---------------------------------------|:-------------|:---|:----------------------|:----------------|:--------------|:---|:---------------------------|:--------------------------|:---------------------|
 | gemini-3-pro-preview(new)              | 72.5         |    | 72.8                  | 62.3            | 95.7          |    | 1495                       | 1541                      | 1487                 |
