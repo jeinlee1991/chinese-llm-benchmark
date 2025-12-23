@@ -1,7 +1,7 @@
 ##### （3）20B以上开源大模型排行榜
 |排名|大模型|机构|输出价格|总分| |教育|医疗与心理健康|金融|法律与行政公务|推理与数学计算|语言与指令遵从|agent与工具调用|
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
-|1|GLM-4.7(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|71.2%| |        51.8%|82.8%|84.1%|        80.3%|72.7%|68.1%|        68.1%|
+|1|GLM-4.7(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|71.5%| |        52.0%|83.6%|84.2%|        80.3%|72.7%|69.3%|        68.1%|
 |2|DeepSeek-V3.2-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.9%| |        53.9%|84.2%|84.1%|        84.3%|77.6%|74.7%|        52.9%|
 |3|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.1%| |        50.4%|80.9%|82.5%|        82.0%|75.1%|77.2%|        53.2%|
 |4|Kimi-K2-Thinking(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|月之暗面|16.0元|68.3%| |        45.6%|77.7%|71.9%|        72.3%|75.3%|63.4%|        68.0%|

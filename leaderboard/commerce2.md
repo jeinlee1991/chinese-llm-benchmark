@@ -3,8 +3,8 @@
 |---|-----|---|-------|---|-|---|-----------|----|-----------|------------|-----------|-----------|
 |1|doubao-seed-1-8-251215(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|71.7%| |        61.1%|88.5%|86.0%|        84.0%|74.4%|67.1%|        63.1%|
 |2|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|71.7%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|        54.4%|
-|3|gemini-3-flash-preview(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|21.3元|71.5%| |        63.5%|87.2%|84.0%|        83.3%|83.4%|72.2%|        48.6%|
-|4|GLM-4.7(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|71.2%| |        51.8%|82.8%|84.1%|        80.3%|72.7%|68.1%|        68.1%|
+|3|GLM-4.7(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|71.5%| |        52.0%|83.6%|84.2%|        80.3%|72.7%|69.3%|        68.1%|
+|4|gemini-3-flash-preview(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|21.3元|71.5%| |        63.5%|87.2%|84.0%|        83.3%|83.4%|72.2%|        48.6%|
 |5|Kimi-K2-Thinking(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|月之暗面|16.0元|68.3%| |        45.6%|77.7%|71.9%|        72.3%|75.3%|63.4%|        68.0%|
 |6|GLM-4.6(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|68.1%| |        46.9%|77.6%|77.7%|        80.3%|66.7%|64.6%|        69.9%|
 |7|DeepSeek-V3.1-Think☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|12.0元|67.7%| |        50.4%|80.5%|82.8%|        82.0%|71.2%|71.7%|        52.3%|

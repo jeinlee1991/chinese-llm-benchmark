@@ -5,8 +5,8 @@
 |2|hunyuan-2.0-thinking-20251109(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|腾讯|4.0元|71.9%| |        63.1%|88.4%|84.8%|        81.3%|77.9%|63.8%|        64.3%|
 |3|doubao-seed-1-8-251215(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|71.7%| |        61.1%|88.5%|86.0%|        84.0%|74.4%|67.1%|        63.1%|
 |4|doubao-seed-1-6-thinking-250715☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|豆包|8.0元|71.7%| |        64.4%|87.8%|84.1%|        85.0%|76.4%|73.3%|        54.4%|
-|5|gemini-3-flash-preview(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|21.3元|71.5%| |        63.5%|87.2%|84.0%|        83.3%|83.4%|72.2%|        48.6%|
-|6|GLM-4.7(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|71.2%| |        51.8%|82.8%|84.1%|        80.3%|72.7%|68.1%|        68.1%|
+|5|GLM-4.7(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|智谱AI|14.0元|71.5%| |        52.0%|83.6%|84.2%|        80.3%|72.7%|69.3%|        68.1%|
+|6|gemini-3-flash-preview(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|google|21.3元|71.5%| |        63.5%|87.2%|84.0%|        83.3%|83.4%|72.2%|        48.6%|
 |7|DeepSeek-V3.2-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.9%| |        53.9%|84.2%|84.1%|        84.3%|77.6%|74.7%|        52.9%|
 |8|DeepSeek-V3.2-Exp-Think(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=open-source)|深度求索|3.0元|70.1%| |        50.4%|80.9%|82.5%|        82.0%|75.1%|77.2%|        53.2%|
 |9|gpt-5.1-high(new)☛[去体验](https://nonelinear.com/static/modelcompare.html?type=proprietary)|openAI|71.0元|69.7%| |        48.5%|77.6%|72.6%|        75.0%|84.7%|67.0%|        59.2%|

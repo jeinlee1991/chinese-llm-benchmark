@@ -5,8 +5,8 @@
 |商用|腾讯|hunyuan-2.0-thinking-20251109(new)|71.9%|28s|2544|9.5|2|
 |商用|豆包|doubao-seed-1-8-251215(new)|71.7%|33s|1186|7.3|3|
 |商用|豆包|doubao-seed-1-6-thinking-250715|71.7%|27s|2162|15.6|4|
-|商用|google|gemini-3-flash-preview(new)|71.5%|72s|2731|53.5|5|
-|开源|智谱AI|GLM-4.7(new)|71.2%|/|/|/|6|
+|开源|智谱AI|GLM-4.7(new)|71.5%|96s|3922|52.5|5|
+|商用|google|gemini-3-flash-preview(new)|71.5%|72s|2731|53.5|6|
 |开源|深度求索|DeepSeek-V3.2-Think(new)|70.9%|144s|2572|7.5|7|
 |开源|深度求索|DeepSeek-V3.2-Exp-Think(new)|70.1%|248s|2106|6.1|8|
 |商用|openAI|gpt-5.1-high(new)|69.7%|117s|2745|180.0|9|
