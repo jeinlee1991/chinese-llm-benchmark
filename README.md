@@ -1,5 +1,8 @@
 
 # 非线智能 NoneLinear - ReLE评测：中文AI大模型能力评测（持续更新）
+
+[![Listed on TakoAPI](https://img.shields.io/badge/Listed%20on-TakoAPI-7c3aed)](https://takoapi.com/agents/jeinlee1991-chinese-llm-benchmark)
+
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
 - 目前已囊括386个大模型，覆盖chatgpt、gpt-5.5、谷歌gemini-3.1-pro、Claude-4.8、文心ERNIE-X1.1、ERNIE-5.1、qwen3.7-max、qwen3.7-plus、百川、讯飞星火、商汤senseChat等商用模型，
 以及step3.7-flash、kimi-k2.7、ernie4.5、MiniMax-M3、deepseek-v4、Qwen3.6、llama4、智谱GLM-5.2、MiMo-V2、LongCat、gemma4、mistral等开源大模型。
