@@ -1,8 +1,8 @@
 
 # 非线智能 NoneLinear - ReLE评测：中文AI大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括398个大模型，覆盖chatgpt、gpt-5.6、谷歌gemini-3.1-pro、Claude-5、grok-4.6、文心ERNIE-X1.1、ERNIE-5.1、qwen3.8-max、商汤senseChat等商用模型，
-以及hy3、step3.7-flash、kimi-k3、ernie4.5、MiniMax-M3、deepseek-v4、Qwen3.8、llama4、智谱GLM-5.2、MiMo-V2、LongCat、gemma4、mistral等开源大模型。
+- 目前已囊括398个大模型，覆盖chatgpt、gpt-6、gpt-5.6、谷歌gemini-3.1-pro、Claude-5、grok-4.6、文心ERNIE-X1.1、ERNIE-5.1、qwen3.8-max、商汤senseChat等商用模型，
+以及hy3、step3.7-flash、kimi-k3、ernie4.5、MiniMax-M3、deepseek-v4、Qwen3.8、llama4、智谱GLM-5.3、MiMo-V2、LongCat、gemma4、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从、agent与工具调用等7个领域，以及细分的~300个维度（比如牙科、高中语文…）。详见我们的技术报告[ReLE: A Scalable System and Structured Benchmark for Diagnosing Capability Anisotropy in Chinese LLMs](https://www.arxiv.org/abs/2601.17399) 媒体报道(机器之心):[全球304个中文大模型实测：没有“全能王者”，ReLE凭70%降本方案破解评估困局](https://www.jiqizhixin.com/articles/2026-02-03)
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
 - 为您的私有大模型提供免费评测服务，联系我们(非线智能 ReLE benchmark团队)：[加微信](#联系我们非线智能-ReLE-benchmark团队)
@@ -61,6 +61,9 @@
 - [Cite Us](#如何引用-ReLE-评测Cite-Us)
 
 # 最近评测更新
+- [2026/9/8] v5.11.7版本
+  - 新增大模型：gpt-6-astra
+  - 删除陈旧的模型：gpt-5-2025-08-07、gpt-5-mini-2025-08-07、gpt-5-nano-2025-08-07、qwen-flash-2025-07-28、qwen-flash-think-2025-07-28、gemini-2.5-flash-lite、qwen-turbo-think-2025-07-15、qwen3-max-preview、Seed-OSS-36B-Instruct、qwen3-next-80b-a3b-instruct、hunyuan-turbos-20250926、doubao-seed-1-6-251015、doubao-seed-1-6-lite-251015、Kimi-K2-Thinking、DeepSeek-V3.1、DeepSeek-V3.1-Think、gpt-5.1、gpt-5.1-medium、claude-haiku-4.5、claude-haiku-4.5-thinking、grok-4-1-fast-reasoning、grok-4-1-fast-non-reasoning、kimi-k2-0905、gpt-5.1-high、claude-sonnet-4.5、claude-sonnet-4.5-thinking、ERNIE-X1.1-Preview、ERNIE-5.0-Thinking-Preview、claude-opus-4.5、qwen3-max-2025-09-23、gpt-5-mini-high、gpt-5-nano-high
 - [2026/9/4] v5.11.6版本
   - 新增大模型：gemini-3.8-flash
 - [2026/9/2] v5.11.5版本

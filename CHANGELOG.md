@@ -1,4 +1,7 @@
 ## 最近更新
+- [2026/9/8] v5.11.7版本
+  - 新增大模型：gpt-6-astra
+  - 删除陈旧的模型：gpt-5-2025-08-07、gpt-5-mini-2025-08-07、gpt-5-nano-2025-08-07、qwen-flash-2025-07-28、qwen-flash-think-2025-07-28、gemini-2.5-flash-lite、qwen-turbo-think-2025-07-15、qwen3-max-preview、Seed-OSS-36B-Instruct、qwen3-next-80b-a3b-instruct、hunyuan-turbos-20250926、doubao-seed-1-6-251015、doubao-seed-1-6-lite-251015、Kimi-K2-Thinking、DeepSeek-V3.1、DeepSeek-V3.1-Think、gpt-5.1、gpt-5.1-medium、claude-haiku-4.5、claude-haiku-4.5-thinking、grok-4-1-fast-reasoning、grok-4-1-fast-non-reasoning、kimi-k2-0905、gpt-5.1-high、claude-sonnet-4.5、claude-sonnet-4.5-thinking、ERNIE-X1.1-Preview、ERNIE-5.0-Thinking-Preview、claude-opus-4.5、qwen3-max-2025-09-23、gpt-5-mini-high、gpt-5-nano-high
 - [2026/9/4] v5.11.6版本
   - 新增大模型：gemini-3.8-flash
 - [2026/9/2] v5.11.5版本
