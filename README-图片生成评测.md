@@ -1,23 +1,23 @@
 # 生图模型榜单 v0.2
 
-| 排名 | 大模型 | 总分 | 平均耗时 | 平均花费（元） | 类别 | 机构 |
-|---:|---|---:|---:|---:|---|---|
-| 1 | gpt-image-2（low） | 91.7 | 59.3s | 0.046 | 商用 | openAI |
-| 2 | gpt-image-2（medium） | 89.1 | 76.4s | 0.339 | 商用 | openAI |
-| 3 | gpt-image-2（high） | 87.0 | 179.8s | 1.331 | 商用 | openAI |
-| 4 | gemini-3-pro-image-preview | 86.0 | 23.3s | 1.130 | 商用 | google |
-| 5 | qwen-image-3.0 | 83.6 | 86.3s | 0.180 | 商用 | 阿里巴巴 |
-| 6 | qwen-image-3.0-pro | 83.4 | 98.9s | 0.250 | 商用 | 阿里巴巴 |
-| 7 | Doubao-Seedream-5.0-lite | 80.1 | 57.5s | 0.220 | 商用 | 豆包 |
-| 8 | gemini-3.1-flash-image-preview | 79.9 | 13.5s | 0.662 | 商用 | google |
-| 9 | doubao-seedream-5-0-pro-260628 | 79.4 | 57.4s | 0.300 | 商用 | 豆包 |
-| 10 | qwen-image-2.0-pro | 76.9 | 25.3s | 0.500 | 商用 | 阿里巴巴 |
-| 11 | wan2.7-image | 66.1 | 31.3s | 0.200 | 商用 | 阿里巴巴 |
-| 12 | wan2.7-image-pro | 63.4 | 48.2s | 0.500 | 商用 | 阿里巴巴 |
-| 13 | flux.2-max | 49.2 | 49.9s | 0.500 | 商用 | BlackForestLabs |
-| 14 | glm-image | 43.2 | 70.2s | 0.100 | 开源 | 智谱AI |
-| 15 | gemini-2.5-flash-image | 42.7 | 13.2s | 0.296 | 商用 | google |
-| 16 | flux.2-klein-4b | 32.4 | 10.1s | 0.100 | 开源 | BlackForestLabs |
+| 排名 | 大模型                                           | 总分 | 平均耗时 | 平均花费（元） | 类别 | 机构 |
+|---:|-----------------------------------------------|---:|---:|---:|---|---|
+| 1 | gpt-image-2（low）                              | 91.7 | 59.3s | 0.046 | 商用 | openAI |
+| 2 | gpt-image-2（medium）                           | 89.1 | 76.4s | 0.339 | 商用 | openAI |
+| 3 | gpt-image-2（high）                             | 87.0 | 179.8s | 1.331 | 商用 | openAI |
+| 4 | gemini-3-pro-image-preview（Nano Banana Pro）   | 86.0 | 23.3s | 1.130 | 商用 | google |
+| 5 | qwen-image-3.0                                | 83.6 | 86.3s | 0.180 | 商用 | 阿里巴巴 |
+| 6 | qwen-image-3.0-pro                            | 83.4 | 98.9s | 0.250 | 商用 | 阿里巴巴 |
+| 7 | Doubao-Seedream-5.0-lite                      | 80.1 | 57.5s | 0.220 | 商用 | 豆包 |
+| 8 | gemini-3.1-flash-image-preview（Nano Banana 2） | 79.9 | 13.5s | 0.662 | 商用 | google |
+| 9 | doubao-seedream-5-0-pro-260628                | 79.4 | 57.4s | 0.300 | 商用 | 豆包 |
+| 10 | qwen-image-2.0-pro                            | 76.9 | 25.3s | 0.500 | 商用 | 阿里巴巴 |
+| 11 | wan2.7-image                                  | 66.1 | 31.3s | 0.200 | 商用 | 阿里巴巴 |
+| 12 | wan2.7-image-pro                              | 63.4 | 48.2s | 0.500 | 商用 | 阿里巴巴 |
+| 13 | flux.2-max                                    | 49.2 | 49.9s | 0.500 | 商用 | BlackForestLabs |
+| 14 | glm-image                                     | 43.2 | 70.2s | 0.100 | 开源 | 智谱AI |
+| 15 | gemini-2.5-flash-image （Nano Banana）                     | 42.7 | 13.2s | 0.296 | 商用 | google |
+| 16 | flux.2-klein-4b                               | 32.4 | 10.1s | 0.100 | 开源 | BlackForestLabs |
 
 说明：
 
