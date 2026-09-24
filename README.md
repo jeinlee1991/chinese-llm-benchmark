@@ -63,9 +63,7 @@
 # 最近评测更新
 - [2026/9/24] v5.12.2版本
   - 新增大模型：gpt-6-luna、gpt-6-sol
-  - 删除陈旧的模型：qwen3-next-80b-a3b-thinking、mistral-large-2512、Ministral-3-14B-Instruct-2512、Ministral-3-8B-Instruct-2512、Ministral-3-3B-Instruct-2512、hunyuan-2.0-instruct-20251111、hunyuan-2.0-thinking-20251109、
-gpt-5.2、qwen-plus-2025-12-01、qwen-plus-think-2025-12-01、gpt-5.2-high、gpt-5.2-medium、gemini-3-flash-preview、doubao-seed-1-8-251215、MiMo-V2-Flash、MiMo-V2-Flash-think、GLM-4.7、MiniMax-M2.1、qwen3-max-preview-think、GLM-4.7-Flash、LongCat-Flash-Thinking-2601
-
+  - 删除陈旧的模型：qwen3-next-80b-a3b-thinking、mistral-large-2512、Ministral-3-14B-Instruct-2512、Ministral-3-8B-Instruct-2512、Ministral-3-3B-Instruct-2512、hunyuan-2.0-instruct-20251111、hunyuan-2.0-thinking-20251109、gpt-5.2、qwen-plus-2025-12-01、qwen-plus-think-2025-12-01、gpt-5.2-high、gpt-5.2-medium、gemini-3-flash-preview、doubao-seed-1-8-251215、MiMo-V2-Flash、MiMo-V2-Flash-think、GLM-4.7、MiniMax-M2.1、qwen3-max-preview-think、GLM-4.7-Flash、LongCat-Flash-Thinking-2601
 - [2026/9/23] v5.12.1版本
   - 新增大模型：hy4-preview、mimo-v2.6-pro、mimo-v2.6-flash
 - [2026/9/15] v5.12版本
