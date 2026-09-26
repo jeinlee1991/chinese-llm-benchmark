@@ -1,4 +1,6 @@
 ## 最近更新
+- [2026/9/26] v5.12.3版本
+  - 新增大模型：grok-4.7
 - [2026/9/24] v5.12.2版本
   - 新增大模型：gpt-6-luna、gpt-6-sol
   - 删除陈旧的模型：qwen3-next-80b-a3b-thinking、mistral-large-2512、Ministral-3-14B-Instruct-2512、Ministral-3-8B-Instruct-2512、Ministral-3-3B-Instruct-2512、hunyuan-2.0-instruct-20251111、hunyuan-2.0-thinking-20251109、
