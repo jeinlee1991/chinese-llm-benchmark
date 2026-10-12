@@ -1,5 +1,9 @@
 
 # 非线智能 NoneLinear - ReLE评测：中文AI大模型能力评测（持续更新）
+
+- 📖 [Click here for English](README-en.md)
+
+
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
 - 目前已囊括410个大模型，覆盖chatgpt、gpt-6、gpt-6.1、谷歌gemini-3.1-pro、Claude-5.5、grok-4.7、文心ERNIE-X1.1、ERNIE-5.1、qwen3.8-max、step-5、商汤senseChat等商用模型，
 以及hy4、step3.7-flash、kimi-k3、ernie4.5、MiniMax-M3、deepseek-v4、Qwen3.8、llama4、智谱GLM-5.3、mimo-v2.6、LongCat、gemma4、mistral等开源大模型。
