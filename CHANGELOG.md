@@ -1,4 +1,7 @@
 ## 最近更新
+- [2026/10/21] v5.12.9版本
+  - 新增大模型：MiniMax-M3.1-Flash
+  - 删除陈旧的模型：qwen3-max-2026-01-23、qwen3-max-think-2026-01-23、Kimi-K2.5-Thinking、step-3.5-flash、claude-opus-4.6、GLM-5、MiniMax-M2.5、LongCat-Flash-Lite、MiMo-V2-Flash-0204、MiMo-V2-Flash-think-0204、Doubao-Seed-2.0-pro、Doubao-Seed-2.0-lite、Doubao-Seed-2.0-mini、qwen3.5-plus、qwen3.5-flash、gpt-5.3-chat、gpt-5.4、gpt-5.4-high、GLM-5-Turbo、gpt-5.4-mini、gpt-5.4-mini-high、gpt-5.4-nano、gpt-5.4-nano-high、MiMo-V2-Pro、MiMo-V2-Omni
 - [2026/10/20] v5.12.8版本
   - 新增大模型：claude-haiku-5.5
 - [2026/10/15] v5.12.7版本
