@@ -9,8 +9,8 @@
 |开源|月之暗面|kimi-k3.1-pro(new)|86.0%|40s|2157|96.8|6|
 |商用|google|gemini-3.7-flash|85.9%|9s|1327|16.3|7|
 |商用|阿里巴巴|qwen3.7-plus|85.7%|30s|2369|13.6|8|
-|商用|anthropic|claude-sonnet-5-thinking|85.7%|12s|1631|47.1|9|
-|商用|anthropic|claude-opus-4.8-thinking|85.7%|8s|1699|129.8|10|
+|商用|anthropic|claude-opus-4.8-thinking|85.7%|8s|1699|129.8|9|
+|商用|anthropic|claude-sonnet-5-thinking|85.7%|12s|1631|47.1|10|
 |开源|智谱AI|glm-5.3(new)|85.6%|59s|1780|33.1|11|
 |开源|月之暗面|kimi-k3|85.4%|39s|1497|77.1|12|
 |商用|豆包|doubao-seed-2-1-turbo-260628|85.0%|150s|6413|85.1|13|
@@ -66,9 +66,10 @@
 |商用|阿里巴巴|qwen3.6-plus|54.1%|62s|3509|33.2|63|
 |商用|openAI|gpt-6-luna(new)|50.7%|211s|/|1.1|64|
 |开源|阿里巴巴|qwen3.6-27b|50.6%|38s|3450|48.8|65|
-|商用|阿里巴巴|qwen3.6-max-preview|49.4%|73s|3164|131.0|66|
-|开源|阿里巴巴|Qwen3.6-35B-A3B|46.3%|106s|3345|28.2|67|
-|商用|openAI|gpt-6-sol(new)|44.1%|199s|/|15.8|68|
+|商用|openAI|gpt-6.1-terra(new)|49.6%|3s|/|8.0|66|
+|商用|阿里巴巴|qwen3.6-max-preview|49.4%|73s|3164|131.0|67|
+|开源|阿里巴巴|Qwen3.6-35B-A3B|46.3%|106s|3345|28.2|68|
+|商用|openAI|gpt-6-sol(new)|44.1%|199s|/|15.8|69|
 
 
 ![lin](../pic/BBH.png)

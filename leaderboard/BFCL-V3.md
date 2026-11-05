@@ -58,17 +58,18 @@
 |商用|openAI|gpt-6-astra(new)|53.9%|/|/|/|55|
 |开源|深度求索|deepseek-v4-pro|53.6%|/|/|/|56|
 |开源|深度求索|deepseek-v4-flash-0424|52.8%|/|/|/|57|
-|商用|openAI|gpt-6-sol(new)|48.8%|/|/|/|58|
-|开源|google|gemma-4-31b-it|42.9%|/|/|/|59|
-|商用|google|gemini-3.1-pro-preview|42.5%|/|/|/|60|
-|商用|XAI|grok-4.6|42.4%|/|/|/|61|
-|商用|minimax|MiniMax-M3.1-Flash(new)|42.2%|/|/|/|62|
-|开源|google|gemma-4-26b-a4b-it|41.6%|/|/|/|63|
-|开源|openAI|gpt-oss-120b|38.8%|/|/|/|64|
-|开源|深度求索|DeepSeek-V3.2|38.7%|/|/|/|65|
-|开源|openAI|gpt-oss-20b|37.6%|/|/|/|66|
-|商用|google|gemini-3.1-flash-lite-preview|35.4%|/|/|/|67|
-|开源|深度求索|DeepSeek-V3.2-Think|33.4%|/|/|/|68|
+|商用|openAI|gpt-6.1-terra(new)|49.2%|/|/|/|58|
+|商用|openAI|gpt-6-sol(new)|48.8%|/|/|/|59|
+|开源|google|gemma-4-31b-it|42.9%|/|/|/|60|
+|商用|google|gemini-3.1-pro-preview|42.5%|/|/|/|61|
+|商用|XAI|grok-4.6|42.4%|/|/|/|62|
+|商用|minimax|MiniMax-M3.1-Flash(new)|42.2%|/|/|/|63|
+|开源|google|gemma-4-26b-a4b-it|41.6%|/|/|/|64|
+|开源|openAI|gpt-oss-120b|38.8%|/|/|/|65|
+|开源|深度求索|DeepSeek-V3.2|38.7%|/|/|/|66|
+|开源|openAI|gpt-oss-20b|37.6%|/|/|/|67|
+|商用|google|gemini-3.1-flash-lite-preview|35.4%|/|/|/|68|
+|开源|深度求索|DeepSeek-V3.2-Think|33.4%|/|/|/|69|
 
 
 ![lin](../pic/BFCL-V3.png)

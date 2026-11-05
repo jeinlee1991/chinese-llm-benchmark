@@ -28,8 +28,8 @@
 |商用|openAI|gpt-5.5|65.0%|/|/|/|25|
 |开源|小米|mimo-v2.6-pro(new)|64.8%|/|/|/|26|
 |商用|阿里巴巴|qwen3.6-plus|64.7%|/|/|/|27|
-|商用|anthropic|claude-sonnet-5.5(new)|64.3%|/|/|/|28|
-|商用|minimax|MiniMax-M3|64.3%|/|/|/|29|
+|商用|minimax|MiniMax-M3|64.3%|/|/|/|28|
+|商用|anthropic|claude-sonnet-5.5(new)|64.3%|/|/|/|29|
 |开源|阿里巴巴|Qwen3.5-27B|63.9%|/|/|/|30|
 |商用|百度|ernie-5.1|63.8%|/|/|/|31|
 |开源|深度求索|deepseek-v4-pro-0424|63.8%|/|/|/|32|
@@ -61,14 +61,15 @@
 |商用|openAI|gpt-6.1-sol(new)|55.3%|/|/|/|58|
 |开源|深度求索|DeepSeek-V3.2-Think|52.9%|/|/|/|59|
 |商用|XAI|grok-4.5|52.9%|/|/|/|60|
-|开源|深度求索|DeepSeek-V3.2|50.6%|/|/|/|61|
-|开源|小米|mimo-v2.6-flash(new)|50.3%|/|/|/|62|
-|商用|google|gemini-3.1-flash-lite-preview|49.0%|/|/|/|63|
-|商用|XAI|grok-4.6|46.2%|/|/|/|64|
-|开源|openAI|gpt-oss-120b|43.1%|/|/|/|65|
-|开源|openAI|gpt-oss-20b|40.0%|/|/|/|66|
-|开源|google|gemma-4-26b-a4b-it|33.3%|/|/|/|67|
-|开源|google|gemma-4-31b-it|32.7%|/|/|/|68|
+|商用|openAI|gpt-6.1-terra(new)|50.9%|/|/|/|61|
+|开源|深度求索|DeepSeek-V3.2|50.6%|/|/|/|62|
+|开源|小米|mimo-v2.6-flash(new)|50.3%|/|/|/|63|
+|商用|google|gemini-3.1-flash-lite-preview|49.0%|/|/|/|64|
+|商用|XAI|grok-4.6|46.2%|/|/|/|65|
+|开源|openAI|gpt-oss-120b|43.1%|/|/|/|66|
+|开源|openAI|gpt-oss-20b|40.0%|/|/|/|67|
+|开源|google|gemma-4-26b-a4b-it|33.3%|/|/|/|68|
+|开源|google|gemma-4-31b-it|32.7%|/|/|/|69|
 
 
 ![lin](../pic/agent与工具调用.png)
