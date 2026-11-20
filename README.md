@@ -1,7 +1,7 @@
 
 # 非线智能 NoneLinear - ReLE评测：中文AI大模型能力评测（持续更新）
 - ReLE （**R**eally R**e**liable **L**ive **E**valuation for LLM），原名CLiB
-- 目前已囊括420个大模型，覆盖chatgpt、gpt-6、gpt-6.1、谷歌gemini-4、Claude-5.5、grok-4.7、文心ERNIE-X1.1、ERNIE-5.1、qwen3.8-max、step-5、商汤senseChat等商用模型，
+- 目前已囊括422个大模型，覆盖chatgpt、gpt-6.2、谷歌gemini-4、Claude-5.5、grok-4.7、文心ERNIE-X1.1、ERNIE-5.1、qwen3.8-max、step-5、商汤senseChat等商用模型，
 以及hy4、step3.7-flash、kimi-k3.1、ernie4.5、MiniMax-M3、deepseek-v4、Qwen4、llama4、智谱GLM-5.3、mimo-v2.6、LongCat、gemma4、mistral等开源大模型。
 - 支持多维度能力评测，包括教育、医疗与心理健康、金融、法律与行政公务、推理与数学计算、语言与指令遵从、agent与工具调用等7个领域，以及细分的~300个维度（比如牙科、高中语文…）。详见我们的技术报告[ReLE: A Scalable System and Structured Benchmark for Diagnosing Capability Anisotropy in Chinese LLMs](https://www.arxiv.org/abs/2601.17399) 媒体报道(机器之心):[全球304个中文大模型实测：没有“全能王者”，ReLE凭70%降本方案破解评估困局](https://www.jiqizhixin.com/articles/2026-02-03)
 - 不仅提供排行榜，也提供规模**超200万的大模型缺陷库**！方便广大社区研究分析、改进大模型。
@@ -61,6 +61,8 @@
 - [Cite Us](#如何引用-ReLE-评测Cite-Us)
 
 # 最近评测更新
+- [2026/11/20] v5.13.6版本
+  - 新增大模型：gpt-6.2-sol、gpt-6.2-astra（说明：由于这两个模型在BFCL-V3评测集分数明显偏低，拉低了总分，所以其真实能力可能被低估。而其他厂商模型，如gemini / claude等则在BFCL-V3评测集表现正常）
 - [2026/11/18] v5.13.5版本
   - 新增大模型：qwen4-max
 - [2026/11/17] v5.13.4版本
